@@ -1,0 +1,16 @@
+- id: "0006"
+  category: WPT reftest
+  title: css/css-nesting/has-nesting.html
+  file: css/css-nesting/has-nesting.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/has-nesting.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/has-nesting.html&pixelRatio=0&zoom=1&spread=false
+  diffPages:
+    - 1

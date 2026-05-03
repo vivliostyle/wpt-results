@@ -1,3 +1,11 @@
+actual
+actual-reference
+actual-reference-diff
+baseline
+baseline-reference
+baseline-reference-diff
+diff
+
 # Logs
 logs
 *.log

@@ -1,0 +1,125 @@
+- id: "0003"
+  category: WPT print-reftest
+  title: css/printing/animations-print.html
+  file: css/printing/animations-print.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/printing/animations-print.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/printing/animations-print.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/printing/animations-print-ref.html
+  relation: "=="
+  diffPages:
+    - css/printing/animations-print-ref.html#1
+- id: "0004"
+  category: WPT print-reftest
+  title: css/printing/animations-shadow-print.html
+  file: css/printing/animations-shadow-print.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/printing/animations-shadow-print.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/printing/animations-shadow-print.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/printing/animations-shadow-print-ref.html
+  relation: "=="
+  diffPages:
+    - css/printing/animations-shadow-print-ref.html#1
+- id: "0008"
+  category: WPT print-reftest
+  title: css/printing/existing-transition-in-media-print.tentative.html
+  file: css/printing/existing-transition-in-media-print.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/printing/existing-transition-in-media-print.tentative.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/printing/existing-transition-in-media-print.tentative.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/printing/transition-in-media-print-ref.html
+  relation: "=="
+  diffPages:
+    - css/printing/transition-in-media-print-ref.html#1
+- id: "0017"
+  category: WPT print-reftest
+  title: css/printing/paused-animations-print.html
+  file: css/printing/paused-animations-print.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/printing/paused-animations-print.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/printing/paused-animations-print.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/printing/paused-animations-print-ref.html
+  relation: "=="
+  diffPages:
+    - css/printing/paused-animations-print-ref.html#1
+- id: "0018"
+  category: WPT print-reftest
+  title: css/printing/pseudo-animations-print.html
+  file: css/printing/pseudo-animations-print.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/printing/pseudo-animations-print.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/printing/pseudo-animations-print.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/printing/pseudo-animations-print-ref.html
+  relation: "=="
+  diffPages:
+    - css/printing/pseudo-animations-print-ref.html#1
+- id: "0020"
+  category: WPT print-reftest
+  title: css/printing/table-overflow-quirks-frameset-crash-print.html
+  file: css/printing/table-overflow-quirks-frameset-crash-print.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/printing/table-overflow-quirks-frameset-crash-print.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/printing/table-overflow-quirks-frameset-crash-print.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/blank.html
+  relation: "!="
+  unexpectedMatches:
+    - css/reference/blank.html
+- id: "0024"
+  category: WPT print-reftest
+  title: css/printing/zero-size-003-print.tentative.html
+  file: css/printing/zero-size-003-print.tentative.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/printing/zero-size-003-print.tentative.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/printing/zero-size-003-print.tentative.html&pixelRatio=0&zoom=1&spread=false
+  errorSide: v2.42.0, v2.40.0
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

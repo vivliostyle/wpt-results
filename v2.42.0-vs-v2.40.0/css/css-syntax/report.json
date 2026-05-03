@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-05-03T12:45:05.694Z",
+  "labels": {
+    "actual": "v2.42.0",
+    "baseline": "v2.40.0"
+  },
+  "options": {
+    "categories": [],
+    "titleIncludes": [],
+    "files": [],
+    "limit": null,
+    "mode": "reftest-diff",
+    "browser": "chromium",
+    "outDir": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-syntax",
+    "timeoutSec": 10,
+    "maxDiffRatio": 0.00002,
+    "pixelThreshold": 0.1,
+    "viewportWidth": 1800,
+    "viewportHeight": 1800,
+    "skipScreenshots": false,
+    "concurrency": 8,
+    "exportHtml": false,
+    "exportHtmlDiff": false,
+    "actualViewer": "https://vivliostyle.github.io/viewer/v2.42.0/",
+    "baselineViewer": "https://vivliostyle.github.io/viewer/v2.40.0/",
+    "actualLabel": "v2.42.0",
+    "baselineLabel": "v2.40.0",
+    "extraViewerParams": "",
+    "actualViewerParams": "",
+    "baselineViewerParams": "",
+    "testUrls": [],
+    "refUrls": [],
+    "wptManifestPath": "D:\\viv\\vivliostyle.js\\artifacts\\wpt-reftest\\MANIFEST.json",
+    "wptBaseUrl": "https://wpt.live/",
+    "wptPathPrefixes": [
+      "css/css-syntax/"
+    ],
+    "timeoutMs": 10000
+  },
+  "summary": {
+    "totalEntries": 1,
+    "entriesWithDifferences": 0,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
+    "pageCountMismatches": 0,
+    "screenshotMismatches": 0,
+    "outcomes": {
+      "changeTypes": {
+        "pass": 1
+      },
+      "statusPairs": {
+        "PASS->PASS": 1
+      }
+    },
+    "triage": {
+      "differences": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "errors": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "pendingEntries": 0,
+      "triagedEntries": 0
+    }
+  },
+  "entries": [
+    {
+      "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/css-syntax/missing-semicolon.html",
+      "file": [
+        "css/css-syntax/missing-semicolon.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-syntax/missing-semicolon.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-syntax/missing-semicolon.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-syntax/missing-semicolon.html&pixelRatio=0&zoom=1&spread=false"
+    }
+  ],
+  "differences": [],
+  "errors": []
+}

@@ -1,0 +1,2301 @@
+{
+  "generatedAt": "2026-05-03T11:18:27.337Z",
+  "labels": {
+    "actual": "v2.42.0",
+    "baseline": "v2.40.0"
+  },
+  "options": {
+    "categories": [],
+    "titleIncludes": [],
+    "files": [],
+    "limit": null,
+    "mode": "reftest-diff",
+    "browser": "chromium",
+    "outDir": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation",
+    "timeoutSec": 10,
+    "maxDiffRatio": 0.00002,
+    "pixelThreshold": 0.1,
+    "viewportWidth": 1800,
+    "viewportHeight": 1800,
+    "skipScreenshots": false,
+    "concurrency": 8,
+    "exportHtml": false,
+    "exportHtmlDiff": false,
+    "actualViewer": "https://vivliostyle.github.io/viewer/v2.42.0/",
+    "baselineViewer": "https://vivliostyle.github.io/viewer/v2.40.0/",
+    "actualLabel": "v2.42.0",
+    "baselineLabel": "v2.40.0",
+    "extraViewerParams": "",
+    "actualViewerParams": "",
+    "baselineViewerParams": "",
+    "testUrls": [],
+    "refUrls": [],
+    "wptManifestPath": "D:\\viv\\vivliostyle.js\\artifacts\\wpt-reftest\\MANIFEST.json",
+    "wptBaseUrl": "https://wpt.live/",
+    "wptPathPrefixes": [
+      "css/css-image-animation/"
+    ],
+    "timeoutMs": 10000
+  },
+  "summary": {
+    "totalEntries": 19,
+    "entriesWithDifferences": 19,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
+    "pageCountMismatches": 0,
+    "screenshotMismatches": 5,
+    "outcomes": {
+      "changeTypes": {
+        "known-fail": 14,
+        "improvement": 2,
+        "regression": 2,
+        "changed-fail": 1
+      },
+      "statusPairs": {
+        "FAIL->FAIL": 15,
+        "FAIL->PASS": 2,
+        "PASS->FAIL": 2
+      }
+    },
+    "triage": {
+      "differences": {
+        "pending": 17,
+        "triaged": 0
+      },
+      "errors": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "pendingEntries": 17,
+      "triagedEntries": 0
+    }
+  },
+  "entries": [
+    {
+      "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-background-paused.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-background-paused.tentative.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-background-paused.tentative.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused.tentative.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused.tentative.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0002",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-background-stopped.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-background-stopped.tentative.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-background-stopped.tentative.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-background-stopped.tentative.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-background-stopped.tentative.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0003",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-body-background-no-propagation-paused.html",
+      "file": [
+        "css/css-image-animation/image-animation-body-background-no-propagation-paused.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "FAIL",
+      "changeType": "improvement",
+      "viewerChanged": true,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0004",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-body-background-root-propagation-paused.html",
+      "file": [
+        "css/css-image-animation/image-animation-body-background-root-propagation-paused.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "PASS",
+      "changeType": "regression",
+      "viewerChanged": true,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0005",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0006",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-img-paused.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-img-paused.tentative.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-img-paused.tentative.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused.tentative.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused.tentative.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0007",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-img-running-to-normal.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-img-running-to-normal.tentative.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0008",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-img-running.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-img-running.tentative.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-img-running.tentative.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-running.tentative.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-running.tentative.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0009",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-img-stopped.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-img-stopped.tentative.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-img-stopped.tentative.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped.tentative.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped.tentative.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0010",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-paused-exact-frame.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-paused-exact-frame.tentative.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame.tentative.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame.tentative.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame.tentative.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0011",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-pseudo-animated-image.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-pseudo-animated-image.tentative.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image.tentative.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image.tentative.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image.tentative.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0012",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-repeat-background-paused.html",
+      "file": [
+        "css/css-image-animation/image-animation-repeat-background-paused.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0013",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-root-background-body-paused-no-propagation.html",
+      "file": [
+        "css/css-image-animation/image-animation-root-background-body-paused-no-propagation.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-root-background-body-paused-no-propagation.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "FAIL",
+      "changeType": "improvement",
+      "viewerChanged": true,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-body-paused-no-propagation.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-body-paused-no-propagation.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0014",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-root-background-paused.html",
+      "file": [
+        "css/css-image-animation/image-animation-root-background-paused.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-root-background-paused.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "changed-fail",
+      "viewerChanged": true,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-paused.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-paused.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0015",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-stopped-reset-frame.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-stopped-reset-frame.tentative.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame.tentative.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame.tentative.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame.tentative.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0016",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html",
+      "file": [
+        "css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0017",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-video-poster-paused.html",
+      "file": [
+        "css/css-image-animation/image-animation-video-poster-paused.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-video-poster-paused.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0018",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-video-poster-running.html",
+      "file": [
+        "css/css-image-animation/image-animation-video-poster-running.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-video-poster-running.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0019",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-video-poster-stopped.html",
+      "file": [
+        "css/css-image-animation/image-animation-video-poster-stopped.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "PASS",
+      "changeType": "regression",
+      "viewerChanged": true,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped.html&pixelRatio=0&zoom=1&spread=false"
+    }
+  ],
+  "differences": [
+    {
+      "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-background-paused.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-background-paused.tentative.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-background-paused.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 400,
+              "diffRatio": 0.00047706281963208914,
+              "exactDiffPixels": 400,
+              "exactDiffRatio": 0.00047706281963208914,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0001-WPT_reftest-css-css-image-animation-image-animation-background-paused.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-background-paused.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 400,
+              "diffRatio": 0.00047706281963208914,
+              "exactDiffPixels": 400,
+              "exactDiffRatio": 0.00047706281963208914,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0001-WPT_reftest-css-css-image-animation-image-animation-background-paused.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0002",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-background-stopped.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-background-stopped.tentative.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-background-stopped.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-background-stopped.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-background-stopped.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-background-stopped.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 400,
+              "diffRatio": 0.00047706281963208914,
+              "exactDiffPixels": 400,
+              "exactDiffRatio": 0.00047706281963208914,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0002-WPT_reftest-css-css-image-animation-image-animation-background-stopped.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-background-stopped.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-background-stopped.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-background-stopped.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 400,
+              "diffRatio": 0.00047706281963208914,
+              "exactDiffPixels": 400,
+              "exactDiffRatio": 0.00047706281963208914,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0002-WPT_reftest-css-css-image-animation-image-animation-background-stopped.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-background-stopped.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0003",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-body-background-no-propagation-paused.html",
+      "file": [
+        "css/css-image-animation/image-animation-body-background-no-propagation-paused.html"
+      ],
+      "classification": "improvement",
+      "triageRequired": false,
+      "actualStatus": "PASS",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [
+        {
+          "page": 1,
+          "width": 794,
+          "height": 1056,
+          "actualWidth": 794,
+          "actualHeight": 1056,
+          "diffPixels": 536784,
+          "diffRatio": 0.6401992214334784,
+          "exactDiffPixels": 536784,
+          "exactDiffRatio": 0.6401992214334784,
+          "exceededDiffPixels": 0,
+          "maxChannelDifference": 255,
+          "dimensionMismatch": false,
+          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\diff\\0003-WPT_reftest-css-css-image-animation-image-animation-body-background-no-propagation-paused.html-p0001.png"
+        }
+      ],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 536784,
+              "diffRatio": 0.6401992214334784,
+              "exactDiffPixels": 536784,
+              "exactDiffRatio": 0.6401992214334784,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0003-WPT_reftest-css-css-image-animation-image-animation-body-background-no-propagation-paused.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "not-needed",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0004",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-body-background-root-propagation-paused.html",
+      "file": [
+        "css/css-image-animation/image-animation-body-background-root-propagation-paused.html"
+      ],
+      "classification": "regression",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "PASS",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [
+        {
+          "page": 1,
+          "width": 794,
+          "height": 1056,
+          "actualWidth": 794,
+          "actualHeight": 1056,
+          "diffPixels": 536784,
+          "diffRatio": 0.6401992214334784,
+          "exactDiffPixels": 536784,
+          "exactDiffRatio": 0.6401992214334784,
+          "exceededDiffPixels": 0,
+          "maxChannelDifference": 255,
+          "dimensionMismatch": false,
+          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\diff\\0004-WPT_reftest-css-css-image-animation-image-animation-body-background-root-propagation-paused.html-p0001.png"
+        }
+      ],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 536784,
+              "diffRatio": 0.6401992214334784,
+              "exactDiffPixels": 536784,
+              "exactDiffRatio": 0.6401992214334784,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0004-WPT_reftest-css-css-image-animation-image-animation-body-background-root-propagation-paused.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0005",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-img-paused-normal-mixed.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 15000,
+              "diffRatio": 0.017889855736203344,
+              "exactDiffPixels": 15000,
+              "exactDiffRatio": 0.017889855736203344,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0005-WPT_reftest-css-css-image-animation-image-animation-img-paused-normal-mixed.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-img-paused-normal-mixed.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 15000,
+              "diffRatio": 0.017889855736203344,
+              "exactDiffPixels": 15000,
+              "exactDiffRatio": 0.017889855736203344,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0005-WPT_reftest-css-css-image-animation-image-animation-img-paused-normal-mixed.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0006",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-img-paused.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-img-paused.tentative.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-img-paused.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0006-WPT_reftest-css-css-image-animation-image-animation-img-paused.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-img-paused.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0006-WPT_reftest-css-css-image-animation-image-animation-img-paused.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0007",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-img-running-to-normal.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-img-running-to-normal.tentative.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-img-running-to-normal.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 9927,
+              "diffRatio": 0.011839506526219373,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0007-WPT_reftest-css-css-image-animation-image-animation-img-running-to-normal.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-img-running-to-normal.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 9927,
+              "diffRatio": 0.011839506526219373,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0007-WPT_reftest-css-css-image-animation-image-animation-img-running-to-normal.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0008",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-img-running.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-img-running.tentative.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-running.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-running.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-img-running.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-running.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4927,
+              "diffRatio": 0.0058762212808182585,
+              "exactDiffPixels": 5000,
+              "exactDiffRatio": 0.005963285245401115,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0008-WPT_reftest-css-css-image-animation-image-animation-img-running.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-running.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-img-running.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-running.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4927,
+              "diffRatio": 0.0058762212808182585,
+              "exactDiffPixels": 5000,
+              "exactDiffRatio": 0.005963285245401115,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0008-WPT_reftest-css-css-image-animation-image-animation-img-running.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-running.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0009",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-img-stopped.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-img-stopped.tentative.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-img-stopped.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0009-WPT_reftest-css-css-image-animation-image-animation-img-stopped.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-img-stopped.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0009-WPT_reftest-css-css-image-animation-image-animation-img-stopped.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0010",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-paused-exact-frame.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-paused-exact-frame.tentative.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-paused-exact-frame.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 5000,
+              "diffRatio": 0.005963285245401115,
+              "exactDiffPixels": 5000,
+              "exactDiffRatio": 0.005963285245401115,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0010-WPT_reftest-css-css-image-animation-image-animation-paused-exact-frame.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-paused-exact-frame.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 5000,
+              "diffRatio": 0.005963285245401115,
+              "exactDiffPixels": 5000,
+              "exactDiffRatio": 0.005963285245401115,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0010-WPT_reftest-css-css-image-animation-image-animation-paused-exact-frame.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0011",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-pseudo-animated-image.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-pseudo-animated-image.tentative.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-pseudo-animated-image.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1800,
+              "diffRatio": 0.0021467826883444013,
+              "exactDiffPixels": 1800,
+              "exactDiffRatio": 0.0021467826883444013,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0011-WPT_reftest-css-css-image-animation-image-animation-pseudo-animated-image.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-pseudo-animated-image.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1800,
+              "diffRatio": 0.0021467826883444013,
+              "exactDiffPixels": 1800,
+              "exactDiffRatio": 0.0021467826883444013,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0011-WPT_reftest-css-css-image-animation-image-animation-pseudo-animated-image.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0012",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-repeat-background-paused.html",
+      "file": [
+        "css/css-image-animation/image-animation-repeat-background-paused.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-repeat-background-paused-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 20000,
+              "diffRatio": 0.02385314098160446,
+              "exactDiffPixels": 20000,
+              "exactDiffRatio": 0.02385314098160446,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0012-WPT_reftest-css-css-image-animation-image-animation-repeat-background-paused.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-repeat-background-paused-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 20000,
+              "diffRatio": 0.02385314098160446,
+              "exactDiffPixels": 20000,
+              "exactDiffRatio": 0.02385314098160446,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0012-WPT_reftest-css-css-image-animation-image-animation-repeat-background-paused.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0013",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-root-background-body-paused-no-propagation.html",
+      "file": [
+        "css/css-image-animation/image-animation-root-background-body-paused-no-propagation.html"
+      ],
+      "classification": "improvement",
+      "triageRequired": false,
+      "actualStatus": "PASS",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-body-paused-no-propagation.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-body-paused-no-propagation.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [
+        {
+          "page": 1,
+          "width": 794,
+          "height": 1056,
+          "actualWidth": 794,
+          "actualHeight": 1056,
+          "diffPixels": 536784,
+          "diffRatio": 0.6401992214334784,
+          "exactDiffPixels": 536784,
+          "exactDiffRatio": 0.6401992214334784,
+          "exceededDiffPixels": 0,
+          "maxChannelDifference": 255,
+          "dimensionMismatch": false,
+          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\diff\\0013-WPT_reftest-css-css-image-animation-image-animation-root-background-body-paused-no-propagation.html-p0001.png"
+        }
+      ],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-root-background-body-paused-no-propagation-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-body-paused-no-propagation-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 536784,
+              "diffRatio": 0.6401992214334784,
+              "exactDiffPixels": 536784,
+              "exactDiffRatio": 0.6401992214334784,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0013-WPT_reftest-css-css-image-animation-image-animation-root-background-body-paused-no-propagation.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-body-paused-no-propagation-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "not-needed",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0014",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-root-background-paused.html",
+      "file": [
+        "css/css-image-animation/image-animation-root-background-paused.html"
+      ],
+      "classification": "changed-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-paused.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-paused.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [
+        {
+          "page": 1,
+          "width": 794,
+          "height": 1056,
+          "actualWidth": 794,
+          "actualHeight": 1056,
+          "diffPixels": 536784,
+          "diffRatio": 0.6401992214334784,
+          "exactDiffPixels": 536784,
+          "exactDiffRatio": 0.6401992214334784,
+          "exceededDiffPixels": 0,
+          "maxChannelDifference": 255,
+          "dimensionMismatch": false,
+          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\diff\\0014-WPT_reftest-css-css-image-animation-image-animation-root-background-paused.html-p0001.png"
+        }
+      ],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-root-background-paused-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-paused-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 536784,
+              "diffRatio": 0.6401992214334784,
+              "exactDiffPixels": 536784,
+              "exactDiffRatio": 0.6401992214334784,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0014-WPT_reftest-css-css-image-animation-image-animation-root-background-paused.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-paused-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-root-background-paused-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-paused-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 536784,
+              "diffRatio": 0.6401992214334784,
+              "exactDiffPixels": 536784,
+              "exactDiffRatio": 0.6401992214334784,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0014-WPT_reftest-css-css-image-animation-image-animation-root-background-paused.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-paused-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0015",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-stopped-reset-frame.tentative.html",
+      "file": [
+        "css/css-image-animation/image-animation-stopped-reset-frame.tentative.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame.tentative.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-stopped-reset-frame.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 5000,
+              "diffRatio": 0.005963285245401115,
+              "exactDiffPixels": 5000,
+              "exactDiffRatio": 0.005963285245401115,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0015-WPT_reftest-css-css-image-animation-image-animation-stopped-reset-frame.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-stopped-reset-frame.tentative-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame.tentative-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 5000,
+              "diffRatio": 0.005963285245401115,
+              "exactDiffPixels": 5000,
+              "exactDiffRatio": 0.005963285245401115,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0015-WPT_reftest-css-css-image-animation-image-animation-stopped-reset-frame.tentative.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame.tentative-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0016",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html",
+      "file": [
+        "css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 600,
+              "diffRatio": 0.0007155942294481337,
+              "exactDiffPixels": 600,
+              "exactDiffRatio": 0.0007155942294481337,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0016-WPT_reftest-css-css-image-animation-image-animation-video-poster-paused-normal-mixed.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1000,
+              "diffRatio": 0.001192657049080223,
+              "exactDiffPixels": 1000,
+              "exactDiffRatio": 0.001192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0016-WPT_reftest-css-css-image-animation-image-animation-video-poster-paused-normal-mixed.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0017",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-video-poster-paused.html",
+      "file": [
+        "css/css-image-animation/image-animation-video-poster-paused.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-video-poster-paused-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 400,
+              "diffRatio": 0.00047706281963208914,
+              "exactDiffPixels": 400,
+              "exactDiffRatio": 0.00047706281963208914,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0017-WPT_reftest-css-css-image-animation-image-animation-video-poster-paused.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-video-poster-paused-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 400,
+              "diffRatio": 0.00047706281963208914,
+              "exactDiffPixels": 400,
+              "exactDiffRatio": 0.00047706281963208914,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0017-WPT_reftest-css-css-image-animation-image-animation-video-poster-paused.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0018",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-video-poster-running.html",
+      "file": [
+        "css/css-image-animation/image-animation-video-poster-running.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-video-poster-running-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 200,
+              "diffRatio": 0.00023853140981604457,
+              "exactDiffPixels": 200,
+              "exactDiffRatio": 0.00023853140981604457,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0018-WPT_reftest-css-css-image-animation-image-animation-video-poster-running.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-video-poster-running-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 200,
+              "diffRatio": 0.00023853140981604457,
+              "exactDiffPixels": 200,
+              "exactDiffRatio": 0.00023853140981604457,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\baseline-reference-diff\\0018-WPT_reftest-css-css-image-animation-image-animation-video-poster-running.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0019",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-video-poster-stopped.html",
+      "file": [
+        "css/css-image-animation/image-animation-video-poster-stopped.html"
+      ],
+      "classification": "regression",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "PASS",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [
+        {
+          "page": 1,
+          "width": 794,
+          "height": 1056,
+          "actualWidth": 794,
+          "actualHeight": 1056,
+          "diffPixels": 400,
+          "diffRatio": 0.00047706281963208914,
+          "exactDiffPixels": 400,
+          "exactDiffRatio": 0.00047706281963208914,
+          "exceededDiffPixels": 0,
+          "maxChannelDifference": 255,
+          "dimensionMismatch": false,
+          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\diff\\0019-WPT_reftest-css-css-image-animation-image-animation-video-poster-stopped.html-p0001.png"
+        }
+      ],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-image-animation/image-animation-video-poster-stopped-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 400,
+              "diffRatio": 0.00047706281963208914,
+              "exactDiffPixels": 400,
+              "exactDiffRatio": 0.00047706281963208914,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-image-animation\\actual-reference-diff\\0019-WPT_reftest-css-css-image-animation-image-animation-video-poster-stopped.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    }
+  ],
+  "errors": []
+}

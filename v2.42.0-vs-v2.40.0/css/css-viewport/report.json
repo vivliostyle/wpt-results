@@ -1,0 +1,4317 @@
+{
+  "generatedAt": "2026-05-03T14:17:35.368Z",
+  "labels": {
+    "actual": "v2.42.0",
+    "baseline": "v2.40.0"
+  },
+  "options": {
+    "categories": [],
+    "titleIncludes": [],
+    "files": [],
+    "limit": null,
+    "mode": "reftest-diff",
+    "browser": "chromium",
+    "outDir": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport",
+    "timeoutSec": 10,
+    "maxDiffRatio": 0.00002,
+    "pixelThreshold": 0.1,
+    "viewportWidth": 1800,
+    "viewportHeight": 1800,
+    "skipScreenshots": false,
+    "concurrency": 8,
+    "exportHtml": false,
+    "exportHtmlDiff": false,
+    "actualViewer": "https://vivliostyle.github.io/viewer/v2.42.0/",
+    "baselineViewer": "https://vivliostyle.github.io/viewer/v2.40.0/",
+    "actualLabel": "v2.42.0",
+    "baselineLabel": "v2.40.0",
+    "extraViewerParams": "",
+    "actualViewerParams": "",
+    "baselineViewerParams": "",
+    "testUrls": [],
+    "refUrls": [],
+    "wptManifestPath": "D:\\viv\\vivliostyle.js\\artifacts\\wpt-reftest\\MANIFEST.json",
+    "wptBaseUrl": "https://wpt.live/",
+    "wptPathPrefixes": [
+      "css/css-viewport/"
+    ],
+    "timeoutMs": 10000
+  },
+  "summary": {
+    "totalEntries": 68,
+    "entriesWithDifferences": 31,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
+    "pageCountMismatches": 0,
+    "screenshotMismatches": 2,
+    "outcomes": {
+      "changeTypes": {
+        "pass": 37,
+        "known-fail": 28,
+        "expected-change": 1,
+        "improvement": 1,
+        "changed-fail": 1
+      },
+      "statusPairs": {
+        "PASS->PASS": 38,
+        "FAIL->FAIL": 29,
+        "FAIL->PASS": 1
+      }
+    },
+    "triage": {
+      "differences": {
+        "pending": 30,
+        "triaged": 0
+      },
+      "errors": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "pendingEntries": 30,
+      "triagedEntries": 0
+    }
+  },
+  "entries": [
+    {
+      "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/abspos-static-position.html",
+      "file": [
+        "css/css-viewport/zoom/abspos-static-position.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/abspos-static-position.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/abspos-static-position.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/abspos-static-position.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0002",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/background-image.html",
+      "file": [
+        "css/css-viewport/zoom/background-image.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/background-image.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/background-image.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/background-image.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0003",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/basic.html",
+      "file": [
+        "css/css-viewport/zoom/basic.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/basic.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/basic.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/basic.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0004",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/border-image-width.html",
+      "file": [
+        "css/css-viewport/zoom/border-image-width.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/border-image-width.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/border-image-width.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/border-image-width.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0005",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/border-radius.html",
+      "file": [
+        "css/css-viewport/zoom/border-radius.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/border-radius.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/border-radius.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/border-radius.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0006",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/border-spacing-without-border.html",
+      "file": [
+        "css/css-viewport/zoom/border-spacing-without-border.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/border-spacing-without-border.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/border-spacing-without-border.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/border-spacing-without-border.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0007",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/border-spacing.html",
+      "file": [
+        "css/css-viewport/zoom/border-spacing.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/border-spacing.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/border-spacing.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/border-spacing.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0008",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/border-width.html",
+      "file": [
+        "css/css-viewport/zoom/border-width.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/border-width.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/border-width.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/border-width.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0009",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/box-shadow.html",
+      "file": [
+        "css/css-viewport/zoom/box-shadow.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/box-shadow.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/box-shadow.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/box-shadow.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0010",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/canvas.html",
+      "file": [
+        "css/css-viewport/zoom/canvas.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/canvas.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/canvas.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/canvas.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0011",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/contain-intrinsic-height.html",
+      "file": [
+        "css/css-viewport/zoom/contain-intrinsic-height.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/contain-intrinsic-height.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/contain-intrinsic-height.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/contain-intrinsic-height.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0012",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/contain-intrinsic-width.html",
+      "file": [
+        "css/css-viewport/zoom/contain-intrinsic-width.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/contain-intrinsic-width.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/contain-intrinsic-width.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/contain-intrinsic-width.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0013",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/container-queries-block-size.html",
+      "file": [
+        "css/css-viewport/zoom/container-queries-block-size.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/container-queries-block-size.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/container-queries-block-size.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/container-queries-block-size.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0014",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/container-queries-height.html",
+      "file": [
+        "css/css-viewport/zoom/container-queries-height.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/container-queries-height.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/container-queries-height.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/container-queries-height.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0015",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/container-queries-inline-size.html",
+      "file": [
+        "css/css-viewport/zoom/container-queries-inline-size.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/container-queries-inline-size.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/container-queries-inline-size.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/container-queries-inline-size.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0016",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/container-queries.html",
+      "file": [
+        "css/css-viewport/zoom/container-queries.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/container-queries.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/container-queries.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/container-queries.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0017",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/border-radius.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/border-radius.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/border-radius.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/border-radius.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/border-radius.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0018",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/border.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/border.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/border.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/border.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/border.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0019",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/bottom.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/bottom.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/bottom.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/bottom.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/bottom.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0020",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/column.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/column.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/column.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/column.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/column.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0021",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/flex-basis.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/flex-basis.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/flex-basis.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/flex-basis.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/flex-basis.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0022",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/height.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/height.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/height.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/height.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/height.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0023",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/left.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/left.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/left.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/left.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/left.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0024",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/margin.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/margin.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/margin.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/margin.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/margin.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0025",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/max-height.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/max-height.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/max-height.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/max-height.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/max-height.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0026",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/max-width.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/max-width.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/max-width.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/max-width.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/max-width.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0027",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/min-height.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/min-height.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/min-height.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/min-height.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/min-height.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0028",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/min-width.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/min-width.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/min-width.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/min-width.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/min-width.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0029",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/outline.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/outline.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/outline.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/outline.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/outline.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0030",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/padding.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/padding.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/padding.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/padding.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/padding.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0031",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/right.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/right.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/right.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/right.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/right.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0032",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/top.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/top.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/top.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/top.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/top.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0033",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/webkit-border-radius.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/webkit-border-radius.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/webkit-border-radius.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/webkit-border-radius.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/webkit-border-radius.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0034",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/webkit-flex-basis.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/webkit-flex-basis.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/webkit-flex-basis.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/webkit-flex-basis.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/webkit-flex-basis.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0035",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/width.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/width.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/explicit-inherit/width.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/width.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/width.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0036",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/filters-drop-shadow.html",
+      "file": [
+        "css/css-viewport/zoom/filters-drop-shadow.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/filters-drop-shadow.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/filters-drop-shadow.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/filters-drop-shadow.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0037",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/font-size-keyword-specified.html",
+      "file": [
+        "css/css-viewport/zoom/font-size-keyword-specified.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/font-size-keyword-specified.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/font-size-keyword-specified.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/font-size-keyword-specified.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0038",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/font-size.html",
+      "file": [
+        "css/css-viewport/zoom/font-size.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/font-size.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/font-size.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/font-size.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0039",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/iframe-zoom-nested.html",
+      "file": [
+        "css/css-viewport/zoom/iframe-zoom-nested.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/iframe-zoom-nested.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "expected-change",
+      "viewerChanged": true,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/iframe-zoom-nested.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/iframe-zoom-nested.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0040",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/iframe-zoom.sub.html",
+      "file": [
+        "css/css-viewport/zoom/iframe-zoom.sub.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/iframe-zoom.sub.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/iframe-zoom.sub.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/iframe-zoom.sub.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0041",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/image-intrinsic-size.html",
+      "file": [
+        "css/css-viewport/zoom/image-intrinsic-size.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/image-intrinsic-size.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "FAIL",
+      "changeType": "improvement",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/image-intrinsic-size.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/image-intrinsic-size.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0042",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/inherited-length.html",
+      "file": [
+        "css/css-viewport/zoom/inherited-length.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/inherited-length.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/inherited-length.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/inherited-length.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0043",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/inherited.html",
+      "file": [
+        "css/css-viewport/zoom/inherited.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/inherited.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/inherited.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/inherited.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0044",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/letter-spacing.html",
+      "file": [
+        "css/css-viewport/zoom/letter-spacing.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/letter-spacing.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/letter-spacing.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/letter-spacing.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0045",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/line-height.html",
+      "file": [
+        "css/css-viewport/zoom/line-height.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/line-height.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/line-height.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/line-height.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0046",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/list-style-image.html",
+      "file": [
+        "css/css-viewport/zoom/list-style-image.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/list-style-image.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "changed-fail",
+      "viewerChanged": true,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/list-style-image.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/list-style-image.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0047",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/margin.html",
+      "file": [
+        "css/css-viewport/zoom/margin.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/margin.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/margin.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/margin.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0048",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/mask-border-width.html",
+      "file": [
+        "css/css-viewport/zoom/mask-border-width.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/mask-border-width.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/mask-border-width.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/mask-border-width.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0049",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/relative-units-from-parent.html",
+      "file": [
+        "css/css-viewport/zoom/relative-units-from-parent.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/relative-units-from-parent.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/relative-units-from-parent.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/relative-units-from-parent.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0050",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/scroll-margin.html",
+      "file": [
+        "css/css-viewport/zoom/scroll-margin.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/scroll-margin.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/scroll-margin.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/scroll-margin.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0051",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/scroll-padding.html",
+      "file": [
+        "css/css-viewport/zoom/scroll-padding.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/scroll-padding.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/scroll-padding.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/scroll-padding.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0052",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/stroke.html",
+      "file": [
+        "css/css-viewport/zoom/stroke.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/stroke.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/stroke.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/stroke.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0053",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/svg-font-relative-units.html",
+      "file": [
+        "css/css-viewport/zoom/svg-font-relative-units.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/svg-font-relative-units.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/svg-font-relative-units.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/svg-font-relative-units.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0054",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/svg-path-simple.html",
+      "file": [
+        "css/css-viewport/zoom/svg-path-simple.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/svg-path-simple.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/svg-path-simple.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/svg-path-simple.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0055",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/svg-path.html",
+      "file": [
+        "css/css-viewport/zoom/svg-path.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/svg-path.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/svg-path.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/svg-path.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0056",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/svg-stroke-width.html",
+      "file": [
+        "css/css-viewport/zoom/svg-stroke-width.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/svg-stroke-width.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/svg-stroke-width.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/svg-stroke-width.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0057",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/svg-transform.html",
+      "file": [
+        "css/css-viewport/zoom/svg-transform.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/svg-transform.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/svg-transform.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/svg-transform.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0058",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/svg-viewBox.html",
+      "file": [
+        "css/css-viewport/zoom/svg-viewBox.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/svg-viewBox.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/svg-viewBox.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/svg-viewBox.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0059",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/svg.html",
+      "file": [
+        "css/css-viewport/zoom/svg.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/svg.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/svg.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/svg.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0060",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/text-decoration-thickness.html",
+      "file": [
+        "css/css-viewport/zoom/text-decoration-thickness.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/text-decoration-thickness.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/text-decoration-thickness.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/text-decoration-thickness.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0061",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/text-indent-svg.html",
+      "file": [
+        "css/css-viewport/zoom/text-indent-svg.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/text-indent-svg.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/text-indent-svg.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/text-indent-svg.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0062",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/text-indent.html",
+      "file": [
+        "css/css-viewport/zoom/text-indent.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/text-indent.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/text-indent.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/text-indent.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0063",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/text-shadow.html",
+      "file": [
+        "css/css-viewport/zoom/text-shadow.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/text-shadow.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/text-shadow.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/text-shadow.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0064",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/text-stroke-width.html",
+      "file": [
+        "css/css-viewport/zoom/text-stroke-width.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/text-stroke-width.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/text-stroke-width.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/text-stroke-width.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0065",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/text-underline-offset.html",
+      "file": [
+        "css/css-viewport/zoom/text-underline-offset.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/text-underline-offset.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/text-underline-offset.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/text-underline-offset.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0066",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/word-spacing.html",
+      "file": [
+        "css/css-viewport/zoom/word-spacing.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/word-spacing.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/word-spacing.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/word-spacing.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0067",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/zoom-precision.html",
+      "file": [
+        "css/css-viewport/zoom/zoom-precision.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/zoom-precision.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/zoom-precision.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/zoom-precision.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0068",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/zoom-pseudo-image.html",
+      "file": [
+        "css/css-viewport/zoom/zoom-pseudo-image.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-viewport/zoom/zoom-pseudo-image.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/zoom-pseudo-image.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/zoom-pseudo-image.html&pixelRatio=0&zoom=1&spread=false"
+    }
+  ],
+  "differences": [
+    {
+      "id": "0005",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/border-radius.html",
+      "file": [
+        "css/css-viewport/zoom/border-radius.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/border-radius.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/border-radius.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/border-radius-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/border-radius-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 207,
+              "diffRatio": 0.0002468800091596061,
+              "exactDiffPixels": 607,
+              "exactDiffRatio": 0.0007239428287916953,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0005-WPT_reftest-css-css-viewport-zoom-border-radius.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/border-radius-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/border-radius-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/border-radius-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 207,
+              "diffRatio": 0.0002468800091596061,
+              "exactDiffPixels": 607,
+              "exactDiffRatio": 0.0007239428287916953,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0005-WPT_reftest-css-css-viewport-zoom-border-radius.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/border-radius-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0006",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/border-spacing-without-border.html",
+      "file": [
+        "css/css-viewport/zoom/border-spacing-without-border.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/border-spacing-without-border.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/border-spacing-without-border.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/border-spacing-without-border-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/border-spacing-without-border-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 3776,
+              "diffRatio": 0.004503473017326922,
+              "exactDiffPixels": 10884,
+              "exactDiffRatio": 0.012980879322189146,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0006-WPT_reftest-css-css-viewport-zoom-border-spacing-without-border.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/border-spacing-without-border-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/border-spacing-without-border-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/border-spacing-without-border-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 3776,
+              "diffRatio": 0.004503473017326922,
+              "exactDiffPixels": 10884,
+              "exactDiffRatio": 0.012980879322189146,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0006-WPT_reftest-css-css-viewport-zoom-border-spacing-without-border.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/border-spacing-without-border-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0007",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/border-spacing.html",
+      "file": [
+        "css/css-viewport/zoom/border-spacing.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/border-spacing.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/border-spacing.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/border-spacing-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/border-spacing-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 3786,
+              "diffRatio": 0.004515399587817724,
+              "exactDiffPixels": 10884,
+              "exactDiffRatio": 0.012980879322189146,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0007-WPT_reftest-css-css-viewport-zoom-border-spacing.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/border-spacing-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/border-spacing-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/border-spacing-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 3786,
+              "diffRatio": 0.004515399587817724,
+              "exactDiffPixels": 10884,
+              "exactDiffRatio": 0.012980879322189146,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0007-WPT_reftest-css-css-viewport-zoom-border-spacing.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/border-spacing-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0008",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/border-width.html",
+      "file": [
+        "css/css-viewport/zoom/border-width.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/border-width.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/border-width.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/border-width-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/border-width-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1700,
+              "diffRatio": 0.002027516983436379,
+              "exactDiffPixels": 5218,
+              "exactDiffRatio": 0.006223284482100603,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0008-WPT_reftest-css-css-viewport-zoom-border-width.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/border-width-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/border-width-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/border-width-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1700,
+              "diffRatio": 0.002027516983436379,
+              "exactDiffPixels": 5218,
+              "exactDiffRatio": 0.006223284482100603,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0008-WPT_reftest-css-css-viewport-zoom-border-width.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/border-width-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0009",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/box-shadow.html",
+      "file": [
+        "css/css-viewport/zoom/box-shadow.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/box-shadow.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/box-shadow.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/box-shadow-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/box-shadow-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1178,
+              "diffRatio": 0.0014049500038165025,
+              "exactDiffPixels": 2837,
+              "exactDiffRatio": 0.0033835680482405925,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0009-WPT_reftest-css-css-viewport-zoom-box-shadow.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/box-shadow-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/box-shadow-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/box-shadow-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1178,
+              "diffRatio": 0.0014049500038165025,
+              "exactDiffPixels": 2837,
+              "exactDiffRatio": 0.0033835680482405925,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0009-WPT_reftest-css-css-viewport-zoom-box-shadow.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/box-shadow-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0011",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/contain-intrinsic-height.html",
+      "file": [
+        "css/css-viewport/zoom/contain-intrinsic-height.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/contain-intrinsic-height.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/contain-intrinsic-height.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 146,
+              "diffRatio": 0.00017412792916571255,
+              "exactDiffPixels": 518,
+              "exactDiffRatio": 0.0006177963514235555,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 135,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0011-WPT_reftest-css-css-viewport-zoom-contain-intrinsic-height.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 146,
+              "diffRatio": 0.00017412792916571255,
+              "exactDiffPixels": 518,
+              "exactDiffRatio": 0.0006177963514235555,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 135,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0011-WPT_reftest-css-css-viewport-zoom-contain-intrinsic-height.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0012",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/contain-intrinsic-width.html",
+      "file": [
+        "css/css-viewport/zoom/contain-intrinsic-width.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/contain-intrinsic-width.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/contain-intrinsic-width.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 146,
+              "diffRatio": 0.00017412792916571255,
+              "exactDiffPixels": 518,
+              "exactDiffRatio": 0.0006177963514235555,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 135,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0012-WPT_reftest-css-css-viewport-zoom-contain-intrinsic-width.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 146,
+              "diffRatio": 0.00017412792916571255,
+              "exactDiffPixels": 518,
+              "exactDiffRatio": 0.0006177963514235555,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 135,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0012-WPT_reftest-css-css-viewport-zoom-contain-intrinsic-width.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0017",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/border-radius.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/border-radius.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/border-radius.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/border-radius.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/explicit-inherit/border-radius-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/border-radius-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1379,
+              "diffRatio": 0.0016446740706816273,
+              "exactDiffPixels": 2070,
+              "exactDiffRatio": 0.002468800091596061,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0017-WPT_reftest-css-css-viewport-zoom-explicit-inherit-border-radius.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/border-radius-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/explicit-inherit/border-radius-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/border-radius-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1379,
+              "diffRatio": 0.0016446740706816273,
+              "exactDiffPixels": 2070,
+              "exactDiffRatio": 0.002468800091596061,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0017-WPT_reftest-css-css-viewport-zoom-explicit-inherit-border-radius.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/border-radius-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0020",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/column.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/column.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/column.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/column.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/explicit-inherit/column-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/column-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 39795,
+              "diffRatio": 0.04746178726814747,
+              "exactDiffPixels": 42828,
+              "exactDiffRatio": 0.05107911609800778,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0020-WPT_reftest-css-css-viewport-zoom-explicit-inherit-column.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/column-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/explicit-inherit/column-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/column-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 39795,
+              "diffRatio": 0.04746178726814747,
+              "exactDiffPixels": 42828,
+              "exactDiffRatio": 0.05107911609800778,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0020-WPT_reftest-css-css-viewport-zoom-explicit-inherit-column.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/column-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0021",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/flex-basis.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/flex-basis.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/flex-basis.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/flex-basis.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/explicit-inherit/flex-basis-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/flex-basis-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 155,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0021-WPT_reftest-css-css-viewport-zoom-explicit-inherit-flex-basis.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/flex-basis-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/explicit-inherit/flex-basis-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/flex-basis-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 155,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0021-WPT_reftest-css-css-viewport-zoom-explicit-inherit-flex-basis.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/flex-basis-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0024",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/margin.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/margin.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/margin.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/margin.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/explicit-inherit/margin-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/margin-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 3800,
+              "diffRatio": 0.004532096786504847,
+              "exactDiffPixels": 3800,
+              "exactDiffRatio": 0.004532096786504847,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 175,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0024-WPT_reftest-css-css-viewport-zoom-explicit-inherit-margin.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/margin-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/explicit-inherit/margin-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/margin-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 3800,
+              "diffRatio": 0.004532096786504847,
+              "exactDiffPixels": 3800,
+              "exactDiffRatio": 0.004532096786504847,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 175,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0024-WPT_reftest-css-css-viewport-zoom-explicit-inherit-margin.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/margin-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0029",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/outline.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/outline.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/outline.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/outline.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/explicit-inherit/outline-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/outline-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 11000,
+              "diffRatio": 0.013119227539882452,
+              "exactDiffPixels": 11000,
+              "exactDiffRatio": 0.013119227539882452,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0029-WPT_reftest-css-css-viewport-zoom-explicit-inherit-outline.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/outline-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/explicit-inherit/outline-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/outline-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 11000,
+              "diffRatio": 0.013119227539882452,
+              "exactDiffPixels": 11000,
+              "exactDiffRatio": 0.013119227539882452,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0029-WPT_reftest-css-css-viewport-zoom-explicit-inherit-outline.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/outline-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0030",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/padding.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/padding.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/padding.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/padding.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/explicit-inherit/padding-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/padding-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 9000,
+              "diffRatio": 0.010733913441722006,
+              "exactDiffPixels": 9000,
+              "exactDiffRatio": 0.010733913441722006,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0030-WPT_reftest-css-css-viewport-zoom-explicit-inherit-padding.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/padding-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/explicit-inherit/padding-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/padding-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 9000,
+              "diffRatio": 0.010733913441722006,
+              "exactDiffPixels": 9000,
+              "exactDiffRatio": 0.010733913441722006,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0030-WPT_reftest-css-css-viewport-zoom-explicit-inherit-padding.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/padding-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0033",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/webkit-border-radius.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/webkit-border-radius.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/webkit-border-radius.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/webkit-border-radius.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/explicit-inherit/border-radius-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/border-radius-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1379,
+              "diffRatio": 0.0016446740706816273,
+              "exactDiffPixels": 2070,
+              "exactDiffRatio": 0.002468800091596061,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0033-WPT_reftest-css-css-viewport-zoom-explicit-inherit-webkit-border-radius.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/border-radius-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/explicit-inherit/border-radius-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/border-radius-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1379,
+              "diffRatio": 0.0016446740706816273,
+              "exactDiffPixels": 2070,
+              "exactDiffRatio": 0.002468800091596061,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0033-WPT_reftest-css-css-viewport-zoom-explicit-inherit-webkit-border-radius.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/border-radius-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0034",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/explicit-inherit/webkit-flex-basis.html",
+      "file": [
+        "css/css-viewport/zoom/explicit-inherit/webkit-flex-basis.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/webkit-flex-basis.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/webkit-flex-basis.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/explicit-inherit/flex-basis-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/flex-basis-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 155,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0034-WPT_reftest-css-css-viewport-zoom-explicit-inherit-webkit-flex-basis.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/flex-basis-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/explicit-inherit/flex-basis-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/flex-basis-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 155,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0034-WPT_reftest-css-css-viewport-zoom-explicit-inherit-webkit-flex-basis.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/explicit-inherit/flex-basis-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0036",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/filters-drop-shadow.html",
+      "file": [
+        "css/css-viewport/zoom/filters-drop-shadow.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/filters-drop-shadow.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/filters-drop-shadow.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/filters-drop-shadow-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/filters-drop-shadow-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": {
+            "maxDifference": [
+              0,
+              20
+            ],
+            "totalPixels": [
+              0,
+              862
+            ]
+          },
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 685,
+              "diffRatio": 0.0008169700786199526,
+              "exactDiffPixels": 2662,
+              "exactDiffRatio": 0.0031748530646515533,
+              "exceededDiffPixels": 1758,
+              "maxChannelDifference": 128,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0036-WPT_reftest-css-css-viewport-zoom-filters-drop-shadow.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/filters-drop-shadow-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/filters-drop-shadow-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/filters-drop-shadow-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": {
+            "maxDifference": [
+              0,
+              20
+            ],
+            "totalPixels": [
+              0,
+              862
+            ]
+          },
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 685,
+              "diffRatio": 0.0008169700786199526,
+              "exactDiffPixels": 2662,
+              "exactDiffRatio": 0.0031748530646515533,
+              "exceededDiffPixels": 1758,
+              "maxChannelDifference": 128,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0036-WPT_reftest-css-css-viewport-zoom-filters-drop-shadow.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/filters-drop-shadow-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0038",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/font-size.html",
+      "file": [
+        "css/css-viewport/zoom/font-size.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/font-size.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/font-size.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/font-size-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/font-size-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1345,
+              "diffRatio": 0.0016041237310128998,
+              "exactDiffPixels": 3685,
+              "exactDiffRatio": 0.004394941225860621,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0038-WPT_reftest-css-css-viewport-zoom-font-size.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/font-size-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/font-size-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/font-size-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1345,
+              "diffRatio": 0.0016041237310128998,
+              "exactDiffPixels": 3685,
+              "exactDiffRatio": 0.004394941225860621,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0038-WPT_reftest-css-css-viewport-zoom-font-size.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/font-size-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0039",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/iframe-zoom-nested.html",
+      "file": [
+        "css/css-viewport/zoom/iframe-zoom-nested.html"
+      ],
+      "classification": "expected-change",
+      "triageRequired": true,
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/iframe-zoom-nested.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/iframe-zoom-nested.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [
+        {
+          "page": 1,
+          "width": 794,
+          "height": 1056,
+          "actualWidth": 794,
+          "actualHeight": 1056,
+          "diffPixels": 212992,
+          "diffRatio": 0.25402641019769484,
+          "exactDiffPixels": 212992,
+          "exactDiffRatio": 0.25402641019769484,
+          "exceededDiffPixels": 0,
+          "maxChannelDifference": 255,
+          "dimensionMismatch": false,
+          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\diff\\0039-WPT_reftest-css-css-viewport-zoom-iframe-zoom-nested.html-p0001.png"
+        }
+      ],
+      "comparisons": [],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0041",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/image-intrinsic-size.html",
+      "file": [
+        "css/css-viewport/zoom/image-intrinsic-size.html"
+      ],
+      "classification": "improvement",
+      "triageRequired": false,
+      "actualStatus": "PASS",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/image-intrinsic-size.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/image-intrinsic-size.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/background-image-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/background-image-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 100,
+              "diffRatio": 0.00011926570490802228,
+              "exactDiffPixels": 100,
+              "exactDiffRatio": 0.00011926570490802228,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0041-WPT_reftest-css-css-viewport-zoom-image-intrinsic-size.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/background-image-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "not-needed",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0044",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/letter-spacing.html",
+      "file": [
+        "css/css-viewport/zoom/letter-spacing.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/letter-spacing.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/letter-spacing.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/letter-spacing-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/letter-spacing-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 3037,
+              "diffRatio": 0.003622099458056637,
+              "exactDiffPixels": 8322,
+              "exactDiffRatio": 0.009925291962445616,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0044-WPT_reftest-css-css-viewport-zoom-letter-spacing.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/letter-spacing-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/letter-spacing-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/letter-spacing-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 3037,
+              "diffRatio": 0.003622099458056637,
+              "exactDiffPixels": 8322,
+              "exactDiffRatio": 0.009925291962445616,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0044-WPT_reftest-css-css-viewport-zoom-letter-spacing.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/letter-spacing-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0045",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/line-height.html",
+      "file": [
+        "css/css-viewport/zoom/line-height.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/line-height.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/line-height.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/line-height-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/line-height-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 252,
+              "diffRatio": 0.0003005495763682162,
+              "exactDiffPixels": 1222,
+              "exactDiffRatio": 0.0014574269139760324,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 135,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0045-WPT_reftest-css-css-viewport-zoom-line-height.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/line-height-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/line-height-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/line-height-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 252,
+              "diffRatio": 0.0003005495763682162,
+              "exactDiffPixels": 1222,
+              "exactDiffRatio": 0.0014574269139760324,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 135,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0045-WPT_reftest-css-css-viewport-zoom-line-height.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/line-height-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0046",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/list-style-image.html",
+      "file": [
+        "css/css-viewport/zoom/list-style-image.html"
+      ],
+      "classification": "changed-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/list-style-image.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/list-style-image.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [
+        {
+          "page": 1,
+          "width": 794,
+          "height": 1056,
+          "actualWidth": 794,
+          "actualHeight": 1056,
+          "diffPixels": 1518,
+          "diffRatio": 0.0018104534005037784,
+          "exactDiffPixels": 2114,
+          "exactDiffRatio": 0.002521277001755591,
+          "exceededDiffPixels": 0,
+          "maxChannelDifference": 199,
+          "dimensionMismatch": false,
+          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\diff\\0046-WPT_reftest-css-css-viewport-zoom-list-style-image.html-p0001.png"
+        }
+      ],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/list-style-image-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/list-style-image-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 974,
+              "diffRatio": 0.001161647965804137,
+              "exactDiffPixels": 2854,
+              "exactDiffRatio": 0.0034038432180749562,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0046-WPT_reftest-css-css-viewport-zoom-list-style-image.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/list-style-image-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/list-style-image-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/list-style-image-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 2394,
+              "diffRatio": 0.0028552209754980538,
+              "exactDiffPixels": 4812,
+              "exactDiffRatio": 0.005739065720174032,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0046-WPT_reftest-css-css-viewport-zoom-list-style-image.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/list-style-image-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0047",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/margin.html",
+      "file": [
+        "css/css-viewport/zoom/margin.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/margin.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/margin.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/margin-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/margin-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 578,
+              "diffRatio": 0.0006893557743683688,
+              "exactDiffPixels": 2071,
+              "exactDiffRatio": 0.0024699927486451414,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 128,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0047-WPT_reftest-css-css-viewport-zoom-margin.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/margin-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/margin-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/margin-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 578,
+              "diffRatio": 0.0006893557743683688,
+              "exactDiffPixels": 2071,
+              "exactDiffRatio": 0.0024699927486451414,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 128,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0047-WPT_reftest-css-css-viewport-zoom-margin.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/margin-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0053",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/svg-font-relative-units.html",
+      "file": [
+        "css/css-viewport/zoom/svg-font-relative-units.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/svg-font-relative-units.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/svg-font-relative-units.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/svg-font-relative-units-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/svg-font-relative-units-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 976,
+              "diffRatio": 0.0011640332799022976,
+              "exactDiffPixels": 1048,
+              "exactDiffRatio": 0.0012499045874360736,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0053-WPT_reftest-css-css-viewport-zoom-svg-font-relative-units.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/svg-font-relative-units-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/svg-font-relative-units-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/svg-font-relative-units-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 976,
+              "diffRatio": 0.0011640332799022976,
+              "exactDiffPixels": 1048,
+              "exactDiffRatio": 0.0012499045874360736,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0053-WPT_reftest-css-css-viewport-zoom-svg-font-relative-units.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/svg-font-relative-units-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0060",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/text-decoration-thickness.html",
+      "file": [
+        "css/css-viewport/zoom/text-decoration-thickness.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/text-decoration-thickness.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/text-decoration-thickness.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/text-decoration-thickness-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-decoration-thickness-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4193,
+              "diffRatio": 0.005000811006793375,
+              "exactDiffPixels": 6098,
+              "exactDiffRatio": 0.007272822685291199,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0060-WPT_reftest-css-css-viewport-zoom-text-decoration-thickness.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-decoration-thickness-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/text-decoration-thickness-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-decoration-thickness-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4193,
+              "diffRatio": 0.005000811006793375,
+              "exactDiffPixels": 6098,
+              "exactDiffRatio": 0.007272822685291199,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0060-WPT_reftest-css-css-viewport-zoom-text-decoration-thickness.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-decoration-thickness-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0062",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/text-indent.html",
+      "file": [
+        "css/css-viewport/zoom/text-indent.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/text-indent.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/text-indent.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/text-indent-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-indent-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 974,
+              "diffRatio": 0.001161647965804137,
+              "exactDiffPixels": 2854,
+              "exactDiffRatio": 0.0034038432180749562,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0062-WPT_reftest-css-css-viewport-zoom-text-indent.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-indent-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/text-indent-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-indent-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 974,
+              "diffRatio": 0.001161647965804137,
+              "exactDiffPixels": 2854,
+              "exactDiffRatio": 0.0034038432180749562,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0062-WPT_reftest-css-css-viewport-zoom-text-indent.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-indent-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0063",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/text-shadow.html",
+      "file": [
+        "css/css-viewport/zoom/text-shadow.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/text-shadow.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/text-shadow.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/text-shadow-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-shadow-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1594,
+              "diffRatio": 0.0019010953362338754,
+              "exactDiffPixels": 4756,
+              "exactDiffRatio": 0.00567227692542554,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0063-WPT_reftest-css-css-viewport-zoom-text-shadow.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-shadow-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/text-shadow-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-shadow-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1594,
+              "diffRatio": 0.0019010953362338754,
+              "exactDiffPixels": 4756,
+              "exactDiffRatio": 0.00567227692542554,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0063-WPT_reftest-css-css-viewport-zoom-text-shadow.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-shadow-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0064",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/text-stroke-width.html",
+      "file": [
+        "css/css-viewport/zoom/text-stroke-width.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/text-stroke-width.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/text-stroke-width.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/text-stroke-width-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-stroke-width-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1732,
+              "diffRatio": 0.002065682009006946,
+              "exactDiffPixels": 22016,
+              "exactDiffRatio": 0.026257537592550187,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 155,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0064-WPT_reftest-css-css-viewport-zoom-text-stroke-width.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-stroke-width-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/text-stroke-width-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-stroke-width-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1732,
+              "diffRatio": 0.002065682009006946,
+              "exactDiffPixels": 22016,
+              "exactDiffRatio": 0.026257537592550187,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 155,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0064-WPT_reftest-css-css-viewport-zoom-text-stroke-width.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-stroke-width-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0065",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/text-underline-offset.html",
+      "file": [
+        "css/css-viewport/zoom/text-underline-offset.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/text-underline-offset.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/text-underline-offset.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/text-underline-offset-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-underline-offset-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1759,
+              "diffRatio": 0.002097883749332112,
+              "exactDiffPixels": 3649,
+              "exactDiffRatio": 0.004352005572093733,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0065-WPT_reftest-css-css-viewport-zoom-text-underline-offset.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-underline-offset-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/text-underline-offset-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-underline-offset-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1759,
+              "diffRatio": 0.002097883749332112,
+              "exactDiffPixels": 3649,
+              "exactDiffRatio": 0.004352005572093733,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0065-WPT_reftest-css-css-viewport-zoom-text-underline-offset.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/text-underline-offset-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0066",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/word-spacing.html",
+      "file": [
+        "css/css-viewport/zoom/word-spacing.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/word-spacing.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/word-spacing.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/word-spacing-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/word-spacing-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1776,
+              "diffRatio": 0.0021181589191664758,
+              "exactDiffPixels": 5341,
+              "exactDiffRatio": 0.00636998129913747,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0066-WPT_reftest-css-css-viewport-zoom-word-spacing.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/reference/word-spacing-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/reference/word-spacing-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/word-spacing-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 1776,
+              "diffRatio": 0.0021181589191664758,
+              "exactDiffPixels": 5341,
+              "exactDiffRatio": 0.00636998129913747,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0066-WPT_reftest-css-css-viewport-zoom-word-spacing.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/reference/word-spacing-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0068",
+      "category": "WPT reftest",
+      "title": "css/css-viewport/zoom/zoom-pseudo-image.html",
+      "file": [
+        "css/css-viewport/zoom/zoom-pseudo-image.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/zoom-pseudo-image.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/zoom-pseudo-image.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/zoom-pseudo-image-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/zoom-pseudo-image-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 25000,
+              "diffRatio": 0.02981642622700557,
+              "exactDiffPixels": 25000,
+              "exactDiffRatio": 0.02981642622700557,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\actual-reference-diff\\0068-WPT_reftest-css-css-viewport-zoom-zoom-pseudo-image.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-viewport/zoom/zoom-pseudo-image-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-viewport/zoom/zoom-pseudo-image-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/zoom-pseudo-image-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 25000,
+              "diffRatio": 0.02981642622700557,
+              "exactDiffPixels": 25000,
+              "exactDiffRatio": 0.02981642622700557,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-viewport\\baseline-reference-diff\\0068-WPT_reftest-css-css-viewport-zoom-zoom-pseudo-image.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-viewport/zoom/zoom-pseudo-image-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,2943 @@
+- id: "0004"
+  category: WPT reftest
+  title: css/css-images/color-stop-currentcolor.html
+  file: css/css-images/color-stop-currentcolor.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/color-stop-currentcolor.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/color-stop-currentcolor.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/color-stop-currentcolor-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/color-stop-currentcolor-ref.html#1
+- id: "0009"
+  category: WPT reftest
+  title: css/css-images/conic-gradient-calc-angle-percentage.html
+  file: css/css-images/conic-gradient-calc-angle-percentage.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/conic-gradient-calc-angle-percentage.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/conic-gradient-calc-angle-percentage.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/conic-gradient-calc-angle-percentage-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/conic-gradient-calc-angle-percentage-ref.html#1
+- id: "0012"
+  category: WPT reftest
+  title: css/css-images/conic-gradient-line-height-relative-units-001.html
+  file: css/css-images/conic-gradient-line-height-relative-units-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/conic-gradient-line-height-relative-units-001.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/conic-gradient-line-height-relative-units-001.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/radial-gradient-line-height-relative-units-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/radial-gradient-line-height-relative-units-ref.html#1
+- id: "0013"
+  category: WPT reftest
+  title: css/css-images/conic-gradient-line-height-relative-units-002.html
+  file: css/css-images/conic-gradient-line-height-relative-units-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/conic-gradient-line-height-relative-units-002.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/conic-gradient-line-height-relative-units-002.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/radial-gradient-line-height-relative-units-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/radial-gradient-line-height-relative-units-ref.html#1
+- id: "0014"
+  category: WPT reftest
+  title: css/css-images/conic-gradient-line-height-relative-units-003.html
+  file: css/css-images/conic-gradient-line-height-relative-units-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/conic-gradient-line-height-relative-units-003.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/conic-gradient-line-height-relative-units-003.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/radial-gradient-line-height-relative-units-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/radial-gradient-line-height-relative-units-ref.html#1
+- id: "0015"
+  category: WPT reftest
+  title: css/css-images/conic-gradient-line-height-relative-units-004.html
+  file: css/css-images/conic-gradient-line-height-relative-units-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/conic-gradient-line-height-relative-units-004.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/conic-gradient-line-height-relative-units-004.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/radial-gradient-line-height-relative-units-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/radial-gradient-line-height-relative-units-ref.html#1
+- id: "0016"
+  category: WPT reftest
+  title: css/css-images/cross-fade-basic.html
+  file: css/css-images/cross-fade-basic.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/cross-fade-basic.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/cross-fade-basic.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/cross-fade-basic-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/cross-fade-basic-ref.html#1
+- id: "0017"
+  category: WPT reftest
+  title: css/css-images/cross-fade-cross-origin-orientation.sub.html
+  file: css/css-images/cross-fade-cross-origin-orientation.sub.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/cross-fade-cross-origin-orientation.sub.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/cross-fade-cross-origin-orientation.sub.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/cross-fade-cross-origin-orientation-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/cross-fade-cross-origin-orientation-ref.html#1
+- id: "0018"
+  category: WPT reftest
+  title: css/css-images/cross-fade-natural-size.html
+  file: css/css-images/cross-fade-natural-size.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/cross-fade-natural-size.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/cross-fade-natural-size.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/cross-fade-natural-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/cross-fade-natural-size-ref.html#1
+- id: "0019"
+  category: WPT reftest
+  title: css/css-images/cross-fade-premultiplied-alpha.html
+  file: css/css-images/cross-fade-premultiplied-alpha.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/cross-fade-premultiplied-alpha.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/cross-fade-premultiplied-alpha.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/cross-fade-premultiplied-alpha-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/cross-fade-premultiplied-alpha-ref.html#1
+- id: "0020"
+  category: WPT reftest
+  title: css/css-images/cross-fade-target-alpha.html
+  file: css/css-images/cross-fade-target-alpha.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/cross-fade-target-alpha.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/cross-fade-target-alpha.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/cross-fade-target-alpha-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/cross-fade-target-alpha-ref.html#1
+- id: "0021"
+  category: WPT reftest
+  title: css/css-images/css-image-fallbacks-and-annotations.html
+  file: css/css-images/css-image-fallbacks-and-annotations.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/css-image-fallbacks-and-annotations.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/css-image-fallbacks-and-annotations.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/css-image-fallbacks-and-annotations-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/css-image-fallbacks-and-annotations-ref.html#1
+- id: "0022"
+  category: WPT reftest
+  title: css/css-images/css-image-fallbacks-and-annotations002.html
+  file: css/css-images/css-image-fallbacks-and-annotations002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/css-image-fallbacks-and-annotations002.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/css-image-fallbacks-and-annotations002.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/css-image-fallbacks-and-annotations-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/css-image-fallbacks-and-annotations-ref.html#1
+- id: "0023"
+  category: WPT reftest
+  title: css/css-images/css-image-fallbacks-and-annotations003.html
+  file: css/css-images/css-image-fallbacks-and-annotations003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/css-image-fallbacks-and-annotations003.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/css-image-fallbacks-and-annotations003.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/css-image-fallbacks-and-annotations-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/css-image-fallbacks-and-annotations-ref.html#1
+- id: "0024"
+  category: WPT reftest
+  title: css/css-images/css-image-fallbacks-and-annotations004.html
+  file: css/css-images/css-image-fallbacks-and-annotations004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/css-image-fallbacks-and-annotations004.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/css-image-fallbacks-and-annotations004.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/css-image-fallbacks-and-annotations-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/css-image-fallbacks-and-annotations-ref.html#1
+- id: "0025"
+  category: WPT reftest
+  title: css/css-images/css-image-fallbacks-and-annotations005.html
+  file: css/css-images/css-image-fallbacks-and-annotations005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/css-image-fallbacks-and-annotations005.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/css-image-fallbacks-and-annotations005.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/css-image-fallbacks-and-annotations-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/css-image-fallbacks-and-annotations-ref.html#1
+- id: "0026"
+  category: WPT reftest
+  title: css/css-images/gradient/color-scheme-dependent-color-stops.html
+  file: css/css-images/gradient/color-scheme-dependent-color-stops.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/gradient/color-scheme-dependent-color-stops.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/gradient/color-scheme-dependent-color-stops.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/gradient/color-scheme-dependent-color-stops-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/gradient/color-scheme-dependent-color-stops-ref.html#1
+- id: "0027"
+  category: WPT reftest
+  title: css/css-images/gradient/conic-gradient-001.html
+  file: css/css-images/gradient/conic-gradient-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/gradient/conic-gradient-001.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/gradient/conic-gradient-001.html&pixelRatio=0&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0031"
+  category: WPT reftest
+  title: css/css-images/gradient/gradient-analogous-missing-components-002.html
+  file: css/css-images/gradient/gradient-analogous-missing-components-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/gradient/gradient-analogous-missing-components-002.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/gradient/gradient-analogous-missing-components-002.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/gradient/gradient-analogous-missing-components-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/gradient/gradient-analogous-missing-components-002-ref.html#1
+- id: "0032"
+  category: WPT reftest
+  title: css/css-images/gradient/gradient-analogous-missing-components-003.html
+  file: css/css-images/gradient/gradient-analogous-missing-components-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/gradient/gradient-analogous-missing-components-003.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/gradient/gradient-analogous-missing-components-003.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/gradient/gradient-analogous-missing-components-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/gradient/gradient-analogous-missing-components-003-ref.html#1
+- id: "0049"
+  category: WPT reftest
+  title: css/css-images/gradient/gradient-infinity-001.html
+  file: css/css-images/gradient/gradient-infinity-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/gradient/gradient-infinity-001.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/gradient/gradient-infinity-001.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/gradient/gradient-infinity-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/gradient/gradient-infinity-001-ref.html#1
+- id: "0050"
+  category: WPT reftest
+  title: css/css-images/gradient/gradient-infinity-002.html
+  file: css/css-images/gradient/gradient-infinity-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/gradient/gradient-infinity-002.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/gradient/gradient-infinity-002.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/gradient/gradient-infinity-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/gradient/gradient-infinity-002-ref.html#1
+- id: "0051"
+  category: WPT reftest
+  title: css/css-images/gradient/gradient-infinity-003.html
+  file: css/css-images/gradient/gradient-infinity-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/gradient/gradient-infinity-003.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/gradient/gradient-infinity-003.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/gradient/gradient-infinity-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/gradient/gradient-infinity-003-ref.html#1
+- id: "0082"
+  category: WPT reftest
+  title: css/css-images/gradient/gradient-single-stop-001.html
+  file: css/css-images/gradient/gradient-single-stop-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/gradient/gradient-single-stop-001.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/gradient/gradient-single-stop-001.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0083"
+  category: WPT reftest
+  title: css/css-images/gradient/gradient-single-stop-002.html
+  file: css/css-images/gradient/gradient-single-stop-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/gradient/gradient-single-stop-002.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/gradient/gradient-single-stop-002.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0084"
+  category: WPT reftest
+  title: css/css-images/gradient/gradient-single-stop-003.html
+  file: css/css-images/gradient/gradient-single-stop-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/gradient/gradient-single-stop-003.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/gradient/gradient-single-stop-003.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0085"
+  category: WPT reftest
+  title: css/css-images/gradient/gradient-single-stop-004.html
+  file: css/css-images/gradient/gradient-single-stop-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/gradient/gradient-single-stop-004.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/gradient/gradient-single-stop-004.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0086"
+  category: WPT reftest
+  title: css/css-images/gradient/gradient-single-stop-005.html
+  file: css/css-images/gradient/gradient-single-stop-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/gradient/gradient-single-stop-005.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/gradient/gradient-single-stop-005.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0087"
+  category: WPT reftest
+  title: css/css-images/gradient/gradient-single-stop-006.html
+  file: css/css-images/gradient/gradient-single-stop-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/gradient/gradient-single-stop-006.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/gradient/gradient-single-stop-006.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0088"
+  category: WPT reftest
+  title: css/css-images/gradient/gradient-single-stop-007.html
+  file: css/css-images/gradient/gradient-single-stop-007.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/gradient/gradient-single-stop-007.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/gradient/gradient-single-stop-007.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0089"
+  category: WPT reftest
+  title: css/css-images/gradient/gradient-single-stop-008.html
+  file: css/css-images/gradient/gradient-single-stop-008.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/gradient/gradient-single-stop-008.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/gradient/gradient-single-stop-008.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0109"
+  category: WPT reftest
+  title: css/css-images/image-light-dark.html
+  file: css/css-images/image-light-dark.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-light-dark.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-light-dark.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-light-dark-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-light-dark-ref.html#1
+- id: "0112"
+  category: WPT reftest
+  title: css/css-images/image-orientation/image-orientation-background-properties-border-radius.html
+  file: css/css-images/image-orientation/image-orientation-background-properties-border-radius.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-background-properties-border-radius.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-background-properties-border-radius.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-orientation/reference/image-orientation-background-properties-border-radius-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-orientation/reference/image-orientation-background-properties-border-radius-ref.html#1
+- id: "0118"
+  category: WPT reftest
+  title: css/css-images/image-orientation/image-orientation-exif-png.html
+  file: css/css-images/image-orientation/image-orientation-exif-png.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-exif-png.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-exif-png.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-orientation/reference/image-orientation-exif-png-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-orientation/reference/image-orientation-exif-png-ref.html#1
+- id: "0119"
+  category: WPT reftest
+  title: css/css-images/image-orientation/image-orientation-from-image-composited-dynamic1.html
+  file: css/css-images/image-orientation/image-orientation-from-image-composited-dynamic1.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-from-image-composited-dynamic1.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-from-image-composited-dynamic1.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-orientation/reference/image-orientation-from-image-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-orientation/reference/image-orientation-from-image-ref.html#1
+- id: "0120"
+  category: WPT reftest
+  title: css/css-images/image-orientation/image-orientation-from-image-composited-dynamic2.html
+  file: css/css-images/image-orientation/image-orientation-from-image-composited-dynamic2.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-from-image-composited-dynamic2.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-from-image-composited-dynamic2.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-orientation/reference/image-orientation-none-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-orientation/reference/image-orientation-none-ref.html#1
+- id: "0123"
+  category: WPT reftest
+  title: css/css-images/image-orientation/image-orientation-from-image-dynamic1.html
+  file: css/css-images/image-orientation/image-orientation-from-image-dynamic1.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-from-image-dynamic1.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-from-image-dynamic1.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-orientation/reference/image-orientation-from-image-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-orientation/reference/image-orientation-from-image-ref.html#1
+- id: "0124"
+  category: WPT reftest
+  title: css/css-images/image-orientation/image-orientation-from-image-dynamic2.html
+  file: css/css-images/image-orientation/image-orientation-from-image-dynamic2.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-from-image-dynamic2.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-from-image-dynamic2.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-orientation/reference/image-orientation-none-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-orientation/reference/image-orientation-none-ref.html#1
+- id: "0125"
+  category: WPT reftest
+  title: css/css-images/image-orientation/image-orientation-from-image-embedded-content.html
+  file: css/css-images/image-orientation/image-orientation-from-image-embedded-content.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-from-image-embedded-content.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-from-image-embedded-content.html&pixelRatio=0&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0129"
+  category: WPT reftest
+  title: css/css-images/image-orientation/image-orientation-list-style-image.html
+  file: css/css-images/image-orientation/image-orientation-list-style-image.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-list-style-image.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-list-style-image.html&pixelRatio=0&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0132"
+  category: WPT reftest
+  title: css/css-images/image-orientation/image-orientation-none-cross-origin-border-image.sub.html
+  file: css/css-images/image-orientation/image-orientation-none-cross-origin-border-image.sub.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-none-cross-origin-border-image.sub.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-none-cross-origin-border-image.sub.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-orientation/reference/image-orientation-none-cross-origin-border-image-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-orientation/reference/image-orientation-none-cross-origin-border-image-ref.html#1
+- id: "0133"
+  category: WPT reftest
+  title: css/css-images/image-orientation/image-orientation-none-cross-origin-canvas.html
+  file: css/css-images/image-orientation/image-orientation-none-cross-origin-canvas.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-none-cross-origin-canvas.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-none-cross-origin-canvas.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-orientation/reference/image-orientation-none-cross-origin-canvas-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-orientation/reference/image-orientation-none-cross-origin-canvas-ref.html#1
+- id: "0134"
+  category: WPT reftest
+  title: css/css-images/image-orientation/image-orientation-none-cross-origin-svg.html
+  file: css/css-images/image-orientation/image-orientation-none-cross-origin-svg.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-none-cross-origin-svg.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-none-cross-origin-svg.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-orientation/reference/image-orientation-none-cross-origin-svg-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-orientation/reference/image-orientation-none-cross-origin-svg-ref.html#1
+- id: "0135"
+  category: WPT reftest
+  title: css/css-images/image-orientation/image-orientation-none-cross-origin.html
+  file: css/css-images/image-orientation/image-orientation-none-cross-origin.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-none-cross-origin.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-none-cross-origin.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-orientation/reference/image-orientation-none-cross-origin-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-orientation/reference/image-orientation-none-cross-origin-ref.html#1
+- id: "0138"
+  category: WPT reftest
+  title: css/css-images/image-orientation/svg-image-orientation-aspect-ratio.html
+  file: css/css-images/image-orientation/svg-image-orientation-aspect-ratio.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-orientation/svg-image-orientation-aspect-ratio.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-orientation/svg-image-orientation-aspect-ratio.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-orientation/reference/svg-image-orientation-aspect-ratio-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-orientation/reference/svg-image-orientation-aspect-ratio-ref.html#1
+- id: "0144"
+  category: WPT reftest
+  title: css/css-images/image-set/image-set-calc-x-rendering-2.html
+  file: css/css-images/image-set/image-set-calc-x-rendering-2.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-set/image-set-calc-x-rendering-2.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-set/image-set-calc-x-rendering-2.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-set/reference/image-set-rendering-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-set/reference/image-set-rendering-ref.html#1
+- id: "0147"
+  category: WPT reftest
+  title: css/css-images/image-set/image-set-content-rendering.html
+  file: css/css-images/image-set/image-set-content-rendering.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-set/image-set-content-rendering.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-set/image-set-content-rendering.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-set/reference/image-set-rendering-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-set/reference/image-set-rendering-ref.html#1
+- id: "0149"
+  category: WPT reftest
+  title: css/css-images/image-set/image-set-dpi-rendering-2.html
+  file: css/css-images/image-set/image-set-dpi-rendering-2.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-set/image-set-dpi-rendering-2.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-set/image-set-dpi-rendering-2.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-set/reference/image-set-rendering-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-set/reference/image-set-rendering-ref.html#1
+- id: "0152"
+  category: WPT reftest
+  title: css/css-images/image-set/image-set-empty-url-rendering.html
+  file: css/css-images/image-set/image-set-empty-url-rendering.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-set/image-set-empty-url-rendering.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-set/image-set-empty-url-rendering.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-set/reference/image-set-rendering-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-set/reference/image-set-rendering-ref.html#1
+- id: "0160"
+  category: WPT reftest
+  title: css/css-images/image-set/image-set-no-url-rendering.html
+  file: css/css-images/image-set/image-set-no-url-rendering.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-set/image-set-no-url-rendering.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-set/image-set-no-url-rendering.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-set/reference/image-set-rendering-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-set/reference/image-set-rendering-ref.html#1
+- id: "0162"
+  category: WPT reftest
+  title: css/css-images/image-set/image-set-rendering-2.html
+  file: css/css-images/image-set/image-set-rendering-2.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-set/image-set-rendering-2.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-set/image-set-rendering-2.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-set/reference/image-set-rendering-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-set/reference/image-set-rendering-ref.html#1
+- id: "0167"
+  category: WPT reftest
+  title: css/css-images/image-set/image-set-resolution-001.html
+  file: css/css-images/image-set/image-set-resolution-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-set/image-set-resolution-001.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-set/image-set-resolution-001.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-set/image-set-resolution-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-set/image-set-resolution-001-ref.html#1
+- id: "0171"
+  category: WPT reftest
+  title: css/css-images/image-set/image-set-type-rendering-2.html
+  file: css/css-images/image-set/image-set-type-rendering-2.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-set/image-set-type-rendering-2.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-set/image-set-type-rendering-2.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-set/reference/image-set-rendering-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-set/reference/image-set-rendering-ref.html#1
+- id: "0177"
+  category: WPT reftest
+  title: css/css-images/image-set/image-set-unordered-res-rendering.html
+  file: css/css-images/image-set/image-set-unordered-res-rendering.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/image-set/image-set-unordered-res-rendering.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/image-set/image-set-unordered-res-rendering.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/image-set/reference/image-set-rendering-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-set/reference/image-set-rendering-ref.html#1
+- id: "0183"
+  category: WPT reftest
+  title: css/css-images/linear-gradient-body-sibling-index.html
+  file: css/css-images/linear-gradient-body-sibling-index.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/linear-gradient-body-sibling-index.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/linear-gradient-body-sibling-index.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/linear-gradient-body-sibling-index-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/linear-gradient-body-sibling-index-ref.html#1
+- id: "0184"
+  category: WPT reftest
+  title: css/css-images/linear-gradient-calc-em-units.html
+  file: css/css-images/linear-gradient-calc-em-units.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/linear-gradient-calc-em-units.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/linear-gradient-calc-em-units.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/linear-gradient-calc-em-units-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/linear-gradient-calc-em-units-ref.html#1
+- id: "0204"
+  category: WPT reftest
+  title: css/css-images/object-fit-contain-png-001c.html
+  file: css/css-images/object-fit-contain-png-001c.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-contain-png-001c.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-contain-png-001c.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-contain-png-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-contain-png-001-ref.html#1
+- id: "0209"
+  category: WPT reftest
+  title: css/css-images/object-fit-contain-png-002c.html
+  file: css/css-images/object-fit-contain-png-002c.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-contain-png-002c.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-contain-png-002c.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-contain-png-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-contain-png-002-ref.html#1
+- id: "0214"
+  category: WPT reftest
+  title: css/css-images/object-fit-contain-svg-001e.html
+  file: css/css-images/object-fit-contain-svg-001e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-001e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-001e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-contain-svg-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-contain-svg-001-ref.html#1
+- id: "0216"
+  category: WPT reftest
+  title: css/css-images/object-fit-contain-svg-001o.html
+  file: css/css-images/object-fit-contain-svg-001o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-001o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-001o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-contain-svg-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-contain-svg-001-ref.html#1
+- id: "0218"
+  category: WPT reftest
+  title: css/css-images/object-fit-contain-svg-002e.html
+  file: css/css-images/object-fit-contain-svg-002e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-002e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-002e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-contain-svg-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-contain-svg-002-ref.html#1
+- id: "0220"
+  category: WPT reftest
+  title: css/css-images/object-fit-contain-svg-002o.html
+  file: css/css-images/object-fit-contain-svg-002o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-002o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-002o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-contain-svg-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-contain-svg-002-ref.html#1
+- id: "0222"
+  category: WPT reftest
+  title: css/css-images/object-fit-contain-svg-003e.html
+  file: css/css-images/object-fit-contain-svg-003e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-003e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-003e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-contain-svg-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-contain-svg-003-ref.html#1
+- id: "0224"
+  category: WPT reftest
+  title: css/css-images/object-fit-contain-svg-003o.html
+  file: css/css-images/object-fit-contain-svg-003o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-003o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-003o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-contain-svg-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-contain-svg-003-ref.html#1
+- id: "0226"
+  category: WPT reftest
+  title: css/css-images/object-fit-contain-svg-004e.html
+  file: css/css-images/object-fit-contain-svg-004e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-004e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-004e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-contain-svg-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-contain-svg-004-ref.html#1
+- id: "0228"
+  category: WPT reftest
+  title: css/css-images/object-fit-contain-svg-004o.html
+  file: css/css-images/object-fit-contain-svg-004o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-004o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-004o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-contain-svg-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-contain-svg-004-ref.html#1
+- id: "0230"
+  category: WPT reftest
+  title: css/css-images/object-fit-contain-svg-005e.html
+  file: css/css-images/object-fit-contain-svg-005e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-005e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-005e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-contain-svg-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-contain-svg-005-ref.html#1
+- id: "0232"
+  category: WPT reftest
+  title: css/css-images/object-fit-contain-svg-005o.html
+  file: css/css-images/object-fit-contain-svg-005o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-005o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-005o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-contain-svg-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-contain-svg-005-ref.html#1
+- id: "0234"
+  category: WPT reftest
+  title: css/css-images/object-fit-contain-svg-006e.html
+  file: css/css-images/object-fit-contain-svg-006e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-contain-svg-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-contain-svg-006-ref.html#1
+- id: "0236"
+  category: WPT reftest
+  title: css/css-images/object-fit-contain-svg-006o.html
+  file: css/css-images/object-fit-contain-svg-006o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-contain-svg-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-contain-svg-006-ref.html#1
+- id: "0238"
+  category: WPT reftest
+  title: css/css-images/object-fit-containcontainintrinsicsize-png-001c.tentative.html
+  file: css/css-images/object-fit-containcontainintrinsicsize-png-001c.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-containcontainintrinsicsize-png-001c.tentative.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-containcontainintrinsicsize-png-001c.tentative.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-containsize-png-001-ref.tentative.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-containsize-png-001-ref.tentative.html#1
+- id: "0242"
+  category: WPT reftest
+  title: css/css-images/object-fit-containsize-png-001c.tentative.html
+  file: css/css-images/object-fit-containsize-png-001c.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-containsize-png-001c.tentative.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-containsize-png-001c.tentative.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-containsize-png-001-ref.tentative.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-containsize-png-001-ref.tentative.html#1
+- id: "0246"
+  category: WPT reftest
+  title: css/css-images/object-fit-cover-png-001c.html
+  file: css/css-images/object-fit-cover-png-001c.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-cover-png-001c.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-cover-png-001c.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-cover-png-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-cover-png-001-ref.html#1
+- id: "0251"
+  category: WPT reftest
+  title: css/css-images/object-fit-cover-png-002c.html
+  file: css/css-images/object-fit-cover-png-002c.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-cover-png-002c.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-cover-png-002c.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-cover-png-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-cover-png-002-ref.html#1
+- id: "0256"
+  category: WPT reftest
+  title: css/css-images/object-fit-cover-svg-001e.html
+  file: css/css-images/object-fit-cover-svg-001e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-001e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-001e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-cover-svg-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-cover-svg-001-ref.html#1
+- id: "0258"
+  category: WPT reftest
+  title: css/css-images/object-fit-cover-svg-001o.html
+  file: css/css-images/object-fit-cover-svg-001o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-001o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-001o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-cover-svg-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-cover-svg-001-ref.html#1
+- id: "0260"
+  category: WPT reftest
+  title: css/css-images/object-fit-cover-svg-002e.html
+  file: css/css-images/object-fit-cover-svg-002e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-002e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-002e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-cover-svg-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-cover-svg-002-ref.html#1
+- id: "0262"
+  category: WPT reftest
+  title: css/css-images/object-fit-cover-svg-002o.html
+  file: css/css-images/object-fit-cover-svg-002o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-002o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-002o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-cover-svg-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-cover-svg-002-ref.html#1
+- id: "0264"
+  category: WPT reftest
+  title: css/css-images/object-fit-cover-svg-003e.html
+  file: css/css-images/object-fit-cover-svg-003e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-003e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-003e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-cover-svg-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-cover-svg-003-ref.html#1
+- id: "0266"
+  category: WPT reftest
+  title: css/css-images/object-fit-cover-svg-003o.html
+  file: css/css-images/object-fit-cover-svg-003o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-003o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-003o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-cover-svg-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-cover-svg-003-ref.html#1
+- id: "0268"
+  category: WPT reftest
+  title: css/css-images/object-fit-cover-svg-004e.html
+  file: css/css-images/object-fit-cover-svg-004e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-004e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-004e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-cover-svg-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-cover-svg-004-ref.html#1
+- id: "0270"
+  category: WPT reftest
+  title: css/css-images/object-fit-cover-svg-004o.html
+  file: css/css-images/object-fit-cover-svg-004o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-004o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-004o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-cover-svg-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-cover-svg-004-ref.html#1
+- id: "0272"
+  category: WPT reftest
+  title: css/css-images/object-fit-cover-svg-005e.html
+  file: css/css-images/object-fit-cover-svg-005e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-005e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-005e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-cover-svg-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-cover-svg-005-ref.html#1
+- id: "0274"
+  category: WPT reftest
+  title: css/css-images/object-fit-cover-svg-005o.html
+  file: css/css-images/object-fit-cover-svg-005o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-005o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-005o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-cover-svg-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-cover-svg-005-ref.html#1
+- id: "0276"
+  category: WPT reftest
+  title: css/css-images/object-fit-cover-svg-006e.html
+  file: css/css-images/object-fit-cover-svg-006e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-006e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-006e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-cover-svg-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-cover-svg-006-ref.html#1
+- id: "0278"
+  category: WPT reftest
+  title: css/css-images/object-fit-cover-svg-006o.html
+  file: css/css-images/object-fit-cover-svg-006o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-006o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-cover-svg-006o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-cover-svg-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-cover-svg-006-ref.html#1
+- id: "0280"
+  category: WPT reftest
+  title: css/css-images/object-fit-dyn-aspect-ratio-001.html
+  file: css/css-images/object-fit-dyn-aspect-ratio-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-dyn-aspect-ratio-001.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-dyn-aspect-ratio-001.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-dyn-aspect-ratio-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-dyn-aspect-ratio-001-ref.html#1
+- id: "0281"
+  category: WPT reftest
+  title: css/css-images/object-fit-dyn-aspect-ratio-002.html
+  file: css/css-images/object-fit-dyn-aspect-ratio-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-dyn-aspect-ratio-002.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-dyn-aspect-ratio-002.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-dyn-aspect-ratio-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-dyn-aspect-ratio-002-ref.html#1
+- id: "0282"
+  category: WPT reftest
+  title: css/css-images/object-fit-fill-png-001c.html
+  file: css/css-images/object-fit-fill-png-001c.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-fill-png-001c.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-fill-png-001c.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-fill-png-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-fill-png-001-ref.html#1
+- id: "0287"
+  category: WPT reftest
+  title: css/css-images/object-fit-fill-png-002c.html
+  file: css/css-images/object-fit-fill-png-002c.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-fill-png-002c.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-fill-png-002c.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-fill-png-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-fill-png-002-ref.html#1
+- id: "0292"
+  category: WPT reftest
+  title: css/css-images/object-fit-fill-svg-001e.html
+  file: css/css-images/object-fit-fill-svg-001e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-001e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-001e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-fill-svg-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-fill-svg-001-ref.html#1
+- id: "0294"
+  category: WPT reftest
+  title: css/css-images/object-fit-fill-svg-001o.html
+  file: css/css-images/object-fit-fill-svg-001o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-001o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-001o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-fill-svg-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-fill-svg-001-ref.html#1
+- id: "0296"
+  category: WPT reftest
+  title: css/css-images/object-fit-fill-svg-002e.html
+  file: css/css-images/object-fit-fill-svg-002e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-002e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-002e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-fill-svg-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-fill-svg-002-ref.html#1
+- id: "0298"
+  category: WPT reftest
+  title: css/css-images/object-fit-fill-svg-002o.html
+  file: css/css-images/object-fit-fill-svg-002o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-002o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-002o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-fill-svg-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-fill-svg-002-ref.html#1
+- id: "0300"
+  category: WPT reftest
+  title: css/css-images/object-fit-fill-svg-003e.html
+  file: css/css-images/object-fit-fill-svg-003e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-003e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-003e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-fill-svg-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-fill-svg-003-ref.html#1
+- id: "0302"
+  category: WPT reftest
+  title: css/css-images/object-fit-fill-svg-003o.html
+  file: css/css-images/object-fit-fill-svg-003o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-003o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-003o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-fill-svg-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-fill-svg-003-ref.html#1
+- id: "0304"
+  category: WPT reftest
+  title: css/css-images/object-fit-fill-svg-004e.html
+  file: css/css-images/object-fit-fill-svg-004e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-004e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-004e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-fill-svg-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-fill-svg-004-ref.html#1
+- id: "0306"
+  category: WPT reftest
+  title: css/css-images/object-fit-fill-svg-004o.html
+  file: css/css-images/object-fit-fill-svg-004o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-004o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-004o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-fill-svg-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-fill-svg-004-ref.html#1
+- id: "0308"
+  category: WPT reftest
+  title: css/css-images/object-fit-fill-svg-005e.html
+  file: css/css-images/object-fit-fill-svg-005e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-005e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-005e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-fill-svg-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-fill-svg-005-ref.html#1
+- id: "0310"
+  category: WPT reftest
+  title: css/css-images/object-fit-fill-svg-005o.html
+  file: css/css-images/object-fit-fill-svg-005o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-005o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-005o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-fill-svg-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-fill-svg-005-ref.html#1
+- id: "0312"
+  category: WPT reftest
+  title: css/css-images/object-fit-fill-svg-006e.html
+  file: css/css-images/object-fit-fill-svg-006e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-006e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-006e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-fill-svg-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-fill-svg-006-ref.html#1
+- id: "0314"
+  category: WPT reftest
+  title: css/css-images/object-fit-fill-svg-006o.html
+  file: css/css-images/object-fit-fill-svg-006o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-006o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-fill-svg-006o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-fill-svg-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-fill-svg-006-ref.html#1
+- id: "0316"
+  category: WPT reftest
+  title: css/css-images/object-fit-none-png-001c.html
+  file: css/css-images/object-fit-none-png-001c.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-none-png-001c.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-none-png-001c.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-none-png-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-none-png-001-ref.html#1
+- id: "0321"
+  category: WPT reftest
+  title: css/css-images/object-fit-none-png-002c.html
+  file: css/css-images/object-fit-none-png-002c.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-none-png-002c.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-none-png-002c.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-none-png-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-none-png-002-ref.html#1
+- id: "0326"
+  category: WPT reftest
+  title: css/css-images/object-fit-none-svg-001e.html
+  file: css/css-images/object-fit-none-svg-001e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-001e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-001e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-none-svg-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-none-svg-001-ref.html#1
+- id: "0328"
+  category: WPT reftest
+  title: css/css-images/object-fit-none-svg-001o.html
+  file: css/css-images/object-fit-none-svg-001o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-001o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-001o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-none-svg-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-none-svg-001-ref.html#1
+- id: "0330"
+  category: WPT reftest
+  title: css/css-images/object-fit-none-svg-002e.html
+  file: css/css-images/object-fit-none-svg-002e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-002e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-002e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-none-svg-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-none-svg-002-ref.html#1
+- id: "0332"
+  category: WPT reftest
+  title: css/css-images/object-fit-none-svg-002o.html
+  file: css/css-images/object-fit-none-svg-002o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-002o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-002o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-none-svg-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-none-svg-002-ref.html#1
+- id: "0334"
+  category: WPT reftest
+  title: css/css-images/object-fit-none-svg-003e.html
+  file: css/css-images/object-fit-none-svg-003e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-003e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-003e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-none-svg-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-none-svg-003-ref.html#1
+- id: "0336"
+  category: WPT reftest
+  title: css/css-images/object-fit-none-svg-003o.html
+  file: css/css-images/object-fit-none-svg-003o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-003o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-003o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-none-svg-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-none-svg-003-ref.html#1
+- id: "0338"
+  category: WPT reftest
+  title: css/css-images/object-fit-none-svg-004e.html
+  file: css/css-images/object-fit-none-svg-004e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-004e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-004e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-none-svg-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-none-svg-004-ref.html#1
+- id: "0340"
+  category: WPT reftest
+  title: css/css-images/object-fit-none-svg-004o.html
+  file: css/css-images/object-fit-none-svg-004o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-004o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-004o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-none-svg-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-none-svg-004-ref.html#1
+- id: "0342"
+  category: WPT reftest
+  title: css/css-images/object-fit-none-svg-005e.html
+  file: css/css-images/object-fit-none-svg-005e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-005e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-005e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-none-svg-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-none-svg-005-ref.html#1
+- id: "0344"
+  category: WPT reftest
+  title: css/css-images/object-fit-none-svg-005o.html
+  file: css/css-images/object-fit-none-svg-005o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-005o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-005o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-none-svg-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-none-svg-005-ref.html#1
+- id: "0346"
+  category: WPT reftest
+  title: css/css-images/object-fit-none-svg-006e.html
+  file: css/css-images/object-fit-none-svg-006e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-006e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-006e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-none-svg-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-none-svg-006-ref.html#1
+- id: "0348"
+  category: WPT reftest
+  title: css/css-images/object-fit-none-svg-006o.html
+  file: css/css-images/object-fit-none-svg-006o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-006o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-none-svg-006o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-none-svg-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-none-svg-006-ref.html#1
+- id: "0350"
+  category: WPT reftest
+  title: css/css-images/object-fit-scale-down-png-001c.html
+  file: css/css-images/object-fit-scale-down-png-001c.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-png-001c.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-png-001c.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-scale-down-png-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-scale-down-png-001-ref.html#1
+- id: "0355"
+  category: WPT reftest
+  title: css/css-images/object-fit-scale-down-png-002c.html
+  file: css/css-images/object-fit-scale-down-png-002c.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-png-002c.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-png-002c.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-scale-down-png-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-scale-down-png-002-ref.html#1
+- id: "0360"
+  category: WPT reftest
+  title: css/css-images/object-fit-scale-down-svg-001e.html
+  file: css/css-images/object-fit-scale-down-svg-001e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-001e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-001e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-scale-down-svg-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-scale-down-svg-001-ref.html#1
+- id: "0362"
+  category: WPT reftest
+  title: css/css-images/object-fit-scale-down-svg-001o.html
+  file: css/css-images/object-fit-scale-down-svg-001o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-001o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-001o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-scale-down-svg-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-scale-down-svg-001-ref.html#1
+- id: "0364"
+  category: WPT reftest
+  title: css/css-images/object-fit-scale-down-svg-002e.html
+  file: css/css-images/object-fit-scale-down-svg-002e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-002e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-002e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-scale-down-svg-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-scale-down-svg-002-ref.html#1
+- id: "0366"
+  category: WPT reftest
+  title: css/css-images/object-fit-scale-down-svg-002o.html
+  file: css/css-images/object-fit-scale-down-svg-002o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-002o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-002o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-scale-down-svg-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-scale-down-svg-002-ref.html#1
+- id: "0368"
+  category: WPT reftest
+  title: css/css-images/object-fit-scale-down-svg-003e.html
+  file: css/css-images/object-fit-scale-down-svg-003e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-003e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-003e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-scale-down-svg-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-scale-down-svg-003-ref.html#1
+- id: "0370"
+  category: WPT reftest
+  title: css/css-images/object-fit-scale-down-svg-003o.html
+  file: css/css-images/object-fit-scale-down-svg-003o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-003o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-003o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-scale-down-svg-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-scale-down-svg-003-ref.html#1
+- id: "0372"
+  category: WPT reftest
+  title: css/css-images/object-fit-scale-down-svg-004e.html
+  file: css/css-images/object-fit-scale-down-svg-004e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-004e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-004e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-scale-down-svg-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-scale-down-svg-004-ref.html#1
+- id: "0374"
+  category: WPT reftest
+  title: css/css-images/object-fit-scale-down-svg-004o.html
+  file: css/css-images/object-fit-scale-down-svg-004o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-004o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-004o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-scale-down-svg-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-scale-down-svg-004-ref.html#1
+- id: "0376"
+  category: WPT reftest
+  title: css/css-images/object-fit-scale-down-svg-005e.html
+  file: css/css-images/object-fit-scale-down-svg-005e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-005e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-005e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-scale-down-svg-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-scale-down-svg-005-ref.html#1
+- id: "0378"
+  category: WPT reftest
+  title: css/css-images/object-fit-scale-down-svg-005o.html
+  file: css/css-images/object-fit-scale-down-svg-005o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-005o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-005o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-scale-down-svg-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-scale-down-svg-005-ref.html#1
+- id: "0380"
+  category: WPT reftest
+  title: css/css-images/object-fit-scale-down-svg-006e.html
+  file: css/css-images/object-fit-scale-down-svg-006e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-006e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-006e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-scale-down-svg-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-scale-down-svg-006-ref.html#1
+- id: "0382"
+  category: WPT reftest
+  title: css/css-images/object-fit-scale-down-svg-006o.html
+  file: css/css-images/object-fit-scale-down-svg-006o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-006o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-006o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-scale-down-svg-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-scale-down-svg-006-ref.html#1
+- id: "0384"
+  category: WPT reftest
+  title: css/css-images/object-position-png-001c.html
+  file: css/css-images/object-position-png-001c.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-png-001c.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-png-001c.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-png-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-png-001-ref.html#1
+- id: "0385"
+  category: WPT reftest
+  title: css/css-images/object-position-png-001e.html
+  file: css/css-images/object-position-png-001e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-png-001e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-png-001e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-png-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-png-001-ref.html#1
+- id: "0386"
+  category: WPT reftest
+  title: css/css-images/object-position-png-001i.html
+  file: css/css-images/object-position-png-001i.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-png-001i.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-png-001i.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-png-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-png-001-ref.html#1
+- id: "0387"
+  category: WPT reftest
+  title: css/css-images/object-position-png-001o.html
+  file: css/css-images/object-position-png-001o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-png-001o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-png-001o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-png-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-png-001-ref.html#1
+- id: "0388"
+  category: WPT reftest
+  title: css/css-images/object-position-png-001p.html
+  file: css/css-images/object-position-png-001p.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-png-001p.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-png-001p.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-png-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-png-001-ref.html#1
+- id: "0389"
+  category: WPT reftest
+  title: css/css-images/object-position-png-002c.html
+  file: css/css-images/object-position-png-002c.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-png-002c.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-png-002c.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-png-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-png-002-ref.html#1
+- id: "0390"
+  category: WPT reftest
+  title: css/css-images/object-position-png-002e.html
+  file: css/css-images/object-position-png-002e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-png-002e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-png-002e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-png-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-png-002-ref.html#1
+- id: "0391"
+  category: WPT reftest
+  title: css/css-images/object-position-png-002i.html
+  file: css/css-images/object-position-png-002i.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-png-002i.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-png-002i.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-png-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-png-002-ref.html#1
+- id: "0392"
+  category: WPT reftest
+  title: css/css-images/object-position-png-002o.html
+  file: css/css-images/object-position-png-002o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-png-002o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-png-002o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-png-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-png-002-ref.html#1
+- id: "0393"
+  category: WPT reftest
+  title: css/css-images/object-position-png-002p.html
+  file: css/css-images/object-position-png-002p.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-png-002p.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-png-002p.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-png-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-png-002-ref.html#1
+- id: "0394"
+  category: WPT reftest
+  title: css/css-images/object-position-svg-001e.html
+  file: css/css-images/object-position-svg-001e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-svg-001e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-svg-001e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-svg-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-svg-001-ref.html#1
+- id: "0395"
+  category: WPT reftest
+  title: css/css-images/object-position-svg-001i.html
+  file: css/css-images/object-position-svg-001i.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-svg-001i.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-svg-001i.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-svg-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-svg-001-ref.html#1
+- id: "0396"
+  category: WPT reftest
+  title: css/css-images/object-position-svg-001o.html
+  file: css/css-images/object-position-svg-001o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-svg-001o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-svg-001o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-svg-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-svg-001-ref.html#1
+- id: "0397"
+  category: WPT reftest
+  title: css/css-images/object-position-svg-001p.html
+  file: css/css-images/object-position-svg-001p.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-svg-001p.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-svg-001p.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-svg-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-svg-001-ref.html#1
+- id: "0398"
+  category: WPT reftest
+  title: css/css-images/object-position-svg-002e.html
+  file: css/css-images/object-position-svg-002e.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-svg-002e.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-svg-002e.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-svg-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-svg-002-ref.html#1
+- id: "0399"
+  category: WPT reftest
+  title: css/css-images/object-position-svg-002i.html
+  file: css/css-images/object-position-svg-002i.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-svg-002i.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-svg-002i.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-svg-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-svg-002-ref.html#1
+- id: "0400"
+  category: WPT reftest
+  title: css/css-images/object-position-svg-002o.html
+  file: css/css-images/object-position-svg-002o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-svg-002o.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-svg-002o.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-svg-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-svg-002-ref.html#1
+- id: "0401"
+  category: WPT reftest
+  title: css/css-images/object-position-svg-002p.html
+  file: css/css-images/object-position-svg-002p.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-position-svg-002p.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-position-svg-002p.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-position-svg-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-position-svg-002-ref.html#1
+- id: "0405"
+  category: WPT reftest
+  title: css/css-images/object-view-box-fit-contain-img.html
+  file: css/css-images/object-view-box-fit-contain-img.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-view-box-fit-contain-img.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-view-box-fit-contain-img.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-view-box-fit-contain-img-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-view-box-fit-contain-img-ref.html#1
+- id: "0406"
+  category: WPT reftest
+  title: css/css-images/object-view-box-fit-contain-svg.html
+  file: css/css-images/object-view-box-fit-contain-svg.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-view-box-fit-contain-svg.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-view-box-fit-contain-svg.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-view-box-fit-contain-svg-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-view-box-fit-contain-svg-ref.html#1
+- id: "0409"
+  category: WPT reftest
+  title: css/css-images/object-view-box-fit-cover-img.html
+  file: css/css-images/object-view-box-fit-cover-img.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-view-box-fit-cover-img.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-view-box-fit-cover-img.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-view-box-fit-cover-img-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-view-box-fit-cover-img-ref.html#1
+- id: "0410"
+  category: WPT reftest
+  title: css/css-images/object-view-box-fit-cover-svg.html
+  file: css/css-images/object-view-box-fit-cover-svg.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-view-box-fit-cover-svg.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-view-box-fit-cover-svg.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-view-box-fit-cover-svg-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-view-box-fit-cover-svg-ref.html#1
+- id: "0412"
+  category: WPT reftest
+  title: css/css-images/object-view-box-fit-fill-canvas.html
+  file: css/css-images/object-view-box-fit-fill-canvas.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-view-box-fit-fill-canvas.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-view-box-fit-fill-canvas.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-view-box-fit-fill-canvas-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-view-box-fit-fill-canvas-ref.html#1
+- id: "0413"
+  category: WPT reftest
+  title: css/css-images/object-view-box-fit-fill-img.html
+  file: css/css-images/object-view-box-fit-fill-img.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-view-box-fit-fill-img.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-view-box-fit-fill-img.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-view-box-fit-fill-img-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-view-box-fit-fill-img-ref.html#1
+- id: "0414"
+  category: WPT reftest
+  title: css/css-images/object-view-box-fit-fill-svg.html
+  file: css/css-images/object-view-box-fit-fill-svg.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-view-box-fit-fill-svg.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-view-box-fit-fill-svg.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-view-box-fit-fill-svg-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-view-box-fit-fill-svg-ref.html#1
+- id: "0415"
+  category: WPT reftest
+  title: css/css-images/object-view-box-fit-fill-video.html
+  file: css/css-images/object-view-box-fit-fill-video.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-view-box-fit-fill-video.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-view-box-fit-fill-video.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-view-box-fit-fill-video-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-view-box-fit-fill-video-ref.html#1
+- id: "0417"
+  category: WPT reftest
+  title: css/css-images/object-view-box-fit-none-img.html
+  file: css/css-images/object-view-box-fit-none-img.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-view-box-fit-none-img.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-view-box-fit-none-img.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-view-box-fit-none-img-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-view-box-fit-none-img-ref.html#1
+- id: "0418"
+  category: WPT reftest
+  title: css/css-images/object-view-box-fit-none-svg.html
+  file: css/css-images/object-view-box-fit-none-svg.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-view-box-fit-none-svg.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-view-box-fit-none-svg.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-view-box-fit-none-svg-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-view-box-fit-none-svg-ref.html#1
+- id: "0420"
+  category: WPT reftest
+  title: css/css-images/object-view-box-iframe.html
+  file: css/css-images/object-view-box-iframe.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-view-box-iframe.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-view-box-iframe.html&pixelRatio=0&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0422"
+  category: WPT reftest
+  title: css/css-images/object-view-box-property-changed.html
+  file: css/css-images/object-view-box-property-changed.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-view-box-property-changed.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-view-box-property-changed.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-view-box-property-changed-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-view-box-property-changed-ref.html#1
+- id: "0427"
+  category: WPT reftest
+  title: css/css-images/object-view-box-size-containment.html
+  file: css/css-images/object-view-box-size-containment.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-view-box-size-containment.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-view-box-size-containment.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-view-box-size-containment-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-view-box-size-containment-ref.html#1
+- id: "0429"
+  category: WPT reftest
+  title: css/css-images/object-view-box-writing-mode-canvas.html
+  file: css/css-images/object-view-box-writing-mode-canvas.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-view-box-writing-mode-canvas.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-view-box-writing-mode-canvas.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-view-box-writing-mode-canvas-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-view-box-writing-mode-canvas-ref.html#1
+- id: "0432"
+  category: WPT reftest
+  title: css/css-images/object-view-box-writing-mode-video.html
+  file: css/css-images/object-view-box-writing-mode-video.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/object-view-box-writing-mode-video.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/object-view-box-writing-mode-video.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-images/object-view-box-writing-mode-video-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-view-box-writing-mode-video-ref.html#1
+- id: "0011"
+  category: WPT reftest
+  title: css/css-images/conic-gradient-color-with-sibling-index.html
+  file: css/css-images/conic-gradient-color-with-sibling-index.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-images/conic-gradient-color-with-sibling-index.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-images/conic-gradient-color-with-sibling-index.html&pixelRatio=0&zoom=1&spread=false
+  errorSide: v2.42.0, v2.40.0
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

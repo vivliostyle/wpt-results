@@ -1,0 +1,51 @@
+# v2.42.0 vs v2.40.0 comparison report
+
+- Compared entries: 16
+- Entries with differences: 3 (pending: 3, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
+- Page count changed: 0
+- Screenshot mismatches: 0
+- Outcome summary: {"known-fail":3,"pass":13}
+
+## Differences
+
+- [0001] [WPT reftest] css/css-style-attr/style-attr-braces-001.xht
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-style-attr/reference/ref-green-on-green.xht (==)
+  v2.42.0 result: FAIL
+  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-001.xht&pixelRatio=0&zoom=1&spread=false
+  v2.42.0 page 1: diffRatio=0.014162802457827646, diffPixels=11875
+  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false
+  v2.40.0 result: FAIL
+  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-001.xht&pixelRatio=0&zoom=1&spread=false
+  v2.40.0 page 1: diffRatio=0.014162802457827646, diffPixels=11875
+  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false
+
+- [0004] [WPT reftest] css/css-style-attr/style-attr-braces-003.xht
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-style-attr/reference/ref-green-on-green.xht (==)
+  v2.42.0 result: FAIL
+  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-003.xht&pixelRatio=0&zoom=1&spread=false
+  v2.42.0 page 1: diffRatio=0.013608216930005343, diffPixels=11410
+  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false
+  v2.40.0 result: FAIL
+  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-003.xht&pixelRatio=0&zoom=1&spread=false
+  v2.40.0 page 1: diffRatio=0.013608216930005343, diffPixels=11410
+  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false
+
+- [0015] [WPT reftest] css/css-style-attr/style-attr-urls-002.xht
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-style-attr/reference/ref-green-on-green.xht (==)
+  v2.42.0 result: FAIL
+  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-urls-002.xht&pixelRatio=0&zoom=1&spread=false
+  v2.42.0 page 1: diffRatio=0.013608216930005343, diffPixels=11410
+  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false
+  v2.40.0 result: FAIL
+  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-urls-002.xht&pixelRatio=0&zoom=1&spread=false
+  v2.40.0 page 1: diffRatio=0.013608216930005343, diffPixels=11410
+  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false
+

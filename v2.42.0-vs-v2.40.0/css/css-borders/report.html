@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>v2.42.0 vs v2.40.0 report</title>
+  <style>
+    :root { color-scheme: light; --bg:#f6f4ef; --panel:#fffdf8; --ink:#222; --muted:#6b665c; --line:#ddd4c4; --pass:#1f7a4d; --fail:#b42318; --error:#9c2a2a; --improvement:#0f766e; --neutral:#7a6f5a; }
+    body { margin:0; font:14px/1.4 ui-sans-serif, system-ui, sans-serif; color:var(--ink); background:linear-gradient(180deg,#f3efe6 0%,#f8f6f1 100%); }
+    main { max-width:1200px; margin:0 auto; padding:32px 24px 64px; }
+    h1 { margin:0 0 8px; font-size:28px; }
+    p { margin:0; color:var(--muted); }
+    .summary { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; margin:24px 0; }
+    .card { background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:16px; box-shadow:0 8px 24px rgba(0,0,0,.04); }
+    .label { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
+    .value { font-size:28px; font-weight:700; margin-top:6px; }
+    table { width:100%; border-collapse:collapse; background:var(--panel); border:1px solid var(--line); border-radius:18px; overflow:hidden; }
+    th, td { padding:12px 14px; border-bottom:1px solid var(--line); vertical-align:top; text-align:left; }
+    th { font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); background:#f5f0e6; }
+    tr:last-child td { border-bottom:none; }
+    .badge { display:inline-block; padding:3px 9px; border-radius:999px; font-size:12px; font-weight:700; color:#fff; }
+    .badge.pass { background:var(--pass); }
+    .badge.fail { background:var(--fail); }
+    .badge.error { background:var(--error); }
+    .badge.improvement { background:var(--improvement); }
+    .badge.neutral { background:var(--neutral); }
+    .filter-badge { border:none; cursor:pointer; }
+    .badge-link, .test-link { color:inherit; text-decoration:none; }
+    .badge-link:hover .badge { filter:brightness(.94); }
+    .test-link:hover { text-decoration:underline; }
+    .change-cell { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    .diff-links { display:flex; gap:6px; flex-wrap:wrap; }
+    .diff-link { color:var(--muted); text-decoration:none; font-size:12px; border:1px solid var(--line); border-radius:999px; padding:2px 8px; background:#f5f0e6; }
+    .diff-link:hover { text-decoration:underline; }
+    .toolbar { display:flex; align-items:center; gap:10px; margin:0 0 18px; color:var(--muted); }
+    .toolbar[hidden] { display:none; }
+    .filter-reset { border:1px solid var(--line); background:var(--panel); border-radius:999px; padding:4px 10px; cursor:pointer; }
+    .is-hidden { display:none; }
+    .test-path { font-family:ui-monospace, SFMono-Regular, monospace; }
+    .breakdown { font-size:12px; color:var(--muted); margin-top:6px; line-height:1.6; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>v2.42.0 vs v2.40.0</h1>
+    <p>reftest-diff mode report generated at 2026-05-03T09:31:30.898Z</p>
+    <section class="summary">
+      <div class="card"><div class="label">Compared</div><div class="value">60</div></div>
+      <div class="card"><div class="label">PASS</div><div class="value">46</div></div>
+      <div class="card"><div class="label">FAIL</div><div class="value">14</div></div>
+      <div class="card"><div class="label">Errors</div><div class="value">0</div></div>
+    </section>
+    <div class="toolbar" id="filter-toolbar" hidden>
+      <span>Filtered by change: <strong id="filter-value"></strong></span>
+      <button type="button" class="filter-reset" id="filter-reset">Clear</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Test</th>
+          <th>v2.40.0</th>
+          <th>v2.42.0</th>
+          <th>Change</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-radius-currentcolor.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-radius-currentcolor.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-radius-currentcolor.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-radius-currentcolor.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-radius-greater-than-width.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-radius-greater-than-width.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-radius-greater-than-width.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-radius-greater-than-width.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-clips-background.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-clips-background.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-clips-background.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-clips-background.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0004-WPT_reftest-css-css-borders-border-shape-border-shape-collapsed-shape-clips-background.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0004-WPT_reftest-css-css-borders-border-shape-border-shape-collapsed-shape-clips-background.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-combined-shadow.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0005-WPT_reftest-css-css-borders-border-shape-border-shape-combined-shadow.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0005-WPT_reftest-css-css-borders-border-shape-border-shape-combined-shadow.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-double-shape-default.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-double-shape-default.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-double-shape-default.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-double-shape-default.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-dynamic-color.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0007-WPT_reftest-css-css-borders-border-shape-border-shape-dynamic-color.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0007-WPT_reftest-css-css-borders-border-shape-border-shape-dynamic-color.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-geometry-box.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-geometry-box.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-geometry-box.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-geometry-box.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0008-WPT_reftest-css-css-borders-border-shape-border-shape-geometry-box.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0008-WPT_reftest-css-css-borders-border-shape-border-shape-geometry-box.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-half-border-box-default.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-half-border-box-default.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-half-border-box-default.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-half-border-box-default.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-ignore-radius.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0010-WPT_reftest-css-css-borders-border-shape-border-shape-ignore-radius.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0010-WPT_reftest-css-css-borders-border-shape-border-shape-ignore-radius.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-inner-outer.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-inner-outer.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inner-outer.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inner-outer.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-blur.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-inset-shadow-blur.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-blur.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-blur.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-negative-spread.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-inset-shadow-negative-spread.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-negative-spread.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-negative-spread.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-inset-shadow.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-path.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-outline-double-path.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-path.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-path.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-shape.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-outline-double-shape.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-shape.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-shape.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-outline-double.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-outline-double.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-outline-offset.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-outline-offset.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-offset.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-offset.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-outline-with-border.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0019-WPT_reftest-css-css-borders-border-shape-border-shape-outline-with-border.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0019-WPT_reftest-css-css-borders-border-shape-border-shape-outline-with-border.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-outline.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-outline.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-overflow-child-clip.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-overflow-child-clip.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-child-clip.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-child-clip.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-canvas.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-overflow-replaced-canvas.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-canvas.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-canvas.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-img.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-overflow-replaced-img.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-img.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-img.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-self.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-overflow-replaced-self.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-self.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-self.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-overflow-solid-background.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-overflow-solid-background.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-solid-background.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-solid-background.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-overflow.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-overflow.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-shadow-blur.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0028-WPT_reftest-css-css-borders-border-shape-border-shape-shadow-blur.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0028-WPT_reftest-css-css-borders-border-shape-border-shape-shadow-blur.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-shadow-circle.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0029-WPT_reftest-css-css-borders-border-shape-border-shape-shadow-circle.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0029-WPT_reftest-css-css-borders-border-shape-border-shape-shadow-circle.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-shadow-inset-blur.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0030-WPT_reftest-css-css-borders-border-shape-border-shape-shadow-inset-blur.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0030-WPT_reftest-css-css-borders-border-shape-border-shape-shadow-inset-blur.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-shadow-negative-spread.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-shadow-negative-spread.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-negative-spread.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-negative-spread.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-shadow-semitransparent.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-shadow-semitransparent.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-semitransparent.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-semitransparent.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-shadow-transparent.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-shadow-transparent.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-transparent.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-transparent.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-shadow.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-shadow.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-stroke-from-border.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0035-WPT_reftest-css-css-borders-border-shape-border-shape-stroke-from-border.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0035-WPT_reftest-css-css-borders-border-shape-border-shape-stroke-from-border.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-stroke-invalidation.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-stroke-invalidation.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-invalidation.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-invalidation.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape/border-shape-two-shapes-shadow.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0037-WPT_reftest-css-css-borders-border-shape-border-shape-two-shapes-shadow.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0037-WPT_reftest-css-css-borders-border-shape-border-shape-two-shapes-shadow.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/border-shape-absolute-coords-shape.tentative.html" target="_blank" rel="noopener noreferrer">css/css-borders/border-shape-absolute-coords-shape.tentative.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/border-shape-absolute-coords-shape.tentative.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape-absolute-coords-shape.tentative.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/borders-on-sub-unit-sized-elements.html" target="_blank" rel="noopener noreferrer">css/css-borders/borders-on-sub-unit-sized-elements.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/borders-on-sub-unit-sized-elements.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/borders-on-sub-unit-sized-elements.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-overflow.html" target="_blank" rel="noopener noreferrer">css/css-borders/corner-shape/corner-shape-backdrop-filter-overflow.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-overflow.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-overflow.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter.html" target="_blank" rel="noopener noreferrer">css/css-borders/corner-shape/corner-shape-backdrop-filter.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/corner-shape/corner-shape-bevel-overflow-composite.html" target="_blank" rel="noopener noreferrer">css/css-borders/corner-shape/corner-shape-bevel-overflow-composite.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-bevel-overflow-composite.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-bevel-overflow-composite.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/corner-shape/corner-shape-bevel-overflow.html" target="_blank" rel="noopener noreferrer">css/css-borders/corner-shape/corner-shape-bevel-overflow.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-bevel-overflow.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-bevel-overflow.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/corner-shape/corner-shape-fill.html" target="_blank" rel="noopener noreferrer">css/css-borders/corner-shape/corner-shape-fill.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-fill.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-fill.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/corner-shape/corner-shape-iframe-border.html" target="_blank" rel="noopener noreferrer">css/css-borders/corner-shape/corner-shape-iframe-border.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-iframe-border.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-iframe-border.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0045-WPT_reftest-css-css-borders-corner-shape-corner-shape-iframe-border.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0045-WPT_reftest-css-css-borders-corner-shape-corner-shape-iframe-border.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border.html" target="_blank" rel="noopener noreferrer">css/css-borders/corner-shape/corner-shape-img-border.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/corner-shape/corner-shape-img.html" target="_blank" rel="noopener noreferrer">css/css-borders/corner-shape/corner-shape-img.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/corner-shape/corner-shape-inset-shadow.html" target="_blank" rel="noopener noreferrer">css/css-borders/corner-shape/corner-shape-inset-shadow.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-inset-shadow.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-inset-shadow.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/corner-shape/corner-shape-noop-keyframe.html" target="_blank" rel="noopener noreferrer">css/css-borders/corner-shape/corner-shape-noop-keyframe.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-noop-keyframe.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-noop-keyframe.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/corner-shape/corner-shape-notch.html" target="_blank" rel="noopener noreferrer">css/css-borders/corner-shape/corner-shape-notch.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-notch.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-notch.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/corner-shape/corner-shape-overflow-clip-margin.html" target="_blank" rel="noopener noreferrer">css/css-borders/corner-shape/corner-shape-overflow-clip-margin.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-overflow-clip-margin.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-overflow-clip-margin.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/corner-shape/corner-shape-square.html" target="_blank" rel="noopener noreferrer">css/css-borders/corner-shape/corner-shape-square.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-square.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-square.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/corner-shape/corner-shape-svg-border.html" target="_blank" rel="noopener noreferrer">css/css-borders/corner-shape/corner-shape-svg-border.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-svg-border.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-svg-border.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/corner-shape/corner-shape-video-border.html" target="_blank" rel="noopener noreferrer">css/css-borders/corner-shape/corner-shape-video-border.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-video-border.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-video-border.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/corner-shape/render-corner-shape.html" target="_blank" rel="noopener noreferrer">css/css-borders/corner-shape/render-corner-shape.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/corner-shape/render-corner-shape.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/corner-shape/render-corner-shape.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/subpixel-border-width.tentative.html" target="_blank" rel="noopener noreferrer">css/css-borders/subpixel-border-width.tentative.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/subpixel-border-width.tentative.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/subpixel-border-width.tentative.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/subpixel-borders-with-child-border-box-sizing.html" target="_blank" rel="noopener noreferrer">css/css-borders/subpixel-borders-with-child-border-box-sizing.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/subpixel-borders-with-child-border-box-sizing.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/subpixel-borders-with-child-border-box-sizing.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/subpixel-borders-with-child.html" target="_blank" rel="noopener noreferrer">css/css-borders/subpixel-borders-with-child.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/subpixel-borders-with-child.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/subpixel-borders-with-child.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html" target="_blank" rel="noopener noreferrer">css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0059-WPT_reftest-css-css-borders-tentative-border-radius-side-shorthands-border-radius-side-shorthands-001.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0059-WPT_reftest-css-css-borders-tentative-border-radius-side-shorthands-border-radius-side-shorthands-001.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html" target="_blank" rel="noopener noreferrer">css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0060-WPT_reftest-css-css-borders-tentative-border-radius-side-shorthands-border-radius-side-shorthands-002.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0060-WPT_reftest-css-css-borders-tentative-border-radius-side-shorthands-border-radius-side-shorthands-002.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+      </tbody>
+    </table>
+  </main>
+  <script>
+    (() => {
+      const rows = Array.from(document.querySelectorAll("tbody tr"));
+      const toolbar = document.getElementById("filter-toolbar");
+      const filterValue = document.getElementById("filter-value");
+      const resetButton = document.getElementById("filter-reset");
+      let currentFilter = "";
+
+      const applyFilter = (nextFilter) => {
+        currentFilter = nextFilter;
+        rows.forEach((row) => {
+          const cell = row.querySelector("td[data-change-type]");
+          const changeType = cell?.dataset.changeType || "";
+          row.classList.toggle(
+            "is-hidden",
+            Boolean(currentFilter) && changeType !== currentFilter,
+          );
+        });
+        toolbar.hidden = !currentFilter;
+        if (filterValue) {
+          filterValue.textContent = currentFilter;
+        }
+      };
+
+      document.querySelectorAll(".filter-badge").forEach((button) => {
+        button.addEventListener("click", () => {
+          applyFilter(
+            currentFilter === button.dataset.filter ? "" : button.dataset.filter,
+          );
+        });
+      });
+      resetButton?.addEventListener("click", () => applyFilter(""));
+    })();
+  </script>
+</body>
+</html>

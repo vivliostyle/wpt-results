@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>v2.42.0 vs v2.40.0 report</title>
+  <style>
+    :root { color-scheme: light; --bg:#f6f4ef; --panel:#fffdf8; --ink:#222; --muted:#6b665c; --line:#ddd4c4; --pass:#1f7a4d; --fail:#b42318; --error:#9c2a2a; --improvement:#0f766e; --neutral:#7a6f5a; }
+    body { margin:0; font:14px/1.4 ui-sans-serif, system-ui, sans-serif; color:var(--ink); background:linear-gradient(180deg,#f3efe6 0%,#f8f6f1 100%); }
+    main { max-width:1200px; margin:0 auto; padding:32px 24px 64px; }
+    h1 { margin:0 0 8px; font-size:28px; }
+    p { margin:0; color:var(--muted); }
+    .summary { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; margin:24px 0; }
+    .card { background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:16px; box-shadow:0 8px 24px rgba(0,0,0,.04); }
+    .label { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
+    .value { font-size:28px; font-weight:700; margin-top:6px; }
+    table { width:100%; border-collapse:collapse; background:var(--panel); border:1px solid var(--line); border-radius:18px; overflow:hidden; }
+    th, td { padding:12px 14px; border-bottom:1px solid var(--line); vertical-align:top; text-align:left; }
+    th { font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); background:#f5f0e6; }
+    tr:last-child td { border-bottom:none; }
+    .badge { display:inline-block; padding:3px 9px; border-radius:999px; font-size:12px; font-weight:700; color:#fff; }
+    .badge.pass { background:var(--pass); }
+    .badge.fail { background:var(--fail); }
+    .badge.error { background:var(--error); }
+    .badge.improvement { background:var(--improvement); }
+    .badge.neutral { background:var(--neutral); }
+    .filter-badge { border:none; cursor:pointer; }
+    .badge-link, .test-link { color:inherit; text-decoration:none; }
+    .badge-link:hover .badge { filter:brightness(.94); }
+    .test-link:hover { text-decoration:underline; }
+    .change-cell { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    .diff-links { display:flex; gap:6px; flex-wrap:wrap; }
+    .diff-link { color:var(--muted); text-decoration:none; font-size:12px; border:1px solid var(--line); border-radius:999px; padding:2px 8px; background:#f5f0e6; }
+    .diff-link:hover { text-decoration:underline; }
+    .toolbar { display:flex; align-items:center; gap:10px; margin:0 0 18px; color:var(--muted); }
+    .toolbar[hidden] { display:none; }
+    .filter-reset { border:1px solid var(--line); background:var(--panel); border-radius:999px; padding:4px 10px; cursor:pointer; }
+    .is-hidden { display:none; }
+    .test-path { font-family:ui-monospace, SFMono-Regular, monospace; }
+    .breakdown { font-size:12px; color:var(--muted); margin-top:6px; line-height:1.6; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>v2.42.0 vs v2.40.0</h1>
+    <p>reftest-diff mode report generated at 2026-05-03T11:55:24.580Z</p>
+    <section class="summary">
+      <div class="card"><div class="label">Compared</div><div class="value">17</div></div>
+      <div class="card"><div class="label">PASS</div><div class="value">17</div><div class="breakdown">improvement: 8</div></div>
+      <div class="card"><div class="label">FAIL</div><div class="value">0</div></div>
+      <div class="card"><div class="label">Errors</div><div class="value">0</div></div>
+    </section>
+    <div class="toolbar" id="filter-toolbar" hidden>
+      <span>Filtered by change: <strong id="filter-value"></strong></span>
+      <button type="button" class="filter-reset" id="filter-reset">Clear</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Test</th>
+          <th>v2.40.0</th>
+          <th>v2.42.0</th>
+          <th>Change</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/conditional-properties.html" target="_blank" rel="noopener noreferrer">css/css-nesting/conditional-properties.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/conditional-properties.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/conditional-properties.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="improvement"><div class="change-cell"><button type="button" class="badge filter-badge improvement" data-filter="improvement">improvement</button><span class="diff-links"><a class="diff-link" href="diff/0001-WPT_reftest-css-css-nesting-conditional-properties.html-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 vs v2.42.0 p1</a><a class="diff-link" href="baseline-reference-diff/0001-WPT_reftest-css-css-nesting-conditional-properties.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td>1 viewer diff page(s)</td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/conditional-rules.html" target="_blank" rel="noopener noreferrer">css/css-nesting/conditional-rules.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/conditional-rules.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/conditional-rules.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="improvement"><div class="change-cell"><button type="button" class="badge filter-badge improvement" data-filter="improvement">improvement</button><span class="diff-links"><a class="diff-link" href="diff/0002-WPT_reftest-css-css-nesting-conditional-rules.html-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 vs v2.42.0 p1</a><a class="diff-link" href="baseline-reference-diff/0002-WPT_reftest-css-css-nesting-conditional-rules.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td>1 viewer diff page(s)</td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/contextually-invalid-selectors-001.html" target="_blank" rel="noopener noreferrer">css/css-nesting/contextually-invalid-selectors-001.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/contextually-invalid-selectors-001.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/contextually-invalid-selectors-001.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/contextually-invalid-selectors-002.html" target="_blank" rel="noopener noreferrer">css/css-nesting/contextually-invalid-selectors-002.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/contextually-invalid-selectors-002.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/contextually-invalid-selectors-002.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="improvement"><div class="change-cell"><button type="button" class="badge filter-badge improvement" data-filter="improvement">improvement</button><span class="diff-links"><a class="diff-link" href="diff/0004-WPT_reftest-css-css-nesting-contextually-invalid-selectors-002.html-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 vs v2.42.0 p1</a><a class="diff-link" href="baseline-reference-diff/0004-WPT_reftest-css-css-nesting-contextually-invalid-selectors-002.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td>1 viewer diff page(s)</td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/contextually-invalid-selectors-003.html" target="_blank" rel="noopener noreferrer">css/css-nesting/contextually-invalid-selectors-003.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/contextually-invalid-selectors-003.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/contextually-invalid-selectors-003.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/has-nesting.html" target="_blank" rel="noopener noreferrer">css/css-nesting/has-nesting.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/has-nesting.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/has-nesting.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="expected-change"><div class="change-cell"><button type="button" class="badge filter-badge pass" data-filter="expected-change">expected-change</button><span class="diff-links"><a class="diff-link" href="diff/0006-WPT_reftest-css-css-nesting-has-nesting.html-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 vs v2.42.0 p1</a></span></div></td>
+  <td>1 viewer diff page(s)</td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/host-nesting-001.html" target="_blank" rel="noopener noreferrer">css/css-nesting/host-nesting-001.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/host-nesting-001.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/host-nesting-001.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/host-nesting-002.html" target="_blank" rel="noopener noreferrer">css/css-nesting/host-nesting-002.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/host-nesting-002.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/host-nesting-002.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/host-nesting-003.html" target="_blank" rel="noopener noreferrer">css/css-nesting/host-nesting-003.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/host-nesting-003.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/host-nesting-003.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/host-nesting-004.html" target="_blank" rel="noopener noreferrer">css/css-nesting/host-nesting-004.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/host-nesting-004.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/host-nesting-004.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/host-nesting-005.html" target="_blank" rel="noopener noreferrer">css/css-nesting/host-nesting-005.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/host-nesting-005.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/host-nesting-005.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/implicit-nesting.html" target="_blank" rel="noopener noreferrer">css/css-nesting/implicit-nesting.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/implicit-nesting.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/implicit-nesting.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="improvement"><div class="change-cell"><button type="button" class="badge filter-badge improvement" data-filter="improvement">improvement</button><span class="diff-links"><a class="diff-link" href="diff/0012-WPT_reftest-css-css-nesting-implicit-nesting.html-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 vs v2.42.0 p1</a><a class="diff-link" href="baseline-reference-diff/0012-WPT_reftest-css-css-nesting-implicit-nesting.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td>1 viewer diff page(s)</td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/nest-containing-forgiving.html" target="_blank" rel="noopener noreferrer">css/css-nesting/nest-containing-forgiving.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/nest-containing-forgiving.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/nest-containing-forgiving.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="improvement"><div class="change-cell"><button type="button" class="badge filter-badge improvement" data-filter="improvement">improvement</button><span class="diff-links"><a class="diff-link" href="diff/0013-WPT_reftest-css-css-nesting-nest-containing-forgiving.html-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 vs v2.42.0 p1</a><a class="diff-link" href="baseline-reference-diff/0013-WPT_reftest-css-css-nesting-nest-containing-forgiving.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td>1 viewer diff page(s)</td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/nesting-basic.html" target="_blank" rel="noopener noreferrer">css/css-nesting/nesting-basic.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/nesting-basic.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/nesting-basic.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="improvement"><div class="change-cell"><button type="button" class="badge filter-badge improvement" data-filter="improvement">improvement</button><span class="diff-links"><a class="diff-link" href="diff/0014-WPT_reftest-css-css-nesting-nesting-basic.html-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 vs v2.42.0 p1</a><a class="diff-link" href="baseline-reference-diff/0014-WPT_reftest-css-css-nesting-nesting-basic.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td>1 viewer diff page(s)</td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/nesting-type-selector.html" target="_blank" rel="noopener noreferrer">css/css-nesting/nesting-type-selector.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/nesting-type-selector.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/nesting-type-selector.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="improvement"><div class="change-cell"><button type="button" class="badge filter-badge improvement" data-filter="improvement">improvement</button><span class="diff-links"><a class="diff-link" href="diff/0015-WPT_reftest-css-css-nesting-nesting-type-selector.html-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 vs v2.42.0 p1</a><a class="diff-link" href="baseline-reference-diff/0015-WPT_reftest-css-css-nesting-nesting-type-selector.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td>1 viewer diff page(s)</td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/supports-is-consistent.html" target="_blank" rel="noopener noreferrer">css/css-nesting/supports-is-consistent.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/supports-is-consistent.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/supports-is-consistent.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/css-nesting/supports-rule.html" target="_blank" rel="noopener noreferrer">css/css-nesting/supports-rule.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/supports-rule.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/supports-rule.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="improvement"><div class="change-cell"><button type="button" class="badge filter-badge improvement" data-filter="improvement">improvement</button><span class="diff-links"><a class="diff-link" href="diff/0017-WPT_reftest-css-css-nesting-supports-rule.html-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 vs v2.42.0 p1</a><a class="diff-link" href="baseline-reference-diff/0017-WPT_reftest-css-css-nesting-supports-rule.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td>1 viewer diff page(s)</td>
+</tr>
+      </tbody>
+    </table>
+  </main>
+  <script>
+    (() => {
+      const rows = Array.from(document.querySelectorAll("tbody tr"));
+      const toolbar = document.getElementById("filter-toolbar");
+      const filterValue = document.getElementById("filter-value");
+      const resetButton = document.getElementById("filter-reset");
+      let currentFilter = "";
+
+      const applyFilter = (nextFilter) => {
+        currentFilter = nextFilter;
+        rows.forEach((row) => {
+          const cell = row.querySelector("td[data-change-type]");
+          const changeType = cell?.dataset.changeType || "";
+          row.classList.toggle(
+            "is-hidden",
+            Boolean(currentFilter) && changeType !== currentFilter,
+          );
+        });
+        toolbar.hidden = !currentFilter;
+        if (filterValue) {
+          filterValue.textContent = currentFilter;
+        }
+      };
+
+      document.querySelectorAll(".filter-badge").forEach((button) => {
+        button.addEventListener("click", () => {
+          applyFilter(
+            currentFilter === button.dataset.filter ? "" : button.dataset.filter,
+          );
+        });
+      });
+      resetButton?.addEventListener("click", () => applyFilter(""));
+    })();
+  </script>
+</body>
+</html>

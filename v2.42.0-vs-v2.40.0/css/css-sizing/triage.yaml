@@ -1,0 +1,1394 @@
+- id: "0089"
+  category: WPT reftest
+  title: css/css-sizing/aspect-ratio/fieldset-element-001.html
+  file: css/css-sizing/aspect-ratio/fieldset-element-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/aspect-ratio/fieldset-element-001.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/aspect-ratio/fieldset-element-001.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/aspect-ratio/fieldset-element-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/aspect-ratio/fieldset-element-001-ref.html#1
+- id: "0128"
+  category: WPT reftest
+  title: css/css-sizing/aspect-ratio/flex-aspect-ratio-038.html
+  file: css/css-sizing/aspect-ratio/flex-aspect-ratio-038.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/aspect-ratio/flex-aspect-ratio-038.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/aspect-ratio/flex-aspect-ratio-038.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0262"
+  category: WPT reftest
+  title: css/css-sizing/aspect-ratio/replaced-element-dynamic-aspect-ratio.html
+  file: css/css-sizing/aspect-ratio/replaced-element-dynamic-aspect-ratio.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-dynamic-aspect-ratio.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-dynamic-aspect-ratio.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0280"
+  category: WPT reftest
+  title: css/css-sizing/block-size-with-min-or-max-content-1b.html
+  file: css/css-sizing/block-size-with-min-or-max-content-1b.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-1b.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-1b.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/block-size-with-min-or-max-content-1-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/block-size-with-min-or-max-content-1-ref.html#1
+- id: "0287"
+  category: WPT reftest
+  title: css/css-sizing/block-size-with-min-or-max-content-table-1a.html
+  file: css/css-sizing/block-size-with-min-or-max-content-table-1a.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-table-1a.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-table-1a.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/block-size-with-min-or-max-content-table-1-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/block-size-with-min-or-max-content-table-1-ref.html#1
+- id: "0288"
+  category: WPT reftest
+  title: css/css-sizing/block-size-with-min-or-max-content-table-1b.html
+  file: css/css-sizing/block-size-with-min-or-max-content-table-1b.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-table-1b.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-table-1b.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/block-size-with-min-or-max-content-table-1-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/block-size-with-min-or-max-content-table-1-ref.html#1
+- id: "0308"
+  category: WPT reftest
+  title: css/css-sizing/clone-intrinsic-size.html
+  file: css/css-sizing/clone-intrinsic-size.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/clone-intrinsic-size.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/clone-intrinsic-size.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/clone-intrinsic-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/clone-intrinsic-size-ref.html#1
+- id: "0322"
+  category: WPT reftest
+  title: css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-013.html
+  file: css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-013.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-013.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-013.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-013-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-013-ref.html#1
+- id: "0365"
+  category: WPT reftest
+  title: css/css-sizing/dynamic-available-size-iframe.html
+  file: css/css-sizing/dynamic-available-size-iframe.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/dynamic-available-size-iframe.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/dynamic-available-size-iframe.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0366"
+  category: WPT reftest
+  title: css/css-sizing/dynamic-change-inline-size-001.html
+  file: css/css-sizing/dynamic-change-inline-size-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/dynamic-change-inline-size-001.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/dynamic-change-inline-size-001.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0367"
+  category: WPT reftest
+  title: css/css-sizing/dynamic-change-inline-size-002.html
+  file: css/css-sizing/dynamic-change-inline-size-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/dynamic-change-inline-size-002.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/dynamic-change-inline-size-002.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0368"
+  category: WPT reftest
+  title: css/css-sizing/dynamic-change-inline-size-003.html
+  file: css/css-sizing/dynamic-change-inline-size-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/dynamic-change-inline-size-003.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/dynamic-change-inline-size-003.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/dynamic-change-inline-size-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/dynamic-change-inline-size-003-ref.html#1
+- id: "0370"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-block-size-abspos.html
+  file: css/css-sizing/fit-content-block-size-abspos.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-block-size-abspos.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-block-size-abspos.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/fit-content-block-size-fixedpos-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/fit-content-block-size-fixedpos-ref.html#1
+- id: "0373"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-length-percentage-001.html
+  file: css/css-sizing/fit-content-length-percentage-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-001.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-001.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0374"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-length-percentage-002.html
+  file: css/css-sizing/fit-content-length-percentage-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-002.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-002.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0375"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-length-percentage-003.html
+  file: css/css-sizing/fit-content-length-percentage-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-003.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-003.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0376"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-length-percentage-004.html
+  file: css/css-sizing/fit-content-length-percentage-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-004.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-004.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0377"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-length-percentage-005.html
+  file: css/css-sizing/fit-content-length-percentage-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-005.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-005.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0378"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-length-percentage-006.html
+  file: css/css-sizing/fit-content-length-percentage-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-006.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-006.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0379"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-length-percentage-007.html
+  file: css/css-sizing/fit-content-length-percentage-007.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-007.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-007.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0380"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-length-percentage-008.html
+  file: css/css-sizing/fit-content-length-percentage-008.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-008.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-008.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0381"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-length-percentage-009.html
+  file: css/css-sizing/fit-content-length-percentage-009.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-009.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-009.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0382"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-length-percentage-010.html
+  file: css/css-sizing/fit-content-length-percentage-010.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-010.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-010.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0383"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-length-percentage-011.html
+  file: css/css-sizing/fit-content-length-percentage-011.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-011.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-011.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0384"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-length-percentage-012.html
+  file: css/css-sizing/fit-content-length-percentage-012.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-012.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-012.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0385"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-length-percentage-013.html
+  file: css/css-sizing/fit-content-length-percentage-013.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-013.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-013.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0386"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-length-percentage-014.html
+  file: css/css-sizing/fit-content-length-percentage-014.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-014.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-014.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0387"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-length-percentage-015.html
+  file: css/css-sizing/fit-content-length-percentage-015.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-015.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-015.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0388"
+  category: WPT reftest
+  title: css/css-sizing/fit-content-length-percentage-016.html
+  file: css/css-sizing/fit-content-length-percentage-016.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-016.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/fit-content-length-percentage-016.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0401"
+  category: WPT reftest
+  title: css/css-sizing/image-min-max-content-intrinsic-size-change-001.html
+  file: css/css-sizing/image-min-max-content-intrinsic-size-change-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-001.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-001.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/image-min-max-content-intrinsic-size-change-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/image-min-max-content-intrinsic-size-change-001-ref.html#1
+- id: "0402"
+  category: WPT reftest
+  title: css/css-sizing/image-min-max-content-intrinsic-size-change-002.html
+  file: css/css-sizing/image-min-max-content-intrinsic-size-change-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-002.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-002.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/image-min-max-content-intrinsic-size-change-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/image-min-max-content-intrinsic-size-change-001-ref.html#1
+- id: "0403"
+  category: WPT reftest
+  title: css/css-sizing/image-min-max-content-intrinsic-size-change-003.html
+  file: css/css-sizing/image-min-max-content-intrinsic-size-change-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-003.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-003.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/image-min-max-content-intrinsic-size-change-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/image-min-max-content-intrinsic-size-change-003-ref.html#1
+- id: "0404"
+  category: WPT reftest
+  title: css/css-sizing/image-min-max-content-intrinsic-size-change-004.html
+  file: css/css-sizing/image-min-max-content-intrinsic-size-change-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-004.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-004.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/image-min-max-content-intrinsic-size-change-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/image-min-max-content-intrinsic-size-change-003-ref.html#1
+- id: "0405"
+  category: WPT reftest
+  title: css/css-sizing/image-min-max-content-intrinsic-size-change-005.html
+  file: css/css-sizing/image-min-max-content-intrinsic-size-change-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-005.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-005.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/image-min-max-content-intrinsic-size-change-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/image-min-max-content-intrinsic-size-change-001-ref.html#1
+- id: "0406"
+  category: WPT reftest
+  title: css/css-sizing/image-min-max-content-intrinsic-size-change-006.html
+  file: css/css-sizing/image-min-max-content-intrinsic-size-change-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-006.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-006.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/image-min-max-content-intrinsic-size-change-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/image-min-max-content-intrinsic-size-change-001-ref.html#1
+- id: "0407"
+  category: WPT reftest
+  title: css/css-sizing/image-min-max-content-intrinsic-size-change-007.html
+  file: css/css-sizing/image-min-max-content-intrinsic-size-change-007.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-007.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-007.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/image-min-max-content-intrinsic-size-change-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/image-min-max-content-intrinsic-size-change-003-ref.html#1
+- id: "0408"
+  category: WPT reftest
+  title: css/css-sizing/image-min-max-content-intrinsic-size-change-008.html
+  file: css/css-sizing/image-min-max-content-intrinsic-size-change-008.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-008.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-008.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/image-min-max-content-intrinsic-size-change-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/image-min-max-content-intrinsic-size-change-003-ref.html#1
+- id: "0417"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-height-abspos-stretch-percentage-child.html
+  file: css/css-sizing/intrinsic-height-abspos-stretch-percentage-child.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-height-abspos-stretch-percentage-child.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-height-abspos-stretch-percentage-child.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/intrinsic-height-abspos-stretch-percentage-child-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/intrinsic-height-abspos-stretch-percentage-child-ref.html#1
+- id: "0419"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-non-replaced-001.html
+  file: css/css-sizing/intrinsic-percent-non-replaced-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-001.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-001.html&pixelRatio=0&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0420"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-non-replaced-002.html
+  file: css/css-sizing/intrinsic-percent-non-replaced-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-002.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-002.html&pixelRatio=0&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0421"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-non-replaced-003.html
+  file: css/css-sizing/intrinsic-percent-non-replaced-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-003.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-003.html&pixelRatio=0&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0422"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-non-replaced-004.html
+  file: css/css-sizing/intrinsic-percent-non-replaced-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-004.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-004.html&pixelRatio=0&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0423"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-non-replaced-005.html
+  file: css/css-sizing/intrinsic-percent-non-replaced-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-005.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-005.html&pixelRatio=0&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0425"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-replaced-002.html
+  file: css/css-sizing/intrinsic-percent-replaced-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-002.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-002.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0426"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-replaced-003.html
+  file: css/css-sizing/intrinsic-percent-replaced-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-003.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-003.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0427"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-replaced-004.html
+  file: css/css-sizing/intrinsic-percent-replaced-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-004.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-004.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0429"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-replaced-006.html
+  file: css/css-sizing/intrinsic-percent-replaced-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-006.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-006.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0441"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-replaced-018.html
+  file: css/css-sizing/intrinsic-percent-replaced-018.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-018.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-018.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0445"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-replaced-022.html
+  file: css/css-sizing/intrinsic-percent-replaced-022.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-022.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-022.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0446"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-replaced-023.html
+  file: css/css-sizing/intrinsic-percent-replaced-023.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-023.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-023.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0453"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-replaced-dynamic-001.html
+  file: css/css-sizing/intrinsic-percent-replaced-dynamic-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-001.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-001.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0454"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-replaced-dynamic-002.html
+  file: css/css-sizing/intrinsic-percent-replaced-dynamic-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-002.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-002.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0455"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-replaced-dynamic-003.html
+  file: css/css-sizing/intrinsic-percent-replaced-dynamic-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-003.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-003.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0456"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-replaced-dynamic-004.html
+  file: css/css-sizing/intrinsic-percent-replaced-dynamic-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-004.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-004.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0458"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-replaced-dynamic-006.html
+  file: css/css-sizing/intrinsic-percent-replaced-dynamic-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-006.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-006.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0461"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-replaced-dynamic-009.html
+  file: css/css-sizing/intrinsic-percent-replaced-dynamic-009.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-009.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-009.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0462"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-replaced-dynamic-010.html
+  file: css/css-sizing/intrinsic-percent-replaced-dynamic-010.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-010.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-010.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0463"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-replaced-dynamic-011.html
+  file: css/css-sizing/intrinsic-percent-replaced-dynamic-011.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-011.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-011.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0464"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-replaced-dynamic-012.html
+  file: css/css-sizing/intrinsic-percent-replaced-dynamic-012.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-012.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/intrinsic-percent-replaced-dynamic-012.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0472"
+  category: WPT reftest
+  title: css/css-sizing/max-content-input-001.html
+  file: css/css-sizing/max-content-input-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/max-content-input-001.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/max-content-input-001.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/max-content-input-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/max-content-input-001-ref.html#1
+- id: "0477"
+  category: WPT reftest
+  title: css/css-sizing/orthogonal-writing-mode-float-in-inline.html
+  file: css/css-sizing/orthogonal-writing-mode-float-in-inline.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/orthogonal-writing-mode-float-in-inline.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/orthogonal-writing-mode-float-in-inline.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0479"
+  category: WPT reftest
+  title: css/css-sizing/range-percent-intrinsic-size-1.html
+  file: css/css-sizing/range-percent-intrinsic-size-1.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-1.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-1.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/range-percent-intrinsic-size-1-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/range-percent-intrinsic-size-1-ref.html#1
+- id: "0480"
+  category: WPT reftest
+  title: css/css-sizing/range-percent-intrinsic-size-2.html
+  file: css/css-sizing/range-percent-intrinsic-size-2.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-2.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-2.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/range-percent-intrinsic-size-2-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/range-percent-intrinsic-size-2-ref.html#1
+- id: "0481"
+  category: WPT reftest
+  title: css/css-sizing/range-percent-intrinsic-size-2a.html
+  file: css/css-sizing/range-percent-intrinsic-size-2a.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-2a.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-2a.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/range-percent-intrinsic-size-2a-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/range-percent-intrinsic-size-2a-ref.html#1
+- id: "0498"
+  category: WPT reftest
+  title: css/css-sizing/responsive-iframe/responsive-iframe-cross-origin.sub.tentative.html
+  file: css/css-sizing/responsive-iframe/responsive-iframe-cross-origin.sub.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-cross-origin.sub.tentative.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-cross-origin.sub.tentative.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/responsive-iframe/responsive-iframe-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/responsive-iframe/responsive-iframe-ref.html#1
+- id: "0500"
+  category: WPT reftest
+  title: css/css-sizing/responsive-iframe/responsive-iframe-dynamic-remove.tentative.html
+  file: css/css-sizing/responsive-iframe/responsive-iframe-dynamic-remove.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-dynamic-remove.tentative.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-dynamic-remove.tentative.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/responsive-iframe/responsive-iframe-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/responsive-iframe/responsive-iframe-ref.html#1
+- id: "0502"
+  category: WPT reftest
+  title: css/css-sizing/responsive-iframe/responsive-iframe-meta-after-head.tentative.html
+  file: css/css-sizing/responsive-iframe/responsive-iframe-meta-after-head.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-meta-after-head.tentative.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-meta-after-head.tentative.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/responsive-iframe/responsive-iframe-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/responsive-iframe/responsive-iframe-ref.html#1
+- id: "0506"
+  category: WPT reftest
+  title: css/css-sizing/responsive-iframe/responsive-iframe-request-resize.tentative.html
+  file: css/css-sizing/responsive-iframe/responsive-iframe-request-resize.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-request-resize.tentative.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-request-resize.tentative.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/responsive-iframe/responsive-iframe-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/responsive-iframe/responsive-iframe-ref.html#1
+- id: "0507"
+  category: WPT reftest
+  title: css/css-sizing/responsive-iframe/responsive-iframe.tentative.html
+  file: css/css-sizing/responsive-iframe/responsive-iframe.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe.tentative.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe.tentative.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/responsive-iframe/responsive-iframe-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/responsive-iframe/responsive-iframe-ref.html#1
+- id: "0508"
+  category: WPT reftest
+  title: css/css-sizing/shrink-to-fit-sizing-max-width-min-content.html
+  file: css/css-sizing/shrink-to-fit-sizing-max-width-min-content.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/shrink-to-fit-sizing-max-width-min-content.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/shrink-to-fit-sizing-max-width-min-content.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+- id: "0509"
+  category: WPT reftest
+  title: css/css-sizing/slice-intrinsic-size.html
+  file: css/css-sizing/slice-intrinsic-size.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/slice-intrinsic-size.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/slice-intrinsic-size.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/slice-intrinsic-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/slice-intrinsic-size-ref.html#1
+- id: "0514"
+  category: WPT reftest
+  title: css/css-sizing/stretch/bfc-next-to-float-1.html
+  file: css/css-sizing/stretch/bfc-next-to-float-1.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/stretch/bfc-next-to-float-1.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/stretch/bfc-next-to-float-1.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0515"
+  category: WPT reftest
+  title: css/css-sizing/stretch/bfc-next-to-float-2.html
+  file: css/css-sizing/stretch/bfc-next-to-float-2.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/stretch/bfc-next-to-float-2.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/stretch/bfc-next-to-float-2.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0534"
+  category: WPT reftest
+  title: css/css-sizing/stretch/replaced-next-to-float-1.html
+  file: css/css-sizing/stretch/replaced-next-to-float-1.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/stretch/replaced-next-to-float-1.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/stretch/replaced-next-to-float-1.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0535"
+  category: WPT reftest
+  title: css/css-sizing/stretch/replaced-next-to-float-2.html
+  file: css/css-sizing/stretch/replaced-next-to-float-2.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/stretch/replaced-next-to-float-2.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/stretch/replaced-next-to-float-2.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+- id: "0538"
+  category: WPT reftest
+  title: css/css-sizing/stretch/stretch-quirk-001.html
+  file: css/css-sizing/stretch/stretch-quirk-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/stretch/stretch-quirk-001.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/stretch/stretch-quirk-001.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/stretch/stretch-quirk-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/stretch/stretch-quirk-001-ref.html#1
+- id: "0546"
+  category: WPT reftest
+  title: css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-1.html
+  file: css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-1.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-1.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-1.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-1-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-1-ref.html#1
+- id: "0548"
+  category: WPT reftest
+  title: css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2b.html
+  file: css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2b.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2b.html&pixelRatio=0&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2b.html&pixelRatio=0&zoom=1&spread=false
+  referenceFile: css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2-ref.html#1

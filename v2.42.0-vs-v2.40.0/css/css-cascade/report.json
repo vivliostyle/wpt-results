@@ -1,0 +1,3721 @@
+{
+  "generatedAt": "2026-05-03T09:51:25.496Z",
+  "labels": {
+    "actual": "v2.42.0",
+    "baseline": "v2.40.0"
+  },
+  "options": {
+    "categories": [],
+    "titleIncludes": [],
+    "files": [],
+    "limit": null,
+    "mode": "reftest-diff",
+    "browser": "chromium",
+    "outDir": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade",
+    "timeoutSec": 10,
+    "maxDiffRatio": 0.00002,
+    "pixelThreshold": 0.1,
+    "viewportWidth": 1800,
+    "viewportHeight": 1800,
+    "skipScreenshots": false,
+    "concurrency": 8,
+    "exportHtml": false,
+    "exportHtmlDiff": false,
+    "actualViewer": "https://vivliostyle.github.io/viewer/v2.42.0/",
+    "baselineViewer": "https://vivliostyle.github.io/viewer/v2.40.0/",
+    "actualLabel": "v2.42.0",
+    "baselineLabel": "v2.40.0",
+    "extraViewerParams": "",
+    "actualViewerParams": "",
+    "baselineViewerParams": "",
+    "testUrls": [],
+    "refUrls": [],
+    "wptManifestPath": "D:\\viv\\vivliostyle.js\\artifacts\\wpt-reftest\\MANIFEST.json",
+    "wptBaseUrl": "https://wpt.live/",
+    "wptPathPrefixes": [
+      "css/css-cascade/"
+    ],
+    "timeoutMs": 10000
+  },
+  "summary": {
+    "totalEntries": 51,
+    "entriesWithDifferences": 27,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
+    "pageCountMismatches": 0,
+    "screenshotMismatches": 1,
+    "outcomes": {
+      "changeTypes": {
+        "known-fail": 26,
+        "pass": 23,
+        "changed-fail": 1,
+        "unchanged": 1
+      },
+      "statusPairs": {
+        "FAIL->FAIL": 27,
+        "PASS->PASS": 23,
+        "MANUAL->MANUAL": 1
+      }
+    },
+    "triage": {
+      "differences": {
+        "pending": 27,
+        "triaged": 0
+      },
+      "errors": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "pendingEntries": 27,
+      "triagedEntries": 0
+    }
+  },
+  "entries": [
+    {
+      "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/all-prop-001.html",
+      "file": [
+        "css/css-cascade/all-prop-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-001.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0002",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/all-prop-002.html",
+      "file": [
+        "css/css-cascade/all-prop-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0003",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/all-prop-inherit-color.html",
+      "file": [
+        "css/css-cascade/all-prop-inherit-color.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-inherit-color.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-inherit-color.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-inherit-color.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0004",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/all-prop-initial-color.html",
+      "file": [
+        "css/css-cascade/all-prop-initial-color.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-initial-color.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-color.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-color.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0005",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/all-prop-initial-visited.html",
+      "file": [
+        "css/css-cascade/all-prop-initial-visited.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-initial-visited.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0006",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/all-prop-revert-color.html",
+      "file": [
+        "css/css-cascade/all-prop-revert-color.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-revert-color.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-revert-color.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-revert-color.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0007",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/all-prop-revert-visited.html",
+      "file": [
+        "css/css-cascade/all-prop-revert-visited.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-revert-visited.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-revert-visited.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-revert-visited.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0008",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/all-prop-unset-color.html",
+      "file": [
+        "css/css-cascade/all-prop-unset-color.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-unset-color.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-unset-color.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-unset-color.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0009",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/all-prop-unset-visited.html",
+      "file": [
+        "css/css-cascade/all-prop-unset-visited.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-unset-visited.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-unset-visited.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-unset-visited.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0010",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/import-conditional-001.html",
+      "file": [
+        "css/css-cascade/import-conditional-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/import-conditional-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/import-conditional-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/import-conditional-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0011",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/import-conditional-002.html",
+      "file": [
+        "css/css-cascade/import-conditional-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/import-conditional-002.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/import-conditional-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/import-conditional-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0012",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/import-removal.html",
+      "file": [
+        "css/css-cascade/import-removal.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/import-removal.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/import-removal.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/import-removal.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0013",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/important-prop.html",
+      "file": [
+        "css/css-cascade/important-prop.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/important-prop.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/important-prop.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/important-prop.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0014",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/initial-background-color.html",
+      "file": [
+        "css/css-cascade/initial-background-color.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/initial-background-color.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/initial-background-color.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/initial-background-color.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0015",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/initial-color-background-001.html",
+      "file": [
+        "css/css-cascade/initial-color-background-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/initial-color-background-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/initial-color-background-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/initial-color-background-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0016",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/layer-media-toggle.html",
+      "file": [
+        "css/css-cascade/layer-media-toggle.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/layer-media-toggle.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-media-toggle.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-media-toggle.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0017",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/layer-slotted-rule.html",
+      "file": [
+        "css/css-cascade/layer-slotted-rule.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/layer-slotted-rule.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-slotted-rule.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-slotted-rule.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0018",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/layer-stylesheet-sharing-important.html",
+      "file": [
+        "css/css-cascade/layer-stylesheet-sharing-important.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/layer-stylesheet-sharing-important.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-important.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-important.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0019",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/layer-stylesheet-sharing.html",
+      "file": [
+        "css/css-cascade/layer-stylesheet-sharing.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/layer-stylesheet-sharing.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0020",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-001.html",
+      "file": [
+        "css/css-cascade/revert-layer-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-001.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0021",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-002.html",
+      "file": [
+        "css/css-cascade/revert-layer-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-002.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0022",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-003.html",
+      "file": [
+        "css/css-cascade/revert-layer-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-003.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-003.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-003.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0023",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-004.html",
+      "file": [
+        "css/css-cascade/revert-layer-004.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-004.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-004.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-004.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0024",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-005.html",
+      "file": [
+        "css/css-cascade/revert-layer-005.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-005.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-005.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-005.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0025",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-006.html",
+      "file": [
+        "css/css-cascade/revert-layer-006.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-006.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-006.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-006.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0026",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-007.html",
+      "file": [
+        "css/css-cascade/revert-layer-007.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-007.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-007.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-007.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0027",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-009.html",
+      "file": [
+        "css/css-cascade/revert-layer-009.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-009.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-009.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-009.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0028",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-010.html",
+      "file": [
+        "css/css-cascade/revert-layer-010.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-010.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-010.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-010.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0029",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-011.html",
+      "file": [
+        "css/css-cascade/revert-layer-011.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-011.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-011.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-011.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0030",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-012.html",
+      "file": [
+        "css/css-cascade/revert-layer-012.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-012.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-012.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-012.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0031",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-013.html",
+      "file": [
+        "css/css-cascade/revert-layer-013.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-013.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-013.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-013.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0032",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-014.html",
+      "file": [
+        "css/css-cascade/revert-layer-014.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-014.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-014.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-014.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0033",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-015.html",
+      "file": [
+        "css/css-cascade/revert-layer-015.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-015.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-015.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-015.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0034",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-val-001.html",
+      "file": [
+        "css/css-cascade/revert-val-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-val-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-val-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-val-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0035",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-val-002.html",
+      "file": [
+        "css/css-cascade/revert-val-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-val-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-val-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-val-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0036",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/scope-featureless.html",
+      "file": [
+        "css/css-cascade/scope-featureless.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-featureless.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-featureless.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-featureless.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0037",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/scope-part.html",
+      "file": [
+        "css/css-cascade/scope-part.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-part.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-part.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-part.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0038",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/scope-pseudo-element.html",
+      "file": [
+        "css/css-cascade/scope-pseudo-element.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-pseudo-element.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "changed-fail",
+      "viewerChanged": true,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-pseudo-element.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-pseudo-element.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0039",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/scope-shadow-sharing.html",
+      "file": [
+        "css/css-cascade/scope-shadow-sharing.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-shadow-sharing.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-shadow-sharing.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-shadow-sharing.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0040",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/scope-ua-shadow-host.html",
+      "file": [
+        "css/css-cascade/scope-ua-shadow-host.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-ua-shadow-host.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-ua-shadow-host.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-ua-shadow-host.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0041",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/scope-visited.html",
+      "file": [
+        "css/css-cascade/scope-visited.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-visited.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-visited.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-visited.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0042",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/unset-val-001.html",
+      "file": [
+        "css/css-cascade/unset-val-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/unset-val-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/unset-val-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/unset-val-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0043",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/unset-val-002.html",
+      "file": [
+        "css/css-cascade/unset-val-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/unset-val-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/unset-val-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/unset-val-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0044",
+      "category": "WPT print-reftest",
+      "title": "css/css-cascade/scope-implicit-001-print.html",
+      "file": [
+        "css/css-cascade/scope-implicit-001-print.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-implicit-001-print.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-001-print.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-001-print.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0045",
+      "category": "WPT print-reftest",
+      "title": "css/css-cascade/scope-implicit-002-print.html",
+      "file": [
+        "css/css-cascade/scope-implicit-002-print.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-implicit-002-print.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-002-print.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-002-print.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0046",
+      "category": "WPT print-reftest",
+      "title": "css/css-cascade/scope-implicit-003-print.html",
+      "file": [
+        "css/css-cascade/scope-implicit-003-print.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-implicit-003-print.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-003-print.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-003-print.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0047",
+      "category": "WPT print-reftest",
+      "title": "css/css-cascade/scope-implicit-004-print.xhtml",
+      "file": [
+        "css/css-cascade/scope-implicit-004-print.xhtml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-implicit-004-print.xhtml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-004-print.xhtml&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-004-print.xhtml&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0048",
+      "category": "WPT print-reftest",
+      "title": "css/css-cascade/scope-implicit-005-print.html",
+      "file": [
+        "css/css-cascade/scope-implicit-005-print.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-implicit-005-print.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-005-print.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-005-print.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0049",
+      "category": "WPT print-reftest",
+      "title": "css/css-cascade/scope-implicit-006-print.html",
+      "file": [
+        "css/css-cascade/scope-implicit-006-print.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-implicit-006-print.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-006-print.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-006-print.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0050",
+      "category": "WPT print-reftest",
+      "title": "css/css-cascade/scope-implicit-crash-print.html",
+      "file": [
+        "css/css-cascade/scope-implicit-crash-print.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-implicit-crash-print.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-crash-print.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-crash-print.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0051",
+      "category": "WPT manual",
+      "title": "css/css-cascade/important-transition-manual.html",
+      "file": [
+        "css/css-cascade/important-transition-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-cascade/important-transition-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/important-transition-manual.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/important-transition-manual.html&pixelRatio=0&zoom=1&spread=false"
+    }
+  ],
+  "differences": [
+    {
+      "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/all-prop-001.html",
+      "file": [
+        "css/css-cascade/all-prop-001.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-001.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-001.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/all-prop-001-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-001-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 335,
+              "diffRatio": 0.00039954011144187465,
+              "exactDiffPixels": 669,
+              "exactDiffRatio": 0.0007978875658346691,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0001-WPT_reftest-css-css-cascade-all-prop-001.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-001-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/all-prop-001-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-001-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 335,
+              "diffRatio": 0.00039954011144187465,
+              "exactDiffPixels": 669,
+              "exactDiffRatio": 0.0007978875658346691,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0001-WPT_reftest-css-css-cascade-all-prop-001.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-001-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0004",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/all-prop-initial-color.html",
+      "file": [
+        "css/css-cascade/all-prop-initial-color.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-color.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-color.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-green-text.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 874,
+              "diffRatio": 0.0010423822608961147,
+              "exactDiffPixels": 1637,
+              "exactDiffRatio": 0.0019523795893443248,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0004-WPT_reftest-css-css-cascade-all-prop-initial-color.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-green-text.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 874,
+              "diffRatio": 0.0010423822608961147,
+              "exactDiffPixels": 1637,
+              "exactDiffRatio": 0.0019523795893443248,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0004-WPT_reftest-css-css-cascade-all-prop-initial-color.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0005",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/all-prop-initial-visited.html",
+      "file": [
+        "css/css-cascade/all-prop-initial-visited.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/all-prop-initial-visited-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 669,
+              "diffRatio": 0.0007978875658346691,
+              "exactDiffPixels": 1309,
+              "exactDiffRatio": 0.0015611880772460117,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0005-WPT_reftest-css-css-cascade-all-prop-initial-visited.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/all-prop-initial-visited-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 669,
+              "diffRatio": 0.0007978875658346691,
+              "exactDiffPixels": 1309,
+              "exactDiffRatio": 0.0015611880772460117,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0005-WPT_reftest-css-css-cascade-all-prop-initial-visited.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0011",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/import-conditional-002.html",
+      "file": [
+        "css/css-cascade/import-conditional-002.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/import-conditional-002.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/import-conditional-002.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0011-WPT_reftest-css-css-cascade-import-conditional-002.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0011-WPT_reftest-css-css-cascade-import-conditional-002.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0012",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/import-removal.html",
+      "file": [
+        "css/css-cascade/import-removal.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/import-removal.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/import-removal.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 827162,
+              "diffRatio": 0.9865205900312953,
+              "exactDiffPixels": 828166,
+              "exactDiffRatio": 0.9877180177085718,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0012-WPT_reftest-css-css-cascade-import-removal.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 827162,
+              "diffRatio": 0.9865205900312953,
+              "exactDiffPixels": 828166,
+              "exactDiffRatio": 0.9877180177085718,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0012-WPT_reftest-css-css-cascade-import-removal.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0013",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/important-prop.html",
+      "file": [
+        "css/css-cascade/important-prop.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/important-prop.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/important-prop.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/important-prop-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/important-prop-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 3729,
+              "diffRatio": 0.004447418136020151,
+              "exactDiffPixels": 3773,
+              "exactDiffRatio": 0.004499895046179681,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0013-WPT_reftest-css-css-cascade-important-prop.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/important-prop-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/important-prop-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/important-prop-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 3729,
+              "diffRatio": 0.004447418136020151,
+              "exactDiffPixels": 3773,
+              "exactDiffRatio": 0.004499895046179681,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0013-WPT_reftest-css-css-cascade-important-prop.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/important-prop-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0016",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/layer-media-toggle.html",
+      "file": [
+        "css/css-cascade/layer-media-toggle.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-media-toggle.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-media-toggle.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0016-WPT_reftest-css-css-cascade-layer-media-toggle.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0016-WPT_reftest-css-css-cascade-layer-media-toggle.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0018",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/layer-stylesheet-sharing-important.html",
+      "file": [
+        "css/css-cascade/layer-stylesheet-sharing-important.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-important.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-important.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/layer-stylesheet-sharing-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0018-WPT_reftest-css-css-cascade-layer-stylesheet-sharing-important.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/layer-stylesheet-sharing-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0018-WPT_reftest-css-css-cascade-layer-stylesheet-sharing-important.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0019",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/layer-stylesheet-sharing.html",
+      "file": [
+        "css/css-cascade/layer-stylesheet-sharing.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/layer-stylesheet-sharing-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0019-WPT_reftest-css-css-cascade-layer-stylesheet-sharing.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/layer-stylesheet-sharing-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0019-WPT_reftest-css-css-cascade-layer-stylesheet-sharing.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0020",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-001.html",
+      "file": [
+        "css/css-cascade/revert-layer-001.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-001.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-001.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0020-WPT_reftest-css-css-cascade-revert-layer-001.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0020-WPT_reftest-css-css-cascade-revert-layer-001.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0021",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-002.html",
+      "file": [
+        "css/css-cascade/revert-layer-002.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-002.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-002.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0021-WPT_reftest-css-css-cascade-revert-layer-002.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0021-WPT_reftest-css-css-cascade-revert-layer-002.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0022",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-003.html",
+      "file": [
+        "css/css-cascade/revert-layer-003.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-003.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-003.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0022-WPT_reftest-css-css-cascade-revert-layer-003.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0022-WPT_reftest-css-css-cascade-revert-layer-003.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0024",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-005.html",
+      "file": [
+        "css/css-cascade/revert-layer-005.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-005.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-005.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0024-WPT_reftest-css-css-cascade-revert-layer-005.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0024-WPT_reftest-css-css-cascade-revert-layer-005.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0026",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-007.html",
+      "file": [
+        "css/css-cascade/revert-layer-007.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-007.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-007.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0026-WPT_reftest-css-css-cascade-revert-layer-007.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0026-WPT_reftest-css-css-cascade-revert-layer-007.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0027",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-009.html",
+      "file": [
+        "css/css-cascade/revert-layer-009.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-009.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-009.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0027-WPT_reftest-css-css-cascade-revert-layer-009.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0027-WPT_reftest-css-css-cascade-revert-layer-009.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0028",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-010.html",
+      "file": [
+        "css/css-cascade/revert-layer-010.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-010.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-010.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 5000,
+              "diffRatio": 0.005963285245401115,
+              "exactDiffPixels": 5000,
+              "exactDiffRatio": 0.005963285245401115,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0028-WPT_reftest-css-css-cascade-revert-layer-010.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 5000,
+              "diffRatio": 0.005963285245401115,
+              "exactDiffPixels": 5000,
+              "exactDiffRatio": 0.005963285245401115,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0028-WPT_reftest-css-css-cascade-revert-layer-010.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0029",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/revert-layer-011.html",
+      "file": [
+        "css/css-cascade/revert-layer-011.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-011.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-011.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 5000,
+              "diffRatio": 0.005963285245401115,
+              "exactDiffPixels": 5000,
+              "exactDiffRatio": 0.005963285245401115,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0029-WPT_reftest-css-css-cascade-revert-layer-011.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 5000,
+              "diffRatio": 0.005963285245401115,
+              "exactDiffPixels": 5000,
+              "exactDiffRatio": 0.005963285245401115,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0029-WPT_reftest-css-css-cascade-revert-layer-011.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0037",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/scope-part.html",
+      "file": [
+        "css/css-cascade/scope-part.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-part.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-part.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/scope-part-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-part-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 69850,
+              "diffRatio": 0.08330709487825357,
+              "exactDiffPixels": 69850,
+              "exactDiffRatio": 0.08330709487825357,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0037-WPT_reftest-css-css-cascade-scope-part.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-part-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/scope-part-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-part-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 69850,
+              "diffRatio": 0.08330709487825357,
+              "exactDiffPixels": 69850,
+              "exactDiffRatio": 0.08330709487825357,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0037-WPT_reftest-css-css-cascade-scope-part.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-part-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0038",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/scope-pseudo-element.html",
+      "file": [
+        "css/css-cascade/scope-pseudo-element.html"
+      ],
+      "classification": "changed-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-pseudo-element.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-pseudo-element.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [
+        {
+          "page": 1,
+          "width": 794,
+          "height": 1056,
+          "actualWidth": 794,
+          "actualHeight": 1056,
+          "diffPixels": 46,
+          "diffRatio": 0.000054862224257690255,
+          "exactDiffPixels": 118,
+          "exactDiffRatio": 0.00014073353179146631,
+          "exceededDiffPixels": 0,
+          "maxChannelDifference": 255,
+          "dimensionMismatch": false,
+          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\diff\\0038-WPT_reftest-css-css-cascade-scope-pseudo-element.html-p0001.png"
+        }
+      ],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/scope-pseudo-element-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-pseudo-element-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 5887,
+              "diffRatio": 0.007021172047935272,
+              "exactDiffPixels": 6594,
+              "exactDiffRatio": 0.007864380581634989,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0038-WPT_reftest-css-css-cascade-scope-pseudo-element.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-pseudo-element-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/scope-pseudo-element-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-pseudo-element-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 5871,
+              "diffRatio": 0.007002089535149989,
+              "exactDiffPixels": 6556,
+              "exactDiffRatio": 0.00781905961376994,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0038-WPT_reftest-css-css-cascade-scope-pseudo-element.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-pseudo-element-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0039",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/scope-shadow-sharing.html",
+      "file": [
+        "css/css-cascade/scope-shadow-sharing.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-shadow-sharing.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-shadow-sharing.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/scope-shadow-sharing-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-shadow-sharing-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 40640,
+              "diffRatio": 0.04846958247462026,
+              "exactDiffPixels": 40640,
+              "exactDiffRatio": 0.04846958247462026,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0039-WPT_reftest-css-css-cascade-scope-shadow-sharing.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-shadow-sharing-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/scope-shadow-sharing-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-shadow-sharing-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 40640,
+              "diffRatio": 0.04846958247462026,
+              "exactDiffPixels": 40640,
+              "exactDiffRatio": 0.04846958247462026,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0039-WPT_reftest-css-css-cascade-scope-shadow-sharing.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-shadow-sharing-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0040",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/scope-ua-shadow-host.html",
+      "file": [
+        "css/css-cascade/scope-ua-shadow-host.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-ua-shadow-host.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-ua-shadow-host.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 11035,
+              "diffRatio": 0.01316097053660026,
+              "exactDiffPixels": 11035,
+              "exactDiffRatio": 0.01316097053660026,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0040-WPT_reftest-css-css-cascade-scope-ua-shadow-host.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 11035,
+              "diffRatio": 0.01316097053660026,
+              "exactDiffPixels": 11035,
+              "exactDiffRatio": 0.01316097053660026,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0040-WPT_reftest-css-css-cascade-scope-ua-shadow-host.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0041",
+      "category": "WPT reftest",
+      "title": "css/css-cascade/scope-visited.html",
+      "file": [
+        "css/css-cascade/scope-visited.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-visited.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-visited.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/scope-visited-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-visited-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 8534,
+              "diffRatio": 0.010178135256850622,
+              "exactDiffPixels": 12455,
+              "exactDiffRatio": 0.014854543546294176,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0041-WPT_reftest-css-css-cascade-scope-visited.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-visited-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/css-cascade/scope-visited-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-visited-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 8534,
+              "diffRatio": 0.010178135256850622,
+              "exactDiffPixels": 12455,
+              "exactDiffRatio": 0.014854543546294176,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0041-WPT_reftest-css-css-cascade-scope-visited.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-visited-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0044",
+      "category": "WPT print-reftest",
+      "title": "css/css-cascade/scope-implicit-001-print.html",
+      "file": [
+        "css/css-cascade/scope-implicit-001-print.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-001-print.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-001-print.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0044-WPT_print-reftest-css-css-cascade-scope-implicit-001-print.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0044-WPT_print-reftest-css-css-cascade-scope-implicit-001-print.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0045",
+      "category": "WPT print-reftest",
+      "title": "css/css-cascade/scope-implicit-002-print.html",
+      "file": [
+        "css/css-cascade/scope-implicit-002-print.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-002-print.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-002-print.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0045-WPT_print-reftest-css-css-cascade-scope-implicit-002-print.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0045-WPT_print-reftest-css-css-cascade-scope-implicit-002-print.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0047",
+      "category": "WPT print-reftest",
+      "title": "css/css-cascade/scope-implicit-004-print.xhtml",
+      "file": [
+        "css/css-cascade/scope-implicit-004-print.xhtml"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-004-print.xhtml&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-004-print.xhtml&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0047-WPT_print-reftest-css-css-cascade-scope-implicit-004-print.xhtml-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0047-WPT_print-reftest-css-css-cascade-scope-implicit-004-print.xhtml-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0048",
+      "category": "WPT print-reftest",
+      "title": "css/css-cascade/scope-implicit-005-print.html",
+      "file": [
+        "css/css-cascade/scope-implicit-005-print.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-005-print.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-005-print.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0048-WPT_print-reftest-css-css-cascade-scope-implicit-005-print.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0048-WPT_print-reftest-css-css-cascade-scope-implicit-005-print.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0049",
+      "category": "WPT print-reftest",
+      "title": "css/css-cascade/scope-implicit-006-print.html",
+      "file": [
+        "css/css-cascade/scope-implicit-006-print.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-006-print.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-006-print.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\actual-reference-diff\\0049-WPT_print-reftest-css-css-cascade-scope-implicit-006-print.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-cascade\\baseline-reference-diff\\0049-WPT_print-reftest-css-css-cascade-scope-implicit-006-print.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    }
+  ],
+  "errors": []
+}

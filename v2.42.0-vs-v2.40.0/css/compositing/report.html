@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>v2.42.0 vs v2.40.0 report</title>
+  <style>
+    :root { color-scheme: light; --bg:#f6f4ef; --panel:#fffdf8; --ink:#222; --muted:#6b665c; --line:#ddd4c4; --pass:#1f7a4d; --fail:#b42318; --error:#9c2a2a; --improvement:#0f766e; --neutral:#7a6f5a; }
+    body { margin:0; font:14px/1.4 ui-sans-serif, system-ui, sans-serif; color:var(--ink); background:linear-gradient(180deg,#f3efe6 0%,#f8f6f1 100%); }
+    main { max-width:1200px; margin:0 auto; padding:32px 24px 64px; }
+    h1 { margin:0 0 8px; font-size:28px; }
+    p { margin:0; color:var(--muted); }
+    .summary { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; margin:24px 0; }
+    .card { background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:16px; box-shadow:0 8px 24px rgba(0,0,0,.04); }
+    .label { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
+    .value { font-size:28px; font-weight:700; margin-top:6px; }
+    table { width:100%; border-collapse:collapse; background:var(--panel); border:1px solid var(--line); border-radius:18px; overflow:hidden; }
+    th, td { padding:12px 14px; border-bottom:1px solid var(--line); vertical-align:top; text-align:left; }
+    th { font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); background:#f5f0e6; }
+    tr:last-child td { border-bottom:none; }
+    .badge { display:inline-block; padding:3px 9px; border-radius:999px; font-size:12px; font-weight:700; color:#fff; }
+    .badge.pass { background:var(--pass); }
+    .badge.fail { background:var(--fail); }
+    .badge.error { background:var(--error); }
+    .badge.improvement { background:var(--improvement); }
+    .badge.neutral { background:var(--neutral); }
+    .filter-badge { border:none; cursor:pointer; }
+    .badge-link, .test-link { color:inherit; text-decoration:none; }
+    .badge-link:hover .badge { filter:brightness(.94); }
+    .test-link:hover { text-decoration:underline; }
+    .change-cell { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    .diff-links { display:flex; gap:6px; flex-wrap:wrap; }
+    .diff-link { color:var(--muted); text-decoration:none; font-size:12px; border:1px solid var(--line); border-radius:999px; padding:2px 8px; background:#f5f0e6; }
+    .diff-link:hover { text-decoration:underline; }
+    .toolbar { display:flex; align-items:center; gap:10px; margin:0 0 18px; color:var(--muted); }
+    .toolbar[hidden] { display:none; }
+    .filter-reset { border:1px solid var(--line); background:var(--panel); border-radius:999px; padding:4px 10px; cursor:pointer; }
+    .is-hidden { display:none; }
+    .test-path { font-family:ui-monospace, SFMono-Regular, monospace; }
+    .breakdown { font-size:12px; color:var(--muted); margin-top:6px; line-height:1.6; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>v2.42.0 vs v2.40.0</h1>
+    <p>reftest-diff mode report generated at 2026-05-03T09:10:59.824Z</p>
+    <section class="summary">
+      <div class="card"><div class="label">Compared</div><div class="value">60</div></div>
+      <div class="card"><div class="label">PASS</div><div class="value">31</div></div>
+      <div class="card"><div class="label">FAIL</div><div class="value">29</div></div>
+      <div class="card"><div class="label">Errors</div><div class="value">0</div></div>
+    </section>
+    <div class="toolbar" id="filter-toolbar" hidden>
+      <span>Filtered by change: <strong id="filter-value"></strong></span>
+      <button type="button" class="filter-reset" id="filter-reset">Clear</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Test</th>
+          <th>v2.40.0</th>
+          <th>v2.42.0</th>
+          <th>Change</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/background-blending/background-blend-mode-gradient-image.html" target="_blank" rel="noopener noreferrer">css/compositing/background-blending/background-blend-mode-gradient-image.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/background-blending/background-blend-mode-gradient-image.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/background-blending/background-blend-mode-gradient-image.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/background-blending/background-blend-mode-plus-lighter.html" target="_blank" rel="noopener noreferrer">css/compositing/background-blending/background-blend-mode-plus-lighter.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/background-blending/background-blend-mode-plus-lighter.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/background-blending/background-blend-mode-plus-lighter.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/isolation/isolation-establishes-stacking-context.html" target="_blank" rel="noopener noreferrer">css/compositing/isolation/isolation-establishes-stacking-context.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/isolation/isolation-establishes-stacking-context.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/isolation/isolation-establishes-stacking-context.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-animation.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-animation.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-animation.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-animation.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0004-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-animation.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0004-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-animation.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-element-interposed.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-blended-element-interposed.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-element-interposed.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-element-interposed.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0005-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-blended-element-interposed.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0005-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-blended-element-interposed.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-element-overflow-hidden-and-border-radius.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-blended-element-overflow-hidden-and-border-radius.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-element-overflow-hidden-and-border-radius.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-element-overflow-hidden-and-border-radius.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-element-overflow-scroll.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-blended-element-overflow-scroll.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-element-overflow-scroll.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-element-overflow-scroll.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-element-with-transparent-pixels.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-blended-element-with-transparent-pixels.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-element-with-transparent-pixels.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-element-with-transparent-pixels.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-with-3D-transform.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-blended-with-3D-transform.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-with-3D-transform.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-with-3D-transform.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-with-transform-and-perspective.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-blended-with-transform-and-perspective.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-with-transform-and-perspective.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-with-transform-and-perspective.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0010-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-blended-with-transform-and-perspective.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0010-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-blended-with-transform-and-perspective.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blending-with-sibling.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-blending-with-sibling.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blending-with-sibling.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blending-with-sibling.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-border-image.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-border-image.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-border-image.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-border-image.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0012-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-border-image.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0012-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-border-image.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-both-parent-and-blended-with-3D-transform.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-both-parent-and-blended-with-3D-transform.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-both-parent-and-blended-with-3D-transform.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-both-parent-and-blended-with-3D-transform.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-canvas-parent.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-canvas-parent.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-canvas-parent.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-canvas-parent.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0014-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-canvas-parent.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0014-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-canvas-parent.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-canvas-sibling.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-canvas-sibling.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-canvas-sibling.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-canvas-sibling.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0015-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-canvas-sibling.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0015-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-canvas-sibling.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-filter.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-filter.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-filter.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-filter.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0016-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-filter.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0016-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-filter.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-iframe-parent.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-iframe-parent.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-iframe-parent.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-iframe-parent.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="changed-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="changed-fail">changed-fail</button><span class="diff-links"><a class="diff-link" href="diff/0017-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-iframe-parent.html-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 vs v2.42.0 p1</a><a class="diff-link" href="actual-reference-diff/0017-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-iframe-parent.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0017-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-iframe-parent.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td>1 viewer diff page(s)</td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-iframe-sibling.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-iframe-sibling.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-iframe-sibling.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-iframe-sibling.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="changed-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="changed-fail">changed-fail</button><span class="diff-links"><a class="diff-link" href="diff/0018-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-iframe-sibling.html-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 vs v2.42.0 p1</a><a class="diff-link" href="actual-reference-diff/0018-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-iframe-sibling.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0018-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-iframe-sibling.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td>1 viewer diff page(s)</td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-image.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-image.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-image.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-image.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-intermediate-element-overflow-hidden-and-border-radius.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-intermediate-element-overflow-hidden-and-border-radius.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-intermediate-element-overflow-hidden-and-border-radius.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-intermediate-element-overflow-hidden-and-border-radius.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-mask.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-mask.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-mask.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-mask.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="changed-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="changed-fail">changed-fail</button><span class="diff-links"><a class="diff-link" href="diff/0021-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-mask.html-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 vs v2.42.0 p1</a><a class="diff-link" href="actual-reference-diff/0021-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-mask.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0021-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-mask.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td>1 viewer diff page(s)</td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-overflowing-child-of-blended-element.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-overflowing-child-of-blended-element.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-overflowing-child-of-blended-element.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-overflowing-child-of-blended-element.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-overflowing-child.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-overflowing-child.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-overflowing-child.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-overflowing-child.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-paragraph-background-image.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-paragraph-background-image.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-paragraph-background-image.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-paragraph-background-image.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0024-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-paragraph-background-image.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0024-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-paragraph-background-image.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-paragraph.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-paragraph.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-paragraph.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-paragraph.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0025-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-paragraph.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0025-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-paragraph.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-hidden-and-border-radius-2.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-hidden-and-border-radius-2.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-hidden-and-border-radius-2.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-hidden-and-border-radius-2.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-hidden-and-border-radius.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-hidden-and-border-radius.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-hidden-and-border-radius.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-hidden-and-border-radius.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-scroll-blended-position-fixed.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-scroll-blended-position-fixed.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-scroll-blended-position-fixed.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-scroll-blended-position-fixed.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-scroll.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-scroll.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-scroll.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-scroll.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-with-3D-transform.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-parent-with-3D-transform.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-with-3D-transform.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-with-3D-transform.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-with-border-radius.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-parent-with-border-radius.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-with-border-radius.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-with-border-radius.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-with-text.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-parent-with-text.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-with-text.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-with-text.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0032-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-parent-with-text.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0032-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-parent-with-text.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-plus-lighter-basic.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-plus-lighter-basic.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-plus-lighter-basic.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-plus-lighter-basic.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-plus-lighter-svg-basic.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-plus-lighter-svg-basic.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-plus-lighter-svg-basic.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-plus-lighter-svg-basic.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-plus-lighter-svg.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-plus-lighter-svg.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-plus-lighter-svg.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-plus-lighter-svg.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-plus-lighter.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-plus-lighter.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-plus-lighter.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-plus-lighter.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-root-element-group.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-root-element-group.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-root-element-group.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-root-element-group.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-rotated-clip.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-rotated-clip.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-rotated-clip.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-rotated-clip.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-script.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-script.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-script.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-script.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0039-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-script.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0039-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-script.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-sibling-with-3D-transform.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-sibling-with-3D-transform.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-sibling-with-3D-transform.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-sibling-with-3D-transform.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-simple.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-simple.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-simple.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-simple.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0041-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-simple.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0041-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-simple.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-001.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-001.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-001.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-001.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0042-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-stacking-context-001.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0042-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-stacking-context-001.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-002.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-002.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-002.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-002.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0043-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-stacking-context-002.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0043-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-stacking-context-002.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-creates-isolation.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-creates-isolation.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-creates-isolation.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-creates-isolation.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-svg.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-svg.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-svg.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-svg.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0045-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-svg.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0045-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-svg.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="expected-change"><div class="change-cell"><button type="button" class="badge filter-badge pass" data-filter="expected-change">expected-change</button><span class="diff-links"><a class="diff-link" href="diff/0046-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-video-sibling.html-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 vs v2.42.0 p1</a></span></div></td>
+  <td>1 viewer diff page(s)</td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-video.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="expected-change"><div class="change-cell"><button type="button" class="badge filter-badge pass" data-filter="expected-change">expected-change</button><span class="diff-links"><a class="diff-link" href="diff/0047-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-video.html-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 vs v2.42.0 p1</a></span></div></td>
+  <td>1 viewer diff page(s)</td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-with-transform-and-preserve-3D.html" target="_blank" rel="noopener noreferrer">css/compositing/mix-blend-mode/mix-blend-mode-with-transform-and-preserve-3D.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-with-transform-and-preserve-3D.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-with-transform-and-preserve-3D.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0048-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-with-transform-and-preserve-3D.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0048-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-with-transform-and-preserve-3D.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/root-element-background-image-transparency-001.html" target="_blank" rel="noopener noreferrer">css/compositing/root-element-background-image-transparency-001.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-001.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-001.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0049-WPT_reftest-css-compositing-root-element-background-image-transparency-001.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0049-WPT_reftest-css-compositing-root-element-background-image-transparency-001.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/root-element-background-image-transparency-002.html" target="_blank" rel="noopener noreferrer">css/compositing/root-element-background-image-transparency-002.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-002.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-002.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0050-WPT_reftest-css-compositing-root-element-background-image-transparency-002.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0050-WPT_reftest-css-compositing-root-element-background-image-transparency-002.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/root-element-background-image-transparency-003.html" target="_blank" rel="noopener noreferrer">css/compositing/root-element-background-image-transparency-003.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-003.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-003.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0051-WPT_reftest-css-compositing-root-element-background-image-transparency-003.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0051-WPT_reftest-css-compositing-root-element-background-image-transparency-003.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/root-element-background-image-transparency-004.html" target="_blank" rel="noopener noreferrer">css/compositing/root-element-background-image-transparency-004.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-004.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-004.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="changed-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="changed-fail">changed-fail</button><span class="diff-links"><a class="diff-link" href="diff/0052-WPT_reftest-css-compositing-root-element-background-image-transparency-004.html-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 vs v2.42.0 p1</a><a class="diff-link" href="actual-reference-diff/0052-WPT_reftest-css-compositing-root-element-background-image-transparency-004.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0052-WPT_reftest-css-compositing-root-element-background-image-transparency-004.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td>1 viewer diff page(s)</td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/root-element-background-margin-opacity.html" target="_blank" rel="noopener noreferrer">css/compositing/root-element-background-margin-opacity.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-background-margin-opacity.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-background-margin-opacity.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0053-WPT_reftest-css-compositing-root-element-background-margin-opacity.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0053-WPT_reftest-css-compositing-root-element-background-margin-opacity.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/root-element-background-transparency.html" target="_blank" rel="noopener noreferrer">css/compositing/root-element-background-transparency.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-background-transparency.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-background-transparency.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/root-element-blend-mode.html" target="_blank" rel="noopener noreferrer">css/compositing/root-element-blend-mode.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-blend-mode.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-blend-mode.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0055-WPT_reftest-css-compositing-root-element-blend-mode.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0055-WPT_reftest-css-compositing-root-element-blend-mode.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/root-element-filter.html" target="_blank" rel="noopener noreferrer">css/compositing/root-element-filter.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-filter.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-filter.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0056-WPT_reftest-css-compositing-root-element-filter.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="actual-reference-diff/0056-WPT_reftest-css-compositing-root-element-filter.html-r01-p0002.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p2</a><a class="diff-link" href="baseline-reference-diff/0056-WPT_reftest-css-compositing-root-element-filter.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0056-WPT_reftest-css-compositing-root-element-filter.html-r01-p0002.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p2</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/root-element-opacity-change.html" target="_blank" rel="noopener noreferrer">css/compositing/root-element-opacity-change.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-opacity-change.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-opacity-change.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0057-WPT_reftest-css-compositing-root-element-opacity-change.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0057-WPT_reftest-css-compositing-root-element-opacity-change.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/root-element-opacity.html" target="_blank" rel="noopener noreferrer">css/compositing/root-element-opacity.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-opacity.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-opacity.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0058-WPT_reftest-css-compositing-root-element-opacity.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0058-WPT_reftest-css-compositing-root-element-opacity.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/svg/mix-blend-mode-in-svg-image.html" target="_blank" rel="noopener noreferrer">css/compositing/svg/mix-blend-mode-in-svg-image.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/svg/mix-blend-mode-in-svg-image.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/svg/mix-blend-mode-in-svg-image.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge pass">PASS</span></a></td>
+  <td data-change-type="pass"><button type="button" class="badge filter-badge pass" data-filter="pass">pass</button></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="test-path"><a class="test-link" href="https://wpt.live/css/compositing/svg/mix-blend-mode-svg-rectangle.html" target="_blank" rel="noopener noreferrer">css/compositing/svg/mix-blend-mode-svg-rectangle.html</a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/svg/mix-blend-mode-svg-rectangle.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/svg/mix-blend-mode-svg-rectangle.html&amp;pixelRatio=0&amp;zoom=1&amp;spread=false" target="_blank" rel="noopener noreferrer"><span class="badge fail">FAIL</span></a></td>
+  <td data-change-type="known-fail"><div class="change-cell"><button type="button" class="badge filter-badge neutral" data-filter="known-fail">known-fail</button><span class="diff-links"><a class="diff-link" href="actual-reference-diff/0060-WPT_reftest-css-compositing-svg-mix-blend-mode-svg-rectangle.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.42.0 ref p1</a><a class="diff-link" href="baseline-reference-diff/0060-WPT_reftest-css-compositing-svg-mix-blend-mode-svg-rectangle.html-r01-p0001.png" target="_blank" rel="noopener noreferrer">v2.40.0 ref p1</a></span></div></td>
+  <td></td>
+</tr>
+      </tbody>
+    </table>
+  </main>
+  <script>
+    (() => {
+      const rows = Array.from(document.querySelectorAll("tbody tr"));
+      const toolbar = document.getElementById("filter-toolbar");
+      const filterValue = document.getElementById("filter-value");
+      const resetButton = document.getElementById("filter-reset");
+      let currentFilter = "";
+
+      const applyFilter = (nextFilter) => {
+        currentFilter = nextFilter;
+        rows.forEach((row) => {
+          const cell = row.querySelector("td[data-change-type]");
+          const changeType = cell?.dataset.changeType || "";
+          row.classList.toggle(
+            "is-hidden",
+            Boolean(currentFilter) && changeType !== currentFilter,
+          );
+        });
+        toolbar.hidden = !currentFilter;
+        if (filterValue) {
+          filterValue.textContent = currentFilter;
+        }
+      };
+
+      document.querySelectorAll(".filter-badge").forEach((button) => {
+        button.addEventListener("click", () => {
+          applyFilter(
+            currentFilter === button.dataset.filter ? "" : button.dataset.filter,
+          );
+        });
+      });
+      resetButton?.addEventListener("click", () => applyFilter(""));
+    })();
+  </script>
+</body>
+</html>

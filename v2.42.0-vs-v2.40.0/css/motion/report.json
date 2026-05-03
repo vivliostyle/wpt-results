@@ -1,0 +1,3598 @@
+{
+  "generatedAt": "2026-05-03T14:53:39.024Z",
+  "labels": {
+    "actual": "v2.42.0",
+    "baseline": "v2.40.0"
+  },
+  "options": {
+    "categories": [],
+    "titleIncludes": [],
+    "files": [],
+    "limit": null,
+    "mode": "reftest-diff",
+    "browser": "chromium",
+    "outDir": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion",
+    "timeoutSec": 10,
+    "maxDiffRatio": 0.00002,
+    "pixelThreshold": 0.1,
+    "viewportWidth": 1800,
+    "viewportHeight": 1800,
+    "skipScreenshots": false,
+    "concurrency": 8,
+    "exportHtml": false,
+    "exportHtmlDiff": false,
+    "actualViewer": "https://vivliostyle.github.io/viewer/v2.42.0/",
+    "baselineViewer": "https://vivliostyle.github.io/viewer/v2.40.0/",
+    "actualLabel": "v2.42.0",
+    "baselineLabel": "v2.40.0",
+    "extraViewerParams": "",
+    "actualViewerParams": "",
+    "baselineViewerParams": "",
+    "testUrls": [],
+    "refUrls": [],
+    "wptManifestPath": "D:\\viv\\vivliostyle.js\\artifacts\\wpt-reftest\\MANIFEST.json",
+    "wptBaseUrl": "https://wpt.live/",
+    "wptPathPrefixes": [
+      "css/motion/"
+    ],
+    "timeoutMs": 10000
+  },
+  "summary": {
+    "totalEntries": 97,
+    "entriesWithDifferences": 19,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
+    "pageCountMismatches": 0,
+    "screenshotMismatches": 0,
+    "outcomes": {
+      "changeTypes": {
+        "known-fail": 19,
+        "pass": 78
+      },
+      "statusPairs": {
+        "FAIL->FAIL": 19,
+        "PASS->PASS": 78
+      }
+    },
+    "triage": {
+      "differences": {
+        "pending": 19,
+        "triaged": 0
+      },
+      "errors": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "pendingEntries": 19,
+      "triagedEntries": 0
+    }
+  },
+  "entries": [
+    {
+      "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/motion/animation/reftests/offset-distance-interpolation-001.html",
+      "file": [
+        "css/motion/animation/reftests/offset-distance-interpolation-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/animation/reftests/offset-distance-interpolation-001.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/animation/reftests/offset-distance-interpolation-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/animation/reftests/offset-distance-interpolation-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0002",
+      "category": "WPT reftest",
+      "title": "css/motion/animation/reftests/offset-path-path-interpolation-001.html",
+      "file": [
+        "css/motion/animation/reftests/offset-path-path-interpolation-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-001.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0003",
+      "category": "WPT reftest",
+      "title": "css/motion/animation/reftests/offset-path-with-transforms-001.html",
+      "file": [
+        "css/motion/animation/reftests/offset-path-with-transforms-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/animation/reftests/offset-path-with-transforms-001.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-with-transforms-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-with-transforms-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0004",
+      "category": "WPT reftest",
+      "title": "css/motion/animation/reftests/offset-rotate-interpolation-001.html",
+      "file": [
+        "css/motion/animation/reftests/offset-rotate-interpolation-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/animation/reftests/offset-rotate-interpolation-001.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/animation/reftests/offset-rotate-interpolation-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/animation/reftests/offset-rotate-interpolation-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0005",
+      "category": "WPT reftest",
+      "title": "css/motion/change-offset-path.html",
+      "file": [
+        "css/motion/change-offset-path.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/change-offset-path.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/change-offset-path.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/change-offset-path.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0006",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-anchor-transform-box-fill-box-001.html",
+      "file": [
+        "css/motion/offset-anchor-transform-box-fill-box-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-anchor-transform-box-fill-box-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-anchor-transform-box-fill-box-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-anchor-transform-box-fill-box-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0007",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-anchor-transform-box-fill-box-002.html",
+      "file": [
+        "css/motion/offset-anchor-transform-box-fill-box-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-anchor-transform-box-fill-box-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-anchor-transform-box-fill-box-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-anchor-transform-box-fill-box-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0008",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-anchor-transform-box-fill-box-003.html",
+      "file": [
+        "css/motion/offset-anchor-transform-box-fill-box-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-anchor-transform-box-fill-box-003.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-anchor-transform-box-fill-box-003.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-anchor-transform-box-fill-box-003.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0009",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-distance-001.html",
+      "file": [
+        "css/motion/offset-distance-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-distance-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-distance-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-distance-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0010",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-distance-002.html",
+      "file": [
+        "css/motion/offset-distance-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-distance-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-distance-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-distance-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0011",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-distance-003.html",
+      "file": [
+        "css/motion/offset-distance-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-distance-003.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-distance-003.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-distance-003.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0012",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-distance-004.html",
+      "file": [
+        "css/motion/offset-distance-004.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-distance-004.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-distance-004.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-distance-004.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0013",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-distance-005.html",
+      "file": [
+        "css/motion/offset-distance-005.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-distance-005.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-distance-005.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-distance-005.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0014",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-distance-006.html",
+      "file": [
+        "css/motion/offset-distance-006.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-distance-006.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-distance-006.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-distance-006.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0015",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-distance-007.html",
+      "file": [
+        "css/motion/offset-distance-007.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-distance-007.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-distance-007.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-distance-007.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0016",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-distance-008.html",
+      "file": [
+        "css/motion/offset-distance-008.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-distance-008.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-distance-008.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-distance-008.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0017",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-distance-009.html",
+      "file": [
+        "css/motion/offset-distance-009.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-distance-009.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-distance-009.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-distance-009.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0018",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-coord-box-001.html",
+      "file": [
+        "css/motion/offset-path-coord-box-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-coord-box-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-coord-box-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-coord-box-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0019",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-coord-box-002.html",
+      "file": [
+        "css/motion/offset-path-coord-box-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-coord-box-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-coord-box-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-coord-box-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0020",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-coord-box-003.html",
+      "file": [
+        "css/motion/offset-path-coord-box-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-coord-box-003.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-coord-box-003.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-coord-box-003.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0021",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-coord-box-004.html",
+      "file": [
+        "css/motion/offset-path-coord-box-004.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-coord-box-004.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-coord-box-004.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-coord-box-004.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0022",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-001.html",
+      "file": [
+        "css/motion/offset-path-ray-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0023",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-002.html",
+      "file": [
+        "css/motion/offset-path-ray-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-002.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0024",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-003.html",
+      "file": [
+        "css/motion/offset-path-ray-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-003.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-003.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-003.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0025",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-004.html",
+      "file": [
+        "css/motion/offset-path-ray-004.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-004.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-004.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-004.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0026",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-005.html",
+      "file": [
+        "css/motion/offset-path-ray-005.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-005.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-005.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-005.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0027",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-006.html",
+      "file": [
+        "css/motion/offset-path-ray-006.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-006.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-006.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-006.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0028",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-007.html",
+      "file": [
+        "css/motion/offset-path-ray-007.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-007.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-007.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-007.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0029",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-008.html",
+      "file": [
+        "css/motion/offset-path-ray-008.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-008.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-008.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-008.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0030",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-009.html",
+      "file": [
+        "css/motion/offset-path-ray-009.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-009.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-009.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-009.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0031",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-010.html",
+      "file": [
+        "css/motion/offset-path-ray-010.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-010.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-010.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-010.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0032",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-011.html",
+      "file": [
+        "css/motion/offset-path-ray-011.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-011.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-011.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-011.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0033",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-012.html",
+      "file": [
+        "css/motion/offset-path-ray-012.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-012.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-012.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-012.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0034",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-013.html",
+      "file": [
+        "css/motion/offset-path-ray-013.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-013.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-013.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-013.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0035",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-014.html",
+      "file": [
+        "css/motion/offset-path-ray-014.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-014.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-014.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-014.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0036",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-015.html",
+      "file": [
+        "css/motion/offset-path-ray-015.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-015.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-015.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-015.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0037",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-016.html",
+      "file": [
+        "css/motion/offset-path-ray-016.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-016.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-016.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-016.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0038",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-017.html",
+      "file": [
+        "css/motion/offset-path-ray-017.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-017.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-017.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-017.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0039",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-018.html",
+      "file": [
+        "css/motion/offset-path-ray-018.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-018.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-018.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-018.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0040",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-019.html",
+      "file": [
+        "css/motion/offset-path-ray-019.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-019.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-019.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-019.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0041",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-020.html",
+      "file": [
+        "css/motion/offset-path-ray-020.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-020.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-020.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-020.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0042",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-021.html",
+      "file": [
+        "css/motion/offset-path-ray-021.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-021.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-021.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-021.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0043",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-022.html",
+      "file": [
+        "css/motion/offset-path-ray-022.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-022.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-022.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-022.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0044",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-contain-001.html",
+      "file": [
+        "css/motion/offset-path-ray-contain-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-contain-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-contain-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-contain-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0045",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-contain-002.html",
+      "file": [
+        "css/motion/offset-path-ray-contain-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-contain-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-contain-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-contain-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0046",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-contain-003.html",
+      "file": [
+        "css/motion/offset-path-ray-contain-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-contain-003.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-contain-003.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-contain-003.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0047",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-contain-004.html",
+      "file": [
+        "css/motion/offset-path-ray-contain-004.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-contain-004.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-contain-004.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-contain-004.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0048",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-contain-005.html",
+      "file": [
+        "css/motion/offset-path-ray-contain-005.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-ray-contain-005.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-contain-005.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-contain-005.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0049",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-circle-001.html",
+      "file": [
+        "css/motion/offset-path-shape-circle-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-circle-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-circle-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-circle-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0050",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-circle-002.html",
+      "file": [
+        "css/motion/offset-path-shape-circle-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-circle-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-circle-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-circle-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0051",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-circle-003.html",
+      "file": [
+        "css/motion/offset-path-shape-circle-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-circle-003.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-circle-003.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-circle-003.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0052",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-circle-004.html",
+      "file": [
+        "css/motion/offset-path-shape-circle-004.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-circle-004.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-circle-004.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-circle-004.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0053",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-circle-005.html",
+      "file": [
+        "css/motion/offset-path-shape-circle-005.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-circle-005.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-circle-005.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-circle-005.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0054",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-circle-006.html",
+      "file": [
+        "css/motion/offset-path-shape-circle-006.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-circle-006.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-circle-006.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-circle-006.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0055",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-circle-007.html",
+      "file": [
+        "css/motion/offset-path-shape-circle-007.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-circle-007.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-circle-007.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-circle-007.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0056",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-circle-008.html",
+      "file": [
+        "css/motion/offset-path-shape-circle-008.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-circle-008.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-circle-008.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-circle-008.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0057",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-ellipse-001.html",
+      "file": [
+        "css/motion/offset-path-shape-ellipse-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-ellipse-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-ellipse-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-ellipse-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0058",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-ellipse-002.html",
+      "file": [
+        "css/motion/offset-path-shape-ellipse-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-ellipse-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-ellipse-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-ellipse-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0059",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-ellipse-003.html",
+      "file": [
+        "css/motion/offset-path-shape-ellipse-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-ellipse-003.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-ellipse-003.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-ellipse-003.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0060",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-ellipse-004.html",
+      "file": [
+        "css/motion/offset-path-shape-ellipse-004.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-ellipse-004.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-ellipse-004.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-ellipse-004.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0061",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-ellipse-005.html",
+      "file": [
+        "css/motion/offset-path-shape-ellipse-005.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-ellipse-005.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-ellipse-005.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-ellipse-005.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0062",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-ellipse-006.html",
+      "file": [
+        "css/motion/offset-path-shape-ellipse-006.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-ellipse-006.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-ellipse-006.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-ellipse-006.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0063",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-ellipse-007.html",
+      "file": [
+        "css/motion/offset-path-shape-ellipse-007.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-ellipse-007.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-ellipse-007.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-ellipse-007.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0064",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-inset-001.html",
+      "file": [
+        "css/motion/offset-path-shape-inset-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-inset-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-inset-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-inset-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0065",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-inset-002.html",
+      "file": [
+        "css/motion/offset-path-shape-inset-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-inset-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-inset-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-inset-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0066",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-polygon-001.html",
+      "file": [
+        "css/motion/offset-path-shape-polygon-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-polygon-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-polygon-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-polygon-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0067",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-polygon-002.html",
+      "file": [
+        "css/motion/offset-path-shape-polygon-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-polygon-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-polygon-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-polygon-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0068",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-polygon-003.html",
+      "file": [
+        "css/motion/offset-path-shape-polygon-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-polygon-003.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-polygon-003.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-polygon-003.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0069",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-rect-001.html",
+      "file": [
+        "css/motion/offset-path-shape-rect-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-rect-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-rect-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-rect-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0070",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-rect-002.html",
+      "file": [
+        "css/motion/offset-path-shape-rect-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-rect-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-rect-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-rect-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0071",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-rect-003.html",
+      "file": [
+        "css/motion/offset-path-shape-rect-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-rect-003.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-rect-003.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-rect-003.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0072",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-shape-001.html",
+      "file": [
+        "css/motion/offset-path-shape-shape-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-shape-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-shape-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-shape-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0073",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-shape-002.html",
+      "file": [
+        "css/motion/offset-path-shape-shape-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-shape-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-shape-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-shape-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0074",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-shape-003.html",
+      "file": [
+        "css/motion/offset-path-shape-shape-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-shape-003.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-shape-003.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-shape-003.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0075",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-xywh-001.html",
+      "file": [
+        "css/motion/offset-path-shape-xywh-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-xywh-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-xywh-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-xywh-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0076",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-xywh-002.html",
+      "file": [
+        "css/motion/offset-path-shape-xywh-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-xywh-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-xywh-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-xywh-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0077",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-shape-xywh-003.html",
+      "file": [
+        "css/motion/offset-path-shape-xywh-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-shape-xywh-003.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-shape-xywh-003.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-shape-xywh-003.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0078",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-string-001.html",
+      "file": [
+        "css/motion/offset-path-string-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-string-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-string-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-string-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0079",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-string-002.html",
+      "file": [
+        "css/motion/offset-path-string-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-string-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-string-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-string-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0080",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-string-003.html",
+      "file": [
+        "css/motion/offset-path-string-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-string-003.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-string-003.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-string-003.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0081",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-001.html",
+      "file": [
+        "css/motion/offset-path-url-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-url-001.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0082",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-002.html",
+      "file": [
+        "css/motion/offset-path-url-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-url-002.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0083",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-003.html",
+      "file": [
+        "css/motion/offset-path-url-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-url-003.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-003.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-003.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0084",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-004.html",
+      "file": [
+        "css/motion/offset-path-url-004.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-url-004.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-004.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-004.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0085",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-005.html",
+      "file": [
+        "css/motion/offset-path-url-005.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-url-005.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-005.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-005.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0086",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-006.html",
+      "file": [
+        "css/motion/offset-path-url-006.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-url-006.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-006.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-006.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0087",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-007.html",
+      "file": [
+        "css/motion/offset-path-url-007.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-url-007.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-007.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-007.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0088",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-008.html",
+      "file": [
+        "css/motion/offset-path-url-008.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-url-008.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-008.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-008.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0089",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-009.html",
+      "file": [
+        "css/motion/offset-path-url-009.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-url-009.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-009.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-009.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0090",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-010.html",
+      "file": [
+        "css/motion/offset-path-url-010.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-url-010.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-010.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-010.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0091",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-011.html",
+      "file": [
+        "css/motion/offset-path-url-011.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-url-011.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-011.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-011.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0092",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-012.html",
+      "file": [
+        "css/motion/offset-path-url-012.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-path-url-012.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-012.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-012.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0093",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-rotate-001.html",
+      "file": [
+        "css/motion/offset-rotate-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-rotate-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-rotate-001.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-rotate-001.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0094",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-rotate-002.html",
+      "file": [
+        "css/motion/offset-rotate-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-rotate-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-rotate-002.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-rotate-002.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0095",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-rotate-003.html",
+      "file": [
+        "css/motion/offset-rotate-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-rotate-003.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-rotate-003.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-rotate-003.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0096",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-rotate-004.html",
+      "file": [
+        "css/motion/offset-rotate-004.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-rotate-004.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-rotate-004.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-rotate-004.html&pixelRatio=0&zoom=1&spread=false"
+    },
+    {
+      "id": "0097",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-rotate-005.html",
+      "file": [
+        "css/motion/offset-rotate-005.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/motion/offset-rotate-005.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-rotate-005.html&pixelRatio=0&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-rotate-005.html&pixelRatio=0&zoom=1&spread=false"
+    }
+  ],
+  "differences": [
+    {
+      "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/motion/animation/reftests/offset-distance-interpolation-001.html",
+      "file": [
+        "css/motion/animation/reftests/offset-distance-interpolation-001.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/animation/reftests/offset-distance-interpolation-001.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/animation/reftests/offset-distance-interpolation-001.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/animation/reftests/offset-path-path-interpolation-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 20000,
+              "diffRatio": 0.02385314098160446,
+              "exactDiffPixels": 20000,
+              "exactDiffRatio": 0.02385314098160446,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0001-WPT_reftest-css-motion-animation-reftests-offset-distance-interpolation-001.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/animation/reftests/offset-path-path-interpolation-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 20000,
+              "diffRatio": 0.02385314098160446,
+              "exactDiffPixels": 20000,
+              "exactDiffRatio": 0.02385314098160446,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0001-WPT_reftest-css-motion-animation-reftests-offset-distance-interpolation-001.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0002",
+      "category": "WPT reftest",
+      "title": "css/motion/animation/reftests/offset-path-path-interpolation-001.html",
+      "file": [
+        "css/motion/animation/reftests/offset-path-path-interpolation-001.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-001.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-001.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/animation/reftests/offset-path-path-interpolation-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 100000,
+              "diffRatio": 0.11926570490802228,
+              "exactDiffPixels": 100000,
+              "exactDiffRatio": 0.11926570490802228,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0002-WPT_reftest-css-motion-animation-reftests-offset-path-path-interpolation-001.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/animation/reftests/offset-path-path-interpolation-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 100000,
+              "diffRatio": 0.11926570490802228,
+              "exactDiffPixels": 100000,
+              "exactDiffRatio": 0.11926570490802228,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0002-WPT_reftest-css-motion-animation-reftests-offset-path-path-interpolation-001.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0003",
+      "category": "WPT reftest",
+      "title": "css/motion/animation/reftests/offset-path-with-transforms-001.html",
+      "file": [
+        "css/motion/animation/reftests/offset-path-with-transforms-001.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-with-transforms-001.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-with-transforms-001.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/animation/reftests/offset-path-with-transforms-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-with-transforms-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 5000,
+              "diffRatio": 0.005963285245401115,
+              "exactDiffPixels": 5000,
+              "exactDiffRatio": 0.005963285245401115,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0003-WPT_reftest-css-motion-animation-reftests-offset-path-with-transforms-001.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-with-transforms-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/animation/reftests/offset-path-with-transforms-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-with-transforms-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 5000,
+              "diffRatio": 0.005963285245401115,
+              "exactDiffPixels": 5000,
+              "exactDiffRatio": 0.005963285245401115,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0003-WPT_reftest-css-motion-animation-reftests-offset-path-with-transforms-001.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-with-transforms-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0004",
+      "category": "WPT reftest",
+      "title": "css/motion/animation/reftests/offset-rotate-interpolation-001.html",
+      "file": [
+        "css/motion/animation/reftests/offset-rotate-interpolation-001.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/animation/reftests/offset-rotate-interpolation-001.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/animation/reftests/offset-rotate-interpolation-001.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/animation/reftests/offset-path-path-interpolation-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 111000,
+              "diffRatio": 0.13238493244790475,
+              "exactDiffPixels": 111000,
+              "exactDiffRatio": 0.13238493244790475,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0004-WPT_reftest-css-motion-animation-reftests-offset-rotate-interpolation-001.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/animation/reftests/offset-path-path-interpolation-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 111000,
+              "diffRatio": 0.13238493244790475,
+              "exactDiffPixels": 111000,
+              "exactDiffRatio": 0.13238493244790475,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0004-WPT_reftest-css-motion-animation-reftests-offset-rotate-interpolation-001.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0021",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-coord-box-004.html",
+      "file": [
+        "css/motion/offset-path-coord-box-004.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-coord-box-004.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-coord-box-004.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-coord-box-004-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-coord-box-004-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 78010,
+              "diffRatio": 0.09303917639874819,
+              "exactDiffPixels": 78010,
+              "exactDiffRatio": 0.09303917639874819,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0021-WPT_reftest-css-motion-offset-path-coord-box-004.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-coord-box-004-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-coord-box-004-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-coord-box-004-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 78010,
+              "diffRatio": 0.09303917639874819,
+              "exactDiffPixels": 78010,
+              "exactDiffRatio": 0.09303917639874819,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0021-WPT_reftest-css-motion-offset-path-coord-box-004.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-coord-box-004-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0023",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-ray-002.html",
+      "file": [
+        "css/motion/offset-path-ray-002.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-002.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-002.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-ray-001-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-001-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": {
+            "maxDifference": [
+              0,
+              1
+            ],
+            "totalPixels": [
+              0,
+              10
+            ]
+          },
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 7854,
+              "diffRatio": 0.00936712846347607,
+              "exactDiffPixels": 9458,
+              "exactDiffRatio": 0.011280150370200748,
+              "exceededDiffPixels": 9442,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0023-WPT_reftest-css-motion-offset-path-ray-002.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-ray-001-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-ray-001-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-001-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": {
+            "maxDifference": [
+              0,
+              1
+            ],
+            "totalPixels": [
+              0,
+              10
+            ]
+          },
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 7854,
+              "diffRatio": 0.00936712846347607,
+              "exactDiffPixels": 9458,
+              "exactDiffRatio": 0.011280150370200748,
+              "exceededDiffPixels": 9442,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0023-WPT_reftest-css-motion-offset-path-ray-002.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-ray-001-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0081",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-001.html",
+      "file": [
+        "css/motion/offset-path-url-001.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-001.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-001.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-001-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-001-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4349,
+              "diffRatio": 0.0051868655064498895,
+              "exactDiffPixels": 4532,
+              "exactDiffRatio": 0.00540512174643157,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0081-WPT_reftest-css-motion-offset-path-url-001.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-001-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-001-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-001-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4349,
+              "diffRatio": 0.0051868655064498895,
+              "exactDiffPixels": 4532,
+              "exactDiffRatio": 0.00540512174643157,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0081-WPT_reftest-css-motion-offset-path-url-001.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-001-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0082",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-002.html",
+      "file": [
+        "css/motion/offset-path-url-002.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-002.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-002.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-002-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-002-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4349,
+              "diffRatio": 0.0051868655064498895,
+              "exactDiffPixels": 4532,
+              "exactDiffRatio": 0.00540512174643157,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0082-WPT_reftest-css-motion-offset-path-url-002.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-002-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-002-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-002-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4349,
+              "diffRatio": 0.0051868655064498895,
+              "exactDiffPixels": 4532,
+              "exactDiffRatio": 0.00540512174643157,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0082-WPT_reftest-css-motion-offset-path-url-002.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-002-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0083",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-003.html",
+      "file": [
+        "css/motion/offset-path-url-003.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-003.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-003.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-003-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-003-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": {
+            "maxDifference": [
+              0,
+              35
+            ],
+            "totalPixels": [
+              0,
+              85
+            ]
+          },
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4350,
+              "diffRatio": 0.005188058163498969,
+              "exactDiffPixels": 4532,
+              "exactDiffRatio": 0.00540512174643157,
+              "exceededDiffPixels": 4494,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0083-WPT_reftest-css-motion-offset-path-url-003.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-003-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-003-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-003-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": {
+            "maxDifference": [
+              0,
+              35
+            ],
+            "totalPixels": [
+              0,
+              85
+            ]
+          },
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4350,
+              "diffRatio": 0.005188058163498969,
+              "exactDiffPixels": 4532,
+              "exactDiffRatio": 0.00540512174643157,
+              "exceededDiffPixels": 4494,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0083-WPT_reftest-css-motion-offset-path-url-003.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-003-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0084",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-004.html",
+      "file": [
+        "css/motion/offset-path-url-004.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-004.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-004.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-004-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-004-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": {
+            "maxDifference": [
+              0,
+              15
+            ],
+            "totalPixels": [
+              0,
+              70
+            ]
+          },
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4348,
+              "diffRatio": 0.005185672849400809,
+              "exactDiffPixels": 4532,
+              "exactDiffRatio": 0.00540512174643157,
+              "exceededDiffPixels": 4507,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0084-WPT_reftest-css-motion-offset-path-url-004.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-004-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-004-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-004-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": {
+            "maxDifference": [
+              0,
+              15
+            ],
+            "totalPixels": [
+              0,
+              70
+            ]
+          },
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4348,
+              "diffRatio": 0.005185672849400809,
+              "exactDiffPixels": 4532,
+              "exactDiffRatio": 0.00540512174643157,
+              "exceededDiffPixels": 4507,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0084-WPT_reftest-css-motion-offset-path-url-004.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-004-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0085",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-005.html",
+      "file": [
+        "css/motion/offset-path-url-005.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-005.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-005.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-001-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-001-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4349,
+              "diffRatio": 0.0051868655064498895,
+              "exactDiffPixels": 4532,
+              "exactDiffRatio": 0.00540512174643157,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0085-WPT_reftest-css-motion-offset-path-url-005.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-001-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-001-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-001-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4349,
+              "diffRatio": 0.0051868655064498895,
+              "exactDiffPixels": 4532,
+              "exactDiffRatio": 0.00540512174643157,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0085-WPT_reftest-css-motion-offset-path-url-005.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-001-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0086",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-006.html",
+      "file": [
+        "css/motion/offset-path-url-006.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-006.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-006.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-001-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-001-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4349,
+              "diffRatio": 0.0051868655064498895,
+              "exactDiffPixels": 4532,
+              "exactDiffRatio": 0.00540512174643157,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0086-WPT_reftest-css-motion-offset-path-url-006.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-001-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-001-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-001-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4349,
+              "diffRatio": 0.0051868655064498895,
+              "exactDiffPixels": 4532,
+              "exactDiffRatio": 0.00540512174643157,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0086-WPT_reftest-css-motion-offset-path-url-006.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-001-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0087",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-007.html",
+      "file": [
+        "css/motion/offset-path-url-007.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-007.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-007.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-002-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-002-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4349,
+              "diffRatio": 0.0051868655064498895,
+              "exactDiffPixels": 4532,
+              "exactDiffRatio": 0.00540512174643157,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0087-WPT_reftest-css-motion-offset-path-url-007.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-002-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-002-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-002-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4349,
+              "diffRatio": 0.0051868655064498895,
+              "exactDiffPixels": 4532,
+              "exactDiffRatio": 0.00540512174643157,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0087-WPT_reftest-css-motion-offset-path-url-007.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-002-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0088",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-008.html",
+      "file": [
+        "css/motion/offset-path-url-008.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-008.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-008.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-008-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-008-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4347,
+              "diffRatio": 0.005184480192351729,
+              "exactDiffPixels": 4531,
+              "exactDiffRatio": 0.00540392908938249,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0088-WPT_reftest-css-motion-offset-path-url-008.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-008-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-008-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-008-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4347,
+              "diffRatio": 0.005184480192351729,
+              "exactDiffPixels": 4531,
+              "exactDiffRatio": 0.00540392908938249,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0088-WPT_reftest-css-motion-offset-path-url-008.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-008-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0089",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-009.html",
+      "file": [
+        "css/motion/offset-path-url-009.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-009.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-009.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-008-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-008-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4347,
+              "diffRatio": 0.005184480192351729,
+              "exactDiffPixels": 4531,
+              "exactDiffRatio": 0.00540392908938249,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0089-WPT_reftest-css-motion-offset-path-url-009.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-008-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-008-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-008-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4347,
+              "diffRatio": 0.005184480192351729,
+              "exactDiffPixels": 4531,
+              "exactDiffRatio": 0.00540392908938249,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0089-WPT_reftest-css-motion-offset-path-url-009.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-008-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0090",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-010.html",
+      "file": [
+        "css/motion/offset-path-url-010.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-010.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-010.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-008-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-008-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4347,
+              "diffRatio": 0.005184480192351729,
+              "exactDiffPixels": 4531,
+              "exactDiffRatio": 0.00540392908938249,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0090-WPT_reftest-css-motion-offset-path-url-010.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-008-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-path-url-008-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-008-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 4347,
+              "diffRatio": 0.005184480192351729,
+              "exactDiffPixels": 4531,
+              "exactDiffRatio": 0.00540392908938249,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0090-WPT_reftest-css-motion-offset-path-url-010.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-008-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0092",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-path-url-012.html",
+      "file": [
+        "css/motion/offset-path-url-012.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-path-url-012.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-path-url-012.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0092-WPT_reftest-css-motion-offset-path-url-012.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 10000,
+              "diffRatio": 0.01192657049080223,
+              "exactDiffPixels": 10000,
+              "exactDiffRatio": 0.01192657049080223,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0092-WPT_reftest-css-motion-offset-path-url-012.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0096",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-rotate-004.html",
+      "file": [
+        "css/motion/offset-rotate-004.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-rotate-004.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-rotate-004.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-rotate-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-rotate-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 55870,
+              "diffRatio": 0.06663374933211205,
+              "exactDiffPixels": 57109,
+              "exactDiffRatio": 0.06811145141592245,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0096-WPT_reftest-css-motion-offset-rotate-004.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-rotate-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-rotate-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-rotate-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 55870,
+              "diffRatio": 0.06663374933211205,
+              "exactDiffPixels": 57109,
+              "exactDiffRatio": 0.06811145141592245,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0096-WPT_reftest-css-motion-offset-rotate-004.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-rotate-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    },
+    {
+      "id": "0097",
+      "category": "WPT reftest",
+      "title": "css/motion/offset-rotate-005.html",
+      "file": [
+        "css/motion/offset-rotate-005.html"
+      ],
+      "classification": "known-fail",
+      "triageRequired": true,
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "pageCountMismatch": false,
+      "actual": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-rotate-005.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "baseline": {
+        "totalPages": 1,
+        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-rotate-005.html&pixelRatio=0&zoom=1&spread=false"
+      },
+      "pages": [],
+      "comparisons": [
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-rotate-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-rotate-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 55870,
+              "diffRatio": 0.06663374933211205,
+              "exactDiffPixels": 57109,
+              "exactDiffRatio": 0.06811145141592245,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\actual-reference-diff\\0097-WPT_reftest-css-motion-offset-rotate-005.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.42.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/motion/offset-rotate-ref.html&pixelRatio=0&zoom=1&spread=false"
+        },
+        {
+          "referenceIndex": 0,
+          "referenceFile": "css/motion/offset-rotate-ref.html",
+          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-rotate-ref.html&pixelRatio=0&zoom=1&spread=false",
+          "referenceTotalPages": 1,
+          "testTotalPages": 1,
+          "relation": "==",
+          "fuzzy": null,
+          "actualPageNumbers": [
+            1
+          ],
+          "baselinePageNumbers": [
+            1
+          ],
+          "pageCountMismatch": false,
+          "pages": [
+            {
+              "page": 1,
+              "actualPage": 1,
+              "baselinePage": 1,
+              "width": 794,
+              "height": 1056,
+              "actualWidth": 794,
+              "actualHeight": 1056,
+              "diffPixels": 55870,
+              "diffRatio": 0.06663374933211205,
+              "exactDiffPixels": 57109,
+              "exactDiffRatio": 0.06811145141592245,
+              "exceededDiffPixels": 0,
+              "maxChannelDifference": 255,
+              "dimensionMismatch": false,
+              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\motion\\baseline-reference-diff\\0097-WPT_reftest-css-motion-offset-rotate-005.html-r01-p0001.png"
+            }
+          ],
+          "unexpectedEquality": false,
+          "pass": false,
+          "side": "v2.40.0",
+          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/motion/offset-rotate-ref.html&pixelRatio=0&zoom=1&spread=false"
+        }
+      ],
+      "triage": {
+        "status": "pending",
+        "decision": ""
+      }
+    }
+  ],
+  "errors": []
+}
