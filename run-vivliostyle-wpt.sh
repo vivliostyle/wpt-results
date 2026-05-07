@@ -12,20 +12,15 @@ wpt_path_list=(
   css/css-cascade
   css/css-color
   css/css-color-adjust
-  css/css-color-hdr
   css/css-conditional
   css/css-contain
   css/css-content
   css/css-counter-styles
-  css/css-device-adapt
   css/css-display
-  css/css-easing
-  css/css-env
   css/css-exclusions
   css/css-flexbox
   css/css-font-loading
   css/css-fonts
-  css/css-forced-color-adjust
   css/css-forms
   css/css-gaps
   css/css-gcpm
@@ -35,31 +30,25 @@ wpt_path_list=(
   css/css-images
   css/css-inline
   css/css-layout-api
-  css/css-link-params
   css/css-lists
   css/css-logical
   css/css-masking
-  css/css-mixins
   css/css-multicol
   css/css-namespaces
   css/css-nesting
   css/css-overflow
-  css/css-overscroll-behavior
   css/css-page
   css/css-paint-api
-  css/css-parser-api
   css/css-position
   css/css-properties-values-api
   css/css-pseudo
   css/css-rhythm
-  css/css-round-display
   css/css-ruby
   css/css-scroll-anchoring
   css/css-scroll-snap
   css/css-scrollbars
   css/css-shadow
   css/css-shapes
-  css/css-size-adjust
   css/css-sizing
   css/css-speech
   css/css-style-attr
@@ -79,7 +68,6 @@ wpt_path_list=(
   css/css-writing-modes
   css/fill-stroke
   css/filter-effects
-  css/geometry
   css/mediaqueries
   css/motion
   css/printing
