@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T12:44:42.957Z",
+  "generatedAt": "2026-05-07T03:57:48.405Z",
   "labels": {
     "actual": "v2.42.0",
     "baseline": "v2.40.0"
@@ -11,7 +11,7 @@
     "limit": null,
     "mode": "reftest-diff",
     "browser": "chromium",
-    "outDir": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-speech",
+    "outDir": "v2.42.0-vs-v2.40.0/css/css-speech",
     "timeoutSec": 10,
     "maxDiffRatio": 0.00002,
     "pixelThreshold": 0.1,
@@ -25,13 +25,13 @@
     "baselineViewer": "https://vivliostyle.github.io/viewer/v2.40.0/",
     "actualLabel": "v2.42.0",
     "baselineLabel": "v2.40.0",
-    "extraViewerParams": "",
+    "extraViewerParams": "bookMode=false",
     "actualViewerParams": "",
     "baselineViewerParams": "",
     "testUrls": [],
     "refUrls": [],
-    "wptManifestPath": "D:\\viv\\vivliostyle.js\\artifacts\\wpt-reftest\\MANIFEST.json",
-    "wptBaseUrl": "https://wpt.live/",
+    "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
+    "wptBaseUrl": "https://raw.githack.com/web-platform-tests/wpt/master/",
     "wptPathPrefixes": [
       "css/css-speech/"
     ],
@@ -73,13 +73,14 @@
       "file": [
         "css/css-speech/age-declarations-001.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-speech/age-declarations-001.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-001.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-speech/age-declarations-001.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-speech/age-declarations-001.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
     },
     {
       "id": "0002",
@@ -88,13 +89,14 @@
       "file": [
         "css/css-speech/age-declarations-female-001.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-speech/age-declarations-female-001.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-female-001.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-speech/age-declarations-female-001.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-speech/age-declarations-female-001.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-female-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-female-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
     },
     {
       "id": "0003",
@@ -103,13 +105,14 @@
       "file": [
         "css/css-speech/age-declarations-male-001.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-speech/age-declarations-male-001.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-male-001.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-speech/age-declarations-male-001.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-speech/age-declarations-male-001.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-male-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-male-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
     },
     {
       "id": "0004",
@@ -118,13 +121,14 @@
       "file": [
         "css/css-speech/age-declarations-neutral-001.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-speech/age-declarations-neutral-001.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-neutral-001.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-speech/age-declarations-neutral-001.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-speech/age-declarations-neutral-001.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-neutral-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-neutral-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
     },
     {
       "id": "0005",
@@ -133,13 +137,14 @@
       "file": [
         "css/css-speech/generic-gender-declarations-001.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-speech/generic-gender-declarations-001.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/generic-gender-declarations-001.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-speech/generic-gender-declarations-001.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-speech/generic-gender-declarations-001.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/generic-gender-declarations-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/generic-gender-declarations-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
     },
     {
       "id": "0006",
@@ -148,13 +153,14 @@
       "file": [
         "css/css-speech/no-voice-family-specified-001.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-speech/no-voice-family-specified-001.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/no-voice-family-specified-001.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-speech/no-voice-family-specified-001.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-speech/no-voice-family-specified-001.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/no-voice-family-specified-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/no-voice-family-specified-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
     },
     {
       "id": "0007",
@@ -163,13 +169,14 @@
       "file": [
         "css/css-speech/speak-as/speak-as-digits-001-manual.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-speech/speak-as/speak-as-digits-001-manual.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-digits-001-manual.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-speech/speak-as/speak-as-digits-001-manual.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-speech/speak-as/speak-as-digits-001-manual.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-digits-001-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-digits-001-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
     },
     {
       "id": "0008",
@@ -178,13 +185,14 @@
       "file": [
         "css/css-speech/speak-as/speak-as-digits-002-manual.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-speech/speak-as/speak-as-digits-002-manual.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-digits-002-manual.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-speech/speak-as/speak-as-digits-002-manual.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-speech/speak-as/speak-as-digits-002-manual.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-digits-002-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-digits-002-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
     },
     {
       "id": "0009",
@@ -193,13 +201,14 @@
       "file": [
         "css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
     },
     {
       "id": "0010",
@@ -208,13 +217,14 @@
       "file": [
         "css/css-speech/speak-as/speak-as-spell-out-001-manual.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-speech/speak-as/speak-as-spell-out-001-manual.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-spell-out-001-manual.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-speech/speak-as/speak-as-spell-out-001-manual.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-speech/speak-as/speak-as-spell-out-001-manual.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-spell-out-001-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-spell-out-001-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
     },
     {
       "id": "0011",
@@ -223,15 +233,14 @@
       "file": [
         "css/css-speech/voice-family-integer.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-speech/voice-family-integer.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/voice-family-integer.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-speech/voice-family-integer.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-speech/voice-family-integer.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/voice-family-integer.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/voice-family-integer.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
     }
-  ],
-  "differences": [],
-  "errors": []
+  ]
 }

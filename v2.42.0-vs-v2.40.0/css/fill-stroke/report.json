@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T14:44:44.734Z",
+  "generatedAt": "2026-05-07T05:44:48.752Z",
   "labels": {
     "actual": "v2.42.0",
     "baseline": "v2.40.0"
@@ -11,7 +11,7 @@
     "limit": null,
     "mode": "reftest-diff",
     "browser": "chromium",
-    "outDir": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\fill-stroke",
+    "outDir": "v2.42.0-vs-v2.40.0/css/fill-stroke",
     "timeoutSec": 10,
     "maxDiffRatio": 0.00002,
     "pixelThreshold": 0.1,
@@ -25,13 +25,13 @@
     "baselineViewer": "https://vivliostyle.github.io/viewer/v2.40.0/",
     "actualLabel": "v2.42.0",
     "baselineLabel": "v2.40.0",
-    "extraViewerParams": "",
+    "extraViewerParams": "bookMode=false",
     "actualViewerParams": "",
     "baselineViewerParams": "",
     "testUrls": [],
     "refUrls": [],
-    "wptManifestPath": "D:\\viv\\vivliostyle.js\\artifacts\\wpt-reftest\\MANIFEST.json",
-    "wptBaseUrl": "https://wpt.live/",
+    "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
+    "wptBaseUrl": "https://raw.githack.com/web-platform-tests/wpt/master/",
     "wptPathPrefixes": [
       "css/fill-stroke/"
     ],
@@ -73,140 +73,135 @@
       "file": [
         "css/fill-stroke/paint-order-001.html"
       ],
-      "sourceUrl": "https://wpt.live/css/fill-stroke/paint-order-001.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/fill-stroke/paint-order-001.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/fill-stroke/paint-order-001.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/fill-stroke/paint-order-001.html&pixelRatio=0&zoom=1&spread=false"
-    }
-  ],
-  "differences": [
-    {
-      "id": "0001",
-      "category": "WPT reftest",
-      "title": "css/fill-stroke/paint-order-001.html",
-      "file": [
-        "css/fill-stroke/paint-order-001.html"
-      ],
-      "classification": "known-fail",
-      "triageRequired": true,
-      "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
-      "pageCountMismatch": false,
-      "actual": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/fill-stroke/paint-order-001.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "baseline": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/fill-stroke/paint-order-001.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "pages": [],
-      "comparisons": [
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/fill-stroke/paint-order-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/fill-stroke/paint-order-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
         {
-          "referenceIndex": 0,
           "referenceFile": "css/fill-stroke/reference/paint-order-001-ref.html",
-          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/fill-stroke/reference/paint-order-001-ref.html&pixelRatio=0&zoom=1&spread=false",
-          "referenceTotalPages": 1,
-          "testTotalPages": 1,
           "relation": "==",
-          "fuzzy": {
-            "maxDifference": [
-              0,
-              1
-            ],
-            "totalPixels": [
-              0,
-              5
-            ]
-          },
-          "actualPageNumbers": [
-            1
-          ],
-          "baselinePageNumbers": [
-            1
-          ],
-          "pageCountMismatch": false,
-          "pages": [
-            {
-              "page": 1,
-              "actualPage": 1,
-              "baselinePage": 1,
-              "width": 794,
-              "height": 1056,
-              "actualWidth": 794,
-              "actualHeight": 1056,
-              "diffPixels": 2133,
-              "diffRatio": 0.0025439374856881156,
-              "exactDiffPixels": 3607,
-              "exactDiffRatio": 0.0043019139760323635,
-              "exceededDiffPixels": 3602,
-              "maxChannelDifference": 255,
-              "dimensionMismatch": false,
-              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\fill-stroke\\actual-reference-diff\\0001-WPT_reftest-css-fill-stroke-paint-order-001.html-r01-p0001.png"
-            }
-          ],
-          "unexpectedEquality": false,
-          "pass": false,
-          "side": "v2.42.0",
-          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/fill-stroke/reference/paint-order-001-ref.html&pixelRatio=0&zoom=1&spread=false"
-        },
-        {
-          "referenceIndex": 0,
-          "referenceFile": "css/fill-stroke/reference/paint-order-001-ref.html",
-          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/fill-stroke/reference/paint-order-001-ref.html&pixelRatio=0&zoom=1&spread=false",
-          "referenceTotalPages": 1,
-          "testTotalPages": 1,
-          "relation": "==",
-          "fuzzy": {
-            "maxDifference": [
-              0,
-              1
-            ],
-            "totalPixels": [
-              0,
-              5
-            ]
-          },
-          "actualPageNumbers": [
-            1
-          ],
-          "baselinePageNumbers": [
-            1
-          ],
-          "pageCountMismatch": false,
-          "pages": [
-            {
-              "page": 1,
-              "actualPage": 1,
-              "baselinePage": 1,
-              "width": 794,
-              "height": 1056,
-              "actualWidth": 794,
-              "actualHeight": 1056,
-              "diffPixels": 2133,
-              "diffRatio": 0.0025439374856881156,
-              "exactDiffPixels": 3607,
-              "exactDiffRatio": 0.0043019139760323635,
-              "exceededDiffPixels": 3602,
-              "maxChannelDifference": 255,
-              "dimensionMismatch": false,
-              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\fill-stroke\\baseline-reference-diff\\0001-WPT_reftest-css-fill-stroke-paint-order-001.html-r01-p0001.png"
-            }
-          ],
-          "unexpectedEquality": false,
-          "pass": false,
-          "side": "v2.40.0",
-          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/fill-stroke/reference/paint-order-001-ref.html&pixelRatio=0&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/fill-stroke/reference/paint-order-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/fill-stroke/reference/paint-order-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "triage": {
-        "status": "pending",
-        "decision": ""
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/fill-stroke/reference/paint-order-001-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/fill-stroke/reference/paint-order-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                1
+              ],
+              "totalPixels": [
+                0,
+                5
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2113,
+                "diffRatio": 0.002520084344706511,
+                "exactDiffPixels": 3600,
+                "exactDiffRatio": 0.004293565376688803,
+                "exceededDiffPixels": 3592,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0001-WPT_reftest-css-fill-stroke-paint-order-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/fill-stroke/reference/paint-order-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/fill-stroke/reference/paint-order-001-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/fill-stroke/reference/paint-order-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                1
+              ],
+              "totalPixels": [
+                0,
+                5
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2113,
+                "diffRatio": 0.002520084344706511,
+                "exactDiffPixels": 3600,
+                "exactDiffRatio": 0.004293565376688803,
+                "exceededDiffPixels": 3592,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0001-WPT_reftest-css-fill-stroke-paint-order-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.40.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/fill-stroke/reference/paint-order-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
       }
     }
-  ],
-  "errors": []
+  ]
 }

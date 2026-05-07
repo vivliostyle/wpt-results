@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T11:55:24.580Z",
+  "generatedAt": "2026-05-07T03:13:29.275Z",
   "labels": {
     "actual": "v2.42.0",
     "baseline": "v2.40.0"
@@ -11,7 +11,7 @@
     "limit": null,
     "mode": "reftest-diff",
     "browser": "chromium",
-    "outDir": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting",
+    "outDir": "v2.42.0-vs-v2.40.0/css/css-nesting",
     "timeoutSec": 10,
     "maxDiffRatio": 0.00002,
     "pixelThreshold": 0.1,
@@ -25,13 +25,13 @@
     "baselineViewer": "https://vivliostyle.github.io/viewer/v2.40.0/",
     "actualLabel": "v2.42.0",
     "baselineLabel": "v2.40.0",
-    "extraViewerParams": "",
+    "extraViewerParams": "bookMode=false",
     "actualViewerParams": "",
     "baselineViewerParams": "",
     "testUrls": [],
     "refUrls": [],
-    "wptManifestPath": "D:\\viv\\vivliostyle.js\\artifacts\\wpt-reftest\\MANIFEST.json",
-    "wptBaseUrl": "https://wpt.live/",
+    "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
+    "wptBaseUrl": "https://raw.githack.com/web-platform-tests/wpt/master/",
     "wptPathPrefixes": [
       "css/css-nesting/"
     ],
@@ -76,13 +76,94 @@
       "file": [
         "css/css-nesting/conditional-properties.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/conditional-properties.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/conditional-properties.html",
       "actualStatus": "PASS",
       "baselineStatus": "FAIL",
       "changeType": "improvement",
       "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/conditional-properties.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/conditional-properties.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/conditional-properties.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/conditional-properties.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-nesting/conditional-properties-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/conditional-properties-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/conditional-properties-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 20000,
+            "diffRatio": 0.02385314098160446,
+            "exactDiffPixels": 20000,
+            "exactDiffRatio": 0.02385314098160446,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0001-WPT_reftest-css-css-nesting-conditional-properties.html-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-nesting/conditional-properties-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/conditional-properties-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 20000,
+                "diffRatio": 0.02385314098160446,
+                "exactDiffPixels": 20000,
+                "exactDiffRatio": 0.02385314098160446,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0001-WPT_reftest-css-css-nesting-conditional-properties.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.40.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/conditional-properties-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0002",
@@ -91,13 +172,94 @@
       "file": [
         "css/css-nesting/conditional-rules.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/conditional-rules.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/conditional-rules.html",
       "actualStatus": "PASS",
       "baselineStatus": "FAIL",
       "changeType": "improvement",
       "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/conditional-rules.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/conditional-rules.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/conditional-rules.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/conditional-rules.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-nesting/conditional-rules-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/conditional-rules-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/conditional-rules-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 2700,
+            "diffRatio": 0.003220174032516602,
+            "exactDiffPixels": 2700,
+            "exactDiffRatio": 0.003220174032516602,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0002-WPT_reftest-css-css-nesting-conditional-rules.html-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-nesting/conditional-rules-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/conditional-rules-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2700,
+                "diffRatio": 0.003220174032516602,
+                "exactDiffPixels": 2700,
+                "exactDiffRatio": 0.003220174032516602,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0002-WPT_reftest-css-css-nesting-conditional-rules.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.40.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/conditional-rules-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0003",
@@ -106,13 +268,21 @@
       "file": [
         "css/css-nesting/contextually-invalid-selectors-001.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/contextually-invalid-selectors-001.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/contextually-invalid-selectors-001.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/contextually-invalid-selectors-001.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/contextually-invalid-selectors-001.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/contextually-invalid-selectors-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/contextually-invalid-selectors-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0004",
@@ -121,13 +291,94 @@
       "file": [
         "css/css-nesting/contextually-invalid-selectors-002.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/contextually-invalid-selectors-002.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/contextually-invalid-selectors-002.html",
       "actualStatus": "PASS",
       "baselineStatus": "FAIL",
       "changeType": "improvement",
       "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/contextually-invalid-selectors-002.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/contextually-invalid-selectors-002.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/contextually-invalid-selectors-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/contextually-invalid-selectors-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 10648,
+            "diffRatio": 0.012699412258606213,
+            "exactDiffPixels": 11731,
+            "exactDiffRatio": 0.013991059842760094,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 128,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0004-WPT_reftest-css-css-nesting-contextually-invalid-selectors-002.html-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10648,
+                "diffRatio": 0.012699412258606213,
+                "exactDiffPixels": 11731,
+                "exactDiffRatio": 0.013991059842760094,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 128,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0004-WPT_reftest-css-css-nesting-contextually-invalid-selectors-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.40.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0005",
@@ -136,13 +387,21 @@
       "file": [
         "css/css-nesting/contextually-invalid-selectors-003.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/contextually-invalid-selectors-003.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/contextually-invalid-selectors-003.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/contextually-invalid-selectors-003.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/contextually-invalid-selectors-003.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/contextually-invalid-selectors-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/contextually-invalid-selectors-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0006",
@@ -151,13 +410,54 @@
       "file": [
         "css/css-nesting/has-nesting.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/has-nesting.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/has-nesting.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "expected-change",
       "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/has-nesting.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/has-nesting.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/has-nesting.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/has-nesting.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-nesting/has-nesting-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/has-nesting-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/has-nesting-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "expected-change",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 28,
+            "diffRatio": 0.00003339439737424624,
+            "exactDiffPixels": 59,
+            "exactDiffRatio": 0.00007036676589573316,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 128,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0006-WPT_reftest-css-css-nesting-has-nesting.html-p0001.png"
+          }
+        ],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0007",
@@ -166,13 +466,21 @@
       "file": [
         "css/css-nesting/host-nesting-001.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/host-nesting-001.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/host-nesting-001.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/host-nesting-001.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/host-nesting-001.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/host-nesting-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/host-nesting-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0008",
@@ -181,13 +489,21 @@
       "file": [
         "css/css-nesting/host-nesting-002.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/host-nesting-002.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/host-nesting-002.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/host-nesting-002.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/host-nesting-002.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/host-nesting-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/host-nesting-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0009",
@@ -196,13 +512,21 @@
       "file": [
         "css/css-nesting/host-nesting-003.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/host-nesting-003.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/host-nesting-003.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/host-nesting-003.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/host-nesting-003.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/host-nesting-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/host-nesting-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0010",
@@ -211,13 +535,21 @@
       "file": [
         "css/css-nesting/host-nesting-004.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/host-nesting-004.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/host-nesting-004.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/host-nesting-004.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/host-nesting-004.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/host-nesting-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/host-nesting-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0011",
@@ -226,13 +558,21 @@
       "file": [
         "css/css-nesting/host-nesting-005.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/host-nesting-005.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/host-nesting-005.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/host-nesting-005.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/host-nesting-005.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/host-nesting-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/host-nesting-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0012",
@@ -241,13 +581,94 @@
       "file": [
         "css/css-nesting/implicit-nesting.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/implicit-nesting.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/implicit-nesting.html",
       "actualStatus": "PASS",
       "baselineStatus": "FAIL",
       "changeType": "improvement",
       "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/implicit-nesting.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/implicit-nesting.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/implicit-nesting.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/implicit-nesting.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-nesting/implicit-nesting-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/implicit-nesting-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/implicit-nesting-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 6300,
+            "diffRatio": 0.007513739409205404,
+            "exactDiffPixels": 6300,
+            "exactDiffRatio": 0.007513739409205404,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0012-WPT_reftest-css-css-nesting-implicit-nesting.html-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-nesting/implicit-nesting-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/implicit-nesting-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 6300,
+                "diffRatio": 0.007513739409205404,
+                "exactDiffPixels": 6300,
+                "exactDiffRatio": 0.007513739409205404,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0012-WPT_reftest-css-css-nesting-implicit-nesting.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.40.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/implicit-nesting-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0013",
@@ -256,13 +677,94 @@
       "file": [
         "css/css-nesting/nest-containing-forgiving.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/nest-containing-forgiving.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nest-containing-forgiving.html",
       "actualStatus": "PASS",
       "baselineStatus": "FAIL",
       "changeType": "improvement",
       "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/nest-containing-forgiving.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/nest-containing-forgiving.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nest-containing-forgiving.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nest-containing-forgiving.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-nesting/nest-containing-forgiving-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nest-containing-forgiving-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nest-containing-forgiving-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 10000,
+            "diffRatio": 0.01192657049080223,
+            "exactDiffPixels": 10000,
+            "exactDiffRatio": 0.01192657049080223,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0013-WPT_reftest-css-css-nesting-nest-containing-forgiving.html-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-nesting/nest-containing-forgiving-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nest-containing-forgiving-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10000,
+                "diffRatio": 0.01192657049080223,
+                "exactDiffPixels": 10000,
+                "exactDiffRatio": 0.01192657049080223,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0013-WPT_reftest-css-css-nesting-nest-containing-forgiving.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.40.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nest-containing-forgiving-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0014",
@@ -271,13 +773,94 @@
       "file": [
         "css/css-nesting/nesting-basic.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/nesting-basic.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nesting-basic.html",
       "actualStatus": "PASS",
       "baselineStatus": "FAIL",
       "changeType": "improvement",
       "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/nesting-basic.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/nesting-basic.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nesting-basic.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nesting-basic.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-nesting/nesting-basic-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nesting-basic-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nesting-basic-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 9000,
+            "diffRatio": 0.010733913441722006,
+            "exactDiffPixels": 9000,
+            "exactDiffRatio": 0.010733913441722006,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0014-WPT_reftest-css-css-nesting-nesting-basic.html-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-nesting/nesting-basic-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nesting-basic-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 9000,
+                "diffRatio": 0.010733913441722006,
+                "exactDiffPixels": 9000,
+                "exactDiffRatio": 0.010733913441722006,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0014-WPT_reftest-css-css-nesting-nesting-basic.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.40.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nesting-basic-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0015",
@@ -286,13 +869,94 @@
       "file": [
         "css/css-nesting/nesting-type-selector.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/nesting-type-selector.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nesting-type-selector.html",
       "actualStatus": "PASS",
       "baselineStatus": "FAIL",
       "changeType": "improvement",
       "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/nesting-type-selector.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/nesting-type-selector.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nesting-type-selector.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/nesting-type-selector.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 10000,
+            "diffRatio": 0.01192657049080223,
+            "exactDiffPixels": 10000,
+            "exactDiffRatio": 0.01192657049080223,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0015-WPT_reftest-css-css-nesting-nesting-type-selector.html-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10000,
+                "diffRatio": 0.01192657049080223,
+                "exactDiffPixels": 10000,
+                "exactDiffRatio": 0.01192657049080223,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0015-WPT_reftest-css-css-nesting-nesting-type-selector.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.40.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0016",
@@ -301,13 +965,21 @@
       "file": [
         "css/css-nesting/supports-is-consistent.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/supports-is-consistent.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/supports-is-consistent.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/supports-is-consistent.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/supports-is-consistent.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/supports-is-consistent.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/supports-is-consistent.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-nesting/supports-is-consistent-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/supports-is-consistent-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/supports-is-consistent-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0017",
@@ -316,723 +988,94 @@
       "file": [
         "css/css-nesting/supports-rule.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-nesting/supports-rule.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/supports-rule.html",
       "actualStatus": "PASS",
       "baselineStatus": "FAIL",
       "changeType": "improvement",
       "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/supports-rule.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/supports-rule.html&pixelRatio=0&zoom=1&spread=false"
-    }
-  ],
-  "differences": [
-    {
-      "id": "0001",
-      "category": "WPT reftest",
-      "title": "css/css-nesting/conditional-properties.html",
-      "file": [
-        "css/css-nesting/conditional-properties.html"
-      ],
-      "classification": "improvement",
-      "triageRequired": false,
-      "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "pageCountMismatch": false,
-      "actual": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/conditional-properties.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "baseline": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/conditional-properties.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "pages": [
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/supports-rule.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/supports-rule.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
         {
-          "page": 1,
-          "width": 794,
-          "height": 1056,
-          "actualWidth": 794,
-          "actualHeight": 1056,
-          "diffPixels": 20000,
-          "diffRatio": 0.02385314098160446,
-          "exactDiffPixels": 20000,
-          "exactDiffRatio": 0.02385314098160446,
-          "exceededDiffPixels": 0,
-          "maxChannelDifference": 255,
-          "dimensionMismatch": false,
-          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\diff\\0001-WPT_reftest-css-css-nesting-conditional-properties.html-p0001.png"
-        }
-      ],
-      "comparisons": [
-        {
-          "referenceIndex": 0,
-          "referenceFile": "css/css-nesting/conditional-properties-ref.html",
-          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/conditional-properties-ref.html&pixelRatio=0&zoom=1&spread=false",
-          "referenceTotalPages": 1,
-          "testTotalPages": 1,
-          "relation": "==",
-          "fuzzy": null,
-          "actualPageNumbers": [
-            1
-          ],
-          "baselinePageNumbers": [
-            1
-          ],
-          "pageCountMismatch": false,
-          "pages": [
-            {
-              "page": 1,
-              "actualPage": 1,
-              "baselinePage": 1,
-              "width": 794,
-              "height": 1056,
-              "actualWidth": 794,
-              "actualHeight": 1056,
-              "diffPixels": 20000,
-              "diffRatio": 0.02385314098160446,
-              "exactDiffPixels": 20000,
-              "exactDiffRatio": 0.02385314098160446,
-              "exceededDiffPixels": 0,
-              "maxChannelDifference": 255,
-              "dimensionMismatch": false,
-              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\baseline-reference-diff\\0001-WPT_reftest-css-css-nesting-conditional-properties.html-r01-p0001.png"
-            }
-          ],
-          "unexpectedEquality": false,
-          "pass": false,
-          "side": "v2.40.0",
-          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/conditional-properties-ref.html&pixelRatio=0&zoom=1&spread=false"
-        }
-      ],
-      "triage": {
-        "status": "not-needed",
-        "decision": ""
-      }
-    },
-    {
-      "id": "0002",
-      "category": "WPT reftest",
-      "title": "css/css-nesting/conditional-rules.html",
-      "file": [
-        "css/css-nesting/conditional-rules.html"
-      ],
-      "classification": "improvement",
-      "triageRequired": false,
-      "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "pageCountMismatch": false,
-      "actual": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/conditional-rules.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "baseline": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/conditional-rules.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "pages": [
-        {
-          "page": 1,
-          "width": 794,
-          "height": 1056,
-          "actualWidth": 794,
-          "actualHeight": 1056,
-          "diffPixels": 2700,
-          "diffRatio": 0.003220174032516602,
-          "exactDiffPixels": 2700,
-          "exactDiffRatio": 0.003220174032516602,
-          "exceededDiffPixels": 0,
-          "maxChannelDifference": 255,
-          "dimensionMismatch": false,
-          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\diff\\0002-WPT_reftest-css-css-nesting-conditional-rules.html-p0001.png"
-        }
-      ],
-      "comparisons": [
-        {
-          "referenceIndex": 0,
-          "referenceFile": "css/css-nesting/conditional-rules-ref.html",
-          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/conditional-rules-ref.html&pixelRatio=0&zoom=1&spread=false",
-          "referenceTotalPages": 1,
-          "testTotalPages": 1,
-          "relation": "==",
-          "fuzzy": null,
-          "actualPageNumbers": [
-            1
-          ],
-          "baselinePageNumbers": [
-            1
-          ],
-          "pageCountMismatch": false,
-          "pages": [
-            {
-              "page": 1,
-              "actualPage": 1,
-              "baselinePage": 1,
-              "width": 794,
-              "height": 1056,
-              "actualWidth": 794,
-              "actualHeight": 1056,
-              "diffPixels": 2700,
-              "diffRatio": 0.003220174032516602,
-              "exactDiffPixels": 2700,
-              "exactDiffRatio": 0.003220174032516602,
-              "exceededDiffPixels": 0,
-              "maxChannelDifference": 255,
-              "dimensionMismatch": false,
-              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\baseline-reference-diff\\0002-WPT_reftest-css-css-nesting-conditional-rules.html-r01-p0001.png"
-            }
-          ],
-          "unexpectedEquality": false,
-          "pass": false,
-          "side": "v2.40.0",
-          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/conditional-rules-ref.html&pixelRatio=0&zoom=1&spread=false"
-        }
-      ],
-      "triage": {
-        "status": "not-needed",
-        "decision": ""
-      }
-    },
-    {
-      "id": "0004",
-      "category": "WPT reftest",
-      "title": "css/css-nesting/contextually-invalid-selectors-002.html",
-      "file": [
-        "css/css-nesting/contextually-invalid-selectors-002.html"
-      ],
-      "classification": "improvement",
-      "triageRequired": false,
-      "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "pageCountMismatch": false,
-      "actual": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/contextually-invalid-selectors-002.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "baseline": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/contextually-invalid-selectors-002.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "pages": [
-        {
-          "page": 1,
-          "width": 794,
-          "height": 1056,
-          "actualWidth": 794,
-          "actualHeight": 1056,
-          "diffPixels": 10626,
-          "diffRatio": 0.012673173803526448,
-          "exactDiffPixels": 11536,
-          "exactDiffRatio": 0.013758491718189452,
-          "exceededDiffPixels": 0,
-          "maxChannelDifference": 128,
-          "dimensionMismatch": false,
-          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\diff\\0004-WPT_reftest-css-css-nesting-contextually-invalid-selectors-002.html-p0001.png"
-        }
-      ],
-      "comparisons": [
-        {
-          "referenceIndex": 0,
-          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
-          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
-          "referenceTotalPages": 1,
-          "testTotalPages": 1,
-          "relation": "==",
-          "fuzzy": null,
-          "actualPageNumbers": [
-            1
-          ],
-          "baselinePageNumbers": [
-            1
-          ],
-          "pageCountMismatch": false,
-          "pages": [
-            {
-              "page": 1,
-              "actualPage": 1,
-              "baselinePage": 1,
-              "width": 794,
-              "height": 1056,
-              "actualWidth": 794,
-              "actualHeight": 1056,
-              "diffPixels": 10626,
-              "diffRatio": 0.012673173803526448,
-              "exactDiffPixels": 11536,
-              "exactDiffRatio": 0.013758491718189452,
-              "exceededDiffPixels": 0,
-              "maxChannelDifference": 128,
-              "dimensionMismatch": false,
-              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\baseline-reference-diff\\0004-WPT_reftest-css-css-nesting-contextually-invalid-selectors-002.html-r01-p0001.png"
-            }
-          ],
-          "unexpectedEquality": false,
-          "pass": false,
-          "side": "v2.40.0",
-          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
-        }
-      ],
-      "triage": {
-        "status": "not-needed",
-        "decision": ""
-      }
-    },
-    {
-      "id": "0006",
-      "category": "WPT reftest",
-      "title": "css/css-nesting/has-nesting.html",
-      "file": [
-        "css/css-nesting/has-nesting.html"
-      ],
-      "classification": "expected-change",
-      "triageRequired": true,
-      "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "pageCountMismatch": false,
-      "actual": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/has-nesting.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "baseline": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/has-nesting.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "pages": [
-        {
-          "page": 1,
-          "width": 794,
-          "height": 1056,
-          "actualWidth": 794,
-          "actualHeight": 1056,
-          "diffPixels": 25,
-          "diffRatio": 0.00002981642622700557,
-          "exactDiffPixels": 59,
-          "exactDiffRatio": 0.00007036676589573316,
-          "exceededDiffPixels": 0,
-          "maxChannelDifference": 128,
-          "dimensionMismatch": false,
-          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\diff\\0006-WPT_reftest-css-css-nesting-has-nesting.html-p0001.png"
-        }
-      ],
-      "comparisons": [],
-      "triage": {
-        "status": "pending",
-        "decision": ""
-      }
-    },
-    {
-      "id": "0012",
-      "category": "WPT reftest",
-      "title": "css/css-nesting/implicit-nesting.html",
-      "file": [
-        "css/css-nesting/implicit-nesting.html"
-      ],
-      "classification": "improvement",
-      "triageRequired": false,
-      "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "pageCountMismatch": false,
-      "actual": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/implicit-nesting.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "baseline": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/implicit-nesting.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "pages": [
-        {
-          "page": 1,
-          "width": 794,
-          "height": 1056,
-          "actualWidth": 794,
-          "actualHeight": 1056,
-          "diffPixels": 6300,
-          "diffRatio": 0.007513739409205404,
-          "exactDiffPixels": 6300,
-          "exactDiffRatio": 0.007513739409205404,
-          "exceededDiffPixels": 0,
-          "maxChannelDifference": 255,
-          "dimensionMismatch": false,
-          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\diff\\0012-WPT_reftest-css-css-nesting-implicit-nesting.html-p0001.png"
-        }
-      ],
-      "comparisons": [
-        {
-          "referenceIndex": 0,
-          "referenceFile": "css/css-nesting/implicit-nesting-ref.html",
-          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/implicit-nesting-ref.html&pixelRatio=0&zoom=1&spread=false",
-          "referenceTotalPages": 1,
-          "testTotalPages": 1,
-          "relation": "==",
-          "fuzzy": null,
-          "actualPageNumbers": [
-            1
-          ],
-          "baselinePageNumbers": [
-            1
-          ],
-          "pageCountMismatch": false,
-          "pages": [
-            {
-              "page": 1,
-              "actualPage": 1,
-              "baselinePage": 1,
-              "width": 794,
-              "height": 1056,
-              "actualWidth": 794,
-              "actualHeight": 1056,
-              "diffPixels": 6300,
-              "diffRatio": 0.007513739409205404,
-              "exactDiffPixels": 6300,
-              "exactDiffRatio": 0.007513739409205404,
-              "exceededDiffPixels": 0,
-              "maxChannelDifference": 255,
-              "dimensionMismatch": false,
-              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\baseline-reference-diff\\0012-WPT_reftest-css-css-nesting-implicit-nesting.html-r01-p0001.png"
-            }
-          ],
-          "unexpectedEquality": false,
-          "pass": false,
-          "side": "v2.40.0",
-          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/implicit-nesting-ref.html&pixelRatio=0&zoom=1&spread=false"
-        }
-      ],
-      "triage": {
-        "status": "not-needed",
-        "decision": ""
-      }
-    },
-    {
-      "id": "0013",
-      "category": "WPT reftest",
-      "title": "css/css-nesting/nest-containing-forgiving.html",
-      "file": [
-        "css/css-nesting/nest-containing-forgiving.html"
-      ],
-      "classification": "improvement",
-      "triageRequired": false,
-      "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "pageCountMismatch": false,
-      "actual": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/nest-containing-forgiving.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "baseline": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/nest-containing-forgiving.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "pages": [
-        {
-          "page": 1,
-          "width": 794,
-          "height": 1056,
-          "actualWidth": 794,
-          "actualHeight": 1056,
-          "diffPixels": 10000,
-          "diffRatio": 0.01192657049080223,
-          "exactDiffPixels": 10000,
-          "exactDiffRatio": 0.01192657049080223,
-          "exceededDiffPixels": 0,
-          "maxChannelDifference": 255,
-          "dimensionMismatch": false,
-          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\diff\\0013-WPT_reftest-css-css-nesting-nest-containing-forgiving.html-p0001.png"
-        }
-      ],
-      "comparisons": [
-        {
-          "referenceIndex": 0,
-          "referenceFile": "css/css-nesting/nest-containing-forgiving-ref.html",
-          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/nest-containing-forgiving-ref.html&pixelRatio=0&zoom=1&spread=false",
-          "referenceTotalPages": 1,
-          "testTotalPages": 1,
-          "relation": "==",
-          "fuzzy": null,
-          "actualPageNumbers": [
-            1
-          ],
-          "baselinePageNumbers": [
-            1
-          ],
-          "pageCountMismatch": false,
-          "pages": [
-            {
-              "page": 1,
-              "actualPage": 1,
-              "baselinePage": 1,
-              "width": 794,
-              "height": 1056,
-              "actualWidth": 794,
-              "actualHeight": 1056,
-              "diffPixels": 10000,
-              "diffRatio": 0.01192657049080223,
-              "exactDiffPixels": 10000,
-              "exactDiffRatio": 0.01192657049080223,
-              "exceededDiffPixels": 0,
-              "maxChannelDifference": 255,
-              "dimensionMismatch": false,
-              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\baseline-reference-diff\\0013-WPT_reftest-css-css-nesting-nest-containing-forgiving.html-r01-p0001.png"
-            }
-          ],
-          "unexpectedEquality": false,
-          "pass": false,
-          "side": "v2.40.0",
-          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/nest-containing-forgiving-ref.html&pixelRatio=0&zoom=1&spread=false"
-        }
-      ],
-      "triage": {
-        "status": "not-needed",
-        "decision": ""
-      }
-    },
-    {
-      "id": "0014",
-      "category": "WPT reftest",
-      "title": "css/css-nesting/nesting-basic.html",
-      "file": [
-        "css/css-nesting/nesting-basic.html"
-      ],
-      "classification": "improvement",
-      "triageRequired": false,
-      "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "pageCountMismatch": false,
-      "actual": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/nesting-basic.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "baseline": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/nesting-basic.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "pages": [
-        {
-          "page": 1,
-          "width": 794,
-          "height": 1056,
-          "actualWidth": 794,
-          "actualHeight": 1056,
-          "diffPixels": 9000,
-          "diffRatio": 0.010733913441722006,
-          "exactDiffPixels": 9000,
-          "exactDiffRatio": 0.010733913441722006,
-          "exceededDiffPixels": 0,
-          "maxChannelDifference": 255,
-          "dimensionMismatch": false,
-          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\diff\\0014-WPT_reftest-css-css-nesting-nesting-basic.html-p0001.png"
-        }
-      ],
-      "comparisons": [
-        {
-          "referenceIndex": 0,
-          "referenceFile": "css/css-nesting/nesting-basic-ref.html",
-          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/nesting-basic-ref.html&pixelRatio=0&zoom=1&spread=false",
-          "referenceTotalPages": 1,
-          "testTotalPages": 1,
-          "relation": "==",
-          "fuzzy": null,
-          "actualPageNumbers": [
-            1
-          ],
-          "baselinePageNumbers": [
-            1
-          ],
-          "pageCountMismatch": false,
-          "pages": [
-            {
-              "page": 1,
-              "actualPage": 1,
-              "baselinePage": 1,
-              "width": 794,
-              "height": 1056,
-              "actualWidth": 794,
-              "actualHeight": 1056,
-              "diffPixels": 9000,
-              "diffRatio": 0.010733913441722006,
-              "exactDiffPixels": 9000,
-              "exactDiffRatio": 0.010733913441722006,
-              "exceededDiffPixels": 0,
-              "maxChannelDifference": 255,
-              "dimensionMismatch": false,
-              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\baseline-reference-diff\\0014-WPT_reftest-css-css-nesting-nesting-basic.html-r01-p0001.png"
-            }
-          ],
-          "unexpectedEquality": false,
-          "pass": false,
-          "side": "v2.40.0",
-          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/nesting-basic-ref.html&pixelRatio=0&zoom=1&spread=false"
-        }
-      ],
-      "triage": {
-        "status": "not-needed",
-        "decision": ""
-      }
-    },
-    {
-      "id": "0015",
-      "category": "WPT reftest",
-      "title": "css/css-nesting/nesting-type-selector.html",
-      "file": [
-        "css/css-nesting/nesting-type-selector.html"
-      ],
-      "classification": "improvement",
-      "triageRequired": false,
-      "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "pageCountMismatch": false,
-      "actual": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/nesting-type-selector.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "baseline": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/nesting-type-selector.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "pages": [
-        {
-          "page": 1,
-          "width": 794,
-          "height": 1056,
-          "actualWidth": 794,
-          "actualHeight": 1056,
-          "diffPixels": 10000,
-          "diffRatio": 0.01192657049080223,
-          "exactDiffPixels": 10000,
-          "exactDiffRatio": 0.01192657049080223,
-          "exceededDiffPixels": 0,
-          "maxChannelDifference": 255,
-          "dimensionMismatch": false,
-          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\diff\\0015-WPT_reftest-css-css-nesting-nesting-type-selector.html-p0001.png"
-        }
-      ],
-      "comparisons": [
-        {
-          "referenceIndex": 0,
-          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
-          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false",
-          "referenceTotalPages": 1,
-          "testTotalPages": 1,
-          "relation": "==",
-          "fuzzy": null,
-          "actualPageNumbers": [
-            1
-          ],
-          "baselinePageNumbers": [
-            1
-          ],
-          "pageCountMismatch": false,
-          "pages": [
-            {
-              "page": 1,
-              "actualPage": 1,
-              "baselinePage": 1,
-              "width": 794,
-              "height": 1056,
-              "actualWidth": 794,
-              "actualHeight": 1056,
-              "diffPixels": 10000,
-              "diffRatio": 0.01192657049080223,
-              "exactDiffPixels": 10000,
-              "exactDiffRatio": 0.01192657049080223,
-              "exceededDiffPixels": 0,
-              "maxChannelDifference": 255,
-              "dimensionMismatch": false,
-              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\baseline-reference-diff\\0015-WPT_reftest-css-css-nesting-nesting-type-selector.html-r01-p0001.png"
-            }
-          ],
-          "unexpectedEquality": false,
-          "pass": false,
-          "side": "v2.40.0",
-          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&zoom=1&spread=false"
-        }
-      ],
-      "triage": {
-        "status": "not-needed",
-        "decision": ""
-      }
-    },
-    {
-      "id": "0017",
-      "category": "WPT reftest",
-      "title": "css/css-nesting/supports-rule.html",
-      "file": [
-        "css/css-nesting/supports-rule.html"
-      ],
-      "classification": "improvement",
-      "triageRequired": false,
-      "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "pageCountMismatch": false,
-      "actual": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-nesting/supports-rule.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "baseline": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/supports-rule.html&pixelRatio=0&zoom=1&spread=false"
-      },
-      "pages": [
-        {
-          "page": 1,
-          "width": 794,
-          "height": 1056,
-          "actualWidth": 794,
-          "actualHeight": 1056,
-          "diffPixels": 30000,
-          "diffRatio": 0.03577971147240669,
-          "exactDiffPixels": 30000,
-          "exactDiffRatio": 0.03577971147240669,
-          "exceededDiffPixels": 0,
-          "maxChannelDifference": 255,
-          "dimensionMismatch": false,
-          "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\diff\\0017-WPT_reftest-css-css-nesting-supports-rule.html-p0001.png"
-        }
-      ],
-      "comparisons": [
-        {
-          "referenceIndex": 0,
           "referenceFile": "css/css-nesting/supports-rule-ref.html",
-          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/supports-rule-ref.html&pixelRatio=0&zoom=1&spread=false",
-          "referenceTotalPages": 1,
-          "testTotalPages": 1,
           "relation": "==",
-          "fuzzy": null,
-          "actualPageNumbers": [
-            1
-          ],
-          "baselinePageNumbers": [
-            1
-          ],
-          "pageCountMismatch": false,
-          "pages": [
-            {
-              "page": 1,
-              "actualPage": 1,
-              "baselinePage": 1,
-              "width": 794,
-              "height": 1056,
-              "actualWidth": 794,
-              "actualHeight": 1056,
-              "diffPixels": 30000,
-              "diffRatio": 0.03577971147240669,
-              "exactDiffPixels": 30000,
-              "exactDiffRatio": 0.03577971147240669,
-              "exceededDiffPixels": 0,
-              "maxChannelDifference": 255,
-              "dimensionMismatch": false,
-              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-nesting\\baseline-reference-diff\\0017-WPT_reftest-css-css-nesting-supports-rule.html-r01-p0001.png"
-            }
-          ],
-          "unexpectedEquality": false,
-          "pass": false,
-          "side": "v2.40.0",
-          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-nesting/supports-rule-ref.html&pixelRatio=0&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/supports-rule-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/supports-rule-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "triage": {
-        "status": "not-needed",
-        "decision": ""
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 30000,
+            "diffRatio": 0.03577971147240669,
+            "exactDiffPixels": 30000,
+            "exactDiffRatio": 0.03577971147240669,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0017-WPT_reftest-css-css-nesting-supports-rule.html-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-nesting/supports-rule-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/supports-rule-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 30000,
+                "diffRatio": 0.03577971147240669,
+                "exactDiffPixels": 30000,
+                "exactDiffRatio": 0.03577971147240669,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0017-WPT_reftest-css-css-nesting-supports-rule.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.40.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-nesting/supports-rule-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
       }
     }
-  ],
-  "errors": []
+  ]
 }

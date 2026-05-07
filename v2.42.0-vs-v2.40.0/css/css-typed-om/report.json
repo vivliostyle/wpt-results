@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T13:41:36.177Z",
+  "generatedAt": "2026-05-07T04:47:58.592Z",
   "labels": {
     "actual": "v2.42.0",
     "baseline": "v2.40.0"
@@ -11,7 +11,7 @@
     "limit": null,
     "mode": "reftest-diff",
     "browser": "chromium",
-    "outDir": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-typed-om",
+    "outDir": "v2.42.0-vs-v2.40.0/css/css-typed-om",
     "timeoutSec": 10,
     "maxDiffRatio": 0.00002,
     "pixelThreshold": 0.1,
@@ -25,13 +25,13 @@
     "baselineViewer": "https://vivliostyle.github.io/viewer/v2.40.0/",
     "actualLabel": "v2.42.0",
     "baselineLabel": "v2.40.0",
-    "extraViewerParams": "",
+    "extraViewerParams": "bookMode=false",
     "actualViewerParams": "",
     "baselineViewerParams": "",
     "testUrls": [],
     "refUrls": [],
-    "wptManifestPath": "D:\\viv\\vivliostyle.js\\artifacts\\wpt-reftest\\MANIFEST.json",
-    "wptBaseUrl": "https://wpt.live/",
+    "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
+    "wptBaseUrl": "https://raw.githack.com/web-platform-tests/wpt/master/",
     "wptPathPrefixes": [
       "css/css-typed-om/"
     ],
@@ -73,13 +73,21 @@
       "file": [
         "css/css-typed-om/background-image-gradient.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-typed-om/background-image-gradient.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/background-image-gradient.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-typed-om/background-image-gradient.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-typed-om/background-image-gradient.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/background-image-gradient.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/background-image-gradient.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-typed-om/background-image-gradient-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/background-image-gradient-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/background-image-gradient-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0002",
@@ -88,13 +96,21 @@
       "file": [
         "css/css-typed-om/rotate-by-added-angle.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-typed-om/rotate-by-added-angle.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/rotate-by-added-angle.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-typed-om/rotate-by-added-angle.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-typed-om/rotate-by-added-angle.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/rotate-by-added-angle.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/rotate-by-added-angle.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-typed-om/rotate-by-added-angle-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/rotate-by-added-angle-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/rotate-by-added-angle-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0003",
@@ -103,13 +119,21 @@
       "file": [
         "css/css-typed-om/width-by-clamp-px-em.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-typed-om/width-by-clamp-px-em.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/width-by-clamp-px-em.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-typed-om/width-by-clamp-px-em.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-typed-om/width-by-clamp-px-em.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/width-by-clamp-px-em.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/width-by-clamp-px-em.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0004",
@@ -118,13 +142,21 @@
       "file": [
         "css/css-typed-om/width-by-max-px-em.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-typed-om/width-by-max-px-em.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/width-by-max-px-em.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-typed-om/width-by-max-px-em.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-typed-om/width-by-max-px-em.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/width-by-max-px-em.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/width-by-max-px-em.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0005",
@@ -133,15 +165,21 @@
       "file": [
         "css/css-typed-om/width-by-min-px-em.html"
       ],
-      "sourceUrl": "https://wpt.live/css/css-typed-om/width-by-min-px-em.html",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/width-by-min-px-em.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-typed-om/width-by-min-px-em.html&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-typed-om/width-by-min-px-em.html&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/width-by-min-px-em.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-typed-om/width-by-min-px-em.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     }
-  ],
-  "differences": [],
-  "errors": []
+  ]
 }

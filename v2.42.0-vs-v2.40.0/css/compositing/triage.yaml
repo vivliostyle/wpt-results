@@ -8,14 +8,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-animation.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-animation.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-animation.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-animation.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-animation-ref.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/mix-blend-mode-animation-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-animation-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-animation-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-animation-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-animation-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0005"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-blended-element-interposed.html
@@ -26,14 +35,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-element-interposed.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-blended-element-interposed.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-element-interposed.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-blended-element-interposed.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/green-square.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/green-square.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/green-square.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/green-square.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/green-square.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/green-square.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0010"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-blended-with-transform-and-perspective.html
@@ -44,14 +62,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-with-transform-and-perspective.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-blended-with-transform-and-perspective.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-blended-with-transform-and-perspective.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-blended-with-transform-and-perspective.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-blended-with-transform-and-perspective-ref.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/mix-blend-mode-blended-with-transform-and-perspective-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-blended-with-transform-and-perspective-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-blended-with-transform-and-perspective-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-blended-with-transform-and-perspective-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-blended-with-transform-and-perspective-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0012"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-border-image.html
@@ -62,14 +89,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-border-image.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-border-image.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-border-image.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-border-image.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-border-image-ref.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/mix-blend-mode-border-image-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-border-image-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-border-image-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-border-image-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-border-image-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0014"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-canvas-parent.html
@@ -80,14 +116,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-canvas-parent.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-canvas-parent.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-canvas-parent.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-canvas-parent.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-canvas-parent-ref.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/mix-blend-mode-canvas-parent-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-canvas-parent-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-canvas-parent-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-canvas-parent-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-canvas-parent-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0015"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-canvas-sibling.html
@@ -98,14 +143,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-canvas-sibling.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-canvas-sibling.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-canvas-sibling.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-canvas-sibling.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-canvas-sibling-ref.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/mix-blend-mode-canvas-sibling-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-canvas-sibling-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-canvas-sibling-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-canvas-sibling-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-canvas-sibling-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0016"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-filter.html
@@ -116,14 +170,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-filter.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-filter.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-filter.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-filter.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-filter-ref.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/mix-blend-mode-filter-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-filter-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-filter-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-filter-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-filter-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0017"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-iframe-parent.html
@@ -134,14 +197,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-iframe-parent.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-iframe-parent.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-iframe-parent.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-iframe-parent.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-iframe-parent-ref.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/mix-blend-mode-iframe-parent-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-iframe-parent-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-iframe-parent-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-iframe-parent-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-iframe-parent-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0018"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-iframe-sibling.html
@@ -152,14 +224,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-iframe-sibling.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-iframe-sibling.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-iframe-sibling.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-iframe-sibling.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-iframe-sibling-ref.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/mix-blend-mode-iframe-sibling-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-iframe-sibling-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-iframe-sibling-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-iframe-sibling-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-iframe-sibling-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0021"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-mask.html
@@ -170,14 +251,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-mask.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-mask.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-mask.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-mask.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-mask-ref.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/mix-blend-mode-mask-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-mask-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-mask-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-mask-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-mask-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0024"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-paragraph-background-image.html
@@ -188,14 +278,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-paragraph-background-image.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-paragraph-background-image.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-paragraph-background-image.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-paragraph-background-image.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-paragraph-background-image-ref.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/mix-blend-mode-paragraph-background-image-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-paragraph-background-image-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-paragraph-background-image-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-paragraph-background-image-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-paragraph-background-image-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0025"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-paragraph.html
@@ -206,14 +305,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-paragraph.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-paragraph.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-paragraph.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-paragraph.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-paragraph-ref.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/mix-blend-mode-paragraph-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-paragraph-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-paragraph-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-paragraph-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-paragraph-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0032"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-parent-with-text.html
@@ -224,14 +332,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-with-text.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-parent-with-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-with-text.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-parent-with-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-parent-with-text-ref.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/mix-blend-mode-parent-with-text-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-parent-with-text-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-parent-with-text-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-parent-with-text-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-parent-with-text-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0039"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-script.html
@@ -242,14 +359,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-script.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-script.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-script.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-script.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-script-ref.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/mix-blend-mode-script-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-script-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-script-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-script-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-script-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0041"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-simple.html
@@ -260,14 +386,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-simple.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-simple.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-simple.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-simple.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/green-square.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/green-square.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/green-square.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/green-square.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/green-square.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/green-square.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0042"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-001.html
@@ -278,14 +413,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-001.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-001.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-stacking-context-001-ref.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/mix-blend-mode-stacking-context-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-stacking-context-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-stacking-context-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-stacking-context-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-stacking-context-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0043"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-002.html
@@ -296,14 +440,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-002.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-002.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-stacking-context-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-200px-square.html
   relation: "=="
   diffPages:
     - css/reference/ref-filled-green-200px-square.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/reference/ref-filled-green-200px-square.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-200px-square.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/reference/ref-filled-green-200px-square.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-200px-square.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0045"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-svg.html
@@ -314,46 +467,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-svg.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-svg.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-svg.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-svg.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-svg-ref.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/mix-blend-mode-svg-ref.html#1
-- id: "0046"
-  category: WPT reftest
-  title: css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html
-  file: css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: v2.42.0
-  actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&pixelRatio=0&zoom=1&spread=false
-  baselineLabel: v2.40.0
-  baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&pixelRatio=0&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "0047"
-  category: WPT reftest
-  title: css/compositing/mix-blend-mode/mix-blend-mode-video.html
-  file: css/compositing/mix-blend-mode/mix-blend-mode-video.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: v2.42.0
-  actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video.html&pixelRatio=0&zoom=1&spread=false
-  baselineLabel: v2.40.0
-  baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video.html&pixelRatio=0&zoom=1&spread=false
-  diffPages:
-    - 1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-svg-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-svg-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-svg-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-svg-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0048"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-with-transform-and-preserve-3D.html
@@ -364,14 +494,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-with-transform-and-preserve-3D.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-with-transform-and-preserve-3D.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-with-transform-and-preserve-3D.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-with-transform-and-preserve-3D.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-with-transform-and-preserve-3D-ref.html
   relation: "=="
   diffPages:
     - css/compositing/mix-blend-mode/reference/mix-blend-mode-with-transform-and-preserve-3D-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-with-transform-and-preserve-3D-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-with-transform-and-preserve-3D-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-with-transform-and-preserve-3D-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-with-transform-and-preserve-3D-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0049"
   category: WPT reftest
   title: css/compositing/root-element-background-image-transparency-001.html
@@ -382,14 +521,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-001.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-image-transparency-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-001.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-image-transparency-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/root-element-background-image-transparency-001-ref.html
   relation: "=="
   diffPages:
     - css/compositing/root-element-background-image-transparency-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/root-element-background-image-transparency-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-image-transparency-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/root-element-background-image-transparency-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-image-transparency-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0050"
   category: WPT reftest
   title: css/compositing/root-element-background-image-transparency-002.html
@@ -400,14 +548,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-002.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-image-transparency-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-002.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-image-transparency-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/root-element-background-image-transparency-001-ref.html
   relation: "=="
   diffPages:
     - css/compositing/root-element-background-image-transparency-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/root-element-background-image-transparency-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-image-transparency-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/root-element-background-image-transparency-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-image-transparency-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0051"
   category: WPT reftest
   title: css/compositing/root-element-background-image-transparency-003.html
@@ -418,14 +575,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-003.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-image-transparency-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-003.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-image-transparency-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/root-element-background-image-transparency-001-ref.html
   relation: "=="
   diffPages:
     - css/compositing/root-element-background-image-transparency-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/root-element-background-image-transparency-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-image-transparency-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/root-element-background-image-transparency-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-image-transparency-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0052"
   category: WPT reftest
   title: css/compositing/root-element-background-image-transparency-004.html
@@ -436,14 +602,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-004.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-image-transparency-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-004.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-image-transparency-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/root-element-background-image-transparency-001-ref.html
   relation: "=="
   diffPages:
     - css/compositing/root-element-background-image-transparency-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/root-element-background-image-transparency-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-image-transparency-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/root-element-background-image-transparency-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-image-transparency-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0053"
   category: WPT reftest
   title: css/compositing/root-element-background-margin-opacity.html
@@ -454,14 +629,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-background-margin-opacity.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-margin-opacity.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-background-margin-opacity.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-margin-opacity.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/root-element-background-margin-opacity-ref.html
   relation: "=="
   diffPages:
     - css/compositing/root-element-background-margin-opacity-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/root-element-background-margin-opacity-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-margin-opacity-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/root-element-background-margin-opacity-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-background-margin-opacity-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0055"
   category: WPT reftest
   title: css/compositing/root-element-blend-mode.html
@@ -472,14 +656,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-blend-mode.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-blend-mode.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-blend-mode.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-blend-mode.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/root-element-blend-mode-ref.html
   relation: "=="
   diffPages:
     - css/compositing/root-element-blend-mode-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/root-element-blend-mode-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-blend-mode-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/root-element-blend-mode-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-blend-mode-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0056"
   category: WPT reftest
   title: css/compositing/root-element-filter.html
@@ -490,15 +683,24 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-filter.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-filter.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-filter.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-filter.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/root-element-filter-ref.html
   relation: "=="
   diffPages:
     - css/compositing/root-element-filter-ref.html#1
     - css/compositing/root-element-filter-ref.html#2
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/root-element-filter-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-filter-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/root-element-filter-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-filter-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0057"
   category: WPT reftest
   title: css/compositing/root-element-opacity-change.html
@@ -509,14 +711,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-opacity-change.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-opacity-change.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-opacity-change.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-opacity-change.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/root-element-opacity-change-ref.html
   relation: "=="
   diffPages:
     - css/compositing/root-element-opacity-change-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/root-element-opacity-change-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-opacity-change-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/root-element-opacity-change-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-opacity-change-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0058"
   category: WPT reftest
   title: css/compositing/root-element-opacity.html
@@ -527,14 +738,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/root-element-opacity.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-opacity.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/root-element-opacity.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-opacity.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/root-element-opacity-ref.html
   relation: "=="
   diffPages:
     - css/compositing/root-element-opacity-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/root-element-opacity-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-opacity-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/root-element-opacity-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/root-element-opacity-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0060"
   category: WPT reftest
   title: css/compositing/svg/mix-blend-mode-svg-rectangle.html
@@ -545,11 +765,20 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/compositing/svg/mix-blend-mode-svg-rectangle.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/svg/mix-blend-mode-svg-rectangle.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/compositing/svg/mix-blend-mode-svg-rectangle.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/svg/mix-blend-mode-svg-rectangle.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/compositing/svg/reference/mix-blend-mode-svg-rectangle-ref.html
   relation: "=="
   diffPages:
     - css/compositing/svg/reference/mix-blend-mode-svg-rectangle-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/compositing/svg/reference/mix-blend-mode-svg-rectangle-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/svg/reference/mix-blend-mode-svg-rectangle-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/compositing/svg/reference/mix-blend-mode-svg-rectangle-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/svg/reference/mix-blend-mode-svg-rectangle-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false

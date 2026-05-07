@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T12:45:01.890Z",
+  "generatedAt": "2026-05-07T03:58:05.010Z",
   "labels": {
     "actual": "v2.42.0",
     "baseline": "v2.40.0"
@@ -11,7 +11,7 @@
     "limit": null,
     "mode": "reftest-diff",
     "browser": "chromium",
-    "outDir": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-style-attr",
+    "outDir": "v2.42.0-vs-v2.40.0/css/css-style-attr",
     "timeoutSec": 10,
     "maxDiffRatio": 0.00002,
     "pixelThreshold": 0.1,
@@ -25,13 +25,13 @@
     "baselineViewer": "https://vivliostyle.github.io/viewer/v2.40.0/",
     "actualLabel": "v2.42.0",
     "baselineLabel": "v2.40.0",
-    "extraViewerParams": "",
+    "extraViewerParams": "bookMode=false",
     "actualViewerParams": "",
     "baselineViewerParams": "",
     "testUrls": [],
     "refUrls": [],
-    "wptManifestPath": "D:\\viv\\vivliostyle.js\\artifacts\\wpt-reftest\\MANIFEST.json",
-    "wptBaseUrl": "https://wpt.live/",
+    "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
+    "wptBaseUrl": "https://raw.githack.com/web-platform-tests/wpt/master/",
     "wptPathPrefixes": [
       "css/css-style-attr/"
     ],
@@ -75,13 +75,117 @@
       "file": [
         "css/css-style-attr/style-attr-braces-001.xht"
       ],
-      "sourceUrl": "https://wpt.live/css/css-style-attr/style-attr-braces-001.xht",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-001.xht",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-001.xht&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-001.xht&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 11875,
+                "diffRatio": 0.014162802457827646,
+                "exactDiffPixels": 12700,
+                "exactDiffRatio": 0.015146744523318831,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0001-WPT_reftest-css-css-style-attr-style-attr-braces-001.xht-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 11875,
+                "diffRatio": 0.014162802457827646,
+                "exactDiffPixels": 12700,
+                "exactDiffRatio": 0.015146744523318831,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0001-WPT_reftest-css-css-style-attr-style-attr-braces-001.xht-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.40.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0002",
@@ -90,13 +194,21 @@
       "file": [
         "css/css-style-attr/style-attr-braces-002-quirks.htm"
       ],
-      "sourceUrl": "https://wpt.live/css/css-style-attr/style-attr-braces-002-quirks.htm",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-002-quirks.htm",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-002-quirks.htm&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-002-quirks.htm&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-002-quirks.htm&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-002-quirks.htm&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0003",
@@ -105,13 +217,21 @@
       "file": [
         "css/css-style-attr/style-attr-braces-002.xht"
       ],
-      "sourceUrl": "https://wpt.live/css/css-style-attr/style-attr-braces-002.xht",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-002.xht",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-002.xht&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-002.xht&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-002.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-002.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0004",
@@ -120,13 +240,117 @@
       "file": [
         "css/css-style-attr/style-attr-braces-003.xht"
       ],
-      "sourceUrl": "https://wpt.live/css/css-style-attr/style-attr-braces-003.xht",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-003.xht",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-003.xht&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-003.xht&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-003.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-003.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 11309,
+                "diffRatio": 0.013487758568048241,
+                "exactDiffPixels": 12205,
+                "exactDiffRatio": 0.01455637928402412,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0004-WPT_reftest-css-css-style-attr-style-attr-braces-003.xht-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 11309,
+                "diffRatio": 0.013487758568048241,
+                "exactDiffPixels": 12205,
+                "exactDiffRatio": 0.01455637928402412,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0004-WPT_reftest-css-css-style-attr-style-attr-braces-003.xht-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.40.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0005",
@@ -135,13 +359,21 @@
       "file": [
         "css/css-style-attr/style-attr-cascade-001.xht"
       ],
-      "sourceUrl": "https://wpt.live/css/css-style-attr/style-attr-cascade-001.xht",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-001.xht",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-cascade-001.xht&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-cascade-001.xht&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-style-attr/reference/ref-green.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0006",
@@ -150,13 +382,21 @@
       "file": [
         "css/css-style-attr/style-attr-cascade-002.xht"
       ],
-      "sourceUrl": "https://wpt.live/css/css-style-attr/style-attr-cascade-002.xht",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-002.xht",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-cascade-002.xht&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-cascade-002.xht&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-002.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-002.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-style-attr/reference/ref-green.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0007",
@@ -165,13 +405,21 @@
       "file": [
         "css/css-style-attr/style-attr-cascade-003.xht"
       ],
-      "sourceUrl": "https://wpt.live/css/css-style-attr/style-attr-cascade-003.xht",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-003.xht",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-cascade-003.xht&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-cascade-003.xht&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-003.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-003.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-style-attr/reference/ref-green.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0008",
@@ -180,13 +428,21 @@
       "file": [
         "css/css-style-attr/style-attr-cascade-004.xht"
       ],
-      "sourceUrl": "https://wpt.live/css/css-style-attr/style-attr-cascade-004.xht",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-004.xht",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-cascade-004.xht&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-cascade-004.xht&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-004.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-004.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-style-attr/reference/ref-white-on-green-background.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-white-on-green-background.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-white-on-green-background.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0009",
@@ -195,13 +451,21 @@
       "file": [
         "css/css-style-attr/style-attr-cascade-005.xht"
       ],
-      "sourceUrl": "https://wpt.live/css/css-style-attr/style-attr-cascade-005.xht",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-005.xht",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-cascade-005.xht&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-cascade-005.xht&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-005.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-005.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-style-attr/reference/ref-white-on-green-background.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-white-on-green-background.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-white-on-green-background.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0010",
@@ -210,13 +474,21 @@
       "file": [
         "css/css-style-attr/style-attr-cascade-006.xht"
       ],
-      "sourceUrl": "https://wpt.live/css/css-style-attr/style-attr-cascade-006.xht",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-006.xht",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-cascade-006.xht&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-cascade-006.xht&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-006.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-006.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-style-attr/reference/ref-green.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0011",
@@ -225,13 +497,21 @@
       "file": [
         "css/css-style-attr/style-attr-cascade-007.xht"
       ],
-      "sourceUrl": "https://wpt.live/css/css-style-attr/style-attr-cascade-007.xht",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-007.xht",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-cascade-007.xht&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-cascade-007.xht&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-007.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-cascade-007.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-style-attr/reference/style-attr-cascade-007.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/style-attr-cascade-007.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/style-attr-cascade-007.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0012",
@@ -240,13 +520,21 @@
       "file": [
         "css/css-style-attr/style-attr-specificity-001.xht"
       ],
-      "sourceUrl": "https://wpt.live/css/css-style-attr/style-attr-specificity-001.xht",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-specificity-001.xht",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-specificity-001.xht&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-specificity-001.xht&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-specificity-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-specificity-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0013",
@@ -255,13 +543,21 @@
       "file": [
         "css/css-style-attr/style-attr-specificity-002.xht"
       ],
-      "sourceUrl": "https://wpt.live/css/css-style-attr/style-attr-specificity-002.xht",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-specificity-002.xht",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-specificity-002.xht&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-specificity-002.xht&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-specificity-002.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-specificity-002.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0014",
@@ -270,13 +566,21 @@
       "file": [
         "css/css-style-attr/style-attr-urls-001.xht"
       ],
-      "sourceUrl": "https://wpt.live/css/css-style-attr/style-attr-urls-001.xht",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-urls-001.xht",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-urls-001.xht&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-urls-001.xht&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-urls-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-urls-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0015",
@@ -285,13 +589,117 @@
       "file": [
         "css/css-style-attr/style-attr-urls-002.xht"
       ],
-      "sourceUrl": "https://wpt.live/css/css-style-attr/style-attr-urls-002.xht",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-urls-002.xht",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-urls-002.xht&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-urls-002.xht&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-urls-002.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-urls-002.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 11309,
+                "diffRatio": 0.013487758568048241,
+                "exactDiffPixels": 12205,
+                "exactDiffRatio": 0.01455637928402412,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0015-WPT_reftest-css-css-style-attr-style-attr-urls-002.xht-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 11309,
+                "diffRatio": 0.013487758568048241,
+                "exactDiffPixels": 12205,
+                "exactDiffRatio": 0.01455637928402412,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0015-WPT_reftest-css-css-style-attr-style-attr-urls-002.xht-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.40.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0016",
@@ -300,334 +708,21 @@
       "file": [
         "css/css-style-attr/style-attr-urls-003.xht"
       ],
-      "sourceUrl": "https://wpt.live/css/css-style-attr/style-attr-urls-003.xht",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-urls-003.xht",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-urls-003.xht&pixelRatio=0&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-urls-003.xht&pixelRatio=0&zoom=1&spread=false"
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-urls-003.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-urls-003.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     }
-  ],
-  "differences": [
-    {
-      "id": "0001",
-      "category": "WPT reftest",
-      "title": "css/css-style-attr/style-attr-braces-001.xht",
-      "file": [
-        "css/css-style-attr/style-attr-braces-001.xht"
-      ],
-      "classification": "known-fail",
-      "triageRequired": true,
-      "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
-      "pageCountMismatch": false,
-      "actual": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-001.xht&pixelRatio=0&zoom=1&spread=false"
-      },
-      "baseline": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-001.xht&pixelRatio=0&zoom=1&spread=false"
-      },
-      "pages": [],
-      "comparisons": [
-        {
-          "referenceIndex": 0,
-          "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
-          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false",
-          "referenceTotalPages": 1,
-          "testTotalPages": 1,
-          "relation": "==",
-          "fuzzy": null,
-          "actualPageNumbers": [
-            1
-          ],
-          "baselinePageNumbers": [
-            1
-          ],
-          "pageCountMismatch": false,
-          "pages": [
-            {
-              "page": 1,
-              "actualPage": 1,
-              "baselinePage": 1,
-              "width": 794,
-              "height": 1056,
-              "actualWidth": 794,
-              "actualHeight": 1056,
-              "diffPixels": 11875,
-              "diffRatio": 0.014162802457827646,
-              "exactDiffPixels": 12700,
-              "exactDiffRatio": 0.015146744523318831,
-              "exceededDiffPixels": 0,
-              "maxChannelDifference": 255,
-              "dimensionMismatch": false,
-              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-style-attr\\actual-reference-diff\\0001-WPT_reftest-css-css-style-attr-style-attr-braces-001.xht-r01-p0001.png"
-            }
-          ],
-          "unexpectedEquality": false,
-          "pass": false,
-          "side": "v2.42.0",
-          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false"
-        },
-        {
-          "referenceIndex": 0,
-          "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
-          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false",
-          "referenceTotalPages": 1,
-          "testTotalPages": 1,
-          "relation": "==",
-          "fuzzy": null,
-          "actualPageNumbers": [
-            1
-          ],
-          "baselinePageNumbers": [
-            1
-          ],
-          "pageCountMismatch": false,
-          "pages": [
-            {
-              "page": 1,
-              "actualPage": 1,
-              "baselinePage": 1,
-              "width": 794,
-              "height": 1056,
-              "actualWidth": 794,
-              "actualHeight": 1056,
-              "diffPixels": 11875,
-              "diffRatio": 0.014162802457827646,
-              "exactDiffPixels": 12700,
-              "exactDiffRatio": 0.015146744523318831,
-              "exceededDiffPixels": 0,
-              "maxChannelDifference": 255,
-              "dimensionMismatch": false,
-              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-style-attr\\baseline-reference-diff\\0001-WPT_reftest-css-css-style-attr-style-attr-braces-001.xht-r01-p0001.png"
-            }
-          ],
-          "unexpectedEquality": false,
-          "pass": false,
-          "side": "v2.40.0",
-          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false"
-        }
-      ],
-      "triage": {
-        "status": "pending",
-        "decision": ""
-      }
-    },
-    {
-      "id": "0004",
-      "category": "WPT reftest",
-      "title": "css/css-style-attr/style-attr-braces-003.xht",
-      "file": [
-        "css/css-style-attr/style-attr-braces-003.xht"
-      ],
-      "classification": "known-fail",
-      "triageRequired": true,
-      "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
-      "pageCountMismatch": false,
-      "actual": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-003.xht&pixelRatio=0&zoom=1&spread=false"
-      },
-      "baseline": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-003.xht&pixelRatio=0&zoom=1&spread=false"
-      },
-      "pages": [],
-      "comparisons": [
-        {
-          "referenceIndex": 0,
-          "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
-          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false",
-          "referenceTotalPages": 1,
-          "testTotalPages": 1,
-          "relation": "==",
-          "fuzzy": null,
-          "actualPageNumbers": [
-            1
-          ],
-          "baselinePageNumbers": [
-            1
-          ],
-          "pageCountMismatch": false,
-          "pages": [
-            {
-              "page": 1,
-              "actualPage": 1,
-              "baselinePage": 1,
-              "width": 794,
-              "height": 1056,
-              "actualWidth": 794,
-              "actualHeight": 1056,
-              "diffPixels": 11410,
-              "diffRatio": 0.013608216930005343,
-              "exactDiffPixels": 12205,
-              "exactDiffRatio": 0.01455637928402412,
-              "exceededDiffPixels": 0,
-              "maxChannelDifference": 255,
-              "dimensionMismatch": false,
-              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-style-attr\\actual-reference-diff\\0004-WPT_reftest-css-css-style-attr-style-attr-braces-003.xht-r01-p0001.png"
-            }
-          ],
-          "unexpectedEquality": false,
-          "pass": false,
-          "side": "v2.42.0",
-          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false"
-        },
-        {
-          "referenceIndex": 0,
-          "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
-          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false",
-          "referenceTotalPages": 1,
-          "testTotalPages": 1,
-          "relation": "==",
-          "fuzzy": null,
-          "actualPageNumbers": [
-            1
-          ],
-          "baselinePageNumbers": [
-            1
-          ],
-          "pageCountMismatch": false,
-          "pages": [
-            {
-              "page": 1,
-              "actualPage": 1,
-              "baselinePage": 1,
-              "width": 794,
-              "height": 1056,
-              "actualWidth": 794,
-              "actualHeight": 1056,
-              "diffPixels": 11410,
-              "diffRatio": 0.013608216930005343,
-              "exactDiffPixels": 12205,
-              "exactDiffRatio": 0.01455637928402412,
-              "exceededDiffPixels": 0,
-              "maxChannelDifference": 255,
-              "dimensionMismatch": false,
-              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-style-attr\\baseline-reference-diff\\0004-WPT_reftest-css-css-style-attr-style-attr-braces-003.xht-r01-p0001.png"
-            }
-          ],
-          "unexpectedEquality": false,
-          "pass": false,
-          "side": "v2.40.0",
-          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false"
-        }
-      ],
-      "triage": {
-        "status": "pending",
-        "decision": ""
-      }
-    },
-    {
-      "id": "0015",
-      "category": "WPT reftest",
-      "title": "css/css-style-attr/style-attr-urls-002.xht",
-      "file": [
-        "css/css-style-attr/style-attr-urls-002.xht"
-      ],
-      "classification": "known-fail",
-      "triageRequired": true,
-      "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
-      "pageCountMismatch": false,
-      "actual": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-urls-002.xht&pixelRatio=0&zoom=1&spread=false"
-      },
-      "baseline": {
-        "totalPages": 1,
-        "url": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-urls-002.xht&pixelRatio=0&zoom=1&spread=false"
-      },
-      "pages": [],
-      "comparisons": [
-        {
-          "referenceIndex": 0,
-          "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
-          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false",
-          "referenceTotalPages": 1,
-          "testTotalPages": 1,
-          "relation": "==",
-          "fuzzy": null,
-          "actualPageNumbers": [
-            1
-          ],
-          "baselinePageNumbers": [
-            1
-          ],
-          "pageCountMismatch": false,
-          "pages": [
-            {
-              "page": 1,
-              "actualPage": 1,
-              "baselinePage": 1,
-              "width": 794,
-              "height": 1056,
-              "actualWidth": 794,
-              "actualHeight": 1056,
-              "diffPixels": 11410,
-              "diffRatio": 0.013608216930005343,
-              "exactDiffPixels": 12205,
-              "exactDiffRatio": 0.01455637928402412,
-              "exceededDiffPixels": 0,
-              "maxChannelDifference": 255,
-              "dimensionMismatch": false,
-              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-style-attr\\actual-reference-diff\\0015-WPT_reftest-css-css-style-attr-style-attr-urls-002.xht-r01-p0001.png"
-            }
-          ],
-          "unexpectedEquality": false,
-          "pass": false,
-          "side": "v2.42.0",
-          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false"
-        },
-        {
-          "referenceIndex": 0,
-          "referenceFile": "css/css-style-attr/reference/ref-green-on-green.xht",
-          "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false",
-          "referenceTotalPages": 1,
-          "testTotalPages": 1,
-          "relation": "==",
-          "fuzzy": null,
-          "actualPageNumbers": [
-            1
-          ],
-          "baselinePageNumbers": [
-            1
-          ],
-          "pageCountMismatch": false,
-          "pages": [
-            {
-              "page": 1,
-              "actualPage": 1,
-              "baselinePage": 1,
-              "width": 794,
-              "height": 1056,
-              "actualWidth": 794,
-              "actualHeight": 1056,
-              "diffPixels": 11410,
-              "diffRatio": 0.013608216930005343,
-              "exactDiffPixels": 12205,
-              "exactDiffRatio": 0.01455637928402412,
-              "exceededDiffPixels": 0,
-              "maxChannelDifference": 255,
-              "dimensionMismatch": false,
-              "diffImage": "D:\\viv\\wpt-results\\v2.42.0-vs-v2.40.0\\css\\css-style-attr\\baseline-reference-diff\\0015-WPT_reftest-css-css-style-attr-style-attr-urls-002.xht-r01-p0001.png"
-            }
-          ],
-          "unexpectedEquality": false,
-          "pass": false,
-          "side": "v2.40.0",
-          "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&zoom=1&spread=false"
-        }
-      ],
-      "triage": {
-        "status": "pending",
-        "decision": ""
-      }
-    }
-  ],
-  "errors": []
+  ]
 }

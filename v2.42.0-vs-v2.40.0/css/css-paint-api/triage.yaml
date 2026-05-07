@@ -8,14 +8,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/background-image-alpha.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/background-image-alpha.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/background-image-alpha.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/background-image-alpha.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/background-image-alpha-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/background-image-alpha-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/background-image-alpha-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/background-image-alpha-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/background-image-alpha-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/background-image-alpha-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0002"
   category: WPT reftest
   title: css/css-paint-api/background-image-multiple.https.html
@@ -26,14 +35,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/background-image-multiple.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/background-image-multiple.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/background-image-multiple.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/background-image-multiple.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/background-image-multiple-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/background-image-multiple-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/background-image-multiple-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/background-image-multiple-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/background-image-multiple-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/background-image-multiple-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0003"
   category: WPT reftest
   title: css/css-paint-api/background-image-tiled.https.html
@@ -44,14 +62,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/background-image-tiled.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/background-image-tiled.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/background-image-tiled.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/background-image-tiled.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/background-image-tiled-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/background-image-tiled-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/background-image-tiled-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/background-image-tiled-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/background-image-tiled-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/background-image-tiled-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0004"
   category: WPT reftest
   title: css/css-paint-api/background-repeat-x.https.html
@@ -62,14 +89,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/background-repeat-x.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/background-repeat-x.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/background-repeat-x.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/background-repeat-x.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/background-repeat-x-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/background-repeat-x-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/background-repeat-x-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/background-repeat-x-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/background-repeat-x-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/background-repeat-x-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0005"
   category: WPT reftest
   title: css/css-paint-api/color-custom-property-animation.https.html
@@ -80,14 +116,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/color-custom-property-animation.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/color-custom-property-animation.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/color-custom-property-animation.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/color-custom-property-animation.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/color-custom-property-animation-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/color-custom-property-animation-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/color-custom-property-animation-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/color-custom-property-animation-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/color-custom-property-animation-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/color-custom-property-animation-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0006"
   category: WPT reftest
   title: css/css-paint-api/dynamic-import.https.html
@@ -98,14 +143,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/dynamic-import.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/dynamic-import.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/dynamic-import.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/dynamic-import.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/dynamic-import-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/dynamic-import-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/dynamic-import-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/dynamic-import-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/dynamic-import-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/dynamic-import-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0007"
   category: WPT reftest
   title: css/css-paint-api/geometry-background-image-001.https.html
@@ -116,14 +170,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/geometry-background-image-001.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-001.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/geometry-background-image-001.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-001.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/geometry-background-image-001-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/geometry-background-image-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/geometry-background-image-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/geometry-background-image-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0008"
   category: WPT reftest
   title: css/css-paint-api/geometry-background-image-002.https.html
@@ -134,14 +197,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/geometry-background-image-002.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-002.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/geometry-background-image-002.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-002.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/geometry-background-image-002-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/geometry-background-image-002-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/geometry-background-image-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/geometry-background-image-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0009"
   category: WPT reftest
   title: css/css-paint-api/geometry-background-image-tiled-001.https.html
@@ -152,14 +224,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/geometry-background-image-tiled-001.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-tiled-001.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/geometry-background-image-tiled-001.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-tiled-001.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/geometry-background-image-tiled-001-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/geometry-background-image-tiled-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/geometry-background-image-tiled-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-tiled-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/geometry-background-image-tiled-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-tiled-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0010"
   category: WPT reftest
   title: css/css-paint-api/geometry-background-image-tiled-002.https.html
@@ -170,14 +251,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/geometry-background-image-tiled-002.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-tiled-002.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/geometry-background-image-tiled-002.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-tiled-002.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/geometry-background-image-tiled-002-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/geometry-background-image-tiled-002-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/geometry-background-image-tiled-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-tiled-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/geometry-background-image-tiled-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-tiled-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0011"
   category: WPT reftest
   title: css/css-paint-api/geometry-background-image-tiled-003.https.html
@@ -188,14 +278,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/geometry-background-image-tiled-003.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-tiled-003.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/geometry-background-image-tiled-003.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-tiled-003.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/geometry-background-image-tiled-003-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/geometry-background-image-tiled-003-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/geometry-background-image-tiled-003-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-tiled-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/geometry-background-image-tiled-003-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-background-image-tiled-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0012"
   category: WPT reftest
   title: css/css-paint-api/geometry-border-image-001.https.html
@@ -206,14 +305,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/geometry-border-image-001.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-001.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/geometry-border-image-001.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-001.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/geometry-border-image-001-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/geometry-border-image-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/geometry-border-image-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/geometry-border-image-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0013"
   category: WPT reftest
   title: css/css-paint-api/geometry-border-image-002.https.html
@@ -224,14 +332,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/geometry-border-image-002.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-002.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/geometry-border-image-002.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-002.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/geometry-border-image-002-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/geometry-border-image-002-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/geometry-border-image-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/geometry-border-image-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0014"
   category: WPT reftest
   title: css/css-paint-api/geometry-border-image-003.https.html
@@ -242,14 +359,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/geometry-border-image-003.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-003.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/geometry-border-image-003.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-003.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/geometry-border-image-003-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/geometry-border-image-003-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/geometry-border-image-003-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/geometry-border-image-003-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0015"
   category: WPT reftest
   title: css/css-paint-api/geometry-border-image-004.https.html
@@ -260,14 +386,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/geometry-border-image-004.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-004.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/geometry-border-image-004.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-004.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/geometry-border-image-004-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/geometry-border-image-004-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/geometry-border-image-004-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/geometry-border-image-004-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0016"
   category: WPT reftest
   title: css/css-paint-api/geometry-border-image-005.https.html
@@ -278,14 +413,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/geometry-border-image-005.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-005.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/geometry-border-image-005.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-005.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/geometry-border-image-005-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/geometry-border-image-005-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/geometry-border-image-005-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-005-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/geometry-border-image-005-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-border-image-005-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0017"
   category: WPT reftest
   title: css/css-paint-api/geometry-with-float-size.https.html
@@ -296,14 +440,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/geometry-with-float-size.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-with-float-size.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/geometry-with-float-size.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-with-float-size.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/geometry-with-float-size-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/geometry-with-float-size-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/geometry-with-float-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-with-float-size-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/geometry-with-float-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/geometry-with-float-size-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0018"
   category: WPT reftest
   title: css/css-paint-api/hidpi/canvas-reset.https.html
@@ -314,14 +467,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/hidpi/canvas-reset.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/hidpi/canvas-reset.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/hidpi/canvas-reset.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/hidpi/canvas-reset.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/hidpi/canvas-reset-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/hidpi/canvas-reset-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/hidpi/canvas-reset-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/hidpi/canvas-reset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/hidpi/canvas-reset-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/hidpi/canvas-reset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0019"
   category: WPT reftest
   title: css/css-paint-api/hidpi/canvas-transform.https.html
@@ -332,14 +494,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/hidpi/canvas-transform.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/hidpi/canvas-transform.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/hidpi/canvas-transform.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/hidpi/canvas-transform.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/hidpi/canvas-transform-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/hidpi/canvas-transform-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/hidpi/canvas-transform-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/hidpi/canvas-transform-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/hidpi/canvas-transform-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/hidpi/canvas-transform-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0020"
   category: WPT reftest
   title: css/css-paint-api/hidpi/device-pixel-ratio.https.html
@@ -350,14 +521,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/hidpi/device-pixel-ratio.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/hidpi/device-pixel-ratio.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/hidpi/device-pixel-ratio.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/hidpi/device-pixel-ratio.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/hidpi/device-pixel-ratio-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/hidpi/device-pixel-ratio-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/hidpi/device-pixel-ratio-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/hidpi/device-pixel-ratio-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/hidpi/device-pixel-ratio-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/hidpi/device-pixel-ratio-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0021"
   category: WPT reftest
   title: css/css-paint-api/invalid-image-constructor-error.https.html
@@ -368,14 +548,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/invalid-image-constructor-error.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/invalid-image-constructor-error.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/invalid-image-constructor-error.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/invalid-image-constructor-error.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/invalid-image-constructor-error-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/invalid-image-constructor-error-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/invalid-image-constructor-error-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/invalid-image-constructor-error-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/invalid-image-constructor-error-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/invalid-image-constructor-error-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0022"
   category: WPT reftest
   title: css/css-paint-api/invalid-image-paint-error.https.html
@@ -386,14 +575,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/invalid-image-paint-error.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/invalid-image-paint-error.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/invalid-image-paint-error.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/invalid-image-paint-error.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/invalid-image-paint-error-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/invalid-image-paint-error-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/invalid-image-paint-error-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/invalid-image-paint-error-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/invalid-image-paint-error-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/invalid-image-paint-error-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0023"
   category: WPT reftest
   title: css/css-paint-api/invalid-image-pending-script.https.html
@@ -404,14 +602,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/invalid-image-pending-script.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/invalid-image-pending-script.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/invalid-image-pending-script.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/invalid-image-pending-script.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/invalid-image-pending-script-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/invalid-image-pending-script-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/invalid-image-pending-script-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/invalid-image-pending-script-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/invalid-image-pending-script-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/invalid-image-pending-script-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0025"
   category: WPT reftest
   title: css/css-paint-api/non-registered-property-value.https.html
@@ -422,14 +629,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/non-registered-property-value.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/non-registered-property-value.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/non-registered-property-value.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/non-registered-property-value.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0026"
   category: WPT reftest
   title: css/css-paint-api/one-custom-property-animation-half-opaque.https.html
@@ -440,14 +656,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/one-custom-property-animation-half-opaque.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/one-custom-property-animation-half-opaque.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/one-custom-property-animation-half-opaque.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/one-custom-property-animation-half-opaque.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/one-custom-property-animation-half-opaque-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/one-custom-property-animation-half-opaque-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/one-custom-property-animation-half-opaque-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/one-custom-property-animation-half-opaque-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/one-custom-property-animation-half-opaque-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/one-custom-property-animation-half-opaque-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0027"
   category: WPT reftest
   title: css/css-paint-api/one-custom-property-animation.https.html
@@ -458,14 +683,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/one-custom-property-animation.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/one-custom-property-animation.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/one-custom-property-animation.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/one-custom-property-animation.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/one-custom-property-animation-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/one-custom-property-animation-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/one-custom-property-animation-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/one-custom-property-animation-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/one-custom-property-animation-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/one-custom-property-animation-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0028"
   category: WPT reftest
   title: css/css-paint-api/overdraw.https.html
@@ -476,14 +710,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/overdraw.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/overdraw.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/overdraw.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/overdraw.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/overdraw-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/overdraw-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/overdraw-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/overdraw-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/overdraw-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/overdraw-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0029"
   category: WPT reftest
   title: css/css-paint-api/paint-arguments.https.html
@@ -494,14 +737,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint-arguments.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint-arguments.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint-arguments.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint-arguments.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0030"
   category: WPT reftest
   title: css/css-paint-api/paint-function-arguments-var.https.html
@@ -512,14 +764,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint-function-arguments-var.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint-function-arguments-var.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint-function-arguments-var.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint-function-arguments-var.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint-function-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint-function-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint-function-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint-function-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint-function-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint-function-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0031"
   category: WPT reftest
   title: css/css-paint-api/paint-function-arguments.https.html
@@ -530,14 +791,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint-function-arguments.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint-function-arguments.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint-function-arguments.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint-function-arguments.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint-function-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint-function-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint-function-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint-function-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint-function-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint-function-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0032"
   category: WPT reftest
   title: css/css-paint-api/paint-function-this-value.https.html
@@ -548,14 +818,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint-function-this-value.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint-function-this-value.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint-function-this-value.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint-function-this-value.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0034"
   category: WPT reftest
   title: css/css-paint-api/paint2d-composite.https.html
@@ -566,14 +845,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint2d-composite.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-composite.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint2d-composite.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-composite.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint2d-composite-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint2d-composite-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint2d-composite-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-composite-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint2d-composite-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-composite-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0035"
   category: WPT reftest
   title: css/css-paint-api/paint2d-conicGradient.https.html
@@ -584,14 +872,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint2d-conicGradient.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-conicGradient.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint2d-conicGradient.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-conicGradient.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint2d-conicGradient-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint2d-conicGradient-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint2d-conicGradient-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-conicGradient-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint2d-conicGradient-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-conicGradient-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0036"
   category: WPT reftest
   title: css/css-paint-api/paint2d-filter.https.html
@@ -602,14 +899,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint2d-filter.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-filter.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint2d-filter.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-filter.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint2d-filter-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint2d-filter-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint2d-filter-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-filter-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint2d-filter-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-filter-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0037"
   category: WPT reftest
   title: css/css-paint-api/paint2d-gradient.https.html
@@ -620,14 +926,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint2d-gradient.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-gradient.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint2d-gradient.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-gradient.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint2d-gradient-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint2d-gradient-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint2d-gradient-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-gradient-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint2d-gradient-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-gradient-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0038"
   category: WPT reftest
   title: css/css-paint-api/paint2d-image.https.html
@@ -638,14 +953,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint2d-image.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-image.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint2d-image.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-image.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint2d-image-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint2d-image-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint2d-image-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-image-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint2d-image-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-image-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0039"
   category: WPT reftest
   title: css/css-paint-api/paint2d-imageSmoothingQuality.high.https.html
@@ -656,14 +980,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint2d-imageSmoothingQuality.high.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-imageSmoothingQuality.high.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint2d-imageSmoothingQuality.high.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-imageSmoothingQuality.high.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint2d-imageSmoothingQuality.high-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint2d-imageSmoothingQuality.high-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint2d-imageSmoothingQuality.high-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-imageSmoothingQuality.high-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint2d-imageSmoothingQuality.high-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-imageSmoothingQuality.high-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0040"
   category: WPT reftest
   title: css/css-paint-api/paint2d-imageSmoothingQuality.low.https.html
@@ -674,14 +1007,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint2d-imageSmoothingQuality.low.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-imageSmoothingQuality.low.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint2d-imageSmoothingQuality.low.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-imageSmoothingQuality.low.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint2d-imageSmoothingQuality.low-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint2d-imageSmoothingQuality.low-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint2d-imageSmoothingQuality.low-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-imageSmoothingQuality.low-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint2d-imageSmoothingQuality.low-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-imageSmoothingQuality.low-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0041"
   category: WPT reftest
   title: css/css-paint-api/paint2d-imageSmoothingQuality.med.https.html
@@ -692,14 +1034,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint2d-imageSmoothingQuality.med.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-imageSmoothingQuality.med.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint2d-imageSmoothingQuality.med.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-imageSmoothingQuality.med.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint2d-imageSmoothingQuality.med-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint2d-imageSmoothingQuality.med-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint2d-imageSmoothingQuality.med-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-imageSmoothingQuality.med-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint2d-imageSmoothingQuality.med-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-imageSmoothingQuality.med-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0042"
   category: WPT reftest
   title: css/css-paint-api/paint2d-paths.https.html
@@ -710,14 +1061,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint2d-paths.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-paths.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint2d-paths.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-paths.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint2d-paths-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint2d-paths-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint2d-paths-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-paths-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint2d-paths-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-paths-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0043"
   category: WPT reftest
   title: css/css-paint-api/paint2d-rects.https.html
@@ -728,14 +1088,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint2d-rects.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-rects.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint2d-rects.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-rects.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint2d-rects-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint2d-rects-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint2d-rects-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-rects-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint2d-rects-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-rects-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0044"
   category: WPT reftest
   title: css/css-paint-api/paint2d-reset.https.html
@@ -746,14 +1115,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint2d-reset.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-reset.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint2d-reset.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-reset.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint2d-reset-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint2d-reset-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint2d-reset-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-reset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint2d-reset-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-reset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0045"
   category: WPT reftest
   title: css/css-paint-api/paint2d-roundRect.https.html
@@ -764,14 +1142,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint2d-roundRect.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-roundRect.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint2d-roundRect.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-roundRect.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint2d-roundRect-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint2d-roundRect-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint2d-roundRect-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-roundRect-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint2d-roundRect-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-roundRect-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0046"
   category: WPT reftest
   title: css/css-paint-api/paint2d-shadows.https.html
@@ -782,14 +1169,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint2d-shadows.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-shadows.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint2d-shadows.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-shadows.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint2d-shadows-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint2d-shadows-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint2d-shadows-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-shadows-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint2d-shadows-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-shadows-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0047"
   category: WPT reftest
   title: css/css-paint-api/paint2d-transform.https.html
@@ -800,14 +1196,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/paint2d-transform.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-transform.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/paint2d-transform.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-transform.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/paint2d-transform-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/paint2d-transform-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/paint2d-transform-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-transform-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/paint2d-transform-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/paint2d-transform-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0048"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-001.https.html
@@ -818,14 +1223,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-001.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-001.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-001.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-001.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0049"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-002.https.html
@@ -836,14 +1250,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-002.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-002.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-002.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-002.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0050"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-003.https.html
@@ -854,14 +1277,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-003.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-003.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-003.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-003.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0051"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-004.https.html
@@ -872,14 +1304,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-004.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-004.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-004.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-004.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0052"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-005.https.html
@@ -890,14 +1331,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-005.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-005.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-005.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-005.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0053"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-006.https.html
@@ -908,14 +1358,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-006.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-006.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-006.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-006.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0054"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-007.https.html
@@ -926,14 +1385,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-007.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-007.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-007.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-007.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0055"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-008.https.html
@@ -944,14 +1412,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-008.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-008.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-008.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-008.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0056"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-009.https.html
@@ -962,14 +1439,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-009.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-009.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-009.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-009.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0057"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-010.https.html
@@ -980,14 +1466,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-010.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-010.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-010.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-010.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0058"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-011.https.html
@@ -998,14 +1493,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-011.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-011.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-011.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-011.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0059"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-012.https.html
@@ -1016,14 +1520,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-012.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-012.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-012.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-012.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0060"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-013.https.html
@@ -1034,14 +1547,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-013.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-013.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-013.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-013.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0061"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-014.https.html
@@ -1052,14 +1574,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-014.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-014.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-014.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-014.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0062"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-015.https.html
@@ -1070,14 +1601,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-015.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-015.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-015.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-015.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0063"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-016.https.html
@@ -1088,14 +1628,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-016.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-016.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-016.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-016.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0064"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-017.https.html
@@ -1106,14 +1655,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-017.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-017.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-017.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-017.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0065"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-018.https.html
@@ -1124,14 +1682,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-018.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-018.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-018.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-018.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-018-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-018-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-018-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-018-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-018-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-018-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0066"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-019.https.html
@@ -1142,14 +1709,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-019.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-019.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-019.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-019.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0067"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-020.https.html
@@ -1160,14 +1736,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-020.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-020.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-020.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-020.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0068"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-021.https.html
@@ -1178,14 +1763,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-021.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-021.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-021.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-021.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0069"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-022.https.html
@@ -1196,14 +1790,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-022.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-022.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-022.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-022.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0080"
   category: WPT reftest
   title: css/css-paint-api/registered-property-invalidation-001.https.html
@@ -1214,14 +1817,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-invalidation-001.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-invalidation-001.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-invalidation-001.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-invalidation-001.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0081"
   category: WPT reftest
   title: css/css-paint-api/registered-property-invalidation-002.https.html
@@ -1232,14 +1844,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-invalidation-002.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-invalidation-002.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-invalidation-002.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-invalidation-002.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/parse-input-arguments-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/parse-input-arguments-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/parse-input-arguments-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0102"
   category: WPT reftest
   title: css/css-paint-api/roundrect.https.html
@@ -1250,14 +1871,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/roundrect.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/roundrect.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/roundrect.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/roundrect.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/roundrect-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/roundrect-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/roundrect-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/roundrect-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/roundrect-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/roundrect-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0103"
   category: WPT reftest
   title: css/css-paint-api/setTransform-001.https.html
@@ -1268,14 +1898,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/setTransform-001.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/setTransform-001.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/setTransform-001.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/setTransform-001.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/setTransform-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/setTransform-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/setTransform-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/setTransform-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/setTransform-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/setTransform-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0104"
   category: WPT reftest
   title: css/css-paint-api/setTransform-002.https.html
@@ -1286,14 +1925,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/setTransform-002.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/setTransform-002.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/setTransform-002.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/setTransform-002.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/setTransform-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/setTransform-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/setTransform-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/setTransform-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/setTransform-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/setTransform-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0105"
   category: WPT reftest
   title: css/css-paint-api/setTransform-003.https.html
@@ -1304,14 +1952,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/setTransform-003.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/setTransform-003.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/setTransform-003.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/setTransform-003.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/setTransform-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/setTransform-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/setTransform-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/setTransform-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/setTransform-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/setTransform-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0106"
   category: WPT reftest
   title: css/css-paint-api/setTransform-004.https.html
@@ -1322,14 +1979,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/setTransform-004.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/setTransform-004.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/setTransform-004.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/setTransform-004.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/setTransform-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/setTransform-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/setTransform-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/setTransform-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/setTransform-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/setTransform-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0107"
   category: WPT reftest
   title: css/css-paint-api/style-background-image.https.html
@@ -1340,14 +2006,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/style-background-image.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/style-background-image.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/style-background-image.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/style-background-image.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/style-background-image-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/style-background-image-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/style-background-image-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/style-background-image-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/style-background-image-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/style-background-image-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0110"
   category: WPT reftest
   title: css/css-paint-api/top-level-await.https.html
@@ -1358,14 +2033,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/top-level-await.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/top-level-await.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/top-level-await.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/top-level-await.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/top-level-await-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/top-level-await-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/top-level-await-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/top-level-await-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/top-level-await-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/top-level-await-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0111"
   category: WPT reftest
   title: css/css-paint-api/two-custom-property-animation.https.html
@@ -1376,14 +2060,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/two-custom-property-animation.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/two-custom-property-animation.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/two-custom-property-animation.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/two-custom-property-animation.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/two-custom-property-animation-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/two-custom-property-animation-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/two-custom-property-animation-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/two-custom-property-animation-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/two-custom-property-animation-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/two-custom-property-animation-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0112"
   category: WPT reftest
   title: css/css-paint-api/two-element-custom-property-animation.https.html
@@ -1394,14 +2087,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/two-element-custom-property-animation.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/two-element-custom-property-animation.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/two-element-custom-property-animation.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/two-element-custom-property-animation.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/two-element-custom-property-animation-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/two-element-custom-property-animation-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/two-element-custom-property-animation-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/two-element-custom-property-animation-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/two-element-custom-property-animation-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/two-element-custom-property-animation-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0113"
   category: WPT reftest
   title: css/css-paint-api/two-element-one-custom-property-animation.https.html
@@ -1412,14 +2114,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/two-element-one-custom-property-animation.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/two-element-one-custom-property-animation.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/two-element-one-custom-property-animation.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/two-element-one-custom-property-animation.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-paint-api/two-element-one-custom-property-animation-ref.html
   relation: "=="
   diffPages:
     - css/css-paint-api/two-element-one-custom-property-animation-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-paint-api/two-element-one-custom-property-animation-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/two-element-one-custom-property-animation-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-paint-api/two-element-one-custom-property-animation-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/two-element-one-custom-property-animation-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0070"
   category: WPT reftest
   title: css/css-paint-api/registered-property-interpolation-001.https.html
@@ -1430,10 +2141,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-001.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-001.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-001.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-001.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1447,10 +2158,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-002.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-002.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-002.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-002.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1464,10 +2175,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-003.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-003.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-003.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-003.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1481,10 +2192,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-004.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-004.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-004.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-004.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1498,10 +2209,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-005.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-005.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-005.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-005.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1515,10 +2226,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-006.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-006.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-006.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-006.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1532,10 +2243,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-007.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-007.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-007.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-007.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1549,10 +2260,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-008.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-008.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-008.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-008.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1566,10 +2277,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-009.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-009.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-009.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-009.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1583,10 +2294,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-010.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-010.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-010.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-interpolation-010.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1600,10 +2311,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-stylemap.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-stylemap.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-stylemap.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-stylemap.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1617,10 +2328,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-utf8-animation.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-utf8-animation.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-utf8-animation.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-utf8-animation.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1634,10 +2345,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-001.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-001.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-001.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-001.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1651,10 +2362,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-002.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-002.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-002.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-002.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1668,10 +2379,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-003.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-003.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-003.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-003.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1685,10 +2396,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-004.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-004.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-004.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-004.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1702,10 +2413,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-005.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-005.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-005.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-005.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1719,10 +2430,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-006.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-006.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-006.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-006.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1736,10 +2447,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-007.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-007.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-007.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-007.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1753,10 +2464,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-008.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-008.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-008.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-008.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1770,10 +2481,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-009.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-009.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-009.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-009.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1787,10 +2498,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-010.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-010.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-010.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-010.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1804,10 +2515,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-011.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-011.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-011.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-011.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1821,10 +2532,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-012.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-012.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-012.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-012.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1838,10 +2549,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-013.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-013.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-013.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-013.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1855,10 +2566,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-014.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-014.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-014.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-014.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1872,10 +2583,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-015.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-015.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-015.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-015.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1889,10 +2600,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-016.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-016.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-016.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-016.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1906,10 +2617,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-017.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-017.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-017.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-017.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -1923,10 +2634,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-018.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-018.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-paint-api/registered-property-value-018.https.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-018.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: v2.42.0, v2.40.0
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"

@@ -8,14 +8,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/button-base-appearance-rendering.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/button-base-appearance-rendering.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-forms/button-base-appearance-rendering-ref.html
   relation: "=="
   diffPages:
     - css/css-forms/button-base-appearance-rendering-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-forms/button-base-appearance-rendering-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-forms/button-base-appearance-rendering-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0002"
   category: WPT reftest
   title: css/css-forms/checkbox-checkmark-animation-002.html
@@ -26,14 +35,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/checkbox-checkmark-animation-002.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/checkbox-checkmark-animation-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/checkbox-checkmark-animation-002.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/checkbox-checkmark-animation-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
     - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0004"
   category: WPT reftest
   title: css/css-forms/input-button-base-appearance-rendering.html
@@ -44,14 +62,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-button-base-appearance-rendering.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-button-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-button-base-appearance-rendering.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-button-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-forms/button-base-appearance-rendering-ref.html
   relation: "=="
   diffPages:
     - css/css-forms/button-base-appearance-rendering-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-forms/button-base-appearance-rendering-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-forms/button-base-appearance-rendering-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0005"
   category: WPT reftest
   title: css/css-forms/input-checkbox-base-appearance-rendering.html
@@ -62,14 +89,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-checkbox-base-appearance-rendering.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-checkbox-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-checkbox-base-appearance-rendering.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-checkbox-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-forms/input-checkbox-base-appearance-rendering-ref.html
   relation: "=="
   diffPages:
     - css/css-forms/input-checkbox-base-appearance-rendering-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-forms/input-checkbox-base-appearance-rendering-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-checkbox-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-forms/input-checkbox-base-appearance-rendering-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-checkbox-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0006"
   category: WPT reftest
   title: css/css-forms/input-color-base-appearance-rendering.html
@@ -80,14 +116,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-color-base-appearance-rendering.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-color-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-color-base-appearance-rendering.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-color-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-forms/input-color-base-appearance-rendering-ref.html
   relation: "=="
   diffPages:
     - css/css-forms/input-color-base-appearance-rendering-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-forms/input-color-base-appearance-rendering-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-color-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-forms/input-color-base-appearance-rendering-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-color-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0007"
   category: WPT reftest
   title: css/css-forms/input-number-base-appearance-rendering.tentative.html
@@ -98,14 +143,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-number-base-appearance-rendering.tentative.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-number-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-number-base-appearance-rendering.tentative.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-number-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-forms/input-number-base-appearance-rendering-ref.tentative.html
   relation: "=="
   diffPages:
     - css/css-forms/input-number-base-appearance-rendering-ref.tentative.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-forms/input-number-base-appearance-rendering-ref.tentative.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-forms/input-number-base-appearance-rendering-ref.tentative.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0008"
   category: WPT reftest
   title: css/css-forms/input-search-base-appearance-rendering.tentative.html
@@ -116,14 +170,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-search-base-appearance-rendering.tentative.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-search-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-search-base-appearance-rendering.tentative.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-search-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-forms/input-search-base-appearance-rendering-ref.tentative.html
   relation: "=="
   diffPages:
     - css/css-forms/input-search-base-appearance-rendering-ref.tentative.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-forms/input-search-base-appearance-rendering-ref.tentative.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-search-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-forms/input-search-base-appearance-rendering-ref.tentative.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-search-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0009"
   category: WPT reftest
   title: css/css-forms/input-text-base-appearance-rendering.html
@@ -134,14 +197,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-text-base-appearance-rendering.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-text-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-text-base-appearance-rendering.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-text-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-forms/input-text-base-appearance-rendering-ref.html
   relation: "=="
   diffPages:
     - css/css-forms/input-text-base-appearance-rendering-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-forms/input-text-base-appearance-rendering-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-text-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-forms/input-text-base-appearance-rendering-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-text-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0010"
   category: WPT reftest
   title: css/css-forms/meter-base-appearance-custom-style-initial-rendering.tentative.html
@@ -152,14 +224,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-initial-rendering.tentative.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-initial-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-initial-rendering.tentative.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-initial-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html
   relation: "=="
   diffPages:
     - css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0011"
   category: WPT reftest
   title: css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering.tentative.html
@@ -170,14 +251,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering.tentative.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering.tentative.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html
   relation: "=="
   diffPages:
     - css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0012"
   category: WPT reftest
   title: css/css-forms/progress-base-appearance-rendering.tentative.html
@@ -188,14 +278,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering.tentative.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/progress-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering.tentative.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/progress-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-forms/progress-base-appearance-rendering-ref.tentative.html
   relation: "=="
   diffPages:
     - css/css-forms/progress-base-appearance-rendering-ref.tentative.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-forms/progress-base-appearance-rendering-ref.tentative.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/progress-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-forms/progress-base-appearance-rendering-ref.tentative.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/progress-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0013"
   category: WPT reftest
   title: css/css-forms/radio-checkmark-animation-002.html
@@ -206,14 +305,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/radio-checkmark-animation-002.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/radio-checkmark-animation-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/radio-checkmark-animation-002.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/radio-checkmark-animation-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
     - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0014"
   category: WPT reftest
   title: css/css-forms/textarea-base-appearance-rendering.tentative.html
@@ -224,11 +332,20 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/textarea-base-appearance-rendering.tentative.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/textarea-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/textarea-base-appearance-rendering.tentative.html&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/textarea-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-forms/textarea-base-appearance-rendering-ref.tentative.html
   relation: "=="
   diffPages:
     - css/css-forms/textarea-base-appearance-rendering-ref.tentative.html#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/css-forms/textarea-base-appearance-rendering-ref.tentative.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/textarea-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/css-forms/textarea-base-appearance-rendering-ref.tentative.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/textarea-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false

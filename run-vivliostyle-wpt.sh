@@ -95,5 +95,9 @@ echo "" >> ${actual_viewer}-vs-${baseline_viewer}/README.md
 
 for path in "${wpt_path_list[@]}"; do
   echo "- [${path}](${path}/report.html)" >> ${actual_viewer}-vs-${baseline_viewer}/README.md
-  node ../vivliostyle.js/scripts/layout-regression.mjs --mode reftest-diff --timeout 10 --wpt-path-prefix "${path}/" --actual-viewer ${actual_viewer} --baseline-viewer ${baseline_viewer} --out-dir ${actual_viewer}-vs-${baseline_viewer}/${path}
+  node ../vivliostyle.js/scripts/layout-regression.mjs --mode reftest-diff --timeout 10 \
+    --wpt-base-url https://raw.githack.com/web-platform-tests/wpt/master/ \
+    --extra-viewer-params "bookMode=false" --wpt-path-prefix "${path}/" \
+    --actual-viewer ${actual_viewer}  --baseline-viewer ${baseline_viewer} \
+    --out-dir ${actual_viewer}-vs-${baseline_viewer}/${path}
 done

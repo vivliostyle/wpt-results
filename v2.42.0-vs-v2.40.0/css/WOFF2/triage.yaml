@@ -8,14 +8,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/WOFF2/directory-knowntags-001.xht&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/directory-knowntags-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/WOFF2/directory-knowntags-001.xht&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/directory-knowntags-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/WOFF2/directory-knowntags-001-ref.xht
   relation: "=="
   diffPages:
     - css/WOFF2/directory-knowntags-001-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/WOFF2/directory-knowntags-001-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/directory-knowntags-001-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/WOFF2/directory-knowntags-001-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/directory-knowntags-001-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0023"
   category: WPT reftest
   title: css/WOFF2/header-totalsfntsize-001.xht
@@ -26,14 +35,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/WOFF2/header-totalsfntsize-001.xht&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/header-totalsfntsize-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/WOFF2/header-totalsfntsize-001.xht&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/header-totalsfntsize-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/WOFF2/header-totalsfntsize-001-ref.xht
   relation: "=="
   diffPages:
     - css/WOFF2/header-totalsfntsize-001-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/WOFF2/header-totalsfntsize-001-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/header-totalsfntsize-001-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/WOFF2/header-totalsfntsize-001-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/header-totalsfntsize-001-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0277"
   category: WPT reftest
   title: css/WOFF2/tabledata-glyf-bbox-001.xht
@@ -44,14 +62,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/WOFF2/tabledata-glyf-bbox-001.xht&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-glyf-bbox-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/WOFF2/tabledata-glyf-bbox-001.xht&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-glyf-bbox-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/WOFF2/tabledata-glyf-bbox-001-ref.xht
   relation: "=="
   diffPages:
     - css/WOFF2/tabledata-glyf-bbox-001-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/WOFF2/tabledata-glyf-bbox-001-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-glyf-bbox-001-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/WOFF2/tabledata-glyf-bbox-001-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-glyf-bbox-001-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0280"
   category: WPT reftest
   title: css/WOFF2/tabledata-glyf-origlength-001.xht
@@ -62,14 +89,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/WOFF2/tabledata-glyf-origlength-001.xht&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-glyf-origlength-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/WOFF2/tabledata-glyf-origlength-001.xht&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-glyf-origlength-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/WOFF2/tabledata-glyf-origlength-001-ref.xht
   relation: "=="
   diffPages:
     - css/WOFF2/tabledata-glyf-origlength-001-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/WOFF2/tabledata-glyf-origlength-001-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-glyf-origlength-001-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/WOFF2/tabledata-glyf-origlength-001-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-glyf-origlength-001-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0281"
   category: WPT reftest
   title: css/WOFF2/tabledata-glyf-origlength-002.xht
@@ -80,14 +116,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/WOFF2/tabledata-glyf-origlength-002.xht&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-glyf-origlength-002.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/WOFF2/tabledata-glyf-origlength-002.xht&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-glyf-origlength-002.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/WOFF2/tabledata-glyf-origlength-002-ref.xht
   relation: "=="
   diffPages:
     - css/WOFF2/tabledata-glyf-origlength-002-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/WOFF2/tabledata-glyf-origlength-002-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-glyf-origlength-002-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/WOFF2/tabledata-glyf-origlength-002-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-glyf-origlength-002-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0282"
   category: WPT reftest
   title: css/WOFF2/tabledata-glyf-origlength-003.xht
@@ -98,14 +143,23 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/WOFF2/tabledata-glyf-origlength-003.xht&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-glyf-origlength-003.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/WOFF2/tabledata-glyf-origlength-003.xht&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-glyf-origlength-003.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/WOFF2/tabledata-glyf-origlength-003-ref.xht
   relation: "=="
   diffPages:
     - css/WOFF2/tabledata-glyf-origlength-003-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/WOFF2/tabledata-glyf-origlength-003-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-glyf-origlength-003-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/WOFF2/tabledata-glyf-origlength-003-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-glyf-origlength-003-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0284"
   category: WPT reftest
   title: css/WOFF2/tabledata-recontruct-loca-001.xht
@@ -116,11 +170,20 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/WOFF2/tabledata-recontruct-loca-001.xht&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-recontruct-loca-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/WOFF2/tabledata-recontruct-loca-001.xht&pixelRatio=0&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-recontruct-loca-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/WOFF2/tabledata-recontruct-loca-001-ref.xht
   relation: "=="
   diffPages:
     - css/WOFF2/tabledata-recontruct-loca-001-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/WOFF2/tabledata-recontruct-loca-001-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-recontruct-loca-001-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.40.0
+      referenceFile: css/WOFF2/tabledata-recontruct-loca-001-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/WOFF2/tabledata-recontruct-loca-001-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
