@@ -1,0 +1,108 @@
+- id: "0001"
+  category: WPT reftest
+  title: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01.xht
+  file: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0002"
+  category: WPT reftest
+  title: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-02.xht
+  file: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-02.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-02.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-02.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0003"
+  category: WPT reftest
+  title: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht
+  file: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0004"
+  category: WPT reftest
+  title: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht
+  file: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false

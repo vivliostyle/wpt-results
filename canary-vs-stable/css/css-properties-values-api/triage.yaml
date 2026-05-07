@@ -1,0 +1,81 @@
+- id: "0001"
+  category: WPT reftest
+  title: css/css-properties-values-api/registered-property-change-style-002.html
+  file: css/css-properties-values-api/registered-property-change-style-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-change-style-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-change-style-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-properties-values-api/registered-property-change-style-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-properties-values-api/registered-property-change-style-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-properties-values-api/registered-property-change-style-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-change-style-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-properties-values-api/registered-property-change-style-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-change-style-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0005"
+  category: WPT reftest
+  title: css/css-properties-values-api/registered-property-computation-color-004.html
+  file: css/css-properties-values-api/registered-property-computation-color-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-computation-color-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-computation-color-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0007"
+  category: WPT reftest
+  title: css/css-properties-values-api/registered-property-computation-color-006.html
+  file: css/css-properties-values-api/registered-property-computation-color-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-computation-color-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-computation-color-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-properties-values-api/registered-property-computation-color-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-properties-values-api/registered-property-computation-color-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-properties-values-api/registered-property-computation-color-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-computation-color-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-properties-values-api/registered-property-computation-color-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-computation-color-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false

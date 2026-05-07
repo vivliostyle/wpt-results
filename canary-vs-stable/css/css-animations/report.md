@@ -1,0 +1,272 @@
+# canary vs stable comparison report
+
+- Compared entries: 95
+- Entries with differences: 20 (pending: 20, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
+- Page count changed: 0
+- Screenshot mismatches: 0
+- Outcome summary: {"known-fail":20,"pass":9,"unchanged":66}
+
+## Differences
+
+- [0001] [WPT reftest] css/css-animations/animate-font-size-with-margin-override.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/animate-font-size-with-margin-override-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animate-font-size-with-margin-override.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.010844830547286466, diffPixels=9093
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animate-font-size-with-margin-override-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animate-font-size-with-margin-override.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.010844830547286466, diffPixels=9093
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animate-font-size-with-margin-override-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0002] [WPT reftest] css/css-animations/animate-with-background-color-hsla-to-legacy-rgb.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/animate-with-background-color-hsla-to-legacy-rgb-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animate-with-background-color-hsla-to-legacy-rgb.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animate-with-background-color-hsla-to-legacy-rgb-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animate-with-background-color-hsla-to-legacy-rgb.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animate-with-background-color-hsla-to-legacy-rgb-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0003] [WPT reftest] css/css-animations/animate-with-background-color-oklch-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/animate-with-background-color-oklch-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animate-with-background-color-oklch-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animate-with-background-color-oklch-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animate-with-background-color-oklch-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animate-with-background-color-oklch-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0004] [WPT reftest] css/css-animations/animation-delay-008.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/animation-common-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-delay-008.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-common-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-delay-008.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-common-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0005] [WPT reftest] css/css-animations/animation-delay-009.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/animation-common-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-delay-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-common-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-delay-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-common-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0006] [WPT reftest] css/css-animations/animation-delay-010.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/animation-common-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-delay-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-common-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-delay-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-common-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0007] [WPT reftest] css/css-animations/animation-delay-011.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/animation-common-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-delay-011.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-common-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-delay-011.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-common-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0009] [WPT reftest] css/css-animations/animation-important-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/animation-important-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-important-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0018474257690252653, diffPixels=1549
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-important-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-important-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0018474257690252653, diffPixels=1549
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-important-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0010] [WPT reftest] css/css-animations/animation-name-in-nested-shadow.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/animation-name-in-nested-shadow-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-name-in-nested-shadow.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.08348599343561561, diffPixels=70000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-name-in-nested-shadow-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-name-in-nested-shadow.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.08348599343561561, diffPixels=70000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-name-in-nested-shadow-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0011] [WPT reftest] css/css-animations/animation-name-in-shadow-part-inner-match.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/animation-name-in-shadow-part-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-name-in-shadow-part-inner-match.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-name-in-shadow-part-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-name-in-shadow-part-inner-match.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-name-in-shadow-part-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0012] [WPT reftest] css/css-animations/animation-name-in-shadow-part-outer-match.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/animation-name-in-shadow-part-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-name-in-shadow-part-outer-match.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-name-in-shadow-part-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-name-in-shadow-part-outer-match.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-name-in-shadow-part-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0013] [WPT reftest] css/css-animations/animation-name-in-shadow-part.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/animation-name-in-shadow-part-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-name-in-shadow-part.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-name-in-shadow-part-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-name-in-shadow-part.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-name-in-shadow-part-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0016] [WPT reftest] css/css-animations/animation-pseudo-dynamic-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/animation-pseudo-dynamic-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-pseudo-dynamic-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-pseudo-dynamic-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-pseudo-dynamic-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/animation-pseudo-dynamic-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0018] [WPT reftest] css/css-animations/cancel-animation-shadow-slot-invalidation.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/pass_if_pass_below.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/cancel-animation-shadow-slot-invalidation.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00008706396458285627, diffPixels=73
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/pass_if_pass_below.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/cancel-animation-shadow-slot-invalidation.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00008706396458285627, diffPixels=73
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/pass_if_pass_below.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0019] [WPT reftest] css/css-animations/display-none-to-display-block.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/display-none-to-display-block.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/display-none-to-display-block.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0020] [WPT reftest] css/css-animations/flip-running-animation-via-variable.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/flip-running-animation-via-variable-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/flip-running-animation-via-variable.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/flip-running-animation-via-variable-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/flip-running-animation-via-variable.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/flip-running-animation-via-variable-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0023] [WPT reftest] css/css-animations/nested-scale-animations.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/nested-scale-animations-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/nested-scale-animations.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.010733913441722006, diffPixels=9000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/nested-scale-animations-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/nested-scale-animations.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.010733913441722006, diffPixels=9000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/nested-scale-animations-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0025] [WPT reftest] css/css-animations/parsing/animation-name-edge-cases.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/parsing/animation-name-edge-cases-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/parsing/animation-name-edge-cases.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.08050435081291504, diffPixels=67500
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/parsing/animation-name-edge-cases-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/parsing/animation-name-edge-cases.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.08050435081291504, diffPixels=67500
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/parsing/animation-name-edge-cases-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0026] [WPT reftest] css/css-animations/svg-transform-animation.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/svg-transform-animation-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/svg-transform-animation.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/svg-transform-animation-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/svg-transform-animation.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/svg-transform-animation-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0029] [WPT reftest] css/css-animations/translation-animation-subpixel-offset.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-animations/translation-animation-subpixel-offset-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/translation-animation-subpixel-offset.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/translation-animation-subpixel-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/translation-animation-subpixel-offset.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-animations/translation-animation-subpixel-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+

@@ -1,0 +1,2178 @@
+- id: "0001"
+  category: WPT reftest
+  title: css/css-highlight-api/highlight-image.html
+  file: css/css-highlight-api/highlight-image.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-image.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-image.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/highlight-image-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-highlight-api/highlight-image-notref.html
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/highlight-image-notref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-image-notref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/highlight-image-notref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-image-notref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0002"
+  category: WPT reftest
+  title: css/css-highlight-api/highlight-priority-painting.html
+  file: css/css-highlight-api/highlight-priority-painting.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-priority-painting.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-priority-painting.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/highlight-priority-painting-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/highlight-priority-painting-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/highlight-priority-painting-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-priority-painting-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/highlight-priority-painting-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-priority-painting-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0003"
+  category: WPT reftest
+  title: css/css-highlight-api/highlight-text-across-elements.html
+  file: css/css-highlight-api/highlight-text-across-elements.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-across-elements.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-across-elements.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/highlight-text-across-elements-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/highlight-text-across-elements-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/highlight-text-across-elements-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-across-elements-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/highlight-text-across-elements-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-across-elements-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0004"
+  category: WPT reftest
+  title: css/css-highlight-api/highlight-text-cascade.html
+  file: css/css-highlight-api/highlight-text-cascade.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-cascade.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-cascade.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/highlight-text-cascade-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/highlight-text-cascade-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/highlight-text-cascade-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-cascade-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/highlight-text-cascade-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-cascade-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0005"
+  category: WPT reftest
+  title: css/css-highlight-api/highlight-text-decorations.html
+  file: css/css-highlight-api/highlight-text-decorations.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-decorations.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-decorations.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/highlight-text-decorations-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/highlight-text-decorations-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/highlight-text-decorations-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-decorations-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/highlight-text-decorations-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-decorations-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0006"
+  category: WPT reftest
+  title: css/css-highlight-api/highlight-text-dynamic.html
+  file: css/css-highlight-api/highlight-text-dynamic.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-dynamic.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-dynamic.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/highlight-text-dynamic-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-highlight-api/highlight-text-dynamic-notref.html
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/highlight-text-dynamic-notref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-dynamic-notref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/highlight-text-dynamic-notref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-dynamic-notref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0007"
+  category: WPT reftest
+  title: css/css-highlight-api/highlight-text-replace.html
+  file: css/css-highlight-api/highlight-text-replace.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-replace.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-replace.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/highlight-text-replace-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/highlight-text-replace-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/highlight-text-replace-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-replace-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/highlight-text-replace-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-replace-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0008"
+  category: WPT reftest
+  title: css/css-highlight-api/highlight-text.html
+  file: css/css-highlight-api/highlight-text.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/highlight-text-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/highlight-text-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/highlight-text-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/highlight-text-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/highlight-text-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0009"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/css-highlight-painting-underline-offset-001.html
+  file: css/css-highlight-api/painting/css-highlight-painting-underline-offset-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/css-highlight-painting-underline-offset-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/css-highlight-painting-underline-offset-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/css-highlight-painting-underline-offset-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/css-highlight-painting-underline-offset-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/css-highlight-painting-underline-offset-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/css-highlight-painting-underline-offset-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/css-highlight-painting-underline-offset-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/css-highlight-painting-underline-offset-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0011"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-container-metrics-001.html
+  file: css/css-highlight-api/painting/custom-highlight-container-metrics-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-container-metrics-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0012"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-container-metrics-002.html
+  file: css/css-highlight-api/painting/custom-highlight-container-metrics-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0013"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-container-metrics-003.html
+  file: css/css-highlight-api/painting/custom-highlight-container-metrics-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0014"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-container-metrics-004.html
+  file: css/css-highlight-api/painting/custom-highlight-container-metrics-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-container-metrics-004-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-004-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-004-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0015"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-container-metrics-005.html
+  file: css/css-highlight-api/painting/custom-highlight-container-metrics-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0016"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-container-metrics-006.html
+  file: css/css-highlight-api/painting/custom-highlight-container-metrics-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0017"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html
+  file: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0018"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-002.html
+  file: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0019"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-003.html
+  file: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0020"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-004.html
+  file: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0021"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-005.html
+  file: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-005-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-005-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-005-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-005-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-005-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0022"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-dynamic-font-metrics-001.html
+  file: css/css-highlight-api/painting/custom-highlight-dynamic-font-metrics-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-font-metrics-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-font-metrics-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0023"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-dynamic-logical-metrics-001.html
+  file: css/css-highlight-api/painting/custom-highlight-dynamic-logical-metrics-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-logical-metrics-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-logical-metrics-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-logical-metrics-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-logical-metrics-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-logical-metrics-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-logical-metrics-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-logical-metrics-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-logical-metrics-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0024"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001.html
+  file: css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0025"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001.html
+  file: css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0026"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-font-metrics-001.html
+  file: css/css-highlight-api/painting/custom-highlight-font-metrics-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0027"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-font-metrics-002.html
+  file: css/css-highlight-api/painting/custom-highlight-font-metrics-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-font-metrics-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0028"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-font-metrics-003.html
+  file: css/css-highlight-api/painting/custom-highlight-font-metrics-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0029"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-font-metrics-004.html
+  file: css/css-highlight-api/painting/custom-highlight-font-metrics-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0030"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-font-metrics-005.html
+  file: css/css-highlight-api/painting/custom-highlight-font-metrics-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-font-metrics-005-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-005-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-005-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-font-metrics-005-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-font-metrics-005-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0031"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-logical-metrics-001.html
+  file: css/css-highlight-api/painting/custom-highlight-logical-metrics-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-logical-metrics-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-logical-metrics-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-logical-metrics-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-logical-metrics-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-logical-metrics-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-logical-metrics-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-logical-metrics-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-logical-metrics-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0032"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-logical-metrics-002.html
+  file: css/css-highlight-api/painting/custom-highlight-logical-metrics-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-logical-metrics-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-logical-metrics-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-logical-metrics-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-logical-metrics-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-logical-metrics-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-logical-metrics-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-logical-metrics-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-logical-metrics-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0033"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-001.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0034"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-002.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0035"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-003.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-003-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-003-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-003-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0036"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-004-2.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-004-2.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-004-2.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-004-2.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-004-2-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-004-2-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-004-2-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-004-2-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-004-2-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-004-2-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0038"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-005.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0039"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-006.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0040"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-007.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-007.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-007.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-007.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0041"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-008.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-008.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-008.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-008.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0042"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-009.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-009.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0043"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-010.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-010.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0044"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-011.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-011.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-011.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-011.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0045"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-012.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-012.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0046"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-013.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-013.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-013.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-013.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0047"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-014.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-014.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0048"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-015.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-015.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-015.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-015.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0049"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-016.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-016.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-016.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-016.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0050"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-017.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-017.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-017.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-017.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/pass_if_pass_below.html
+  relation: "=="
+  diffPages:
+    - css/reference/pass_if_pass_below.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/pass_if_pass_below.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/pass_if_pass_below.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/pass_if_pass_below.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/pass_if_pass_below.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0051"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-018.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-018.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-018.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-018.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0052"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-019.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-019.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-019.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-019.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-019-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-019-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-019-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-019-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-019-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-019-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0054"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-021.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-021.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-021.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-021.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-021-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-021-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-021-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-021-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-021-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-021-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0056"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-below-selection-transparency.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-below-selection-transparency.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-below-selection-transparency.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-below-selection-transparency.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-below-selection-transparency-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-below-selection-transparency-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-below-selection-transparency-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-below-selection-transparency-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-below-selection-transparency-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-below-selection-transparency-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0057"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-below-selection.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-below-selection.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-below-selection.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-below-selection.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-below-selection-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-below-selection-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-below-selection-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-below-selection-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-below-selection-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-below-selection-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0058"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-below-target-text.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-below-target-text.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-below-target-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-below-target-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-below-target-text-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-below-target-text-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-below-target-text-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-below-target-text-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-below-target-text-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-below-target-text-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0059"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-display-types.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-display-types.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-display-types.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-display-types.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-display-types-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-display-types-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-display-types-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-display-types-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-display-types-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-display-types-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0062"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-iframe-003.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-iframe-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-iframe-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-iframe-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-iframe-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-iframe-003-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-iframe-003-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-iframe-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-iframe-003-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-iframe-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0063"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-iframe-004.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-iframe-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-iframe-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-iframe-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-iframe-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-iframe-004-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-iframe-004-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-iframe-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-iframe-004-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-iframe-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0066"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-inheritance-001.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-inheritance-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-inheritance-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-inheritance-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-inheritance-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-inheritance-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-inheritance-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-inheritance-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-inheritance-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-inheritance-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0067"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-inheritance-002.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-inheritance-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-inheritance-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-inheritance-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-inheritance-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-inheritance-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-inheritance-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-inheritance-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-inheritance-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-inheritance-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0069"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-insert-node-001.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-insert-node-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-insert-node-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-insert-node-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-insert-node-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-insert-node-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-insert-node-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-insert-node-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-insert-node-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-insert-node-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0070"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-insert-node-002.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-insert-node-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-insert-node-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-insert-node-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-insert-node-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-insert-node-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-insert-node-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-insert-node-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-insert-node-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-insert-node-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0071"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-invalidation-001.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-invalidation-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-invalidation-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-invalidation-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0073"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-invalidation-003.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-invalidation-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-invalidation-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-invalidation-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0074"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-invalidation-004.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-invalidation-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-invalidation-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-invalidation-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0075"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-invalidation-005.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-invalidation-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-invalidation-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-invalidation-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0076"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-invalidation-006.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-invalidation-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-invalidation-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-invalidation-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0077"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-invalidation-007.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-invalidation-007.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-invalidation-007.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-invalidation-007.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-invalidation-007-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-invalidation-007-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-invalidation-007-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-invalidation-007-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-invalidation-007-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-invalidation-007-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0080"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-overlapping-highlights-002.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-overlapping-highlights-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-overlapping-highlights-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-overlapping-highlights-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-overlapping-highlights-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-overlapping-highlights-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-overlapping-highlights-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-overlapping-highlights-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-overlapping-highlights-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-overlapping-highlights-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0081"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-prioritization-001.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-prioritization-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-prioritization-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-prioritization-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0082"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-prioritization-002.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-prioritization-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-prioritization-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-prioritization-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0083"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-prioritization-003.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-prioritization-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-prioritization-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-prioritization-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-prioritization-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-prioritization-003-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-prioritization-003-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-prioritization-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-prioritization-003-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-prioritization-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0084"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-priority-text-decoration-001.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-priority-text-decoration-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-priority-text-decoration-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-priority-text-decoration-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-priority-text-decoration-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-priority-text-decoration-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-priority-text-decoration-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-priority-text-decoration-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-priority-text-decoration-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-priority-text-decoration-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0085"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-selection-text-decoration-currentcolor.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-selection-text-decoration-currentcolor.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-selection-text-decoration-currentcolor.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-selection-text-decoration-currentcolor.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-selection-text-decoration-currentcolor-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-selection-text-decoration-currentcolor-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-selection-text-decoration-currentcolor-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-selection-text-decoration-currentcolor-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-selection-text-decoration-currentcolor-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-selection-text-decoration-currentcolor-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0087"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-staticrange-002.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-staticrange-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-staticrange-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-staticrange-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0089"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-staticrange-004.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-staticrange-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-staticrange-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-staticrange-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-staticrange-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-staticrange-004-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-staticrange-004-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-staticrange-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-staticrange-004-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-staticrange-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0090"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-staticrange-005.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-staticrange-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-staticrange-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-staticrange-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0093"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-text-shadow-invalidation.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-text-shadow-invalidation.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-text-shadow-invalidation.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-text-shadow-invalidation.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-text-shadow-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-text-shadow-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-text-shadow-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-text-shadow-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-text-shadow-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-text-shadow-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0094"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-text-shadow.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-text-shadow.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-text-shadow.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-text-shadow.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/custom-highlight-painting-text-shadow-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/custom-highlight-painting-text-shadow-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-text-shadow-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-text-shadow-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/custom-highlight-painting-text-shadow-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-text-shadow-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0096"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/invalidation/css-highlight-invalidation-001.html
+  file: css/css-highlight-api/painting/invalidation/css-highlight-invalidation-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/invalidation/css-highlight-invalidation-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/invalidation/css-highlight-invalidation-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-highlight-api/painting/invalidation/css-highlight-invalidation-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-highlight-api/painting/invalidation/css-highlight-invalidation-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-highlight-api/painting/invalidation/css-highlight-invalidation-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/invalidation/css-highlight-invalidation-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-highlight-api/painting/invalidation/css-highlight-invalidation-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/invalidation/css-highlight-invalidation-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0010"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/css-target-text-decoration-001.html
+  file: css/css-highlight-api/painting/css-target-text-decoration-001.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/css-target-text-decoration-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/css-target-text-decoration-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary, stable
+  sideErrors:
+    - side: canary
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true
+    - side: stable
+      errorName: Error
+      errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
+      timeout: false
+- id: "0088"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-painting-staticrange-003.html
+  file: css/css-highlight-api/painting/custom-highlight-painting-staticrange-003.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-staticrange-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-painting-staticrange-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary, stable
+  errorName: Error
+  errorMessage: |-
+    page.evaluate: Error: Could not detect total pages (no spread container found).
+        at eval (eval at evaluate (:302:30), <anonymous>:10:11)
+        at UtilityScript.evaluate (<anonymous>:304:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)

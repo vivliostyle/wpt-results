@@ -1,0 +1,2370 @@
+- id: "0050"
+  category: WPT reftest
+  title: css/css-flexbox/align-items-006.html
+  file: css/css-flexbox/align-items-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/align-items-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/align-items-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/reference/align-content-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/reference/align-content-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/reference/align-content-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/reference/align-content-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/reference/align-content-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/reference/align-content-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0078"
+  category: WPT reftest
+  title: css/css-flexbox/anonymous-flex-item-restyle.html
+  file: css/css-flexbox/anonymous-flex-item-restyle.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/anonymous-flex-item-restyle.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/anonymous-flex-item-restyle.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0087"
+  category: WPT reftest
+  title: css/css-flexbox/aspect-ratio-intrinsic-size-009.html
+  file: css/css-flexbox/aspect-ratio-intrinsic-size-009.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/aspect-ratio-intrinsic-size-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/aspect-ratio-intrinsic-size-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0092"
+  category: WPT reftest
+  title: css/css-flexbox/auto-margins-001.html
+  file: css/css-flexbox/auto-margins-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/auto-margins-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/auto-margins-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/auto-margins-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/auto-margins-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/auto-margins-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/auto-margins-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/auto-margins-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/auto-margins-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0103"
+  category: WPT reftest
+  title: css/css-flexbox/content-height-with-scrollbars.html
+  file: css/css-flexbox/content-height-with-scrollbars.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/content-height-with-scrollbars.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/content-height-with-scrollbars.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/reference/content-height-with-scrollbars-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/reference/content-height-with-scrollbars-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/reference/content-height-with-scrollbars-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/reference/content-height-with-scrollbars-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/reference/content-height-with-scrollbars-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/reference/content-height-with-scrollbars-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0120"
+  category: WPT reftest
+  title: css/css-flexbox/dynamic-isize-change-001.html
+  file: css/css-flexbox/dynamic-isize-change-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/dynamic-isize-change-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/dynamic-isize-change-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/dynamic-isize-change-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/dynamic-isize-change-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/dynamic-isize-change-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/dynamic-isize-change-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/dynamic-isize-change-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/dynamic-isize-change-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0124"
+  category: WPT reftest
+  title: css/css-flexbox/dynamic-orthogonal-flex-item.html
+  file: css/css-flexbox/dynamic-orthogonal-flex-item.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/dynamic-orthogonal-flex-item.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/dynamic-orthogonal-flex-item.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0153"
+  category: WPT reftest
+  title: css/css-flexbox/flex-aspect-ratio-img-column-010.html
+  file: css/css-flexbox/flex-aspect-ratio-img-column-010.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-aspect-ratio-img-column-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-aspect-ratio-img-column-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0191"
+  category: WPT reftest
+  title: css/css-flexbox/flex-container-max-content-001.html
+  file: css/css-flexbox/flex-container-max-content-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-container-max-content-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-container-max-content-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flex-container-max-content-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flex-container-max-content-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flex-container-max-content-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-container-max-content-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flex-container-max-content-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-container-max-content-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0192"
+  category: WPT reftest
+  title: css/css-flexbox/flex-container-min-content-001.html
+  file: css/css-flexbox/flex-container-min-content-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-container-min-content-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-container-min-content-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flex-container-min-content-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flex-container-min-content-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flex-container-min-content-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-container-min-content-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flex-container-min-content-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-container-min-content-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0196"
+  category: WPT reftest
+  title: css/css-flexbox/flex-direction-row-reverse.html
+  file: css/css-flexbox/flex-direction-row-reverse.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-direction-row-reverse.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-direction-row-reverse.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/reference/flex-direction-row-reverse-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/reference/flex-direction-row-reverse-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/reference/flex-direction-row-reverse-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/reference/flex-direction-row-reverse-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/reference/flex-direction-row-reverse-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/reference/flex-direction-row-reverse-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0198"
+  category: WPT reftest
+  title: css/css-flexbox/flex-direction-with-element-insert.html
+  file: css/css-flexbox/flex-direction-with-element-insert.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-direction-with-element-insert.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-direction-with-element-insert.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/reference/flex-direction-with-element-insert.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/reference/flex-direction-with-element-insert.html#1
+    - css/css-flexbox/reference/flex-direction-with-element-insert.html#2
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/reference/flex-direction-with-element-insert.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/reference/flex-direction-with-element-insert.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/reference/flex-direction-with-element-insert.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/reference/flex-direction-with-element-insert.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0227"
+  category: WPT reftest
+  title: css/css-flexbox/flex-item-max-width-min-content.html
+  file: css/css-flexbox/flex-item-max-width-min-content.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-item-max-width-min-content.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-item-max-width-min-content.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0229"
+  category: WPT reftest
+  title: css/css-flexbox/flex-item-min-width-min-content.html
+  file: css/css-flexbox/flex-item-min-width-min-content.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-item-min-width-min-content.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flex-item-min-width-min-content.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0302"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-align-self-baseline-horiz-001a.xhtml
+  file: css/css-flexbox/flexbox-align-self-baseline-horiz-001a.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-baseline-horiz-001a.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-baseline-horiz-001a.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0303"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-align-self-baseline-horiz-001b.xhtml
+  file: css/css-flexbox/flexbox-align-self-baseline-horiz-001b.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-baseline-horiz-001b.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-baseline-horiz-001b.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0310"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-align-self-baseline-horiz-008.xhtml
+  file: css/css-flexbox/flexbox-align-self-baseline-horiz-008.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-baseline-horiz-008.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-baseline-horiz-008.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-align-self-baseline-horiz-008-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-align-self-baseline-horiz-008-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-align-self-baseline-horiz-008-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-baseline-horiz-008-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-align-self-baseline-horiz-008-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-baseline-horiz-008-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0314"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-align-self-horiz-003.xhtml
+  file: css/css-flexbox/flexbox-align-self-horiz-003.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-horiz-003.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-horiz-003.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-align-self-horiz-003-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-align-self-horiz-003-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-align-self-horiz-003-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-horiz-003-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-align-self-horiz-003-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-horiz-003-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0320"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-align-self-vert-002.xhtml
+  file: css/css-flexbox/flexbox-align-self-vert-002.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-002.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-002.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-align-self-vert-002-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-align-self-vert-002-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-align-self-vert-002-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-002-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-align-self-vert-002-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-002-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0321"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-align-self-vert-003.xhtml
+  file: css/css-flexbox/flexbox-align-self-vert-003.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-003.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-003.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-align-self-vert-003-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-align-self-vert-003-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-align-self-vert-003-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-003-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-align-self-vert-003-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-003-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0322"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-align-self-vert-004.xhtml
+  file: css/css-flexbox/flexbox-align-self-vert-004.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-004.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-004.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-align-self-vert-004-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-align-self-vert-004-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-align-self-vert-004-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-004-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-align-self-vert-004-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-004-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0324"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-align-self-vert-rtl-002.xhtml
+  file: css/css-flexbox/flexbox-align-self-vert-rtl-002.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-rtl-002.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-rtl-002.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-align-self-vert-rtl-002-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-align-self-vert-rtl-002-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-align-self-vert-rtl-002-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-rtl-002-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-align-self-vert-rtl-002-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-rtl-002-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0326"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-align-self-vert-rtl-004.xhtml
+  file: css/css-flexbox/flexbox-align-self-vert-rtl-004.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-rtl-004.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-rtl-004.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-align-self-vert-rtl-004-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-align-self-vert-rtl-004-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-align-self-vert-rtl-004-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-rtl-004-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-align-self-vert-rtl-004-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-rtl-004-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0327"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-align-self-vert-rtl-005.xhtml
+  file: css/css-flexbox/flexbox-align-self-vert-rtl-005.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-rtl-005.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-rtl-005.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-align-self-vert-rtl-005-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-align-self-vert-rtl-005-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-align-self-vert-rtl-005-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-rtl-005-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-align-self-vert-rtl-005-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-align-self-vert-rtl-005-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0352"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-basic-canvas-vert-001.xhtml
+  file: css/css-flexbox/flexbox-basic-canvas-vert-001.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-canvas-vert-001.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-canvas-vert-001.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-basic-canvas-vert-001-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-basic-canvas-vert-001-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-basic-canvas-vert-001-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-canvas-vert-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-basic-canvas-vert-001-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-canvas-vert-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0353"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-basic-canvas-vert-001v.xhtml
+  file: css/css-flexbox/flexbox-basic-canvas-vert-001v.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-canvas-vert-001v.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-canvas-vert-001v.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-basic-canvas-vert-001-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-basic-canvas-vert-001-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-basic-canvas-vert-001-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-canvas-vert-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-basic-canvas-vert-001-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-canvas-vert-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0357"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-basic-iframe-vert-001.xhtml
+  file: css/css-flexbox/flexbox-basic-iframe-vert-001.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-iframe-vert-001.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-iframe-vert-001.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-basic-iframe-vert-001-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-basic-iframe-vert-001-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-basic-iframe-vert-001-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-iframe-vert-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-basic-iframe-vert-001-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-iframe-vert-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0359"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-basic-img-vert-001.xhtml
+  file: css/css-flexbox/flexbox-basic-img-vert-001.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-img-vert-001.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-img-vert-001.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-basic-img-vert-001-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-basic-img-vert-001-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-basic-img-vert-001-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-img-vert-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-basic-img-vert-001-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-img-vert-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0361"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-basic-textarea-vert-001.xhtml
+  file: css/css-flexbox/flexbox-basic-textarea-vert-001.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-textarea-vert-001.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-textarea-vert-001.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-basic-textarea-vert-001-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-basic-textarea-vert-001-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-basic-textarea-vert-001-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-textarea-vert-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-basic-textarea-vert-001-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-textarea-vert-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0363"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-basic-video-vert-001.xhtml
+  file: css/css-flexbox/flexbox-basic-video-vert-001.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-video-vert-001.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-video-vert-001.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-basic-video-vert-001-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-basic-video-vert-001-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-basic-video-vert-001-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-video-vert-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-basic-video-vert-001-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-basic-video-vert-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0364"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-break-request-horiz-001a.html
+  file: css/css-flexbox/flexbox-break-request-horiz-001a.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-break-request-horiz-001a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-break-request-horiz-001a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0365"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-break-request-horiz-001b.html
+  file: css/css-flexbox/flexbox-break-request-horiz-001b.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-break-request-horiz-001b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-break-request-horiz-001b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0366"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-break-request-horiz-002a.html
+  file: css/css-flexbox/flexbox-break-request-horiz-002a.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-break-request-horiz-002a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-break-request-horiz-002a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0367"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-break-request-horiz-002b.html
+  file: css/css-flexbox/flexbox-break-request-horiz-002b.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-break-request-horiz-002b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-break-request-horiz-002b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0368"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-break-request-vert-001a.html
+  file: css/css-flexbox/flexbox-break-request-vert-001a.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-break-request-vert-001a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-break-request-vert-001a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0369"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-break-request-vert-001b.html
+  file: css/css-flexbox/flexbox-break-request-vert-001b.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-break-request-vert-001b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-break-request-vert-001b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0370"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-break-request-vert-002a.html
+  file: css/css-flexbox/flexbox-break-request-vert-002a.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-break-request-vert-002a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-break-request-vert-002a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0371"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-break-request-vert-002b.html
+  file: css/css-flexbox/flexbox-break-request-vert-002b.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-break-request-vert-002b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-break-request-vert-002b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0372"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-collapsed-item-baseline-001.html
+  file: css/css-flexbox/flexbox-collapsed-item-baseline-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-collapsed-item-baseline-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-collapsed-item-baseline-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-collapsed-item-baseline-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-collapsed-item-baseline-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-collapsed-item-baseline-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-collapsed-item-baseline-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-collapsed-item-baseline-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-collapsed-item-baseline-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0373"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-collapsed-item-horiz-001.html
+  file: css/css-flexbox/flexbox-collapsed-item-horiz-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-collapsed-item-horiz-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-collapsed-item-horiz-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-collapsed-item-horiz-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-collapsed-item-horiz-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-collapsed-item-horiz-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-collapsed-item-horiz-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-collapsed-item-horiz-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-collapsed-item-horiz-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0374"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-collapsed-item-horiz-002.html
+  file: css/css-flexbox/flexbox-collapsed-item-horiz-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-collapsed-item-horiz-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-collapsed-item-horiz-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-collapsed-item-horiz-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-collapsed-item-horiz-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-collapsed-item-horiz-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-collapsed-item-horiz-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-collapsed-item-horiz-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-collapsed-item-horiz-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0375"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-collapsed-item-horiz-003.html
+  file: css/css-flexbox/flexbox-collapsed-item-horiz-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-collapsed-item-horiz-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-collapsed-item-horiz-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-collapsed-item-horiz-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-collapsed-item-horiz-003-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-collapsed-item-horiz-003-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-collapsed-item-horiz-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-collapsed-item-horiz-003-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-collapsed-item-horiz-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0387"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-dyn-resize-001.html
+  file: css/css-flexbox/flexbox-dyn-resize-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-dyn-resize-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-dyn-resize-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-dyn-resize-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-dyn-resize-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-dyn-resize-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-dyn-resize-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-dyn-resize-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-dyn-resize-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0392"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-flex-basis-content-003a.html
+  file: css/css-flexbox/flexbox-flex-basis-content-003a.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-basis-content-003a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-basis-content-003a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-flex-basis-content-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-flex-basis-content-003-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-flex-basis-content-003-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-basis-content-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-flex-basis-content-003-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-basis-content-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0393"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-flex-basis-content-003b.html
+  file: css/css-flexbox/flexbox-flex-basis-content-003b.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-basis-content-003b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-basis-content-003b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-flex-basis-content-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-flex-basis-content-003-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-flex-basis-content-003-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-basis-content-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-flex-basis-content-003-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-basis-content-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0394"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-flex-basis-content-004a.html
+  file: css/css-flexbox/flexbox-flex-basis-content-004a.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-basis-content-004a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-basis-content-004a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-flex-basis-content-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-flex-basis-content-004-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-flex-basis-content-004-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-basis-content-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-flex-basis-content-004-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-basis-content-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0395"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-flex-basis-content-004b.html
+  file: css/css-flexbox/flexbox-flex-basis-content-004b.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-basis-content-004b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-basis-content-004b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-flex-basis-content-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-flex-basis-content-004-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-flex-basis-content-004-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-basis-content-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-flex-basis-content-004-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-basis-content-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0402"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-flex-flow-001.html
+  file: css/css-flexbox/flexbox-flex-flow-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-flow-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-flow-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0403"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-flex-flow-002.html
+  file: css/css-flexbox/flexbox-flex-flow-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-flow-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-flow-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0409"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-flex-wrap-horiz-002.html
+  file: css/css-flexbox/flexbox-flex-wrap-horiz-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-wrap-horiz-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-wrap-horiz-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-flex-wrap-horiz-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-flex-wrap-horiz-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-flex-wrap-horiz-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-wrap-horiz-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-flex-wrap-horiz-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-wrap-horiz-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0412"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-flex-wrap-vert-002.html
+  file: css/css-flexbox/flexbox-flex-wrap-vert-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-wrap-vert-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-wrap-vert-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-flex-wrap-vert-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-flex-wrap-vert-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-flex-wrap-vert-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-wrap-vert-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-flex-wrap-vert-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-flex-wrap-vert-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0417"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-items-as-stacking-contexts-001.xhtml
+  file: css/css-flexbox/flexbox-items-as-stacking-contexts-001.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-items-as-stacking-contexts-001.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-items-as-stacking-contexts-001.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-items-as-stacking-contexts-001-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-items-as-stacking-contexts-001-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-items-as-stacking-contexts-001-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-items-as-stacking-contexts-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-items-as-stacking-contexts-001-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-items-as-stacking-contexts-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0421"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-justify-content-horiz-001b.xhtml
+  file: css/css-flexbox/flexbox-justify-content-horiz-001b.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-horiz-001b.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-horiz-001b.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-justify-content-horiz-001-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-justify-content-horiz-001-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-justify-content-horiz-001-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-horiz-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-justify-content-horiz-001-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-horiz-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0424"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-justify-content-horiz-004.xhtml
+  file: css/css-flexbox/flexbox-justify-content-horiz-004.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-horiz-004.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-horiz-004.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-justify-content-horiz-004-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-justify-content-horiz-004-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-justify-content-horiz-004-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-horiz-004-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-justify-content-horiz-004-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-horiz-004-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0431"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-justify-content-vert-004.xhtml
+  file: css/css-flexbox/flexbox-justify-content-vert-004.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-vert-004.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-vert-004.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-justify-content-vert-004-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-justify-content-vert-004-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-justify-content-vert-004-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-vert-004-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-justify-content-vert-004-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-vert-004-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0432"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-justify-content-vert-005.xhtml
+  file: css/css-flexbox/flexbox-justify-content-vert-005.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-vert-005.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-vert-005.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-justify-content-vert-005-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-justify-content-vert-005-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-justify-content-vert-005-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-vert-005-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-justify-content-vert-005-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-vert-005-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0434"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-justify-content-wmvert-001.xhtml
+  file: css/css-flexbox/flexbox-justify-content-wmvert-001.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-wmvert-001.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-wmvert-001.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-justify-content-wmvert-001-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-justify-content-wmvert-001-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-justify-content-wmvert-001-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-wmvert-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-justify-content-wmvert-001-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-justify-content-wmvert-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0448"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-min-height-auto-001.html
+  file: css/css-flexbox/flexbox-min-height-auto-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-min-height-auto-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-min-height-auto-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-min-height-auto-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-min-height-auto-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0449"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-min-height-auto-002a.html
+  file: css/css-flexbox/flexbox-min-height-auto-002a.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-min-height-auto-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-min-height-auto-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-min-height-auto-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-min-height-auto-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0450"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-min-height-auto-002b.html
+  file: css/css-flexbox/flexbox-min-height-auto-002b.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-min-height-auto-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-min-height-auto-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-min-height-auto-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-min-height-auto-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0451"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-min-height-auto-002c.html
+  file: css/css-flexbox/flexbox-min-height-auto-002c.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002c.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002c.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-min-height-auto-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-min-height-auto-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-min-height-auto-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-min-height-auto-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0462"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-order-only-flexitems.html
+  file: css/css-flexbox/flexbox-order-only-flexitems.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-order-only-flexitems.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-order-only-flexitems.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/reference/flexbox-order-only-flexitems-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/reference/flexbox-order-only-flexitems-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/reference/flexbox-order-only-flexitems-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/reference/flexbox-order-only-flexitems-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/reference/flexbox-order-only-flexitems-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/reference/flexbox-order-only-flexitems-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0491"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-sizing-vert-001.xhtml
+  file: css/css-flexbox/flexbox-sizing-vert-001.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-sizing-vert-001.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-sizing-vert-001.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-sizing-vert-001-ref.xhtml
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-sizing-vert-001-ref.xhtml#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-sizing-vert-001-ref.xhtml
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-sizing-vert-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-sizing-vert-001-ref.xhtml
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-sizing-vert-001-ref.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0511"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-writing-mode-010.html
+  file: css/css-flexbox/flexbox-writing-mode-010.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-writing-mode-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-writing-mode-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-writing-mode-010-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-writing-mode-010-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-writing-mode-010-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-writing-mode-010-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-writing-mode-010-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-writing-mode-010-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0512"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-writing-mode-011.html
+  file: css/css-flexbox/flexbox-writing-mode-011.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-writing-mode-011.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-writing-mode-011.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-writing-mode-011-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-writing-mode-011-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-writing-mode-011-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-writing-mode-011-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-writing-mode-011-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-writing-mode-011-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0513"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-writing-mode-012.html
+  file: css/css-flexbox/flexbox-writing-mode-012.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-writing-mode-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-writing-mode-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-writing-mode-012-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-writing-mode-012-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-writing-mode-012-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-writing-mode-012-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-writing-mode-012-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-writing-mode-012-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0514"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-writing-mode-013.html
+  file: css/css-flexbox/flexbox-writing-mode-013.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-writing-mode-013.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-writing-mode-013.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox-writing-mode-013-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox-writing-mode-013-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox-writing-mode-013-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-writing-mode-013-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox-writing-mode-013-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-writing-mode-013-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0550"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox_box-clear.html
+  file: css/css-flexbox/flexbox_box-clear.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_box-clear.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_box-clear.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0700"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox_order-box.html
+  file: css/css-flexbox/flexbox_order-box.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_order-box.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_order-box.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox_order-box-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox_order-box-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox_order-box-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_order-box-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox_order-box-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_order-box-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0719"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox_stf-table-singleline-2.html
+  file: css/css-flexbox/flexbox_stf-table-singleline-2.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_stf-table-singleline-2.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_stf-table-singleline-2.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox_stf-table-singleline-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox_stf-table-singleline-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox_stf-table-singleline-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_stf-table-singleline-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox_stf-table-singleline-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_stf-table-singleline-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0720"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox_stf-table-singleline.html
+  file: css/css-flexbox/flexbox_stf-table-singleline.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_stf-table-singleline.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_stf-table-singleline.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox_stf-table-singleline-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox_stf-table-singleline-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox_stf-table-singleline-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_stf-table-singleline-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox_stf-table-singleline-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_stf-table-singleline-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0723"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox_visibility-collapse-line-wrapping.html
+  file: css/css-flexbox/flexbox_visibility-collapse-line-wrapping.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_visibility-collapse-line-wrapping.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_visibility-collapse-line-wrapping.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox_visibility-collapse-line-wrapping-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox_visibility-collapse-line-wrapping-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox_visibility-collapse-line-wrapping-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_visibility-collapse-line-wrapping-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox_visibility-collapse-line-wrapping-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_visibility-collapse-line-wrapping-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0724"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox_visibility-collapse.html
+  file: css/css-flexbox/flexbox_visibility-collapse.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_visibility-collapse.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_visibility-collapse.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/flexbox_visibility-collapse-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/flexbox_visibility-collapse-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/flexbox_visibility-collapse-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_visibility-collapse-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/flexbox_visibility-collapse-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox_visibility-collapse-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0733"
+  category: WPT reftest
+  title: css/css-flexbox/gap-001-lr.html
+  file: css/css-flexbox/gap-001-lr.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-001-lr.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-001-lr.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/gap-001-lr-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/gap-001-lr-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/gap-001-lr-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-001-lr-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/gap-001-lr-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-001-lr-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0737"
+  category: WPT reftest
+  title: css/css-flexbox/gap-002-lr.html
+  file: css/css-flexbox/gap-002-lr.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-002-lr.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-002-lr.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/gap-002-lr-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/gap-002-lr-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/gap-002-lr-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-002-lr-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/gap-002-lr-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-002-lr-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0741"
+  category: WPT reftest
+  title: css/css-flexbox/gap-003-lr.html
+  file: css/css-flexbox/gap-003-lr.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-003-lr.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-003-lr.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/gap-003-lr-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/gap-003-lr-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/gap-003-lr-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-003-lr-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/gap-003-lr-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-003-lr-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0745"
+  category: WPT reftest
+  title: css/css-flexbox/gap-004-lr.html
+  file: css/css-flexbox/gap-004-lr.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-004-lr.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-004-lr.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/gap-004-lr-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/gap-004-lr-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/gap-004-lr-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-004-lr-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/gap-004-lr-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-004-lr-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0749"
+  category: WPT reftest
+  title: css/css-flexbox/gap-005-lr.html
+  file: css/css-flexbox/gap-005-lr.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-005-lr.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-005-lr.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/gap-005-lr-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/gap-005-lr-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/gap-005-lr-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-005-lr-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/gap-005-lr-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-005-lr-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0757"
+  category: WPT reftest
+  title: css/css-flexbox/gap-007-lr.html
+  file: css/css-flexbox/gap-007-lr.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-007-lr.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-007-lr.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/gap-007-lr-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/gap-007-lr-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/gap-007-lr-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-007-lr-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/gap-007-lr-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/gap-007-lr-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0802"
+  category: WPT reftest
+  title: css/css-flexbox/intrinsic-size/row-002.html
+  file: css/css-flexbox/intrinsic-size/row-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/intrinsic-size/row-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/intrinsic-size/row-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0803"
+  category: WPT reftest
+  title: css/css-flexbox/intrinsic-size/row-003.html
+  file: css/css-flexbox/intrinsic-size/row-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/intrinsic-size/row-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/intrinsic-size/row-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0804"
+  category: WPT reftest
+  title: css/css-flexbox/intrinsic-size/row-004.html
+  file: css/css-flexbox/intrinsic-size/row-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/intrinsic-size/row-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/intrinsic-size/row-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0822"
+  category: WPT reftest
+  title: css/css-flexbox/multiline-shrink-to-fit.html
+  file: css/css-flexbox/multiline-shrink-to-fit.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/multiline-shrink-to-fit.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/multiline-shrink-to-fit.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/reference/multiline-shrink-to-fit-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/reference/multiline-shrink-to-fit-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/reference/multiline-shrink-to-fit-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/reference/multiline-shrink-to-fit-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/reference/multiline-shrink-to-fit-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/reference/multiline-shrink-to-fit-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0832"
+  category: WPT reftest
+  title: css/css-flexbox/overflow-area-001.html
+  file: css/css-flexbox/overflow-area-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/overflow-area-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/overflow-area-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0833"
+  category: WPT reftest
+  title: css/css-flexbox/overflow-area-002.html
+  file: css/css-flexbox/overflow-area-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/overflow-area-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/overflow-area-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0834"
+  category: WPT reftest
+  title: css/css-flexbox/overflow-area-003.html
+  file: css/css-flexbox/overflow-area-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/overflow-area-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/overflow-area-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0869"
+  category: WPT reftest
+  title: css/css-flexbox/percentage-size-subitems-001.html
+  file: css/css-flexbox/percentage-size-subitems-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/percentage-size-subitems-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/percentage-size-subitems-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/reference/percentage-size-subitems-001-ref.html
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/css-flexbox/reference/percentage-size-subitems-001-ref.html
+      actualPages:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+      baselinePages:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/reference/percentage-size-subitems-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/reference/percentage-size-subitems-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/reference/percentage-size-subitems-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/reference/percentage-size-subitems-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0871"
+  category: WPT reftest
+  title: css/css-flexbox/position-absolute-scrollbar-freeze.html
+  file: css/css-flexbox/position-absolute-scrollbar-freeze.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/position-absolute-scrollbar-freeze.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/position-absolute-scrollbar-freeze.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/position-absolute-scrollbar-freeze-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/position-absolute-scrollbar-freeze-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/position-absolute-scrollbar-freeze-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/position-absolute-scrollbar-freeze-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/position-absolute-scrollbar-freeze-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/position-absolute-scrollbar-freeze-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0876"
+  category: WPT reftest
+  title: css/css-flexbox/remove-wrapped-001.html
+  file: css/css-flexbox/remove-wrapped-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/remove-wrapped-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/remove-wrapped-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0882"
+  category: WPT reftest
+  title: css/css-flexbox/select-element-zero-height-001.html
+  file: css/css-flexbox/select-element-zero-height-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/select-element-zero-height-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/select-element-zero-height-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/select-element-zero-height-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/select-element-zero-height-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/select-element-zero-height-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/select-element-zero-height-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/select-element-zero-height-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/select-element-zero-height-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0938"
+  category: WPT print-reftest
+  title: css/css-flexbox/inline-flexbox-vertical-rl-image-flexitem-crash-print.html
+  file: css/css-flexbox/inline-flexbox-vertical-rl-image-flexitem-crash-print.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/inline-flexbox-vertical-rl-image-flexitem-crash-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/inline-flexbox-vertical-rl-image-flexitem-crash-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: common/blank.html
+  relation: "!="
+  unexpectedMatches:
+    - common/blank.html
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: common/blank.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/common/blank.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: common/blank.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/common/blank.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0836"
+  category: WPT reftest
+  title: css/css-flexbox/overflow-auto-005.html
+  file: css/css-flexbox/overflow-auto-005.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/overflow-auto-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/overflow-auto-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary, canary-reference, stable, stable-reference
+  sideErrors:
+    - side: canary
+      errorName: Error
+      errorMessage: |-
+        page.evaluate: Error: Could not detect total pages (no spread container found).
+            at eval (eval at evaluate (:302:30), <anonymous>:10:11)
+            at UtilityScript.evaluate (<anonymous>:304:16)
+            at UtilityScript.<anonymous> (<anonymous>:1:44)
+      timeout: false
+    - side: canary-reference
+      referenceFile: css/css-flexbox/reference/overflow-auto-005-ref.html
+      errorName: Error
+      errorMessage: |-
+        page.evaluate: Error: Could not detect total pages (no spread container found).
+            at eval (eval at evaluate (:302:30), <anonymous>:10:11)
+            at UtilityScript.evaluate (<anonymous>:304:16)
+            at UtilityScript.<anonymous> (<anonymous>:1:44)
+      timeout: false
+    - side: stable
+      errorName: Error
+      errorMessage: |-
+        page.evaluate: Error: Could not detect total pages (no spread container found).
+            at eval (eval at evaluate (:302:30), <anonymous>:10:11)
+            at UtilityScript.evaluate (<anonymous>:304:16)
+            at UtilityScript.<anonymous> (<anonymous>:1:44)
+      timeout: false
+    - side: stable-reference
+      referenceFile: css/css-flexbox/reference/overflow-auto-005-ref.html
+      errorName: Error
+      errorMessage: |-
+        page.evaluate: Error: Could not detect total pages (no spread container found).
+            at eval (eval at evaluate (:302:30), <anonymous>:10:11)
+            at UtilityScript.evaluate (<anonymous>:304:16)
+            at UtilityScript.<anonymous> (<anonymous>:1:44)
+      timeout: false

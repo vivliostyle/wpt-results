@@ -1,0 +1,383 @@
+- id: "0001"
+  category: WPT reftest
+  title: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-change-checkbox.html
+  file: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-change-checkbox.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-change-checkbox.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-change-checkbox.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-change-checkbox-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-color-adjust/rendering/dark-color-scheme/color-scheme-change-checkbox-notref.html
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-change-checkbox-notref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-change-checkbox-notref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-change-checkbox-notref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-change-checkbox-notref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0003"
+  category: WPT reftest
+  title: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-alpha.html
+  file: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-alpha.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-alpha.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-alpha.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/dark-frame-alpha.html
+  relation: "=="
+  diffPages:
+    - css/css-color-adjust/rendering/dark-color-scheme/support/dark-frame-alpha.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/dark-frame-alpha.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/support/dark-frame-alpha.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/dark-frame-alpha.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/support/dark-frame-alpha.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0004"
+  category: WPT reftest
+  title: >-
+    css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-dynamic-cross-origin.sub.html
+  file: >-
+    css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-dynamic-cross-origin.sub.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-dynamic-cross-origin.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-dynamic-cross-origin.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/light-frame-scrolling.html
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/light-frame-scrolling.html
+      actualPages:
+        - 1
+      baselinePages:
+        - 1
+        - 2
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/light-frame-scrolling.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/support/light-frame-scrolling.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/light-frame-scrolling.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/support/light-frame-scrolling.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0005"
+  category: WPT reftest
+  title: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-dynamic.html
+  file: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-dynamic.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-dynamic.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-dynamic.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/light-frame-scrolling.html
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/light-frame-scrolling.html
+      actualPages:
+        - 1
+      baselinePages:
+        - 1
+        - 2
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/light-frame-scrolling.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/support/light-frame-scrolling.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/light-frame-scrolling.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/support/light-frame-scrolling.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0007"
+  category: WPT reftest
+  title: >-
+    css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-002.sub.html
+  file: >-
+    css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-002.sub.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-002.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-002.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/light-frame.html
+  relation: "=="
+  diffPages:
+    - css/css-color-adjust/rendering/dark-color-scheme/support/light-frame.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/light-frame.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/support/light-frame.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/light-frame.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/support/light-frame.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0009"
+  category: WPT reftest
+  title: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque.html
+  file: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/dark-frame-opaque.html
+  relation: "=="
+  diffPages:
+    - css/css-color-adjust/rendering/dark-color-scheme/support/dark-frame-opaque.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/dark-frame-opaque.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/support/dark-frame-opaque.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/support/dark-frame-opaque.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/support/dark-frame-opaque.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0012"
+  category: WPT reftest
+  title: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-cross-origin.sub.html
+  file: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-cross-origin.sub.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-cross-origin.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-cross-origin.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0014"
+  category: WPT reftest
+  title: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark.html
+  file: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0017"
+  category: WPT reftest
+  title: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred.html
+  file: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0019"
+  category: WPT reftest
+  title: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-table-border-currentcolor-responsive.html
+  file: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-table-border-currentcolor-responsive.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-table-border-currentcolor-responsive.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-table-border-currentcolor-responsive.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-table-border-currentcolor-responsive-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-color-adjust/rendering/dark-color-scheme/color-scheme-table-border-currentcolor-responsive-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-table-border-currentcolor-responsive-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-table-border-currentcolor-responsive-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-table-border-currentcolor-responsive-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-table-border-currentcolor-responsive-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0020"
+  category: WPT reftest
+  title: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-visited-link-initial.html
+  file: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-visited-link-initial.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-visited-link-initial.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-visited-link-initial.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-visited-link-initial-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-color-adjust/rendering/dark-color-scheme/color-scheme-visited-link-initial-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-visited-link-initial-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-visited-link-initial-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-visited-link-initial-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-visited-link-initial-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0006"
+  category: WPT reftest
+  title: >-
+    css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-001.sub.html
+  file: >-
+    css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-001.sub.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-001.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-001.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0008"
+  category: WPT reftest
+  title: >-
+    css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-003.sub.html
+  file: >-
+    css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-003.sub.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-003.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-003.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0013"
+  category: WPT reftest
+  title: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark-cross-origin.sub.html
+  file: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark-cross-origin.sub.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark-cross-origin.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark-cross-origin.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0015"
+  category: WPT reftest
+  title: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-light-cross-origin.sub.html
+  file: css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-light-cross-origin.sub.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-light-cross-origin.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-light-cross-origin.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

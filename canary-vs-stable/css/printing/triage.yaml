@@ -1,0 +1,211 @@
+- id: "0001"
+  category: WPT reftest
+  title: css/printing/animated-image-print-image-orientation-none.html
+  file: css/printing/animated-image-print-image-orientation-none.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/animated-image-print-image-orientation-none.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/animated-image-print-image-orientation-none.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0002"
+  category: WPT print-reftest
+  title: css/printing/animated-image-print.html
+  file: css/printing/animated-image-print.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/animated-image-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/animated-image-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0003"
+  category: WPT print-reftest
+  title: css/printing/animations-print.html
+  file: css/printing/animations-print.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/animations-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/animations-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/printing/animations-print-ref.html
+  relation: "=="
+  diffPages:
+    - css/printing/animations-print-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/printing/animations-print-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/animations-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/printing/animations-print-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/animations-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0004"
+  category: WPT print-reftest
+  title: css/printing/animations-shadow-print.html
+  file: css/printing/animations-shadow-print.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/animations-shadow-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/animations-shadow-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/printing/animations-shadow-print-ref.html
+  relation: "=="
+  diffPages:
+    - css/printing/animations-shadow-print-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/printing/animations-shadow-print-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/animations-shadow-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/printing/animations-shadow-print-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/animations-shadow-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0008"
+  category: WPT print-reftest
+  title: css/printing/existing-transition-in-media-print.tentative.html
+  file: css/printing/existing-transition-in-media-print.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/existing-transition-in-media-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/existing-transition-in-media-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/printing/transition-in-media-print-ref.html
+  relation: "=="
+  diffPages:
+    - css/printing/transition-in-media-print-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/printing/transition-in-media-print-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/transition-in-media-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/printing/transition-in-media-print-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/transition-in-media-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0018"
+  category: WPT print-reftest
+  title: css/printing/paused-animations-print.html
+  file: css/printing/paused-animations-print.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/paused-animations-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/paused-animations-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/printing/paused-animations-print-ref.html
+  relation: "=="
+  diffPages:
+    - css/printing/paused-animations-print-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/printing/paused-animations-print-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/paused-animations-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/printing/paused-animations-print-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/paused-animations-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0019"
+  category: WPT print-reftest
+  title: css/printing/pseudo-animations-print.html
+  file: css/printing/pseudo-animations-print.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/pseudo-animations-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/pseudo-animations-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/printing/pseudo-animations-print-ref.html
+  relation: "=="
+  diffPages:
+    - css/printing/pseudo-animations-print-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/printing/pseudo-animations-print-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/pseudo-animations-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/printing/pseudo-animations-print-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/pseudo-animations-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0021"
+  category: WPT print-reftest
+  title: css/printing/table-overflow-quirks-frameset-crash-print.html
+  file: css/printing/table-overflow-quirks-frameset-crash-print.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/table-overflow-quirks-frameset-crash-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/table-overflow-quirks-frameset-crash-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/blank.html
+  relation: "!="
+  unexpectedMatches:
+    - css/reference/blank.html
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/blank.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/blank.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/blank.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/blank.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0025"
+  category: WPT print-reftest
+  title: css/printing/zero-size-003-print.tentative.html
+  file: css/printing/zero-size-003-print.tentative.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/zero-size-003-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/printing/zero-size-003-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary, stable
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

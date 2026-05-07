@@ -1,0 +1,1831 @@
+# canary vs stable comparison report
+
+- Compared entries: 244
+- Entries with differences: 138 (improvement: 9, pending: 129, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
+- Page count changed: 6
+- Screenshot mismatches: 7
+- Outcome summary: {"improvement":9,"pass":86,"known-fail":125,"expected-change":2,"changed-fail":2,"unchanged":20}
+
+## Differences
+
+- [0001] [WPT print-reftest] css/css-page/background-image-only-for-print.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-page/background-image-only-for-print-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/background-image-only-for-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0005199984733989772, diffPixels=436
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/background-image-only-for-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0007] [WPT print-reftest] css/css-page/body-background-slr-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/body-background-slr-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/body-background-slr-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1], reference=[1, 2]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/body-background-slr-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/body-background-slr-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1], reference=[1, 2]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/body-background-slr-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0008] [WPT print-reftest] css/css-page/body-background-srl-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/body-background-srl-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/body-background-srl-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.42083333333333334, diffPixels=202000
+  canary page 2: diffRatio=0.4166666666666667, diffPixels=200000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/body-background-srl-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/body-background-srl-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.42083333333333334, diffPixels=202000
+  stable page 2: diffRatio=0.4166666666666667, diffPixels=200000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/body-background-srl-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0009] [WPT print-reftest] css/css-page/body-background-vlr-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/body-background-vlr-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/body-background-vlr-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.4434125, diffPixels=212838
+  canary page 2: diffRatio=0.4166666666666667, diffPixels=200000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/body-background-vlr-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/body-background-vlr-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.4434125, diffPixels=212838
+  stable page 2: diffRatio=0.4166666666666667, diffPixels=200000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/body-background-vlr-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0010] [WPT print-reftest] css/css-page/body-background-vrl-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/body-background-vrl-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/body-background-vrl-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.4166666666666667, diffPixels=200000
+  canary page 2: diffRatio=0.4166666666666667, diffPixels=200000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/body-background-vrl-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/body-background-vrl-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.4166666666666667, diffPixels=200000
+  stable page 2: diffRatio=0.4166666666666667, diffPixels=200000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/body-background-vrl-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0011] [WPT print-reftest] css/css-page/cssom/dynamic-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/cssom/dynamic-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/cssom/dynamic-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/cssom/dynamic-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/cssom/dynamic-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/cssom/dynamic-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0012] [WPT print-reftest] css/css-page/fixedpos-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/fixedpos-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0012117395618655065, diffPixels=1016
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0012117395618655065, diffPixels=1016
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0013] [WPT print-reftest] css/css-page/fixedpos-002-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/fixedpos-002-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0012117395618655065, diffPixels=1016
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0012117395618655065, diffPixels=1016
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0014] [WPT print-reftest] css/css-page/fixedpos-003-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/fixedpos-003-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0015] [WPT print-reftest] css/css-page/fixedpos-004-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/fixedpos-004-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-004-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0025856804824059233, diffPixels=2168
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-004-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-004-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0025856804824059233, diffPixels=2168
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-004-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0016] [WPT print-reftest] css/css-page/fixedpos-005-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/fixedpos-005-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-005-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1, 2, 3]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-005-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-005-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1, 2, 3]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-005-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0017] [WPT print-reftest] css/css-page/fixedpos-006-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/fixedpos-006-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-006-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1], reference=[1, 2, 3]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-006-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-006-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1], reference=[1, 2, 3]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-006-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0018] [WPT print-reftest] css/css-page/fixedpos-007-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/fixedpos-007-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-007-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.004443840164872911, diffPixels=3726
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-007-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-007-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.004443840164872911, diffPixels=3726
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-007-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0019] [WPT print-reftest] css/css-page/fixedpos-008-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/fixedpos-008-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-008-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.003666227768872605, diffPixels=3074
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-008-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-008-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.003666227768872605, diffPixels=3074
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-008-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0020] [WPT print-reftest] css/css-page/fixedpos-009-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/fixedpos-009-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-009-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00016458667277307075, diffPixels=138
+  canary page 2: diffRatio=0.00008229333638653537, diffPixels=69
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-009-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-009-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00016458667277307075, diffPixels=138
+  stable page 2: diffRatio=0.00008229333638653537, diffPixels=69
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-009-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0021] [WPT print-reftest] css/css-page/fixedpos-010-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/fixedpos-010-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-010-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 2: diffRatio=0.05, diffPixels=10000
+  canary page 3: diffRatio=0.05, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-010-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-010-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 2: diffRatio=0.05, diffPixels=10000
+  stable page 3: diffRatio=0.05, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-010-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0022] [WPT print-reftest] css/css-page/fixedpos-011-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/fixedpos-011-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-011-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  canary page 2: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 3: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-011-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-011-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  stable page 2: diffRatio=0.01192657049080223, diffPixels=10000
+  stable page 3: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-011-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0023] [WPT print-reftest] css/css-page/fixedpos-with-abspos-with-link-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/fixedpos-with-abspos-with-link-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-with-abspos-with-link-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1], reference=[1, 2, 3]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-with-abspos-with-link-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-with-abspos-with-link-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1], reference=[1, 2, 3]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-with-abspos-with-link-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0025] [WPT print-reftest] css/css-page/fixedpos-with-link-with-inline-child-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/fixedpos-with-link-with-inline-child-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-with-link-with-inline-child-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 2: diffRatio=0.0009946759789329059, diffPixels=834
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-with-link-with-inline-child-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-with-link-with-inline-child-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 2: diffRatio=0.0009946759789329059, diffPixels=834
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/fixedpos-with-link-with-inline-child-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0026] [WPT print-reftest] css/css-page/layers-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/layers-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/layers-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0007633005114113426, diffPixels=640
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/layers-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/layers-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0007633005114113426, diffPixels=640
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/layers-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0027] [WPT print-reftest] css/css-page/layers-002-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/layers-002-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/layers-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0007633005114113426, diffPixels=640
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/layers-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/layers-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0007633005114113426, diffPixels=640
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/layers-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0028] [WPT print-reftest] css/css-page/layers-003-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/layers-003-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/layers-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0007346767422334173, diffPixels=616
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/layers-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/layers-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0007346767422334173, diffPixels=616
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/layers-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0029] [WPT print-reftest] css/css-page/layers-004-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/layers-004-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/layers-004-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0007633005114113426, diffPixels=640
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/layers-004-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/layers-004-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0007633005114113426, diffPixels=640
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/layers-004-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0030] [WPT print-reftest] css/css-page/margin-boxes/alignment-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/alignment-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/alignment-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.015554545454545455, diffPixels=3422
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/alignment-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/alignment-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.015554545454545455, diffPixels=3422
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/alignment-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0031] [WPT print-reftest] css/css-page/margin-boxes/auto-margins-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/auto-margins-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/auto-margins-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.048205, diffPixels=9641
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/auto-margins-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/auto-margins-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.048205, diffPixels=9641
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/auto-margins-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0032] [WPT print-reftest] css/css-page/margin-boxes/auto-margins-002-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/auto-margins-002-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/auto-margins-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0258, diffPixels=5676
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/auto-margins-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/auto-margins-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0258, diffPixels=5676
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/auto-margins-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0033] [WPT print-reftest] css/css-page/margin-boxes/auto-margins-003-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/auto-margins-003-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/auto-margins-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.031275, diffPixels=6255
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/auto-margins-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/auto-margins-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.031275, diffPixels=6255
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/auto-margins-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0034] [WPT print-reftest] css/css-page/margin-boxes/background-001-print.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-page/margin-boxes/background-001-print-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/background-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.05083581405999542, diffPixels=42624
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/background-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0035] [WPT print-reftest] css/css-page/margin-boxes/content-001-print.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-page/margin-boxes/content-001-print-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1], reference=[1, 2]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0037] [WPT print-reftest] css/css-page/margin-boxes/content-003-print.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-page/margin-boxes/content-003-print-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0064153022670025185, diffPixels=5379
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0040] [WPT print-reftest] css/css-page/margin-boxes/content-006-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/content-005-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-006-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1, 2, 3]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-005-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-006-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1, 2, 3]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-005-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0042] [WPT print-reftest] css/css-page/margin-boxes/content-008-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/content-008-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-008-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000015504541638042898, diffPixels=13
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-008-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-008-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000015504541638042898, diffPixels=13
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-008-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0043] [WPT print-reftest] css/css-page/margin-boxes/content-009-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/content-009-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-009-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000015504541638042898, diffPixels=13
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-009-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-009-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000015504541638042898, diffPixels=13
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-009-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0044] [WPT print-reftest] css/css-page/margin-boxes/content-010-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/content-010-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-010-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0000572475383558507, diffPixels=48
+  canary page 2: diffRatio=0.000031009083276085796, diffPixels=26
+  canary page 3: diffRatio=0.000022660483932524234, diffPixels=19
+  canary page 4: diffRatio=0.00004770628196320891, diffPixels=40
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-010-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-010-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0000572475383558507, diffPixels=48
+  stable page 2: diffRatio=0.000031009083276085796, diffPixels=26
+  stable page 3: diffRatio=0.000022660483932524234, diffPixels=19
+  stable page 4: diffRatio=0.00004770628196320891, diffPixels=40
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-010-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0045] [WPT print-reftest] css/css-page/margin-boxes/content-011-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/content-011-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-011-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0000989905350736585, diffPixels=83
+  canary page 2: diffRatio=0.0000727520799938936, diffPixels=61
+  canary page 3: diffRatio=0.00006440348065033204, diffPixels=54
+  canary page 4: diffRatio=0.00008944927868101672, diffPixels=75
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-011-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-011-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0000989905350736585, diffPixels=83
+  stable page 2: diffRatio=0.0000727520799938936, diffPixels=61
+  stable page 3: diffRatio=0.00006440348065033204, diffPixels=54
+  stable page 4: diffRatio=0.00008944927868101672, diffPixels=75
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-011-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0046] [WPT print-reftest] css/css-page/margin-boxes/content-012-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/content-012-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-012-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0001359629035951454, diffPixels=114
+  canary page 2: diffRatio=0.00020752232653995878, diffPixels=174
+  canary page 3: diffRatio=0.0008253186779635142, diffPixels=692
+  canary page 4: diffRatio=0.0005891725822456301, diffPixels=494
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-012-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-012-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0001359629035951454, diffPixels=114
+  stable page 2: diffRatio=0.00020752232653995878, diffPixels=174
+  stable page 3: diffRatio=0.0008253186779635142, diffPixels=692
+  stable page 4: diffRatio=0.0005891725822456301, diffPixels=494
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/content-012-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0051] [WPT print-reftest] css/css-page/margin-boxes/dimensions-004-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/dimensions-004-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-004-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.3249644588199374, diffPixels=272471
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-004-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-004-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.3249644588199374, diffPixels=272471
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-004-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0052] [WPT print-reftest] css/css-page/margin-boxes/dimensions-005-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/dimensions-005-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-005-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.08071902908174948, diffPixels=67680
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-005-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-005-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.08071902908174948, diffPixels=67680
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-005-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0053] [WPT print-reftest] css/css-page/margin-boxes/dimensions-006-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/dimensions-006-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-006-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.33670497481108314, diffPixels=282315
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-006-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-006-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.33670497481108314, diffPixels=282315
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-006-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0054] [WPT print-reftest] css/css-page/margin-boxes/dimensions-007-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/dimensions-007-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-007-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.004792096023204335, diffPixels=4018
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-007-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-007-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.004792096023204335, diffPixels=4018
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-007-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0055] [WPT print-reftest] css/css-page/margin-boxes/dimensions-008-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/dimensions-008-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-008-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.004307877261277765, diffPixels=3612
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-008-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-008-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.004307877261277765, diffPixels=3612
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-008-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0056] [WPT print-reftest] css/css-page/margin-boxes/dimensions-009-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/dimensions-009-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-009-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00019678841309823678, diffPixels=165
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-009-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-009-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00019678841309823678, diffPixels=165
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-009-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0057] [WPT print-reftest] css/css-page/margin-boxes/dimensions-010-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/dimensions-010-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-010-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.07692307692307693, diffPixels=25000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-010-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-010-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.07692307692307693, diffPixels=25000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-010-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0058] [WPT print-reftest] css/css-page/margin-boxes/dimensions-011-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/dimensions-011-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-011-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-011-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-011-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-011-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0059] [WPT print-reftest] css/css-page/margin-boxes/dimensions-012-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/dimensions-012-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-012-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-012-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-012-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-012-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0060] [WPT print-reftest] css/css-page/margin-boxes/dimensions-013-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/dimensions-013-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-013-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.08359810319822915, diffPixels=70094
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-013-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-013-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.08359810319822915, diffPixels=70094
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-013-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0061] [WPT print-reftest] css/css-page/margin-boxes/dimensions-014-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/dimensions-013-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-014-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.08300654530188535, diffPixels=69598
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-013-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-014-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.08300654530188535, diffPixels=69598
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-013-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0062] [WPT print-reftest] css/css-page/margin-boxes/dimensions-015-print.tentative.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/dimensions-015-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-015-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.34405532020456453, diffPixels=288478
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-015-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-015-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.34405532020456453, diffPixels=288478
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/dimensions-015-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0063] [WPT print-reftest] css/css-page/margin-boxes/inapplicable-properties-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/inapplicable-properties-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/inapplicable-properties-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.12145625, diffPixels=19433
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/inapplicable-properties-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/inapplicable-properties-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.12145625, diffPixels=19433
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/inapplicable-properties-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0064] [WPT print-reftest] css/css-page/margin-boxes/overconstrained-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/overconstrained-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/overconstrained-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.03864, diffPixels=7728
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/overconstrained-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/overconstrained-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.03864, diffPixels=7728
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/overconstrained-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0065] [WPT print-reftest] css/css-page/margin-boxes/paint-order-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/paint-order-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/paint-order-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.036965, diffPixels=7393
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/paint-order-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/paint-order-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.036965, diffPixels=7393
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/paint-order-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0066] [WPT print-reftest] css/css-page/margin-boxes/paint-order-002-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/margin-boxes/paint-order-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/paint-order-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.036965, diffPixels=7393
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/paint-order-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/paint-order-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.036965, diffPixels=7393
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/margin-boxes/paint-order-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0068] [WPT print-reftest] css/css-page/media-queries-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/media-queries-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/media-queries-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.35857204861111114, diffPixels=330460
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/media-queries-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/media-queries-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.35857204861111114, diffPixels=330460
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/media-queries-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0070] [WPT print-reftest] css/css-page/media-queries-003-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/media-queries-003-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/media-queries-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.014107940233569956, diffPixels=11829
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/media-queries-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/media-queries-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.014107940233569956, diffPixels=11829
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/media-queries-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0075] [WPT print-reftest] css/css-page/monolithic-overflow-005-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/reference/monolithic-overflow-4-pages-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-005-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 2: diffRatio=0.01619628272650943, diffPixels=13580
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/reference/monolithic-overflow-4-pages-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-005-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 2: diffRatio=0.01619628272650943, diffPixels=13580
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/reference/monolithic-overflow-4-pages-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0076] [WPT print-reftest] css/css-page/monolithic-overflow-006-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/reference/monolithic-overflow-4-pages-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-006-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 2: diffRatio=0.01619628272650943, diffPixels=13580
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/reference/monolithic-overflow-4-pages-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-006-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 2: diffRatio=0.01619628272650943, diffPixels=13580
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/reference/monolithic-overflow-4-pages-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0079] [WPT print-reftest] css/css-page/monolithic-overflow-009-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/reference/monolithic-overflow-4-pages-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-009-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 2: diffRatio=0.01619628272650943, diffPixels=13580
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/reference/monolithic-overflow-4-pages-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-009-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 2: diffRatio=0.01619628272650943, diffPixels=13580
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/reference/monolithic-overflow-4-pages-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0080] [WPT print-reftest] css/css-page/monolithic-overflow-010-print.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-page/reference/monolithic-overflow-4-pages-print-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-010-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 2: diffRatio=0.01619628272650943, diffPixels=13580
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/reference/monolithic-overflow-4-pages-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0081] [WPT print-reftest] css/css-page/monolithic-overflow-011-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/reference/monolithic-overflow-4-pages-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-011-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 2: diffRatio=0.01619628272650943, diffPixels=13580
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/reference/monolithic-overflow-4-pages-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-011-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 2: diffRatio=0.01619628272650943, diffPixels=13580
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/reference/monolithic-overflow-4-pages-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0082] [WPT print-reftest] css/css-page/monolithic-overflow-012-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/monolithic-overflow-012-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-012-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1], reference=[1, 2]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-012-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-012-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1], reference=[1, 2]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-012-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0083] [WPT print-reftest] css/css-page/monolithic-overflow-013-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/monolithic-overflow-013-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-013-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1], reference=[1, 2]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-013-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-013-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1], reference=[1, 2]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-013-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0084] [WPT print-reftest] css/css-page/monolithic-overflow-014-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/monolithic-overflow-014-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-014-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 2: diffRatio=0.01460527822303641, diffPixels=12246
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-014-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-014-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 2: diffRatio=0.01460527822303641, diffPixels=12246
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-014-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0085] [WPT print-reftest] css/css-page/monolithic-overflow-015-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/monolithic-overflow-015-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-015-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1], reference=[1, 2]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-015-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-015-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1], reference=[1, 2]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-015-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0086] [WPT print-reftest] css/css-page/monolithic-overflow-016-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/monolithic-overflow-016-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-016-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1, 2, 3]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-016-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-016-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1, 2, 3]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-016-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0087] [WPT print-reftest] css/css-page/monolithic-overflow-017-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/monolithic-overflow-017-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-017-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1, 2, 3]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-017-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-017-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1, 2, 3]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-017-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0094] [WPT print-reftest] css/css-page/monolithic-overflow-024-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/monolithic-overflow-024-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-024-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1], reference=[1, 2, 3]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-024-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-024-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1], reference=[1, 2, 3]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-024-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0095] [WPT print-reftest] css/css-page/monolithic-overflow-025-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/monolithic-overflow-025-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-025-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1], reference=[1, 2, 3]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-025-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-025-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1], reference=[1, 2, 3]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-025-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0097] [WPT print-reftest] css/css-page/monolithic-overflow-027-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/monolithic-overflow-027-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-027-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.1385927123883673, diffPixels=116205
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-027-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-027-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.1385927123883673, diffPixels=116205
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-027-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0098] [WPT print-reftest] css/css-page/monolithic-overflow-028-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/monolithic-overflow-028-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-028-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.1385927123883673, diffPixels=116205
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-028-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-028-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.1385927123883673, diffPixels=116205
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-028-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0099] [WPT print-reftest] css/css-page/monolithic-overflow-029-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/monolithic-overflow-029-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-029-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.1385927123883673, diffPixels=116205
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-029-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-029-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.1385927123883673, diffPixels=116205
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-029-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0100] [WPT print-reftest] css/css-page/monolithic-overflow-030-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/monolithic-overflow-030-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-030-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1], reference=[1, 2, 3, 4]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-030-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-030-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1], reference=[1, 2, 3, 4]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-030-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0101] [WPT print-reftest] css/css-page/monolithic-overflow-031-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/monolithic-overflow-031-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-031-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.14361666666666667, diffPixels=17234
+  canary page 2: diffRatio=0.652425, diffPixels=78291
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-031-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-031-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.14361666666666667, diffPixels=17234
+  stable page 2: diffRatio=0.652425, diffPixels=78291
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-031-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0102] [WPT print-reftest] css/css-page/monolithic-overflow-032-print.tentative.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/monolithic-overflow-032-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-032-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1], reference=[1, 2, 3, 4, 5, 6]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-032-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-032-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1], reference=[1, 2, 3, 4, 5, 6]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/monolithic-overflow-032-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0103] [WPT print-reftest] css/css-page/page-background-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-background-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.001514674452331883, diffPixels=1270
+  canary page 2: diffRatio=0.0025689832837188, diffPixels=2154
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.001514674452331883, diffPixels=1270
+  stable page 2: diffRatio=0.0025689832837188, diffPixels=2154
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0104] [WPT print-reftest] css/css-page/page-background-002-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-background-002-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 2: diffRatio=0.07953333333333333, diffPixels=1193
+  canary page 3: diffRatio=0.07953333333333333, diffPixels=1193
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 2: diffRatio=0.07953333333333333, diffPixels=1193
+  stable page 3: diffRatio=0.07953333333333333, diffPixels=1193
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0105] [WPT print-reftest] css/css-page/page-background-003-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-background-003-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 2: diffRatio=0.044248, diffPixels=5531
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 2: diffRatio=0.044248, diffPixels=5531
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0107] [WPT print-reftest] css/css-page/page-background-005-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-background-005-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-005-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.014988888888888888, diffPixels=2698
+  canary page 2: diffRatio=0.018461111111111112, diffPixels=3323
+  canary page 3: diffRatio=0.019394444444444443, diffPixels=3491
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-005-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-005-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.014988888888888888, diffPixels=2698
+  stable page 2: diffRatio=0.018461111111111112, diffPixels=3323
+  stable page 3: diffRatio=0.019394444444444443, diffPixels=3491
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-005-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0108] [WPT print-reftest] css/css-page/page-background-image-print.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-page/page-background-image-print-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-image-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.9976003740172505, diffPixels=836452
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-image-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0109] [WPT print-reftest] css/css-page/page-box-000-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-box-000-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-000-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0034324669872528813, diffPixels=2878
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-000-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-000-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0034324669872528813, diffPixels=2878
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-000-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0111] [WPT print-reftest] css/css-page/page-box-002-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-box-002-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0019953152431112127, diffPixels=1673
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0019953152431112127, diffPixels=1673
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0112] [WPT print-reftest] css/css-page/page-box-003-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-box-003-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0019953152431112127, diffPixels=1673
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0019953152431112127, diffPixels=1673
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0113] [WPT print-reftest] css/css-page/page-box-004-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-box-004-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-004-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2, 3, 4], reference=[1, 2, 3, 4, 5, 6]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-004-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-004-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2, 3, 4], reference=[1, 2, 3, 4, 5, 6]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-004-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0114] [WPT print-reftest] css/css-page/page-box-005-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-box-005-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-005-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02236875, diffPixels=3579
+  canary page 2: diffRatio=0.02236875, diffPixels=3579
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-005-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-005-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02236875, diffPixels=3579
+  stable page 2: diffRatio=0.02236875, diffPixels=3579
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-005-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0118] [WPT print-reftest] css/css-page/page-box-009-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-box-009-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-009-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.51441875, diffPixels=164614
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-009-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-009-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.51441875, diffPixels=164614
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-009-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0119] [WPT print-reftest] css/css-page/page-box-010-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-box-010-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-010-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.08348599343561561, diffPixels=70000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-010-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-010-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.08348599343561561, diffPixels=70000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-box-010-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0126] [WPT print-reftest] css/css-page/page-margin-004-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-margin-004-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-004-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.6111111111111112, diffPixels=55000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-004-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-004-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.6111111111111112, diffPixels=55000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-004-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0128] [WPT print-reftest] css/css-page/page-margin-006-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-margin-006-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-006-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.41532841435185186, diffPixels=137796
+  canary page 2: diffRatio=0.32669632523148145, diffPixels=108390
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-006-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-006-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.41532841435185186, diffPixels=137796
+  stable page 2: diffRatio=0.32669632523148145, diffPixels=108390
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-006-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0129] [WPT print-reftest] css/css-page/page-margin-007-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-margin-007-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-007-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2, 3, 4], reference=[1, 2, 3, 4, 5, 6, 7]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-007-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-007-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2, 3, 4], reference=[1, 2, 3, 4, 5, 6, 7]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-007-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0131] [WPT print-reftest] css/css-page/page-margin-auto-negative-print.tentative.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-margin-auto-negative-print-ref.tentative.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-auto-negative-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.14363333333333334, diffPixels=12927
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-auto-negative-print-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-auto-negative-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.14363333333333334, diffPixels=12927
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-auto-negative-print-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0133] [WPT print-reftest] css/css-page/page-margin-negative-print.tentative.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-margin-negative-print-ref.tentative.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-negative-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.14363333333333334, diffPixels=12927
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-negative-print-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-negative-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.14363333333333334, diffPixels=12927
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-margin-negative-print-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0134] [WPT print-reftest] css/css-page/page-name-000-print.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0003232100603007404, diffPixels=271
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-000-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-000-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0136] [WPT print-reftest] css/css-page/page-name-002-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-002-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2, 3, 4], reference=[1, 2, 3, 4, 5, 6, 7, 8]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2, 3, 4], reference=[1, 2, 3, 4, 5, 6, 7, 8]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0137] [WPT print-reftest] css/css-page/page-name-003-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-003-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1], reference=[1, 2]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1], reference=[1, 2]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0138] [WPT print-reftest] css/css-page/page-name-abspos-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-abspos-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-abspos-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-abspos-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-abspos-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-abspos-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0140] [WPT print-reftest] css/css-page/page-name-abspos-003-print.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page count: canary=2, stable=3
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-abspos-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-abspos-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0146] [WPT print-reftest] css/css-page/page-name-canvas-002-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-canvas-002-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-canvas-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1], reference=[1, 2]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-canvas-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-canvas-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1], reference=[1, 2]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-canvas-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0150] [WPT print-reftest] css/css-page/page-name-fixed-pos-001-print.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-page/page-name-fixed-pos-001-print-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-fixed-pos-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2, 3], reference=[1, 2]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-fixed-pos-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0151] [WPT print-reftest] css/css-page/page-name-flex-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-flex-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-flex-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-flex-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-flex-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-flex-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0152] [WPT print-reftest] css/css-page/page-name-flex-002-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-flex-002-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-flex-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-flex-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-flex-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-flex-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0154] [WPT print-reftest] css/css-page/page-name-flex-004-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-flex-004-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-flex-004-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1, 2, 3]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-flex-004-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-flex-004-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1, 2, 3]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-flex-004-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0155] [WPT print-reftest] css/css-page/page-name-float-001-print.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-page/page-name-float-001-print-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-float-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-float-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0156] [WPT print-reftest] css/css-page/page-name-float-002-print.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-float-002-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-float-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000017889855736203345, diffPixels=15
+  canary page 2: diffRatio=0.00002504579803068468, diffPixels=21
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-float-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-float-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2, 3], reference=[1, 2]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-float-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0158] [WPT print-reftest] css/css-page/page-name-img-002-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-img-002-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-img-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1], reference=[1, 2]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-img-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-img-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1], reference=[1, 2]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-img-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0161] [WPT print-reftest] css/css-page/page-name-inline-block-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-inline-block-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-inline-block-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-inline-block-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-inline-block-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-inline-block-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0162] [WPT print-reftest] css/css-page/page-name-inline-block-002-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-inline-block-002-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-inline-block-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2, 3], reference=[1, 2]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-inline-block-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-inline-block-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2, 3], reference=[1, 2]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-inline-block-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0164] [WPT print-reftest] css/css-page/page-name-margin-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-margin-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-margin-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 2: diffRatio=0.0003768796275093504, diffPixels=316
+  canary page 3: diffRatio=0.0001884398137546752, diffPixels=158
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-margin-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-margin-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 2: diffRatio=0.0003768796275093504, diffPixels=316
+  stable page 3: diffRatio=0.0001884398137546752, diffPixels=158
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-margin-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0166] [WPT print-reftest] css/css-page/page-name-orthogonal-writing-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-orthogonal-writing-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-orthogonal-writing-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-orthogonal-writing-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-orthogonal-writing-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-orthogonal-writing-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0168] [WPT print-reftest] css/css-page/page-name-orthogonal-writing-003-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-orthogonal-writing-003-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-orthogonal-writing-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-orthogonal-writing-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-orthogonal-writing-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-orthogonal-writing-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0170] [WPT print-reftest] css/css-page/page-name-propagated-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-propagated-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0171] [WPT print-reftest] css/css-page/page-name-propagated-002-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-propagated-002-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2, 3, 4], reference=[1, 2, 3]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2, 3, 4], reference=[1, 2, 3]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0172] [WPT print-reftest] css/css-page/page-name-propagated-003-print.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-propagated-003-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2, 3], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0173] [WPT print-reftest] css/css-page/page-name-propagated-004-print.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-page/page-name-propagated-004-print-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-004-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2, 3], reference=[1, 2]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-004-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0174] [WPT print-reftest] css/css-page/page-name-propagated-005-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-propagated-005-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-005-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2, 3], reference=[1]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-005-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-005-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2, 3], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-005-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0175] [WPT print-reftest] css/css-page/page-name-propagated-006-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-propagated-006-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-006-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2, 3], reference=[1, 2]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-006-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-006-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2, 3], reference=[1, 2]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-propagated-006-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0180] [WPT print-reftest] css/css-page/page-name-siblings-002-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-siblings-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-siblings-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2, 3], reference=[1, 2]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-siblings-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-siblings-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2, 3], reference=[1, 2]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-siblings-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0185] [WPT print-reftest] css/css-page/page-name-unnamed-trailing-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-unnamed-trailing-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-unnamed-trailing-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2, 3, 4], reference=[1, 2, 3]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-unnamed-trailing-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-unnamed-trailing-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2, 3, 4], reference=[1, 2, 3]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-unnamed-trailing-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0186] [WPT print-reftest] css/css-page/page-name-zero-height-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-name-zero-height-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-zero-height-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2, 3, 4, 5, 6], reference=[1, 2, 3]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-zero-height-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-zero-height-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2, 3, 4, 5, 6], reference=[1, 2, 3]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-zero-height-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0187] [WPT print-reftest] css/css-page/page-orientation-on-landscape-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-orientation-portrait-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-orientation-on-landscape-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test page 2 vs reference page 1: diffRatio=0.025868731394550034, diffPixels=21690
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-orientation-portrait-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-orientation-on-landscape-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test page 2 vs reference page 1: diffRatio=0.025868731394550034, diffPixels=21690
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-orientation-portrait-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0188] [WPT print-reftest] css/css-page/page-orientation-on-portrait-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-orientation-landscape-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-orientation-on-portrait-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test page 2 vs reference page 1: diffRatio=0.013471061369361118, diffPixels=11295
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-orientation-landscape-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-orientation-on-portrait-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test page 2 vs reference page 1: diffRatio=0.013471061369361118, diffPixels=11295
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-orientation-landscape-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0191] [WPT print-reftest] css/css-page/page-orientation-on-square-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-orientation-square-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-orientation-on-square-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test page 2 vs reference page 1: diffRatio=0.12261284722222222, diffPixels=10170
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-orientation-square-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-orientation-on-square-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test page 2 vs reference page 1: diffRatio=0.12261284722222222, diffPixels=10170
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-orientation-square-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0201] [WPT print-reftest] css/css-page/page-size-007-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-size-007-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-007-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.875, diffPixels=28000
+  canary page 2: diffRatio=0.38265625, diffPixels=12245
+  canary page 3: diffRatio=0.8, diffPixels=12800
+  canary page 4: diffRatio=0.31125, diffPixels=4980
+  canary page 5: diffRatio=0.95, diffPixels=243200
+  canary page 6: diffRatio=0.45058984375, diffPixels=115351
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-007-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-007-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.875, diffPixels=28000
+  stable page 2: diffRatio=0.38265625, diffPixels=12245
+  stable page 3: diffRatio=0.8, diffPixels=12800
+  stable page 4: diffRatio=0.31125, diffPixels=4980
+  stable page 5: diffRatio=0.95, diffPixels=243200
+  stable page 6: diffRatio=0.45058984375, diffPixels=115351
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-007-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0202] [WPT print-reftest] css/css-page/page-size-008-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-size-008-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-008-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.95, diffPixels=243200
+  canary page 2: diffRatio=0.45093359375, diffPixels=115439
+  canary page 3: diffRatio=0.875, diffPixels=28000
+  canary page 4: diffRatio=0.380625, diffPixels=12180
+  canary page 5: diffRatio=0.8, diffPixels=12800
+  canary page 6: diffRatio=0.3094375, diffPixels=4951
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-008-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-008-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.95, diffPixels=243200
+  stable page 2: diffRatio=0.45093359375, diffPixels=115439
+  stable page 3: diffRatio=0.875, diffPixels=28000
+  stable page 4: diffRatio=0.380625, diffPixels=12180
+  stable page 5: diffRatio=0.8, diffPixels=12800
+  stable page 6: diffRatio=0.3094375, diffPixels=4951
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-008-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0203] [WPT print-reftest] css/css-page/page-size-009-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-size-009-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-009-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 2: diffRatio=0.6666666666666666, diffPixels=80000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-009-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-009-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 2: diffRatio=0.6666666666666666, diffPixels=80000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-009-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0207] [WPT print-reftest] css/css-page/page-size-013-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-size-013-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-013-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  canary page 2: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-013-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-013-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  stable page 2: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-013-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0208] [WPT print-reftest] css/css-page/page-size-014-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-size-014-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-014-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  canary page 2: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-014-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-014-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  stable page 2: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-014-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0209] [WPT print-reftest] css/css-page/page-size-015-print.tentative.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-size-015-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-015-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-015-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-015-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-015-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0210] [WPT print-reftest] css/css-page/page-size-016-print.tentative.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-size-016-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-016-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-016-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-016-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-016-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0211] [WPT print-reftest] css/css-page/page-size-017-print.tentative.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-size-017-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-017-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-017-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-017-print.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-size-017-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0212] [WPT print-reftest] css/css-page/page-visibility-hidden-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/page-visibility-hidden-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-visibility-hidden-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0004591729638958858, diffPixels=385
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-visibility-hidden-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-visibility-hidden-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0004591729638958858, diffPixels=385
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-visibility-hidden-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0213] [WPT print-reftest] css/css-page/pseudo-first-margin-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/pseudo-first-margin-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/pseudo-first-margin-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0003768796275093504, diffPixels=316
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/pseudo-first-margin-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/pseudo-first-margin-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0003768796275093504, diffPixels=316
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/pseudo-first-margin-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0214] [WPT print-reftest] css/css-page/pseudo-first-margin-002-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/pseudo-first-margin-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/pseudo-first-margin-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0003768796275093504, diffPixels=316
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/pseudo-first-margin-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/pseudo-first-margin-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0003768796275093504, diffPixels=316
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/pseudo-first-margin-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0215] [WPT print-reftest] css/css-page/pseudo-first-margin-003-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/pseudo-first-margin-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/pseudo-first-margin-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0003768796275093504, diffPixels=316
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/pseudo-first-margin-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/pseudo-first-margin-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0003768796275093504, diffPixels=316
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/pseudo-first-margin-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0216] [WPT print-reftest] css/css-page/pseudo-first-margin-004-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/pseudo-first-margin-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/pseudo-first-margin-004-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0003768796275093504, diffPixels=316
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/pseudo-first-margin-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/pseudo-first-margin-004-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0003768796275093504, diffPixels=316
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/pseudo-first-margin-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0217] [WPT print-reftest] css/css-page/remote-origin-iframe-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/remote-origin-iframe-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/remote-origin-iframe-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00008706396458285627, diffPixels=73
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/remote-origin-iframe-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/remote-origin-iframe-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00008706396458285627, diffPixels=73
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/remote-origin-iframe-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0218] [WPT print-reftest] css/css-page/root-element-display-none-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/reference/blank-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/root-element-display-none-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=1, diffPixels=838464
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/reference/blank-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/root-element-display-none-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=1, diffPixels=838464
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/reference/blank-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0221] [WPT print-reftest] css/css-page/tentative/safe-printable-inset-001-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/tentative/safe-printable-inset-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/tentative/safe-printable-inset-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.19301961682314328, diffPixels=161840
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/tentative/safe-printable-inset-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/tentative/safe-printable-inset-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.19301961682314328, diffPixels=161840
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/tentative/safe-printable-inset-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0222] [WPT print-reftest] css/css-page/tentative/safe-printable-inset-002-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/tentative/safe-printable-inset-002-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/tentative/safe-printable-inset-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.09849319708419205, diffPixels=82583
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/tentative/safe-printable-inset-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/tentative/safe-printable-inset-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.09849319708419205, diffPixels=82583
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/tentative/safe-printable-inset-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0223] [WPT print-reftest] css/css-page/tentative/safe-printable-inset-003-print.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-page/tentative/safe-printable-inset-003-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/tentative/safe-printable-inset-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.3566, diffPixels=35660
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/tentative/safe-printable-inset-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/tentative/safe-printable-inset-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.3566, diffPixels=35660
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/tentative/safe-printable-inset-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+

@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-05-07T11:31:35.996Z",
+  "labels": {
+    "actual": "canary",
+    "baseline": "stable"
+  },
+  "options": {
+    "categories": [],
+    "titleIncludes": [],
+    "files": [],
+    "limit": null,
+    "mode": "reftest-diff",
+    "browser": "chromium",
+    "outDir": "canary-vs-stable/css/css-syntax",
+    "timeoutSec": 10,
+    "maxDiffRatio": 0.00002,
+    "pixelThreshold": 0.1,
+    "viewportWidth": 1800,
+    "viewportHeight": 1800,
+    "skipScreenshots": false,
+    "concurrency": 8,
+    "exportHtml": false,
+    "exportHtmlDiff": false,
+    "actualViewer": "https://vivliostyle.vercel.app/",
+    "baselineViewer": "https://vivliostyle.org/viewer/",
+    "actualLabel": "canary",
+    "baselineLabel": "stable",
+    "extraViewerParams": "bookMode=false",
+    "actualViewerParams": "",
+    "baselineViewerParams": "",
+    "testUrls": [],
+    "refUrls": [],
+    "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
+    "wptBaseUrl": "https://raw.githack.com/web-platform-tests/wpt/master/",
+    "wptPathPrefixes": [
+      "css/css-syntax/"
+    ],
+    "timeoutMs": 10000
+  },
+  "summary": {
+    "totalEntries": 1,
+    "entriesWithDifferences": 0,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
+    "pageCountMismatches": 0,
+    "screenshotMismatches": 0,
+    "outcomes": {
+      "changeTypes": {
+        "pass": 1
+      },
+      "statusPairs": {
+        "PASS->PASS": 1
+      }
+    },
+    "triage": {
+      "differences": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "errors": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "pendingEntries": 0,
+      "triagedEntries": 0
+    }
+  },
+  "entries": [
+    {
+      "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/css-syntax/missing-semicolon.html",
+      "file": [
+        "css/css-syntax/missing-semicolon.html"
+      ],
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-syntax/missing-semicolon.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-syntax/missing-semicolon.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-syntax/missing-semicolon.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-syntax/missing-semicolon-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-syntax/missing-semicolon-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-syntax/missing-semicolon-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    }
+  ]
+}
