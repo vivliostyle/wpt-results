@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T12:13:27.986Z",
+  "generatedAt": "2026-05-07T19:35:00.513Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,17 +39,17 @@
   },
   "summary": {
     "totalEntries": 1218,
-    "entriesWithDifferences": 604,
+    "entriesWithDifferences": 606,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 13,
+    "screenshotMismatches": 15,
     "outcomes": {
       "changeTypes": {
         "pass": 394,
         "known-fail": 591,
-        "unchanged": 220,
-        "changed": 13
+        "unchanged": 218,
+        "changed": 15
       },
       "statusPairs": {
         "PASS->PASS": 394,
@@ -59,14 +59,14 @@
     },
     "triage": {
       "differences": {
-        "pending": 604,
+        "pending": 606,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 604,
+      "pendingEntries": 606,
       "triagedEntries": 0
     }
   },
@@ -81677,26 +81677,10 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-002.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
-      "changeType": "unchanged",
-      "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": []
-    },
-    {
-      "id": "1123",
-      "category": "WPT manual",
-      "title": "css/css-ui/nav-dir-target-003.html",
-      "file": [
-        "css/css-ui/nav-dir-target-003.html"
-      ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-003.html",
-      "actualStatus": "MANUAL",
-      "baselineStatus": "MANUAL",
       "changeType": "changed",
       "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [],
       "difference": {
         "classification": "changed",
@@ -81715,14 +81699,14 @@
             "height": 1056,
             "actualWidth": 794,
             "actualHeight": 1056,
-            "diffPixels": 174,
-            "diffRatio": 0.00020752232653995878,
-            "exactDiffPixels": 420,
-            "exactDiffRatio": 0.0005009159606136936,
+            "diffPixels": 341,
+            "diffRatio": 0.000406696053736356,
+            "exactDiffPixels": 697,
+            "exactDiffRatio": 0.0008312819632089153,
             "exceededDiffPixels": 0,
             "maxChannelDifference": 229,
             "dimensionMismatch": false,
-            "diffImage": "diff/1123-WPT_manual-css-css-ui-nav-dir-target-003.html-p0001.png"
+            "diffImage": "diff/1122-WPT_manual-css-css-ui-nav-dir-target-002.html-p0001.png"
           }
         ],
         "comparisons": [],
@@ -81731,6 +81715,22 @@
           "decision": ""
         }
       }
+    },
+    {
+      "id": "1123",
+      "category": "WPT manual",
+      "title": "css/css-ui/nav-dir-target-003.html",
+      "file": [
+        "css/css-ui/nav-dir-target-003.html"
+      ],
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-003.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
     },
     {
       "id": "1124",
@@ -82000,26 +82000,10 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-009.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
-      "changeType": "unchanged",
-      "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": []
-    },
-    {
-      "id": "1137",
-      "category": "WPT manual",
-      "title": "css/css-ui/nav-down-010.html",
-      "file": [
-        "css/css-ui/nav-down-010.html"
-      ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-010.html",
-      "actualStatus": "MANUAL",
-      "baselineStatus": "MANUAL",
       "changeType": "changed",
       "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [],
       "difference": {
         "classification": "changed",
@@ -82038,14 +82022,14 @@
             "height": 1056,
             "actualWidth": 794,
             "actualHeight": 1056,
-            "diffPixels": 341,
-            "diffRatio": 0.000406696053736356,
-            "exactDiffPixels": 697,
-            "exactDiffRatio": 0.0008312819632089153,
+            "diffPixels": 172,
+            "diffRatio": 0.00020513701244179834,
+            "exactDiffPixels": 327,
+            "exactDiffRatio": 0.0003899988550492329,
             "exceededDiffPixels": 0,
             "maxChannelDifference": 229,
             "dimensionMismatch": false,
-            "diffImage": "diff/1137-WPT_manual-css-css-ui-nav-down-010.html-p0001.png"
+            "diffImage": "diff/1136-WPT_manual-css-css-ui-nav-down-009.html-p0001.png"
           }
         ],
         "comparisons": [],
@@ -82054,6 +82038,22 @@
           "decision": ""
         }
       }
+    },
+    {
+      "id": "1137",
+      "category": "WPT manual",
+      "title": "css/css-ui/nav-down-010.html",
+      "file": [
+        "css/css-ui/nav-down-010.html"
+      ],
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-010.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
     },
     {
       "id": "1138",
@@ -82457,10 +82457,10 @@
             "height": 1056,
             "actualWidth": 794,
             "actualHeight": 1056,
-            "diffPixels": 339,
-            "diffRatio": 0.00040431073963819554,
-            "exactDiffPixels": 699,
-            "exactDiffRatio": 0.0008336672773070758,
+            "diffPixels": 513,
+            "diffRatio": 0.0006118330661781543,
+            "exactDiffPixels": 1119,
+            "exactDiffRatio": 0.0013345832379207693,
             "exceededDiffPixels": 0,
             "maxChannelDifference": 229,
             "dimensionMismatch": false,
@@ -82484,11 +82484,44 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-left-014.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
-      "changeType": "unchanged",
-      "viewerChanged": false,
+      "changeType": "changed",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-left-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-left-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": []
+      "references": [],
+      "difference": {
+        "classification": "changed",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 172,
+            "diffRatio": 0.00020513701244179834,
+            "exactDiffPixels": 327,
+            "exactDiffRatio": 0.0003899988550492329,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 229,
+            "dimensionMismatch": false,
+            "diffImage": "diff/1158-WPT_manual-css-css-ui-nav-left-014.html-p0001.png"
+          }
+        ],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "1159",
@@ -82806,44 +82839,11 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-right-013.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
-      "changeType": "changed",
-      "viewerChanged": true,
+      "changeType": "unchanged",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-right-013.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-right-013.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": [],
-      "difference": {
-        "classification": "changed",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 339,
-            "diffRatio": 0.00040431073963819554,
-            "exactDiffPixels": 699,
-            "exactDiffRatio": 0.0008336672773070758,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 229,
-            "dimensionMismatch": false,
-            "diffImage": "diff/1174-WPT_manual-css-css-ui-nav-right-013.html-p0001.png"
-          }
-        ],
-        "comparisons": [],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      "references": []
     },
     {
       "id": "1175",
@@ -83080,44 +83080,11 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-009.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
-      "changeType": "changed",
-      "viewerChanged": true,
+      "changeType": "unchanged",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": [],
-      "difference": {
-        "classification": "changed",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 172,
-            "diffRatio": 0.00020513701244179834,
-            "exactDiffPixels": 327,
-            "exactDiffRatio": 0.0003899988550492329,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 229,
-            "dimensionMismatch": false,
-            "diffImage": "diff/1187-WPT_manual-css-css-ui-nav-up-009.html-p0001.png"
-          }
-        ],
-        "comparisons": [],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      "references": []
     },
     {
       "id": "1188",
@@ -83161,11 +83128,44 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-012.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
-      "changeType": "unchanged",
-      "viewerChanged": false,
+      "changeType": "changed",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": []
+      "references": [],
+      "difference": {
+        "classification": "changed",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 343,
+            "diffRatio": 0.0004090813678345164,
+            "exactDiffPixels": 790,
+            "exactDiffRatio": 0.0009421990687733761,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 229,
+            "dimensionMismatch": false,
+            "diffImage": "diff/1190-WPT_manual-css-css-ui-nav-up-012.html-p0001.png"
+          }
+        ],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "1191",
@@ -83385,11 +83385,44 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/resize-010.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
-      "changeType": "unchanged",
-      "viewerChanged": false,
+      "changeType": "changed",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/resize-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/resize-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": []
+      "references": [],
+      "difference": {
+        "classification": "changed",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 10000,
+            "diffRatio": 0.01192657049080223,
+            "exactDiffPixels": 10000,
+            "exactDiffRatio": 0.01192657049080223,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/1204-WPT_manual-css-css-ui-resize-010.html-p0001.png"
+          }
+        ],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "1205",
@@ -83449,11 +83482,44 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/resize-014.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
-      "changeType": "unchanged",
-      "viewerChanged": false,
+      "changeType": "changed",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/resize-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/resize-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": []
+      "references": [],
+      "difference": {
+        "classification": "changed",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 5587,
+            "diffRatio": 0.006663374933211205,
+            "exactDiffPixels": 7500,
+            "exactDiffRatio": 0.008944927868101672,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/1208-WPT_manual-css-css-ui-resize-014.html-p0001.png"
+          }
+        ],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "1209",

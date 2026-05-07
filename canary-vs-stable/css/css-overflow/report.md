@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 494
-- Entries with differences: 315 (improvement: 1, pending: 314, triaged: 0)
+- Entries with differences: 316 (improvement: 2, pending: 314, triaged: 0)
 - Entries with errors: 4 (pending: 4, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 8
-- Outcome summary: {"known-fail":306,"changed-fail":6,"pass":176,"expected-change":2,"improvement":1,"error":3}
+- Outcome summary: {"known-fail":305,"changed-fail":6,"pass":175,"expected-change":2,"improvement":2,"error":3,"regression":1}
 
 ## Differences
 
@@ -2711,6 +2711,15 @@
   stable page 1: diffRatio=0.010495382031905962, diffPixels=8800
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-overflow/overflow-clip-margin-invalidation-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0322] [WPT reftest] css/css-overflow/overflow-clip-margin-mul-column-border-box.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-overflow/overflow-clip-margin-mul-column-border-box-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-overflow/overflow-clip-margin-mul-column-border-box.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.008795845736966644, diffPixels=7375
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-overflow/overflow-clip-margin-mul-column-border-box-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0333] [WPT reftest] css/css-overflow/overflow-clipped-transparent-border-clip.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -2769,21 +2778,17 @@
   reference: css/css-overflow/overflow-replaced-element-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-overflow/overflow-replaced-element-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003554118006259064, diffPixels=298
+  canary page 1: diffRatio=0.00023733875276696435, diffPixels=199
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-overflow/overflow-replaced-element-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-overflow/overflow-replaced-element-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002552286085031677, diffPixels=214
+  stable page 1: diffRatio=0.00019678841309823678, diffPixels=165
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-overflow/overflow-replaced-element-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0354] [WPT reftest] css/css-overflow/overflow-video-hidden.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-overflow/overflow-video-ref.html (!=)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-overflow/overflow-video-hidden.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality: comparison matched but relation is !=
-  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-overflow/overflow-video-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-overflow/overflow-video-hidden.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable unexpected equality: comparison matched but relation is !=

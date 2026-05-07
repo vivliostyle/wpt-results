@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 792
-- Entries with differences: 260 (improvement: 3, pending: 257, triaged: 0)
+- Entries with differences: 263 (improvement: 5, pending: 258, triaged: 0)
 - Entries with errors: 3 (pending: 3, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 2
-- Outcome summary: {"pass":531,"known-fail":255,"improvement":3,"regression":1,"changed-fail":1,"unchanged":1}
+- Outcome summary: {"pass":528,"known-fail":256,"improvement":5,"changed-fail":1,"regression":1,"unchanged":1}
 
 ## Differences
 
@@ -1889,9 +1889,13 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform-box/reference/cssbox-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0411] [WPT reftest] css/css-transforms/transform-box/fill-box-mutation-002.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-box/reference/greensquare200x200.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform-box/fill-box-mutation-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform-box/reference/greensquare200x200.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform-box/fill-box-mutation-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.04470555682772308, diffPixels=37484
@@ -2078,9 +2082,18 @@
   canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform-iframe-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform-iframe-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0456] [WPT reftest] css/css-transforms/transform-iframe-002.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform-iframe-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0457] [WPT reftest] css/css-transforms/transform-iframe-scroll-position.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-iframe-scroll-position-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform-iframe-scroll-position.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2088,7 +2101,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform-iframe-scroll-position-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform-iframe-scroll-position.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  stable page 1: diffRatio=0.0014908213113502787, diffPixels=1250
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform-iframe-scroll-position-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0459] [WPT reftest] css/css-transforms/transform-inherit-001.html
@@ -3351,6 +3364,18 @@
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform-translate-background-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform-translate-background-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0751] [WPT reftest] css/css-transforms/transform3d-sorting-006.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform3d-sorting-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform3d-sorting-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0752] [WPT reftest] css/css-transforms/transform3d-translate3d-001.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform3d-translate3d-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform3d-translate3d-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0786] [WPT reftest] css/css-transforms/ttwf-reftest-rotate.html
   triage: pending

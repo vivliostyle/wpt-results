@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 206
-- Entries with differences: 83 (improvement: 3, pending: 80, triaged: 0)
+- Entries with differences: 86 (improvement: 3, pending: 83, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 5
-- Outcome summary: {"pass":123,"known-fail":77,"improvement":3,"regression":1,"changed-fail":1,"changed":1}
+- Screenshot mismatches: 7
+- Outcome summary: {"pass":120,"known-fail":78,"expected-change":3,"improvement":3,"changed-fail":1,"changed":1}
 
 ## Differences
 
@@ -192,6 +192,13 @@
   stable page 1: diffRatio=0.0005533928707732234, diffPixels=464
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/attr-style-sharing-2-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0028] [WPT reftest] css/css-values/calc-height-block-1.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.00043531982291428135, diffPixels=365
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/calc-height-block-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/calc-height-block-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0030] [WPT reftest] css/css-values/calc-in-calc.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -256,6 +263,20 @@
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/calc-in-media-queries-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/reference/all-green.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0037] [WPT reftest] css/css-values/calc-max-height-block-1.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0024330203801236545, diffPixels=2040
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/calc-max-height-block-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/calc-max-height-block-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0040] [WPT reftest] css/css-values/calc-min-height-block-1.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0005247691015952981, diffPixels=440
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/calc-min-height-block-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/calc-min-height-block-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0053] [WPT reftest] css/css-values/calc-parenthesis-stack.html
   triage: pending
@@ -1001,12 +1022,16 @@
 
 - [0191] [WPT reftest] css/css-values/vh-support-transform-translate.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-values/reference/all-green.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/vh-support-transform-translate.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.00047706281963208914, diffPixels=400
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/reference/all-green.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/vh-support-transform-translate.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00047706281963208914, diffPixels=400
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/reference/all-green.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0192] [WPT reftest] css/css-values/vh-support.html
   triage: pending
@@ -1031,7 +1056,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/vh-update-and-transition-in-subframe.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01038088695519426, diffPixels=8704
+  stable page 1: diffRatio=0.020114161132737958, diffPixels=16865
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0196] [WPT reftest] css/css-values/viewport-units-scrollbars-auto-vhw-001.html

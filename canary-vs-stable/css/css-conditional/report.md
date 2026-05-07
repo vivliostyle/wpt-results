@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 165
-- Entries with differences: 59 (improvement: 2, pending: 57, triaged: 0)
+- Entries with differences: 61 (improvement: 4, pending: 57, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 2
-- Outcome summary: {"pass":106,"known-fail":56,"improvement":2,"regression":1}
+- Screenshot mismatches: 3
+- Outcome summary: {"pass":104,"known-fail":56,"improvement":4,"expected-change":1}
 
 ## Differences
 
@@ -148,6 +148,18 @@
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/at-supports-030.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/at-supports-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0046] [WPT reftest] css/css-conditional/at-supports-036.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/at-supports-036.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/at-supports-036.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0051] [WPT reftest] css/css-conditional/at-supports-044.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/at-supports-044.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/at-supports-044.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0052] [WPT reftest] css/css-conditional/at-supports-045.html
   triage: pending
@@ -420,12 +432,10 @@
 
 - [0081] [WPT reftest] css/css-conditional/container-queries/container-for-cue.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-conditional/container-queries/container-for-cue-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/container-queries/container-for-cue.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0004019254255400351, diffPixels=337
-  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/container-queries/container-for-cue-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0004019254255400351, diffPixels=337
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/container-queries/container-for-cue.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/container-queries/container-for-cue.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0082] [WPT reftest] css/css-conditional/container-queries/container-units-gradient-invalidation.html
   triage: pending

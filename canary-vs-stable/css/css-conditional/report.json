@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T09:59:24.192Z",
+  "generatedAt": "2026-05-07T17:07:27.731Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,23 +39,23 @@
   },
   "summary": {
     "totalEntries": 165,
-    "entriesWithDifferences": 59,
+    "entriesWithDifferences": 61,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 2,
+    "screenshotMismatches": 3,
     "outcomes": {
       "changeTypes": {
-        "pass": 106,
+        "pass": 104,
         "known-fail": 56,
-        "improvement": 2,
-        "regression": 1
+        "improvement": 4,
+        "expected-change": 1
       },
       "statusPairs": {
-        "PASS->PASS": 106,
+        "PASS->PASS": 105,
         "FAIL->FAIL": 56,
         "FAIL->PASS": 2,
-        "PASS->FAIL": 1
+        "ERROR->PASS": 2
       }
     },
     "triage": {
@@ -2149,8 +2149,8 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/at-supports-036.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "ERROR",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/at-supports-036.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/at-supports-036.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -2161,7 +2161,24 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/at-supports-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/at-supports-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": null
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0047",
@@ -2264,8 +2281,8 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/at-supports-044.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "ERROR",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/at-supports-044.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/at-supports-044.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -2276,7 +2293,24 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/at-supports-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/at-supports-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": null
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0052",
@@ -4946,10 +4980,10 @@
         "css/css-conditional/container-queries/container-for-cue.html"
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/container-queries/container-for-cue.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "regression",
-      "viewerChanged": false,
+      "changeType": "expected-change",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/container-queries/container-for-cue.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/container-queries/container-for-cue.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -4961,7 +4995,7 @@
         }
       ],
       "difference": {
-        "classification": "regression",
+        "classification": "expected-change",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -4970,48 +5004,24 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
-        "comparisons": [
+        "pages": [
           {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-conditional/container-queries/container-for-cue-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/container-queries/container-for-cue-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 337,
-                "diffRatio": 0.0004019254255400351,
-                "exactDiffPixels": 473,
-                "exactDiffRatio": 0.0005641267842149454,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 204,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0081-WPT_reftest-css-css-conditional-container-queries-container-for-cue.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/container-queries/container-for-cue-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 337,
+            "diffRatio": 0.0004019254255400351,
+            "exactDiffPixels": 473,
+            "exactDiffRatio": 0.0005641267842149454,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 204,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0081-WPT_reftest-css-css-conditional-container-queries-container-for-cue.html-p0001.png"
           }
         ],
+        "comparisons": [],
         "triage": {
           "status": "pending",
           "decision": ""

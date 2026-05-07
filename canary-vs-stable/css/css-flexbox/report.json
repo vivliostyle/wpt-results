@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T10:20:11.349Z",
+  "generatedAt": "2026-05-07T17:29:24.670Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -43,12 +43,12 @@
     "entriesWithErrors": 1,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 20,
+    "screenshotMismatches": 24,
     "outcomes": {
       "changeTypes": {
         "pass": 827,
-        "known-fail": 74,
-        "improvement": 19,
+        "known-fail": 70,
+        "improvement": 23,
         "expected-change": 14,
         "changed-fail": 3,
         "error": 1,
@@ -56,22 +56,22 @@
       },
       "statusPairs": {
         "PASS->PASS": 841,
-        "FAIL->FAIL": 77,
-        "FAIL->PASS": 19,
+        "FAIL->FAIL": 73,
+        "FAIL->PASS": 23,
         "ERROR->ERROR": 1,
         "MANUAL->MANUAL": 21
       }
     },
     "triage": {
       "differences": {
-        "pending": 91,
+        "pending": 87,
         "triaged": 0
       },
       "errors": {
         "pending": 1,
         "triaged": 0
       },
-      "pendingEntries": 92,
+      "pendingEntries": 88,
       "triagedEntries": 0
     }
   },
@@ -11444,8 +11444,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 49150,
                 "diffRatio": 0.05861909396229296,
-                "exactDiffPixels": 838462,
-                "exactDiffRatio": 0.9999976146859019,
+                "exactDiffPixels": 52650,
+                "exactDiffRatio": 0.06279339363407374,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -15739,10 +15739,10 @@
         "css/css-flexbox/flexbox-min-height-auto-001.html"
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-001.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "improvement",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -15754,8 +15754,8 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
-        "triageRequired": true,
+        "classification": "improvement",
+        "triageRequired": false,
         "pageCountMismatch": false,
         "actual": {
           "totalPages": 1
@@ -15763,47 +15763,24 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
-        "comparisons": [
+        "pages": [
           {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-flexbox/flexbox-min-height-auto-001-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 7700,
-                "diffRatio": 0.009183459277917716,
-                "exactDiffPixels": 7700,
-                "exactDiffRatio": 0.009183459277917716,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0448-WPT_reftest-css-css-flexbox-flexbox-min-height-auto-001.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 7700,
+            "diffRatio": 0.009183459277917716,
+            "exactDiffPixels": 7700,
+            "exactDiffRatio": 0.009183459277917716,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0448-WPT_reftest-css-css-flexbox-flexbox-min-height-auto-001.html-p0001.png"
+          }
+        ],
+        "comparisons": [
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-flexbox/flexbox-min-height-auto-001-ref.html",
@@ -15845,7 +15822,7 @@
           }
         ],
         "triage": {
-          "status": "pending",
+          "status": "not-needed",
           "decision": ""
         }
       }
@@ -15858,10 +15835,10 @@
         "css/css-flexbox/flexbox-min-height-auto-002a.html"
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002a.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "improvement",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -15873,8 +15850,8 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
-        "triageRequired": true,
+        "classification": "improvement",
+        "triageRequired": false,
         "pageCountMismatch": false,
         "actual": {
           "totalPages": 1
@@ -15882,47 +15859,24 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
-        "comparisons": [
+        "pages": [
           {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-flexbox/flexbox-min-height-auto-002-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 2056,
-                "diffRatio": 0.002452102892908938,
-                "exactDiffPixels": 2056,
-                "exactDiffRatio": 0.002452102892908938,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0449-WPT_reftest-css-css-flexbox-flexbox-min-height-auto-002a.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 2056,
+            "diffRatio": 0.002452102892908938,
+            "exactDiffPixels": 2056,
+            "exactDiffRatio": 0.002452102892908938,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0449-WPT_reftest-css-css-flexbox-flexbox-min-height-auto-002a.html-p0001.png"
+          }
+        ],
+        "comparisons": [
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-flexbox/flexbox-min-height-auto-002-ref.html",
@@ -15964,7 +15918,7 @@
           }
         ],
         "triage": {
-          "status": "pending",
+          "status": "not-needed",
           "decision": ""
         }
       }
@@ -15977,10 +15931,10 @@
         "css/css-flexbox/flexbox-min-height-auto-002b.html"
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002b.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "improvement",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -15992,8 +15946,8 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
-        "triageRequired": true,
+        "classification": "improvement",
+        "triageRequired": false,
         "pageCountMismatch": false,
         "actual": {
           "totalPages": 1
@@ -16001,47 +15955,24 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
-        "comparisons": [
+        "pages": [
           {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-flexbox/flexbox-min-height-auto-002-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 2056,
-                "diffRatio": 0.002452102892908938,
-                "exactDiffPixels": 2056,
-                "exactDiffRatio": 0.002452102892908938,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0450-WPT_reftest-css-css-flexbox-flexbox-min-height-auto-002b.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 2056,
+            "diffRatio": 0.002452102892908938,
+            "exactDiffPixels": 2056,
+            "exactDiffRatio": 0.002452102892908938,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0450-WPT_reftest-css-css-flexbox-flexbox-min-height-auto-002b.html-p0001.png"
+          }
+        ],
+        "comparisons": [
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-flexbox/flexbox-min-height-auto-002-ref.html",
@@ -16083,7 +16014,7 @@
           }
         ],
         "triage": {
-          "status": "pending",
+          "status": "not-needed",
           "decision": ""
         }
       }
@@ -16096,10 +16027,10 @@
         "css/css-flexbox/flexbox-min-height-auto-002c.html"
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002c.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "improvement",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002c.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002c.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -16111,8 +16042,8 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
-        "triageRequired": true,
+        "classification": "improvement",
+        "triageRequired": false,
         "pageCountMismatch": false,
         "actual": {
           "totalPages": 1
@@ -16120,47 +16051,24 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
-        "comparisons": [
+        "pages": [
           {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-flexbox/flexbox-min-height-auto-002-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 2056,
-                "diffRatio": 0.002452102892908938,
-                "exactDiffPixels": 2056,
-                "exactDiffRatio": 0.002452102892908938,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0451-WPT_reftest-css-css-flexbox-flexbox-min-height-auto-002c.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-flexbox/flexbox-min-height-auto-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 2056,
+            "diffRatio": 0.002452102892908938,
+            "exactDiffPixels": 2056,
+            "exactDiffRatio": 0.002452102892908938,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0451-WPT_reftest-css-css-flexbox-flexbox-min-height-auto-002c.html-p0001.png"
+          }
+        ],
+        "comparisons": [
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-flexbox/flexbox-min-height-auto-002-ref.html",
@@ -16202,7 +16110,7 @@
           }
         ],
         "triage": {
-          "status": "pending",
+          "status": "not-needed",
           "decision": ""
         }
       }

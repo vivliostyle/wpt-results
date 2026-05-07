@@ -1236,6 +1236,10 @@
       referenceFile: css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0061"
   category: WPT reftest
   title: css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-010.html
@@ -1286,6 +1290,10 @@
       referenceFile: css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0064"
   category: WPT reftest
   title: css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-013.html
@@ -1697,6 +1705,10 @@
       referenceFile: css/css-shapes/shape-outside/shape-image/reference/shape-image-018-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/reference/shape-image-018-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-shapes/shape-outside/shape-image/reference/shape-image-018-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/reference/shape-image-018-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0088"
   category: WPT reftest
   title: css/css-shapes/shape-outside/shape-image/shape-image-019.html
@@ -2071,6 +2083,10 @@
       referenceFile: css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-013-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-013-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-013-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-013-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0107"
   category: WPT reftest
   title: css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-022.html

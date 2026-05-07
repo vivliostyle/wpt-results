@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T10:48:36.707Z",
+  "generatedAt": "2026-05-07T18:00:55.701Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -40,37 +40,35 @@
   "summary": {
     "totalEntries": 449,
     "entriesWithDifferences": 150,
-    "entriesWithErrors": 2,
+    "entriesWithErrors": 1,
     "timeoutEntries": 1,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 22,
+    "screenshotMismatches": 21,
     "outcomes": {
       "changeTypes": {
-        "pass": 297,
-        "known-fail": 125,
-        "error": 2,
+        "pass": 298,
+        "known-fail": 127,
+        "error": 1,
         "regression": 2,
-        "changed-fail": 6,
-        "improvement": 16,
+        "changed-fail": 5,
+        "improvement": 15,
         "expected-change": 1
       },
       "statusPairs": {
-        "PASS->PASS": 298,
-        "FAIL->FAIL": 131,
+        "PASS->PASS": 299,
+        "FAIL->FAIL": 132,
         "ERROR->ERROR": 1,
         "PASS->FAIL": 2,
-        "FAIL->PASS": 15,
-        "ERROR->PASS": 1,
-        "FAIL->ERROR": 1
+        "FAIL->PASS": 15
       }
     },
     "triage": {
       "differences": {
-        "pending": 134,
+        "pending": 135,
         "triaged": 0
       },
       "errors": {
-        "pending": 2,
+        "pending": 1,
         "triaged": 0
       },
       "pendingEntries": 136,
@@ -527,7 +525,7 @@
           "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
+            "message": "page.waitForFunction: Timeout 10000ms exceeded.",
             "timeout": true
           },
           "sideErrors": [
@@ -535,7 +533,7 @@
               "side": "canary",
               "error": {
                 "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
+                "message": "page.waitForFunction: Timeout 10000ms exceeded.",
                 "timeout": true
               }
             },
@@ -543,7 +541,7 @@
               "side": "stable",
               "error": {
                 "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
+                "message": "page.waitForFunction: Timeout 10000ms exceeded.",
                 "timeout": true
               }
             }
@@ -10531,8 +10529,8 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-contain-svg-002e.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-contain-svg-002e.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-contain-svg-002e.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -10544,7 +10542,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -10553,23 +10551,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 1600,
-            "diffRatio": 0.0019082512785283565,
-            "exactDiffPixels": 1600,
-            "exactDiffRatio": 0.0019082512785283565,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0218-WPT_reftest-css-css-images-object-fit-contain-svg-002e.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -10595,10 +10577,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 12972,
-                "diffRatio": 0.015471147240668651,
-                "exactDiffPixels": 12972,
-                "exactDiffRatio": 0.015471147240668651,
+                "diffPixels": 12412,
+                "diffRatio": 0.014803259293183726,
+                "exactDiffPixels": 12412,
+                "exactDiffRatio": 0.014803259293183726,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -13025,8 +13007,8 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-001p.html",
       "actualStatus": "PASS",
-      "baselineStatus": "ERROR",
-      "changeType": "improvement",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-001p.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-001p.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -13037,24 +13019,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": null
-        },
-        "pages": [],
-        "comparisons": [],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0260",
@@ -13064,9 +13029,9 @@
         "css/css-images/object-fit-cover-svg-002e.html"
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002e.html",
-      "actualStatus": "ERROR",
+      "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "error",
+      "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002e.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002e.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -13078,20 +13043,102 @@
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "errors": [
-        {
-          "side": "canary",
-          "error": {
-            "name": "Error",
-            "message": "Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002e.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).",
-            "timeout": false
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-images/object-fit-cover-svg-002-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 5840,
+                "diffRatio": 0.006965117166628502,
+                "exactDiffPixels": 5840,
+                "exactDiffRatio": 0.006965117166628502,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0260-WPT_reftest-css-css-images-object-fit-cover-svg-002e.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
-          "triage": {
-            "status": "pending",
-            "decision": ""
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-images/object-fit-cover-svg-002-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 5840,
+                "diffRatio": 0.006965117166628502,
+                "exactDiffPixels": 5840,
+                "exactDiffRatio": 0.006965117166628502,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0260-WPT_reftest-css-css-images-object-fit-cover-svg-002e.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
         }
-      ]
+      }
     },
     {
       "id": "0261",
@@ -16392,8 +16439,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 1170,
                 "diffRatio": 0.0013954087474238608,
-                "exactDiffPixels": 1178,
-                "exactDiffRatio": 0.0014049500038165025,
+                "exactDiffPixels": 835706,
+                "exactDiffRatio": 0.9967106518586367,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -19508,8 +19555,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 20972,
                 "diffRatio": 0.025012403633310434,
-                "exactDiffPixels": 838154,
-                "exactDiffRatio": 0.9996302763147852,
+                "exactDiffPixels": 20972,
+                "exactDiffRatio": 0.025012403633310434,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -21934,8 +21981,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 8,
                 "diffRatio": 0.000009541256392641783,
-                "exactDiffPixels": 838144,
-                "exactDiffRatio": 0.9996183497442943,
+                "exactDiffPixels": 40,
+                "exactDiffRatio": 0.00004770628196320891,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 36,
                 "dimensionMismatch": false,

@@ -29,7 +29,7 @@
   reference: css/css-fonts/downloadable-font-scoped-to-document-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-fonts/downloadable-font-scoped-to-document.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018319212273872224, diffPixels=1536
+  canary page 1: diffRatio=0.0018581596824669873, diffPixels=1558
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-fonts/downloadable-font-scoped-to-document-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-fonts/downloadable-font-scoped-to-document.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false

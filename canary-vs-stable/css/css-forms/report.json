@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T10:24:29.786Z",
+  "generatedAt": "2026-05-07T17:34:04.164Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -43,12 +43,11 @@
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 1,
+    "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 12,
-        "pass": 2,
-        "changed-fail": 1
+        "known-fail": 13,
+        "pass": 2
       },
       "statusPairs": {
         "FAIL->FAIL": 13,
@@ -1292,8 +1291,8 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/progress-base-appearance-rendering.tentative.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/progress-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/progress-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1305,7 +1304,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -1314,23 +1313,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 360,
-            "diffRatio": 0.0004293565376688802,
-            "exactDiffPixels": 504,
-            "exactDiffRatio": 0.0006010991527364323,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 239,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0012-WPT_reftest-css-css-forms-progress-base-appearance-rendering.tentative.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,

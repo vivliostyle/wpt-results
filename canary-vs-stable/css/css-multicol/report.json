@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T11:02:39.750Z",
+  "generatedAt": "2026-05-07T18:16:43.477Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -43,13 +43,13 @@
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 3,
+    "screenshotMismatches": 4,
     "outcomes": {
       "changeTypes": {
         "pass": 362,
-        "known-fail": 97,
+        "known-fail": 96,
         "improvement": 4,
-        "changed-fail": 1,
+        "changed-fail": 2,
         "unchanged": 1
       },
       "statusPairs": {
@@ -11697,8 +11697,8 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-multicol/multicol-span-all-007.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "changed-fail",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-multicol/multicol-span-all-007.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-multicol/multicol-span-all-007.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -11710,7 +11710,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "changed-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -11719,7 +11719,23 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 3803,
+            "diffRatio": 0.004535674757652088,
+            "exactDiffPixels": 4767,
+            "exactDiffRatio": 0.005685396152965422,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0303-WPT_reftest-css-css-multicol-multicol-span-all-007.html-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -11745,10 +11761,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 1200,
-                "diffRatio": 0.0014311884588962675,
-                "exactDiffPixels": 1200,
-                "exactDiffRatio": 0.0014311884588962675,
+                "diffPixels": 4093,
+                "diffRatio": 0.004881545301885352,
+                "exactDiffPixels": 5049,
+                "exactDiffRatio": 0.006021725440806046,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,

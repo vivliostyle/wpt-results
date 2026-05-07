@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1218
-- Entries with differences: 604 (pending: 604, triaged: 0)
+- Entries with differences: 606 (pending: 606, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 13
-- Outcome summary: {"pass":394,"known-fail":591,"unchanged":220,"changed":13}
+- Screenshot mismatches: 15
+- Outcome summary: {"pass":394,"known-fail":591,"unchanged":218,"changed":15}
 
 ## Differences
 
@@ -7710,12 +7710,12 @@
   canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1123] [WPT manual] css/css-ui/nav-dir-target-003.html
+- [1122] [WPT manual] css/css-ui/nav-dir-target-002.html
   triage: pending
   outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020752232653995878, diffPixels=174
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  page 1: diffRatio=0.000406696053736356, diffPixels=341
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1132] [WPT manual] css/css-ui/nav-down-005.html
   triage: pending
@@ -7731,12 +7731,12 @@
   canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1137] [WPT manual] css/css-ui/nav-down-010.html
+- [1136] [WPT manual] css/css-ui/nav-down-009.html
   triage: pending
   outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.000406696053736356, diffPixels=341
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  page 1: diffRatio=0.00020513701244179834, diffPixels=172
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1149] [WPT manual] css/css-ui/nav-left-005.html
   triage: pending
@@ -7755,9 +7755,16 @@
 - [1157] [WPT manual] css/css-ui/nav-left-013.html
   triage: pending
   outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00040431073963819554, diffPixels=339
+  page 1: diffRatio=0.0006118330661781543, diffPixels=513
   canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-left-013.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-left-013.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1158] [WPT manual] css/css-ui/nav-left-014.html
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.00020513701244179834, diffPixels=172
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-left-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-left-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1166] [WPT manual] css/css-ui/nav-right-005.html
   triage: pending
@@ -7773,13 +7780,6 @@
   canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-right-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-right-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1174] [WPT manual] css/css-ui/nav-right-013.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00040431073963819554, diffPixels=339
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-right-013.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-right-013.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [1184] [WPT manual] css/css-ui/nav-up-006.html
   triage: pending
   outcome: changed (baseline=MANUAL, actual=MANUAL)
@@ -7787,10 +7787,24 @@
   canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1187] [WPT manual] css/css-ui/nav-up-009.html
+- [1190] [WPT manual] css/css-ui/nav-up-012.html
   triage: pending
   outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020513701244179834, diffPixels=172
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  page 1: diffRatio=0.0004090813678345164, diffPixels=343
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1204] [WPT manual] css/css-ui/resize-010.html
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/resize-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/resize-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1208] [WPT manual] css/css-ui/resize-014.html
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.006663374933211205, diffPixels=5587
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/resize-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/resize-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

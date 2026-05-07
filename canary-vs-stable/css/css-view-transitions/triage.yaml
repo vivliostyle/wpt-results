@@ -2212,6 +2212,10 @@
       referenceFile: css/css-view-transitions/navigation/root-element-transition-iframe-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-view-transitions/navigation/root-element-transition-iframe-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-view-transitions/navigation/root-element-transition-iframe-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-view-transitions/navigation/root-element-transition-iframe-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0104"
   category: WPT reftest
   title: css/css-view-transitions/navigation/root-element-transition-iframe-with-startVT-on-main.html
@@ -3266,10 +3270,6 @@
       referenceFile: css/css-view-transitions/new-content-transform-change-001-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-view-transitions/new-content-transform-change-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-view-transitions/new-content-transform-change-001-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-view-transitions/new-content-transform-change-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0168"
   category: WPT reftest
   title: css/css-view-transitions/new-content-transform-position-fixed.html
@@ -4895,22 +4895,6 @@
       referenceFile: css/css-view-transitions/scoped/ancestor-display-change-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-view-transitions/scoped/ancestor-display-change-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0235"
-  category: WPT reftest
-  title: css/css-view-transitions/scoped/auto-nesting.html
-  file: css/css-view-transitions/scoped/auto-nesting.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-view-transitions/scoped/auto-nesting.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-view-transitions/scoped/auto-nesting.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "0238"
   category: WPT reftest
   title: css/css-view-transitions/scoped/clip-on-target-in-callback-2.html

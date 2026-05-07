@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T09:30:47.328Z",
+  "generatedAt": "2026-05-07T16:36:58.571Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,15 +39,16 @@
   },
   "summary": {
     "totalEntries": 60,
-    "entriesWithDifferences": 9,
+    "entriesWithDifferences": 10,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 0,
+    "screenshotMismatches": 1,
     "outcomes": {
       "changeTypes": {
-        "pass": 51,
-        "known-fail": 9
+        "pass": 50,
+        "known-fail": 9,
+        "expected-change": 1
       },
       "statusPairs": {
         "PASS->PASS": 51,
@@ -56,14 +57,14 @@
     },
     "triage": {
       "differences": {
-        "pending": 9,
+        "pending": 10,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 9,
+      "pendingEntries": 10,
       "triagedEntries": 0
     }
   },
@@ -1209,8 +1210,8 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "pass",
-      "viewerChanged": false,
+      "changeType": "expected-change",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1220,7 +1221,40 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-video-sibling-notref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-video-sibling-notref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "expected-change",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 102776,
+            "diffRatio": 0.12257652087626898,
+            "exactDiffPixels": 103800,
+            "exactDiffRatio": 0.12379780169452713,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0046-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-video-sibling.html-p0001.png"
+          }
+        ],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0047",

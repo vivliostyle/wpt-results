@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T09:53:32.292Z",
+  "generatedAt": "2026-05-07T17:00:59.563Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,25 +39,22 @@
   },
   "summary": {
     "totalEntries": 1008,
-    "entriesWithDifferences": 97,
-    "entriesWithErrors": 2,
+    "entriesWithDifferences": 96,
+    "entriesWithErrors": 1,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 11,
     "outcomes": {
       "changeTypes": {
-        "pass": 910,
+        "pass": 912,
         "known-fail": 85,
-        "improvement": 7,
-        "changed-fail": 5,
-        "error": 1
+        "improvement": 6,
+        "changed-fail": 5
       },
       "statusPairs": {
-        "PASS->PASS": 910,
+        "PASS->PASS": 912,
         "FAIL->FAIL": 90,
-        "FAIL->PASS": 6,
-        "ERROR->PASS": 1,
-        "PASS->ERROR": 1
+        "FAIL->PASS": 6
       }
     },
     "triage": {
@@ -66,10 +63,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 2,
+        "pending": 1,
         "triaged": 0
       },
-      "pendingEntries": 92,
+      "pendingEntries": 91,
       "triagedEntries": 0
     }
   },
@@ -25087,8 +25084,8 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-016.html",
       "actualStatus": "PASS",
-      "baselineStatus": "ERROR",
-      "changeType": "improvement",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-016.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-016.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -25099,24 +25096,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": null
-        },
-        "pages": [],
-        "comparisons": [],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0912",
@@ -25126,9 +25106,9 @@
         "css/css-break/transform-017.html"
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-017.html",
-      "actualStatus": "ERROR",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "error",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-017.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-017.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -25138,20 +25118,6 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "errors": [
-        {
-          "side": "canary",
-          "error": {
-            "name": "Error",
-            "message": "Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-017.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).",
-            "timeout": false
-          },
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
         }
       ]
     },

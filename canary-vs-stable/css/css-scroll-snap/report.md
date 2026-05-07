@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 2
-- Outcome summary: {"known-fail":14,"changed-fail":1,"improvement":1,"pass":7}
+- Screenshot mismatches: 1
+- Outcome summary: {"known-fail":15,"pass":7,"improvement":1}
 
 ## Differences
 
@@ -64,7 +64,7 @@
 
 - [0005] [WPT reftest] css/css-scroll-snap/scroll-target-align-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-scroll-snap/scroll-target-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -72,7 +72,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014955919395465995, diffPixels=12540
+  stable page 1: diffRatio=0.030053764979772538, diffPixels=25199
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0006] [WPT reftest] css/css-scroll-snap/scroll-target-align-002.html
@@ -98,15 +98,6 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014955919395465995, diffPixels=12540
-  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0008] [WPT reftest] css/css-scroll-snap/scroll-target-margin-001.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-scroll-snap/scroll-target-001-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.014955919395465995, diffPixels=12540
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -146,6 +137,15 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.014955919395465995, diffPixels=12540
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0012] [WPT reftest] css/css-scroll-snap/scroll-target-padding-001.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-scroll-snap/scroll-target-001-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-padding-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.014955919395465995, diffPixels=12540
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

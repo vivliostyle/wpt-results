@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 60
-- Entries with differences: 9 (pending: 9, triaged: 0)
+- Entries with differences: 10 (pending: 10, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":51,"known-fail":9}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":50,"known-fail":9,"expected-change":1}
 
 ## Differences
 
@@ -22,6 +22,13 @@
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-border-image.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.005247691015952981, diffPixels=4400
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-border-image-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0046] [WPT reftest] css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.12257652087626898, diffPixels=102776
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0049] [WPT reftest] css/compositing/root-element-background-image-transparency-001.html
   triage: pending

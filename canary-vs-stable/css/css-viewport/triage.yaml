@@ -473,29 +473,6 @@
       referenceFile: css/css-viewport/zoom/font-size-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/font-size-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0040"
-  category: WPT reftest
-  title: css/css-viewport/zoom/iframe-zoom.sub.html
-  file: css/css-viewport/zoom/iframe-zoom.sub.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/iframe-zoom.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/iframe-zoom.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-viewport/zoom/reference/iframe-zoom-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-viewport/zoom/reference/iframe-zoom-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-viewport/zoom/reference/iframe-zoom-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/reference/iframe-zoom-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0044"
   category: WPT reftest
   title: css/css-viewport/zoom/letter-spacing.html
@@ -872,3 +849,20 @@
       errorName: TimeoutError
       errorMessage: "Timeout (10000ms): waiting for viewer ready"
       timeout: true
+- id: "0040"
+  category: WPT reftest
+  title: css/css-viewport/zoom/iframe-zoom.sub.html
+  file: css/css-viewport/zoom/iframe-zoom.sub.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/iframe-zoom.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/iframe-zoom.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

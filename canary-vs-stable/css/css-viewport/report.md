@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 68
-- Entries with differences: 33 (improvement: 1, pending: 32, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with differences: 32 (improvement: 1, pending: 31, triaged: 0)
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
-- Screenshot mismatches: 4
-- Outcome summary: {"pass":34,"expected-change":1,"known-fail":29,"error":1,"regression":1,"improvement":1,"changed-fail":1}
+- Screenshot mismatches: 3
+- Outcome summary: {"pass":34,"expected-change":1,"known-fail":29,"error":2,"improvement":1,"changed-fail":1}
 
 ## Differences
 
@@ -238,15 +238,6 @@
   stable page 1: diffRatio=0.0009159606136936112, diffPixels=768
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/font-size-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0040] [WPT reftest] css/css-viewport/zoom/iframe-zoom.sub.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-viewport/zoom/reference/iframe-zoom-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/iframe-zoom.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.039080986184260744, diffPixels=32768
-  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/reference/iframe-zoom-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0041] [WPT reftest] css/css-viewport/zoom/image-intrinsic-size.html
   triage: not-needed
   outcome: improvement (baseline=FAIL, actual=PASS)
@@ -437,4 +428,12 @@
   canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/iframe-zoom-nested.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/iframe-zoom-nested.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0040] [WPT reftest] css/css-viewport/zoom/iframe-zoom.sub.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/iframe-zoom.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/iframe-zoom.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

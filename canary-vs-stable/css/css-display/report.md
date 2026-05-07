@@ -1,14 +1,23 @@
 # canary vs stable comparison report
 
 - Compared entries: 214
-- Entries with differences: 107 (improvement: 2, pending: 105, triaged: 0)
+- Entries with differences: 108 (improvement: 3, pending: 105, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 7
-- Outcome summary: {"pass":106,"known-fail":99,"regression":1,"improvement":2,"changed-fail":4,"expected-change":1,"unchanged":1}
+- Screenshot mismatches: 8
+- Outcome summary: {"pass":105,"improvement":3,"known-fail":99,"regression":1,"changed-fail":4,"expected-change":1,"unchanged":1}
 
 ## Differences
+
+- [0002] [WPT reftest] css/css-display/display-change-object-iframe.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-display/display-change-object-iframe.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0005] [WPT reftest] css/css-display/display-contents-before-after-001.html
   triage: pending

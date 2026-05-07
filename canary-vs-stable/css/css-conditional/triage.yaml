@@ -822,15 +822,8 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/container-queries/container-for-cue.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-conditional/container-queries/container-for-cue-ref.html
-  relation: "=="
   diffPages:
-    - css/css-conditional/container-queries/container-for-cue-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-conditional/container-queries/container-for-cue-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-conditional/container-queries/container-for-cue-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - 1
 - id: "0082"
   category: WPT reftest
   title: css/css-conditional/container-queries/container-units-gradient-invalidation.html

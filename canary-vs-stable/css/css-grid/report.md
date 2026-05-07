@@ -4,9 +4,9 @@
 - Entries with differences: 667 (improvement: 45, pending: 622, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
-- Page count changed: 5
-- Screenshot mismatches: 82
-- Outcome summary: {"pass":591,"known-fail":583,"improvement":45,"changed-fail":36,"regression":2,"expected-change":1}
+- Page count changed: 9
+- Screenshot mismatches: 86
+- Outcome summary: {"pass":591,"known-fail":579,"improvement":45,"changed-fail":40,"regression":2,"expected-change":1}
 
 ## Differences
 
@@ -4805,11 +4805,25 @@
 
 - [0776] [WPT reftest] css/css-grid/grid-lanes/items/column-item-percentage-sizes-001.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/grid-lanes/items/column-item-percentage-sizes-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-grid/grid-lanes/items/column-item-percentage-sizes-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2, 3, 4, 5, 6, 7, 8], reference=[1, 2, 3]
+  canary page 1: diffRatio=0.029778261201435004, diffPixels=24968
+  canary page 2: diffRatio=0.0612453247843676, diffPixels=51352
+  canary page 3: diffRatio=0.018789119151209833, diffPixels=15754
+  canary page 4: diffRatio=0.0062960365620944965, diffPixels=5279
+  canary page 5: diffRatio=0.0050795263720326694, diffPixels=4259
+  canary page 6: diffRatio=0.0005963285245401115, diffPixels=500
+  canary page 7: diffRatio=0.03232696931531944, diffPixels=27105
+  canary page 8: diffRatio=0.009108321883825663, diffPixels=7637
+  canary page 9: diffRatio=0.012656476604839326, diffPixels=10612
+  canary page 10: diffRatio=0.015151515151515152, diffPixels=12704
+  canary page 11: diffRatio=0.01214363407373483, diffPixels=10182
+  canary page 12: diffRatio=0.009071349515304175, diffPixels=7606
+  canary page 13: diffRatio=0.01214363407373483, diffPixels=10182
+  canary page 14: diffRatio=0.008583552782230363, diffPixels=7197
+  canary page 15: diffRatio=0.013195557591023586, diffPixels=11064
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-grid/grid-lanes/items/column-item-percentage-sizes-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-grid/grid-lanes/items/column-item-percentage-sizes-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4818,11 +4832,25 @@
 
 - [0777] [WPT reftest] css/css-grid/grid-lanes/items/column-item-percentage-sizes-002.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/grid-lanes/items/column-item-percentage-sizes-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-grid/grid-lanes/items/column-item-percentage-sizes-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2, 3, 4, 5, 6, 7, 8], reference=[1, 2, 3]
+  canary page 1: diffRatio=0.029849820624379818, diffPixels=25028
+  canary page 2: diffRatio=0.0612453247843676, diffPixels=51352
+  canary page 3: diffRatio=0.022815529348904663, diffPixels=19130
+  canary page 4: diffRatio=0.010181713227997862, diffPixels=8537
+  canary page 5: diffRatio=0.007090346156781925, diffPixels=5945
+  canary page 6: diffRatio=0.0005963285245401115, diffPixels=500
+  canary page 7: diffRatio=0.03232696931531944, diffPixels=27105
+  canary page 8: diffRatio=0.0070927314708800855, diffPixels=5947
+  canary page 9: diffRatio=0.012656476604839326, diffPixels=10612
+  canary page 10: diffRatio=0.01716472025036257, diffPixels=14392
+  canary page 11: diffRatio=0.01214363407373483, diffPixels=10182
+  canary page 12: diffRatio=0.007055759102358598, diffPixels=5916
+  canary page 13: diffRatio=0.01214363407373483, diffPixels=10182
+  canary page 14: diffRatio=0.008867405159911457, diffPixels=7435
+  canary page 15: diffRatio=0.015323257766582703, diffPixels=12848
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-grid/grid-lanes/items/column-item-percentage-sizes-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-grid/grid-lanes/items/column-item-percentage-sizes-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4896,11 +4924,11 @@
 
 - [0784] [WPT reftest] css/css-grid/grid-lanes/items/row-item-percentage-sizes-001.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/grid-lanes/items/row-item-percentage-sizes-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-grid/grid-lanes/items/row-item-percentage-sizes-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2, 3, 4, 5, 6, 7, 8], reference=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ... (22 pages)]
+  canary selected pages: test=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ... (15 pages)], reference=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ... (22 pages)]
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-grid/grid-lanes/items/row-item-percentage-sizes-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-grid/grid-lanes/items/row-item-percentage-sizes-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4909,11 +4937,11 @@
 
 - [0785] [WPT reftest] css/css-grid/grid-lanes/items/row-item-percentage-sizes-002.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/grid-lanes/items/row-item-percentage-sizes-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-grid/grid-lanes/items/row-item-percentage-sizes-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2, 3, 4, 5, 6, 7, 8], reference=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ... (22 pages)]
+  canary selected pages: test=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ... (15 pages)], reference=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ... (22 pages)]
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-grid/grid-lanes/items/row-item-percentage-sizes-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-grid/grid-lanes/items/row-item-percentage-sizes-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false

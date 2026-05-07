@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T09:26:55.192Z",
+  "generatedAt": "2026-05-07T16:32:41.681Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,29 +39,32 @@
   },
   "summary": {
     "totalEntries": 6849,
-    "entriesWithDifferences": 1167,
-    "entriesWithErrors": 20,
-    "timeoutEntries": 19,
+    "entriesWithDifferences": 1169,
+    "entriesWithErrors": 17,
+    "timeoutEntries": 16,
     "pageCountMismatches": 1,
-    "screenshotMismatches": 93,
+    "screenshotMismatches": 95,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 1053,
-        "pass": 5121,
-        "improvement": 68,
-        "changed-fail": 39,
+        "known-fail": 1050,
+        "pass": 5122,
+        "improvement": 70,
+        "changed-fail": 40,
+        "regression": 1,
         "expected-change": 5,
-        "error": 5,
-        "unchanged": 556,
-        "changed": 2
+        "error": 3,
+        "unchanged": 555,
+        "changed": 3
       },
       "statusPairs": {
-        "FAIL->FAIL": 1079,
-        "PASS->PASS": 5126,
-        "FAIL->PASS": 49,
+        "FAIL->FAIL": 1077,
+        "PASS->PASS": 5127,
+        "FAIL->PASS": 51,
+        "PASS->FAIL": 1,
         "ERROR->PASS": 19,
-        "ERROR->ERROR": 5,
+        "FAIL->ERROR": 1,
         "ERROR->FAIL": 13,
+        "ERROR->ERROR": 2,
         "MANUAL->MANUAL": 558
       }
     },
@@ -71,10 +74,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 20,
+        "pending": 17,
         "triaged": 0
       },
-      "pendingEntries": 1119,
+      "pendingEntries": 1116,
       "triagedEntries": 0
     }
   },
@@ -5750,8 +5753,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 6912,
                 "diffRatio": 0.0082436455232425,
-                "exactDiffPixels": 6912,
-                "exactDiffRatio": 0.0082436455232425,
+                "exactDiffPixels": 837833,
+                "exactDiffRatio": 0.9992474334020304,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -5789,8 +5792,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 6912,
                 "diffRatio": 0.0082436455232425,
-                "exactDiffPixels": 837833,
-                "exactDiffRatio": 0.9992474334020304,
+                "exactDiffPixels": 6912,
+                "exactDiffRatio": 0.0082436455232425,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -7844,10 +7847,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 1882,
-                "diffRatio": 0.0022445805663689794,
-                "exactDiffPixels": 8182,
-                "exactDiffRatio": 0.009758319975574383,
+                "diffPixels": 2254,
+                "diffRatio": 0.002688248988626822,
+                "exactDiffPixels": 8595,
+                "exactDiffRatio": 0.010250887336844516,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -7883,10 +7886,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 1882,
-                "diffRatio": 0.0022445805663689794,
-                "exactDiffPixels": 8182,
-                "exactDiffRatio": 0.009758319975574383,
+                "diffPixels": 2254,
+                "diffRatio": 0.002688248988626822,
+                "exactDiffPixels": 8595,
+                "exactDiffRatio": 0.010250887336844516,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -12966,10 +12969,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 2340,
-                "diffRatio": 0.0027908174948477215,
-                "exactDiffPixels": 3793,
-                "exactDiffRatio": 0.004523748187161286,
+                "diffPixels": 2339,
+                "diffRatio": 0.0027896248377986413,
+                "exactDiffPixels": 838377,
+                "exactDiffRatio": 0.9998962388367301,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -13948,12 +13951,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 509996,
-                "diffRatio": 0.6082503244027173,
-                "exactDiffPixels": 517423,
-                "exactDiffRatio": 0.6171081883062361,
+                "diffPixels": 196965,
+                "diffRatio": 0.2349116956720861,
+                "exactDiffPixels": 200387,
+                "exactDiffRatio": 0.2389929680940386,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
+                "maxChannelDifference": 63,
                 "dimensionMismatch": false,
                 "diffImage": "actual-reference-diff/0346-WPT_reftest-css-CSS2-backgrounds-background-root-007.xht-r01-p0001.png"
               }
@@ -13987,12 +13990,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 509468,
-                "diffRatio": 0.607620601480803,
-                "exactDiffPixels": 517423,
-                "exactDiffRatio": 0.6171081883062361,
+                "diffPixels": 196965,
+                "diffRatio": 0.2349116956720861,
+                "exactDiffPixels": 200387,
+                "exactDiffRatio": 0.2389929680940386,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
+                "maxChannelDifference": 63,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0346-WPT_reftest-css-CSS2-backgrounds-background-root-007.xht-r01-p0001.png"
               }
@@ -14307,10 +14310,10 @@
                 "actualHeight": 1056,
                 "diffPixels": 167989,
                 "diffRatio": 0.20035326501793757,
-                "exactDiffPixels": 168289,
-                "exactDiffRatio": 0.20071106213266163,
+                "exactDiffPixels": 838464,
+                "exactDiffRatio": 1,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 63,
+                "maxChannelDifference": 65,
                 "dimensionMismatch": false,
                 "diffImage": "actual-reference-diff/0349-WPT_reftest-css-CSS2-backgrounds-background-root-010.xht-r01-p0001.png"
               }
@@ -14346,10 +14349,10 @@
                 "actualHeight": 1056,
                 "diffPixels": 167989,
                 "diffRatio": 0.20035326501793757,
-                "exactDiffPixels": 168289,
-                "exactDiffRatio": 0.20071106213266163,
+                "exactDiffPixels": 838464,
+                "exactDiffRatio": 1,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 63,
+                "maxChannelDifference": 65,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0349-WPT_reftest-css-CSS2-backgrounds-background-root-010.xht-r01-p0001.png"
               }
@@ -34585,8 +34588,8 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/box-display/containing-block-023.xht",
       "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
-      "changeType": "known-fail",
+      "baselineStatus": "PASS",
+      "changeType": "regression",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/box-display/containing-block-023.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/box-display/containing-block-023.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -34599,7 +34602,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "regression",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -34648,45 +34651,6 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/box-display/containing-block-023-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/CSS2/box-display/containing-block-023-ref.xht",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/box-display/containing-block-023-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 9216,
-                "diffRatio": 0.010991527364323335,
-                "exactDiffPixels": 9216,
-                "exactDiffRatio": 0.010991527364323335,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/1018-WPT_reftest-css-CSS2-box-display-containing-block-023.xht-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/box-display/containing-block-023-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -40371,8 +40335,8 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/box-display/root-canvas-001.xht",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "changed-fail",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/box-display/root-canvas-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/box-display/root-canvas-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -40384,7 +40348,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "changed-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -40393,7 +40357,23 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 25046,
+            "diffRatio": 0.029871288451263262,
+            "exactDiffPixels": 25600,
+            "exactDiffRatio": 0.030532020456453705,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/1081-WPT_reftest-css-CSS2-box-display-root-canvas-001.xht-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -40458,10 +40438,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 555,
-                "diffRatio": 0.0006619246622395237,
-                "exactDiffPixels": 1234,
-                "exactDiffRatio": 0.001471738798564995,
+                "diffPixels": 25034,
+                "diffRatio": 0.029856976566674298,
+                "exactDiffPixels": 25600,
+                "exactDiffRatio": 0.030532020456453705,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -86527,7 +86507,7 @@
       "actualStatus": "PASS",
       "baselineStatus": "FAIL",
       "changeType": "improvement",
-      "viewerChanged": true,
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/linebox/iframe-in-block-in-inline.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/linebox/iframe-in-block-in-inline.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -86548,23 +86528,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 102,
-            "diffRatio": 0.00012165101900618274,
-            "exactDiffPixels": 259,
-            "exactDiffRatio": 0.00030889817571177775,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/2040-WPT_reftest-css-CSS2-linebox-iframe-in-block-in-inline.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -86621,8 +86585,8 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/linebox/iframe-in-wrapped-span.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "FAIL",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/linebox/iframe-in-wrapped-span.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/linebox/iframe-in-wrapped-span.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -86633,7 +86597,64 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/linebox/iframe-in-wrapped-span-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/linebox/iframe-in-wrapped-span-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/CSS2/linebox/iframe-in-wrapped-span-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/linebox/iframe-in-wrapped-span-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 102,
+                "diffRatio": 0.00012165101900618274,
+                "exactDiffPixels": 259,
+                "exactDiffRatio": 0.00030889817571177775,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/2041-WPT_reftest-css-CSS2-linebox-iframe-in-wrapped-span.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/linebox/iframe-in-wrapped-span-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "2042",
@@ -99455,9 +99476,9 @@
         "css/CSS2/margin-padding-clear/margin-collapse-016.xht"
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-016.xht",
-      "actualStatus": "ERROR",
-      "baselineStatus": "ERROR",
-      "changeType": "error",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-016.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-016.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -99467,38 +99488,6 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-002-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-002-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "errors": [
-        {
-          "side": "canary, stable",
-          "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
-          },
-          "sideErrors": [
-            {
-              "side": "canary",
-              "error": {
-                "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
-                "timeout": true
-              }
-            },
-            {
-              "side": "stable",
-              "error": {
-                "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
-                "timeout": true
-              }
-            }
-          ],
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
         }
       ]
     },
@@ -99510,9 +99499,9 @@
         "css/CSS2/margin-padding-clear/margin-collapse-017.xht"
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-017.xht",
-      "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
-      "changeType": "known-fail",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-017.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-017.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -99522,6 +99511,52 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-017-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-017-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "2483",
+      "category": "WPT reftest",
+      "title": "css/CSS2/margin-padding-clear/margin-collapse-019.xht",
+      "file": [
+        "css/CSS2/margin-padding-clear/margin-collapse-019.xht"
+      ],
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-019.xht",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-019.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-019.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/CSS2/margin-padding-clear/margin-collapse-002-ref.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-002-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-002-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "2484",
+      "category": "WPT reftest",
+      "title": "css/CSS2/margin-padding-clear/margin-collapse-020.xht",
+      "file": [
+        "css/CSS2/margin-padding-clear/margin-collapse-020.xht"
+      ],
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020.xht",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -99535,156 +99570,91 @@
           "totalPages": 1
         },
         "pages": [],
-        "comparisons": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4822,
+                "diffRatio": 0.005750992290664835,
+                "exactDiffPixels": 6264,
+                "exactDiffRatio": 0.007470803755438516,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/2484-WPT_reftest-css-CSS2-margin-padding-clear-margin-collapse-020.xht-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4822,
+                "diffRatio": 0.005750992290664835,
+                "exactDiffPixels": 6264,
+                "exactDiffRatio": 0.007470803755438516,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/2484-WPT_reftest-css-CSS2-margin-padding-clear-margin-collapse-020.xht-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      },
-      "errors": [
-        {
-          "side": "canary-reference, stable-reference",
-          "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
-          },
-          "sideErrors": [
-            {
-              "side": "canary-reference",
-              "error": {
-                "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
-                "timeout": true
-              },
-              "referenceFile": "css/CSS2/margin-padding-clear/margin-collapse-017-ref.xht"
-            },
-            {
-              "side": "stable-reference",
-              "error": {
-                "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
-                "timeout": true
-              },
-              "referenceFile": "css/CSS2/margin-padding-clear/margin-collapse-017-ref.xht"
-            }
-          ],
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
-        }
-      ]
-    },
-    {
-      "id": "2483",
-      "category": "WPT reftest",
-      "title": "css/CSS2/margin-padding-clear/margin-collapse-019.xht",
-      "file": [
-        "css/CSS2/margin-padding-clear/margin-collapse-019.xht"
-      ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-019.xht",
-      "actualStatus": "ERROR",
-      "baselineStatus": "ERROR",
-      "changeType": "error",
-      "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-019.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-019.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": [
-        {
-          "referenceFile": "css/CSS2/margin-padding-clear/margin-collapse-002-ref.xht",
-          "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-002-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-002-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "errors": [
-        {
-          "side": "canary, stable",
-          "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
-          },
-          "sideErrors": [
-            {
-              "side": "canary",
-              "error": {
-                "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
-                "timeout": true
-              }
-            },
-            {
-              "side": "stable",
-              "error": {
-                "name": "TimeoutError",
-                "message": "page.waitForFunction: Timeout 10000ms exceeded.",
-                "timeout": true
-              }
-            }
-          ],
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
-        }
-      ]
-    },
-    {
-      "id": "2484",
-      "category": "WPT reftest",
-      "title": "css/CSS2/margin-padding-clear/margin-collapse-020.xht",
-      "file": [
-        "css/CSS2/margin-padding-clear/margin-collapse-020.xht"
-      ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020.xht",
-      "actualStatus": "ERROR",
-      "baselineStatus": "ERROR",
-      "changeType": "error",
-      "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": [
-        {
-          "referenceFile": "css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht",
-          "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "errors": [
-        {
-          "side": "canary, stable",
-          "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
-          },
-          "sideErrors": [
-            {
-              "side": "canary",
-              "error": {
-                "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
-                "timeout": true
-              }
-            },
-            {
-              "side": "stable",
-              "error": {
-                "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
-                "timeout": true
-              }
-            }
-          ],
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
-        }
-      ]
+      }
     },
     {
       "id": "2485",
@@ -124572,9 +124542,9 @@
         "css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html"
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "ERROR",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -124586,102 +124556,20 @@
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/cross-domain-iframe-paint-order-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "difference": {
-        "classification": "known-fail",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/CSS2/normal-flow/cross-domain-iframe-paint-order-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/cross-domain-iframe-paint-order-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 1600,
-                "diffRatio": 0.0019082512785283565,
-                "exactDiffPixels": 1600,
-                "exactDiffRatio": 0.0019082512785283565,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 127,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/3240-WPT_reftest-css-CSS2-normal-flow-cross-domain-iframe-paint-order.sub.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/cross-domain-iframe-paint-order-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
           },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/CSS2/normal-flow/cross-domain-iframe-paint-order-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/cross-domain-iframe-paint-order-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 1600,
-                "diffRatio": 0.0019082512785283565,
-                "exactDiffPixels": 1600,
-                "exactDiffRatio": 0.0019082512785283565,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 127,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/3240-WPT_reftest-css-CSS2-normal-flow-cross-domain-iframe-paint-order.sub.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/cross-domain-iframe-paint-order-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "triage": {
+            "status": "pending",
+            "decision": ""
           }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
         }
-      }
+      ]
     },
     {
       "id": "3241",
@@ -138500,8 +138388,8 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/replaced-intrinsic-001.xht",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "changed-fail",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/replaced-intrinsic-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/replaced-intrinsic-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -138513,7 +138401,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "changed-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -138522,7 +138410,23 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 43995,
+            "diffRatio": 0.052470946874284406,
+            "exactDiffPixels": 45000,
+            "exactDiffRatio": 0.053669567208610026,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/3764-WPT_reftest-css-CSS2-normal-flow-replaced-intrinsic-001.xht-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -138587,8 +138491,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 22500,
-                "diffRatio": 0.026834783604305013,
+                "diffPixels": 21495,
+                "diffRatio": 0.02563616326997939,
                 "exactDiffPixels": 22501,
                 "exactDiffRatio": 0.026835976261354096,
                 "exceededDiffPixels": 0,
@@ -138619,8 +138523,8 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/replaced-intrinsic-002.xht",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/replaced-intrinsic-002.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/replaced-intrinsic-002.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -138632,7 +138536,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -138641,23 +138545,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 22500,
-            "diffRatio": 0.026834783604305013,
-            "exactDiffPixels": 22500,
-            "exactDiffRatio": 0.026834783604305013,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/3765-WPT_reftest-css-CSS2-normal-flow-replaced-intrinsic-002.xht-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -138722,10 +138610,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 6064,
-                "diffRatio": 0.007232272345622471,
-                "exactDiffPixels": 8236,
-                "exactDiffRatio": 0.009822723456224716,
+                "diffPixels": 28568,
+                "diffRatio": 0.034071826578123805,
+                "exactDiffPixels": 30736,
+                "exactDiffRatio": 0.03665750706052973,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -138753,9 +138641,9 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/replaced-intrinsic-003.xht",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
-      "viewerChanged": false,
+      "baselineStatus": "FAIL",
+      "changeType": "improvement",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/replaced-intrinsic-003.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/replaced-intrinsic-003.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -138765,7 +138653,80 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/replaced-intrinsic-003-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/replaced-intrinsic-003-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 11289,
+            "diffRatio": 0.013463905427066635,
+            "exactDiffPixels": 18019,
+            "exactDiffRatio": 0.021490487367376535,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/3766-WPT_reftest-css-CSS2-normal-flow-replaced-intrinsic-003.xht-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/CSS2/normal-flow/replaced-intrinsic-003-ref.xht",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/replaced-intrinsic-003-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 11289,
+                "diffRatio": 0.013463905427066635,
+                "exactDiffPixels": 18019,
+                "exactDiffRatio": 0.021490487367376535,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/3766-WPT_reftest-css-CSS2-normal-flow-replaced-intrinsic-003.xht-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/replaced-intrinsic-003-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "3767",
@@ -151894,8 +151855,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 20224,
                 "diffRatio": 0.024120296160598426,
-                "exactDiffPixels": 22191,
-                "exactDiffRatio": 0.026466252576139226,
+                "exactDiffPixels": 838373,
+                "exactDiffRatio": 0.9998914682085337,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -258035,11 +257996,44 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/backgrounds/background-attachment-010.xht",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
-      "changeType": "unchanged",
-      "viewerChanged": false,
+      "changeType": "changed",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/backgrounds/background-attachment-010.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/backgrounds/background-attachment-010.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": []
+      "references": [],
+      "difference": {
+        "classification": "changed",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 2
+        },
+        "baseline": {
+          "totalPages": 2
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 9216,
+            "diffRatio": 0.010991527364323335,
+            "exactDiffPixels": 9216,
+            "exactDiffRatio": 0.010991527364323335,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/6514-WPT_manual-css-CSS2-backgrounds-background-attachment-010.xht-p0001.png"
+          }
+        ],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "6515",

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 115
-- Entries with differences: 79 (pending: 79, triaged: 0)
+- Entries with differences: 80 (pending: 80, triaged: 0)
 - Entries with errors: 30 (pending: 30, triaged: 0)
 - Timeout entries: 30
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"known-fail":79,"pass":6,"error":30}
+- Screenshot mismatches: 1
+- Outcome summary: {"known-fail":79,"pass":5,"error":30,"regression":1}
 
 ## Differences
 
@@ -1037,6 +1037,15 @@
   stable page 1: diffRatio=0.09541256392641784, diffPixels=80000
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/two-element-one-custom-property-animation-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0115] [WPT reftest] css/css-paint-api/valid-image-before-load.https.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-paint-api/valid-image-before-load-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/valid-image-before-load.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/valid-image-before-load-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 ## Errors
 
 - [0070] [WPT reftest] css/css-paint-api/registered-property-interpolation-001.https.html
@@ -1253,7 +1262,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-paint-api/registered-property-value-010.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false

@@ -4698,6 +4698,60 @@
       referenceFile: css/css-masking/clip-rule/reference/clip-rule-rectangle-border-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/clip-rule/reference/clip-rule-rectangle-border-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0355"
+  category: WPT reftest
+  title: css/css-masking/mask-image/mask-clip-1.html
+  file: css/css-masking/mask-image/mask-clip-1.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-clip-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-clip-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-masking/mask-image/mask-clip-1-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-masking/mask-image/mask-clip-1-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-masking/mask-image/mask-clip-1-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-clip-1-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-masking/mask-image/mask-clip-1-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-clip-1-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0356"
+  category: WPT reftest
+  title: css/css-masking/mask-image/mask-clip-2.html
+  file: css/css-masking/mask-image/mask-clip-2.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-clip-2.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-clip-2.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-masking/mask-image/mask-clip-2-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-masking/mask-image/mask-clip-2-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-masking/mask-image/mask-clip-2-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-clip-2-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-masking/mask-image/mask-clip-2-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-clip-2-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0359"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-clip-5.html
@@ -4752,20 +4806,20 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0363"
+- id: "0364"
   category: WPT reftest
-  title: css/css-masking/mask-image/mask-composite-1a.html
-  file: css/css-masking/mask-image/mask-composite-1a.html
+  title: css/css-masking/mask-image/mask-composite-1b.html
+  file: css/css-masking/mask-image/mask-composite-1b.html
   type: difference
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-composite-1a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-composite-1b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-composite-1a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-composite-1b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-masking/mask-image/mask-composite-1-ref.html
   relation: "=="
   diffPages:
@@ -4802,6 +4856,29 @@
       referenceFile: css/css-masking/mask-image/mask-composite-1-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-composite-1-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0368"
+  category: WPT reftest
+  title: css/css-masking/mask-image/mask-composite-2b.html
+  file: css/css-masking/mask-image/mask-composite-2b.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-composite-2b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-composite-2b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-masking/mask-image/mask-composite-2-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-masking/mask-image/mask-composite-2-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-masking/mask-image/mask-composite-2-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-composite-2-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0369"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-composite-2c.html
@@ -5126,29 +5203,6 @@
       referenceFile: css/css-masking/mask-image/mask-image-cors-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-image-cors-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0393"
-  category: WPT reftest
-  title: css/css-masking/mask-image/mask-image-data-url-image.html
-  file: css/css-masking/mask-image/mask-image-data-url-image.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-image-data-url-image.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-image-data-url-image.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-masking/mask-image/reference/mask-image-data-url-image-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-masking/mask-image/reference/mask-image-data-url-image-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-masking/mask-image/reference/mask-image-data-url-image-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/reference/mask-image-data-url-image-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0400"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-image-svg-loading-error.html
@@ -5172,6 +5226,10 @@
       referenceFile: css/css-masking/mask-image/reference/mask-image-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/reference/mask-image-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-masking/mask-image/reference/mask-image-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/reference/mask-image-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0402"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-image-url-image-hash.html
@@ -5249,6 +5307,52 @@
       referenceFile: css/css-masking/mask-image/reference/mask-image-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/reference/mask-image-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0406"
+  category: WPT reftest
+  title: css/css-masking/mask-image/mask-mode-a.html
+  file: css/css-masking/mask-image/mask-mode-a.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-mode-a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-mode-a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-masking/mask-image/mask-mode-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-masking/mask-image/mask-mode-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-masking/mask-image/mask-mode-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-mode-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0407"
+  category: WPT reftest
+  title: css/css-masking/mask-image/mask-mode-b.html
+  file: css/css-masking/mask-image/mask-mode-b.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-mode-b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-mode-b.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-masking/mask-image/mask-mode-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-masking/mask-image/mask-mode-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-masking/mask-image/mask-mode-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-mode-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0412"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-mode-to-mask-type-svg.html
@@ -5330,29 +5434,6 @@
       referenceFile: css/css-masking/mask-image/mask-opacity-1-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-opacity-1-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0452"
-  category: WPT reftest
-  title: css/css-masking/mask-image/mask-size-length-auto.html
-  file: css/css-masking/mask-image/mask-size-length-auto.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-size-length-auto.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-size-length-auto.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-masking/mask-image/mask-size-length-length-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-masking/mask-image/mask-size-length-length-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-masking/mask-image/mask-size-length-length-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-size-length-length-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0462"
   category: WPT reftest
   title: css/css-masking/mask-svg-content/mask-empty-container-with-filter.svg

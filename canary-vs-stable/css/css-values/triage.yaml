@@ -376,6 +376,22 @@
       referenceFile: css/css-values/attr-style-sharing-2-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/attr-style-sharing-2-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0028"
+  category: WPT reftest
+  title: css/css-values/calc-height-block-1.html
+  file: css/css-values/calc-height-block-1.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/calc-height-block-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/calc-height-block-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
 - id: "0030"
   category: WPT reftest
   title: css/css-values/calc-in-calc.html
@@ -511,6 +527,38 @@
       referenceFile: css/css-values/reference/all-green.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/reference/all-green.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0037"
+  category: WPT reftest
+  title: css/css-values/calc-max-height-block-1.html
+  file: css/css-values/calc-max-height-block-1.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/calc-max-height-block-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/calc-max-height-block-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0040"
+  category: WPT reftest
+  title: css/css-values/calc-min-height-block-1.html
+  file: css/css-values/calc-min-height-block-1.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/calc-min-height-block-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/calc-min-height-block-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
 - id: "0053"
   category: WPT reftest
   title: css/css-values/calc-parenthesis-stack.html
@@ -2019,6 +2067,10 @@
       referenceFile: css/css-values/reference/all-green.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/reference/all-green.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-values/reference/all-green.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-values/reference/all-green.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0192"
   category: WPT reftest
   title: css/css-values/vh-support.html

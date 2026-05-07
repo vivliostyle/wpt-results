@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 449
-- Entries with differences: 150 (improvement: 16, pending: 134, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
+- Entries with differences: 150 (improvement: 15, pending: 135, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 22
-- Outcome summary: {"pass":297,"known-fail":125,"error":2,"regression":2,"changed-fail":6,"improvement":16,"expected-change":1}
+- Screenshot mismatches: 21
+- Outcome summary: {"pass":298,"known-fail":127,"error":1,"regression":2,"changed-fail":5,"improvement":15,"expected-change":1}
 
 ## Differences
 
@@ -705,11 +705,11 @@
 
 - [0218] [WPT reftest] css/css-images/object-fit-contain-svg-002e.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-contain-svg-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-contain-svg-002e.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.015471147240668651, diffPixels=12972
+  canary page 1: diffRatio=0.014803259293183726, diffPixels=12412
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-contain-svg-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-contain-svg-002e.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -911,11 +911,18 @@
   stable page 1: diffRatio=0.006993740935806427, diffPixels=5864
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0259] [WPT reftest] css/css-images/object-fit-cover-svg-001p.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-001p.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-001p.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- [0260] [WPT reftest] css/css-images/object-fit-cover-svg-002e.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-images/object-fit-cover-svg-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002e.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.006965117166628502, diffPixels=5840
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002e.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.006965117166628502, diffPixels=5840
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0262] [WPT reftest] css/css-images/object-fit-cover-svg-002o.html
   triage: pending
@@ -1885,17 +1892,9 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/conic-gradient-color-with-sibling-index.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/conic-gradient-color-with-sibling-index.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0260] [WPT reftest] css/css-images/object-fit-cover-svg-002e.html
-  triage: pending
-  side: canary
-  timeout: false
-  error: Error: Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002e.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002e.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002e.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

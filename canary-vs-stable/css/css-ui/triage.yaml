@@ -16082,20 +16082,20 @@
     https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
-- id: "1123"
+- id: "1122"
   category: WPT manual
-  title: css/css-ui/nav-dir-target-003.html
-  file: css/css-ui/nav-dir-target-003.html
+  title: css/css-ui/nav-dir-target-002.html
+  file: css/css-ui/nav-dir-target-002.html
   type: difference
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-dir-target-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
 - id: "1132"
@@ -16130,20 +16130,20 @@
     https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
-- id: "1137"
+- id: "1136"
   category: WPT manual
-  title: css/css-ui/nav-down-010.html
-  file: css/css-ui/nav-down-010.html
+  title: css/css-ui/nav-down-009.html
+  file: css/css-ui/nav-down-009.html
   type: difference
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-down-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
 - id: "1149"
@@ -16194,6 +16194,22 @@
     https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-left-013.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
+- id: "1158"
+  category: WPT manual
+  title: css/css-ui/nav-left-014.html
+  file: css/css-ui/nav-left-014.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-left-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-left-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
 - id: "1166"
   category: WPT manual
   title: css/css-ui/nav-right-005.html
@@ -16226,22 +16242,6 @@
     https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-right-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
-- id: "1174"
-  category: WPT manual
-  title: css/css-ui/nav-right-013.html
-  file: css/css-ui/nav-right-013.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-right-013.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-right-013.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "1184"
   category: WPT manual
   title: css/css-ui/nav-up-006.html
@@ -16258,19 +16258,51 @@
     https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
-- id: "1187"
+- id: "1190"
   category: WPT manual
-  title: css/css-ui/nav-up-009.html
-  file: css/css-ui/nav-up-009.html
+  title: css/css-ui/nav-up-012.html
+  file: css/css-ui/nav-up-012.html
   type: difference
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/nav-up-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "1204"
+  category: WPT manual
+  title: css/css-ui/resize-010.html
+  file: css/css-ui/resize-010.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/resize-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/resize-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "1208"
+  category: WPT manual
+  title: css/css-ui/resize-014.html
+  file: css/css-ui/resize-014.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/resize-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/resize-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T12:41:08.681Z",
+  "generatedAt": "2026-05-07T20:01:51.711Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -43,12 +43,12 @@
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 2,
+    "screenshotMismatches": 1,
     "outcomes": {
       "changeTypes": {
         "pass": 149,
-        "known-fail": 153,
-        "changed-fail": 2
+        "known-fail": 154,
+        "changed-fail": 1
       },
       "statusPairs": {
         "PASS->PASS": 149,
@@ -19319,8 +19319,8 @@
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/filter-effects/svg-relative-urls-001.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/filter-effects/svg-relative-urls-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/filter-effects/svg-relative-urls-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -19332,7 +19332,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -19341,23 +19341,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 10000,
-            "diffRatio": 0.01192657049080223,
-            "exactDiffPixels": 10000,
-            "exactDiffRatio": 0.01192657049080223,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0261-WPT_reftest-css-filter-effects-svg-relative-urls-001.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -19383,10 +19367,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 18302,
-                "diffRatio": 0.02182800931226624,
-                "exactDiffPixels": 19016,
-                "exactDiffRatio": 0.022679566445309517,
+                "diffPixels": 23202,
+                "diffRatio": 0.02767202885275933,
+                "exactDiffPixels": 23916,
+                "exactDiffRatio": 0.02852358598580261,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -19422,10 +19406,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 22202,
-                "diffRatio": 0.026479371803679107,
-                "exactDiffPixels": 22916,
-                "exactDiffRatio": 0.027330928936722388,
+                "diffPixels": 23202,
+                "diffRatio": 0.02767202885275933,
+                "exactDiffPixels": 23916,
+                "exactDiffRatio": 0.02852358598580261,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,

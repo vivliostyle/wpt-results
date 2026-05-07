@@ -5941,10 +5941,6 @@
       referenceFile: css/css-gaps/grid/subgrid/subgrid-gap-decorations-015-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gaps/grid/subgrid/subgrid-gap-decorations-015-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-gaps/grid/subgrid/subgrid-gap-decorations-015-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gaps/grid/subgrid/subgrid-gap-decorations-015-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0242"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-016.html

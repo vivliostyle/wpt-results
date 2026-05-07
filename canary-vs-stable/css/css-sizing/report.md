@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 549
-- Entries with differences: 81 (improvement: 4, pending: 77, triaged: 0)
-- Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 3
+- Entries with differences: 83 (improvement: 4, pending: 79, triaged: 0)
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
-- Screenshot mismatches: 14
-- Outcome summary: {"pass":465,"known-fail":66,"improvement":4,"expected-change":9,"error":3,"changed-fail":2}
+- Screenshot mismatches: 15
+- Outcome summary: {"pass":464,"known-fail":67,"regression":1,"improvement":4,"expected-change":9,"error":2,"changed-fail":2}
 
 ## Differences
 
@@ -35,6 +35,15 @@
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-sizing/aspect-ratio/flex-aspect-ratio-038.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.014908213113502785, diffPixels=12500
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0252] [WPT reftest] css/css-sizing/aspect-ratio/replaced-element-035.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-sizing/aspect-ratio/replaced-element-035-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-sizing/aspect-ratio/replaced-element-035.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00010256850622089917, diffPixels=86
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-sizing/aspect-ratio/replaced-element-035-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0256] [WPT reftest] css/css-sizing/aspect-ratio/replaced-element-041.html
   triage: not-needed
@@ -837,6 +846,19 @@
   stable page 1: diffRatio=0.0015266010228226852, diffPixels=1280
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-sizing/range-percent-intrinsic-size-2a-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0498] [WPT reftest] css/css-sizing/responsive-iframe/responsive-iframe-cross-origin.sub.tentative.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-sizing/responsive-iframe/responsive-iframe-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-sizing/responsive-iframe/responsive-iframe-cross-origin.sub.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0013119227539882452, diffPixels=1100
+  canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-sizing/responsive-iframe/responsive-iframe-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-sizing/responsive-iframe/responsive-iframe-cross-origin.sub.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0013119227539882452, diffPixels=1100
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-sizing/responsive-iframe/responsive-iframe-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0500] [WPT reftest] css/css-sizing/responsive-iframe/responsive-iframe-dynamic-remove.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -1010,12 +1032,4 @@
   error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-not-embedded-sized.sub.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-not-embedded-sized.sub.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0498] [WPT reftest] css/css-sizing/responsive-iframe/responsive-iframe-cross-origin.sub.tentative.html
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-sizing/responsive-iframe/responsive-iframe-cross-origin.sub.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-sizing/responsive-iframe/responsive-iframe-cross-origin.sub.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

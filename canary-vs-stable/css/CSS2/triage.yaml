@@ -3104,10 +3104,6 @@
       referenceFile: css/CSS2/box-display/containing-block-023-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/box-display/containing-block-023-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/CSS2/box-display/containing-block-023-ref.xht
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/box-display/containing-block-023-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1024"
   category: WPT reftest
   title: css/CSS2/box-display/delete-block-in-inlines-beginning-001.xht
@@ -10997,20 +10993,33 @@
       referenceFile: css/CSS2/margin-padding-clear/margin-bottom-applies-to-009-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-bottom-applies-to-009-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "2482"
+- id: "2484"
   category: WPT reftest
-  title: css/CSS2/margin-padding-clear/margin-collapse-017.xht
-  file: css/CSS2/margin-padding-clear/margin-collapse-017.xht
+  title: css/CSS2/margin-padding-clear/margin-collapse-020.xht
+  file: css/CSS2/margin-padding-clear/margin-collapse-020.xht
   type: difference
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-017.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-017.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "2485"
   category: WPT reftest
   title: css/CSS2/margin-padding-clear/margin-collapse-021.xht
@@ -13090,33 +13099,6 @@
       referenceFile: css/CSS2/normal-flow/blocks-025-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/blocks-025-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "3240"
-  category: WPT reftest
-  title: css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html
-  file: css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/CSS2/normal-flow/cross-domain-iframe-paint-order-ref.html
-  relation: "=="
-  diffPages:
-    - css/CSS2/normal-flow/cross-domain-iframe-paint-order-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/CSS2/normal-flow/cross-domain-iframe-paint-order-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/cross-domain-iframe-paint-order-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/CSS2/normal-flow/cross-domain-iframe-paint-order-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/cross-domain-iframe-paint-order-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "3242"
   category: WPT reftest
   title: css/CSS2/normal-flow/float-percentage-resolution-quirks-mode.html
@@ -29721,6 +29703,22 @@
       referenceFile: css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "6514"
+  category: WPT manual
+  title: css/CSS2/backgrounds/background-attachment-010.xht
+  file: css/CSS2/backgrounds/background-attachment-010.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/backgrounds/background-attachment-010.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/backgrounds/background-attachment-010.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
 - id: "6585"
   category: WPT manual
   title: css/CSS2/floats-clear/floats-137.xht
@@ -29753,62 +29751,21 @@
     https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/page-box/page-container-005.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 2
-- id: "2481"
+- id: "3240"
   category: WPT reftest
-  title: css/CSS2/margin-padding-clear/margin-collapse-016.xht
-  file: css/CSS2/margin-padding-clear/margin-collapse-016.xht
+  title: css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html
+  file: css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html
   type: error
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-016.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-016.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  errorSide: canary, stable
-  errorName: TimeoutError
-  errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "2483"
-  category: WPT reftest
-  title: css/CSS2/margin-padding-clear/margin-collapse-019.xht
-  file: css/CSS2/margin-padding-clear/margin-collapse-019.xht
-  type: error
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-019.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-019.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
-    - side: stable
-      errorName: TimeoutError
-      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
-      timeout: true
-- id: "2484"
-  category: WPT reftest
-  title: css/CSS2/margin-padding-clear/margin-collapse-020.xht
-  file: css/CSS2/margin-padding-clear/margin-collapse-020.xht
-  type: error
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/margin-padding-clear/margin-collapse-020.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  errorSide: canary, stable
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
 - id: "6174"

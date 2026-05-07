@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 3
-- Outcome summary: {"pass":362,"known-fail":97,"improvement":4,"changed-fail":1,"unchanged":1}
+- Screenshot mismatches: 4
+- Outcome summary: {"pass":362,"known-fail":96,"improvement":4,"changed-fail":2,"unchanged":1}
 
 ## Differences
 
@@ -667,11 +667,11 @@
 
 - [0303] [WPT reftest] css/css-multicol/multicol-span-all-007.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-multicol/multicol-span-all-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-multicol/multicol-span-all-007.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014311884588962675, diffPixels=1200
+  canary page 1: diffRatio=0.004881545301885352, diffPixels=4093
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-multicol/multicol-span-all-007-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-multicol/multicol-span-all-007.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false

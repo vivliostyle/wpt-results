@@ -25,6 +25,22 @@
       referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-border-image-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/reference/mix-blend-mode-border-image-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0046"
+  category: WPT reftest
+  title: css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html
+  file: css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
 - id: "0049"
   category: WPT reftest
   title: css/compositing/root-element-background-image-transparency-001.html

@@ -1847,7 +1847,7 @@
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-pseudo/first-letter-of-html-root-refcrash.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-pseudo/first-letter-of-html-root-refcrash.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1872,8 +1872,8 @@
   side: canary, stable
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: false
-  stable error: Error: page.addStyleTag: Execution context was destroyed, most likely because of a navigation
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-pseudo/highlight-painting-shadows-horizontal.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-pseudo/highlight-painting-shadows-horizontal.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1893,7 +1893,10 @@
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: false
-  stable error: Error: page.addStyleTag: Execution context was destroyed, most likely because of a navigation
+  stable error: Error: page.evaluate: Error: Could not detect total pages (no spread container found).
+    at eval (eval at evaluate (:302:30), <anonymous>:10:11)
+    at UtilityScript.evaluate (<anonymous>:304:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
   canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-pseudo/target-text-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-pseudo/target-text-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

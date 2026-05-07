@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T12:37:31.416Z",
+  "generatedAt": "2026-05-07T19:58:26.467Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,16 +39,16 @@
   },
   "summary": {
     "totalEntries": 1217,
-    "entriesWithDifferences": 687,
+    "entriesWithDifferences": 679,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 171,
+    "screenshotMismatches": 163,
     "outcomes": {
       "changeTypes": {
         "expected-change": 73,
-        "pass": 484,
-        "improvement": 35,
+        "pass": 492,
+        "improvement": 27,
         "known-fail": 516,
         "regression": 16,
         "changed-fail": 17,
@@ -56,8 +56,8 @@
         "changed": 30
       },
       "statusPairs": {
-        "PASS->PASS": 557,
-        "FAIL->PASS": 35,
+        "PASS->PASS": 565,
+        "FAIL->PASS": 27,
         "FAIL->FAIL": 533,
         "PASS->FAIL": 16,
         "MANUAL->MANUAL": 76
@@ -290,9 +290,9 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-009.xht",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-009.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-009.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -302,80 +302,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 10000,
-            "diffRatio": 0.01192657049080223,
-            "exactDiffPixels": 10000,
-            "exactDiffRatio": 0.01192657049080223,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0007-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vlr-009.xht-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0007-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vlr-009.xht-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0008",
@@ -432,11 +359,34 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-015.xht",
       "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-015.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-015.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0011",
+      "category": "WPT reftest",
+      "title": "css/css-writing-modes/abs-pos-non-replaced-icb-vlr-017.xht",
+      "file": [
+        "css/css-writing-modes/abs-pos-non-replaced-icb-vlr-017.xht"
+      ],
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-017.xht",
+      "actualStatus": "PASS",
       "baselineStatus": "FAIL",
       "changeType": "improvement",
       "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-015.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-015.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-017.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-017.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
@@ -469,7 +419,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 255,
             "dimensionMismatch": false,
-            "diffImage": "diff/0010-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vlr-015.xht-p0001.png"
+            "diffImage": "diff/0011-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vlr-017.xht-p0001.png"
           }
         ],
         "comparisons": [
@@ -504,7 +454,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0010-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vlr-015.xht-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0011-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vlr-017.xht-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -520,29 +470,6 @@
       }
     },
     {
-      "id": "0011",
-      "category": "WPT reftest",
-      "title": "css/css-writing-modes/abs-pos-non-replaced-icb-vlr-017.xht",
-      "file": [
-        "css/css-writing-modes/abs-pos-non-replaced-icb-vlr-017.xht"
-      ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-017.xht",
-      "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
-      "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-017.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-017.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": [
-        {
-          "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
-          "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ]
-    },
-    {
       "id": "0012",
       "category": "WPT reftest",
       "title": "css/css-writing-modes/abs-pos-non-replaced-icb-vlr-019.xht",
@@ -551,34 +478,11 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-019.xht",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
-      "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-019.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-019.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": [
-        {
-          "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-          "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ]
-    },
-    {
-      "id": "0013",
-      "category": "WPT reftest",
-      "title": "css/css-writing-modes/abs-pos-non-replaced-icb-vlr-021.xht",
-      "file": [
-        "css/css-writing-modes/abs-pos-non-replaced-icb-vlr-021.xht"
-      ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-021.xht",
-      "actualStatus": "PASS",
       "baselineStatus": "FAIL",
       "changeType": "improvement",
       "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-021.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-021.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-019.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-019.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
@@ -611,7 +515,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 255,
             "dimensionMismatch": false,
-            "diffImage": "diff/0013-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vlr-021.xht-p0001.png"
+            "diffImage": "diff/0012-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vlr-019.xht-p0001.png"
           }
         ],
         "comparisons": [
@@ -646,7 +550,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0013-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vlr-021.xht-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0012-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vlr-019.xht-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -660,6 +564,29 @@
           "decision": ""
         }
       }
+    },
+    {
+      "id": "0013",
+      "category": "WPT reftest",
+      "title": "css/css-writing-modes/abs-pos-non-replaced-icb-vlr-021.xht",
+      "file": [
+        "css/css-writing-modes/abs-pos-non-replaced-icb-vlr-021.xht"
+      ],
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-021.xht",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-021.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-021.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0014",
@@ -862,9 +789,9 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-027.xht",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-027.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-027.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -874,80 +801,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 10000,
-            "diffRatio": 0.01192657049080223,
-            "exactDiffPixels": 10000,
-            "exactDiffRatio": 0.01192657049080223,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0016-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vlr-027.xht-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0016-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vlr-027.xht-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0017",
@@ -981,9 +835,9 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-031.xht",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-031.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-031.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -993,80 +847,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 10000,
-            "diffRatio": 0.01192657049080223,
-            "exactDiffPixels": 10000,
-            "exactDiffRatio": 0.01192657049080223,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0018-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vlr-031.xht-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0018-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vlr-031.xht-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0019",
@@ -1219,9 +1000,9 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-006.xht",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-006.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-006.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1231,80 +1012,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 10000,
-            "diffRatio": 0.01192657049080223,
-            "exactDiffPixels": 10000,
-            "exactDiffRatio": 0.01192657049080223,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0022-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-006.xht-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0022-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-006.xht-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0023",
@@ -1315,9 +1023,9 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008.xht",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1327,80 +1035,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 10000,
-            "diffRatio": 0.01192657049080223,
-            "exactDiffPixels": 10000,
-            "exactDiffRatio": 0.01192657049080223,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0023-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-008.xht-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0023-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-008.xht-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0024",
@@ -1457,9 +1092,9 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-014.xht",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-014.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-014.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1469,80 +1104,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 10000,
-            "diffRatio": 0.01192657049080223,
-            "exactDiffPixels": 10000,
-            "exactDiffRatio": 0.01192657049080223,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0026-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-014.xht-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0026-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-014.xht-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0027",
@@ -1745,9 +1307,9 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-020.xht",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-020.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-020.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1757,80 +1319,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 10000,
-            "diffRatio": 0.01192657049080223,
-            "exactDiffPixels": 10000,
-            "exactDiffRatio": 0.01192657049080223,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0029-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-020.xht-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0029-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-020.xht-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0030",
@@ -1841,9 +1330,9 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-022.xht",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
-      "viewerChanged": false,
+      "baselineStatus": "FAIL",
+      "changeType": "improvement",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-022.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-022.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1853,7 +1342,80 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 10000,
+            "diffRatio": 0.01192657049080223,
+            "exactDiffPixels": 10000,
+            "exactDiffRatio": 0.01192657049080223,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0030-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-022.xht-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10000,
+                "diffRatio": 0.01192657049080223,
+                "exactDiffPixels": 10000,
+                "exactDiffRatio": 0.01192657049080223,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0030-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-022.xht-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0031",
@@ -1864,203 +1426,11 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-024.xht",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-024.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-024.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": [
-        {
-          "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
-          "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 10000,
-            "diffRatio": 0.01192657049080223,
-            "exactDiffPixels": 10000,
-            "exactDiffRatio": 0.01192657049080223,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0031-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-024.xht-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0031-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-024.xht-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
-    },
-    {
-      "id": "0032",
-      "category": "WPT reftest",
-      "title": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-026.xht",
-      "file": [
-        "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-026.xht"
-      ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-026.xht",
-      "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-026.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-026.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": [
-        {
-          "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
-          "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 10000,
-            "diffRatio": 0.01192657049080223,
-            "exactDiffPixels": 10000,
-            "exactDiffRatio": 0.01192657049080223,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0032-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-026.xht-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0032-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-026.xht-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
-    },
-    {
-      "id": "0033",
-      "category": "WPT reftest",
-      "title": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-028.xht",
-      "file": [
-        "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-028.xht"
-      ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-028.xht",
-      "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-028.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-028.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-024.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-024.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
@@ -2071,19 +1441,42 @@
       ]
     },
     {
-      "id": "0034",
+      "id": "0032",
       "category": "WPT reftest",
-      "title": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-030.xht",
+      "title": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-026.xht",
       "file": [
-        "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-030.xht"
+        "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-026.xht"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-030.xht",
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-026.xht",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-026.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-026.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0033",
+      "category": "WPT reftest",
+      "title": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-028.xht",
+      "file": [
+        "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-028.xht"
+      ],
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-028.xht",
       "actualStatus": "PASS",
       "baselineStatus": "FAIL",
       "changeType": "improvement",
       "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-030.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-030.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-028.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-028.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
@@ -2116,7 +1509,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 255,
             "dimensionMismatch": false,
-            "diffImage": "diff/0034-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-030.xht-p0001.png"
+            "diffImage": "diff/0033-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-028.xht-p0001.png"
           }
         ],
         "comparisons": [
@@ -2151,7 +1544,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0034-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-030.xht-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0033-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-icb-vrl-028.xht-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2165,6 +1558,29 @@
           "decision": ""
         }
       }
+    },
+    {
+      "id": "0034",
+      "category": "WPT reftest",
+      "title": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-030.xht",
+      "file": [
+        "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-030.xht"
+      ],
+      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-030.xht",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-030.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-030.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
     },
     {
       "id": "0035",
@@ -3512,8 +2928,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12356,
                 "diffRatio": 0.014736470498435234,
-                "exactDiffPixels": 12962,
-                "exactDiffRatio": 0.015459220670177848,
+                "exactDiffPixels": 838157,
+                "exactDiffRatio": 0.9996338542859323,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -3551,8 +2967,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12356,
                 "diffRatio": 0.014736470498435234,
-                "exactDiffPixels": 12962,
-                "exactDiffRatio": 0.015459220670177848,
+                "exactDiffPixels": 838157,
+                "exactDiffRatio": 0.9996338542859323,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -4226,8 +3642,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12436,
                 "diffRatio": 0.014831883062361651,
-                "exactDiffPixels": 13042,
-                "exactDiffRatio": 0.015554633234104267,
+                "exactDiffPixels": 838219,
+                "exactDiffRatio": 0.9997077990229754,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -5217,8 +4633,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12356,
                 "diffRatio": 0.014736470498435234,
-                "exactDiffPixels": 838157,
-                "exactDiffRatio": 0.9996338542859323,
+                "exactDiffPixels": 838219,
+                "exactDiffRatio": 0.9997077990229754,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -6050,8 +5466,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12436,
                 "diffRatio": 0.014831883062361651,
-                "exactDiffPixels": 12800,
-                "exactDiffRatio": 0.015266010228226852,
+                "exactDiffPixels": 838157,
+                "exactDiffRatio": 0.9996338542859323,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -7199,10 +6615,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 14998,
-                "diffRatio": 0.017887470422105183,
-                "exactDiffPixels": 838461,
-                "exactDiffRatio": 0.9999964220288527,
+                "diffPixels": 15011,
+                "diffRatio": 0.017902974963743226,
+                "exactDiffPixels": 18753,
+                "exactDiffRatio": 0.02236589764140142,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -7238,10 +6654,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 15002,
-                "diffRatio": 0.017892241050301502,
-                "exactDiffPixels": 838461,
-                "exactDiffRatio": 0.9999964220288527,
+                "diffPixels": 15011,
+                "diffRatio": 0.017902974963743226,
+                "exactDiffPixels": 18753,
+                "exactDiffRatio": 0.02236589764140142,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -8192,8 +7608,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12436,
                 "diffRatio": 0.014831883062361651,
-                "exactDiffPixels": 838157,
-                "exactDiffRatio": 0.9996338542859323,
+                "exactDiffPixels": 13042,
+                "exactDiffRatio": 0.015554633234104267,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -9737,10 +9153,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 15091,
-                "diffRatio": 0.017998387527669645,
-                "exactDiffPixels": 18833,
-                "exactDiffRatio": 0.022461310205327836,
+                "diffPixels": 15082,
+                "diffRatio": 0.01798765361422792,
+                "exactDiffPixels": 838461,
+                "exactDiffRatio": 0.9999964220288527,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -11009,8 +10425,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12436,
                 "diffRatio": 0.014831883062361651,
-                "exactDiffPixels": 838157,
-                "exactDiffRatio": 0.9996338542859323,
+                "exactDiffPixels": 13042,
+                "exactDiffRatio": 0.015554633234104267,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -11602,10 +11018,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 15091,
-                "diffRatio": 0.017998387527669645,
-                "exactDiffPixels": 18833,
-                "exactDiffRatio": 0.022461310205327836,
+                "diffPixels": 15081,
+                "diffRatio": 0.017986460957178842,
+                "exactDiffPixels": 838461,
+                "exactDiffRatio": 0.9999964220288527,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -11641,10 +11057,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 15091,
-                "diffRatio": 0.017998387527669645,
-                "exactDiffPixels": 18833,
-                "exactDiffRatio": 0.022461310205327836,
+                "diffPixels": 15081,
+                "diffRatio": 0.017986460957178842,
+                "exactDiffPixels": 838461,
+                "exactDiffRatio": 0.9999964220288527,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -12437,8 +11853,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12436,
                 "diffRatio": 0.014831883062361651,
-                "exactDiffPixels": 12800,
-                "exactDiffRatio": 0.015266010228226852,
+                "exactDiffPixels": 838281,
+                "exactDiffRatio": 0.9997817437600183,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -13151,8 +12567,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12436,
                 "diffRatio": 0.014831883062361651,
-                "exactDiffPixels": 12800,
-                "exactDiffRatio": 0.015266010228226852,
+                "exactDiffPixels": 838157,
+                "exactDiffRatio": 0.9996338542859323,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -14261,8 +13677,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12436,
                 "diffRatio": 0.014831883062361651,
-                "exactDiffPixels": 838157,
-                "exactDiffRatio": 0.9996338542859323,
+                "exactDiffPixels": 13042,
+                "exactDiffRatio": 0.015554633234104267,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -18268,8 +17684,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12356,
                 "diffRatio": 0.014736470498435234,
-                "exactDiffPixels": 12962,
-                "exactDiffRatio": 0.015459220670177848,
+                "exactDiffPixels": 838157,
+                "exactDiffRatio": 0.9996338542859323,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -21163,8 +20579,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12356,
                 "diffRatio": 0.014736470498435234,
-                "exactDiffPixels": 12962,
-                "exactDiffRatio": 0.015459220670177848,
+                "exactDiffPixels": 838157,
+                "exactDiffRatio": 0.9996338542859323,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -21639,8 +21055,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 15325,
                 "diffRatio": 0.018277469277154415,
-                "exactDiffPixels": 17724,
-                "exactDiffRatio": 0.02113865353789787,
+                "exactDiffPixels": 838453,
+                "exactDiffRatio": 0.9999868807724601,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -22790,8 +22206,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12436,
                 "diffRatio": 0.014831883062361651,
-                "exactDiffPixels": 13042,
-                "exactDiffRatio": 0.015554633234104267,
+                "exactDiffPixels": 838157,
+                "exactDiffRatio": 0.9996338542859323,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -22909,8 +22325,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12436,
                 "diffRatio": 0.014831883062361651,
-                "exactDiffPixels": 13042,
-                "exactDiffRatio": 0.015554633234104267,
+                "exactDiffPixels": 838157,
+                "exactDiffRatio": 0.9996338542859323,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -23424,8 +22840,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12436,
                 "diffRatio": 0.014831883062361651,
-                "exactDiffPixels": 12800,
-                "exactDiffRatio": 0.015266010228226852,
+                "exactDiffPixels": 838157,
+                "exactDiffRatio": 0.9996338542859323,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -23541,10 +22957,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 15325,
-                "diffRatio": 0.018277469277154415,
-                "exactDiffPixels": 17482,
-                "exactDiffRatio": 0.020850030532020458,
+                "diffPixels": 15324,
+                "diffRatio": 0.018276276620105336,
+                "exactDiffPixels": 838453,
+                "exactDiffRatio": 0.9999868807724601,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -24257,8 +23673,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12436,
                 "diffRatio": 0.014831883062361651,
-                "exactDiffPixels": 838157,
-                "exactDiffRatio": 0.9996338542859323,
+                "exactDiffPixels": 13042,
+                "exactDiffRatio": 0.015554633234104267,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -24337,8 +23753,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12436,
                 "diffRatio": 0.014831883062361651,
-                "exactDiffPixels": 13042,
-                "exactDiffRatio": 0.015554633234104267,
+                "exactDiffPixels": 838219,
+                "exactDiffRatio": 0.9997077990229754,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -24575,8 +23991,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12436,
                 "diffRatio": 0.014831883062361651,
-                "exactDiffPixels": 838157,
-                "exactDiffRatio": 0.9996338542859323,
+                "exactDiffPixels": 13042,
+                "exactDiffRatio": 0.015554633234104267,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -24614,8 +24030,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12436,
                 "diffRatio": 0.014831883062361651,
-                "exactDiffPixels": 838157,
-                "exactDiffRatio": 0.9996338542859323,
+                "exactDiffPixels": 13042,
+                "exactDiffRatio": 0.015554633234104267,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -25328,8 +24744,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12436,
                 "diffRatio": 0.014831883062361651,
-                "exactDiffPixels": 838157,
-                "exactDiffRatio": 0.9996338542859323,
+                "exactDiffPixels": 12800,
+                "exactDiffRatio": 0.015266010228226852,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -25445,8 +24861,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 15324,
-                "diffRatio": 0.018276276620105336,
+                "diffPixels": 15325,
+                "diffRatio": 0.018277469277154415,
                 "exactDiffPixels": 838453,
                 "exactDiffRatio": 0.9999868807724601,
                 "exceededDiffPixels": 0,
@@ -25646,8 +25062,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 12436,
                 "diffRatio": 0.014831883062361651,
-                "exactDiffPixels": 838157,
-                "exactDiffRatio": 0.9996338542859323,
+                "exactDiffPixels": 12800,
+                "exactDiffRatio": 0.015266010228226852,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -26717,10 +26133,10 @@
                 "actualHeight": 1056,
                 "diffPixels": 6036,
                 "diffRatio": 0.007198877948248225,
-                "exactDiffPixels": 6400,
-                "exactDiffRatio": 0.007633005114113426,
+                "exactDiffPixels": 838157,
+                "exactDiffRatio": 0.9996338542859323,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
+                "maxChannelDifference": 252,
                 "dimensionMismatch": false,
                 "diffImage": "actual-reference-diff/0241-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-vrl-192.xht-r01-p0001.png"
               }
@@ -26756,10 +26172,10 @@
                 "actualHeight": 1056,
                 "diffPixels": 6036,
                 "diffRatio": 0.007198877948248225,
-                "exactDiffPixels": 6400,
-                "exactDiffRatio": 0.007633005114113426,
+                "exactDiffPixels": 838157,
+                "exactDiffRatio": 0.9996338542859323,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
+                "maxChannelDifference": 252,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0241-WPT_reftest-css-css-writing-modes-abs-pos-non-replaced-vrl-192.xht-r01-p0001.png"
               }
@@ -43020,10 +42436,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 2802,
-                "diffRatio": 0.0033418250515227844,
-                "exactDiffPixels": 838461,
-                "exactDiffRatio": 0.9999964220288527,
+                "diffPixels": 2815,
+                "diffRatio": 0.0033573295931608274,
+                "exactDiffPixels": 5951,
+                "exactDiffRatio": 0.007097502099076406,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -43707,10 +43123,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 3049,
-                "diffRatio": 0.0036364113426455994,
-                "exactDiffPixels": 4842,
-                "exactDiffRatio": 0.005774845431646439,
+                "diffPixels": 3048,
+                "diffRatio": 0.003635218685596519,
+                "exactDiffPixels": 838453,
+                "exactDiffRatio": 0.9999868807724601,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -55847,8 +55263,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 9565,
                 "diffRatio": 0.011407764674452332,
-                "exactDiffPixels": 11722,
-                "exactDiffRatio": 0.013980325929318372,
+                "exactDiffPixels": 838453,
+                "exactDiffRatio": 0.9999868807724601,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -57451,10 +56867,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 3201,
-                "diffRatio": 0.0038176952141057933,
-                "exactDiffPixels": 838445,
-                "exactDiffRatio": 0.9999773395160675,
+                "diffPixels": 3209,
+                "diffRatio": 0.0038272364704984353,
+                "exactDiffPixels": 6366,
+                "exactDiffRatio": 0.007592454774444699,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -81118,10 +80534,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 21664,
-                "diffRatio": 0.025837722311273948,
-                "exactDiffPixels": 838456,
-                "exactDiffRatio": 0.9999904587436074,
+                "diffPixels": 21671,
+                "diffRatio": 0.02584607091061751,
+                "exactDiffPixels": 26282,
+                "exactDiffRatio": 0.031345412563926416,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,

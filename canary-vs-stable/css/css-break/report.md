@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1008
-- Entries with differences: 97 (improvement: 7, pending: 90, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
+- Entries with differences: 96 (improvement: 6, pending: 90, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 11
-- Outcome summary: {"pass":910,"known-fail":85,"improvement":7,"changed-fail":5,"error":1}
+- Outcome summary: {"pass":912,"known-fail":85,"improvement":6,"changed-fail":5}
 
 ## Differences
 
@@ -583,12 +583,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.014697112815815587, diffPixels=12323
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-009-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0911] [WPT reftest] css/css-break/transform-016.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-016.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-016.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0917] [WPT reftest] css/css-break/transform-025.html
   triage: pending
@@ -1251,14 +1245,6 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/underflow-from-next-page-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
-
-- [0912] [WPT reftest] css/css-break/transform-017.html
-  triage: pending
-  side: canary
-  timeout: false
-  error: Error: Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-017.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-017.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-017.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0986] [WPT print-reftest] css/css-break/ink-overflow-001-print.html
   triage: pending

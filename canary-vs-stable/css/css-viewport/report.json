@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T12:22:35.760Z",
+  "generatedAt": "2026-05-07T19:43:53.851Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,36 +39,34 @@
   },
   "summary": {
     "totalEntries": 68,
-    "entriesWithDifferences": 33,
-    "entriesWithErrors": 1,
-    "timeoutEntries": 1,
+    "entriesWithDifferences": 32,
+    "entriesWithErrors": 2,
+    "timeoutEntries": 2,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 4,
+    "screenshotMismatches": 3,
     "outcomes": {
       "changeTypes": {
         "pass": 34,
         "expected-change": 1,
         "known-fail": 29,
-        "error": 1,
-        "regression": 1,
+        "error": 2,
         "improvement": 1,
         "changed-fail": 1
       },
       "statusPairs": {
         "PASS->PASS": 35,
         "FAIL->FAIL": 30,
-        "PASS->ERROR": 1,
-        "PASS->FAIL": 1,
+        "FAIL->ERROR": 2,
         "FAIL->PASS": 1
       }
     },
     "triage": {
       "differences": {
-        "pending": 32,
+        "pending": 31,
         "triaged": 0
       },
       "errors": {
-        "pending": 1,
+        "pending": 2,
         "triaged": 0
       },
       "pendingEntries": 33,
@@ -2642,7 +2640,7 @@
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/iframe-zoom-nested.html",
       "actualStatus": "ERROR",
-      "baselineStatus": "PASS",
+      "baselineStatus": "FAIL",
       "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/iframe-zoom-nested.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -2697,10 +2695,10 @@
         "css/css-viewport/zoom/iframe-zoom.sub.html"
       ],
       "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/iframe-zoom.sub.html",
-      "actualStatus": "FAIL",
-      "baselineStatus": "PASS",
-      "changeType": "regression",
-      "viewerChanged": true,
+      "actualStatus": "ERROR",
+      "baselineStatus": "FAIL",
+      "changeType": "error",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/iframe-zoom.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/iframe-zoom.sub.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -2711,79 +2709,20 @@
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/reference/iframe-zoom-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "difference": {
-        "classification": "regression",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 40960,
-            "diffRatio": 0.048851232730325926,
-            "exactDiffPixels": 40960,
-            "exactDiffRatio": 0.048851232730325926,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0040-WPT_reftest-css-css-viewport-zoom-iframe-zoom.sub.html-p0001.png"
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "triage": {
+            "status": "pending",
+            "decision": ""
           }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-viewport/zoom/reference/iframe-zoom-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/reference/iframe-zoom-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 32768,
-                "diffRatio": 0.039080986184260744,
-                "exactDiffPixels": 32768,
-                "exactDiffRatio": 0.039080986184260744,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0040-WPT_reftest-css-css-viewport-zoom-iframe-zoom.sub.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-viewport/zoom/reference/iframe-zoom-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
         }
-      }
+      ]
     },
     {
       "id": "0041",

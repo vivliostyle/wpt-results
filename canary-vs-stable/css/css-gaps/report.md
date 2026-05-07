@@ -2,8 +2,8 @@
 
 - Compared entries: 295
 - Entries with differences: 266 (pending: 266, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 0
 - Outcome summary: {"pass":29,"known-fail":266}
@@ -2869,10 +2869,6 @@
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gaps/grid/subgrid/subgrid-gap-decorations-015.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.010018319212273872, diffPixels=8400
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gaps/grid/subgrid/subgrid-gap-decorations-015-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gaps/grid/subgrid/subgrid-gap-decorations-015.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010018319212273872, diffPixels=8400
-  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gaps/grid/subgrid/subgrid-gap-decorations-015-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0242] [WPT reftest] css/css-gaps/grid/subgrid/subgrid-gap-decorations-016.html
   triage: pending
@@ -3473,4 +3469,15 @@
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gaps/multicol/multicol-gap-decorations-writing-mode.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.008110067933745515, diffPixels=6800
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gaps/multicol/multicol-gap-decorations-writing-mode-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0241] [WPT reftest] css/css-gaps/grid/subgrid/subgrid-gap-decorations-015.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-gaps/grid/subgrid/subgrid-gap-decorations-015-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gaps/grid/subgrid/subgrid-gap-decorations-015.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gaps/grid/subgrid/subgrid-gap-decorations-015-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

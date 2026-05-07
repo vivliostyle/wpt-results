@@ -1218,6 +1218,20 @@
       referenceFile: css/css-contain/reference/contain-size-flexbox-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-contain/reference/contain-size-flexbox-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0260"
+  category: WPT reftest
+  title: css/css-contain/contain-size-replaced-003c.html
+  file: css/css-contain/contain-size-replaced-003c.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-contain/contain-size-replaced-003c.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-contain/contain-size-replaced-003c.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0262"
   category: WPT reftest
   title: css/css-contain/contain-size-replaced-005.html
@@ -3554,20 +3568,20 @@
       referenceFile: css/css-contain/reference/quote-scoping-invalidation-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-contain/reference/quote-scoping-invalidation-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0316"
+- id: "0258"
   category: WPT reftest
-  title: css/css-contain/content-visibility/content-visibility-019.sub.https.html
-  file: css/css-contain/content-visibility/content-visibility-019.sub.https.html
+  title: css/css-contain/contain-size-replaced-003a.html
+  file: css/css-contain/contain-size-replaced-003a.html
   type: error
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-contain/content-visibility/content-visibility-019.sub.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-contain/contain-size-replaced-003a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-contain/content-visibility/content-visibility-019.sub.https.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-contain/contain-size-replaced-003a.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -3661,7 +3675,7 @@
   sideErrors:
     - side: canary
       errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
       timeout: true
     - side: stable
       errorName: Error
@@ -3682,15 +3696,8 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-contain/content-visibility/content-visibility-084.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
-      timeout: true
-    - side: stable
-      errorName: Error
-      errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
-      timeout: false
+  errorName: Error
+  errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
 - id: "0404"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-top-layer-004.html

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 230
-- Entries with differences: 168 (improvement: 4, pending: 164, triaged: 0)
-- Entries with errors: 7 (pending: 7, triaged: 0)
-- Timeout entries: 7
+- Entries with differences: 165 (improvement: 1, pending: 164, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 88
-- Outcome summary: {"pass":62,"changed-fail":85,"known-fail":77,"improvement":4,"expected-change":2}
+- Screenshot mismatches: 90
+- Outcome summary: {"pass":65,"changed-fail":87,"known-fail":75,"improvement":1,"expected-change":2}
 
 ## Differences
 
@@ -606,12 +606,16 @@
 
 - [0059] [WPT reftest] css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-008.html
   triage: pending
-  outcome: known-fail (baseline=ERROR, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-008.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.09476137317762003, diffPixels=79454
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-008.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.09476137317762003, diffPixels=79454
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0061] [WPT reftest] css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-010.html
   triage: pending
@@ -634,6 +638,10 @@
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0947625658346691, diffPixels=79455
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.09464330012976109, diffPixels=79355
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0064] [WPT reftest] css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-013.html
   triage: pending
@@ -660,12 +668,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.09476137317762003, diffPixels=79454
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0066] [WPT reftest] css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-015.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-015.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-015.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0067] [WPT reftest] css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-016.html
   triage: pending
@@ -825,12 +827,16 @@
 
 - [0087] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-018.html
   triage: pending
-  outcome: known-fail (baseline=ERROR, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/shape-image/reference/shape-image-018-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/shape-image-018.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.009541256392641783, diffPixels=8000
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/reference/shape-image-018-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/shape-image-018.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.009588962674604991, diffPixels=8040
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/reference/shape-image-018-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0088] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-019.html
   triage: pending
@@ -896,18 +902,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/shape-image-023.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.007633005114113426, diffPixels=6400
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/reference/shape-image-023-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0093] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-024.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/shape-image-024.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/shape-image-024.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0097] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-029.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/shape-image-029.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/shape-image-029.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0098] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-013.html
   triage: pending
@@ -1021,6 +1015,10 @@
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-021.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0009064193573009694, diffPixels=760
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-013-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-021.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0009064193573009694, diffPixels=760
+  stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-013-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0107] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-022.html
   triage: pending
@@ -2140,73 +2138,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/values/shape-outside-inset-0010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.001192657049080223, diffPixels=1000
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0059] [WPT reftest] css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-008.html
-  triage: pending
-  side: stable, stable-reference
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): loading page
-  stable-reference reference: css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): loading page
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-008.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-008.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0063] [WPT reftest] css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-012.html
-  triage: pending
-  side: stable-reference
-  reference: css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): loading page
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0066] [WPT reftest] css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-015.html
-  triage: pending
-  side: stable-reference
-  reference: css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): loading page
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/shape-outside-linear-gradient-015.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0087] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-018.html
-  triage: pending
-  side: stable
-  timeout: true
-  error: TimeoutError: page.goto: Timeout 10000ms exceeded.
-Call log:
-  - navigating to "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/shape-image-018.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false", waiting until "domcontentloaded"
-
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/shape-image-018.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/shape-image-018.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0093] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-024.html
-  triage: pending
-  side: stable-reference
-  reference: css/css-shapes/shape-outside/shape-image/reference/shape-image-024-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): loading page
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/shape-image-024.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/reference/shape-image-024-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0097] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-029.html
-  triage: pending
-  side: stable-reference
-  reference: css/css-shapes/shape-outside/shape-image/reference/shape-image-000-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): loading page
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/shape-image-029.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/shape-image/reference/shape-image-000-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0106] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-021.html
-  triage: pending
-  side: stable-reference
-  reference: css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-013-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): loading page
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-021.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-013-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

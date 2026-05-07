@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 244
-- Entries with differences: 138 (improvement: 9, pending: 129, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 139 (improvement: 9, pending: 130, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 6
-- Screenshot mismatches: 7
-- Outcome summary: {"improvement":9,"pass":86,"known-fail":125,"expected-change":2,"changed-fail":2,"unchanged":20}
+- Screenshot mismatches: 8
+- Outcome summary: {"improvement":9,"pass":85,"known-fail":124,"changed-fail":3,"expected-change":2,"regression":1,"unchanged":20}
 
 ## Differences
 
@@ -975,11 +975,11 @@
 
 - [0103] [WPT print-reftest] css/css-page/page-background-001-print.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-page/page-background-001-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001514674452331883, diffPixels=1270
+  canary page 1: diffRatio=0.0025689832837188, diffPixels=2154
   canary page 2: diffRatio=0.0025689832837188, diffPixels=2154
   canary reference render: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-background-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
@@ -1377,6 +1377,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-inline-block-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-inline-block-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0163] [WPT print-reftest] css/css-page/page-name-inline-block-003-print.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-inline-block-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-inline-block-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0164] [WPT print-reftest] css/css-page/page-name-margin-001-print.html
   triage: pending
@@ -1828,4 +1834,15 @@
   stable test: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/tentative/safe-printable-inset-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.3566, diffPixels=35660
   stable reference render: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/tentative/safe-printable-inset-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0163] [WPT print-reftest] css/css-page/page-name-inline-block-003-print.html
+  triage: pending
+  side: canary-reference
+  reference: css/css-page/page-name-inline-block-003-print-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-inline-block-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-page/page-name-inline-block-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
