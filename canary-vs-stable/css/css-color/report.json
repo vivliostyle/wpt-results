@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T03:24:03.915Z",
+  "generatedAt": "2026-05-09T10:30:49.963Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -40,18 +40,20 @@
   "summary": {
     "totalEntries": 306,
     "entriesWithDifferences": 20,
-    "entriesWithErrors": 0,
+    "entriesWithErrors": 1,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 286,
-        "known-fail": 20
+        "pass": 285,
+        "known-fail": 20,
+        "error": 1
       },
       "statusPairs": {
-        "PASS->PASS": 286,
-        "FAIL->FAIL": 20
+        "PASS->PASS": 285,
+        "FAIL->FAIL": 20,
+        "PASS->ERROR": 1
       }
     },
     "triage": {
@@ -60,10 +62,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 0,
+        "pending": 1,
         "triaged": 0
       },
-      "pendingEntries": 20,
+      "pendingEntries": 21,
       "triagedEntries": 0
     }
   },
@@ -2286,9 +2288,9 @@
         "css/css-color/deprecated-sameas-011.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-color/deprecated-sameas-011.html",
-      "actualStatus": "PASS",
+      "actualStatus": "ERROR",
       "baselineStatus": "PASS",
-      "changeType": "pass",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/deprecated-sameas-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/deprecated-sameas-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -2298,6 +2300,20 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/deprecated-sameas-Canvas-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/deprecated-sameas-Canvas-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "Error",
+            "message": "Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-color/deprecated-sameas-011.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).",
+            "timeout": false
+          },
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
         }
       ]
     },

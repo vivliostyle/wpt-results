@@ -1,26 +1,3 @@
-- id: "0002"
-  category: WPT reftest
-  title: css/css-viewport/zoom/background-image.html
-  file: css/css-viewport/zoom/background-image.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/background-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/background-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-viewport/zoom/background-image-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-viewport/zoom/background-image-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-viewport/zoom/background-image-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/background-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0005"
   category: WPT reftest
   title: css/css-viewport/zoom/border-radius.html
@@ -480,29 +457,6 @@
       referenceFile: css/css-viewport/zoom/font-size-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/font-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0041"
-  category: WPT reftest
-  title: css/css-viewport/zoom/image-intrinsic-size.html
-  file: css/css-viewport/zoom/image-intrinsic-size.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/image-intrinsic-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/image-intrinsic-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-viewport/zoom/background-image-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-viewport/zoom/background-image-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-viewport/zoom/background-image-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/background-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0044"
   category: WPT reftest
   title: css/css-viewport/zoom/letter-spacing.html

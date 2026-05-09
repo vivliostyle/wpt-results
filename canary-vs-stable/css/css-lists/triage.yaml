@@ -2428,22 +2428,6 @@
       referenceFile: css/css-lists/list-marker-symbol-bidi-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-marker-symbol-bidi-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0138"
-  category: WPT reftest
-  title: css/css-lists/list-marker-with-lineheight-and-overflow-hidden-001.html
-  file: css/css-lists/list-marker-with-lineheight-and-overflow-hidden-001.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-marker-with-lineheight-and-overflow-hidden-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-marker-with-lineheight-and-overflow-hidden-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "0139"
   category: WPT reftest
   title: css/css-lists/list-style-image-gradients-dynamic.html

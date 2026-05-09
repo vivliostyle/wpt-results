@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 702
-- Entries with differences: 258 (improvement: 1, pending: 257, triaged: 0)
+- Entries with differences: 220 (pending: 220, triaged: 0)
 - Entries with errors: 2 (pending: 2, triaged: 0)
 - Timeout entries: 2
 - Page count changed: 0
-- Screenshot mismatches: 42
-- Outcome summary: {"known-fail":212,"pass":440,"improvement":1,"error":2,"changed-fail":7,"regression":32,"expected-change":6,"unchanged":2}
+- Screenshot mismatches: 1
+- Outcome summary: {"known-fail":219,"pass":478,"error":2,"changed-fail":1,"unchanged":2}
 
 ## Differences
 
@@ -232,9 +232,13 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-with-images-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0022] [WPT reftest] css/css-backgrounds/animations/background-color-animation-with-mask.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/animations/background-color-animation-with-mask-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-with-mask.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-with-mask-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-with-mask.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
@@ -1021,7 +1025,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-image-shared-stylesheet-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-image-shared-stylesheet.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6405546332341042, diffPixels=537082
+  stable page 1: diffRatio=0.6391818849706129, diffPixels=535931
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-image-shared-stylesheet-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0176] [WPT reftest] css/css-backgrounds/background-margin-root.html
@@ -1255,7 +1259,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-position-negative-percentage-comparison-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-position-negative-percentage-comparison-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00030889817571177775, diffPixels=259
+  stable page 1: diffRatio=0.00031009083276085795, diffPixels=260
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-position-negative-percentage-comparison-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0214] [WPT reftest] css/css-backgrounds/background-repeat/background-repeat-round.xht
@@ -2430,379 +2434,76 @@
 
 - [0492] [WPT reftest] css/css-backgrounds/background-size-percentage-root.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size-percentage-root-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-percentage-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  canary page 1: diffRatio=0.23510848408518434, diffPixels=197130
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-percentage-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-percentage-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.23510848408518434, diffPixels=197130
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-percentage-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0510] [WPT reftest] css/css-backgrounds/border-image-002.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01144950767117014, diffPixels=9600
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0512] [WPT reftest] css/css-backgrounds/border-image-004.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01144950767117014, diffPixels=9600
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0513] [WPT reftest] css/css-backgrounds/border-image-006.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/border-image-006-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0029816426227005574, diffPixels=2500
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0515] [WPT reftest] css/css-backgrounds/border-image-011.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008701625830089306, diffPixels=7296
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0517] [WPT reftest] css/css-backgrounds/border-image-013.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/border-image-013-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00030532020456453706, diffPixels=256
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0524] [WPT reftest] css/css-backgrounds/border-image-displayed-with-transparent-border-color.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.03372357071979238, diffPixels=28276
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-displayed-with-transparent-border-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-displayed-with-transparent-border-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0525] [WPT reftest] css/css-backgrounds/border-image-image-type-001.htm
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.035417143729486296, diffPixels=29696
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-image-type-001.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-image-type-001.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0526] [WPT reftest] css/css-backgrounds/border-image-image-type-002.htm
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.03577971147240669, diffPixels=30000
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-image-type-002.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-image-type-002.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0528] [WPT reftest] css/css-backgrounds/border-image-image-type-004.htm
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-image-type-004.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-image-type-004.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0529] [WPT reftest] css/css-backgrounds/border-image-image-type-005.htm
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-image-type-005.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-image-type-005.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0532] [WPT reftest] css/css-backgrounds/border-image-repeat-002.htm
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/border-image-repeat-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-002.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013128768796275093, diffPixels=11008
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0533] [WPT reftest] css/css-backgrounds/border-image-repeat-004.htm
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/border-image-repeat-004-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-004.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013274272956262882, diffPixels=11130
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0536] [WPT reftest] css/css-backgrounds/border-image-repeat-repeat-001.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/border-image-repeat-repeat-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.053669567208610026, diffPixels=45000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0537] [WPT reftest] css/css-backgrounds/border-image-repeat-round-003.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/border-image-repeat-round-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-round-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.20746507900160294, diffPixels=173952
+  canary page 1: diffRatio=0.1323932810472483, diffPixels=111007
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-round-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-round-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.1323932810472483, diffPixels=111007
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-round-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0539] [WPT reftest] css/css-backgrounds/border-image-repeat-round-2.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/border-image-repeat-round-2-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-round-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00214201206014808, diffPixels=1796
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-round-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0540] [WPT reftest] css/css-backgrounds/border-image-repeat-round-stretch-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/border-image-repeat-round-stretch-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-round-stretch-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.1489962598274941, diffPixels=124928
+  canary page 1: diffRatio=0.0909031276238455, diffPixels=76219
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-round-stretch-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-round-stretch-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0909031276238455, diffPixels=76219
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-round-stretch-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0543] [WPT reftest] css/css-backgrounds/border-image-repeat-space-1.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/border-image-repeat-space-1-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002986413250896878, diffPixels=2504
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0544] [WPT reftest] css/css-backgrounds/border-image-repeat-space-10.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/border-image-repeat-space-10-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-10.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008959239752690635, diffPixels=7512
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-10-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0545] [WPT reftest] css/css-backgrounds/border-image-repeat-space-2.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/border-image-repeat-space-2-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001493206625448439, diffPixels=1252
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0547] [WPT reftest] css/css-backgrounds/border-image-repeat-space-4-ref-1.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/border-image-repeat-space-4-ref-2.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-4-ref-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0029959545072895197, diffPixels=2512
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-4-ref-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0549] [WPT reftest] css/css-backgrounds/border-image-repeat-space-5-ref-1.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/border-image-repeat-space-5-ref-2.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-5-ref-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005982367758186398, diffPixels=5016
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-5-ref-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0550] [WPT reftest] css/css-backgrounds/border-image-repeat-space-5.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/border-image-repeat-space-5-ref-1.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-5.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005982367758186398, diffPixels=5016
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-5-ref-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0551] [WPT reftest] css/css-backgrounds/border-image-repeat-space-6.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/border-image-repeat-space-6-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008300893061598351, diffPixels=696
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0552] [WPT reftest] css/css-backgrounds/border-image-repeat-space-7.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/border-image-repeat-space-7-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-7.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0016601786123196702, diffPixels=1392
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-7-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0553] [WPT reftest] css/css-backgrounds/border-image-repeat-space-8.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/border-image-repeat-space-8-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-8.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.06566650446530799, diffPixels=55059
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-8-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0554] [WPT reftest] css/css-backgrounds/border-image-repeat-space-9.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/border-image-repeat-space-8-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-9.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.06566650446530799, diffPixels=55059
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-8-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0555] [WPT reftest] css/css-backgrounds/border-image-repeat-stretch-round-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/border-image-repeat-stretch-round-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-stretch-round-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.1489962598274941, diffPixels=124928
+  canary page 1: diffRatio=0.0971872376154492, diffPixels=81488
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-stretch-round-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-stretch-round-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0971872376154492, diffPixels=81488
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-stretch-round-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0556] [WPT reftest] css/css-backgrounds/border-image-round-and-stretch.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/border-image-round-and-stretch-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-round-and-stretch.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004360354171437295, diffPixels=3656
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-round-and-stretch-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0557] [WPT reftest] css/css-backgrounds/border-image-shorthand-001.htm
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.03341347988703153, diffPixels=28016
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-shorthand-001.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-shorthand-001.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0559] [WPT reftest] css/css-backgrounds/border-image-shorthand-003.htm
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/border-image-shorthand-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-shorthand-003.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.021706358293260057, diffPixels=18200
+  canary page 1: diffRatio=0.011688039080986184, diffPixels=9800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-shorthand-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-shorthand-003.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.011688039080986184, diffPixels=9800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-shorthand-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0564] [WPT reftest] css/css-backgrounds/border-image-slice-005.htm
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/border-image-slice-005-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-slice-005.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.021754064575223265, diffPixels=18240
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-slice-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0565] [WPT reftest] css/css-backgrounds/border-image-slice-006.htm
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/border-image-slice-006-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-slice-006.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004293565376688803, diffPixels=3600
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-slice-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0567] [WPT reftest] css/css-backgrounds/border-image-slice-fill-001.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/border-image-slice-fill-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-slice-fill-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-slice-fill-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0570] [WPT reftest] css/css-backgrounds/border-image-slice-percentage.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/border-image-repeat-round-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-slice-percentage.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0023089840470193117, diffPixels=1936
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-round-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0571] [WPT reftest] css/css-backgrounds/border-image-space-001.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/border-image-space-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-space-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0027478818410808336, diffPixels=2304
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-space-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0572] [WPT reftest] css/css-backgrounds/border-image-width-001.htm
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/border-image-width-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-width-001.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04025217540645752, diffPixels=33750
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-width-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0573] [WPT reftest] css/css-backgrounds/border-image-width-005.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-width-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0574] [WPT reftest] css/css-backgrounds/border-image-width-006.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-width-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0576] [WPT reftest] css/css-backgrounds/border-image-width-008.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/border-image-width-008-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-width-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.018492147545988855, diffPixels=15505
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-width-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0577] [WPT reftest] css/css-backgrounds/border-image-width-009.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/border-image-width-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-width-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  canary page 1: diffRatio=0.010495382031905962, diffPixels=8800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-width-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-width-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3016,33 +2717,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/color-mix-currentcolor-outline-repaint.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0675] [WPT reftest] css/css-backgrounds/css3-border-image-repeat-repeat.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/css3-border-image-repeat-repeat-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/css3-border-image-repeat-repeat.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0060109915273643235, diffPixels=5040
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/css3-border-image-repeat-repeat-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0676] [WPT reftest] css/css-backgrounds/css3-border-image-repeat-stretch.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/css3-border-image-repeat-stretch-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/css3-border-image-repeat-stretch.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008467865048469582, diffPixels=7100
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/css3-border-image-repeat-stretch-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0677] [WPT reftest] css/css-backgrounds/css3-border-image-source.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/css3-border-image-source-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/css3-border-image-source.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01717426150675521, diffPixels=14400
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/css3-border-image-source-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0679] [WPT reftest] css/css-backgrounds/currentcolor-border-repaint-parent.html
   triage: pending

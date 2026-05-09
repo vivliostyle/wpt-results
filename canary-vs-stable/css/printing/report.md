@@ -2,11 +2,11 @@
 
 - Compared entries: 26
 - Entries with differences: 6 (pending: 6, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
-- Timeout entries: 2
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":18,"known-fail":6,"error":2}
+- Outcome summary: {"pass":19,"known-fail":6,"error":1}
 
 ## Differences
 
@@ -89,14 +89,6 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
-
-- [0009] [WPT print-reftest] css/printing/fixed-pos-object-pdf-crash-print.html
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0026] [WPT print-reftest] css/printing/zero-size-003-print.tentative.html
   triage: pending

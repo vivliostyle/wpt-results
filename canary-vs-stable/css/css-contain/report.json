@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T03:30:45.385Z",
+  "generatedAt": "2026-05-09T10:37:24.735Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,37 +39,37 @@
   },
   "summary": {
     "totalEntries": 428,
-    "entriesWithDifferences": 131,
-    "entriesWithErrors": 8,
+    "entriesWithDifferences": 132,
+    "entriesWithErrors": 9,
     "timeoutEntries": 8,
     "pageCountMismatches": 0,
     "screenshotMismatches": 5,
     "outcomes": {
       "changeTypes": {
-        "pass": 289,
+        "pass": 288,
         "known-fail": 126,
         "changed-fail": 3,
+        "regression": 2,
         "expected-change": 1,
-        "regression": 1,
         "error": 8
       },
       "statusPairs": {
-        "PASS->PASS": 290,
+        "PASS->PASS": 289,
         "FAIL->FAIL": 129,
-        "PASS->FAIL": 1,
+        "PASS->FAIL": 2,
         "ERROR->ERROR": 8
       }
     },
     "triage": {
       "differences": {
-        "pending": 131,
+        "pending": 132,
         "triaged": 0
       },
       "errors": {
-        "pending": 8,
+        "pending": 9,
         "triaged": 0
       },
-      "pendingEntries": 139,
+      "pendingEntries": 141,
       "triagedEntries": 0
     }
   },
@@ -10311,9 +10311,9 @@
         "css/css-contain/contain-size-replaced-003a.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-contain/contain-size-replaced-003a.html",
-      "actualStatus": "PASS",
+      "actualStatus": "FAIL",
       "baselineStatus": "PASS",
-      "changeType": "pass",
+      "changeType": "regression",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-size-replaced-003a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-size-replaced-003a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -10323,6 +10323,38 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-size-replaced-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-size-replaced-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "regression",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      },
+      "errors": [
+        {
+          "side": "canary-reference",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "referenceFile": "css/css-contain/contain-size-replaced-003-ref.html",
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
         }
       ]
     },
@@ -15409,7 +15441,7 @@
               "side": "stable",
               "error": {
                 "name": "Error",
-                "message": "page.addStyleTag: Execution context was destroyed, most likely because of a navigation",
+                "message": "page.evaluate: Error: Could not detect total pages (no spread container found).\n    at eval (eval at evaluate (:302:30), <anonymous>:10:11)\n    at UtilityScript.evaluate (<anonymous>:304:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
                 "timeout": false
               }
             }
@@ -17130,17 +17162,17 @@
         {
           "side": "canary, stable",
           "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
+            "name": "Error",
+            "message": "page.addStyleTag: Execution context was destroyed, most likely because of a navigation",
+            "timeout": false
           },
           "sideErrors": [
             {
               "side": "canary",
               "error": {
-                "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
-                "timeout": true
+                "name": "Error",
+                "message": "page.addStyleTag: Execution context was destroyed, most likely because of a navigation",
+                "timeout": false
               }
             },
             {
@@ -17351,7 +17383,7 @@
           "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
-            "message": "page.waitForFunction: Timeout 10000ms exceeded.",
+            "message": "Timeout (10000ms): waiting for viewer ready",
             "timeout": true
           },
           "sideErrors": [
@@ -17359,7 +17391,7 @@
               "side": "canary",
               "error": {
                 "name": "TimeoutError",
-                "message": "page.waitForFunction: Timeout 10000ms exceeded.",
+                "message": "Timeout (10000ms): waiting for viewer ready",
                 "timeout": true
               }
             },
@@ -17367,7 +17399,7 @@
               "side": "stable",
               "error": {
                 "name": "Error",
-                "message": "page.addStyleTag: Execution context was destroyed, most likely because of a navigation",
+                "message": "page.evaluate: Execution context was destroyed, most likely because of a navigation",
                 "timeout": false
               }
             }
@@ -19285,12 +19317,12 @@
             "height": 1056,
             "actualWidth": 794,
             "actualHeight": 1056,
-            "diffPixels": 33710,
-            "diffRatio": 0.04020446912449431,
-            "exactDiffPixels": 35000,
-            "exactDiffRatio": 0.041742996717807804,
+            "diffPixels": 6223,
+            "diffRatio": 0.007421904816426227,
+            "exactDiffPixels": 20600,
+            "exactDiffRatio": 0.02456873521105259,
             "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
+            "maxChannelDifference": 95,
             "dimensionMismatch": false,
             "diffImage": "diff/0389-WPT_reftest-css-css-contain-content-visibility-content-visibility-video.html-p0001.png"
           }
@@ -19320,10 +19352,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13864,
-                "diffRatio": 0.01653499732844821,
-                "exactDiffPixels": 21795,
-                "exactDiffRatio": 0.025993960384703457,
+                "diffPixels": 34587,
+                "diffRatio": 0.041250429356537666,
+                "exactDiffPixels": 35000,
+                "exactDiffRatio": 0.041742996717807804,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -19359,8 +19391,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 33072,
-                "diffRatio": 0.03944355392718113,
+                "diffPixels": 34013,
+                "diffRatio": 0.04056584421036562,
                 "exactDiffPixels": 35000,
                 "exactDiffRatio": 0.041742996717807804,
                 "exceededDiffPixels": 0,

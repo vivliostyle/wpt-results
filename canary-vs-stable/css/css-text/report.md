@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1484
-- Entries with differences: 428 (improvement: 2, pending: 426, triaged: 0)
+- Entries with differences: 427 (improvement: 1, pending: 426, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 12
-- Outcome summary: {"pass":1054,"known-fail":415,"changed-fail":10,"improvement":2,"expected-change":1,"unchanged":2}
+- Outcome summary: {"pass":1055,"known-fail":415,"changed-fail":10,"improvement":1,"expected-change":1,"unchanged":2}
 
 ## Differences
 
@@ -2964,15 +2964,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-tailoring-001a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00040311808258911534, diffPixels=338
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-tailoring-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0871] [WPT reftest] css/css-text/text-transform/text-transform-uppercase-dynamic.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000015504541638042898, diffPixels=13
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0886] [WPT reftest] css/css-text/text-transform/text-transform-upperlower-016.html
   triage: pending

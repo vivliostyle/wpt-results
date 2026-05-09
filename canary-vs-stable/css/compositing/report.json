@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T02:58:59.755Z",
+  "generatedAt": "2026-05-09T10:06:49.967Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,17 +39,17 @@
   },
   "summary": {
     "totalEntries": 60,
-    "entriesWithDifferences": 14,
+    "entriesWithDifferences": 13,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 5,
+    "screenshotMismatches": 4,
     "outcomes": {
       "changeTypes": {
-        "pass": 46,
+        "pass": 47,
         "known-fail": 9,
         "improvement": 2,
-        "expected-change": 2,
+        "expected-change": 1,
         "regression": 1
       },
       "statusPairs": {
@@ -61,14 +61,14 @@
     },
     "triage": {
       "differences": {
-        "pending": 12,
+        "pending": 11,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 12,
+      "pendingEntries": 11,
       "triagedEntries": 0
     }
   },
@@ -803,8 +803,8 @@
       "sourceUrl": "https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-mask.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "expected-change",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-mask.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-mask.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -814,40 +814,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-mask-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-mask-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "expected-change",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 4850,
-            "diffRatio": 0.005784386688039081,
-            "exactDiffPixels": 5134,
-            "exactDiffRatio": 0.006123101289977864,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0021-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-mask.html-p0001.png"
-          }
-        ],
-        "comparisons": [],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0022",

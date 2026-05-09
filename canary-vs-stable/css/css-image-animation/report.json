@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T04:08:34.553Z",
+  "generatedAt": "2026-05-09T11:13:53.145Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -43,30 +43,27 @@
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 3,
+    "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 14,
-        "pass": 2,
-        "changed-fail": 2,
-        "improvement": 1
+        "known-fail": 17,
+        "pass": 2
       },
       "statusPairs": {
-        "FAIL->FAIL": 16,
-        "PASS->PASS": 2,
-        "FAIL->PASS": 1
+        "FAIL->FAIL": 17,
+        "PASS->PASS": 2
       }
     },
     "triage": {
       "differences": {
-        "pending": 16,
+        "pending": 17,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 16,
+      "pendingEntries": 17,
       "triagedEntries": 0
     }
   },
@@ -699,8 +696,8 @@
       "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -712,7 +709,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -721,23 +718,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 132,
-            "diffRatio": 0.00015743073047858942,
-            "exactDiffPixels": 222,
-            "exactDiffRatio": 0.00026476986489580947,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 199,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0007-WPT_reftest-css-css-image-animation-image-animation-img-running-to-normal.tentative.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -802,8 +783,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
+                "diffPixels": 9927,
+                "diffRatio": 0.011839506526219373,
                 "exactDiffPixels": 10000,
                 "exactDiffRatio": 0.01192657049080223,
                 "exceededDiffPixels": 0,
@@ -1690,8 +1671,8 @@
       "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1703,7 +1684,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -1712,23 +1693,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 1000,
-            "diffRatio": 0.001192657049080223,
-            "exactDiffPixels": 1000,
-            "exactDiffRatio": 0.001192657049080223,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0016-WPT_reftest-css-css-image-animation-image-animation-video-poster-paused-normal-mixed.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -1754,10 +1719,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 1000,
-                "diffRatio": 0.001192657049080223,
-                "exactDiffPixels": 1000,
-                "exactDiffRatio": 0.001192657049080223,
+                "diffPixels": 600,
+                "diffRatio": 0.0007155942294481337,
+                "exactDiffPixels": 600,
+                "exactDiffRatio": 0.0007155942294481337,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -2061,10 +2026,10 @@
         "css/css-image-animation/image-animation-video-poster-stopped.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped.html",
-      "actualStatus": "PASS",
+      "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -2076,8 +2041,8 @@
         }
       ],
       "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
+        "classification": "known-fail",
+        "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
           "totalPages": 1
@@ -2085,24 +2050,47 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 400,
-            "diffRatio": 0.00047706281963208914,
-            "exactDiffPixels": 400,
-            "exactDiffRatio": 0.00047706281963208914,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0019-WPT_reftest-css-css-image-animation-image-animation-video-poster-stopped.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-image-animation/image-animation-video-poster-stopped-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 400,
+                "diffRatio": 0.00047706281963208914,
+                "exactDiffPixels": 400,
+                "exactDiffRatio": 0.00047706281963208914,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0019-WPT_reftest-css-css-image-animation-image-animation-video-poster-stopped.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-image-animation/image-animation-video-poster-stopped-ref.html",
@@ -2144,7 +2132,7 @@
           }
         ],
         "triage": {
-          "status": "not-needed",
+          "status": "pending",
           "decision": ""
         }
       }

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 166
-- Entries with differences: 105 (improvement: 1, pending: 104, triaged: 0)
+- Entries with differences: 104 (improvement: 1, pending: 103, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 3
-- Outcome summary: {"pass":61,"known-fail":102,"improvement":1,"expected-change":1,"changed-fail":1}
+- Screenshot mismatches: 2
+- Outcome summary: {"pass":62,"known-fail":102,"improvement":1,"changed-fail":1}
 
 ## Differences
 
@@ -1188,13 +1188,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-marker-symbol-bidi.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0002671551789939699, diffPixels=224
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-marker-symbol-bidi-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0138] [WPT reftest] css/css-lists/list-marker-with-lineheight-and-overflow-hidden-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.000040550339668727576, diffPixels=34
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-marker-with-lineheight-and-overflow-hidden-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-marker-with-lineheight-and-overflow-hidden-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0139] [WPT reftest] css/css-lists/list-style-image-gradients-dynamic.html
   triage: pending

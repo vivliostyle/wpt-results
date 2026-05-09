@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T06:13:54.842Z",
+  "generatedAt": "2026-05-09T13:08:33.731Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -48,23 +48,24 @@
       "changeTypes": {
         "known-fail": 42,
         "pass": 15,
-        "changed-fail": 1
+        "improvement": 1
       },
       "statusPairs": {
-        "FAIL->FAIL": 43,
-        "PASS->PASS": 15
+        "FAIL->FAIL": 42,
+        "PASS->PASS": 15,
+        "FAIL->PASS": 1
       }
     },
     "triage": {
       "differences": {
-        "pending": 43,
+        "pending": 42,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 43,
+      "pendingEntries": 42,
       "triagedEntries": 0
     }
   },
@@ -1121,9 +1122,9 @@
         "css/mediaqueries/min-width-tables-001.html"
       ],
       "sourceUrl": "https://wpt.live/css/mediaqueries/min-width-tables-001.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
+      "changeType": "improvement",
       "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/min-width-tables-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/min-width-tables-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -1136,8 +1137,8 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
-        "triageRequired": true,
+        "classification": "improvement",
+        "triageRequired": false,
         "pageCountMismatch": false,
         "actual": {
           "totalPages": 1
@@ -1152,10 +1153,10 @@
             "height": 1056,
             "actualWidth": 794,
             "actualHeight": 1056,
-            "diffPixels": 19200,
-            "diffRatio": 0.02289901534234028,
-            "exactDiffPixels": 19200,
-            "exactDiffRatio": 0.02289901534234028,
+            "diffPixels": 10000,
+            "diffRatio": 0.01192657049080223,
+            "exactDiffPixels": 10000,
+            "exactDiffRatio": 0.01192657049080223,
             "exceededDiffPixels": 0,
             "maxChannelDifference": 255,
             "dimensionMismatch": false,
@@ -1163,45 +1164,6 @@
           }
         ],
         "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 16400,
-                "diffRatio": 0.019559575604915655,
-                "exactDiffPixels": 16400,
-                "exactDiffRatio": 0.019559575604915655,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0013-WPT_reftest-css-mediaqueries-min-width-tables-001.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
@@ -1243,7 +1205,7 @@
           }
         ],
         "triage": {
-          "status": "pending",
+          "status": "not-needed",
           "decision": ""
         }
       }

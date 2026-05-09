@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T05:18:46.770Z",
+  "generatedAt": "2026-05-09T12:19:07.334Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,24 +39,24 @@
   },
   "summary": {
     "totalEntries": 1484,
-    "entriesWithDifferences": 428,
+    "entriesWithDifferences": 427,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 12,
     "outcomes": {
       "changeTypes": {
-        "pass": 1054,
+        "pass": 1055,
         "known-fail": 415,
         "changed-fail": 10,
-        "improvement": 2,
+        "improvement": 1,
         "expected-change": 1,
         "unchanged": 2
       },
       "statusPairs": {
-        "PASS->PASS": 1055,
+        "PASS->PASS": 1056,
         "FAIL->FAIL": 425,
-        "FAIL->PASS": 2,
+        "FAIL->PASS": 1,
         "MANUAL->MANUAL": 2
       }
     },
@@ -43193,8 +43193,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -43205,64 +43205,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 13,
-                "diffRatio": 0.000015504541638042898,
-                "exactDiffPixels": 31,
-                "exactDiffRatio": 0.00003697236852148691,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0871-WPT_reftest-css-css-text-text-transform-text-transform-uppercase-dynamic.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0872",

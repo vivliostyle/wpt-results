@@ -268,29 +268,6 @@
       referenceFile: css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0058"
-  category: WPT reftest
-  title: css/css-borders/corner-shape/corner-shape-video-border.html
-  file: css/css-borders/corner-shape/corner-shape-video-border.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-video-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-video-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-borders/corner-shape/corner-shape-img-border-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-borders/corner-shape/corner-shape-img-border-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-borders/corner-shape/corner-shape-img-border-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0063"
   category: WPT reftest
   title: css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html

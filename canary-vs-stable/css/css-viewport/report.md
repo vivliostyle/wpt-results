@@ -1,23 +1,14 @@
 # canary vs stable comparison report
 
 - Compared entries: 68
-- Entries with differences: 32 (pending: 32, triaged: 0)
+- Entries with differences: 30 (pending: 30, triaged: 0)
 - Entries with errors: 2 (pending: 2, triaged: 0)
 - Timeout entries: 2
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":34,"regression":2,"known-fail":30,"error":2}
+- Outcome summary: {"pass":36,"known-fail":30,"error":2}
 
 ## Differences
-
-- [0002] [WPT reftest] css/css-viewport/zoom/background-image.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-viewport/zoom/background-image-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/background-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011926570490802228, diffPixels=100
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/background-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0005] [WPT reftest] css/css-viewport/zoom/border-radius.html
   triage: pending
@@ -239,15 +230,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/font-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0009159606136936112, diffPixels=768
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/font-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0041] [WPT reftest] css/css-viewport/zoom/image-intrinsic-size.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-viewport/zoom/background-image-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/image-intrinsic-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011926570490802228, diffPixels=100
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/background-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0044] [WPT reftest] css/css-viewport/zoom/letter-spacing.html
   triage: pending

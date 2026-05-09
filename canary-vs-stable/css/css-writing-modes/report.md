@@ -2252,7 +2252,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-086.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014736470498435234, diffPixels=12356
+  stable page 1: diffRatio=0.014829497748263492, diffPixels=12434
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0191] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-vrl-088.xht
@@ -5004,7 +5004,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-ltr-top-bottom-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-ltr-top-bottom-vrl-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003923841691473934, diffPixels=3290
+  stable page 1: diffRatio=0.003933382947866575, diffPixels=3298
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-ltr-top-bottom-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0785] [WPT reftest] css/css-writing-modes/overconstrained-rel-pos-rtl-left-right-vlr-009.xht
@@ -6883,7 +6883,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/text-indent-vlr-011-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/text-indent-vlr-015.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0038188878711548735, diffPixels=3202
+  stable page 1: diffRatio=0.0038343924127929164, diffPixels=3215
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/text-indent-vlr-011-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1049] [WPT reftest] css/css-writing-modes/text-indent-vlr-017.xht
@@ -7204,7 +7204,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/wm-propagation-body-033-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/wm-propagation-body-041.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02583652965422487, diffPixels=21663
+  stable page 1: diffRatio=0.02584607091061751, diffPixels=21671
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/wm-propagation-body-033-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1116] [WPT reftest] css/css-writing-modes/wm-propagation-body-042.html
@@ -7334,7 +7334,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/wm-propagation-body-035-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/wm-propagation-body-051.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.025826988397832228, diffPixels=21655
+  stable page 1: diffRatio=0.02584010762537211, diffPixels=21666
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/wm-propagation-body-035-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1126] [WPT reftest] css/css-writing-modes/wm-propagation-body-052.html

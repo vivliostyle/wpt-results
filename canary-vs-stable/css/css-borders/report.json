@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T03:10:39.600Z",
+  "generatedAt": "2026-05-09T10:17:59.559Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,35 +39,33 @@
   },
   "summary": {
     "totalEntries": 64,
-    "entriesWithDifferences": 14,
+    "entriesWithDifferences": 13,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 2,
+    "screenshotMismatches": 1,
     "outcomes": {
       "changeTypes": {
-        "pass": 50,
+        "pass": 51,
         "known-fail": 12,
-        "improvement": 1,
-        "regression": 1
+        "improvement": 1
       },
       "statusPairs": {
-        "PASS->PASS": 50,
+        "PASS->PASS": 51,
         "FAIL->FAIL": 12,
-        "FAIL->PASS": 1,
-        "PASS->FAIL": 1
+        "FAIL->PASS": 1
       }
     },
     "triage": {
       "differences": {
-        "pending": 13,
+        "pending": 12,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 13,
+      "pendingEntries": 12,
       "triagedEntries": 0
     }
   },
@@ -2523,10 +2521,10 @@
         "css/css-borders/corner-shape/corner-shape-video-border.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-video-border.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "regression",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-video-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-video-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -2536,89 +2534,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "regression",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 6613,
-            "diffRatio": 0.007887041065567514,
-            "exactDiffPixels": 6827,
-            "exactDiffRatio": 0.008142269674070682,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0058-WPT_reftest-css-css-borders-corner-shape-corner-shape-video-border.html-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-borders/corner-shape/corner-shape-img-border-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": {
-              "maxDifference": [
-                0,
-                92
-              ],
-              "totalPixels": [
-                0,
-                255
-              ]
-            },
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 6614,
-                "diffRatio": 0.007888233722616595,
-                "exactDiffPixels": 6824,
-                "exactDiffRatio": 0.008138691702923442,
-                "exceededDiffPixels": 6740,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0058-WPT_reftest-css-css-borders-corner-shape-corner-shape-video-border.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0059",

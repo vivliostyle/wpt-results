@@ -10708,15 +10708,8 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/lists/list-style-image-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/CSS2/lists/list-style-image-005-ref.xht
-  relation: "=="
   diffPages:
-    - css/CSS2/lists/list-style-image-005-ref.xht#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/CSS2/lists/list-style-image-005-ref.xht
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/list-style-image-005-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - 1
 - id: "2326"
   category: WPT reftest
   title: css/CSS2/lists/list-style-image-007.html
@@ -10758,8 +10751,15 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+  relation: "=="
   diffPages:
-    - 1
+    - css/CSS2/lists/list-style-image-applies-to-ref-1.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-ref-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "2328"
   category: WPT reftest
   title: css/CSS2/lists/list-style-image-applies-to-002.xht
@@ -10783,22 +10783,6 @@
       referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-ref-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "2329"
-  category: WPT reftest
-  title: css/CSS2/lists/list-style-image-applies-to-003.xht
-  file: css/CSS2/lists/list-style-image-applies-to-003.xht
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "2330"
   category: WPT reftest
   title: css/CSS2/lists/list-style-image-applies-to-004.xht
@@ -10813,8 +10797,38 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+  relation: "=="
   diffPages:
-    - 1
+    - css/CSS2/lists/list-style-image-applies-to-ref-1.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-ref-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "2333"
+  category: WPT reftest
+  title: css/CSS2/lists/list-style-image-applies-to-007.xht
+  file: css/CSS2/lists/list-style-image-applies-to-007.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+  relation: "=="
+  diffPages:
+    - css/CSS2/lists/list-style-image-applies-to-ref-1.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-ref-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "2334"
   category: WPT reftest
   title: css/CSS2/lists/list-style-image-applies-to-008.xht
@@ -10852,24 +10866,65 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+  relation: "=="
   diffPages:
-    - 1
-- id: "2337"
+    - css/CSS2/lists/list-style-image-applies-to-ref-1.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-ref-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "2338"
   category: WPT reftest
-  title: css/CSS2/lists/list-style-image-applies-to-012.xht
-  file: css/CSS2/lists/list-style-image-applies-to-012.xht
+  title: css/CSS2/lists/list-style-image-applies-to-013.xht
+  file: css/CSS2/lists/list-style-image-applies-to-013.xht
   type: difference
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+  relation: "=="
   diffPages:
-    - 1
+    - css/CSS2/lists/list-style-image-applies-to-ref-1.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-ref-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "2339"
+  category: WPT reftest
+  title: css/CSS2/lists/list-style-image-applies-to-014.xht
+  file: css/CSS2/lists/list-style-image-applies-to-014.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+  relation: "=="
+  diffPages:
+    - css/CSS2/lists/list-style-image-applies-to-ref-1.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-ref-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-ref-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "2340"
   category: WPT reftest
   title: css/CSS2/lists/list-style-image-applies-to-015.xht
@@ -10884,8 +10939,38 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-015.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+  relation: "=="
   diffPages:
-    - 1
+    - css/CSS2/lists/list-style-image-applies-to-ref-1.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-ref-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "2341"
+  category: WPT reftest
+  title: css/CSS2/lists/list-style-image-applies-to-016.html
+  file: css/CSS2/lists/list-style-image-applies-to-016.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+  relation: "=="
+  diffPages:
+    - css/CSS2/lists/list-style-image-applies-to-ref-1.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/lists/list-style-image-applies-to-ref-1.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/list-style-image-applies-to-ref-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "2358"
   category: WPT reftest
   title: css/CSS2/lists/list-style-position-applies-to-014.xht
@@ -27090,6 +27175,70 @@
       referenceFile: css/CSS2/tables/reference/table-anonymous-text-indent-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/table-anonymous-text-indent-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "5563"
+  category: WPT reftest
+  title: css/CSS2/tables/table-backgrounds-bc-cell-001.xht
+  file: css/CSS2/tables/table-backgrounds-bc-cell-001.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/table-backgrounds-bc-cell-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/table-backgrounds-bc-cell-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "5564"
+  category: WPT reftest
+  title: css/CSS2/tables/table-backgrounds-bc-colgroup-001.xht
+  file: css/CSS2/tables/table-backgrounds-bc-colgroup-001.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/table-backgrounds-bc-colgroup-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/table-backgrounds-bc-colgroup-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "5565"
+  category: WPT reftest
+  title: css/CSS2/tables/table-backgrounds-bc-column-001.xht
+  file: css/CSS2/tables/table-backgrounds-bc-column-001.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/table-backgrounds-bc-column-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/table-backgrounds-bc-column-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "5566"
+  category: WPT reftest
+  title: css/CSS2/tables/table-backgrounds-bc-row-001.xht
+  file: css/CSS2/tables/table-backgrounds-bc-row-001.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/table-backgrounds-bc-row-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/table-backgrounds-bc-row-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
 - id: "5594"
   category: WPT reftest
   title: css/CSS2/tables/table-vertical-align-baseline-008.xht
@@ -29749,6 +29898,22 @@
       referenceFile: css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "6514"
+  category: WPT manual
+  title: css/CSS2/backgrounds/background-attachment-010.xht
+  file: css/CSS2/backgrounds/background-attachment-010.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-attachment-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-attachment-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
 - id: "6585"
   category: WPT manual
   title: css/CSS2/floats-clear/floats-137.xht
@@ -29781,6 +29946,22 @@
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/page-box/page-container-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 2
+- id: "6817"
+  category: WPT manual
+  title: css/CSS2/ui/cursor-024.xht
+  file: css/CSS2/ui/cursor-024.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/ui/cursor-024.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/ui/cursor-024.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
 - id: "3240"
   category: WPT reftest
   title: css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html
@@ -29798,6 +29979,40 @@
   errorSide: canary
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "3632"
+  category: WPT reftest
+  title: css/CSS2/normal-flow/min-height-060.xht
+  file: css/CSS2/normal-flow/min-height-060.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/min-height-060.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/min-height-060.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary, stable
+  sideErrors:
+    - side: canary
+      errorName: Error
+      errorMessage: >
+        page.goto: net::ERR_NETWORK_CHANGED at
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/min-height-060.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+        Call log:
+          - navigating to "https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/min-height-060.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false", waiting until "domcontentloaded"
+      timeout: false
+    - side: stable
+      errorName: Error
+      errorMessage: >
+        page.goto: net::ERR_NETWORK_CHANGED at
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/min-height-060.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+        Call log:
+          - navigating to "https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/min-height-060.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false", waiting until "domcontentloaded"
+      timeout: false
 - id: "6174"
   category: WPT reftest
   title: css/CSS2/visufx/overflow-propagation-001b.html

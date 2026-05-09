@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 60
-- Entries with differences: 14 (improvement: 2, pending: 12, triaged: 0)
+- Entries with differences: 13 (improvement: 2, pending: 11, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 5
-- Outcome summary: {"pass":46,"known-fail":9,"improvement":2,"expected-change":2,"regression":1}
+- Screenshot mismatches: 4
+- Outcome summary: {"pass":47,"known-fail":9,"improvement":2,"expected-change":1,"regression":1}
 
 ## Differences
 
@@ -40,13 +40,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-iframe-sibling.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-iframe-sibling-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0021] [WPT reftest] css/compositing/mix-blend-mode/mix-blend-mode-mask.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.005784386688039081, diffPixels=4850
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-mask.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-mask.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0046] [WPT reftest] css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html
   triage: pending

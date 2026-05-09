@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 62
-- Entries with differences: 37 (pending: 37, triaged: 0)
+- Entries with differences: 36 (pending: 36, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":25,"known-fail":36,"regression":1}
+- Outcome summary: {"pass":26,"known-fail":36}
 
 ## Differences
 
@@ -113,15 +113,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/element-replacement-image-src.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/element-replacement-image-no-src-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0014] [WPT reftest] css/css-content/element-replacement-on-replaced-element.tentative.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-content/element-replacement-on-replaced-element-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/element-replacement-on-replaced-element.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/element-replacement-on-replaced-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0015] [WPT reftest] css/css-content/element-replacement-root-canvas-bg-from-body.html
   triage: pending

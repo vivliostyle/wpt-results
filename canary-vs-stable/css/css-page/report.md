@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 6
-- Screenshot mismatches: 5
-- Outcome summary: {"pass":89,"known-fail":124,"improvement":6,"changed-fail":3,"expected-change":2,"unchanged":20}
+- Screenshot mismatches: 4
+- Outcome summary: {"pass":89,"known-fail":125,"improvement":6,"expected-change":2,"changed-fail":2,"unchanged":20}
 
 ## Differences
 
@@ -957,11 +957,11 @@
 
 - [0103] [WPT print-reftest] css/css-page/page-background-001-print.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-page/page-background-001-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-background-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0025689832837188, diffPixels=2154
+  canary page 1: diffRatio=0.001514674452331883, diffPixels=1270
   canary page 2: diffRatio=0.0025689832837188, diffPixels=2154
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-background-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL

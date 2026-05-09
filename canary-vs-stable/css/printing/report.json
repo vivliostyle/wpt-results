@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T06:15:26.962Z",
+  "generatedAt": "2026-05-09T13:09:53.891Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -40,20 +40,19 @@
   "summary": {
     "totalEntries": 26,
     "entriesWithDifferences": 6,
-    "entriesWithErrors": 2,
-    "timeoutEntries": 2,
+    "entriesWithErrors": 1,
+    "timeoutEntries": 1,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 18,
+        "pass": 19,
         "known-fail": 6,
-        "error": 2
+        "error": 1
       },
       "statusPairs": {
-        "PASS->PASS": 18,
+        "PASS->PASS": 19,
         "FAIL->FAIL": 6,
-        "PASS->ERROR": 1,
         "ERROR->ERROR": 1
       }
     },
@@ -63,10 +62,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 2,
+        "pending": 1,
         "triaged": 0
       },
-      "pendingEntries": 8,
+      "pendingEntries": 7,
       "triagedEntries": 0
     }
   },
@@ -551,9 +550,9 @@
         "css/printing/fixed-pos-object-pdf-crash-print.html"
       ],
       "sourceUrl": "https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html",
-      "actualStatus": "ERROR",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "error",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -563,20 +562,6 @@
           "relation": "!=",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "errors": [
-        {
-          "side": "canary",
-          "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
-          },
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
         }
       ]
     },

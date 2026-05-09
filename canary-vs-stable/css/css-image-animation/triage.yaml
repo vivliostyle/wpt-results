@@ -430,3 +430,30 @@
       referenceFile: css/css-image-animation/image-animation-video-poster-running-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0019"
+  category: WPT reftest
+  title: css/css-image-animation/image-animation-video-poster-stopped.html
+  file: css/css-image-animation/image-animation-video-poster-stopped.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-image-animation/image-animation-video-poster-stopped-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-image-animation/image-animation-video-poster-stopped-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-image-animation/image-animation-video-poster-stopped-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-image-animation/image-animation-video-poster-stopped-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

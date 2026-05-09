@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T04:19:14.387Z",
+  "generatedAt": "2026-05-09T11:24:12.655Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,17 +39,16 @@
   },
   "summary": {
     "totalEntries": 166,
-    "entriesWithDifferences": 105,
+    "entriesWithDifferences": 104,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 3,
+    "screenshotMismatches": 2,
     "outcomes": {
       "changeTypes": {
-        "pass": 61,
+        "pass": 62,
         "known-fail": 102,
         "improvement": 1,
-        "expected-change": 1,
         "changed-fail": 1
       },
       "statusPairs": {
@@ -60,14 +59,14 @@
     },
     "triage": {
       "differences": {
-        "pending": 104,
+        "pending": 103,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 104,
+      "pendingEntries": 103,
       "triagedEntries": 0
     }
   },
@@ -11946,8 +11945,8 @@
       "sourceUrl": "https://wpt.live/css/css-lists/list-marker-with-lineheight-and-overflow-hidden-001.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "expected-change",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-marker-with-lineheight-and-overflow-hidden-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-marker-with-lineheight-and-overflow-hidden-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -11957,40 +11956,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-marker-with-lineheight-and-overflow-hidden-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-marker-with-lineheight-and-overflow-hidden-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "expected-change",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 34,
-            "diffRatio": 0.000040550339668727576,
-            "exactDiffPixels": 72,
-            "exactDiffRatio": 0.00008587130753377605,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 181,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0138-WPT_reftest-css-css-lists-list-marker-with-lineheight-and-overflow-hidden-001.html-p0001.png"
-          }
-        ],
-        "comparisons": [],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0139",

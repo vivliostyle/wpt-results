@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 64
-- Entries with differences: 14 (improvement: 1, pending: 13, triaged: 0)
+- Entries with differences: 13 (improvement: 1, pending: 12, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 2
-- Outcome summary: {"pass":50,"known-fail":12,"improvement":1,"regression":1}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":51,"known-fail":12,"improvement":1}
 
 ## Differences
 
@@ -148,15 +148,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-iframe-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.007888233722616595, diffPixels=6614
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0058] [WPT reftest] css/css-borders/corner-shape/corner-shape-video-border.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-borders/corner-shape/corner-shape-img-border-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-video-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007888233722616595, diffPixels=6614
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0063] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
   triage: pending
