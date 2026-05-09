@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T11:24:12.655Z",
+  "generatedAt": "2026-05-09T15:42:40.095Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -43,13 +43,12 @@
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 2,
+    "screenshotMismatches": 1,
     "outcomes": {
       "changeTypes": {
         "pass": 62,
-        "known-fail": 102,
-        "improvement": 1,
-        "changed-fail": 1
+        "known-fail": 103,
+        "improvement": 1
       },
       "statusPairs": {
         "PASS->PASS": 62,
@@ -12174,8 +12173,8 @@
       "sourceUrl": "https://wpt.live/css/css-lists/list-style-image-zoom-dynamic.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-image-zoom-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-image-zoom-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -12187,7 +12186,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -12196,23 +12195,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 44908,
-            "diffRatio": 0.05355984276009465,
-            "exactDiffPixels": 45326,
-            "exactDiffRatio": 0.05405837340661018,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0141-WPT_reftest-css-css-lists-list-style-image-zoom-dynamic.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -12238,10 +12221,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 176001,
-                "diffRatio": 0.2099088332951683,
-                "exactDiffPixels": 177095,
-                "exactDiffRatio": 0.21121360010686208,
+                "diffPixels": 209816,
+                "diffRatio": 0.25023853140981606,
+                "exactDiffPixels": 210901,
+                "exactDiffRatio": 0.2515325643080681,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,

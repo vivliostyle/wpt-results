@@ -538,23 +538,3 @@
       referenceFile: css/css-color/reference/system-color-hightlights-vs-getSelection-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/reference/system-color-hightlights-vs-getSelection-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0055"
-  category: WPT reftest
-  title: css/css-color/deprecated-sameas-011.html
-  file: css/css-color/deprecated-sameas-011.html
-  type: error
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/deprecated-sameas-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/deprecated-sameas-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  errorSide: canary
-  errorName: Error
-  errorMessage: >-
-    Viewer error: Failed to load
-    https://raw.githack.com/web-platform-tests/wpt/master/css/css-color/deprecated-sameas-011.html. This may be caused
-    by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).

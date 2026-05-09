@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 471
-- Entries with differences: 209 (improvement: 4, pending: 205, triaged: 0)
-- Entries with errors: 4 (pending: 4, triaged: 0)
+- Entries with differences: 210 (improvement: 5, pending: 205, triaged: 0)
+- Entries with errors: 5 (pending: 5, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 5
-- Outcome summary: {"known-fail":200,"pass":262,"regression":4,"improvement":4,"changed-fail":1}
+- Outcome summary: {"known-fail":200,"pass":261,"regression":4,"improvement":5,"changed-fail":1}
 
 ## Differences
 
@@ -2297,6 +2297,12 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/bad-mask-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/bad-mask-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0358] [WPT reftest] css/css-masking/mask-image/mask-clip-4.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0359] [WPT reftest] css/css-masking/mask-image/mask-clip-5.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -2720,4 +2726,13 @@
   error: Error: Viewer error: Failed to load about:blank. The target resource is invalid.
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/bad-mask-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=about:blank&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0358] [WPT reftest] css/css-masking/mask-image/mask-clip-4.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-masking/mask-image/mask-clip-4-ref.html
+  timeout: false
+  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githubusercontent.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-clip-4-ref.html (503)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

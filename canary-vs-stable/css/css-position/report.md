@@ -1293,7 +1293,7 @@
   triage: pending
   side: canary
   timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-iframe-print-002.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-iframe-print-002.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

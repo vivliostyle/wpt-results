@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T10:17:22.178Z",
+  "generatedAt": "2026-05-09T14:35:56.332Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -5535,8 +5535,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 1135,
                 "diffRatio": 0.0013536657507060529,
-                "exactDiffPixels": 835420,
-                "exactDiffRatio": 0.9963695519425998,
+                "exactDiffPixels": 2313,
+                "exactDiffRatio": 0.0027586157545225554,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -10298,7 +10298,7 @@
           "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
-            "message": "Timeout (10000ms): navigating to page 1",
+            "message": "locator.fill: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('#vivliostyle-page-number')\n    - locator resolved to <input type=\"text\" autocomplete=\"off\" inputmode=\"numeric\" aria-keyshortcuts=\"G\" title=\"Go to Page… (G)\" aria-label=\"Page number\" id=\"vivliostyle-page-number\" data-bind=\"value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}\"/>\n    - fill(\"1\")\n  - attempting fill action\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    17 × waiting for element to be visible, enabled and editable\n       - element is not visible\n     - retrying fill action\n       - waiting 500ms\n",
             "timeout": true
           },
           "sideErrors": [
@@ -10306,7 +10306,7 @@
               "side": "canary",
               "error": {
                 "name": "TimeoutError",
-                "message": "Timeout (10000ms): navigating to page 1",
+                "message": "locator.fill: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('#vivliostyle-page-number')\n    - locator resolved to <input type=\"text\" autocomplete=\"off\" inputmode=\"numeric\" aria-keyshortcuts=\"G\" title=\"Go to Page… (G)\" aria-label=\"Page number\" id=\"vivliostyle-page-number\" data-bind=\"value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}\"/>\n    - fill(\"1\")\n  - attempting fill action\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    17 × waiting for element to be visible, enabled and editable\n       - element is not visible\n     - retrying fill action\n       - waiting 500ms\n",
                 "timeout": true
               }
             },
@@ -10868,7 +10868,7 @@
               "side": "stable",
               "error": {
                 "name": "TimeoutError",
-                "message": "locator.fill: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('#vivliostyle-page-number')\n    - locator resolved to <input type=\"text\" autocomplete=\"off\" inputmode=\"numeric\" aria-keyshortcuts=\"G\" title=\"Go to Page… (G)\" aria-label=\"Page number\" id=\"vivliostyle-page-number\" data-bind=\"value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}\"/>\n    - fill(\"1\")\n  - attempting fill action\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    17 × waiting for element to be visible, enabled and editable\n       - element is not visible\n     - retrying fill action\n       - waiting 500ms\n",
+                "message": "Timeout (10000ms): navigating to page 1",
                 "timeout": true
               }
             }
@@ -11658,12 +11658,12 @@
             "height": 1056,
             "actualWidth": 794,
             "actualHeight": 1056,
-            "diffPixels": 2140,
-            "diffRatio": 0.002552286085031677,
-            "exactDiffPixels": 4207,
-            "exactDiffRatio": 0.005017508205480498,
+            "diffPixels": 906,
+            "diffRatio": 0.001080547286466682,
+            "exactDiffPixels": 1816,
+            "exactDiffRatio": 0.002165865201129685,
             "exceededDiffPixels": 0,
-            "maxChannelDifference": 245,
+            "maxChannelDifference": 101,
             "dimensionMismatch": false,
             "diffImage": "diff/0171-WPT_reftest-css-css-backgrounds-background-image-shared-stylesheet.html-p0001.png"
           }
@@ -11732,8 +11732,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 535931,
-                "diffRatio": 0.6391818849706129,
+                "diffPixels": 537082,
+                "diffRatio": 0.6405546332341042,
                 "exactDiffPixels": 537088,
                 "exactDiffRatio": 0.6405617891763987,
                 "exceededDiffPixels": 0,
@@ -13235,8 +13235,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 46206,
                 "diffRatio": 0.05510791160980078,
-                "exactDiffPixels": 838464,
-                "exactDiffRatio": 1,
+                "exactDiffPixels": 50880,
+                "exactDiffRatio": 0.06068239065720174,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -14296,10 +14296,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 260,
-                "diffRatio": 0.00031009083276085795,
-                "exactDiffPixels": 838260,
-                "exactDiffRatio": 0.9997566979619876,
+                "diffPixels": 259,
+                "diffRatio": 0.00030889817571177775,
+                "exactDiffPixels": 803,
+                "exactDiffRatio": 0.000957703610411419,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,

@@ -2252,7 +2252,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-086.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014829497748263492, diffPixels=12434
+  stable page 1: diffRatio=0.014736470498435234, diffPixels=12356
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0191] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-vrl-088.xht

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 549
-- Entries with differences: 77 (improvement: 1, pending: 76, triaged: 0)
+- Entries with differences: 76 (improvement: 1, pending: 75, triaged: 0)
 - Entries with errors: 3 (pending: 3, triaged: 0)
 - Timeout entries: 3
 - Page count changed: 0
 - Screenshot mismatches: 10
-- Outcome summary: {"pass":469,"known-fail":66,"regression":3,"improvement":1,"expected-change":5,"error":3,"changed-fail":2}
+- Outcome summary: {"pass":470,"known-fail":66,"regression":2,"improvement":1,"expected-change":5,"error":3,"changed-fail":2}
 
 ## Differences
 
@@ -53,15 +53,6 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.002385314098160446, diffPixels=2000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/reference/ref-filled-green-100x20-rect.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0252] [WPT reftest] css/css-sizing/aspect-ratio/replaced-element-035.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-sizing/aspect-ratio/replaced-element-035-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-035.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00010256850622089917, diffPixels=86
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-035-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0262] [WPT reftest] css/css-sizing/aspect-ratio/replaced-element-dynamic-aspect-ratio.html
   triage: pending

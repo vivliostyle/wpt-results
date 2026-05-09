@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 230
-- Entries with differences: 174 (improvement: 1, pending: 173, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 172 (improvement: 1, pending: 171, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 98
-- Outcome summary: {"pass":56,"changed-fail":87,"known-fail":75,"improvement":1,"regression":9,"expected-change":2}
+- Screenshot mismatches: 95
+- Outcome summary: {"pass":58,"changed-fail":86,"known-fail":76,"improvement":1,"regression":7,"expected-change":2}
 
 ## Differences
 
@@ -515,16 +515,12 @@
 
 - [0050] [WPT reftest] css/css-shapes/shape-outside/shape-box/shape-outside-padding-box-border-radius-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-shapes/shape-outside/shape-box/reference/shape-outside-padding-box-border-radius-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-box/shape-outside-padding-box-border-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.03592879360354172, diffPixels=30125
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-box/reference/shape-outside-padding-box-border-radius-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-box/shape-outside-padding-box-border-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.035451730783909625, diffPixels=29725
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-box/reference/shape-outside-padding-box-border-radius-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0051] [WPT reftest] css/css-shapes/shape-outside/shape-box/shape-outside-padding-box-border-radius-002.html
   triage: pending
@@ -787,15 +783,6 @@
   canary page 1: diffRatio=0.009181073963819555, diffPixels=7698
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0080] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-011.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-shapes/shape-outside/shape-image/reference/shape-image-007-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009181073963819555, diffPixels=7698
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0081] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-012.html
   triage: pending
   outcome: regression (baseline=PASS, actual=FAIL)
@@ -973,15 +960,6 @@
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.009181073963819555, diffPixels=7698
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0096] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-027.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00679575986565911, diffPixels=5698
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0098] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-013.html
@@ -2219,4 +2197,14 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/values/shape-outside-inset-0010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.001192657049080223, diffPixels=1000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0050] [WPT reftest] css/css-shapes/shape-outside/shape-box/shape-outside-padding-box-border-radius-001.html
+  triage: pending
+  side: stable
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): loading page
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-box/shape-outside-padding-box-border-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-box/shape-outside-padding-box-border-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

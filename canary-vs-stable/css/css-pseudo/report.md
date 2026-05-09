@@ -5,8 +5,8 @@
 - Entries with errors: 23 (pending: 23, triaged: 0)
 - Timeout entries: 23
 - Page count changed: 0
-- Screenshot mismatches: 6
-- Outcome summary: {"known-fail":131,"pass":95,"error":23,"changed-fail":2,"improvement":4,"unchanged":7}
+- Screenshot mismatches: 5
+- Outcome summary: {"known-fail":132,"pass":95,"error":23,"improvement":4,"changed-fail":1,"unchanged":7}
 
 ## Differences
 
@@ -1231,11 +1231,11 @@
 
 - [0161] [WPT reftest] css/css-pseudo/marker-content-019.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/marker-content-019-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-content-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0022135714830928935, diffPixels=1856
+  canary page 1: diffRatio=0.015266010228226852, diffPixels=12800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-content-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-content-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1819,10 +1819,7 @@
   stable error: Error: page.addStyleTag: Execution context was destroyed, most likely because of a navigation
   stable-reference reference: css/css-pseudo/highlight-cascade/highlight-paired-cascade-004-notref.html
   stable-reference timeout: false
-  stable-reference error: Error: page.evaluate: Error: Could not detect total pages (no spread container found).
-    at eval (eval at evaluate (:302:30), <anonymous>:10:11)
-    at UtilityScript.evaluate (<anonymous>:304:16)
-    at UtilityScript.<anonymous> (<anonymous>:1:44)
+  stable-reference error: Error: page.addStyleTag: Execution context was destroyed, most likely because of a navigation
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-paired-cascade-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-paired-cascade-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1831,11 +1828,8 @@
   side: canary, stable
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: false
-  stable error: Error: page.evaluate: Error: Could not detect total pages (no spread container found).
-    at eval (eval at evaluate (:302:30), <anonymous>:10:11)
-    at UtilityScript.evaluate (<anonymous>:304:16)
-    at UtilityScript.<anonymous> (<anonymous>:1:44)
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-shadows-horizontal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-shadows-horizontal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1855,10 +1849,7 @@
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: false
-  stable error: Error: page.evaluate: Error: Could not detect total pages (no spread container found).
-    at eval (eval at evaluate (:302:30), <anonymous>:10:11)
-    at UtilityScript.evaluate (<anonymous>:304:16)
-    at UtilityScript.<anonymous> (<anonymous>:1:44)
+  stable error: Error: page.addStyleTag: Execution context was destroyed, most likely because of a navigation
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/target-text-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/target-text-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1896,7 +1887,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   stable timeout: false
   stable error: Error: page.addStyleTag: Execution context was destroyed, most likely because of a navigation
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/target-text-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

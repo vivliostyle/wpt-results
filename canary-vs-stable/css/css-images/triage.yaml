@@ -991,20 +991,20 @@
       referenceFile: css/css-images/image-set/reference/image-set-rendering-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-set/reference/image-set-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0169"
+- id: "0168"
   category: WPT reftest
-  title: css/css-images/image-set/image-set-resolution-003.html
-  file: css/css-images/image-set/image-set-resolution-003.html
+  title: css/css-images/image-set/image-set-resolution-002.html
+  file: css/css-images/image-set/image-set-resolution-002.html
   type: difference
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-set/image-set-resolution-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-set/image-set-resolution-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-set/image-set-resolution-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-set/image-set-resolution-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-images/image-set/image-set-resolution-001-ref.html
   relation: "=="
   diffPages:

@@ -4904,29 +4904,6 @@
       referenceFile: css/css-view-transitions/scoped/ancestor-display-change-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/ancestor-display-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0235"
-  category: WPT reftest
-  title: css/css-view-transitions/scoped/auto-nesting.html
-  file: css/css-view-transitions/scoped/auto-nesting.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/scoped/auto-nesting.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/auto-nesting.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-view-transitions/scoped/auto-nesting-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-view-transitions/scoped/auto-nesting-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-view-transitions/scoped/auto-nesting-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/scoped/auto-nesting-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0238"
   category: WPT reftest
   title: css/css-view-transitions/scoped/clip-on-target-in-callback-2.html

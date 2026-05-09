@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T10:51:35.231Z",
+  "generatedAt": "2026-05-09T15:10:43.596Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,39 +39,41 @@
   },
   "summary": {
     "totalEntries": 981,
-    "entriesWithDifferences": 130,
-    "entriesWithErrors": 1,
-    "timeoutEntries": 0,
+    "entriesWithDifferences": 131,
+    "entriesWithErrors": 2,
+    "timeoutEntries": 1,
     "pageCountMismatches": 0,
     "screenshotMismatches": 23,
     "outcomes": {
       "changeTypes": {
-        "pass": 829,
+        "pass": 828,
         "known-fail": 91,
         "improvement": 22,
         "expected-change": 14,
         "changed-fail": 3,
+        "regression": 1,
         "error": 1,
         "unchanged": 21
       },
       "statusPairs": {
-        "PASS->PASS": 843,
+        "PASS->PASS": 842,
         "FAIL->FAIL": 94,
         "FAIL->PASS": 22,
+        "PASS->FAIL": 1,
         "ERROR->ERROR": 1,
         "MANUAL->MANUAL": 21
       }
     },
     "triage": {
       "differences": {
-        "pending": 108,
+        "pending": 109,
         "triaged": 0
       },
       "errors": {
-        "pending": 1,
+        "pending": 2,
         "triaged": 0
       },
-      "pendingEntries": 109,
+      "pendingEntries": 111,
       "triagedEntries": 0
     }
   },
@@ -23425,9 +23427,9 @@
         "css/css-flexbox/flexbox_flex-N-0.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-flexbox/flexbox_flex-N-0.html",
-      "actualStatus": "PASS",
+      "actualStatus": "FAIL",
       "baselineStatus": "PASS",
-      "changeType": "pass",
+      "changeType": "regression",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-N-0.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-N-0.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -23437,6 +23439,38 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-N-0-0-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-N-0-0-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "regression",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      },
+      "errors": [
+        {
+          "side": "canary-reference",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): loading page",
+            "timeout": true
+          },
+          "referenceFile": "css/css-flexbox/flexbox_flex-N-0-0-ref.html",
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
         }
       ]
     },

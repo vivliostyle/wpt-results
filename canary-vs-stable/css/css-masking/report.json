@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T11:28:57.400Z",
+  "generatedAt": "2026-05-09T15:47:23.681Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,24 +39,24 @@
   },
   "summary": {
     "totalEntries": 471,
-    "entriesWithDifferences": 209,
-    "entriesWithErrors": 4,
+    "entriesWithDifferences": 210,
+    "entriesWithErrors": 5,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 5,
     "outcomes": {
       "changeTypes": {
         "known-fail": 200,
-        "pass": 262,
+        "pass": 261,
         "regression": 4,
-        "improvement": 4,
+        "improvement": 5,
         "changed-fail": 1
       },
       "statusPairs": {
         "FAIL->FAIL": 201,
-        "PASS->PASS": 262,
+        "PASS->PASS": 261,
         "PASS->FAIL": 4,
-        "FAIL->PASS": 4
+        "FAIL->PASS": 5
       }
     },
     "triage": {
@@ -65,10 +65,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 4,
+        "pending": 5,
         "triaged": 0
       },
-      "pendingEntries": 209,
+      "pendingEntries": 210,
       "triagedEntries": 0
     }
   },
@@ -25457,8 +25457,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-masking/mask-image/mask-clip-4.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "FAIL",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -25468,6 +25468,38 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      },
+      "errors": [
+        {
+          "side": "stable-reference",
+          "error": {
+            "name": "Error",
+            "message": "Viewer error: Error: Failed to fetch a source document from https://raw.githubusercontent.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-clip-4-ref.html (503)",
+            "timeout": false
+          },
+          "referenceFile": "css/css-masking/mask-image/mask-clip-4-ref.html",
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
         }
       ]
     },

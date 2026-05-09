@@ -44,7 +44,7 @@
 - [0046] [WPT reftest] css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.18202928211586902, diffPixels=152625
+  page 1: diffRatio=0.1820185482024273, diffPixels=152616
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

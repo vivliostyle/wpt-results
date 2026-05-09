@@ -1054,10 +1054,7 @@
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: false
-  stable error: Error: page.evaluate: Error: Could not detect total pages (no spread container found).
-    at eval (eval at evaluate (:302:30), <anonymous>:10:11)
-    at UtilityScript.evaluate (<anonymous>:304:16)
-    at UtilityScript.<anonymous> (<anonymous>:1:44)
+  stable error: Error: page.addStyleTag: Execution context was destroyed, most likely because of a navigation
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/css-target-text-decoration-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/css-target-text-decoration-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T10:30:49.963Z",
+  "generatedAt": "2026-05-09T14:49:44.974Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,8 +39,8 @@
   },
   "summary": {
     "totalEntries": 306,
-    "entriesWithDifferences": 20,
-    "entriesWithErrors": 1,
+    "entriesWithDifferences": 21,
+    "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
@@ -48,12 +48,12 @@
       "changeTypes": {
         "pass": 285,
         "known-fail": 20,
-        "error": 1
+        "improvement": 1
       },
       "statusPairs": {
         "PASS->PASS": 285,
         "FAIL->FAIL": 20,
-        "PASS->ERROR": 1
+        "ERROR->PASS": 1
       }
     },
     "triage": {
@@ -62,10 +62,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 1,
+        "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 21,
+      "pendingEntries": 20,
       "triagedEntries": 0
     }
   },
@@ -2288,9 +2288,9 @@
         "css/css-color/deprecated-sameas-011.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-color/deprecated-sameas-011.html",
-      "actualStatus": "ERROR",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "error",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/deprecated-sameas-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/deprecated-sameas-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -2300,20 +2300,6 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/deprecated-sameas-Canvas-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/deprecated-sameas-Canvas-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "errors": [
-        {
-          "side": "canary",
-          "error": {
-            "name": "Error",
-            "message": "Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-color/deprecated-sameas-011.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).",
-            "timeout": false
-          },
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
         }
       ]
     },
@@ -3806,8 +3792,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-color/lab-004.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "ERROR",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/lab-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/lab-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -3818,7 +3804,24 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/lab-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/lab-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": null
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0113",

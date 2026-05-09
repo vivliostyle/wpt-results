@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 2
-- Outcome summary: {"pass":62,"known-fail":102,"improvement":1,"changed-fail":1}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":62,"known-fail":103,"improvement":1}
 
 ## Differences
 
@@ -1217,11 +1217,11 @@
 
 - [0141] [WPT reftest] css/css-lists/list-style-image-zoom-dynamic.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-lists/list-style-image-zoom-dynamic-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-image-zoom-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.2099088332951683, diffPixels=176001
+  canary page 1: diffRatio=0.25023853140981606, diffPixels=209816
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-image-zoom-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-image-zoom-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
