@@ -8,10 +8,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-logical/logical-values-float-clear-3.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-logical/logical-values-float-clear-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-logical/logical-values-float-clear-3.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-logical/logical-values-float-clear-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
 - id: "0005"
@@ -24,10 +24,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-logical/logical-values-float-clear-4.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-logical/logical-values-float-clear-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-logical/logical-values-float-clear-4.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-logical/logical-values-float-clear-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
     - 2

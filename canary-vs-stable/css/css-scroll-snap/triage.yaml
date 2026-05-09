@@ -8,10 +8,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/large-scroll-margin-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/large-scroll-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/large-scroll-margin-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/large-scroll-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   pageSelections:
@@ -25,11 +25,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0002"
   category: WPT reftest
   title: css/css-scroll-snap/scroll-snap-root-001.html
@@ -40,10 +40,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scroll-snap/scroll-snap-root-001-ref.html
   relation: "=="
   pageSelections:
@@ -57,11 +57,11 @@
     - side: canary
       referenceFile: css/css-scroll-snap/scroll-snap-root-001-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scroll-snap/scroll-snap-root-001-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0003"
   category: WPT reftest
   title: css/css-scroll-snap/scroll-snap-root-002.html
@@ -72,10 +72,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scroll-snap/scroll-snap-root-002-ref.html
   relation: "=="
   pageSelections:
@@ -89,11 +89,11 @@
     - side: canary
       referenceFile: css/css-scroll-snap/scroll-snap-root-002-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scroll-snap/scroll-snap-root-002-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0004"
   category: WPT reftest
   title: css/css-scroll-snap/scroll-snap-root-003.html
@@ -104,10 +104,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scroll-snap/no-red-ref.html
   relation: "=="
   pageSelections:
@@ -121,11 +121,11 @@
     - side: canary
       referenceFile: css/css-scroll-snap/no-red-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/no-red-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/no-red-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scroll-snap/no-red-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/no-red-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/no-red-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0005"
   category: WPT reftest
   title: css/css-scroll-snap/scroll-target-align-001.html
@@ -136,10 +136,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
   relation: "=="
   diffPages:
@@ -148,11 +148,11 @@
     - side: canary
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0006"
   category: WPT reftest
   title: css/css-scroll-snap/scroll-target-align-002.html
@@ -163,10 +163,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
   relation: "=="
   diffPages:
@@ -175,11 +175,11 @@
     - side: canary
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0007"
   category: WPT reftest
   title: css/css-scroll-snap/scroll-target-align-003.html
@@ -190,10 +190,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
   relation: "=="
   diffPages:
@@ -202,12 +202,66 @@
     - side: canary
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0009"
+  category: WPT reftest
+  title: css/css-scroll-snap/scroll-target-align-005.html
+  file: css/css-scroll-snap/scroll-target-align-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scroll-snap/scroll-target-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-scroll-snap/scroll-target-005-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-scroll-snap/scroll-target-005-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-scroll-snap/scroll-target-005-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0010"
+  category: WPT reftest
+  title: css/css-scroll-snap/scroll-target-align-006.html
+  file: css/css-scroll-snap/scroll-target-align-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scroll-snap/scroll-target-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-scroll-snap/scroll-target-006-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-scroll-snap/scroll-target-006-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-scroll-snap/scroll-target-006-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0012"
   category: WPT reftest
   title: css/css-scroll-snap/scroll-target-margin-002.html
   file: css/css-scroll-snap/scroll-target-margin-002.html
@@ -217,10 +271,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
   relation: "=="
   diffPages:
@@ -229,12 +283,12 @@
     - side: canary
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0010"
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0013"
   category: WPT reftest
   title: css/css-scroll-snap/scroll-target-margin-003.html
   file: css/css-scroll-snap/scroll-target-margin-003.html
@@ -244,10 +298,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
   relation: "=="
   diffPages:
@@ -256,12 +310,12 @@
     - side: canary
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0011"
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0014"
   category: WPT reftest
   title: css/css-scroll-snap/scroll-target-margin-004.html
   file: css/css-scroll-snap/scroll-target-margin-004.html
@@ -271,10 +325,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
   relation: "=="
   diffPages:
@@ -283,12 +337,12 @@
     - side: canary
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0013"
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0016"
   category: WPT reftest
   title: css/css-scroll-snap/scroll-target-padding-002.html
   file: css/css-scroll-snap/scroll-target-padding-002.html
@@ -298,10 +352,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-padding-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-padding-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-padding-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-padding-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
   relation: "=="
   diffPages:
@@ -310,12 +364,12 @@
     - side: canary
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0014"
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0017"
   category: WPT reftest
   title: css/css-scroll-snap/scroll-target-padding-003.html
   file: css/css-scroll-snap/scroll-target-padding-003.html
@@ -325,10 +379,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-padding-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-padding-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-padding-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-padding-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
   relation: "=="
   diffPages:
@@ -337,12 +391,12 @@
     - side: canary
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0016"
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0019"
   category: WPT reftest
   title: css/css-scroll-snap/scroll-target-snap-002.html
   file: css/css-scroll-snap/scroll-target-snap-002.html
@@ -352,10 +406,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-snap-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-snap-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-snap-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-snap-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
   relation: "=="
   diffPages:
@@ -364,12 +418,12 @@
     - side: canary
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0017"
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0020"
   category: WPT reftest
   title: css/css-scroll-snap/scroll-target-snap-003.html
   file: css/css-scroll-snap/scroll-target-snap-003.html
@@ -379,10 +433,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-snap-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-snap-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-snap-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-snap-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
   relation: "=="
   diffPages:
@@ -391,12 +445,12 @@
     - side: canary
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scroll-snap/scroll-target-001-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0020"
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0023"
   category: WPT reftest
   title: css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html
   file: css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html
@@ -406,10 +460,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html
   relation: "=="
   diffPages:
@@ -418,8 +472,8 @@
     - side: canary
       referenceFile: css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

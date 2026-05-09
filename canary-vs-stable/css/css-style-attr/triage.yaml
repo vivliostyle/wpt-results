@@ -8,10 +8,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-style-attr/style-attr-braces-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-style-attr/style-attr-braces-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-style-attr/reference/ref-green-on-green.xht
   relation: "=="
   diffPages:
@@ -20,11 +20,11 @@
     - side: canary
       referenceFile: css/css-style-attr/reference/ref-green-on-green.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-style-attr/reference/ref-green-on-green.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0004"
   category: WPT reftest
   title: css/css-style-attr/style-attr-braces-003.xht
@@ -35,10 +35,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-003.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-style-attr/style-attr-braces-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-003.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-style-attr/style-attr-braces-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-style-attr/reference/ref-green-on-green.xht
   relation: "=="
   diffPages:
@@ -47,11 +47,11 @@
     - side: canary
       referenceFile: css/css-style-attr/reference/ref-green-on-green.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-style-attr/reference/ref-green-on-green.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0015"
   category: WPT reftest
   title: css/css-style-attr/style-attr-urls-002.xht
@@ -62,10 +62,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-urls-002.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-style-attr/style-attr-urls-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-urls-002.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-style-attr/style-attr-urls-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-style-attr/reference/ref-green-on-green.xht
   relation: "=="
   diffPages:
@@ -74,8 +74,8 @@
     - side: canary
       referenceFile: css/css-style-attr/reference/ref-green-on-green.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-style-attr/reference/ref-green-on-green.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T19:58:28.358Z",
+  "generatedAt": "2026-05-09T06:09:44.010Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -25,13 +25,13 @@
     "baselineViewer": "https://vivliostyle.org/viewer/",
     "actualLabel": "canary",
     "baselineLabel": "stable",
-    "extraViewerParams": "bookMode=false",
+    "extraViewerParams": "",
     "actualViewerParams": "",
     "baselineViewerParams": "",
     "testUrls": [],
     "refUrls": [],
     "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
-    "wptBaseUrl": "https://raw.githack.com/web-platform-tests/wpt/master/",
+    "wptBaseUrl": "https://wpt.live/",
     "wptPathPrefixes": [
       "css/fill-stroke/"
     ],
@@ -73,19 +73,19 @@
       "file": [
         "css/fill-stroke/paint-order-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/fill-stroke/paint-order-001.html",
+      "sourceUrl": "https://wpt.live/css/fill-stroke/paint-order-001.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/fill-stroke/paint-order-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/fill-stroke/paint-order-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/fill-stroke/paint-order-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/fill-stroke/paint-order-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/fill-stroke/reference/paint-order-001-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/fill-stroke/reference/paint-order-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/fill-stroke/reference/paint-order-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/fill-stroke/reference/paint-order-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/fill-stroke/reference/paint-order-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     }

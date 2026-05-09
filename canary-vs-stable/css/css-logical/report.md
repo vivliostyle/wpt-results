@@ -14,14 +14,14 @@
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0039035665216395695, diffPixels=3273
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-logical/logical-values-float-clear-3.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-logical/logical-values-float-clear-3.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-logical/logical-values-float-clear-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-logical/logical-values-float-clear-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0005] [WPT reftest] css/css-logical/logical-values-float-clear-4.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.002873110831234257, diffPixels=2409
   page 2: diffRatio=0.0009278871841844135, diffPixels=778
-  canary: https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-logical/logical-values-float-clear-4.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-logical/logical-values-float-clear-4.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-logical/logical-values-float-clear-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-logical/logical-values-float-clear-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

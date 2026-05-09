@@ -8,10 +8,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html
   relation: "=="
   diffPages:
@@ -20,11 +20,11 @@
     - side: canary
       referenceFile: css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0005"
   category: WPT reftest
   title: css/css-borders/border-shape/border-shape-combined-shadow.html
@@ -35,10 +35,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-combined-shadow.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-combined-shadow.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-borders/border-shape/border-shape-combined-shadow-ref.html
   relation: "=="
   diffPages:
@@ -47,11 +47,11 @@
     - side: canary
       referenceFile: css/css-borders/border-shape/border-shape-combined-shadow-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-combined-shadow-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-borders/border-shape/border-shape-combined-shadow-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-combined-shadow-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0007"
   category: WPT reftest
   title: css/css-borders/border-shape/border-shape-dynamic-color.html
@@ -62,10 +62,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-dynamic-color.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-dynamic-color.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-borders/border-shape/border-shape-dynamic-color-ref.html
   relation: "=="
   diffPages:
@@ -74,11 +74,11 @@
     - side: canary
       referenceFile: css/css-borders/border-shape/border-shape-dynamic-color-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-dynamic-color-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-borders/border-shape/border-shape-dynamic-color-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-dynamic-color-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0010"
   category: WPT reftest
   title: css/css-borders/border-shape/border-shape-ignore-radius.html
@@ -89,10 +89,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-ignore-radius.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-ignore-radius.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-borders/border-shape/border-shape-ignore-radius-ref.html
   relation: "=="
   diffPages:
@@ -101,11 +101,11 @@
     - side: canary
       referenceFile: css/css-borders/border-shape/border-shape-ignore-radius-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-ignore-radius-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-borders/border-shape/border-shape-ignore-radius-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-ignore-radius-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0023"
   category: WPT reftest
   title: css/css-borders/border-shape/border-shape-outline-with-border.html
@@ -116,10 +116,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-outline-with-border.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-outline-with-border.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-borders/border-shape/border-shape-outline-with-border-ref.html
   relation: "=="
   diffPages:
@@ -128,11 +128,11 @@
     - side: canary
       referenceFile: css/css-borders/border-shape/border-shape-outline-with-border-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-outline-with-border-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-borders/border-shape/border-shape-outline-with-border-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-outline-with-border-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0032"
   category: WPT reftest
   title: css/css-borders/border-shape/border-shape-shadow-blur.html
@@ -143,10 +143,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-shadow-blur.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-shadow-blur.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-borders/border-shape/border-shape-shadow-blur-ref.html
   relation: "=="
   diffPages:
@@ -155,11 +155,11 @@
     - side: canary
       referenceFile: css/css-borders/border-shape/border-shape-shadow-blur-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-shadow-blur-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-borders/border-shape/border-shape-shadow-blur-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-shadow-blur-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0033"
   category: WPT reftest
   title: css/css-borders/border-shape/border-shape-shadow-circle.html
@@ -170,10 +170,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-shadow-circle.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-shadow-circle.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-borders/border-shape/border-shape-shadow-circle-ref.html
   relation: "=="
   diffPages:
@@ -182,11 +182,11 @@
     - side: canary
       referenceFile: css/css-borders/border-shape/border-shape-shadow-circle-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-shadow-circle-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-borders/border-shape/border-shape-shadow-circle-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-shadow-circle-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0034"
   category: WPT reftest
   title: css/css-borders/border-shape/border-shape-shadow-inset-blur.html
@@ -197,10 +197,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-shadow-inset-blur.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-shadow-inset-blur.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html
   relation: "=="
   diffPages:
@@ -209,11 +209,11 @@
     - side: canary
       referenceFile: css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0039"
   category: WPT reftest
   title: css/css-borders/border-shape/border-shape-stroke-from-border.html
@@ -224,10 +224,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-stroke-from-border.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-stroke-from-border.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-borders/border-shape/border-shape-stroke-from-border-ref.html
   relation: "=="
   diffPages:
@@ -236,11 +236,11 @@
     - side: canary
       referenceFile: css/css-borders/border-shape/border-shape-stroke-from-border-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-stroke-from-border-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-borders/border-shape/border-shape-stroke-from-border-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-stroke-from-border-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0041"
   category: WPT reftest
   title: css/css-borders/border-shape/border-shape-two-shapes-shadow.html
@@ -251,10 +251,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-two-shapes-shadow.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-two-shapes-shadow.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html
   relation: "=="
   diffPages:
@@ -263,66 +263,11 @@
     - side: canary
       referenceFile: css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0049"
-  category: WPT reftest
-  title: css/css-borders/corner-shape/corner-shape-iframe-border.html
-  file: css/css-borders/corner-shape/corner-shape-iframe-border.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/corner-shape/corner-shape-iframe-border.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/corner-shape/corner-shape-iframe-border.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-borders/corner-shape/corner-shape-img-border-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-borders/corner-shape/corner-shape-img-border-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-borders/corner-shape/corner-shape-img-border-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/corner-shape/corner-shape-img-border-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0050"
-  category: WPT reftest
-  title: css/css-borders/corner-shape/corner-shape-img-border.html
-  file: css/css-borders/corner-shape/corner-shape-img-border.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/corner-shape/corner-shape-img-border.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/corner-shape/corner-shape-img-border.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "0051"
-  category: WPT reftest
-  title: css/css-borders/corner-shape/corner-shape-img.html
-  file: css/css-borders/corner-shape/corner-shape-img.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/corner-shape/corner-shape-img.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/corner-shape/corner-shape-img.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0058"
   category: WPT reftest
   title: css/css-borders/corner-shape/corner-shape-video-border.html
@@ -333,12 +278,19 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/corner-shape/corner-shape-video-border.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-video-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/corner-shape/corner-shape-video-border.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-video-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/corner-shape/corner-shape-img-border-ref.html
+  relation: "=="
   diffPages:
-    - 1
+    - css/css-borders/corner-shape/corner-shape-img-border-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-borders/corner-shape/corner-shape-img-border-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0063"
   category: WPT reftest
   title: css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
@@ -349,10 +301,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-borders/reference/border-radius-side-shorthands-ref.html
   relation: "=="
   diffPages:
@@ -361,11 +313,11 @@
     - side: canary
       referenceFile: css/css-borders/reference/border-radius-side-shorthands-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/reference/border-radius-side-shorthands-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-borders/reference/border-radius-side-shorthands-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/reference/border-radius-side-shorthands-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0064"
   category: WPT reftest
   title: css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html
@@ -376,10 +328,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-borders/reference/border-radius-side-shorthands-ref.html
   relation: "=="
   diffPages:
@@ -388,8 +340,8 @@
     - side: canary
       referenceFile: css/css-borders/reference/border-radius-side-shorthands-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/reference/border-radius-side-shorthands-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-borders/reference/border-radius-side-shorthands-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-borders/reference/border-radius-side-shorthands-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

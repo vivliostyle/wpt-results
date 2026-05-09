@@ -8,10 +8,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/background-attachment-fixed.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-attachment-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/background-attachment-fixed.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-attachment-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/background-attachment-fixed-ref.html
   relation: "=="
   pageSelections:
@@ -25,11 +25,11 @@
     - side: canary
       referenceFile: css/css-break/background-attachment-fixed-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/background-attachment-fixed-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-attachment-fixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/background-attachment-fixed-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/background-attachment-fixed-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-attachment-fixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0011"
   category: WPT reftest
   title: css/css-break/background-image-002.html
@@ -40,10 +40,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/background-image-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/background-image-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-image-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/background-image-002-ref.html
   relation: "=="
   diffPages:
@@ -52,11 +52,11 @@
     - side: canary
       referenceFile: css/css-break/background-image-002-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/background-image-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/background-image-002-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/background-image-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-image-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0047"
   category: WPT reftest
   title: css/css-break/borders-006.html
@@ -67,10 +67,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/borders-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/borders-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/borders-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/borders-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/borders-006-ref.html
   relation: "=="
   diffPages:
@@ -79,11 +79,11 @@
     - side: canary
       referenceFile: css/css-break/borders-006-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/borders-006-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/borders-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/borders-006-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/borders-006-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/borders-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0086"
   category: WPT reftest
   title: css/css-break/box-shadow-004.html
@@ -94,10 +94,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/box-shadow-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/box-shadow-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/box-shadow-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/box-shadow-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/box-shadow-004-ref.html
   relation: "=="
   diffPages:
@@ -106,11 +106,11 @@
     - side: canary
       referenceFile: css/css-break/box-shadow-004-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/box-shadow-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/box-shadow-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/box-shadow-004-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/box-shadow-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/box-shadow-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0102"
   category: WPT reftest
   title: css/css-break/break-between-avoid-007.html
@@ -121,10 +121,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/break-between-avoid-007.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/break-between-avoid-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/break-between-avoid-007.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/break-between-avoid-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -133,11 +133,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0113"
   category: WPT reftest
   title: css/css-break/break-float-dynamic-001.html
@@ -148,10 +148,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/break-float-dynamic-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/break-float-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/break-float-dynamic-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/break-float-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -160,11 +160,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0114"
   category: WPT reftest
   title: css/css-break/break-float-dynamic-002.html
@@ -175,10 +175,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/break-float-dynamic-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/break-float-dynamic-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/break-float-dynamic-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/break-float-dynamic-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -187,11 +187,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0117"
   category: WPT reftest
   title: css/css-break/break-overflowed-block-dynamic-001.html
@@ -202,10 +202,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/break-overflowed-block-dynamic-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/break-overflowed-block-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/break-overflowed-block-dynamic-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/break-overflowed-block-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -214,11 +214,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0137"
   category: WPT reftest
   title: css/css-break/fieldset-003.html
@@ -229,10 +229,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/fieldset-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/fieldset-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/fieldset-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/fieldset-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/fieldset-003-ref.html
   relation: "=="
   diffPages:
@@ -241,11 +241,11 @@
     - side: canary
       referenceFile: css/css-break/fieldset-003-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/fieldset-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/fieldset-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/fieldset-003-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/fieldset-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/fieldset-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0210"
   category: WPT reftest
   title: css/css-break/flexbox/multi-line-column-flex-fragmentation-046.html
@@ -256,10 +256,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-column-flex-fragmentation-046.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-column-flex-fragmentation-046.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-column-flex-fragmentation-046.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-column-flex-fragmentation-046.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -268,11 +268,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0280"
   category: WPT reftest
   title: css/css-break/flexbox/multi-line-row-flex-fragmentation-056.html
@@ -283,10 +283,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-056.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-056.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-056.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-056.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -295,11 +295,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0282"
   category: WPT reftest
   title: css/css-break/flexbox/multi-line-row-flex-fragmentation-058.html
@@ -310,10 +310,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-058.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-058.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-058.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-058.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -322,11 +322,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0360"
   category: WPT reftest
   title: css/css-break/flexbox/single-line-column-flex-fragmentation-043.html
@@ -337,10 +337,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-043.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-043.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-043.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-043.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -349,11 +349,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0361"
   category: WPT reftest
   title: css/css-break/flexbox/single-line-column-flex-fragmentation-044.html
@@ -364,10 +364,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-044.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-044.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-044.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-044.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -376,11 +376,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0517"
   category: WPT reftest
   title: css/css-break/grid/grid-item-fragmentation-039.html
@@ -391,10 +391,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/grid/grid-item-fragmentation-039.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-item-fragmentation-039.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/grid/grid-item-fragmentation-039.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-item-fragmentation-039.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   pageSelections:
@@ -408,11 +408,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0584"
   category: WPT reftest
   title: css/css-break/monolithic-with-overflow-lr.html
@@ -423,10 +423,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/monolithic-with-overflow-lr.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/monolithic-with-overflow-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/monolithic-with-overflow-lr.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/monolithic-with-overflow-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -435,11 +435,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0603"
   category: WPT reftest
   title: css/css-break/out-of-flow-in-multicolumn-016.html
@@ -450,10 +450,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-016.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-016.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -462,11 +462,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0604"
   category: WPT reftest
   title: css/css-break/out-of-flow-in-multicolumn-017.html
@@ -477,10 +477,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-017.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-017.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -489,11 +489,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0642"
   category: WPT reftest
   title: css/css-break/out-of-flow-in-multicolumn-055.html
@@ -504,10 +504,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-055.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-055.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-055.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-055.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -516,11 +516,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0650"
   category: WPT reftest
   title: css/css-break/out-of-flow-in-multicolumn-063.html
@@ -531,10 +531,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-063.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-063.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-063.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-063.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -543,11 +543,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0680"
   category: WPT reftest
   title: css/css-break/out-of-flow-in-multicolumn-093.html
@@ -558,10 +558,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-093.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-093.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-093.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-093.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/out-of-flow-in-multicolumn-093-ref.html
   relation: "=="
   diffPages:
@@ -570,11 +570,11 @@
     - side: canary
       referenceFile: css/css-break/out-of-flow-in-multicolumn-093-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-093-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-093-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/out-of-flow-in-multicolumn-093-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-093-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-093-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0692"
   category: WPT reftest
   title: css/css-break/out-of-flow-in-multicolumn-105.html
@@ -585,10 +585,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-105.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-105.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-105.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-105.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/out-of-flow-in-multicolumn-105-ref.html
   relation: "=="
   pageSelections:
@@ -602,11 +602,11 @@
     - side: canary
       referenceFile: css/css-break/out-of-flow-in-multicolumn-105-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-105-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-105-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/out-of-flow-in-multicolumn-105-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-105-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-105-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0693"
   category: WPT reftest
   title: css/css-break/out-of-flow-in-multicolumn-106.html
@@ -617,10 +617,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-106.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-106.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-106.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-106.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/out-of-flow-in-multicolumn-106-ref.html
   relation: "=="
   diffPages:
@@ -629,11 +629,11 @@
     - side: canary
       referenceFile: css/css-break/out-of-flow-in-multicolumn-106-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-106-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-106-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/out-of-flow-in-multicolumn-106-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-106-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-106-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0706"
   category: WPT reftest
   title: css/css-break/out-of-flow-in-multicolumn-120.html
@@ -644,10 +644,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-120.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-120.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/out-of-flow-in-multicolumn-120.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-120.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -656,11 +656,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0719"
   category: WPT reftest
   title: css/css-break/overflow-clip-001.html
@@ -671,10 +671,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflow-clip-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/overflow-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflow-clip-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/overflow-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -683,11 +683,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0731"
   category: WPT reftest
   title: css/css-break/overflow-clip-014.html
@@ -698,10 +698,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflow-clip-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/overflow-clip-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflow-clip-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/overflow-clip-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   pageSelections:
@@ -715,11 +715,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0732"
   category: WPT reftest
   title: css/css-break/overflow-clip-015.html
@@ -730,10 +730,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflow-clip-015.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/overflow-clip-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflow-clip-015.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/overflow-clip-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   pageSelections:
@@ -747,11 +747,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0733"
   category: WPT reftest
   title: css/css-break/overflow-clip-016.html
@@ -762,10 +762,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflow-clip-016.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/overflow-clip-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflow-clip-016.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/overflow-clip-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   pageSelections:
@@ -779,11 +779,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0734"
   category: WPT reftest
   title: css/css-break/overflow-clip-017.html
@@ -794,10 +794,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflow-clip-017.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/overflow-clip-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflow-clip-017.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/overflow-clip-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   pageSelections:
@@ -811,11 +811,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0747"
   category: WPT reftest
   title: css/css-break/rounded-clipped-border.html
@@ -826,10 +826,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/rounded-clipped-border.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/rounded-clipped-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/rounded-clipped-border.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/rounded-clipped-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/rounded-clipped-border-ref.html
   relation: "=="
   diffPages:
@@ -838,11 +838,11 @@
     - side: canary
       referenceFile: css/css-break/rounded-clipped-border-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/rounded-clipped-border-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/rounded-clipped-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/rounded-clipped-border-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/rounded-clipped-border-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/rounded-clipped-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0786"
   category: WPT reftest
   title: css/css-break/table/monolithic-overflow-006.html
@@ -853,10 +853,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/monolithic-overflow-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/monolithic-overflow-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/monolithic-overflow-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/monolithic-overflow-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -865,11 +865,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0858"
   category: WPT reftest
   title: css/css-break/table/table-col-paint-vlr-rtl.html
@@ -880,10 +880,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-col-paint-vlr-rtl.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-col-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-col-paint-vlr-rtl.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-col-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/table/table-col-paint-vlr-rtl-ref.html
   relation: "=="
   diffPages:
@@ -892,11 +892,11 @@
     - side: canary
       referenceFile: css/css-break/table/table-col-paint-vlr-rtl-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-col-paint-vlr-rtl-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-col-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/table/table-col-paint-vlr-rtl-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-col-paint-vlr-rtl-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-col-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0862"
   category: WPT reftest
   title: css/css-break/table/table-collapsed-borders-paint-vlr-rtl.html
@@ -907,10 +907,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-collapsed-borders-paint-vlr-rtl.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-collapsed-borders-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-collapsed-borders-paint-vlr-rtl.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-collapsed-borders-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/table/table-collapsed-borders-paint-vlr-rtl-ref.html
   relation: "=="
   diffPages:
@@ -919,11 +919,11 @@
     - side: canary
       referenceFile: css/css-break/table/table-collapsed-borders-paint-vlr-rtl-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-collapsed-borders-paint-vlr-rtl-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-collapsed-borders-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/table/table-collapsed-borders-paint-vlr-rtl-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-collapsed-borders-paint-vlr-rtl-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-collapsed-borders-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0865"
   category: WPT reftest
   title: css/css-break/table/table-grid-paint-vlr-rtl.html
@@ -934,10 +934,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-grid-paint-vlr-rtl.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-grid-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-grid-paint-vlr-rtl.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-grid-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/table/table-grid-paint-vlr-rtl-ref.html
   relation: "=="
   diffPages:
@@ -946,11 +946,11 @@
     - side: canary
       referenceFile: css/css-break/table/table-grid-paint-vlr-rtl-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-grid-paint-vlr-rtl-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-grid-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/table/table-grid-paint-vlr-rtl-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-grid-paint-vlr-rtl-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-grid-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0868"
   category: WPT reftest
   title: css/css-break/table/table-row-paint-vlr-rtl.html
@@ -961,10 +961,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-row-paint-vlr-rtl.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-row-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-row-paint-vlr-rtl.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-row-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/table/table-row-paint-vlr-rtl-ref.html
   relation: "=="
   diffPages:
@@ -973,11 +973,11 @@
     - side: canary
       referenceFile: css/css-break/table/table-row-paint-vlr-rtl-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-row-paint-vlr-rtl-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-row-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/table/table-row-paint-vlr-rtl-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-row-paint-vlr-rtl-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-row-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0870"
   category: WPT reftest
   title: css/css-break/table/table-rowspan-001.html
@@ -988,10 +988,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-rowspan-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-rowspan-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-rowspan-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-rowspan-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -1000,11 +1000,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0872"
   category: WPT reftest
   title: css/css-break/table/table-section-paint-vlr-rtl.html
@@ -1015,10 +1015,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-section-paint-vlr-rtl.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-section-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-section-paint-vlr-rtl.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-section-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/table/table-section-paint-vlr-rtl-ref.html
   relation: "=="
   diffPages:
@@ -1027,11 +1027,11 @@
     - side: canary
       referenceFile: css/css-break/table/table-section-paint-vlr-rtl-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-section-paint-vlr-rtl-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-section-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/table/table-section-paint-vlr-rtl-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-section-paint-vlr-rtl-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-section-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0898"
   category: WPT reftest
   title: css/css-break/transform-001.html
@@ -1042,10 +1042,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/transform-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/transform-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -1054,11 +1054,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0901"
   category: WPT reftest
   title: css/css-break/transform-004.html
@@ -1069,10 +1069,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/transform-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/transform-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -1081,11 +1081,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0906"
   category: WPT reftest
   title: css/css-break/transform-009.html
@@ -1096,10 +1096,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/transform-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/transform-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/transform-009-ref.html
   relation: "=="
   diffPages:
@@ -1108,11 +1108,11 @@
     - side: canary
       referenceFile: css/css-break/transform-009-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-009-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/transform-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/transform-009-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-009-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/transform-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0917"
   category: WPT reftest
   title: css/css-break/transform-025.html
@@ -1123,10 +1123,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-025.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/transform-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-025.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/transform-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -1135,11 +1135,11 @@
     - side: canary
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0947"
   category: WPT print-reftest
   title: css/css-break/block-001-wm-vlr-print.html
@@ -1150,10 +1150,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/block-001-wm-vlr-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/block-001-wm-vlr-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/block-001-wm-vlr-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/block-001-wm-vlr-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/block-001-wm-vlr-ref.html
   relation: "=="
   pageSelections:
@@ -1168,11 +1168,11 @@
     - side: canary
       referenceFile: css/css-break/block-001-wm-vlr-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/block-001-wm-vlr-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/block-001-wm-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/block-001-wm-vlr-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/block-001-wm-vlr-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/block-001-wm-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0948"
   category: WPT print-reftest
   title: css/css-break/block-001-wm-vrl-print.html
@@ -1183,10 +1183,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/block-001-wm-vrl-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/block-001-wm-vrl-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/block-001-wm-vrl-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/block-001-wm-vrl-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/block-001-wm-vrl-ref.html
   relation: "=="
   pageSelections:
@@ -1201,11 +1201,11 @@
     - side: canary
       referenceFile: css/css-break/block-001-wm-vrl-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/block-001-wm-vrl-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/block-001-wm-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/block-001-wm-vrl-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/block-001-wm-vrl-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/block-001-wm-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0949"
   category: WPT print-reftest
   title: css/css-break/block-002-wm-vlr-print.html
@@ -1216,10 +1216,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/block-002-wm-vlr-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/block-002-wm-vlr-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/block-002-wm-vlr-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/block-002-wm-vlr-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/block-002-wm-vlr-ref.html
   relation: "=="
   pageSelections:
@@ -1240,11 +1240,11 @@
     - side: canary
       referenceFile: css/css-break/block-002-wm-vlr-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/block-002-wm-vlr-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/block-002-wm-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/block-002-wm-vlr-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/block-002-wm-vlr-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/block-002-wm-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0950"
   category: WPT print-reftest
   title: css/css-break/block-002-wm-vrl-print.html
@@ -1255,10 +1255,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/block-002-wm-vrl-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/block-002-wm-vrl-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/block-002-wm-vrl-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/block-002-wm-vrl-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/block-002-wm-vrl-ref.html
   relation: "=="
   pageSelections:
@@ -1274,11 +1274,11 @@
     - side: canary
       referenceFile: css/css-break/block-002-wm-vrl-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/block-002-wm-vrl-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/block-002-wm-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/block-002-wm-vrl-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/block-002-wm-vrl-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/block-002-wm-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0952"
   category: WPT print-reftest
   title: css/css-break/break-inside-avoid-multicol-001-print.html
@@ -1289,10 +1289,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/break-inside-avoid-multicol-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/break-inside-avoid-multicol-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/break-inside-avoid-multicol-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/break-inside-avoid-multicol-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/break-inside-avoid-multicol-001-print-ref.html
   relation: "=="
   diffPages:
@@ -1302,11 +1302,11 @@
     - side: canary
       referenceFile: css/css-break/break-inside-avoid-multicol-001-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/break-inside-avoid-multicol-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/break-inside-avoid-multicol-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/break-inside-avoid-multicol-001-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/break-inside-avoid-multicol-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/break-inside-avoid-multicol-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0956"
   category: WPT print-reftest
   title: css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print.html
@@ -1317,10 +1317,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print-ref.html
   relation: "=="
   diffPages:
@@ -1331,11 +1331,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0957"
   category: WPT print-reftest
   title: css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print.html
@@ -1346,10 +1346,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print-ref.html
   relation: "=="
   pageSelections:
@@ -1367,11 +1367,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0958"
   category: WPT print-reftest
   title: css/css-break/flexbox/multi-line-row-flex-fragmentation-075-print.html
@@ -1382,10 +1382,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-075-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-075-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-075-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-075-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-075-print-ref.html
   relation: "=="
   pageSelections:
@@ -1401,11 +1401,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-075-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-075-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-075-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-075-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-075-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-075-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0959"
   category: WPT print-reftest
   title: css/css-break/flexbox/multi-line-row-flex-fragmentation-076-print.html
@@ -1416,10 +1416,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-076-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-076-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-076-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-076-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-076-print-ref.html
   relation: "=="
   pageSelections:
@@ -1435,11 +1435,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-076-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-076-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-076-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-076-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-076-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-076-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0960"
   category: WPT print-reftest
   title: css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print.html
@@ -1450,10 +1450,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print-ref.html
   relation: "=="
   diffPages:
@@ -1463,11 +1463,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0961"
   category: WPT print-reftest
   title: css/css-break/flexbox/multi-line-row-flex-fragmentation-081a-print.html
@@ -1478,10 +1478,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-081a-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081a-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-081a-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081a-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html
   relation: "=="
   pageSelections:
@@ -1497,11 +1497,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0962"
   category: WPT print-reftest
   title: css/css-break/flexbox/multi-line-row-flex-fragmentation-081b-print.html
@@ -1512,10 +1512,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-081b-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081b-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-081b-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081b-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html
   relation: "=="
   pageSelections:
@@ -1531,11 +1531,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0963"
   category: WPT print-reftest
   title: css/css-break/flexbox/multi-line-row-flex-fragmentation-081c-print.html
@@ -1546,10 +1546,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-081c-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081c-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-081c-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081c-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html
   relation: "=="
   pageSelections:
@@ -1565,11 +1565,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0964"
   category: WPT print-reftest
   title: css/css-break/flexbox/multi-line-row-flex-fragmentation-081d-print.html
@@ -1580,10 +1580,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-081d-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081d-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-081d-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081d-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html
   relation: "=="
   pageSelections:
@@ -1599,11 +1599,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0965"
   category: WPT print-reftest
   title: css/css-break/flexbox/multi-line-row-flex-fragmentation-082a-print.html
@@ -1614,10 +1614,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-082a-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082a-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-082a-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082a-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html
   relation: "=="
   pageSelections:
@@ -1633,11 +1633,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0966"
   category: WPT print-reftest
   title: css/css-break/flexbox/multi-line-row-flex-fragmentation-082b-print.html
@@ -1648,10 +1648,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-082b-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082b-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-082b-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082b-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html
   relation: "=="
   pageSelections:
@@ -1667,11 +1667,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0967"
   category: WPT print-reftest
   title: css/css-break/flexbox/multi-line-row-flex-fragmentation-082c-print.html
@@ -1682,10 +1682,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-082c-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082c-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-082c-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082c-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html
   relation: "=="
   pageSelections:
@@ -1701,11 +1701,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0968"
   category: WPT print-reftest
   title: css/css-break/flexbox/multi-line-row-flex-fragmentation-082d-print.html
@@ -1716,10 +1716,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-082d-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082d-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-082d-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082d-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html
   relation: "=="
   pageSelections:
@@ -1735,11 +1735,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0969"
   category: WPT print-reftest
   title: css/css-break/flexbox/single-line-column-flex-fragmentation-060-print.html
@@ -1750,10 +1750,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-060-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-060-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-060-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-060-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-060-print-ref.html
   relation: "=="
   diffPages:
@@ -1764,11 +1764,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-060-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-060-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-060-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-060-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-060-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-060-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0970"
   category: WPT print-reftest
   title: css/css-break/flexbox/single-line-column-flex-fragmentation-065-print.html
@@ -1779,10 +1779,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-065-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-065-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-065-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-065-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-065-print-ref.html
   relation: "=="
   pageSelections:
@@ -1798,11 +1798,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-065-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-065-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-065-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-065-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-065-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-065-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0971"
   category: WPT print-reftest
   title: css/css-break/flexbox/single-line-column-flex-fragmentation-066-print.html
@@ -1813,10 +1813,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-066-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-066-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-066-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-066-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-066-print-ref.html
   relation: "=="
   pageSelections:
@@ -1832,11 +1832,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-066-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-066-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-066-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-066-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-066-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-066-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0972"
   category: WPT print-reftest
   title: css/css-break/flexbox/single-line-column-flex-fragmentation-068a-print.html
@@ -1847,10 +1847,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-068a-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068a-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-068a-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068a-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html
   relation: "=="
   pageSelections:
@@ -1866,11 +1866,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0973"
   category: WPT print-reftest
   title: css/css-break/flexbox/single-line-column-flex-fragmentation-068b-print.html
@@ -1881,10 +1881,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-068b-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068b-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-068b-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068b-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html
   relation: "=="
   pageSelections:
@@ -1900,11 +1900,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0974"
   category: WPT print-reftest
   title: css/css-break/flexbox/single-line-column-flex-fragmentation-068c-print.html
@@ -1915,10 +1915,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-068c-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068c-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-068c-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068c-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html
   relation: "=="
   pageSelections:
@@ -1934,11 +1934,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0975"
   category: WPT print-reftest
   title: css/css-break/flexbox/single-line-column-flex-fragmentation-068d-print.html
@@ -1949,10 +1949,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-068d-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068d-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-068d-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068d-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html
   relation: "=="
   pageSelections:
@@ -1968,11 +1968,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0976"
   category: WPT print-reftest
   title: css/css-break/flexbox/single-line-column-flex-fragmentation-069a-print.html
@@ -1983,10 +1983,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-069a-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069a-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-069a-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069a-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html
   relation: "=="
   pageSelections:
@@ -2002,11 +2002,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0977"
   category: WPT print-reftest
   title: css/css-break/flexbox/single-line-column-flex-fragmentation-069b-print.html
@@ -2017,10 +2017,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-069b-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069b-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-069b-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069b-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html
   relation: "=="
   pageSelections:
@@ -2036,11 +2036,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0978"
   category: WPT print-reftest
   title: css/css-break/flexbox/single-line-column-flex-fragmentation-069c-print.html
@@ -2051,10 +2051,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-069c-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069c-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-069c-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069c-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html
   relation: "=="
   pageSelections:
@@ -2070,11 +2070,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0979"
   category: WPT print-reftest
   title: css/css-break/flexbox/single-line-column-flex-fragmentation-069d-print.html
@@ -2085,10 +2085,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-069d-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069d-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-069d-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069d-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html
   relation: "=="
   pageSelections:
@@ -2104,11 +2104,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0980"
   category: WPT print-reftest
   title: css/css-break/flexbox/single-line-row-flex-fragmentation-042-print.html
@@ -2119,10 +2119,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-042-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-042-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-042-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-042-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/single-line-row-flex-fragmentation-042-print-ref.html
   relation: "=="
   pageSelections:
@@ -2138,11 +2138,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/single-line-row-flex-fragmentation-042-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-042-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-042-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/single-line-row-flex-fragmentation-042-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-042-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-042-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0981"
   category: WPT print-reftest
   title: css/css-break/flexbox/single-line-row-flex-fragmentation-045-print.html
@@ -2153,10 +2153,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-045-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-045-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-045-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-045-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/single-line-row-flex-fragmentation-045-print-ref.html
   relation: "=="
   pageSelections:
@@ -2172,11 +2172,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/single-line-row-flex-fragmentation-045-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-045-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-045-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/single-line-row-flex-fragmentation-045-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-045-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-045-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0982"
   category: WPT print-reftest
   title: css/css-break/flexbox/single-line-row-flex-fragmentation-046-print.html
@@ -2187,10 +2187,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-046-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-046-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-046-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-046-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/flexbox/single-line-row-flex-fragmentation-046-print-ref.html
   relation: "=="
   pageSelections:
@@ -2206,11 +2206,11 @@
     - side: canary
       referenceFile: css/css-break/flexbox/single-line-row-flex-fragmentation-046-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-046-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-046-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/flexbox/single-line-row-flex-fragmentation-046-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-046-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-046-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0983"
   category: WPT print-reftest
   title: css/css-break/float-with-large-margin-bottom-cross-page-001-print.html
@@ -2221,10 +2221,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/float-with-large-margin-bottom-cross-page-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/float-with-large-margin-bottom-cross-page-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/float-with-large-margin-bottom-cross-page-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/float-with-large-margin-bottom-cross-page-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/float-with-large-margin-bottom-cross-page-001-print-ref.html
   relation: "=="
   diffPages:
@@ -2234,11 +2234,11 @@
     - side: canary
       referenceFile: css/css-break/float-with-large-margin-bottom-cross-page-001-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/float-with-large-margin-bottom-cross-page-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/float-with-large-margin-bottom-cross-page-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/float-with-large-margin-bottom-cross-page-001-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/float-with-large-margin-bottom-cross-page-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/float-with-large-margin-bottom-cross-page-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0986"
   category: WPT print-reftest
   title: css/css-break/ink-overflow-001-print.html
@@ -2249,10 +2249,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/ink-overflow-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/ink-overflow-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/ink-overflow-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/ink-overflow-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: about:blank
   relation: "=="
   diffPages:
@@ -2260,7 +2260,7 @@
   referenceViewerUrls:
     - side: canary
       referenceFile: about:blank
-      url: https://vivliostyle.vercel.app/#src=about:blank&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+      url: https://vivliostyle.vercel.app/#src=about:blank&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0987"
   category: WPT print-reftest
   title: css/css-break/overflowed-abs-pos-with-percentage-height-print.html
@@ -2271,10 +2271,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflowed-abs-pos-with-percentage-height-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/overflowed-abs-pos-with-percentage-height-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflowed-abs-pos-with-percentage-height-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/overflowed-abs-pos-with-percentage-height-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/overflowed-abs-pos-with-percentage-height-print-ref.html
   relation: "=="
   pageSelections:
@@ -2288,11 +2288,11 @@
     - side: canary
       referenceFile: css/css-break/overflowed-abs-pos-with-percentage-height-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflowed-abs-pos-with-percentage-height-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/overflowed-abs-pos-with-percentage-height-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/overflowed-abs-pos-with-percentage-height-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflowed-abs-pos-with-percentage-height-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/overflowed-abs-pos-with-percentage-height-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0988"
   category: WPT print-reftest
   title: css/css-break/overflowing-block-002-print.html
@@ -2303,10 +2303,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflowing-block-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/overflowing-block-002-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflowing-block-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/overflowing-block-002-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/overflowing-block-002-print-ref.html
   relation: "=="
   pageSelections:
@@ -2320,11 +2320,11 @@
     - side: canary
       referenceFile: css/css-break/overflowing-block-002-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflowing-block-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/overflowing-block-002-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/overflowing-block-002-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/overflowing-block-002-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/overflowing-block-002-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0990"
   category: WPT print-reftest
   title: css/css-break/root-margin-001-print.html
@@ -2335,10 +2335,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/root-margin-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/root-margin-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/root-margin-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/root-margin-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/root-margin-001-print-ref.html
   relation: "=="
   pageSelections:
@@ -2352,11 +2352,11 @@
     - side: canary
       referenceFile: css/css-break/root-margin-001-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/root-margin-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/root-margin-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/root-margin-001-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/root-margin-001-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/root-margin-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0991"
   category: WPT print-reftest
   title: css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print.html
@@ -2367,10 +2367,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print-ref.html
   relation: "=="
   diffPages:
@@ -2379,11 +2379,11 @@
     - side: canary
       referenceFile: css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0996"
   category: WPT print-reftest
   title: css/css-break/table/table-fragmentation-002a-print.html
@@ -2394,10 +2394,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-002a-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-002a-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/table/table-fragmentation-002a-print-ref.html
   relation: "=="
   diffPages:
@@ -2406,11 +2406,11 @@
     - side: canary
       referenceFile: css/css-break/table/table-fragmentation-002a-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-002a-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/table/table-fragmentation-002a-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-002a-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0997"
   category: WPT print-reftest
   title: css/css-break/table/table-fragmentation-002b-print.html
@@ -2421,10 +2421,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-002b-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002b-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-002b-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002b-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/table/table-fragmentation-002a-print-ref.html
   relation: "=="
   diffPages:
@@ -2433,11 +2433,11 @@
     - side: canary
       referenceFile: css/css-break/table/table-fragmentation-002a-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-002a-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/table/table-fragmentation-002a-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-002a-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0998"
   category: WPT print-reftest
   title: css/css-break/table/table-fragmentation-002c-print.html
@@ -2448,10 +2448,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-002c-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-002c-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/table/table-fragmentation-002c-print-ref.html
   relation: "=="
   diffPages:
@@ -2460,11 +2460,11 @@
     - side: canary
       referenceFile: css/css-break/table/table-fragmentation-002c-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-002c-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/table/table-fragmentation-002c-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-002c-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0999"
   category: WPT print-reftest
   title: css/css-break/table/table-fragmentation-002d-print.html
@@ -2475,10 +2475,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-002d-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002d-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-002d-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002d-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/table/table-fragmentation-002c-print-ref.html
   relation: "=="
   diffPages:
@@ -2487,11 +2487,11 @@
     - side: canary
       referenceFile: css/css-break/table/table-fragmentation-002c-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-002c-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/table/table-fragmentation-002c-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-002c-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1000"
   category: WPT print-reftest
   title: css/css-break/table/table-fragmentation-003a-print.html
@@ -2502,10 +2502,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-003a-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-003a-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-003a-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-003a-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/table/table-fragmentation-003a-print-ref.html
   relation: "=="
   pageSelections:
@@ -2520,11 +2520,11 @@
     - side: canary
       referenceFile: css/css-break/table/table-fragmentation-003a-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-003a-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-003a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/table/table-fragmentation-003a-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-003a-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-003a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1001"
   category: WPT print-reftest
   title: css/css-break/table/table-fragmentation-003b-print.html
@@ -2535,10 +2535,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-003b-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-003b-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-003b-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-003b-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/table/table-fragmentation-003a-print-ref.html
   relation: "=="
   pageSelections:
@@ -2553,11 +2553,11 @@
     - side: canary
       referenceFile: css/css-break/table/table-fragmentation-003a-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-003a-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-003a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/table/table-fragmentation-003a-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-003a-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-003a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1002"
   category: WPT print-reftest
   title: css/css-break/table/table-fragmentation-003c-print.html
@@ -2568,10 +2568,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-003c-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-003c-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-003c-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-003c-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/table/table-fragmentation-003c-print-ref.html
   relation: "=="
   pageSelections:
@@ -2586,11 +2586,11 @@
     - side: canary
       referenceFile: css/css-break/table/table-fragmentation-003c-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-003c-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-003c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/table/table-fragmentation-003c-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-003c-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-003c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1003"
   category: WPT print-reftest
   title: css/css-break/table/table-fragmentation-003d-print.html
@@ -2601,10 +2601,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-003d-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-003d-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-003d-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-003d-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/table/table-fragmentation-003c-print-ref.html
   relation: "=="
   pageSelections:
@@ -2619,11 +2619,11 @@
     - side: canary
       referenceFile: css/css-break/table/table-fragmentation-003c-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-003c-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-003c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/table/table-fragmentation-003c-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/table/table-fragmentation-003c-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-003c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1004"
   category: WPT print-reftest
   title: css/css-break/transform-022-print.html
@@ -2634,10 +2634,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-022-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/transform-022-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-022-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/transform-022-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/transform-022-print-ref.html
   relation: "=="
   pageSelections:
@@ -2651,11 +2651,11 @@
     - side: canary
       referenceFile: css/css-break/transform-022-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-022-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/transform-022-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/transform-022-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-022-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/transform-022-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1006"
   category: WPT print-reftest
   title: css/css-break/transform-024-print.html
@@ -2666,10 +2666,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-024-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/transform-024-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-024-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/transform-024-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/transform-024-print-ref.html
   relation: "=="
   pageSelections:
@@ -2688,11 +2688,11 @@
     - side: canary
       referenceFile: css/css-break/transform-024-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-024-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/transform-024-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/transform-024-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/transform-024-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/transform-024-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1007"
   category: WPT print-reftest
   title: css/css-break/underflow-from-next-page-print.html
@@ -2703,10 +2703,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/underflow-from-next-page-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/underflow-from-next-page-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/underflow-from-next-page-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/underflow-from-next-page-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-break/underflow-from-next-page-print-ref.html
   relation: "=="
   diffPages:
@@ -2715,8 +2715,8 @@
     - side: canary
       referenceFile: css/css-break/underflow-from-next-page-print-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/underflow-from-next-page-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/underflow-from-next-page-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-break/underflow-from-next-page-print-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/underflow-from-next-page-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/underflow-from-next-page-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

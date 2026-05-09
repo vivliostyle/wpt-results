@@ -8,10 +8,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-background-paused.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-background-paused.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-image-animation/image-animation-background-paused.tentative-ref.html
   relation: "=="
   diffPages:
@@ -20,11 +20,11 @@
     - side: canary
       referenceFile: css/css-image-animation/image-animation-background-paused.tentative-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-background-paused.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-background-paused.tentative-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-background-paused.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0002"
   category: WPT reftest
   title: css/css-image-animation/image-animation-background-stopped.tentative.html
@@ -35,10 +35,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-background-stopped.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-background-stopped.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-background-stopped.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-background-stopped.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-image-animation/image-animation-background-stopped.tentative-ref.html
   relation: "=="
   diffPages:
@@ -47,34 +47,11 @@
     - side: canary
       referenceFile: css/css-image-animation/image-animation-background-stopped.tentative-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-background-stopped.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-background-stopped.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-background-stopped.tentative-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-background-stopped.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0003"
-  category: WPT reftest
-  title: css/css-image-animation/image-animation-body-background-no-propagation-paused.html
-  file: css/css-image-animation/image-animation-body-background-no-propagation-paused.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-body-background-no-propagation-paused.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-body-background-no-propagation-paused.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-background-stopped.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0004"
   category: WPT reftest
   title: css/css-image-animation/image-animation-body-background-root-propagation-paused.html
@@ -85,10 +62,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html
   relation: "=="
   diffPages:
@@ -97,11 +74,11 @@
     - side: canary
       referenceFile: css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0005"
   category: WPT reftest
   title: css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html
@@ -112,10 +89,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-image-animation/image-animation-img-paused-normal-mixed.tentative-ref.html
   relation: "=="
   diffPages:
@@ -124,11 +101,11 @@
     - side: canary
       referenceFile: css/css-image-animation/image-animation-img-paused-normal-mixed.tentative-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-img-paused-normal-mixed.tentative-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0006"
   category: WPT reftest
   title: css/css-image-animation/image-animation-img-paused.tentative.html
@@ -139,10 +116,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-paused.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-paused.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-image-animation/image-animation-img-paused.tentative-ref.html
   relation: "=="
   diffPages:
@@ -151,11 +128,11 @@
     - side: canary
       referenceFile: css/css-image-animation/image-animation-img-paused.tentative-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-paused.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-img-paused.tentative-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-paused.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0007"
   category: WPT reftest
   title: css/css-image-animation/image-animation-img-running-to-normal.tentative.html
@@ -166,10 +143,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-running-to-normal.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-running-to-normal.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-image-animation/image-animation-img-running-to-normal.tentative-ref.html
   relation: "=="
   diffPages:
@@ -178,11 +155,11 @@
     - side: canary
       referenceFile: css/css-image-animation/image-animation-img-running-to-normal.tentative-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-running-to-normal.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-img-running-to-normal.tentative-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-running-to-normal.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0008"
   category: WPT reftest
   title: css/css-image-animation/image-animation-img-running.tentative.html
@@ -193,10 +170,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-running.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-running.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-running.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-running.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-image-animation/image-animation-img-running.tentative-ref.html
   relation: "=="
   diffPages:
@@ -205,11 +182,11 @@
     - side: canary
       referenceFile: css/css-image-animation/image-animation-img-running.tentative-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-running.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-running.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-img-running.tentative-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-running.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-running.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0009"
   category: WPT reftest
   title: css/css-image-animation/image-animation-img-stopped.tentative.html
@@ -220,10 +197,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-stopped.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-stopped.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-image-animation/image-animation-img-stopped.tentative-ref.html
   relation: "=="
   diffPages:
@@ -232,11 +209,11 @@
     - side: canary
       referenceFile: css/css-image-animation/image-animation-img-stopped.tentative-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-stopped.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-img-stopped.tentative-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-img-stopped.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0010"
   category: WPT reftest
   title: css/css-image-animation/image-animation-paused-exact-frame.tentative.html
@@ -247,10 +224,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-paused-exact-frame.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-paused-exact-frame.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-image-animation/image-animation-paused-exact-frame.tentative-ref.html
   relation: "=="
   diffPages:
@@ -259,11 +236,11 @@
     - side: canary
       referenceFile: css/css-image-animation/image-animation-paused-exact-frame.tentative-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-paused-exact-frame.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-paused-exact-frame.tentative-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-paused-exact-frame.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0011"
   category: WPT reftest
   title: css/css-image-animation/image-animation-pseudo-animated-image.tentative.html
@@ -274,10 +251,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-pseudo-animated-image.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-pseudo-animated-image.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-image-animation/image-animation-pseudo-animated-image.tentative-ref.html
   relation: "=="
   diffPages:
@@ -286,11 +263,11 @@
     - side: canary
       referenceFile: css/css-image-animation/image-animation-pseudo-animated-image.tentative-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-pseudo-animated-image.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-pseudo-animated-image.tentative-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-pseudo-animated-image.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0012"
   category: WPT reftest
   title: css/css-image-animation/image-animation-repeat-background-paused.html
@@ -301,10 +278,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-repeat-background-paused.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-repeat-background-paused.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-image-animation/image-animation-repeat-background-paused-ref.html
   relation: "=="
   diffPages:
@@ -313,11 +290,11 @@
     - side: canary
       referenceFile: css/css-image-animation/image-animation-repeat-background-paused-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-repeat-background-paused-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-repeat-background-paused-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-repeat-background-paused-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0014"
   category: WPT reftest
   title: css/css-image-animation/image-animation-root-background-paused.html
@@ -328,10 +305,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-root-background-paused.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-root-background-paused.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-image-animation/image-animation-root-background-paused-ref.html
   relation: "=="
   diffPages:
@@ -340,11 +317,11 @@
     - side: canary
       referenceFile: css/css-image-animation/image-animation-root-background-paused-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-root-background-paused-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-root-background-paused-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-root-background-paused-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0015"
   category: WPT reftest
   title: css/css-image-animation/image-animation-stopped-reset-frame.tentative.html
@@ -355,10 +332,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-stopped-reset-frame.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-stopped-reset-frame.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-image-animation/image-animation-stopped-reset-frame.tentative-ref.html
   relation: "=="
   diffPages:
@@ -367,11 +344,11 @@
     - side: canary
       referenceFile: css/css-image-animation/image-animation-stopped-reset-frame.tentative-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-stopped-reset-frame.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-stopped-reset-frame.tentative-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-stopped-reset-frame.tentative-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0016"
   category: WPT reftest
   title: css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html
@@ -382,10 +359,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html
   relation: "=="
   diffPages:
@@ -394,11 +371,11 @@
     - side: canary
       referenceFile: css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0017"
   category: WPT reftest
   title: css/css-image-animation/image-animation-video-poster-paused.html
@@ -409,10 +386,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-video-poster-paused.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-video-poster-paused.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-image-animation/image-animation-video-poster-paused-ref.html
   relation: "=="
   diffPages:
@@ -421,11 +398,11 @@
     - side: canary
       referenceFile: css/css-image-animation/image-animation-video-poster-paused-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-video-poster-paused-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-video-poster-paused-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-video-poster-paused-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0018"
   category: WPT reftest
   title: css/css-image-animation/image-animation-video-poster-running.html
@@ -436,10 +413,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-video-poster-running.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-video-poster-running.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-image-animation/image-animation-video-poster-running-ref.html
   relation: "=="
   diffPages:
@@ -448,35 +425,8 @@
     - side: canary
       referenceFile: css/css-image-animation/image-animation-video-poster-running-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-video-poster-running-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-video-poster-running-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-video-poster-running-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0019"
-  category: WPT reftest
-  title: css/css-image-animation/image-animation-video-poster-stopped.html
-  file: css/css-image-animation/image-animation-video-poster-stopped.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-video-poster-stopped.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-video-poster-stopped.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-image-animation/image-animation-video-poster-stopped-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-image-animation/image-animation-video-poster-stopped-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-image-animation/image-animation-video-poster-stopped-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-video-poster-stopped-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-image-animation/image-animation-video-poster-stopped-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-image-animation/image-animation-video-poster-stopped-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

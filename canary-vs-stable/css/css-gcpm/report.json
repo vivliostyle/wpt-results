@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T17:38:16.852Z",
+  "generatedAt": "2026-05-09T03:53:08.316Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -25,13 +25,13 @@
     "baselineViewer": "https://vivliostyle.org/viewer/",
     "actualLabel": "canary",
     "baselineLabel": "stable",
-    "extraViewerParams": "bookMode=false",
+    "extraViewerParams": "",
     "actualViewerParams": "",
     "baselineViewerParams": "",
     "testUrls": [],
     "refUrls": [],
     "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
-    "wptBaseUrl": "https://raw.githack.com/web-platform-tests/wpt/master/",
+    "wptBaseUrl": "https://wpt.live/",
     "wptPathPrefixes": [
       "css/css-gcpm/"
     ],
@@ -73,13 +73,13 @@
       "file": [
         "css/css-gcpm/leader-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/leader-001.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/leader-001.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/leader-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/leader-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/leader-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/leader-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -89,13 +89,13 @@
       "file": [
         "css/css-gcpm/leader-002.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/leader-002.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/leader-002.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/leader-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/leader-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/leader-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/leader-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -105,13 +105,13 @@
       "file": [
         "css/css-gcpm/leader-003.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/leader-003.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/leader-003.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/leader-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/leader-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/leader-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/leader-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -121,13 +121,13 @@
       "file": [
         "css/css-gcpm/string-set-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-001.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-001.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/string-set-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/string-set-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -137,13 +137,13 @@
       "file": [
         "css/css-gcpm/string-set-002.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-002.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-002.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/string-set-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/string-set-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -153,13 +153,13 @@
       "file": [
         "css/css-gcpm/string-set-003.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-003.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-003.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/string-set-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/string-set-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -169,13 +169,13 @@
       "file": [
         "css/css-gcpm/string-set-004.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-004.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-004.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/string-set-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/string-set-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -185,13 +185,13 @@
       "file": [
         "css/css-gcpm/string-set-005.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-005.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-005.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/string-set-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/string-set-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -201,13 +201,13 @@
       "file": [
         "css/css-gcpm/string-set-006.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-006.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-006.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/string-set-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/string-set-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -217,13 +217,13 @@
       "file": [
         "css/css-gcpm/string-set-007.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-007.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-007.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-007.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-007.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/string-set-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/string-set-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -233,13 +233,13 @@
       "file": [
         "css/css-gcpm/string-set-008.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-008.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-008.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-008.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-008.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/string-set-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/string-set-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -249,13 +249,13 @@
       "file": [
         "css/css-gcpm/string-set-009.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-009.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-009.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/string-set-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/string-set-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -265,13 +265,13 @@
       "file": [
         "css/css-gcpm/string-set-010.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-010.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-010.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/string-set-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/string-set-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -281,13 +281,13 @@
       "file": [
         "css/css-gcpm/string-set-011.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-011.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-011.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-011.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-011.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/string-set-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/string-set-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -297,13 +297,13 @@
       "file": [
         "css/css-gcpm/string-set-012.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-012.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-012.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/string-set-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/string-set-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -313,13 +313,13 @@
       "file": [
         "css/css-gcpm/using-strings-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/using-strings-001.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/using-strings-001.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/using-strings-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/using-strings-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/using-strings-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/using-strings-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -329,13 +329,13 @@
       "file": [
         "css/css-gcpm/using-strings-002.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/using-strings-002.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/using-strings-002.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/using-strings-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/using-strings-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/using-strings-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/using-strings-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -345,13 +345,13 @@
       "file": [
         "css/css-gcpm/using-strings-003.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/using-strings-003.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/using-strings-003.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/using-strings-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/using-strings-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/using-strings-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/using-strings-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -361,13 +361,13 @@
       "file": [
         "css/css-gcpm/using-strings-004.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/using-strings-004.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/using-strings-004.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/using-strings-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/using-strings-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/using-strings-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/using-strings-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -377,13 +377,13 @@
       "file": [
         "css/css-gcpm/using-strings-005.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/using-strings-005.html",
+      "sourceUrl": "https://wpt.live/css/css-gcpm/using-strings-005.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/using-strings-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/using-strings-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gcpm/using-strings-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gcpm/using-strings-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     }
   ]

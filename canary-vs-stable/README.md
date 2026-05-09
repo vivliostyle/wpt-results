@@ -1,75 +1,75 @@
 # Vivliostyle.js WPT Results: canary vs stable
 
-- [css/CSS2](css/CSS2/report.html)
-- [css/WOFF2](css/WOFF2/report.html)
-- [css/compositing](css/compositing/report.html)
-- [css/css-align](css/css-align/report.html)
-- [css/css-anchor-position](css/css-anchor-position/report.html)
-- [css/css-animations](css/css-animations/report.html)
-- [css/css-backgrounds](css/css-backgrounds/report.html)
-- [css/css-borders](css/css-borders/report.html)
-- [css/css-box](css/css-box/report.html)
-- [css/css-break](css/css-break/report.html)
-- [css/css-cascade](css/css-cascade/report.html)
-- [css/css-color](css/css-color/report.html)
-- [css/css-color-adjust](css/css-color-adjust/report.html)
-- [css/css-conditional](css/css-conditional/report.html)
-- [css/css-contain](css/css-contain/report.html)
-- [css/css-content](css/css-content/report.html)
-- [css/css-counter-styles](css/css-counter-styles/report.html)
-- [css/css-display](css/css-display/report.html)
-- [css/css-exclusions](css/css-exclusions/report.html)
-- [css/css-flexbox](css/css-flexbox/report.html)
-- [css/css-font-loading](css/css-font-loading/report.html)
-- [css/css-fonts](css/css-fonts/report.html)
-- [css/css-forms](css/css-forms/report.html)
-- [css/css-gaps](css/css-gaps/report.html)
-- [css/css-gcpm](css/css-gcpm/report.html)
-- [css/css-grid](css/css-grid/report.html)
-- [css/css-highlight-api](css/css-highlight-api/report.html)
-- [css/css-image-animation](css/css-image-animation/report.html)
-- [css/css-images](css/css-images/report.html)
-- [css/css-inline](css/css-inline/report.html)
-- [css/css-layout-api](css/css-layout-api/report.html)
-- [css/css-lists](css/css-lists/report.html)
-- [css/css-logical](css/css-logical/report.html)
-- [css/css-masking](css/css-masking/report.html)
-- [css/css-multicol](css/css-multicol/report.html)
-- [css/css-namespaces](css/css-namespaces/report.html)
-- [css/css-nesting](css/css-nesting/report.html)
-- [css/css-overflow](css/css-overflow/report.html)
-- [css/css-page](css/css-page/report.html)
-- [css/css-paint-api](css/css-paint-api/report.html)
-- [css/css-position](css/css-position/report.html)
-- [css/css-properties-values-api](css/css-properties-values-api/report.html)
-- [css/css-pseudo](css/css-pseudo/report.html)
-- [css/css-rhythm](css/css-rhythm/report.html)
-- [css/css-ruby](css/css-ruby/report.html)
-- [css/css-scroll-anchoring](css/css-scroll-anchoring/report.html)
-- [css/css-scroll-snap](css/css-scroll-snap/report.html)
-- [css/css-scrollbars](css/css-scrollbars/report.html)
-- [css/css-shadow](css/css-shadow/report.html)
-- [css/css-shapes](css/css-shapes/report.html)
-- [css/css-sizing](css/css-sizing/report.html)
-- [css/css-speech](css/css-speech/report.html)
-- [css/css-style-attr](css/css-style-attr/report.html)
-- [css/css-syntax](css/css-syntax/report.html)
-- [css/css-tables](css/css-tables/report.html)
-- [css/css-text](css/css-text/report.html)
-- [css/css-text-decor](css/css-text-decor/report.html)
-- [css/css-transforms](css/css-transforms/report.html)
-- [css/css-transitions](css/css-transitions/report.html)
-- [css/css-typed-om](css/css-typed-om/report.html)
-- [css/css-ui](css/css-ui/report.html)
-- [css/css-values](css/css-values/report.html)
-- [css/css-variables](css/css-variables/report.html)
-- [css/css-view-transitions](css/css-view-transitions/report.html)
-- [css/css-viewport](css/css-viewport/report.html)
-- [css/css-will-change](css/css-will-change/report.html)
-- [css/css-writing-modes](css/css-writing-modes/report.html)
-- [css/fill-stroke](css/fill-stroke/report.html)
-- [css/filter-effects](css/filter-effects/report.html)
-- [css/mediaqueries](css/mediaqueries/report.html)
-- [css/motion](css/motion/report.html)
-- [css/printing](css/printing/report.html)
-- [css/selectors](css/selectors/report.html)
+- [css/CSS2](css/CSS2/report.html) - Outcome summary: {"known-fail":1042,"pass":5116,"improvement":71,"changed-fail":43,"expected-change":12,"regression":4,"error":3,"unchanged":556,"changed":2}
+- [css/WOFF2](css/WOFF2/report.html) - Outcome summary: {"pass":292,"known-fail":6}
+- [css/compositing](css/compositing/report.html) - Outcome summary: {"pass":46,"known-fail":9,"improvement":2,"expected-change":2,"regression":1}
+- [css/css-align](css/css-align/report.html) - Outcome summary: {"pass":50,"known-fail":12}
+- [css/css-anchor-position](css/css-anchor-position/report.html) - Outcome summary: {"pass":86,"expected-change":5,"known-fail":96}
+- [css/css-animations](css/css-animations/report.html) - Outcome summary: {"known-fail":20,"pass":9,"unchanged":66}
+- [css/css-backgrounds](css/css-backgrounds/report.html) - Outcome summary: {"known-fail":212,"pass":440,"improvement":1,"error":2,"changed-fail":7,"regression":32,"expected-change":6,"unchanged":2}
+- [css/css-borders](css/css-borders/report.html) - Outcome summary: {"pass":50,"known-fail":12,"improvement":1,"regression":1}
+- [css/css-box](css/css-box/report.html) - Outcome summary: {"known-fail":65,"pass":2}
+- [css/css-break](css/css-break/report.html) - Outcome summary: {"pass":912,"known-fail":85,"improvement":6,"changed-fail":5}
+- [css/css-cascade](css/css-cascade/report.html) - Outcome summary: {"known-fail":27,"pass":23,"unchanged":1}
+- [css/css-color](css/css-color/report.html) - Outcome summary: {"pass":286,"known-fail":20}
+- [css/css-color-adjust](css/css-color-adjust/report.html) - Outcome summary: {"known-fail":3,"pass":3,"changed-fail":5,"error":7,"expected-change":1,"improvement":1}
+- [css/css-conditional](css/css-conditional/report.html) - Outcome summary: {"pass":108,"known-fail":55,"changed-fail":1,"expected-change":1}
+- [css/css-contain](css/css-contain/report.html) - Outcome summary: {"pass":289,"known-fail":126,"changed-fail":3,"expected-change":1,"regression":1,"error":8}
+- [css/css-content](css/css-content/report.html) - Outcome summary: {"pass":25,"known-fail":36,"regression":1}
+- [css/css-counter-styles](css/css-counter-styles/report.html) - Outcome summary: {"pass":180,"known-fail":55,"unchanged":1}
+- [css/css-display](css/css-display/report.html) - Outcome summary: {"improvement":4,"pass":105,"known-fail":99,"regression":1,"changed-fail":4,"unchanged":1}
+- [css/css-exclusions](css/css-exclusions/report.html) - Outcome summary: {"known-fail":4}
+- [css/css-flexbox](css/css-flexbox/report.html) - Outcome summary: {"pass":829,"known-fail":91,"improvement":22,"expected-change":14,"changed-fail":3,"error":1,"unchanged":21}
+- [css/css-font-loading](css/css-font-loading/report.html) - Outcome summary: {"known-fail":3,"pass":3}
+- [css/css-fonts](css/css-fonts/report.html) - Outcome summary: {"known-fail":96,"pass":271,"regression":2}
+- [css/css-forms](css/css-forms/report.html) - Outcome summary: {"known-fail":12,"pass":2,"changed-fail":1}
+- [css/css-gaps](css/css-gaps/report.html) - Outcome summary: {"pass":29,"known-fail":266}
+- [css/css-gcpm](css/css-gcpm/report.html) - Outcome summary: {"unchanged":20}
+- [css/css-grid](css/css-grid/report.html) - Outcome summary: {"pass":637,"known-fail":599,"changed-fail":22,"improvement":2}
+- [css/css-highlight-api](css/css-highlight-api/report.html) - Outcome summary: {"known-fail":76,"error":2,"changed-fail":3,"pass":14,"improvement":1}
+- [css/css-image-animation](css/css-image-animation/report.html) - Outcome summary: {"known-fail":14,"pass":2,"changed-fail":2,"improvement":1}
+- [css/css-images](css/css-images/report.html) - Outcome summary: {"pass":252,"known-fail":90,"error":1,"expected-change":6,"regression":56,"changed-fail":43,"improvement":1}
+- [css/css-inline](css/css-inline/report.html) - Outcome summary: {"known-fail":78,"pass":72}
+- [css/css-layout-api](css/css-layout-api/report.html) - Outcome summary: {"known-fail":126,"pass":9}
+- [css/css-lists](css/css-lists/report.html) - Outcome summary: {"pass":61,"known-fail":102,"improvement":1,"expected-change":1,"changed-fail":1}
+- [css/css-logical](css/css-logical/report.html) - Outcome summary: {"pass":4,"expected-change":2}
+- [css/css-masking](css/css-masking/report.html) - Outcome summary: {"known-fail":199,"pass":220,"regression":44,"improvement":4,"expected-change":2,"changed-fail":2}
+- [css/css-multicol](css/css-multicol/report.html) - Outcome summary: {"pass":362,"known-fail":97,"improvement":4,"changed-fail":2,"unchanged":1}
+- [css/css-namespaces](css/css-namespaces/report.html) - Outcome summary: {"known-fail":18,"pass":5}
+- [css/css-nesting](css/css-nesting/report.html) - Outcome summary: {"pass":17}
+- [css/css-overflow](css/css-overflow/report.html) - Outcome summary: {"known-fail":307,"pass":175,"changed-fail":3,"expected-change":2,"improvement":2,"error":3,"regression":2}
+- [css/css-page](css/css-page/report.html) - Outcome summary: {"pass":89,"known-fail":124,"improvement":6,"changed-fail":3,"expected-change":2,"unchanged":20}
+- [css/css-paint-api](css/css-paint-api/report.html) - Outcome summary: {"known-fail":79,"pass":5,"error":30,"improvement":1}
+- [css/css-position](css/css-position/report.html) - Outcome summary: {"known-fail":97,"pass":136,"error":3}
+- [css/css-properties-values-api](css/css-properties-values-api/report.html) - Outcome summary: {"known-fail":3,"pass":4}
+- [css/css-pseudo](css/css-pseudo/report.html) - Outcome summary: {"known-fail":131,"pass":95,"error":23,"changed-fail":2,"improvement":4,"unchanged":7}
+- [css/css-rhythm](css/css-rhythm/report.html) - Outcome summary: {"known-fail":15,"pass":3}
+- [css/css-ruby](css/css-ruby/report.html) - Outcome summary: {"pass":37,"known-fail":69}
+- [css/css-scroll-anchoring](css/css-scroll-anchoring/report.html) - Outcome summary: {"pass":2,"improvement":2}
+- [css/css-scroll-snap](css/css-scroll-snap/report.html) - Outcome summary: {"known-fail":16,"changed-fail":1,"improvement":4,"pass":5}
+- [css/css-scrollbars](css/css-scrollbars/report.html) - Outcome summary: {"pass":13,"known-fail":18}
+- [css/css-shadow](css/css-shadow/report.html) - Outcome summary: {"pass":57,"known-fail":54}
+- [css/css-shapes](css/css-shapes/report.html) - Outcome summary: {"pass":58,"changed-fail":87,"known-fail":75,"improvement":1,"regression":7,"expected-change":2}
+- [css/css-sizing](css/css-sizing/report.html) - Outcome summary: {"pass":467,"known-fail":66,"regression":5,"improvement":1,"expected-change":5,"error":3,"changed-fail":2}
+- [css/css-speech](css/css-speech/report.html) - Outcome summary: {"unchanged":11}
+- [css/css-style-attr](css/css-style-attr/report.html) - Outcome summary: {"known-fail":3,"pass":13}
+- [css/css-syntax](css/css-syntax/report.html) - Outcome summary: {"pass":1}
+- [css/css-tables](css/css-tables/report.html) - Outcome summary: {"known-fail":31,"pass":129}
+- [css/css-text](css/css-text/report.html) - Outcome summary: {"pass":1054,"known-fail":415,"changed-fail":10,"improvement":2,"expected-change":1,"unchanged":2}
+- [css/css-text-decor](css/css-text-decor/report.html) - Outcome summary: {"pass":122,"known-fail":161,"error":6,"expected-change":2,"unchanged":66}
+- [css/css-transforms](css/css-transforms/report.html) - Outcome summary: {"pass":530,"known-fail":255,"improvement":3,"regression":2,"changed-fail":1,"unchanged":1}
+- [css/css-transitions](css/css-transitions/report.html) - Outcome summary: {"known-fail":4,"pass":2,"unchanged":55}
+- [css/css-typed-om](css/css-typed-om/report.html) - Outcome summary: {"pass":5}
+- [css/css-ui](css/css-ui/report.html) - Outcome summary: {"pass":396,"known-fail":595,"unchanged":192,"changed":41}
+- [css/css-values](css/css-values/report.html) - Outcome summary: {"pass":122,"known-fail":76,"expected-change":3,"improvement":1,"regression":3,"changed":1}
+- [css/css-variables](css/css-variables/report.html) - Outcome summary: {"pass":164,"known-fail":16,"improvement":1}
+- [css/css-view-transitions](css/css-view-transitions/report.html) - Outcome summary: {"pass":71,"known-fail":221,"expected-change":4,"regression":4,"changed-fail":5,"error":1,"unchanged":1}
+- [css/css-viewport](css/css-viewport/report.html) - Outcome summary: {"pass":34,"regression":2,"known-fail":30,"error":2}
+- [css/css-will-change](css/css-will-change/report.html) - Outcome summary: {"pass":39,"known-fail":8}
+- [css/css-writing-modes](css/css-writing-modes/report.html) - Outcome summary: {"expected-change":3,"pass":560,"improvement":29,"known-fail":538,"changed-fail":11,"unchanged":76}
+- [css/fill-stroke](css/fill-stroke/report.html) - Outcome summary: {"pass":1}
+- [css/filter-effects](css/filter-effects/report.html) - Outcome summary: {"pass":150,"known-fail":154,"changed-fail":1,"expected-change":1}
+- [css/mediaqueries](css/mediaqueries/report.html) - Outcome summary: {"known-fail":42,"pass":15,"changed-fail":1}
+- [css/motion](css/motion/report.html) - Outcome summary: {"known-fail":19,"pass":78}
+- [css/printing](css/printing/report.html) - Outcome summary: {"pass":18,"known-fail":6,"error":2}
+- [css/selectors](css/selectors/report.html) - Outcome summary: {"pass":141,"known-fail":192,"expected-change":1,"error":1,"unchanged":21}

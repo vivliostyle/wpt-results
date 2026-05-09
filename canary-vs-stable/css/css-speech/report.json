@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T18:49:06.703Z",
+  "generatedAt": "2026-05-09T04:58:23.200Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -25,13 +25,13 @@
     "baselineViewer": "https://vivliostyle.org/viewer/",
     "actualLabel": "canary",
     "baselineLabel": "stable",
-    "extraViewerParams": "bookMode=false",
+    "extraViewerParams": "",
     "actualViewerParams": "",
     "baselineViewerParams": "",
     "testUrls": [],
     "refUrls": [],
     "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
-    "wptBaseUrl": "https://raw.githack.com/web-platform-tests/wpt/master/",
+    "wptBaseUrl": "https://wpt.live/",
     "wptPathPrefixes": [
       "css/css-speech/"
     ],
@@ -73,13 +73,13 @@
       "file": [
         "css/css-speech/age-declarations-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-001.html",
+      "sourceUrl": "https://wpt.live/css/css-speech/age-declarations-001.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-speech/age-declarations-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-speech/age-declarations-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -89,13 +89,13 @@
       "file": [
         "css/css-speech/age-declarations-female-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-female-001.html",
+      "sourceUrl": "https://wpt.live/css/css-speech/age-declarations-female-001.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-female-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-female-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-speech/age-declarations-female-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-speech/age-declarations-female-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -105,13 +105,13 @@
       "file": [
         "css/css-speech/age-declarations-male-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-male-001.html",
+      "sourceUrl": "https://wpt.live/css/css-speech/age-declarations-male-001.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-male-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-male-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-speech/age-declarations-male-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-speech/age-declarations-male-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -121,13 +121,13 @@
       "file": [
         "css/css-speech/age-declarations-neutral-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-neutral-001.html",
+      "sourceUrl": "https://wpt.live/css/css-speech/age-declarations-neutral-001.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-neutral-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/age-declarations-neutral-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-speech/age-declarations-neutral-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-speech/age-declarations-neutral-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -137,13 +137,13 @@
       "file": [
         "css/css-speech/generic-gender-declarations-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/generic-gender-declarations-001.html",
+      "sourceUrl": "https://wpt.live/css/css-speech/generic-gender-declarations-001.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/generic-gender-declarations-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/generic-gender-declarations-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-speech/generic-gender-declarations-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-speech/generic-gender-declarations-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -153,13 +153,13 @@
       "file": [
         "css/css-speech/no-voice-family-specified-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/no-voice-family-specified-001.html",
+      "sourceUrl": "https://wpt.live/css/css-speech/no-voice-family-specified-001.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/no-voice-family-specified-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/no-voice-family-specified-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-speech/no-voice-family-specified-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-speech/no-voice-family-specified-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -169,13 +169,13 @@
       "file": [
         "css/css-speech/speak-as/speak-as-digits-001-manual.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-digits-001-manual.html",
+      "sourceUrl": "https://wpt.live/css/css-speech/speak-as/speak-as-digits-001-manual.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-digits-001-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-digits-001-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-speech/speak-as/speak-as-digits-001-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-speech/speak-as/speak-as-digits-001-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -185,13 +185,13 @@
       "file": [
         "css/css-speech/speak-as/speak-as-digits-002-manual.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-digits-002-manual.html",
+      "sourceUrl": "https://wpt.live/css/css-speech/speak-as/speak-as-digits-002-manual.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-digits-002-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-digits-002-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-speech/speak-as/speak-as-digits-002-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-speech/speak-as/speak-as-digits-002-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -201,13 +201,13 @@
       "file": [
         "css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html",
+      "sourceUrl": "https://wpt.live/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -217,13 +217,13 @@
       "file": [
         "css/css-speech/speak-as/speak-as-spell-out-001-manual.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-spell-out-001-manual.html",
+      "sourceUrl": "https://wpt.live/css/css-speech/speak-as/speak-as-spell-out-001-manual.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-spell-out-001-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/speak-as/speak-as-spell-out-001-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-speech/speak-as/speak-as-spell-out-001-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-speech/speak-as/speak-as-spell-out-001-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     },
     {
@@ -233,13 +233,13 @@
       "file": [
         "css/css-speech/voice-family-integer.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/voice-family-integer.html",
+      "sourceUrl": "https://wpt.live/css/css-speech/voice-family-integer.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/voice-family-integer.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-speech/voice-family-integer.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-speech/voice-family-integer.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-speech/voice-family-integer.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     }
   ]

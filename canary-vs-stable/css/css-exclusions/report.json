@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T17:18:58.540Z",
+  "generatedAt": "2026-05-09T03:36:21.959Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -25,13 +25,13 @@
     "baselineViewer": "https://vivliostyle.org/viewer/",
     "actualLabel": "canary",
     "baselineLabel": "stable",
-    "extraViewerParams": "bookMode=false",
+    "extraViewerParams": "",
     "actualViewerParams": "",
     "baselineViewerParams": "",
     "testUrls": [],
     "refUrls": [],
     "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
-    "wptBaseUrl": "https://raw.githack.com/web-platform-tests/wpt/master/",
+    "wptBaseUrl": "https://wpt.live/",
     "wptPathPrefixes": [
       "css/css-exclusions/"
     ],
@@ -73,19 +73,19 @@
       "file": [
         "css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01.xht"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01.xht",
+      "sourceUrl": "https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01.xht",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -103,7 +103,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -137,12 +137,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -176,7 +176,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -192,19 +192,19 @@
       "file": [
         "css/css-exclusions/css3-exclusions/exclusions-wrap-flow-02.xht"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-02.xht",
+      "sourceUrl": "https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-02.xht",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-02.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-02.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-02.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-02.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -222,7 +222,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -256,12 +256,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -295,7 +295,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -311,19 +311,19 @@
       "file": [
         "css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht",
+      "sourceUrl": "https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -341,7 +341,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -375,12 +375,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -414,7 +414,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -430,19 +430,19 @@
       "file": [
         "css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht",
+      "sourceUrl": "https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -460,7 +460,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -494,12 +494,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -533,7 +533,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {

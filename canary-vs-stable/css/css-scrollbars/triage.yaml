@@ -8,10 +8,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/scrollbar-color-006-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -20,11 +20,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/scrollbar-color-006-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-006-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/scrollbar-color-006-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-006-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0004"
   category: WPT reftest
   title: css/css-scrollbars/scrollbar-color-007.html
@@ -35,10 +35,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-007.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-007.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/scrollbar-color-007-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -47,11 +47,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/scrollbar-color-007-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-007-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/scrollbar-color-007-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-007-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0005"
   category: WPT reftest
   title: css/css-scrollbars/scrollbar-color-008.html
@@ -62,10 +62,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-008.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-008.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/scrollbar-color-008-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -74,11 +74,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/scrollbar-color-008-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-008-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/scrollbar-color-008-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-008-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0006"
   category: WPT reftest
   title: css/css-scrollbars/scrollbar-color-009.html
@@ -89,10 +89,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/scrollbar-color-009-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -101,11 +101,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/scrollbar-color-009-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-009-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/scrollbar-color-009-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-009-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0007"
   category: WPT reftest
   title: css/css-scrollbars/scrollbar-color-010.html
@@ -116,10 +116,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/scrollbar-color-010-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -128,11 +128,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/scrollbar-color-010-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-010-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/scrollbar-color-010-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-010-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0008"
   category: WPT reftest
   title: css/css-scrollbars/scrollbar-color-011.html
@@ -143,10 +143,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-011.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-011.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/scrollbar-color-011-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -155,11 +155,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/scrollbar-color-011-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-011-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/scrollbar-color-011-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-011-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0010"
   category: WPT reftest
   title: css/css-scrollbars/scrollbar-color-dynamic-1.html
@@ -170,10 +170,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -182,11 +182,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0011"
   category: WPT reftest
   title: css/css-scrollbars/scrollbar-color-dynamic-2.html
@@ -197,10 +197,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-2.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-2.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -209,11 +209,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0012"
   category: WPT reftest
   title: css/css-scrollbars/scrollbar-color-dynamic-3.html
@@ -224,10 +224,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-3.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-3.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -236,11 +236,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0013"
   category: WPT reftest
   title: css/css-scrollbars/scrollbar-color-dynamic-4.html
@@ -251,10 +251,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-4.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-4.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -263,11 +263,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0014"
   category: WPT reftest
   title: css/css-scrollbars/scrollbar-color-dynamic-5.html
@@ -278,10 +278,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-5.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-5.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -290,11 +290,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0015"
   category: WPT reftest
   title: css/css-scrollbars/scrollbar-color-dynamic-6.html
@@ -305,10 +305,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-6.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-6.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -317,11 +317,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0016"
   category: WPT reftest
   title: css/css-scrollbars/scrollbar-color-dynamic-7.html
@@ -332,10 +332,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-7.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-7.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -344,11 +344,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0022"
   category: WPT reftest
   title: css/css-scrollbars/scrollbar-width-paint-001.html
@@ -359,10 +359,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-width-paint-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-width-paint-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -371,11 +371,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0025"
   category: WPT reftest
   title: css/css-scrollbars/scrollbar-width-paint-004.html
@@ -386,10 +386,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-width-paint-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-width-paint-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -398,11 +398,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0027"
   category: WPT reftest
   title: css/css-scrollbars/scrollbar-width-paint-006.html
@@ -413,10 +413,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-width-paint-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-width-paint-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -425,11 +425,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0030"
   category: WPT reftest
   title: css/css-scrollbars/viewport-scrollbar-body.html
@@ -440,10 +440,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/viewport-scrollbar-body.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/viewport-scrollbar-body.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/viewport-scrollbar-body-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -452,11 +452,11 @@
     - side: canary
       referenceFile: css/css-scrollbars/viewport-scrollbar-body-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/viewport-scrollbar-body-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/viewport-scrollbar-body-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/viewport-scrollbar-body-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0031"
   category: WPT reftest
   title: css/css-scrollbars/viewport-scrollbar.html
@@ -467,10 +467,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/viewport-scrollbar.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/viewport-scrollbar.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-scrollbars/viewport-scrollbar-mis-ref.html
   relation: "!="
   unexpectedMatches:
@@ -479,8 +479,8 @@
     - side: canary
       referenceFile: css/css-scrollbars/viewport-scrollbar-mis-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/viewport-scrollbar-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-scrollbars/viewport-scrollbar-mis-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scrollbars/viewport-scrollbar-mis-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

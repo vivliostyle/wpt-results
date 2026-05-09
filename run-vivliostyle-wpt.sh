@@ -82,10 +82,10 @@ echo "# Vivliostyle.js WPT Results: ${actual_viewer} vs ${baseline_viewer}" > ${
 echo "" >> ${actual_viewer}-vs-${baseline_viewer}/README.md
 
 for path in "${wpt_path_list[@]}"; do
-  echo "- [${path}](${path}/report.html)" >> ${actual_viewer}-vs-${baseline_viewer}/README.md
   node ../vivliostyle.js/scripts/layout-regression.mjs --mode reftest-diff --timeout 10 \
-    --wpt-base-url https://raw.githack.com/web-platform-tests/wpt/master/ \
-    --extra-viewer-params "bookMode=false" --wpt-path-prefix "${path}/" \
+    --wpt-path-prefix "${path}/" \
     --actual-viewer ${actual_viewer}  --baseline-viewer ${baseline_viewer} \
     --out-dir ${actual_viewer}-vs-${baseline_viewer}/${path}
+  echo -n "- [${path}](${path}/report.html) " >> ${actual_viewer}-vs-${baseline_viewer}/README.md
+  grep -h '^- Outcome summary:' ${actual_viewer}-vs-${baseline_viewer}/${path}/report.md >> ${actual_viewer}-vs-${baseline_viewer}/README.md
 done
