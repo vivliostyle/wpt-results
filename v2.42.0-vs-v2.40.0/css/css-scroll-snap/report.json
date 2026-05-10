@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T03:42:28.334Z",
+  "generatedAt": "2026-05-10T04:15:53.238Z",
   "labels": {
     "actual": "v2.42.0",
     "baseline": "v2.40.0"
@@ -25,46 +25,47 @@
     "baselineViewer": "https://vivliostyle.github.io/viewer/v2.40.0/",
     "actualLabel": "v2.42.0",
     "baselineLabel": "v2.40.0",
-    "extraViewerParams": "bookMode=false",
+    "extraViewerParams": "",
     "actualViewerParams": "",
     "baselineViewerParams": "",
     "testUrls": [],
     "refUrls": [],
     "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
-    "wptBaseUrl": "https://raw.githack.com/web-platform-tests/wpt/master/",
+    "wptBaseUrl": "https://wpt.live/",
     "wptPathPrefixes": [
       "css/css-scroll-snap/"
     ],
     "timeoutMs": 10000
   },
   "summary": {
-    "totalEntries": 23,
-    "entriesWithDifferences": 15,
+    "totalEntries": 26,
+    "entriesWithDifferences": 21,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 1,
+    "screenshotMismatches": 3,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 14,
-        "changed-fail": 1,
-        "pass": 8
+        "known-fail": 18,
+        "regression": 3,
+        "pass": 5
       },
       "statusPairs": {
-        "FAIL->FAIL": 15,
-        "PASS->PASS": 8
+        "FAIL->FAIL": 18,
+        "PASS->FAIL": 3,
+        "PASS->PASS": 5
       }
     },
     "triage": {
       "differences": {
-        "pending": 15,
+        "pending": 21,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 15,
+      "pendingEntries": 21,
       "triagedEntries": 0
     }
   },
@@ -76,19 +77,19 @@
       "file": [
         "css/css-scroll-snap/large-scroll-margin-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/large-scroll-margin-001.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/large-scroll-margin-001.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/large-scroll-margin-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/large-scroll-margin-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/large-scroll-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/large-scroll-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -106,7 +107,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 2,
             "relation": "==",
@@ -123,12 +124,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 2,
             "relation": "==",
@@ -145,7 +146,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -161,19 +162,19 @@
       "file": [
         "css/css-scroll-snap/scroll-snap-root-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-001.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-snap-root-001.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/scroll-snap-root-001-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -191,7 +192,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-snap-root-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 2,
             "relation": "==",
@@ -208,12 +209,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-snap-root-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 2,
             "relation": "==",
@@ -230,7 +231,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -246,19 +247,19 @@
       "file": [
         "css/css-scroll-snap/scroll-snap-root-002.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-002.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-snap-root-002.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/scroll-snap-root-002-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -276,7 +277,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-snap-root-002-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 2,
             "relation": "==",
@@ -293,12 +294,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-snap-root-002-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 2,
             "relation": "==",
@@ -315,7 +316,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -331,19 +332,19 @@
       "file": [
         "css/css-scroll-snap/scroll-snap-root-003.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-003.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-snap-root-003.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-snap-root-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-snap-root-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/no-red-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/no-red-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/no-red-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/no-red-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/no-red-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -361,7 +362,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/no-red-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/no-red-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/no-red-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 2,
             "relation": "==",
@@ -378,12 +379,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/no-red-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/no-red-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/no-red-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/no-red-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/no-red-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 2,
             "relation": "==",
@@ -400,7 +401,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/no-red-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/no-red-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -416,23 +417,23 @@
       "file": [
         "css/css-scroll-snap/scroll-target-align-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-001.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-target-align-001.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -441,28 +442,12 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 25210,
-            "diffRatio": 0.03006688420731242,
-            "exactDiffPixels": 25360,
-            "exactDiffRatio": 0.03024578276467445,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0005-WPT_reftest-css-css-scroll-snap-scroll-target-align-001.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -496,12 +481,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -522,10 +507,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 25210,
-                "diffRatio": 0.03006688420731242,
-                "exactDiffPixels": 25360,
-                "exactDiffRatio": 0.03024578276467445,
+                "diffPixels": 12540,
+                "diffRatio": 0.014955919395465995,
+                "exactDiffPixels": 12540,
+                "exactDiffRatio": 0.014955919395465995,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -535,7 +520,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -551,19 +536,19 @@
       "file": [
         "css/css-scroll-snap/scroll-target-align-002.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-002.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-target-align-002.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -581,7 +566,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -602,8 +587,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
                 "exactDiffPixels": 15628,
                 "exactDiffRatio": 0.018638844363025722,
                 "exceededDiffPixels": 0,
@@ -615,12 +600,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -641,8 +626,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
                 "exactDiffPixels": 15628,
                 "exactDiffRatio": 0.018638844363025722,
                 "exceededDiffPixels": 0,
@@ -654,7 +639,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -670,19 +655,19 @@
       "file": [
         "css/css-scroll-snap/scroll-target-align-003.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-003.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-target-align-003.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-align-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -700,7 +685,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -721,8 +706,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
                 "exactDiffPixels": 15628,
                 "exactDiffRatio": 0.018638844363025722,
                 "exceededDiffPixels": 0,
@@ -734,12 +719,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -760,8 +745,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
                 "exactDiffPixels": 15628,
                 "exactDiffRatio": 0.018638844363025722,
                 "exceededDiffPixels": 0,
@@ -773,7 +758,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -785,46 +770,23 @@
     {
       "id": "0008",
       "category": "WPT reftest",
-      "title": "css/css-scroll-snap/scroll-target-margin-001.html",
+      "title": "css/css-scroll-snap/scroll-target-align-004.html",
       "file": [
-        "css/css-scroll-snap/scroll-target-margin-001.html"
+        "css/css-scroll-snap/scroll-target-align-004.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-001.html",
-      "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
-      "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": [
-        {
-          "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-          "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ]
-    },
-    {
-      "id": "0009",
-      "category": "WPT reftest",
-      "title": "css/css-scroll-snap/scroll-target-margin-002.html",
-      "file": [
-        "css/css-scroll-snap/scroll-target-margin-002.html"
-      ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-002.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-target-align-004.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
-          "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
+          "referenceFile": "css/css-scroll-snap/scroll-target-004-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -841,8 +803,8 @@
         "comparisons": [
           {
             "referenceIndex": 0,
-            "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceFile": "css/css-scroll-snap/scroll-target-004-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -863,25 +825,25 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
-                "exactDiffPixels": 15628,
-                "exactDiffRatio": 0.018638844363025722,
+                "diffPixels": 12540,
+                "diffRatio": 0.014955919395465995,
+                "exactDiffPixels": 12540,
+                "exactDiffRatio": 0.014955919395465995,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0009-WPT_reftest-css-css-scroll-snap-scroll-target-margin-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0008-WPT_reftest-css-css-scroll-snap-scroll-target-align-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
-            "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceFile": "css/css-scroll-snap/scroll-target-004-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -902,20 +864,139 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
-                "exactDiffPixels": 15628,
-                "exactDiffRatio": 0.018638844363025722,
+                "diffPixels": 12540,
+                "diffRatio": 0.014955919395465995,
+                "exactDiffPixels": 12540,
+                "exactDiffRatio": 0.014955919395465995,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0009-WPT_reftest-css-css-scroll-snap-scroll-target-margin-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0008-WPT_reftest-css-css-scroll-snap-scroll-target-align-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0009",
+      "category": "WPT reftest",
+      "title": "css/css-scroll-snap/scroll-target-align-005.html",
+      "file": [
+        "css/css-scroll-snap/scroll-target-align-005.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-target-align-005.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scroll-snap/scroll-target-005-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-scroll-snap/scroll-target-005-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 50910,
+                "diffRatio": 0.06071817036867415,
+                "exactDiffPixels": 53141,
+                "exactDiffRatio": 0.06337898824517213,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0009-WPT_reftest-css-css-scroll-snap-scroll-target-align-005.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-scroll-snap/scroll-target-005-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 50910,
+                "diffRatio": 0.06071817036867415,
+                "exactDiffPixels": 53141,
+                "exactDiffRatio": 0.06337898824517213,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0009-WPT_reftest-css-css-scroll-snap-scroll-target-align-005.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.40.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -927,23 +1008,23 @@
     {
       "id": "0010",
       "category": "WPT reftest",
-      "title": "css/css-scroll-snap/scroll-target-margin-003.html",
+      "title": "css/css-scroll-snap/scroll-target-align-006.html",
       "file": [
-        "css/css-scroll-snap/scroll-target-margin-003.html"
+        "css/css-scroll-snap/scroll-target-align-006.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-003.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-target-align-006.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
-          "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
+          "referenceFile": "css/css-scroll-snap/scroll-target-006-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -960,8 +1041,8 @@
         "comparisons": [
           {
             "referenceIndex": 0,
-            "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceFile": "css/css-scroll-snap/scroll-target-006-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -982,25 +1063,25 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
-                "exactDiffPixels": 15628,
-                "exactDiffRatio": 0.018638844363025722,
+                "diffPixels": 13262,
+                "diffRatio": 0.015817017784901917,
+                "exactDiffPixels": 15500,
+                "exactDiffRatio": 0.018486184260743454,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0010-WPT_reftest-css-css-scroll-snap-scroll-target-margin-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0010-WPT_reftest-css-css-scroll-snap-scroll-target-align-006.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
-            "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceFile": "css/css-scroll-snap/scroll-target-006-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1021,20 +1102,20 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
-                "exactDiffPixels": 15628,
-                "exactDiffRatio": 0.018638844363025722,
+                "diffPixels": 13262,
+                "diffRatio": 0.015817017784901917,
+                "exactDiffPixels": 15500,
+                "exactDiffRatio": 0.018486184260743454,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0010-WPT_reftest-css-css-scroll-snap-scroll-target-margin-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0010-WPT_reftest-css-css-scroll-snap-scroll-target-align-006.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1046,27 +1127,27 @@
     {
       "id": "0011",
       "category": "WPT reftest",
-      "title": "css/css-scroll-snap/scroll-target-margin-004.html",
+      "title": "css/css-scroll-snap/scroll-target-margin-001.html",
       "file": [
-        "css/css-scroll-snap/scroll-target-margin-004.html"
+        "css/css-scroll-snap/scroll-target-margin-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-004.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-target-margin-001.html",
       "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-margin-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineStatus": "PASS",
+      "changeType": "regression",
+      "viewerChanged": true,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "regression",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -1075,12 +1156,28 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 12540,
+            "diffRatio": 0.014955919395465995,
+            "exactDiffPixels": 12540,
+            "exactDiffRatio": 0.014955919395465995,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0011-WPT_reftest-css-css-scroll-snap-scroll-target-margin-001.html-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1101,59 +1198,20 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
-                "exactDiffPixels": 15628,
-                "exactDiffRatio": 0.018638844363025722,
+                "diffPixels": 12540,
+                "diffRatio": 0.014955919395465995,
+                "exactDiffPixels": 12540,
+                "exactDiffRatio": 0.014955919395465995,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0011-WPT_reftest-css-css-scroll-snap-scroll-target-margin-004.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0011-WPT_reftest-css-css-scroll-snap-scroll-target-margin-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
-                "exactDiffPixels": 15628,
-                "exactDiffRatio": 0.018638844363025722,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0011-WPT_reftest-css-css-scroll-snap-scroll-target-margin-004.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1165,46 +1223,23 @@
     {
       "id": "0012",
       "category": "WPT reftest",
-      "title": "css/css-scroll-snap/scroll-target-padding-001.html",
+      "title": "css/css-scroll-snap/scroll-target-margin-002.html",
       "file": [
-        "css/css-scroll-snap/scroll-target-padding-001.html"
+        "css/css-scroll-snap/scroll-target-margin-002.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-padding-001.html",
-      "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
-      "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-padding-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-padding-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": [
-        {
-          "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-          "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ]
-    },
-    {
-      "id": "0013",
-      "category": "WPT reftest",
-      "title": "css/css-scroll-snap/scroll-target-padding-002.html",
-      "file": [
-        "css/css-scroll-snap/scroll-target-padding-002.html"
-      ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-padding-002.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-target-margin-002.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-padding-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-padding-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1222,7 +1257,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1243,25 +1278,25 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
                 "exactDiffPixels": 15628,
                 "exactDiffRatio": 0.018638844363025722,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0013-WPT_reftest-css-css-scroll-snap-scroll-target-padding-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0012-WPT_reftest-css-css-scroll-snap-scroll-target-margin-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1282,20 +1317,139 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
                 "exactDiffPixels": 15628,
                 "exactDiffRatio": 0.018638844363025722,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0013-WPT_reftest-css-css-scroll-snap-scroll-target-padding-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0012-WPT_reftest-css-css-scroll-snap-scroll-target-margin-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0013",
+      "category": "WPT reftest",
+      "title": "css/css-scroll-snap/scroll-target-margin-003.html",
+      "file": [
+        "css/css-scroll-snap/scroll-target-margin-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-target-margin-003.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
+                "exactDiffPixels": 15628,
+                "exactDiffRatio": 0.018638844363025722,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0013-WPT_reftest-css-css-scroll-snap-scroll-target-margin-003.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
+                "exactDiffPixels": 15628,
+                "exactDiffRatio": 0.018638844363025722,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0013-WPT_reftest-css-css-scroll-snap-scroll-target-margin-003.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.40.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1307,23 +1461,23 @@
     {
       "id": "0014",
       "category": "WPT reftest",
-      "title": "css/css-scroll-snap/scroll-target-padding-003.html",
+      "title": "css/css-scroll-snap/scroll-target-margin-004.html",
       "file": [
-        "css/css-scroll-snap/scroll-target-padding-003.html"
+        "css/css-scroll-snap/scroll-target-margin-004.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-padding-003.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-target-margin-004.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-padding-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-padding-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1341,7 +1495,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1362,25 +1516,25 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
                 "exactDiffPixels": 15628,
                 "exactDiffRatio": 0.018638844363025722,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0014-WPT_reftest-css-css-scroll-snap-scroll-target-padding-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0014-WPT_reftest-css-css-scroll-snap-scroll-target-margin-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1401,20 +1555,20 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
                 "exactDiffPixels": 15628,
                 "exactDiffRatio": 0.018638844363025722,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0014-WPT_reftest-css-css-scroll-snap-scroll-target-padding-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0014-WPT_reftest-css-css-scroll-snap-scroll-target-margin-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1426,46 +1580,119 @@
     {
       "id": "0015",
       "category": "WPT reftest",
-      "title": "css/css-scroll-snap/scroll-target-snap-001.html",
+      "title": "css/css-scroll-snap/scroll-target-padding-001.html",
       "file": [
-        "css/css-scroll-snap/scroll-target-snap-001.html"
+        "css/css-scroll-snap/scroll-target-padding-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-snap-001.html",
-      "actualStatus": "PASS",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-target-padding-001.html",
+      "actualStatus": "FAIL",
       "baselineStatus": "PASS",
-      "changeType": "pass",
-      "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-snap-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-snap-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "changeType": "regression",
+      "viewerChanged": true,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-padding-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-padding-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "regression",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 12540,
+            "diffRatio": 0.014955919395465995,
+            "exactDiffPixels": 12540,
+            "exactDiffRatio": 0.014955919395465995,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0015-WPT_reftest-css-css-scroll-snap-scroll-target-padding-001.html-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 12540,
+                "diffRatio": 0.014955919395465995,
+                "exactDiffPixels": 12540,
+                "exactDiffRatio": 0.014955919395465995,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0015-WPT_reftest-css-css-scroll-snap-scroll-target-padding-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0016",
       "category": "WPT reftest",
-      "title": "css/css-scroll-snap/scroll-target-snap-002.html",
+      "title": "css/css-scroll-snap/scroll-target-padding-002.html",
       "file": [
-        "css/css-scroll-snap/scroll-target-snap-002.html"
+        "css/css-scroll-snap/scroll-target-padding-002.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-snap-002.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-target-padding-002.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-snap-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-snap-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-padding-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-padding-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1483,7 +1710,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1504,25 +1731,25 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
                 "exactDiffPixels": 15628,
                 "exactDiffRatio": 0.018638844363025722,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0016-WPT_reftest-css-css-scroll-snap-scroll-target-snap-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0016-WPT_reftest-css-css-scroll-snap-scroll-target-padding-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1543,20 +1770,20 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
                 "exactDiffPixels": 15628,
                 "exactDiffRatio": 0.018638844363025722,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0016-WPT_reftest-css-css-scroll-snap-scroll-target-snap-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0016-WPT_reftest-css-css-scroll-snap-scroll-target-padding-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1568,23 +1795,23 @@
     {
       "id": "0017",
       "category": "WPT reftest",
-      "title": "css/css-scroll-snap/scroll-target-snap-003.html",
+      "title": "css/css-scroll-snap/scroll-target-padding-003.html",
       "file": [
-        "css/css-scroll-snap/scroll-target-snap-003.html"
+        "css/css-scroll-snap/scroll-target-padding-003.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-snap-003.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-target-padding-003.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-snap-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-snap-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-padding-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-padding-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1602,7 +1829,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1623,25 +1850,25 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
                 "exactDiffPixels": 15628,
                 "exactDiffRatio": 0.018638844363025722,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0017-WPT_reftest-css-css-scroll-snap-scroll-target-snap-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0017-WPT_reftest-css-css-scroll-snap-scroll-target-padding-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1662,20 +1889,20 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 13195,
-                "diffRatio": 0.01573710976261354,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
                 "exactDiffPixels": 15628,
                 "exactDiffRatio": 0.018638844363025722,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0017-WPT_reftest-css-css-scroll-snap-scroll-target-snap-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0017-WPT_reftest-css-css-scroll-snap-scroll-target-padding-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/scroll-target-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1687,69 +1914,403 @@
     {
       "id": "0018",
       "category": "WPT reftest",
+      "title": "css/css-scroll-snap/scroll-target-snap-001.html",
+      "file": [
+        "css/css-scroll-snap/scroll-target-snap-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-target-snap-001.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "PASS",
+      "changeType": "regression",
+      "viewerChanged": true,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-snap-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-snap-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "regression",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 12540,
+            "diffRatio": 0.014955919395465995,
+            "exactDiffPixels": 12540,
+            "exactDiffRatio": 0.014955919395465995,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0018-WPT_reftest-css-css-scroll-snap-scroll-target-snap-001.html-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 12540,
+                "diffRatio": 0.014955919395465995,
+                "exactDiffPixels": 12540,
+                "exactDiffRatio": 0.014955919395465995,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0018-WPT_reftest-css-css-scroll-snap-scroll-target-snap-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0019",
+      "category": "WPT reftest",
+      "title": "css/css-scroll-snap/scroll-target-snap-002.html",
+      "file": [
+        "css/css-scroll-snap/scroll-target-snap-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-target-snap-002.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-snap-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-snap-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
+                "exactDiffPixels": 15628,
+                "exactDiffRatio": 0.018638844363025722,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0019-WPT_reftest-css-css-scroll-snap-scroll-target-snap-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
+                "exactDiffPixels": 15628,
+                "exactDiffRatio": 0.018638844363025722,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0019-WPT_reftest-css-css-scroll-snap-scroll-target-snap-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.40.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0020",
+      "category": "WPT reftest",
+      "title": "css/css-scroll-snap/scroll-target-snap-003.html",
+      "file": [
+        "css/css-scroll-snap/scroll-target-snap-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/scroll-target-snap-003.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-snap-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-snap-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
+                "exactDiffPixels": 15628,
+                "exactDiffRatio": 0.018638844363025722,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0020-WPT_reftest-css-css-scroll-snap-scroll-target-snap-003.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-scroll-snap/scroll-target-001-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 13298,
+                "diffRatio": 0.015859953438668802,
+                "exactDiffPixels": 15628,
+                "exactDiffRatio": 0.018638844363025722,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0020-WPT_reftest-css-css-scroll-snap-scroll-target-snap-003.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.40.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0021",
+      "category": "WPT reftest",
       "title": "css/css-scroll-snap/snap-after-initial-layout/direction-rtl.html",
       "file": [
         "css/css-scroll-snap/snap-after-initial-layout/direction-rtl.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/direction-rtl.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/direction-rtl.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/direction-rtl.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/direction-rtl.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/direction-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/direction-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
     {
-      "id": "0019",
+      "id": "0022",
       "category": "WPT reftest",
       "title": "css/css-scroll-snap/snap-after-initial-layout/scroll-snap-initial-layout-000.html",
       "file": [
         "css/css-scroll-snap/snap-after-initial-layout/scroll-snap-initial-layout-000.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-initial-layout-000.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-initial-layout-000.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-initial-layout-000.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-initial-layout-000.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-initial-layout-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-initial-layout-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/snap-after-initial-layout/scroll-snap-initial-layout-000-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-initial-layout-000-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-initial-layout-000-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-initial-layout-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-initial-layout-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
     {
-      "id": "0020",
+      "id": "0023",
       "category": "WPT reftest",
       "title": "css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html",
       "file": [
         "css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1767,7 +2328,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1795,18 +2356,18 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0020-WPT_reftest-css-css-scroll-snap-snap-after-initial-layout-scroll-snap-writing-mode-000.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0023-WPT_reftest-css-css-scroll-snap-snap-after-initial-layout-scroll-snap-writing-mode-000.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1834,13 +2395,13 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0020-WPT_reftest-css-css-scroll-snap-snap-after-initial-layout-scroll-snap-writing-mode-000.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0023-WPT_reftest-css-css-scroll-snap-snap-after-initial-layout-scroll-snap-writing-mode-000.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1850,71 +2411,71 @@
       }
     },
     {
-      "id": "0021",
+      "id": "0024",
       "category": "WPT reftest",
       "title": "css/css-scroll-snap/snap-after-initial-layout/writing-mode-horizontal-tb.html",
       "file": [
         "css/css-scroll-snap/snap-after-initial-layout/writing-mode-horizontal-tb.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/writing-mode-horizontal-tb.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/writing-mode-horizontal-tb.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/writing-mode-horizontal-tb.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/writing-mode-horizontal-tb.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/writing-mode-horizontal-tb.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/writing-mode-horizontal-tb.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
     {
-      "id": "0022",
+      "id": "0025",
       "category": "WPT reftest",
       "title": "css/css-scroll-snap/snap-after-initial-layout/writing-mode-vertical-lr.html",
       "file": [
         "css/css-scroll-snap/snap-after-initial-layout/writing-mode-vertical-lr.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/writing-mode-vertical-lr.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/writing-mode-vertical-lr.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/writing-mode-vertical-lr.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/writing-mode-vertical-lr.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/writing-mode-vertical-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/writing-mode-vertical-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
     {
-      "id": "0023",
+      "id": "0026",
       "category": "WPT reftest",
       "title": "css/css-scroll-snap/snap-after-initial-layout/writing-mode-vertical-rl.html",
       "file": [
         "css/css-scroll-snap/snap-after-initial-layout/writing-mode-vertical-rl.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/writing-mode-vertical-rl.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/writing-mode-vertical-rl.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/writing-mode-vertical-rl.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/writing-mode-vertical-rl.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/writing-mode-vertical-rl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/writing-mode-vertical-rl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/snap-after-initial-layout-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     }

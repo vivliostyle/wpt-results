@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T05:21:40.296Z",
+  "generatedAt": "2026-05-10T06:01:30.122Z",
   "labels": {
     "actual": "v2.42.0",
     "baseline": "v2.40.0"
@@ -25,13 +25,13 @@
     "baselineViewer": "https://vivliostyle.github.io/viewer/v2.40.0/",
     "actualLabel": "v2.42.0",
     "baselineLabel": "v2.40.0",
-    "extraViewerParams": "bookMode=false",
+    "extraViewerParams": "",
     "actualViewerParams": "",
     "baselineViewerParams": "",
     "testUrls": [],
     "refUrls": [],
     "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
-    "wptBaseUrl": "https://raw.githack.com/web-platform-tests/wpt/master/",
+    "wptBaseUrl": "https://wpt.live/",
     "wptPathPrefixes": [
       "css/css-will-change/"
     ],
@@ -75,19 +75,19 @@
       "file": [
         "css/css-will-change/will-change-abspos-cb-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-001.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-abspos-cb-001.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-abspos-cb-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-abspos-cb-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/will-change-abspos-cb-001-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-abspos-cb-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-abspos-cb-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -98,19 +98,19 @@
       "file": [
         "css/css-will-change/will-change-abspos-cb-002.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-002.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-abspos-cb-002.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-abspos-cb-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-abspos-cb-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/will-change-abspos-cb-002-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-abspos-cb-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-abspos-cb-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -121,19 +121,19 @@
       "file": [
         "css/css-will-change/will-change-abspos-cb-003.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-003.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-abspos-cb-003.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-abspos-cb-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-abspos-cb-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/will-change-abspos-cb-003-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-abspos-cb-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-abspos-cb-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -144,19 +144,19 @@
       "file": [
         "css/css-will-change/will-change-abspos-cb-dynamic-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-dynamic-001.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-abspos-cb-dynamic-001.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-dynamic-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-dynamic-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-abspos-cb-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-abspos-cb-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/will-change-abspos-cb-001-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-abspos-cb-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-abspos-cb-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-abspos-cb-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -167,19 +167,19 @@
       "file": [
         "css/css-will-change/will-change-fixedpos-cb-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-001.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-fixedpos-cb-001.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/will-change-fixedpos-cb-001-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -190,19 +190,19 @@
       "file": [
         "css/css-will-change/will-change-fixedpos-cb-002.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-002.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-fixedpos-cb-002.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/will-change-fixedpos-cb-002-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -220,7 +220,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-will-change/will-change-fixedpos-cb-002-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -254,12 +254,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-will-change/will-change-fixedpos-cb-002-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -293,7 +293,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -309,19 +309,19 @@
       "file": [
         "css/css-will-change/will-change-fixedpos-cb-003.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-003.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-fixedpos-cb-003.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/will-change-fixedpos-cb-003-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -339,7 +339,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-will-change/will-change-fixedpos-cb-003-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 2,
             "testTotalPages": 2,
             "relation": "==",
@@ -375,12 +375,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-will-change/will-change-fixedpos-cb-003-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 2,
             "testTotalPages": 2,
             "relation": "==",
@@ -416,7 +416,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-003-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -432,19 +432,19 @@
       "file": [
         "css/css-will-change/will-change-fixedpos-cb-004.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-004.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-fixedpos-cb-004.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/will-change-fixedpos-cb-004-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-004-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -455,19 +455,19 @@
       "file": [
         "css/css-will-change/will-change-fixedpos-cb-005.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-005.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-fixedpos-cb-005.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/will-change-fixedpos-cb-005-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-005-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-005-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -485,7 +485,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-will-change/will-change-fixedpos-cb-005-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-005-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -519,12 +519,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-005-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-will-change/will-change-fixedpos-cb-005-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-005-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -558,7 +558,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-005-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -574,19 +574,19 @@
       "file": [
         "css/css-will-change/will-change-fixedpos-cb-006.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-006.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-fixedpos-cb-006.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/will-change-fixedpos-cb-006-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-006-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-006-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -604,7 +604,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-will-change/will-change-fixedpos-cb-006-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-006-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 2,
             "testTotalPages": 2,
             "relation": "==",
@@ -640,12 +640,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-006-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-will-change/will-change-fixedpos-cb-006-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-006-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 2,
             "testTotalPages": 2,
             "relation": "==",
@@ -681,7 +681,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixedpos-cb-006-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -697,19 +697,19 @@
       "file": [
         "css/css-will-change/will-change-fixpos-cb-contain-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-contain-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-fixpos-cb-contain-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-contain-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-contain-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-contain-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-contain-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-offset-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -720,19 +720,19 @@
       "file": [
         "css/css-will-change/will-change-fixpos-cb-filter-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-filter-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-fixpos-cb-filter-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-filter-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-filter-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-filter-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-filter-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-offset-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -743,19 +743,19 @@
       "file": [
         "css/css-will-change/will-change-fixpos-cb-height-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-height-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-fixpos-cb-height-1.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-height-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-height-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-height-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-height-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-offset-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -773,7 +773,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-will-change/green-square-100-by-100-offset-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -807,12 +807,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-will-change/green-square-100-by-100-offset-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -846,7 +846,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -862,19 +862,19 @@
       "file": [
         "css/css-will-change/will-change-fixpos-cb-offset-path-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-offset-path-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-fixpos-cb-offset-path-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-offset-path-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-offset-path-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-offset-path-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-offset-path-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-offset-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -885,19 +885,19 @@
       "file": [
         "css/css-will-change/will-change-fixpos-cb-perspective-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-perspective-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-fixpos-cb-perspective-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-perspective-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-perspective-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-perspective-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-perspective-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-offset-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -908,19 +908,19 @@
       "file": [
         "css/css-will-change/will-change-fixpos-cb-position-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-position-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-fixpos-cb-position-1.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-position-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-position-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-position-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-position-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-offset-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -938,7 +938,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-will-change/green-square-100-by-100-offset-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -972,12 +972,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-will-change/green-square-100-by-100-offset-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1011,7 +1011,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1027,19 +1027,19 @@
       "file": [
         "css/css-will-change/will-change-fixpos-cb-transform-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-transform-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-fixpos-cb-transform-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-transform-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-transform-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-transform-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-transform-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-offset-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1050,19 +1050,19 @@
       "file": [
         "css/css-will-change/will-change-fixpos-cb-transform-style-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-transform-style-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-fixpos-cb-transform-style-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-transform-style-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-transform-style-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-transform-style-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-transform-style-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-offset-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1073,19 +1073,19 @@
       "file": [
         "css/css-will-change/will-change-fixpos-cb-translate-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-translate-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-fixpos-cb-translate-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-translate-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-translate-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-translate-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-translate-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-offset-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1096,19 +1096,19 @@
       "file": [
         "css/css-will-change/will-change-fixpos-cb-webkit-perspective-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-webkit-perspective-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-fixpos-cb-webkit-perspective-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-webkit-perspective-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-fixpos-cb-webkit-perspective-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-webkit-perspective-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-fixpos-cb-webkit-perspective-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-offset-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-offset-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1119,19 +1119,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-backdrop-filter-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-backdrop-filter-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-backdrop-filter-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-backdrop-filter-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-backdrop-filter-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-backdrop-filter-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-backdrop-filter-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1142,19 +1142,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-clip-path-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-clip-path-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-clip-path-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-clip-path-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-clip-path-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-clip-path-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-clip-path-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1165,19 +1165,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-filter-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-filter-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-filter-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-filter-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-filter-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-filter-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-filter-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1188,19 +1188,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-height-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-height-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-height-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-height-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-height-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-height-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-height-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1211,19 +1211,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-isolation-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-isolation-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-isolation-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-isolation-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-isolation-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-isolation-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-isolation-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1234,19 +1234,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-mask-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-mask-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-mask-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-mask-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-mask-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-mask-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-mask-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1257,19 +1257,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-mask-image-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-mask-image-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-mask-image-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-mask-image-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-mask-image-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-mask-image-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-mask-image-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1280,19 +1280,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-mix-blend-mode-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-mix-blend-mode-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-mix-blend-mode-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-mix-blend-mode-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-mix-blend-mode-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-mix-blend-mode-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-mix-blend-mode-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1303,19 +1303,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-offset-path-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-offset-path-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-offset-path-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-offset-path-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-offset-path-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-offset-path-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-offset-path-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1326,19 +1326,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-opacity-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-opacity-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-opacity-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-opacity-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-opacity-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-opacity-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-opacity-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1349,19 +1349,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-opacity-2.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-opacity-2.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-opacity-2.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-opacity-2.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-opacity-2.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-opacity-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-opacity-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1372,19 +1372,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-perspective-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-perspective-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-perspective-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-perspective-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-perspective-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-perspective-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-perspective-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1395,19 +1395,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-position-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-position-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-position-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-position-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-position-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-position-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-position-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1418,19 +1418,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-transform-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-transform-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-transform-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-transform-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-transform-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-transform-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-transform-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1441,19 +1441,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-transform-style-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-transform-style-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-transform-style-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-transform-style-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-transform-style-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-transform-style-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-transform-style-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1464,19 +1464,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-translate-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-translate-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-translate-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-translate-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-translate-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-translate-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-translate-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1487,19 +1487,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-view-transition-name-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-view-transition-name-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-view-transition-name-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-view-transition-name-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-view-transition-name-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-view-transition-name-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-view-transition-name-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1510,19 +1510,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-z-index-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-z-index-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-z-index-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-z-index-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-z-index-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-z-index-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-z-index-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/green-square-100-by-100-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/green-square-100-by-100-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1533,19 +1533,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-z-index-2.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-z-index-2.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-z-index-2.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-z-index-2.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-z-index-2.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-z-index-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-z-index-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1556,19 +1556,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-z-index-3.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-z-index-3.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-z-index-3.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-z-index-3.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-z-index-3.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-z-index-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-z-index-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1579,19 +1579,19 @@
       "file": [
         "css/css-will-change/will-change-stacking-context-z-index-4.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-z-index-4.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-stacking-context-z-index-4.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-z-index-4.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-stacking-context-z-index-4.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-z-index-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-stacking-context-z-index-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1609,7 +1609,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1643,12 +1643,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1682,7 +1682,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1698,19 +1698,19 @@
       "file": [
         "css/css-will-change/will-change-transform-add-content.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-add-content.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-transform-add-content.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-add-content.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-add-content.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/will-change-transform-add-content-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-add-content-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-add-content-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1728,7 +1728,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-will-change/will-change-transform-add-content-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-add-content-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1762,12 +1762,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-add-content-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-will-change/will-change-transform-add-content-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-add-content-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1801,7 +1801,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-add-content-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1817,19 +1817,19 @@
       "file": [
         "css/css-will-change/will-change-transform-huge-offset-scrolled.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-huge-offset-scrolled.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-transform-huge-offset-scrolled.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-huge-offset-scrolled.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-huge-offset-scrolled.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-transform-huge-offset-scrolled.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-transform-huge-offset-scrolled.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/will-change-transform-huge-offset-scrolled-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-huge-offset-scrolled-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-huge-offset-scrolled-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-transform-huge-offset-scrolled-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-transform-huge-offset-scrolled-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1840,19 +1840,19 @@
       "file": [
         "css/css-will-change/will-change-transform-image.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-image.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-transform-image.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-image.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-image.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-transform-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-transform-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/will-change-transform-image-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-image-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-image-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-transform-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-transform-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1863,19 +1863,19 @@
       "file": [
         "css/css-will-change/will-change-transform-inline.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-inline.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-transform-inline.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-inline.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-inline.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-transform-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-transform-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/will-change-transform-inline-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-inline-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-inline-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-transform-inline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-transform-inline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1886,19 +1886,19 @@
       "file": [
         "css/css-will-change/will-change-transform-zero-size-child-overflow-visible.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-zero-size-child-overflow-visible.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-transform-zero-size-child-overflow-visible.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-zero-size-child-overflow-visible.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-zero-size-child-overflow-visible.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-transform-zero-size-child-overflow-visible.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-transform-zero-size-child-overflow-visible.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-will-change/will-change-transform-zero-size-child-overflow-visible-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-zero-size-child-overflow-visible-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-zero-size-child-overflow-visible-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-transform-zero-size-child-overflow-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-transform-zero-size-child-overflow-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1916,7 +1916,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-will-change/will-change-transform-zero-size-child-overflow-visible-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-zero-size-child-overflow-visible-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-transform-zero-size-child-overflow-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1946,12 +1946,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 200,
-                "diffRatio": 0.00023853140981604457,
+                "diffPixels": 254,
+                "diffRatio": 0.0003029348904663766,
                 "exactDiffPixels": 826,
                 "exactDiffRatio": 0.000985134722540264,
                 "exceededDiffPixels": 826,
-                "maxChannelDifference": 97,
+                "maxChannelDifference": 105,
                 "dimensionMismatch": false,
                 "diffImage": "actual-reference-diff/0046-WPT_reftest-css-css-will-change-will-change-transform-zero-size-child-overflow-visible.html-r01-p0001.png"
               }
@@ -1959,12 +1959,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-zero-size-child-overflow-visible-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-transform-zero-size-child-overflow-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-will-change/will-change-transform-zero-size-child-overflow-visible-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-zero-size-child-overflow-visible-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-transform-zero-size-child-overflow-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1994,12 +1994,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 200,
-                "diffRatio": 0.00023853140981604457,
+                "diffPixels": 254,
+                "diffRatio": 0.0003029348904663766,
                 "exactDiffPixels": 826,
                 "exactDiffRatio": 0.000985134722540264,
                 "exceededDiffPixels": 826,
-                "maxChannelDifference": 97,
+                "maxChannelDifference": 105,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0046-WPT_reftest-css-css-will-change-will-change-transform-zero-size-child-overflow-visible.html-r01-p0001.png"
               }
@@ -2007,7 +2007,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-transform-zero-size-child-overflow-visible-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-transform-zero-size-child-overflow-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -2023,19 +2023,19 @@
       "file": [
         "css/css-will-change/will-change-will-change-1.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-will-change-1.html",
+      "sourceUrl": "https://wpt.live/css/css-will-change/will-change-will-change-1.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-will-change-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-will-change/will-change-will-change-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-will-change/will-change-will-change-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-will-change/will-change-will-change-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     }

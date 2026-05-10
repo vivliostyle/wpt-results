@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T02:09:27.033Z",
+  "generatedAt": "2026-05-10T02:36:44.139Z",
   "labels": {
     "actual": "v2.42.0",
     "baseline": "v2.40.0"
@@ -25,13 +25,13 @@
     "baselineViewer": "https://vivliostyle.github.io/viewer/v2.40.0/",
     "actualLabel": "v2.42.0",
     "baselineLabel": "v2.40.0",
-    "extraViewerParams": "bookMode=false",
+    "extraViewerParams": "",
     "actualViewerParams": "",
     "baselineViewerParams": "",
     "testUrls": [],
     "refUrls": [],
     "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
-    "wptBaseUrl": "https://raw.githack.com/web-platform-tests/wpt/master/",
+    "wptBaseUrl": "https://wpt.live/",
     "wptPathPrefixes": [
       "css/css-forms/"
     ],
@@ -43,12 +43,11 @@
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 1,
+    "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 12,
-        "pass": 2,
-        "changed-fail": 1
+        "known-fail": 13,
+        "pass": 2
       },
       "statusPairs": {
         "FAIL->FAIL": 13,
@@ -76,19 +75,19 @@
       "file": [
         "css/css-forms/button-base-appearance-rendering.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering.html",
+      "sourceUrl": "https://wpt.live/css/css-forms/button-base-appearance-rendering.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/button-base-appearance-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/button-base-appearance-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-forms/button-base-appearance-rendering-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/button-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/button-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -106,7 +105,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/button-base-appearance-rendering-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/button-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -127,8 +126,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 871,
-                "diffRatio": 0.0010388042897488741,
+                "diffPixels": 888,
+                "diffRatio": 0.0010590794595832379,
                 "exactDiffPixels": 1154,
                 "exactDiffRatio": 0.0013763262346385772,
                 "exceededDiffPixels": 0,
@@ -140,12 +139,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/button-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/button-base-appearance-rendering-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/button-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -166,8 +165,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 871,
-                "diffRatio": 0.0010388042897488741,
+                "diffPixels": 888,
+                "diffRatio": 0.0010590794595832379,
                 "exactDiffPixels": 1154,
                 "exactDiffRatio": 0.0013763262346385772,
                 "exceededDiffPixels": 0,
@@ -179,7 +178,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/button-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -195,19 +194,19 @@
       "file": [
         "css/css-forms/checkbox-checkmark-animation-002.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/checkbox-checkmark-animation-002.html",
+      "sourceUrl": "https://wpt.live/css/css-forms/checkbox-checkmark-animation-002.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/checkbox-checkmark-animation-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/checkbox-checkmark-animation-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/checkbox-checkmark-animation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/checkbox-checkmark-animation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -225,7 +224,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -259,12 +258,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -298,7 +297,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -314,19 +313,19 @@
       "file": [
         "css/css-forms/datetime-stacking-context.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/datetime-stacking-context.html",
+      "sourceUrl": "https://wpt.live/css/css-forms/datetime-stacking-context.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/datetime-stacking-context.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/datetime-stacking-context.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/datetime-stacking-context.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/datetime-stacking-context.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-forms/datetime-stacking-context-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/datetime-stacking-context-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/datetime-stacking-context-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/datetime-stacking-context-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/datetime-stacking-context-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -337,19 +336,19 @@
       "file": [
         "css/css-forms/input-button-base-appearance-rendering.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-button-base-appearance-rendering.html",
+      "sourceUrl": "https://wpt.live/css/css-forms/input-button-base-appearance-rendering.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-button-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-button-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-button-base-appearance-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-button-base-appearance-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-forms/button-base-appearance-rendering-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/button-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/button-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -367,7 +366,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/button-base-appearance-rendering-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/button-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -388,8 +387,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 871,
-                "diffRatio": 0.0010388042897488741,
+                "diffPixels": 888,
+                "diffRatio": 0.0010590794595832379,
                 "exactDiffPixels": 1154,
                 "exactDiffRatio": 0.0013763262346385772,
                 "exceededDiffPixels": 0,
@@ -401,12 +400,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/button-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/button-base-appearance-rendering-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/button-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -427,8 +426,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 871,
-                "diffRatio": 0.0010388042897488741,
+                "diffPixels": 888,
+                "diffRatio": 0.0010590794595832379,
                 "exactDiffPixels": 1154,
                 "exactDiffRatio": 0.0013763262346385772,
                 "exceededDiffPixels": 0,
@@ -440,7 +439,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/button-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/button-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -456,19 +455,19 @@
       "file": [
         "css/css-forms/input-checkbox-base-appearance-rendering.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-checkbox-base-appearance-rendering.html",
+      "sourceUrl": "https://wpt.live/css/css-forms/input-checkbox-base-appearance-rendering.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-checkbox-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-checkbox-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-checkbox-base-appearance-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-checkbox-base-appearance-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-forms/input-checkbox-base-appearance-rendering-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-checkbox-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-checkbox-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-checkbox-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-checkbox-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -486,7 +485,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/input-checkbox-base-appearance-rendering-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-checkbox-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-checkbox-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -520,12 +519,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-checkbox-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-checkbox-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/input-checkbox-base-appearance-rendering-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-checkbox-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-checkbox-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -559,7 +558,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-checkbox-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-checkbox-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -575,19 +574,19 @@
       "file": [
         "css/css-forms/input-color-base-appearance-rendering.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-color-base-appearance-rendering.html",
+      "sourceUrl": "https://wpt.live/css/css-forms/input-color-base-appearance-rendering.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-color-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-color-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-color-base-appearance-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-color-base-appearance-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-forms/input-color-base-appearance-rendering-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-color-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-color-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-color-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-color-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -605,7 +604,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/input-color-base-appearance-rendering-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-color-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-color-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -639,12 +638,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-color-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-color-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/input-color-base-appearance-rendering-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-color-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-color-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -678,7 +677,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-color-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-color-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -694,19 +693,19 @@
       "file": [
         "css/css-forms/input-number-base-appearance-rendering.tentative.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-number-base-appearance-rendering.tentative.html",
+      "sourceUrl": "https://wpt.live/css/css-forms/input-number-base-appearance-rendering.tentative.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-number-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-number-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-number-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-number-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-forms/input-number-base-appearance-rendering-ref.tentative.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -724,7 +723,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/input-number-base-appearance-rendering-ref.tentative.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -745,8 +744,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 3075,
-                "diffRatio": 0.0036674204259216853,
+                "diffPixels": 3076,
+                "diffRatio": 0.0036686130829707655,
                 "exactDiffPixels": 3455,
                 "exactDiffRatio": 0.0041206301045721705,
                 "exceededDiffPixels": 0,
@@ -758,12 +757,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/input-number-base-appearance-rendering-ref.tentative.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -784,8 +783,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 3075,
-                "diffRatio": 0.0036674204259216853,
+                "diffPixels": 3076,
+                "diffRatio": 0.0036686130829707655,
                 "exactDiffPixels": 3455,
                 "exactDiffRatio": 0.0041206301045721705,
                 "exceededDiffPixels": 0,
@@ -797,7 +796,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -813,19 +812,19 @@
       "file": [
         "css/css-forms/input-search-base-appearance-rendering.tentative.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-search-base-appearance-rendering.tentative.html",
+      "sourceUrl": "https://wpt.live/css/css-forms/input-search-base-appearance-rendering.tentative.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-search-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-search-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-search-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-search-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-forms/input-search-base-appearance-rendering-ref.tentative.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-search-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-search-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-search-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-search-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -843,7 +842,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/input-search-base-appearance-rendering-ref.tentative.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-search-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-search-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -864,8 +863,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 2877,
-                "diffRatio": 0.003431274330203801,
+                "diffPixels": 2896,
+                "diffRatio": 0.0034539348141363253,
                 "exactDiffPixels": 3291,
                 "exactDiffRatio": 0.003925034348523013,
                 "exceededDiffPixels": 0,
@@ -877,12 +876,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-search-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-search-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/input-search-base-appearance-rendering-ref.tentative.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-search-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-search-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -903,8 +902,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 2877,
-                "diffRatio": 0.003431274330203801,
+                "diffPixels": 2896,
+                "diffRatio": 0.0034539348141363253,
                 "exactDiffPixels": 3291,
                 "exactDiffRatio": 0.003925034348523013,
                 "exceededDiffPixels": 0,
@@ -916,7 +915,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-search-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-search-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -932,19 +931,19 @@
       "file": [
         "css/css-forms/input-text-base-appearance-rendering.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-text-base-appearance-rendering.html",
+      "sourceUrl": "https://wpt.live/css/css-forms/input-text-base-appearance-rendering.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-text-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-text-base-appearance-rendering.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-text-base-appearance-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-text-base-appearance-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-forms/input-text-base-appearance-rendering-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-text-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-text-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-text-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-text-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -962,7 +961,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/input-text-base-appearance-rendering-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-text-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-text-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -983,8 +982,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 3034,
-                "diffRatio": 0.003618521486909396,
+                "diffPixels": 3053,
+                "diffRatio": 0.0036411819708419206,
                 "exactDiffPixels": 3457,
                 "exactDiffRatio": 0.004123015418670331,
                 "exceededDiffPixels": 0,
@@ -996,12 +995,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-text-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/input-text-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/input-text-base-appearance-rendering-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-text-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-text-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1022,8 +1021,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 3034,
-                "diffRatio": 0.003618521486909396,
+                "diffPixels": 3053,
+                "diffRatio": 0.0036411819708419206,
                 "exactDiffPixels": 3457,
                 "exactDiffRatio": 0.004123015418670331,
                 "exceededDiffPixels": 0,
@@ -1035,7 +1034,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/input-text-base-appearance-rendering-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/input-text-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1051,19 +1050,19 @@
       "file": [
         "css/css-forms/meter-base-appearance-custom-style-initial-rendering.tentative.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-initial-rendering.tentative.html",
+      "sourceUrl": "https://wpt.live/css/css-forms/meter-base-appearance-custom-style-initial-rendering.tentative.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-initial-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-initial-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-initial-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-initial-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1081,7 +1080,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1115,12 +1114,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1154,7 +1153,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1170,19 +1169,19 @@
       "file": [
         "css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering.tentative.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering.tentative.html",
+      "sourceUrl": "https://wpt.live/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering.tentative.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1200,7 +1199,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1234,12 +1233,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1273,7 +1272,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1289,23 +1288,23 @@
       "file": [
         "css/css-forms/progress-base-appearance-rendering.tentative.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/progress-base-appearance-rendering.tentative.html",
+      "sourceUrl": "https://wpt.live/css/css-forms/progress-base-appearance-rendering.tentative.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/progress-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/progress-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-forms/progress-base-appearance-rendering-ref.tentative.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/progress-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/progress-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -1314,28 +1313,12 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 360,
-            "diffRatio": 0.0004293565376688802,
-            "exactDiffPixels": 504,
-            "exactDiffRatio": 0.0006010991527364323,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 239,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0012-WPT_reftest-css-css-forms-progress-base-appearance-rendering.tentative.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/progress-base-appearance-rendering-ref.tentative.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/progress-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1369,12 +1352,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/progress-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/progress-base-appearance-rendering-ref.tentative.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/progress-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1408,7 +1391,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/progress-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1424,19 +1407,19 @@
       "file": [
         "css/css-forms/radio-checkmark-animation-002.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/radio-checkmark-animation-002.html",
+      "sourceUrl": "https://wpt.live/css/css-forms/radio-checkmark-animation-002.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/radio-checkmark-animation-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/radio-checkmark-animation-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/radio-checkmark-animation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/radio-checkmark-animation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1454,7 +1437,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1488,12 +1471,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1527,7 +1510,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1543,19 +1526,19 @@
       "file": [
         "css/css-forms/textarea-base-appearance-rendering.tentative.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/textarea-base-appearance-rendering.tentative.html",
+      "sourceUrl": "https://wpt.live/css/css-forms/textarea-base-appearance-rendering.tentative.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/textarea-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/textarea-base-appearance-rendering.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/textarea-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/textarea-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-forms/textarea-base-appearance-rendering-ref.tentative.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/textarea-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/textarea-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/textarea-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/textarea-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1573,7 +1556,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/textarea-base-appearance-rendering-ref.tentative.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/textarea-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/textarea-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1607,12 +1590,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/textarea-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/textarea-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-forms/textarea-base-appearance-rendering-ref.tentative.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/textarea-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/textarea-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1646,7 +1629,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/textarea-base-appearance-rendering-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/textarea-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1662,19 +1645,19 @@
       "file": [
         "css/css-forms/select-combobox-print.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/select-combobox-print.html",
+      "sourceUrl": "https://wpt.live/css/css-forms/select-combobox-print.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/select-combobox-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/select-combobox-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/select-combobox-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/select-combobox-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-forms/select-combobox-print-notref.html",
           "relation": "!=",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/select-combobox-print-notref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-forms/select-combobox-print-notref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-forms/select-combobox-print-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-forms/select-combobox-print-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     }

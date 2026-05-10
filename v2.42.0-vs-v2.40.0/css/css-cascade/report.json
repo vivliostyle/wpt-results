@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T01:22:52.137Z",
+  "generatedAt": "2026-05-10T01:47:06.498Z",
   "labels": {
     "actual": "v2.42.0",
     "baseline": "v2.40.0"
@@ -25,13 +25,13 @@
     "baselineViewer": "https://vivliostyle.github.io/viewer/v2.40.0/",
     "actualLabel": "v2.42.0",
     "baselineLabel": "v2.40.0",
-    "extraViewerParams": "bookMode=false",
+    "extraViewerParams": "",
     "actualViewerParams": "",
     "baselineViewerParams": "",
     "testUrls": [],
     "refUrls": [],
     "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
-    "wptBaseUrl": "https://raw.githack.com/web-platform-tests/wpt/master/",
+    "wptBaseUrl": "https://wpt.live/",
     "wptPathPrefixes": [
       "css/css-cascade/"
     ],
@@ -78,19 +78,19 @@
       "file": [
         "css/css-cascade/all-prop-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-001.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-001.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/all-prop-001-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -108,7 +108,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/all-prop-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -129,8 +129,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 332,
-                "diffRatio": 0.000395962140294634,
+                "diffPixels": 335,
+                "diffRatio": 0.00039954011144187465,
                 "exactDiffPixels": 669,
                 "exactDiffRatio": 0.0007978875658346691,
                 "exceededDiffPixels": 0,
@@ -142,12 +142,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/all-prop-001-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -168,8 +168,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 332,
-                "diffRatio": 0.000395962140294634,
+                "diffPixels": 335,
+                "diffRatio": 0.00039954011144187465,
                 "exactDiffPixels": 669,
                 "exactDiffRatio": 0.0007978875658346691,
                 "exceededDiffPixels": 0,
@@ -181,7 +181,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -197,19 +197,19 @@
       "file": [
         "css/css-cascade/all-prop-002.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-002.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-002.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -220,19 +220,19 @@
       "file": [
         "css/css-cascade/all-prop-inherit-color.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-inherit-color.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-inherit-color.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-inherit-color.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-inherit-color.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-inherit-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-inherit-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-green-text.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-green-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-green-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -243,19 +243,19 @@
       "file": [
         "css/css-cascade/all-prop-initial-color.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-initial-color.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-initial-color.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-initial-color.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-initial-color.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-green-text.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-green-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-green-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -273,7 +273,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-green-text.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-green-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -294,8 +294,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 882,
-                "diffRatio": 0.0010519235172887565,
+                "diffPixels": 874,
+                "diffRatio": 0.0010423822608961147,
                 "exactDiffPixels": 1637,
                 "exactDiffRatio": 0.0019523795893443248,
                 "exceededDiffPixels": 0,
@@ -307,12 +307,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-green-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-green-text.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-green-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -333,8 +333,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 882,
-                "diffRatio": 0.0010519235172887565,
+                "diffPixels": 874,
+                "diffRatio": 0.0010423822608961147,
                 "exactDiffPixels": 1637,
                 "exactDiffRatio": 0.0019523795893443248,
                 "exceededDiffPixels": 0,
@@ -346,7 +346,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-green-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -362,19 +362,19 @@
       "file": [
         "css/css-cascade/all-prop-initial-visited.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-initial-visited.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-initial-visited.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-initial-visited.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-initial-visited.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/all-prop-initial-visited-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-initial-visited-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-initial-visited-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -392,7 +392,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/all-prop-initial-visited-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-initial-visited-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -413,10 +413,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 704,
-                "diffRatio": 0.0008396305625524769,
-                "exactDiffPixels": 1321,
-                "exactDiffRatio": 0.0015754999618349745,
+                "diffPixels": 669,
+                "diffRatio": 0.0007978875658346691,
+                "exactDiffPixels": 1309,
+                "exactDiffRatio": 0.0015611880772460117,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -426,12 +426,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-initial-visited-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/all-prop-initial-visited-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-initial-visited-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -452,10 +452,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 704,
-                "diffRatio": 0.0008396305625524769,
-                "exactDiffPixels": 1321,
-                "exactDiffRatio": 0.0015754999618349745,
+                "diffPixels": 669,
+                "diffRatio": 0.0007978875658346691,
+                "exactDiffPixels": 1309,
+                "exactDiffRatio": 0.0015611880772460117,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -465,7 +465,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-initial-visited-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -481,19 +481,19 @@
       "file": [
         "css/css-cascade/all-prop-revert-color.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-revert-color.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-revert-color.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-revert-color.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-revert-color.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-revert-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-revert-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-green-text.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-green-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-green-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -504,19 +504,19 @@
       "file": [
         "css/css-cascade/all-prop-revert-visited.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-revert-visited.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-revert-visited.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-revert-visited.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-revert-visited.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-revert-visited.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-revert-visited.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/all-prop-revert-visited-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-revert-visited-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-revert-visited-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-revert-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-revert-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -527,19 +527,19 @@
       "file": [
         "css/css-cascade/all-prop-unset-color.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-unset-color.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-unset-color.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-unset-color.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-unset-color.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-unset-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-unset-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-green-text.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-green-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-green-text.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -550,19 +550,19 @@
       "file": [
         "css/css-cascade/all-prop-unset-visited.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-unset-visited.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/all-prop-unset-visited.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-unset-visited.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-unset-visited.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-unset-visited.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-unset-visited.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/all-prop-unset-visited-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-unset-visited-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/all-prop-unset-visited-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/all-prop-unset-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/all-prop-unset-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -573,19 +573,19 @@
       "file": [
         "css/css-cascade/import-conditional-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/import-conditional-001.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/import-conditional-001.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/import-conditional-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/import-conditional-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/import-conditional-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/import-conditional-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -596,19 +596,19 @@
       "file": [
         "css/css-cascade/import-conditional-002.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/import-conditional-002.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/import-conditional-002.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/import-conditional-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/import-conditional-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/import-conditional-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/import-conditional-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -626,7 +626,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -660,12 +660,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -699,7 +699,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -715,19 +715,19 @@
       "file": [
         "css/css-cascade/import-removal.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/import-removal.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/import-removal.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/import-removal.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/import-removal.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/import-removal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/import-removal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -745,7 +745,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -766,8 +766,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 827089,
-                "diffRatio": 0.9864335260667124,
+                "diffPixels": 827162,
+                "diffRatio": 0.9865205900312953,
                 "exactDiffPixels": 828166,
                 "exactDiffRatio": 0.9877180177085718,
                 "exceededDiffPixels": 0,
@@ -779,12 +779,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -805,8 +805,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 827089,
-                "diffRatio": 0.9864335260667124,
+                "diffPixels": 827162,
+                "diffRatio": 0.9865205900312953,
                 "exactDiffPixels": 828166,
                 "exactDiffRatio": 0.9877180177085718,
                 "exceededDiffPixels": 0,
@@ -818,7 +818,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -834,19 +834,19 @@
       "file": [
         "css/css-cascade/important-prop.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/important-prop.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/important-prop.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/important-prop.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/important-prop.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/important-prop.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/important-prop.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/important-prop-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/important-prop-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/important-prop-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/important-prop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/important-prop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -864,7 +864,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/important-prop-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/important-prop-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/important-prop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -885,8 +885,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 3715,
-                "diffRatio": 0.004430720937333028,
+                "diffPixels": 3729,
+                "diffRatio": 0.004447418136020151,
                 "exactDiffPixels": 3773,
                 "exactDiffRatio": 0.004499895046179681,
                 "exceededDiffPixels": 0,
@@ -898,12 +898,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/important-prop-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/important-prop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/important-prop-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/important-prop-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/important-prop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -924,8 +924,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 3715,
-                "diffRatio": 0.004430720937333028,
+                "diffPixels": 3729,
+                "diffRatio": 0.004447418136020151,
                 "exactDiffPixels": 3773,
                 "exactDiffRatio": 0.004499895046179681,
                 "exceededDiffPixels": 0,
@@ -937,7 +937,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/important-prop-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/important-prop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -953,19 +953,19 @@
       "file": [
         "css/css-cascade/initial-background-color.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/initial-background-color.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/initial-background-color.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/initial-background-color.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/initial-background-color.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/initial-background-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/initial-background-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/all-green.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/all-green.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/all-green.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -976,19 +976,19 @@
       "file": [
         "css/css-cascade/initial-color-background-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/initial-color-background-001.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/initial-color-background-001.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/initial-color-background-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/initial-color-background-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/initial-color-background-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/initial-color-background-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/initial-color-background-001-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/initial-color-background-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/initial-color-background-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/initial-color-background-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/initial-color-background-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -999,19 +999,19 @@
       "file": [
         "css/css-cascade/layer-media-toggle.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-media-toggle.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/layer-media-toggle.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-media-toggle.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-media-toggle.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-media-toggle.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-media-toggle.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1029,7 +1029,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1063,12 +1063,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1102,7 +1102,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1118,19 +1118,19 @@
       "file": [
         "css/css-cascade/layer-slotted-rule.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-slotted-rule.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/layer-slotted-rule.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-slotted-rule.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-slotted-rule.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-slotted-rule.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-slotted-rule.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1141,19 +1141,19 @@
       "file": [
         "css/css-cascade/layer-stylesheet-sharing-important.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing-important.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/layer-stylesheet-sharing-important.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing-important.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing-important.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-important.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-important.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/layer-stylesheet-sharing-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1171,7 +1171,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/layer-stylesheet-sharing-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1205,12 +1205,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/layer-stylesheet-sharing-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1244,7 +1244,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1260,19 +1260,19 @@
       "file": [
         "css/css-cascade/layer-stylesheet-sharing.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/layer-stylesheet-sharing.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/layer-stylesheet-sharing-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1290,7 +1290,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/layer-stylesheet-sharing-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1324,12 +1324,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/layer-stylesheet-sharing-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1363,7 +1363,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/layer-stylesheet-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/layer-stylesheet-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1379,19 +1379,19 @@
       "file": [
         "css/css-cascade/revert-layer-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-001.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-001.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1409,7 +1409,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1443,12 +1443,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1482,7 +1482,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1498,19 +1498,19 @@
       "file": [
         "css/css-cascade/revert-layer-002.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-002.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-002.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1528,7 +1528,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1562,12 +1562,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1601,7 +1601,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1617,19 +1617,19 @@
       "file": [
         "css/css-cascade/revert-layer-003.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-003.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-003.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1647,7 +1647,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1681,12 +1681,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1720,7 +1720,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1736,19 +1736,19 @@
       "file": [
         "css/css-cascade/revert-layer-004.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-004.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-004.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1759,19 +1759,19 @@
       "file": [
         "css/css-cascade/revert-layer-005.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-005.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-005.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1789,7 +1789,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1823,12 +1823,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1862,7 +1862,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1878,19 +1878,19 @@
       "file": [
         "css/css-cascade/revert-layer-006.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-006.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-006.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -1901,19 +1901,19 @@
       "file": [
         "css/css-cascade/revert-layer-007.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-007.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-007.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-007.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-007.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -1931,7 +1931,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -1965,12 +1965,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -2004,7 +2004,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -2020,19 +2020,19 @@
       "file": [
         "css/css-cascade/revert-layer-009.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-009.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-009.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -2050,7 +2050,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -2084,12 +2084,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -2123,7 +2123,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -2139,19 +2139,19 @@
       "file": [
         "css/css-cascade/revert-layer-010.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-010.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-010.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-010.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -2169,7 +2169,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -2203,12 +2203,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -2242,7 +2242,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -2258,19 +2258,19 @@
       "file": [
         "css/css-cascade/revert-layer-011.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-011.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-011.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-011.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-011.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -2288,7 +2288,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -2322,12 +2322,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -2361,7 +2361,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -2377,19 +2377,19 @@
       "file": [
         "css/css-cascade/revert-layer-012.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-012.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-012.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -2400,19 +2400,19 @@
       "file": [
         "css/css-cascade/revert-layer-013.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-013.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-013.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-013.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-013.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -2423,19 +2423,19 @@
       "file": [
         "css/css-cascade/revert-layer-014.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-014.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-014.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-014.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -2446,19 +2446,19 @@
       "file": [
         "css/css-cascade/revert-layer-015.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-015.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-layer-015.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-015.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-015.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/revert-layer-015-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-015-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-layer-015-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-layer-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-layer-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -2469,19 +2469,19 @@
       "file": [
         "css/css-cascade/revert-val-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-val-001.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-val-001.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-val-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-val-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-val-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-val-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -2492,19 +2492,19 @@
       "file": [
         "css/css-cascade/revert-val-002.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-val-002.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/revert-val-002.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-val-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/revert-val-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/revert-val-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/revert-val-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -2515,19 +2515,19 @@
       "file": [
         "css/css-cascade/scope-featureless.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-featureless.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-featureless.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-featureless.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-featureless.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-featureless.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-featureless.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/scope-featureless-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-featureless-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-featureless-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-featureless-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-featureless-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -2538,19 +2538,19 @@
       "file": [
         "css/css-cascade/scope-part.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-part.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-part.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-part.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-part.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-part.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-part.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/scope-part-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-part-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-part-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-part-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-part-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -2568,7 +2568,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/scope-part-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-part-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-part-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -2602,12 +2602,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-part-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-part-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/scope-part-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-part-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-part-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -2641,7 +2641,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-part-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-part-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -2657,19 +2657,19 @@
       "file": [
         "css/css-cascade/scope-pseudo-element.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-pseudo-element.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-pseudo-element.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "changed-fail",
       "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-pseudo-element.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-pseudo-element.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-pseudo-element.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-pseudo-element.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/scope-pseudo-element-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-pseudo-element-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-pseudo-element-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-pseudo-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-pseudo-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -2689,10 +2689,10 @@
             "height": 1056,
             "actualWidth": 794,
             "actualHeight": 1056,
-            "diffPixels": 48,
-            "diffRatio": 0.0000572475383558507,
-            "exactDiffPixels": 120,
-            "exactDiffRatio": 0.00014311884588962676,
+            "diffPixels": 46,
+            "diffRatio": 0.000054862224257690255,
+            "exactDiffPixels": 118,
+            "exactDiffRatio": 0.00014073353179146631,
             "exceededDiffPixels": 0,
             "maxChannelDifference": 255,
             "dimensionMismatch": false,
@@ -2703,7 +2703,46 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/scope-pseudo-element-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-pseudo-element-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-pseudo-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 5887,
+                "diffRatio": 0.007021172047935272,
+                "exactDiffPixels": 6594,
+                "exactDiffRatio": 0.007864380581634989,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0038-WPT_reftest-css-css-cascade-scope-pseudo-element.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-pseudo-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-cascade/scope-pseudo-element-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-pseudo-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -2726,47 +2765,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 5871,
                 "diffRatio": 0.007002089535149989,
-                "exactDiffPixels": 6594,
-                "exactDiffRatio": 0.007864380581634989,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0038-WPT_reftest-css-css-cascade-scope-pseudo-element.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-pseudo-element-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-cascade/scope-pseudo-element-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-pseudo-element-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 5859,
-                "diffRatio": 0.006987777650561026,
-                "exactDiffPixels": 6558,
-                "exactDiffRatio": 0.007821444927868102,
+                "exactDiffPixels": 6556,
+                "exactDiffRatio": 0.00781905961376994,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -2776,7 +2776,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-pseudo-element-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-pseudo-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -2792,19 +2792,19 @@
       "file": [
         "css/css-cascade/scope-shadow-sharing.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-shadow-sharing.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-shadow-sharing.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-shadow-sharing.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-shadow-sharing.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-shadow-sharing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-shadow-sharing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/scope-shadow-sharing-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-shadow-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-shadow-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-shadow-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-shadow-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -2822,7 +2822,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/scope-shadow-sharing-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-shadow-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-shadow-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -2856,12 +2856,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-shadow-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-shadow-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/scope-shadow-sharing-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-shadow-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-shadow-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -2895,7 +2895,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-shadow-sharing-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-shadow-sharing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -2911,19 +2911,19 @@
       "file": [
         "css/css-cascade/scope-ua-shadow-host.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-ua-shadow-host.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-ua-shadow-host.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-ua-shadow-host.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-ua-shadow-host.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-ua-shadow-host.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-ua-shadow-host.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -2941,7 +2941,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -2975,12 +2975,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -3014,7 +3014,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -3030,19 +3030,19 @@
       "file": [
         "css/css-cascade/scope-visited.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-visited.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-visited.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-visited.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-visited.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-visited.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-visited.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/scope-visited-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-visited-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-visited-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -3060,7 +3060,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/scope-visited-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-visited-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -3081,8 +3081,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 8533,
-                "diffRatio": 0.010176942599801541,
+                "diffPixels": 8534,
+                "diffRatio": 0.010178135256850622,
                 "exactDiffPixels": 12455,
                 "exactDiffRatio": 0.014854543546294176,
                 "exceededDiffPixels": 0,
@@ -3094,12 +3094,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-visited-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-cascade/scope-visited-ref.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-visited-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -3120,8 +3120,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 8533,
-                "diffRatio": 0.010176942599801541,
+                "diffPixels": 8534,
+                "diffRatio": 0.010178135256850622,
                 "exactDiffPixels": 12455,
                 "exactDiffRatio": 0.014854543546294176,
                 "exceededDiffPixels": 0,
@@ -3133,7 +3133,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-visited-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -3149,19 +3149,19 @@
       "file": [
         "css/css-cascade/unset-val-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/unset-val-001.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/unset-val-001.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/unset-val-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/unset-val-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/unset-val-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/unset-val-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -3172,19 +3172,19 @@
       "file": [
         "css/css-cascade/unset-val-002.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/unset-val-002.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/unset-val-002.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/unset-val-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/unset-val-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/unset-val-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/unset-val-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -3195,19 +3195,19 @@
       "file": [
         "css/css-cascade/scope-implicit-001-print.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-001-print.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-implicit-001-print.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-001-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -3225,7 +3225,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -3259,12 +3259,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -3298,7 +3298,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -3314,19 +3314,19 @@
       "file": [
         "css/css-cascade/scope-implicit-002-print.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-002-print.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-implicit-002-print.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-002-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-002-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-002-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -3344,7 +3344,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -3378,12 +3378,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -3417,7 +3417,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -3433,19 +3433,19 @@
       "file": [
         "css/css-cascade/scope-implicit-003-print.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-003-print.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-implicit-003-print.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-003-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-003-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-003-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-cascade/scope-implicit-003-print-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-003-print-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-003-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-003-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -3456,19 +3456,19 @@
       "file": [
         "css/css-cascade/scope-implicit-004-print.xhtml"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-004-print.xhtml",
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-implicit-004-print.xhtml",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-004-print.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-004-print.xhtml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-004-print.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-004-print.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -3486,7 +3486,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -3520,12 +3520,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -3559,7 +3559,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -3575,19 +3575,19 @@
       "file": [
         "css/css-cascade/scope-implicit-005-print.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-005-print.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-implicit-005-print.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-005-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-005-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-005-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-005-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -3605,7 +3605,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -3639,12 +3639,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -3678,7 +3678,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -3694,19 +3694,19 @@
       "file": [
         "css/css-cascade/scope-implicit-006-print.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-006-print.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-implicit-006-print.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-006-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-006-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-006-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-006-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -3724,7 +3724,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -3758,12 +3758,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -3797,7 +3797,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -3813,19 +3813,19 @@
       "file": [
         "css/css-cascade/scope-implicit-crash-print.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-crash-print.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/scope-implicit-crash-print.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-crash-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/scope-implicit-crash-print.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/scope-implicit-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/scope-implicit-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/blank.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/blank.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/blank.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -3836,13 +3836,13 @@
       "file": [
         "css/css-cascade/important-transition-manual.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/important-transition-manual.html",
+      "sourceUrl": "https://wpt.live/css/css-cascade/important-transition-manual.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
       "changeType": "unchanged",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/important-transition-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-cascade/important-transition-manual.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-cascade/important-transition-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-cascade/important-transition-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": []
     }
   ]

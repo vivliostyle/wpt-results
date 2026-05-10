@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T03:42:02.860Z",
+  "generatedAt": "2026-05-10T04:15:22.308Z",
   "labels": {
     "actual": "v2.42.0",
     "baseline": "v2.40.0"
@@ -25,13 +25,13 @@
     "baselineViewer": "https://vivliostyle.github.io/viewer/v2.40.0/",
     "actualLabel": "v2.42.0",
     "baselineLabel": "v2.40.0",
-    "extraViewerParams": "bookMode=false",
+    "extraViewerParams": "",
     "actualViewerParams": "",
     "baselineViewerParams": "",
     "testUrls": [],
     "refUrls": [],
     "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
-    "wptBaseUrl": "https://raw.githack.com/web-platform-tests/wpt/master/",
+    "wptBaseUrl": "https://wpt.live/",
     "wptPathPrefixes": [
       "css/css-scroll-anchoring/"
     ],
@@ -39,31 +39,33 @@
   },
   "summary": {
     "totalEntries": 4,
-    "entriesWithDifferences": 1,
+    "entriesWithDifferences": 2,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 0,
+    "screenshotMismatches": 1,
     "outcomes": {
       "changeTypes": {
-        "pass": 3,
+        "pass": 2,
+        "regression": 1,
         "known-fail": 1
       },
       "statusPairs": {
-        "PASS->PASS": 3,
+        "PASS->PASS": 2,
+        "PASS->FAIL": 1,
         "FAIL->FAIL": 1
       }
     },
     "triage": {
       "differences": {
-        "pending": 1,
+        "pending": 2,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 1,
+      "pendingEntries": 2,
       "triagedEntries": 0
     }
   },
@@ -75,19 +77,19 @@
       "file": [
         "css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -98,19 +100,19 @@
       "file": [
         "css/css-scroll-anchoring/nested-overflow-subtree-layout.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/nested-overflow-subtree-layout.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
       "changeType": "pass",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/nested-overflow-subtree-layout.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/nested-overflow-subtree-layout.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/css-scroll-anchoring/nested-overflow-subtree-layout-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/nested-overflow-subtree-layout-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/nested-overflow-subtree-layout-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
     },
@@ -121,21 +123,94 @@
       "file": [
         "css/css-scroll-anchoring/vertical-rl-viewport-size-change-000.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/vertical-rl-viewport-size-change-000.html",
-      "actualStatus": "PASS",
+      "sourceUrl": "https://wpt.live/css/css-scroll-anchoring/vertical-rl-viewport-size-change-000.html",
+      "actualStatus": "FAIL",
       "baselineStatus": "PASS",
-      "changeType": "pass",
-      "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/vertical-rl-viewport-size-change-000.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/vertical-rl-viewport-size-change-000.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "changeType": "regression",
+      "viewerChanged": true,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-anchoring/vertical-rl-viewport-size-change-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-anchoring/vertical-rl-viewport-size-change-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "regression",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 10000,
+            "diffRatio": 0.01192657049080223,
+            "exactDiffPixels": 10000,
+            "exactDiffRatio": 0.01192657049080223,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0003-WPT_reftest-css-css-scroll-anchoring-vertical-rl-viewport-size-change-000.html-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10000,
+                "diffRatio": 0.01192657049080223,
+                "exactDiffPixels": 10000,
+                "exactDiffRatio": 0.01192657049080223,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0003-WPT_reftest-css-css-scroll-anchoring-vertical-rl-viewport-size-change-000.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0004",
@@ -144,19 +219,19 @@
       "file": [
         "css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html"
       ],
-      "sourceUrl": "https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html",
+      "sourceUrl": "https://wpt.live/css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
           "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -174,7 +249,7 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -208,12 +283,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.42.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
             "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -247,7 +322,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "v2.40.0",
-            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {

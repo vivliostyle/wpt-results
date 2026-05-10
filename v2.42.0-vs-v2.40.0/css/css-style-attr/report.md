@@ -15,37 +15,37 @@
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-style-attr/reference/ref-green-on-green.xht (==)
   v2.42.0 result: FAIL
-  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.42.0 page 1: diffRatio=0.014162802457827646, diffPixels=11875
-  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.40.0 result: FAIL
-  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-001.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.40.0 page 1: diffRatio=0.014162802457827646, diffPixels=11875
-  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0004] [WPT reftest] css/css-style-attr/style-attr-braces-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-style-attr/reference/ref-green-on-green.xht (==)
   v2.42.0 result: FAIL
-  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-003.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  v2.42.0 page 1: diffRatio=0.013487758568048241, diffPixels=11309
-  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 page 1: diffRatio=0.013608216930005343, diffPixels=11410
+  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.40.0 result: FAIL
-  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-braces-003.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  v2.40.0 page 1: diffRatio=0.013487758568048241, diffPixels=11309
-  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-braces-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 page 1: diffRatio=0.013608216930005343, diffPixels=11410
+  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0015] [WPT reftest] css/css-style-attr/style-attr-urls-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-style-attr/reference/ref-green-on-green.xht (==)
   v2.42.0 result: FAIL
-  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-urls-002.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  v2.42.0 page 1: diffRatio=0.013487758568048241, diffPixels=11309
-  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/style-attr-urls-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 page 1: diffRatio=0.013608216930005343, diffPixels=11410
+  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.40.0 result: FAIL
-  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/style-attr-urls-002.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  v2.40.0 page 1: diffRatio=0.013487758568048241, diffPixels=11309
-  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-style-attr/reference/ref-green-on-green.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/style-attr-urls-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 page 1: diffRatio=0.013608216930005343, diffPixels=11410
+  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

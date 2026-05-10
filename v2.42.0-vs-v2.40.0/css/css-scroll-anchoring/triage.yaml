@@ -1,3 +1,26 @@
+- id: "0003"
+  category: WPT reftest
+  title: css/css-scroll-anchoring/vertical-rl-viewport-size-change-000.html
+  file: css/css-scroll-anchoring/vertical-rl-viewport-size-change-000.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-anchoring/vertical-rl-viewport-size-change-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.40.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-anchoring/vertical-rl-viewport-size-change-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.42.0
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0004"
   category: WPT reftest
   title: css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html
@@ -8,10 +31,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -20,8 +43,8 @@
     - side: v2.42.0
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false

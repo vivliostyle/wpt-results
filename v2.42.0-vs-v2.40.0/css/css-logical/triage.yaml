@@ -8,10 +8,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-logical/logical-values-float-clear-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-logical/logical-values-float-clear-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-logical/logical-values-float-clear-1.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-logical/logical-values-float-clear-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
 - id: "0003"
@@ -24,10 +24,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-logical/logical-values-float-clear-2.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-logical/logical-values-float-clear-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-logical/logical-values-float-clear-2.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-logical/logical-values-float-clear-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
 - id: "0004"
@@ -40,9 +40,9 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-logical/logical-values-float-clear-3.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-logical/logical-values-float-clear-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-logical/logical-values-float-clear-3.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-logical/logical-values-float-clear-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1

@@ -14,6 +14,6 @@
   triage: pending
   outcome: changed (baseline=MANUAL, actual=MANUAL)
   page 1: diffRatio=0.00003816502557056713, diffPixels=32
-  v2.42.0: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  v2.40.0: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-gcpm/string-set-009.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-gcpm/string-set-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-gcpm/string-set-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

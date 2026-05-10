@@ -15,37 +15,37 @@
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-font-loading/fontface-descriptor-updates-ref.html (==)
   v2.42.0 result: FAIL
-  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-font-loading/fontface-descriptor-updates.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  v2.42.0 page 1: diffRatio=0.005366956720861003, diffPixels=4500
-  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-font-loading/fontface-descriptor-updates-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-font-loading/fontface-descriptor-updates.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 page 1: diffRatio=0.005396773147088009, diffPixels=4525
+  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-font-loading/fontface-descriptor-updates-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.40.0 result: FAIL
-  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-font-loading/fontface-descriptor-updates.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  v2.40.0 page 1: diffRatio=0.005366956720861003, diffPixels=4500
-  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-font-loading/fontface-descriptor-updates-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-font-loading/fontface-descriptor-updates.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 page 1: diffRatio=0.005396773147088009, diffPixels=4525
+  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-font-loading/fontface-descriptor-updates-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0003] [WPT reftest] css/css-font-loading/fontface-override-descriptors.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-font-loading/fontface-override-descriptors-ref.html (==)
   v2.42.0 result: FAIL
-  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-font-loading/fontface-override-descriptors.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-font-loading/fontface-override-descriptors.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.42.0 page 1: diffRatio=0.005579249675597283, diffPixels=4678
-  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-font-loading/fontface-override-descriptors-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-font-loading/fontface-override-descriptors-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.40.0 result: FAIL
-  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-font-loading/fontface-override-descriptors.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  v2.40.0 page 1: diffRatio=0.004904205785817876, diffPixels=4112
-  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-font-loading/fontface-override-descriptors-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-font-loading/fontface-override-descriptors.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 page 1: diffRatio=0.005579249675597283, diffPixels=4678
+  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-font-loading/fontface-override-descriptors-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0004] [WPT reftest] css/css-font-loading/fontface-size-adjust-descriptor.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-font-loading/fontface-size-adjust-descriptor-ref.html (==)
   v2.42.0 result: FAIL
-  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-font-loading/fontface-size-adjust-descriptor.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-font-loading/fontface-size-adjust-descriptor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.42.0 page 1: diffRatio=0.004589344324860698, diffPixels=3848
-  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-font-loading/fontface-size-adjust-descriptor-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-font-loading/fontface-size-adjust-descriptor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.40.0 result: FAIL
-  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-font-loading/fontface-size-adjust-descriptor.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-font-loading/fontface-size-adjust-descriptor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.40.0 page 1: diffRatio=0.004589344324860698, diffPixels=3848
-  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-font-loading/fontface-size-adjust-descriptor-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-font-loading/fontface-size-adjust-descriptor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

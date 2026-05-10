@@ -1,35 +1,3 @@
-- id: "0002"
-  category: WPT reftest
-  title: css/css-align/abspos/align-items-static-position-002.tentative.html
-  file: css/css-align/abspos/align-items-static-position-002.tentative.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: v2.42.0
-  actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/abspos/align-items-static-position-002.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: v2.40.0
-  baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/abspos/align-items-static-position-002.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "0008"
-  category: WPT reftest
-  title: css/css-align/abspos/align-self-static-position-004.html
-  file: css/css-align/abspos/align-self-static-position-004.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: v2.42.0
-  actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/abspos/align-self-static-position-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: v2.40.0
-  baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/abspos/align-self-static-position-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "0009"
   category: WPT reftest
   title: css/css-align/abspos/align-self-static-position-005.html
@@ -40,10 +8,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/abspos/align-self-static-position-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/abspos/align-self-static-position-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/abspos/align-self-static-position-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/abspos/align-self-static-position-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-align/abspos/align-self-static-position-005-ref.html
   relation: "=="
   diffPages:
@@ -52,11 +20,11 @@
     - side: v2.42.0
       referenceFile: css/css-align/abspos/align-self-static-position-005-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/abspos/align-self-static-position-005-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/abspos/align-self-static-position-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-align/abspos/align-self-static-position-005-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/abspos/align-self-static-position-005-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/abspos/align-self-static-position-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0025"
   category: WPT reftest
   title: css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-export.tentative.html
@@ -67,10 +35,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-export.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-export.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-export.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-export.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-export-ref.tentative.html
   relation: "=="
   diffPages:
@@ -79,11 +47,11 @@
     - side: v2.42.0
       referenceFile: css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-export-ref.tentative.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-export-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-export-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-export-ref.tentative.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-export-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-export-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0026"
   category: WPT reftest
   title: css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-synthesis.tentative.html
@@ -94,10 +62,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-synthesis.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-synthesis.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-synthesis.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-synthesis.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-synthesis-ref.tentative.html
   relation: "=="
   diffPages:
@@ -106,11 +74,11 @@
     - side: v2.42.0
       referenceFile: css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-synthesis-ref.tentative.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-synthesis-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-synthesis-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-synthesis-ref.tentative.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-synthesis-ref.tentative.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-synthesis-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0029"
   category: WPT reftest
   title: css/css-align/baseline-rules/synthesized-baseline-table-cell-001.html
@@ -121,10 +89,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/baseline-rules/synthesized-baseline-table-cell-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/baseline-rules/synthesized-baseline-table-cell-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/baseline-rules/synthesized-baseline-table-cell-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/baseline-rules/synthesized-baseline-table-cell-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-align/baseline-rules/synthesized-baseline-table-cell-001-ref.html
   relation: "=="
   diffPages:
@@ -133,11 +101,11 @@
     - side: v2.42.0
       referenceFile: css/css-align/baseline-rules/synthesized-baseline-table-cell-001-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/baseline-rules/synthesized-baseline-table-cell-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/baseline-rules/synthesized-baseline-table-cell-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-align/baseline-rules/synthesized-baseline-table-cell-001-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/baseline-rules/synthesized-baseline-table-cell-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/baseline-rules/synthesized-baseline-table-cell-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0030"
   category: WPT reftest
   title: css/css-align/blocks/align-content-block-001.html
@@ -148,10 +116,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-block-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/blocks/align-content-block-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-block-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/blocks/align-content-block-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-align/blocks/align-content-block-001-ref.html
   relation: "=="
   diffPages:
@@ -160,11 +128,11 @@
     - side: v2.42.0
       referenceFile: css/css-align/blocks/align-content-block-001-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-block-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/blocks/align-content-block-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-align/blocks/align-content-block-001-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-block-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/blocks/align-content-block-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0031"
   category: WPT reftest
   title: css/css-align/blocks/align-content-block-012.html
@@ -175,10 +143,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-block-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/blocks/align-content-block-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-block-012.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/blocks/align-content-block-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-align/blocks/align-content-block-012-ref.html
   relation: "=="
   diffPages:
@@ -187,27 +155,11 @@
     - side: v2.42.0
       referenceFile: css/css-align/blocks/align-content-block-012-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-block-012-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/blocks/align-content-block-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-align/blocks/align-content-block-012-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-block-012-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0037"
-  category: WPT reftest
-  title: css/css-align/blocks/align-content-block-overflow-000.html
-  file: css/css-align/blocks/align-content-block-overflow-000.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: v2.42.0
-  actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-block-overflow-000.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: v2.40.0
-  baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-block-overflow-000.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/blocks/align-content-block-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0038"
   category: WPT reftest
   title: css/css-align/blocks/align-content-table-cell-002.html
@@ -218,10 +170,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-table-cell-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/blocks/align-content-table-cell-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-table-cell-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/blocks/align-content-table-cell-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-300px-square.html
   relation: "=="
   diffPages:
@@ -230,11 +182,11 @@
     - side: v2.42.0
       referenceFile: css/reference/ref-filled-green-300px-square.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-300px-square.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-300px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/reference/ref-filled-green-300px-square.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-300px-square.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-300px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0039"
   category: WPT reftest
   title: css/css-align/blocks/align-content-table-cell-003.html
@@ -245,10 +197,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-table-cell-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/blocks/align-content-table-cell-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-table-cell-003.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/blocks/align-content-table-cell-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-300px-square.html
   relation: "=="
   diffPages:
@@ -257,11 +209,11 @@
     - side: v2.42.0
       referenceFile: css/reference/ref-filled-green-300px-square.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-300px-square.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-300px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/reference/ref-filled-green-300px-square.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-300px-square.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-300px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0040"
   category: WPT reftest
   title: css/css-align/blocks/align-content-table-cell-004.html
@@ -272,10 +224,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-table-cell-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/blocks/align-content-table-cell-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-table-cell-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/blocks/align-content-table-cell-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-300px-square.html
   relation: "=="
   diffPages:
@@ -284,11 +236,11 @@
     - side: v2.42.0
       referenceFile: css/reference/ref-filled-green-300px-square.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-300px-square.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-300px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/reference/ref-filled-green-300px-square.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-300px-square.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-300px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0041"
   category: WPT reftest
   title: css/css-align/blocks/align-content-table-cell-005.html
@@ -299,10 +251,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-table-cell-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/blocks/align-content-table-cell-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/align-content-table-cell-005.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/blocks/align-content-table-cell-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-300px-square.html
   relation: "=="
   diffPages:
@@ -311,11 +263,11 @@
     - side: v2.42.0
       referenceFile: css/reference/ref-filled-green-300px-square.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-300px-square.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-300px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/reference/ref-filled-green-300px-square.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-300px-square.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-300px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0048"
   category: WPT reftest
   title: css/css-align/blocks/justify-self-widgets.html
@@ -326,10 +278,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/justify-self-widgets.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/blocks/justify-self-widgets.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/justify-self-widgets.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/blocks/justify-self-widgets.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-align/blocks/justify-self-widgets-ref.html
   relation: "=="
   diffPages:
@@ -338,11 +290,11 @@
     - side: v2.42.0
       referenceFile: css/css-align/blocks/justify-self-widgets-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/justify-self-widgets-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/blocks/justify-self-widgets-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-align/blocks/justify-self-widgets-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/blocks/justify-self-widgets-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/blocks/justify-self-widgets-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0051"
   category: WPT reftest
   title: css/css-align/distribution-values/space-evenly-001.html
@@ -353,10 +305,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/distribution-values/space-evenly-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/distribution-values/space-evenly-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/distribution-values/space-evenly-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/distribution-values/space-evenly-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -365,11 +317,11 @@
     - side: v2.42.0
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0054"
   category: WPT reftest
   title: css/css-align/self-alignment/block-justify-self.html
@@ -380,10 +332,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/self-alignment/block-justify-self.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/self-alignment/block-justify-self.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/self-alignment/block-justify-self.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/self-alignment/block-justify-self.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-align/self-alignment/block-justify-self-ref.html
   relation: "=="
   pageSelections:
@@ -398,8 +350,8 @@
     - side: v2.42.0
       referenceFile: css/css-align/self-alignment/block-justify-self-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/self-alignment/block-justify-self-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-align/self-alignment/block-justify-self-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-align/self-alignment/block-justify-self-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-align/self-alignment/block-justify-self-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-align/self-alignment/block-justify-self-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

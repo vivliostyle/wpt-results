@@ -8,10 +8,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-change-style-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-properties-values-api/registered-property-change-style-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-change-style-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-properties-values-api/registered-property-change-style-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-properties-values-api/registered-property-change-style-002-ref.html
   relation: "=="
   diffPages:
@@ -20,11 +20,11 @@
     - side: v2.42.0
       referenceFile: css/css-properties-values-api/registered-property-change-style-002-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-change-style-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-properties-values-api/registered-property-change-style-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-properties-values-api/registered-property-change-style-002-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-change-style-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-properties-values-api/registered-property-change-style-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0005"
   category: WPT reftest
   title: css/css-properties-values-api/registered-property-computation-color-004.html
@@ -35,10 +35,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-computation-color-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-properties-values-api/registered-property-computation-color-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-computation-color-004.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-properties-values-api/registered-property-computation-color-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square-only.html
   relation: "=="
   diffPages:
@@ -47,11 +47,11 @@
     - side: v2.42.0
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0007"
   category: WPT reftest
   title: css/css-properties-values-api/registered-property-computation-color-006.html
@@ -62,10 +62,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-computation-color-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-properties-values-api/registered-property-computation-color-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-computation-color-006.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-properties-values-api/registered-property-computation-color-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-properties-values-api/registered-property-computation-color-001-ref.html
   relation: "=="
   diffPages:
@@ -74,8 +74,8 @@
     - side: v2.42.0
       referenceFile: css/css-properties-values-api/registered-property-computation-color-001-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-computation-color-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-properties-values-api/registered-property-computation-color-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-properties-values-api/registered-property-computation-color-001-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-properties-values-api/registered-property-computation-color-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-properties-values-api/registered-property-computation-color-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

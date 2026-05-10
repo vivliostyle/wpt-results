@@ -8,10 +8,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-12.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-declaration-12.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-12.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-declaration-12.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/support/color-green-ref.html
   relation: "=="
   diffPages:
@@ -20,75 +20,11 @@
     - side: v2.42.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0017"
-  category: WPT reftest
-  title: css/css-variables/variable-declaration-15.html
-  file: css/css-variables/variable-declaration-15.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: v2.42.0
-  actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-15.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: v2.40.0
-  baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-15.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "0018"
-  category: WPT reftest
-  title: css/css-variables/variable-declaration-16.html
-  file: css/css-variables/variable-declaration-16.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: v2.42.0
-  actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-16.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: v2.40.0
-  baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-16.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "0019"
-  category: WPT reftest
-  title: css/css-variables/variable-declaration-17.html
-  file: css/css-variables/variable-declaration-17.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: v2.42.0
-  actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-17.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: v2.40.0
-  baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-17.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "0020"
-  category: WPT reftest
-  title: css/css-variables/variable-declaration-18.html
-  file: css/css-variables/variable-declaration-18.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: v2.42.0
-  actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-18.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: v2.40.0
-  baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-18.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0030"
   category: WPT reftest
   title: css/css-variables/variable-declaration-30.html
@@ -99,10 +35,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-30.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-declaration-30.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-30.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-declaration-30.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/support/color-green-ref.html
   relation: "=="
   diffPages:
@@ -111,11 +47,11 @@
     - side: v2.42.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0043"
   category: WPT reftest
   title: css/css-variables/variable-declaration-43.html
@@ -126,10 +62,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-43.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-declaration-43.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-43.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-declaration-43.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/support/color-green-ref.html
   relation: "=="
   diffPages:
@@ -138,11 +74,11 @@
     - side: v2.42.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0044"
   category: WPT reftest
   title: css/css-variables/variable-declaration-44.html
@@ -153,10 +89,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-44.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-declaration-44.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-44.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-declaration-44.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/support/color-green-ref.html
   relation: "=="
   diffPages:
@@ -165,11 +101,11 @@
     - side: v2.42.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0045"
   category: WPT reftest
   title: css/css-variables/variable-declaration-45.html
@@ -180,10 +116,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-45.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-declaration-45.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-45.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-declaration-45.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/support/color-green-ref.html
   relation: "=="
   diffPages:
@@ -192,11 +128,11 @@
     - side: v2.42.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0046"
   category: WPT reftest
   title: css/css-variables/variable-declaration-46.html
@@ -207,10 +143,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-46.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-declaration-46.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-46.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-declaration-46.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/support/color-green-ref.html
   relation: "=="
   diffPages:
@@ -219,11 +155,11 @@
     - side: v2.42.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0047"
   category: WPT reftest
   title: css/css-variables/variable-declaration-47.html
@@ -234,10 +170,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-47.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-declaration-47.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-47.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-declaration-47.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/support/color-green-ref.html
   relation: "=="
   diffPages:
@@ -246,11 +182,11 @@
     - side: v2.42.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0051"
   category: WPT reftest
   title: css/css-variables/variable-declaration-51.html
@@ -261,10 +197,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-51.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-declaration-51.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-51.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-declaration-51.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/support/color-green-ref.html
   relation: "=="
   diffPages:
@@ -273,11 +209,11 @@
     - side: v2.42.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0056"
   category: WPT reftest
   title: css/css-variables/variable-declaration-56.html
@@ -288,10 +224,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-56.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-declaration-56.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-56.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-declaration-56.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/support/color-green-ref.html
   relation: "=="
   diffPages:
@@ -300,11 +236,11 @@
     - side: v2.42.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0057"
   category: WPT reftest
   title: css/css-variables/variable-declaration-57.html
@@ -315,10 +251,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-57.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-declaration-57.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-57.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-declaration-57.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/support/color-green-ref.html
   relation: "=="
   diffPages:
@@ -327,11 +263,11 @@
     - side: v2.42.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0058"
   category: WPT reftest
   title: css/css-variables/variable-declaration-58.html
@@ -342,10 +278,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-58.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-declaration-58.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-declaration-58.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-declaration-58.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/support/color-green-ref.html
   relation: "=="
   diffPages:
@@ -354,92 +290,11 @@
     - side: v2.42.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0062"
-  category: WPT reftest
-  title: css/css-variables/variable-external-font-face-01.html
-  file: css/css-variables/variable-external-font-face-01.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: v2.42.0
-  actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-external-font-face-01.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: v2.40.0
-  baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-external-font-face-01.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-variables/variable-external-font-face-01-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-variables/variable-external-font-face-01-ref.html#1
-  referenceViewerUrls:
-    - side: v2.42.0
-      referenceFile: css/css-variables/variable-external-font-face-01-ref.html
-      url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-external-font-face-01-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: v2.40.0
-      referenceFile: css/css-variables/variable-external-font-face-01-ref.html
-      url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-external-font-face-01-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0065"
-  category: WPT reftest
-  title: css/css-variables/variable-font-face-01.html
-  file: css/css-variables/variable-font-face-01.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: v2.42.0
-  actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-font-face-01.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: v2.40.0
-  baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-font-face-01.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-variables/variable-font-face-01-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-variables/variable-font-face-01-ref.html#1
-  referenceViewerUrls:
-    - side: v2.42.0
-      referenceFile: css/css-variables/variable-font-face-01-ref.html
-      url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-font-face-01-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: v2.40.0
-      referenceFile: css/css-variables/variable-font-face-01-ref.html
-      url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-font-face-01-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0066"
-  category: WPT reftest
-  title: css/css-variables/variable-font-face-02.html
-  file: css/css-variables/variable-font-face-02.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: v2.42.0
-  actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-font-face-02.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: v2.40.0
-  baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-font-face-02.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-variables/variable-font-face-02-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-variables/variable-font-face-02-ref.html#1
-  referenceViewerUrls:
-    - side: v2.42.0
-      referenceFile: css/css-variables/variable-font-face-02-ref.html
-      url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-font-face-02-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: v2.40.0
-      referenceFile: css/css-variables/variable-font-face-02-ref.html
-      url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-font-face-02-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0067"
   category: WPT reftest
   title: css/css-variables/variable-generated-content-dynamic-001.html
@@ -450,10 +305,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-generated-content-dynamic-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-generated-content-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-generated-content-dynamic-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-generated-content-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/variable-generated-content-dynamic-001-ref.html
   relation: "=="
   diffPages:
@@ -462,11 +317,11 @@
     - side: v2.42.0
       referenceFile: css/css-variables/variable-generated-content-dynamic-001-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-generated-content-dynamic-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-generated-content-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/variable-generated-content-dynamic-001-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-generated-content-dynamic-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-generated-content-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0075"
   category: WPT reftest
   title: css/css-variables/variable-reference-07.html
@@ -477,10 +332,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-reference-07.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-reference-07.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-reference-07.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-reference-07.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/support/color-green-ref.html
   relation: "=="
   diffPages:
@@ -489,11 +344,11 @@
     - side: v2.42.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0086"
   category: WPT reftest
   title: css/css-variables/variable-reference-18.html
@@ -504,10 +359,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-reference-18.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-reference-18.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-reference-18.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-reference-18.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/support/color-green-ref.html
   relation: "=="
   diffPages:
@@ -516,7 +371,7 @@
     - side: v2.42.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0110"
   category: WPT reftest
   title: css/css-variables/variable-reference-without-whitespace.html
@@ -527,10 +382,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-reference-without-whitespace.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-reference-without-whitespace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-reference-without-whitespace.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-reference-without-whitespace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/reference/variable-reference-without-whitespace-ref.html
   relation: "=="
   diffPages:
@@ -539,11 +394,11 @@
     - side: v2.42.0
       referenceFile: css/css-variables/reference/variable-reference-without-whitespace-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/reference/variable-reference-without-whitespace-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/reference/variable-reference-without-whitespace-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/reference/variable-reference-without-whitespace-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/reference/variable-reference-without-whitespace-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/reference/variable-reference-without-whitespace-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0166"
   category: WPT reftest
   title: css/css-variables/variable-supports-56.html
@@ -554,10 +409,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-supports-56.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-supports-56.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-supports-56.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-supports-56.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/support/color-green-ref.html
   relation: "=="
   diffPages:
@@ -566,11 +421,11 @@
     - side: v2.42.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0167"
   category: WPT reftest
   title: css/css-variables/variable-supports-57.html
@@ -581,10 +436,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-supports-57.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/variable-supports-57.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/variable-supports-57.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/variable-supports-57.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/support/color-green-ref.html
   relation: "=="
   diffPages:
@@ -593,38 +448,11 @@
     - side: v2.42.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/support/color-green-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/support/color-green-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0179"
-  category: WPT reftest
-  title: css/css-variables/vars-font-shorthand-001.html
-  file: css/css-variables/vars-font-shorthand-001.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: v2.42.0
-  actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/vars-font-shorthand-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: v2.40.0
-  baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/vars-font-shorthand-001.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-variables/reference/vars-font-shorthand-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-variables/reference/vars-font-shorthand-001-ref.html#1
-  referenceViewerUrls:
-    - side: v2.42.0
-      referenceFile: css/css-variables/reference/vars-font-shorthand-001-ref.html
-      url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/reference/vars-font-shorthand-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: v2.40.0
-      referenceFile: css/css-variables/reference/vars-font-shorthand-001-ref.html
-      url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/reference/vars-font-shorthand-001-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0181"
   category: WPT reftest
   title: css/css-variables/wide-keyword-fallback-002.html
@@ -635,10 +463,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/wide-keyword-fallback-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/wide-keyword-fallback-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/wide-keyword-fallback-002.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/wide-keyword-fallback-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-variables/wide-keyword-fallback-002-ref.html
   relation: "=="
   diffPages:
@@ -647,8 +475,8 @@
     - side: v2.42.0
       referenceFile: css/css-variables/wide-keyword-fallback-002-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/wide-keyword-fallback-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-variables/wide-keyword-fallback-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-variables/wide-keyword-fallback-002-ref.html
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-variables/wide-keyword-fallback-002-ref.html&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-variables/wide-keyword-fallback-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

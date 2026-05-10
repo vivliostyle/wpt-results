@@ -15,50 +15,50 @@
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht (==)
   v2.42.0 result: FAIL
-  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.42.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.40.0 result: FAIL
-  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.40.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0002] [WPT reftest] css/css-exclusions/css3-exclusions/exclusions-wrap-flow-02.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht (==)
   v2.42.0 result: FAIL
-  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-02.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  v2.42.0 page 1: diffRatio=0.119633043279139, diffPixels=100308
-  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-02.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 page 1: diffRatio=0.11970698801618197, diffPixels=100370
+  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.40.0 result: FAIL
-  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-02.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  v2.40.0 page 1: diffRatio=0.119633043279139, diffPixels=100308
-  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-02.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 page 1: diffRatio=0.11970698801618197, diffPixels=100370
+  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0003] [WPT reftest] css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht (==)
   v2.42.0 result: FAIL
-  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  v2.42.0 page 1: diffRatio=0.11398819746584231, diffPixels=95575
-  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 page 1: diffRatio=0.11403828906190368, diffPixels=95617
+  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.40.0 result: FAIL
-  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  v2.40.0 page 1: diffRatio=0.11398819746584231, diffPixels=95575
-  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 page 1: diffRatio=0.11403828906190368, diffPixels=95617
+  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0004] [WPT reftest] css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht (==)
   v2.42.0 result: FAIL
-  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  v2.42.0 page 1: diffRatio=0.09359018395542325, diffPixels=78472
-  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 test: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.42.0 page 1: diffRatio=0.09359972521181589, diffPixels=78480
+  v2.42.0 reference render: https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   v2.40.0 result: FAIL
-  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  v2.40.0 page 1: diffRatio=0.09359018395542325, diffPixels=78472
-  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 test: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.40.0 page 1: diffRatio=0.09359972521181589, diffPixels=78480
+  v2.40.0 reference render: https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

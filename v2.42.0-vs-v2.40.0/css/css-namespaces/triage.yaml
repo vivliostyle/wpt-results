@@ -8,10 +8,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/prefix-001.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/prefix-001.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/prefix-001.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/prefix-001.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-1.xml
   relation: "=="
   diffPages:
@@ -20,11 +20,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0002"
   category: WPT reftest
   title: css/css-namespaces/prefix-002.xml
@@ -35,10 +35,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/prefix-002.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/prefix-002.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/prefix-002.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/prefix-002.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-1.xml
   relation: "=="
   diffPages:
@@ -47,11 +47,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0006"
   category: WPT reftest
   title: css/css-namespaces/prefix-006.xml
@@ -62,10 +62,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/prefix-006.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/prefix-006.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/prefix-006.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/prefix-006.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-2.xml
   relation: "=="
   diffPages:
@@ -74,11 +74,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-2.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-2.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-2.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-2.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0007"
   category: WPT reftest
   title: css/css-namespaces/scope-001.xml
@@ -89,10 +89,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/scope-001.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/scope-001.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/scope-001.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/scope-001.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-1.xml
   relation: "=="
   diffPages:
@@ -101,11 +101,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0008"
   category: WPT reftest
   title: css/css-namespaces/scope-002.xml
@@ -116,10 +116,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/scope-002.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/scope-002.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/scope-002.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/scope-002.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-1.xml
   relation: "=="
   diffPages:
@@ -128,11 +128,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0011"
   category: WPT reftest
   title: css/css-namespaces/syntax-003.xml
@@ -143,10 +143,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-003.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/syntax-003.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-003.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/syntax-003.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-5.xml
   relation: "=="
   diffPages:
@@ -155,11 +155,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-5.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-5.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-5.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-5.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0012"
   category: WPT reftest
   title: css/css-namespaces/syntax-004.xml
@@ -170,10 +170,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-004.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/syntax-004.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-004.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/syntax-004.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-1.xml
   relation: "=="
   diffPages:
@@ -182,11 +182,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0013"
   category: WPT reftest
   title: css/css-namespaces/syntax-005.xml
@@ -197,10 +197,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-005.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/syntax-005.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-005.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/syntax-005.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-5.xml
   relation: "=="
   diffPages:
@@ -209,11 +209,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-5.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-5.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-5.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-5.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0014"
   category: WPT reftest
   title: css/css-namespaces/syntax-006.xml
@@ -224,10 +224,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-006.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/syntax-006.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-006.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/syntax-006.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-1.xml
   relation: "=="
   diffPages:
@@ -236,11 +236,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0015"
   category: WPT reftest
   title: css/css-namespaces/syntax-007.xml
@@ -251,10 +251,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-007.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/syntax-007.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-007.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/syntax-007.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-1.xml
   relation: "=="
   diffPages:
@@ -263,11 +263,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0016"
   category: WPT reftest
   title: css/css-namespaces/syntax-008.xml
@@ -278,10 +278,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-008.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/syntax-008.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-008.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/syntax-008.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-2.xml
   relation: "=="
   diffPages:
@@ -290,11 +290,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-2.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-2.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-2.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-2.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0017"
   category: WPT reftest
   title: css/css-namespaces/syntax-009.xml
@@ -305,10 +305,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-009.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/syntax-009.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-009.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/syntax-009.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-1.xml
   relation: "=="
   diffPages:
@@ -317,11 +317,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0018"
   category: WPT reftest
   title: css/css-namespaces/syntax-010.xml
@@ -332,10 +332,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-010.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/syntax-010.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-010.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/syntax-010.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-3.xml
   relation: "=="
   diffPages:
@@ -344,11 +344,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-3.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-3.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-3.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-3.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0019"
   category: WPT reftest
   title: css/css-namespaces/syntax-011.xml
@@ -359,10 +359,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-011.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/syntax-011.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-011.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/syntax-011.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-6.xml
   relation: "=="
   diffPages:
@@ -371,11 +371,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-6.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-6.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-6.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-6.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-6.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-6.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0020"
   category: WPT reftest
   title: css/css-namespaces/syntax-012.xml
@@ -386,10 +386,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-012.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/syntax-012.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-012.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/syntax-012.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-3.xml
   relation: "=="
   diffPages:
@@ -398,11 +398,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-3.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-3.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-3.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-3.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0021"
   category: WPT reftest
   title: css/css-namespaces/syntax-013.xml
@@ -413,10 +413,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-013.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/syntax-013.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-013.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/syntax-013.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-5.xml
   relation: "=="
   diffPages:
@@ -425,11 +425,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-5.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-5.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-5.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-5.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0022"
   category: WPT reftest
   title: css/css-namespaces/syntax-014.xml
@@ -440,10 +440,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-014.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/syntax-014.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-014.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/syntax-014.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-3.xml
   relation: "=="
   diffPages:
@@ -452,11 +452,11 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-3.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-3.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-3.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-3.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0023"
   category: WPT reftest
   title: css/css-namespaces/syntax-015.xml
@@ -467,10 +467,10 @@
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: v2.42.0
   actualUrl: >-
-    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-015.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/syntax-015.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: v2.40.0
   baselineUrl: >-
-    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/syntax-015.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/syntax-015.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-namespaces/reference/ref-lime-1.xml
   relation: "=="
   diffPages:
@@ -479,8 +479,8 @@
     - side: v2.42.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: v2.40.0
       referenceFile: css/css-namespaces/reference/ref-lime-1.xml
       url: >-
-        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://raw.githack.com/web-platform-tests/wpt/master/css/css-namespaces/reference/ref-lime-1.xml&bookMode=false&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.github.io/viewer/v2.40.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
