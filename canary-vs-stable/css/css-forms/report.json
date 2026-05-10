@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T15:14:39.402Z",
+  "generatedAt": "2026-05-10T16:44:18.532Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -43,11 +43,12 @@
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 0,
+    "screenshotMismatches": 1,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 13,
-        "pass": 2
+        "known-fail": 12,
+        "pass": 2,
+        "changed-fail": 1
       },
       "statusPairs": {
         "FAIL->FAIL": 13,
@@ -1291,8 +1292,8 @@
       "sourceUrl": "https://wpt.live/css/css-forms/progress-base-appearance-rendering.tentative.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "changed-fail",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1304,7 +1305,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "changed-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -1313,7 +1314,23 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 288,
+            "diffRatio": 0.0003434852301351042,
+            "exactDiffPixels": 420,
+            "exactDiffRatio": 0.0005009159606136936,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 239,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0012-WPT_reftest-css-css-forms-progress-base-appearance-rendering.tentative.html-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,

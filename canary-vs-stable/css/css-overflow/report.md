@@ -2778,7 +2778,7 @@
   reference: css/css-overflow/overflow-replaced-element-002-ref.html (==)
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004007327684909549, diffPixels=336
+  stable page 1: diffRatio=0.00008587130753377605, diffPixels=72
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0354] [WPT reftest] css/css-overflow/overflow-video-hidden.html

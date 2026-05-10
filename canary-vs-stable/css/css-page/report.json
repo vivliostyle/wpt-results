@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T16:00:21.029Z",
+  "generatedAt": "2026-05-10T17:30:53.687Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -43,14 +43,14 @@
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 6,
-    "screenshotMismatches": 4,
+    "screenshotMismatches": 5,
     "outcomes": {
       "changeTypes": {
         "pass": 89,
-        "known-fail": 125,
+        "known-fail": 124,
         "improvement": 6,
+        "changed-fail": 3,
         "expected-change": 2,
-        "changed-fail": 2,
         "unchanged": 20
       },
       "statusPairs": {
@@ -9386,8 +9386,8 @@
       "sourceUrl": "https://wpt.live/css/css-page/page-background-001-print.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "changed-fail",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-background-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-background-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -9399,7 +9399,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "changed-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -9408,7 +9408,38 @@
         "baseline": {
           "totalPages": 2
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 2154,
+            "diffRatio": 0.0025689832837188,
+            "exactDiffPixels": 2154,
+            "exactDiffRatio": 0.0025689832837188,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0103-WPT_print-reftest-css-css-page-page-background-001-print.html-p0001.png"
+          },
+          {
+            "page": 2,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 2154,
+            "diffRatio": 0.0025689832837188,
+            "exactDiffPixels": 2154,
+            "exactDiffRatio": 0.0025689832837188,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0103-WPT_print-reftest-css-css-page-page-background-001-print.html-p0002.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -9436,23 +9467,6 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 1270,
-                "diffRatio": 0.001514674452331883,
-                "exactDiffPixels": 1270,
-                "exactDiffRatio": 0.001514674452331883,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0103-WPT_print-reftest-css-css-page-page-background-001-print.html-r01-p0001.png"
-              },
-              {
-                "page": 2,
-                "actualPage": 2,
-                "baselinePage": 2,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
                 "diffPixels": 2154,
                 "diffRatio": 0.0025689832837188,
                 "exactDiffPixels": 2154,
@@ -9460,7 +9474,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0103-WPT_print-reftest-css-css-page-page-background-001-print.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0103-WPT_print-reftest-css-css-page-page-background-001-print.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,

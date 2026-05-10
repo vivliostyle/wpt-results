@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T15:57:26.111Z",
+  "generatedAt": "2026-05-10T17:27:58.097Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -28652,10 +28652,10 @@
             "height": 1056,
             "actualWidth": 794,
             "actualHeight": 1056,
-            "diffPixels": 148,
-            "diffRatio": 0.000176513243263873,
-            "exactDiffPixels": 850,
-            "exactDiffRatio": 0.0010137584917181894,
+            "diffPixels": 314,
+            "diffRatio": 0.00037449431341118997,
+            "exactDiffPixels": 1020,
+            "exactDiffRatio": 0.0012165101900618272,
             "exceededDiffPixels": 0,
             "maxChannelDifference": 51,
             "dimensionMismatch": false,
@@ -28698,11 +28698,11 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 336,
-                "diffRatio": 0.0004007327684909549,
-                "exactDiffPixels": 1021,
-                "exactDiffRatio": 0.0012177028471109077,
-                "exceededDiffPixels": 575,
+                "diffPixels": 72,
+                "diffRatio": 0.00008587130753377605,
+                "exactDiffPixels": 735,
+                "exactDiffRatio": 0.0008766029310739638,
+                "exceededDiffPixels": 157,
                 "maxChannelDifference": 51,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0350-WPT_reftest-css-css-overflow-overflow-replaced-element-002.html-r01-p0001.png"

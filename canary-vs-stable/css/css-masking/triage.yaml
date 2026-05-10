@@ -2137,29 +2137,6 @@
       referenceFile: css/css-masking/clip-path/reference/green-100x100.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0228"
-  category: WPT reftest
-  title: css/css-masking/clip-path/clip-path-url-reference-external.html
-  file: css/css-masking/clip-path/clip-path-url-reference-external.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-url-reference-external.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-url-reference-external.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-masking/clip-path/reference/green-circle-100x100.html
-  relation: "=="
-  diffPages:
-    - css/css-masking/clip-path/reference/green-circle-100x100.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-masking/clip-path/reference/green-circle-100x100.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/green-circle-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0229"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-url-reference-svg-foreignobject-zoomed.html
@@ -2241,29 +2218,6 @@
       referenceFile: css/css-masking/clip-path/reference/reference-local-url-with-base-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/reference-local-url-with-base-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0240"
-  category: WPT reftest
-  title: css/css-masking/clip-path/reference-nonexisting-existing-local.html
-  file: css/css-masking/clip-path/reference-nonexisting-existing-local.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference-nonexisting-existing-local.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference-nonexisting-existing-local.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-masking/clip-path/reference/reference-nonexisting-existing-local-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-masking/clip-path/reference/reference-nonexisting-existing-local-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-masking/clip-path/reference/reference-nonexisting-existing-local-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/reference-nonexisting-existing-local-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0244"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-clip-nested-twice.svg

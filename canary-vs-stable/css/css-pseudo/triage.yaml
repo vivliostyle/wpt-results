@@ -3730,7 +3730,7 @@
   sideErrors:
     - side: canary
       errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
       timeout: true
     - side: stable
       errorName: Error
@@ -3850,7 +3850,7 @@
   sideErrors:
     - side: canary
       errorName: TimeoutError
-      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
       timeout: true
     - side: stable
       errorName: Error
@@ -4134,7 +4134,7 @@
   sideErrors:
     - side: canary
       errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
       timeout: true
     - side: stable
       errorName: Error

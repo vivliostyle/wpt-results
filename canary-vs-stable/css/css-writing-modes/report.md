@@ -6492,7 +6492,7 @@
 - [0941] [WPT reftest] css/css-writing-modes/slr-alongside-vlr-floats.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0018987100221357148, diffPixels=1592
+  page 1: diffRatio=0.0018975173650866346, diffPixels=1591
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/slr-alongside-vlr-floats.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/slr-alongside-vlr-floats.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

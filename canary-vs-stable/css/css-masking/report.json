@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T15:47:23.681Z",
+  "generatedAt": "2026-05-10T17:17:49.398Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,36 +39,35 @@
   },
   "summary": {
     "totalEntries": 471,
-    "entriesWithDifferences": 210,
-    "entriesWithErrors": 5,
+    "entriesWithDifferences": 207,
+    "entriesWithErrors": 4,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 5,
+    "screenshotMismatches": 2,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 200,
-        "pass": 261,
-        "regression": 4,
-        "improvement": 5,
-        "changed-fail": 1
+        "known-fail": 201,
+        "pass": 264,
+        "regression": 2,
+        "improvement": 4
       },
       "statusPairs": {
         "FAIL->FAIL": 201,
-        "PASS->PASS": 261,
-        "PASS->FAIL": 4,
-        "FAIL->PASS": 5
+        "PASS->PASS": 264,
+        "PASS->FAIL": 2,
+        "FAIL->PASS": 4
       }
     },
     "triage": {
       "differences": {
-        "pending": 205,
+        "pending": 203,
         "triaged": 0
       },
       "errors": {
-        "pending": 5,
+        "pending": 4,
         "triaged": 0
       },
-      "pendingEntries": 210,
+      "pendingEntries": 207,
       "triagedEntries": 0
     }
   },
@@ -13087,10 +13086,10 @@
         "css/css-masking/clip-path/clip-path-url-reference-external.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-masking/clip-path/clip-path-url-reference-external.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "regression",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-url-reference-external.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-url-reference-external.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -13100,89 +13099,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/green-circle-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-circle-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "regression",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 7641,
-            "diffRatio": 0.009113092512021984,
-            "exactDiffPixels": 8014,
-            "exactDiffRatio": 0.009557953591328907,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0228-WPT_reftest-css-css-masking-clip-path-clip-path-url-reference-external.html-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-masking/clip-path/reference/green-circle-100x100.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/green-circle-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": {
-              "maxDifference": [
-                0,
-                36
-              ],
-              "totalPixels": [
-                0,
-                384
-              ]
-            },
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 7649,
-                "diffRatio": 0.009122633768414625,
-                "exactDiffPixels": 8014,
-                "exactDiffRatio": 0.009557953591328907,
-                "exceededDiffPixels": 7939,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0228-WPT_reftest-css-css-masking-clip-path-clip-path-url-reference-external.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/green-circle-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0229",
@@ -13733,10 +13650,10 @@
         "css/css-masking/clip-path/reference-nonexisting-existing-local.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-masking/clip-path/reference-nonexisting-existing-local.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "regression",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference-nonexisting-existing-local.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference-nonexisting-existing-local.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -13746,80 +13663,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/reference-nonexisting-existing-local-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/reference-nonexisting-existing-local-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "regression",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 10000,
-            "diffRatio": 0.01192657049080223,
-            "exactDiffPixels": 10000,
-            "exactDiffRatio": 0.01192657049080223,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0240-WPT_reftest-css-css-masking-clip-path-reference-nonexisting-existing-local.html-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-masking/clip-path/reference/reference-nonexisting-existing-local-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/reference-nonexisting-existing-local-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0240-WPT_reftest-css-css-masking-clip-path-reference-nonexisting-existing-local.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/reference-nonexisting-existing-local-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0241",
@@ -25457,8 +25301,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-masking/mask-image/mask-clip-4.html",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -25468,38 +25312,6 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      },
-      "errors": [
-        {
-          "side": "stable-reference",
-          "error": {
-            "name": "Error",
-            "message": "Viewer error: Error: Failed to fetch a source document from https://raw.githubusercontent.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-clip-4-ref.html (503)",
-            "timeout": false
-          },
-          "referenceFile": "css/css-masking/mask-image/mask-clip-4-ref.html",
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
         }
       ]
     },
@@ -26795,8 +26607,8 @@
       "sourceUrl": "https://wpt.live/css/css-masking/mask-image/mask-image-3d.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -26808,7 +26620,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -26817,23 +26629,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 2500,
-            "diffRatio": 0.0029816426227005574,
-            "exactDiffPixels": 2500,
-            "exactDiffRatio": 0.0029816426227005574,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0379-WPT_reftest-css-css-masking-mask-image-mask-image-3d.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -26868,11 +26664,11 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 3888,
-                "diffRatio": 0.004637050606823906,
-                "exactDiffPixels": 4024,
-                "exactDiffRatio": 0.004799251965498817,
-                "exceededDiffPixels": 4023,
+                "diffPixels": 1388,
+                "diffRatio": 0.0016554079841233495,
+                "exactDiffPixels": 1524,
+                "exactDiffRatio": 0.0018176093427982596,
+                "exceededDiffPixels": 1523,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
                 "diffImage": "actual-reference-diff/0379-WPT_reftest-css-css-masking-mask-image-mask-image-3d.html-r01-p0001.png"

@@ -991,20 +991,20 @@
       referenceFile: css/css-images/image-set/reference/image-set-rendering-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-set/reference/image-set-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0168"
+- id: "0167"
   category: WPT reftest
-  title: css/css-images/image-set/image-set-resolution-002.html
-  file: css/css-images/image-set/image-set-resolution-002.html
+  title: css/css-images/image-set/image-set-resolution-001.html
+  file: css/css-images/image-set/image-set-resolution-001.html
   type: difference
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-set/image-set-resolution-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-set/image-set-resolution-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-set/image-set-resolution-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-set/image-set-resolution-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-images/image-set/image-set-resolution-001-ref.html
   relation: "=="
   diffPages:
@@ -1014,6 +1014,10 @@
       referenceFile: css/css-images/image-set/image-set-resolution-001-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-set/image-set-resolution-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-images/image-set/image-set-resolution-001-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-set/image-set-resolution-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0171"
   category: WPT reftest
   title: css/css-images/image-set/image-set-type-rendering-2.html
@@ -1122,29 +1126,6 @@
       referenceFile: css/css-images/object-fit-contain-png-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0205"
-  category: WPT reftest
-  title: css/css-images/object-fit-contain-png-001e.html
-  file: css/css-images/object-fit-contain-png-001e.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-png-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-png-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-images/object-fit-contain-png-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-images/object-fit-contain-png-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-images/object-fit-contain-png-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0209"
   category: WPT reftest
   title: css/css-images/object-fit-contain-png-002c.html
@@ -1172,29 +1153,6 @@
       referenceFile: css/css-images/object-fit-contain-png-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0210"
-  category: WPT reftest
-  title: css/css-images/object-fit-contain-png-002e.html
-  file: css/css-images/object-fit-contain-png-002e.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-png-002e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-png-002e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-images/object-fit-contain-png-002-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-images/object-fit-contain-png-002-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-images/object-fit-contain-png-002-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0214"
   category: WPT reftest
   title: css/css-images/object-fit-contain-svg-001e.html
@@ -1546,29 +1504,6 @@
       referenceFile: css/css-images/object-fit-containsize-png-001-ref.tentative.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-containsize-png-001-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0239"
-  category: WPT reftest
-  title: css/css-images/object-fit-containcontainintrinsicsize-png-001e.tentative.html
-  file: css/css-images/object-fit-containcontainintrinsicsize-png-001e.tentative.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-containcontainintrinsicsize-png-001e.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-containcontainintrinsicsize-png-001e.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-images/object-fit-containsize-png-001-ref.tentative.html
-  relation: "=="
-  diffPages:
-    - css/css-images/object-fit-containsize-png-001-ref.tentative.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-images/object-fit-containsize-png-001-ref.tentative.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-containsize-png-001-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0242"
   category: WPT reftest
   title: css/css-images/object-fit-containsize-png-001c.tentative.html
@@ -1596,29 +1531,6 @@
       referenceFile: css/css-images/object-fit-containsize-png-001-ref.tentative.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-containsize-png-001-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0243"
-  category: WPT reftest
-  title: css/css-images/object-fit-containsize-png-001e.tentative.html
-  file: css/css-images/object-fit-containsize-png-001e.tentative.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-containsize-png-001e.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-containsize-png-001e.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-images/object-fit-containsize-png-001-ref.tentative.html
-  relation: "=="
-  diffPages:
-    - css/css-images/object-fit-containsize-png-001-ref.tentative.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-images/object-fit-containsize-png-001-ref.tentative.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-containsize-png-001-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0246"
   category: WPT reftest
   title: css/css-images/object-fit-cover-png-001c.html
@@ -1673,29 +1585,6 @@
       referenceFile: css/css-images/object-fit-cover-png-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0252"
-  category: WPT reftest
-  title: css/css-images/object-fit-cover-png-002e.html
-  file: css/css-images/object-fit-cover-png-002e.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-cover-png-002e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-png-002e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-images/object-fit-cover-png-002-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-images/object-fit-cover-png-002-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-images/object-fit-cover-png-002-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-cover-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0256"
   category: WPT reftest
   title: css/css-images/object-fit-cover-svg-001e.html
@@ -2101,29 +1990,6 @@
       referenceFile: css/css-images/object-fit-fill-png-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-fill-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0283"
-  category: WPT reftest
-  title: css/css-images/object-fit-fill-png-001e.html
-  file: css/css-images/object-fit-fill-png-001e.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-fill-png-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-fill-png-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-images/object-fit-fill-png-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-images/object-fit-fill-png-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-images/object-fit-fill-png-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-fill-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0287"
   category: WPT reftest
   title: css/css-images/object-fit-fill-png-002c.html
@@ -2502,29 +2368,6 @@
       referenceFile: css/css-images/object-fit-none-png-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0317"
-  category: WPT reftest
-  title: css/css-images/object-fit-none-png-001e.html
-  file: css/css-images/object-fit-none-png-001e.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-none-png-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-png-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-images/object-fit-none-png-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-images/object-fit-none-png-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-images/object-fit-none-png-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-none-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0321"
   category: WPT reftest
   title: css/css-images/object-fit-none-png-002c.html
@@ -2552,29 +2395,6 @@
       referenceFile: css/css-images/object-fit-none-png-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0322"
-  category: WPT reftest
-  title: css/css-images/object-fit-none-png-002e.html
-  file: css/css-images/object-fit-none-png-002e.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-none-png-002e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-png-002e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-images/object-fit-none-png-002-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-images/object-fit-none-png-002-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-images/object-fit-none-png-002-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-none-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0326"
   category: WPT reftest
   title: css/css-images/object-fit-none-svg-001e.html
@@ -2926,29 +2746,6 @@
       referenceFile: css/css-images/object-fit-scale-down-png-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0351"
-  category: WPT reftest
-  title: css/css-images/object-fit-scale-down-png-001e.html
-  file: css/css-images/object-fit-scale-down-png-001e.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-scale-down-png-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-png-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-images/object-fit-scale-down-png-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-images/object-fit-scale-down-png-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-images/object-fit-scale-down-png-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-scale-down-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0355"
   category: WPT reftest
   title: css/css-images/object-fit-scale-down-png-002c.html
@@ -2976,29 +2773,6 @@
       referenceFile: css/css-images/object-fit-scale-down-png-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0356"
-  category: WPT reftest
-  title: css/css-images/object-fit-scale-down-png-002e.html
-  file: css/css-images/object-fit-scale-down-png-002e.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-scale-down-png-002e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-png-002e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-images/object-fit-scale-down-png-002-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-images/object-fit-scale-down-png-002-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-images/object-fit-scale-down-png-002-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-scale-down-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0360"
   category: WPT reftest
   title: css/css-images/object-fit-scale-down-svg-001e.html
@@ -3350,29 +3124,6 @@
       referenceFile: css/css-images/object-position-png-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0385"
-  category: WPT reftest
-  title: css/css-images/object-position-png-001e.html
-  file: css/css-images/object-position-png-001e.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-position-png-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-png-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-images/object-position-png-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-images/object-position-png-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-images/object-position-png-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-position-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0389"
   category: WPT reftest
   title: css/css-images/object-position-png-002c.html
@@ -3400,29 +3151,6 @@
       referenceFile: css/css-images/object-position-png-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0390"
-  category: WPT reftest
-  title: css/css-images/object-position-png-002e.html
-  file: css/css-images/object-position-png-002e.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-position-png-002e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-png-002e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-images/object-position-png-002-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-images/object-position-png-002-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-images/object-position-png-002-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-position-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0394"
   category: WPT reftest
   title: css/css-images/object-position-svg-001e.html
@@ -3967,5 +3695,12 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/conic-gradient-color-with-sibling-index.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  errorName: TimeoutError
-  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+  sideErrors:
+    - side: canary
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true
+    - side: stable
+      errorName: TimeoutError
+      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
+      timeout: true

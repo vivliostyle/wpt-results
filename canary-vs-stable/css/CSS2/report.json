@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T14:21:18.005Z",
+  "generatedAt": "2026-05-10T15:49:39.866Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,21 +39,21 @@
   },
   "summary": {
     "totalEntries": 6849,
-    "entriesWithDifferences": 1163,
+    "entriesWithDifferences": 1165,
     "entriesWithErrors": 17,
     "timeoutEntries": 16,
     "pageCountMismatches": 1,
-    "screenshotMismatches": 99,
+    "screenshotMismatches": 103,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 1043,
+        "known-fail": 1041,
         "pass": 5128,
+        "changed-fail": 45,
         "improvement": 69,
-        "changed-fail": 43,
         "expected-change": 5,
         "error": 3,
-        "unchanged": 555,
-        "changed": 3
+        "unchanged": 553,
+        "changed": 5
       },
       "statusPairs": {
         "FAIL->FAIL": 1073,
@@ -68,14 +68,14 @@
     },
     "triage": {
       "differences": {
-        "pending": 1094,
+        "pending": 1096,
         "triaged": 0
       },
       "errors": {
         "pending": 17,
         "triaged": 0
       },
-      "pendingEntries": 1111,
+      "pendingEntries": 1113,
       "triagedEntries": 0
     }
   },
@@ -13713,8 +13713,8 @@
       "sourceUrl": "https://wpt.live/css/CSS2/backgrounds/background-root-002.xht",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "changed-fail",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-root-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-root-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -13726,7 +13726,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "changed-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -13735,7 +13735,23 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 63543,
+            "diffRatio": 0.0757850068697046,
+            "exactDiffPixels": 63596,
+            "exactDiffRatio": 0.07584821769330585,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0342-WPT_reftest-css-CSS2-backgrounds-background-root-002.xht-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -13761,10 +13777,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 119303,
-                "diffRatio": 0.14228756392641784,
-                "exactDiffPixels": 120520,
-                "exactDiffRatio": 0.14373902755514847,
+                "diffPixels": 62049,
+                "diffRatio": 0.07400317723837875,
+                "exactDiffPixels": 63213,
+                "exactDiffRatio": 0.07539143004350812,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -14826,8 +14842,8 @@
       "sourceUrl": "https://wpt.live/css/CSS2/backgrounds/background-root-018.xht",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "changed-fail",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-root-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-root-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -14839,7 +14855,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "changed-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -14848,7 +14864,23 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 480484,
+            "diffRatio": 0.5730526295702618,
+            "exactDiffPixels": 480502,
+            "exactDiffRatio": 0.5730740973971452,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0357-WPT_reftest-css-CSS2-backgrounds-background-root-018.xht-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -14874,10 +14906,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 169564,
-                "diffRatio": 0.20223169987023892,
-                "exactDiffPixels": 169590,
-                "exactDiffRatio": 0.202262708953515,
+                "diffPixels": 480512,
+                "diffRatio": 0.5730860239676361,
+                "exactDiffPixels": 480520,
+                "exactDiffRatio": 0.5730955652240287,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -40221,10 +40253,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 10850,
-                "diffRatio": 0.012940328982520418,
-                "exactDiffPixels": 838429,
-                "exactDiffRatio": 0.9999582570032822,
+                "diffPixels": 10864,
+                "diffRatio": 0.012957026181207542,
+                "exactDiffPixels": 19305,
+                "exactDiffRatio": 0.023024244332493702,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -99481,8 +99513,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 4822,
-                "diffRatio": 0.005750992290664835,
+                "diffPixels": 4922,
+                "diffRatio": 0.005870257995572857,
                 "exactDiffPixels": 6264,
                 "exactDiffRatio": 0.007470803755438516,
                 "exceededDiffPixels": 0,
@@ -258494,11 +258526,44 @@
       "sourceUrl": "https://wpt.live/css/CSS2/css1/c535-bg-fixd-000.xht",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
-      "changeType": "unchanged",
-      "viewerChanged": false,
+      "changeType": "changed",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/css1/c535-bg-fixd-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/css1/c535-bg-fixd-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": []
+      "references": [],
+      "difference": {
+        "classification": "changed",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 4
+        },
+        "baseline": {
+          "totalPages": 4
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 9159,
+            "diffRatio": 0.010923545912525761,
+            "exactDiffPixels": 9446,
+            "exactDiffRatio": 0.011265838485611785,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/6569-WPT_manual-css-CSS2-css1-c535-bg-fixd-000.xht-p0001.png"
+          }
+        ],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "6570",
@@ -258815,11 +258880,44 @@
       "sourceUrl": "https://wpt.live/css/CSS2/linebox/inline-formatting-context-010b.xht",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
-      "changeType": "unchanged",
-      "viewerChanged": false,
+      "changeType": "changed",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/linebox/inline-formatting-context-010b.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/linebox/inline-formatting-context-010b.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": []
+      "references": [],
+      "difference": {
+        "classification": "changed",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 602,
+            "diffRatio": 0.0007179795435462942,
+            "exactDiffPixels": 602,
+            "exactDiffRatio": 0.0007179795435462942,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/6587-WPT_manual-css-CSS2-linebox-inline-formatting-context-010b.xht-p0001.png"
+          }
+        ],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "6588",

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 306
-- Entries with differences: 21 (improvement: 1, pending: 20, triaged: 0)
+- Entries with differences: 20 (pending: 20, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":285,"known-fail":20,"improvement":1}
+- Outcome summary: {"pass":286,"known-fail":20}
 
 ## Differences
 
@@ -165,12 +165,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/inline-opacity-float-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0112] [WPT reftest] css/css-color/lab-004.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/lab-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/lab-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0127] [WPT reftest] css/css-color/lch-009.html
   triage: pending

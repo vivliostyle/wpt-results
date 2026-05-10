@@ -29572,6 +29572,22 @@
       referenceFile: css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "6569"
+  category: WPT manual
+  title: css/CSS2/css1/c535-bg-fixd-000.xht
+  file: css/CSS2/css1/c535-bg-fixd-000.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/css1/c535-bg-fixd-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/css1/c535-bg-fixd-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
 - id: "6585"
   category: WPT manual
   title: css/CSS2/floats-clear/floats-137.xht
@@ -29586,6 +29602,22 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/floats-clear/floats-137.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "6587"
+  category: WPT manual
+  title: css/CSS2/linebox/inline-formatting-context-010b.xht
+  file: css/CSS2/linebox/inline-formatting-context-010b.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/linebox/inline-formatting-context-010b.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/linebox/inline-formatting-context-010b.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
 - id: "6613"

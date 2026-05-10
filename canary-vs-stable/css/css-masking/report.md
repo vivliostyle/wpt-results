@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 471
-- Entries with differences: 210 (improvement: 5, pending: 205, triaged: 0)
-- Entries with errors: 5 (pending: 5, triaged: 0)
+- Entries with differences: 207 (improvement: 4, pending: 203, triaged: 0)
+- Entries with errors: 4 (pending: 4, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 5
-- Outcome summary: {"known-fail":200,"pass":261,"regression":4,"improvement":5,"changed-fail":1}
+- Screenshot mismatches: 2
+- Outcome summary: {"known-fail":201,"pass":264,"regression":2,"improvement":4}
 
 ## Differences
 
@@ -1033,15 +1033,6 @@
   canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0228] [WPT reftest] css/css-masking/clip-path/clip-path-url-reference-external.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-masking/clip-path/reference/green-circle-100x100.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-url-reference-external.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009122633768414625, diffPixels=7649
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/green-circle-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0229] [WPT reftest] css/css-masking/clip-path/clip-path-url-reference-svg-foreignobject-zoomed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -1080,15 +1071,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference-local-url-with-base-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/reference-local-url-with-base-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0240] [WPT reftest] css/css-masking/clip-path/reference-nonexisting-existing-local.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-masking/clip-path/reference/reference-nonexisting-existing-local-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference-nonexisting-existing-local.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/reference-nonexisting-existing-local-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0244] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-nested-twice.svg
   triage: pending
@@ -2297,12 +2279,6 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/bad-mask-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/bad-mask-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0358] [WPT reftest] css/css-masking/mask-image/mask-clip-4.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0359] [WPT reftest] css/css-masking/mask-image/mask-clip-5.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -2409,11 +2385,11 @@
 
 - [0379] [WPT reftest] css/css-masking/mask-image/mask-image-3d.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-image-3-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004637050606823906, diffPixels=3888
+  canary page 1: diffRatio=0.0016554079841233495, diffPixels=1388
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2726,13 +2702,4 @@
   error: Error: Viewer error: Failed to load about:blank. The target resource is invalid.
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/bad-mask-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=about:blank&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0358] [WPT reftest] css/css-masking/mask-image/mask-clip-4.html
-  triage: pending
-  side: stable-reference
-  reference: css/css-masking/mask-image/mask-clip-4-ref.html
-  timeout: false
-  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githubusercontent.com/web-platform-tests/wpt/master/css/css-masking/mask-image/mask-clip-4-ref.html (503)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
