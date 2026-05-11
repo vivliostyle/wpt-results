@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T17:08:13.801Z",
+  "generatedAt": "2026-05-11T10:17:47.504Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -537,7 +537,7 @@
               "side": "stable",
               "error": {
                 "name": "TimeoutError",
-                "message": "page.waitForFunction: Timeout 10000ms exceeded.",
+                "message": "Timeout (10000ms): waiting for viewer ready",
                 "timeout": true
               }
             }
@@ -16477,8 +16477,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 2186,
                 "diffRatio": 0.0026071483092893672,
-                "exactDiffPixels": 838464,
-                "exactDiffRatio": 1,
+                "exactDiffPixels": 2194,
+                "exactDiffRatio": 0.002616689565682009,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -16688,8 +16688,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 2194,
                 "diffRatio": 0.002616689565682009,
-                "exactDiffPixels": 2194,
-                "exactDiffRatio": 0.002616689565682009,
+                "exactDiffPixels": 838464,
+                "exactDiffRatio": 1,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -17073,8 +17073,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 2186,
                 "diffRatio": 0.0026071483092893672,
-                "exactDiffPixels": 838464,
-                "exactDiffRatio": 1,
+                "exactDiffPixels": 2194,
+                "exactDiffRatio": 0.002616689565682009,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -18337,8 +18337,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 2186,
                 "diffRatio": 0.0026071483092893672,
-                "exactDiffPixels": 838464,
-                "exactDiffRatio": 1,
+                "exactDiffPixels": 2194,
+                "exactDiffRatio": 0.002616689565682009,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,

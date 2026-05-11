@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T17:02:03.950Z",
+  "generatedAt": "2026-05-11T10:11:28.436Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,33 +39,34 @@
   },
   "summary": {
     "totalEntries": 96,
-    "entriesWithDifferences": 80,
-    "entriesWithErrors": 2,
+    "entriesWithDifferences": 79,
+    "entriesWithErrors": 3,
     "timeoutEntries": 1,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 4,
+    "screenshotMismatches": 3,
     "outcomes": {
       "changeTypes": {
         "known-fail": 76,
-        "error": 2,
-        "changed-fail": 3,
+        "error": 3,
+        "changed-fail": 2,
         "pass": 14,
         "improvement": 1
       },
       "statusPairs": {
-        "FAIL->FAIL": 79,
+        "FAIL->FAIL": 78,
         "ERROR->ERROR": 2,
+        "FAIL->ERROR": 1,
         "PASS->PASS": 14,
         "FAIL->PASS": 1
       }
     },
     "triage": {
       "differences": {
-        "pending": 79,
+        "pending": 78,
         "triaged": 0
       },
       "errors": {
-        "pending": 2,
+        "pending": 3,
         "triaged": 0
       },
       "pendingEntries": 81,
@@ -1921,10 +1922,10 @@
         "css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "ERROR",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "error",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1935,118 +1936,39 @@
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "difference": {
-        "classification": "changed-fail",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 573,
-            "diffRatio": 0.0006833924891229677,
-            "exactDiffPixels": 1040,
-            "exactDiffRatio": 0.0012403633310434318,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0017-WPT_reftest-css-css-highlight-api-painting-custom-highlight-dynamic-container-metrics-001.html-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 1332,
-                "diffRatio": 0.0015886191893748568,
-                "exactDiffPixels": 3158,
-                "exactDiffRatio": 0.003766410960995344,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0017-WPT_reftest-css-css-highlight-api-painting-custom-highlight-dynamic-container-metrics-001.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+      "errors": [
+        {
+          "side": "canary, canary-reference",
+          "error": {
+            "name": "Error",
+            "message": "Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).",
+            "timeout": false
           },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 594,
-                "diffRatio": 0.0007084382871536523,
-                "exactDiffPixels": 2414,
-                "exactDiffRatio": 0.002879074116479658,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 101,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0017-WPT_reftest-css-css-highlight-api-painting-custom-highlight-dynamic-container-metrics-001.html-r01-p0001.png"
+          "sideErrors": [
+            {
+              "side": "canary",
+              "error": {
+                "name": "Error",
+                "message": "Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).",
+                "timeout": false
               }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            },
+            {
+              "side": "canary-reference",
+              "error": {
+                "name": "Error",
+                "message": "Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).",
+                "timeout": false
+              },
+              "referenceFile": "css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html"
+            }
+          ],
+          "triage": {
+            "status": "pending",
+            "decision": ""
           }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
         }
-      }
+      ]
     },
     {
       "id": "0018",

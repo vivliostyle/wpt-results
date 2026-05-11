@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T15:53:49.494Z",
+  "generatedAt": "2026-05-11T09:00:03.673Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,17 +39,16 @@
   },
   "summary": {
     "totalEntries": 60,
-    "entriesWithDifferences": 13,
+    "entriesWithDifferences": 12,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 4,
+    "screenshotMismatches": 3,
     "outcomes": {
       "changeTypes": {
-        "pass": 47,
+        "pass": 48,
         "known-fail": 9,
         "improvement": 2,
-        "expected-change": 1,
         "regression": 1
       },
       "statusPairs": {
@@ -61,14 +60,14 @@
     },
     "triage": {
       "differences": {
-        "pending": 11,
+        "pending": 10,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 11,
+      "pendingEntries": 10,
       "triagedEntries": 0
     }
   },
@@ -1378,8 +1377,8 @@
       "sourceUrl": "https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "expected-change",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1389,40 +1388,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-video-sibling-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-video-sibling-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "expected-change",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 152616,
-            "diffRatio": 0.1820185482024273,
-            "exactDiffPixels": 155710,
-            "exactDiffRatio": 0.1857086291122815,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0046-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-video-sibling.html-p0001.png"
-          }
-        ],
-        "comparisons": [],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0047",
@@ -1463,8 +1429,8 @@
             "height": 1056,
             "actualWidth": 794,
             "actualHeight": 1056,
-            "diffPixels": 168505,
-            "diffRatio": 0.20096867605526295,
+            "diffPixels": 168523,
+            "diffRatio": 0.2009901438821464,
             "exactDiffPixels": 168960,
             "exactDiffRatio": 0.20151133501259447,
             "exceededDiffPixels": 0,

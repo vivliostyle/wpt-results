@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1008
-- Entries with differences: 96 (improvement: 6, pending: 90, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
+- Entries with differences: 97 (improvement: 6, pending: 91, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 11
-- Outcome summary: {"pass":912,"known-fail":85,"improvement":6,"changed-fail":5}
+- Outcome summary: {"pass":910,"known-fail":86,"error":1,"improvement":6,"changed-fail":5}
 
 ## Differences
 
@@ -191,6 +191,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-044.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.008944927868101672, diffPixels=7500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0432] [WPT reftest] css/css-break/flexbox/single-line-row-flex-fragmentation-049.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0517] [WPT reftest] css/css-break/grid/grid-item-fragmentation-039.html
   triage: pending
@@ -1245,6 +1251,34 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/underflow-from-next-page-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
+
+- [0432] [WPT reftest] css/css-break/flexbox/single-line-row-flex-fragmentation-049.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/reference/ref-filled-green-100px-square-only.html
+  canary-reference timeout: false
+  canary-reference error: Error: Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).
+  stable-reference reference: css/reference/ref-filled-green-100px-square-only.html
+  stable-reference timeout: false
+  stable-reference error: Error: page.goto: net::ERR_NETWORK_CHANGED at https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+Call log:
+  - navigating to "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false", waiting until "domcontentloaded"
+
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0433] [WPT reftest] css/css-break/flexbox/single-line-row-flex-fragmentation-050.html
+  triage: pending
+  side: canary, stable
+  canary timeout: false
+  canary error: Error: Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).
+  stable timeout: false
+  stable error: Error: page.goto: net::ERR_NETWORK_CHANGED at https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+Call log:
+  - navigating to "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&pixelRatio=0&bookMode=false&zoom=1&spread=false", waiting until "domcontentloaded"
+
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0986] [WPT print-reftest] css/css-break/ink-overflow-001-print.html
   triage: pending

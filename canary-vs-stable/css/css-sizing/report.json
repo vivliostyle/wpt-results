@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T17:49:52.902Z",
+  "generatedAt": "2026-05-11T10:59:49.806Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -12256,8 +12256,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 5110,
                 "diffRatio": 0.006094477520799939,
-                "exactDiffPixels": 5110,
-                "exactDiffRatio": 0.006094477520799939,
+                "exactDiffPixels": 838390,
+                "exactDiffRatio": 0.9999117433783681,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,

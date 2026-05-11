@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T17:27:58.097Z",
+  "generatedAt": "2026-05-11T10:38:03.717Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -48,30 +48,30 @@
       "changeTypes": {
         "known-fail": 307,
         "pass": 175,
-        "changed-fail": 3,
+        "changed-fail": 4,
         "expected-change": 2,
-        "improvement": 2,
+        "improvement": 1,
         "error": 3,
         "regression": 2
       },
       "statusPairs": {
-        "FAIL->FAIL": 310,
+        "FAIL->FAIL": 311,
         "PASS->PASS": 177,
-        "FAIL->PASS": 2,
+        "FAIL->PASS": 1,
         "ERROR->ERROR": 3,
         "PASS->FAIL": 2
       }
     },
     "triage": {
       "differences": {
-        "pending": 314,
+        "pending": 315,
         "triaged": 0
       },
       "errors": {
         "pending": 4,
         "triaged": 0
       },
-      "pendingEntries": 318,
+      "pendingEntries": 319,
       "triagedEntries": 0
     }
   },
@@ -28621,9 +28621,9 @@
         "css/css-overflow/overflow-replaced-element-002.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-overflow/overflow-replaced-element-002.html",
-      "actualStatus": "PASS",
+      "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "improvement",
+      "changeType": "changed-fail",
       "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -28636,8 +28636,8 @@
         }
       ],
       "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
+        "classification": "changed-fail",
+        "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
           "totalPages": 2
@@ -28652,10 +28652,10 @@
             "height": 1056,
             "actualWidth": 794,
             "actualHeight": 1056,
-            "diffPixels": 314,
-            "diffRatio": 0.00037449431341118997,
-            "exactDiffPixels": 1020,
-            "exactDiffRatio": 0.0012165101900618272,
+            "diffPixels": 169,
+            "diffRatio": 0.00020155904129455767,
+            "exactDiffPixels": 895,
+            "exactDiffRatio": 0.0010674280589267995,
             "exceededDiffPixels": 0,
             "maxChannelDifference": 51,
             "dimensionMismatch": false,
@@ -28663,6 +28663,56 @@
           }
         ],
         "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-overflow/overflow-replaced-element-002-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 2,
+            "testTotalPages": 2,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                6
+              ],
+              "totalPixels": [
+                0,
+                2
+              ]
+            },
+            "actualPageNumbers": [
+              1,
+              2
+            ],
+            "baselinePageNumbers": [
+              1,
+              2
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 48,
+                "diffRatio": 0.0000572475383558507,
+                "exactDiffPixels": 711,
+                "exactDiffRatio": 0.0008479791618960385,
+                "exceededDiffPixels": 112,
+                "maxChannelDifference": 50,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0350-WPT_reftest-css-css-overflow-overflow-replaced-element-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-overflow/overflow-replaced-element-002-ref.html",
@@ -28698,11 +28748,11 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 72,
-                "diffRatio": 0.00008587130753377605,
-                "exactDiffPixels": 735,
-                "exactDiffRatio": 0.0008766029310739638,
-                "exceededDiffPixels": 157,
+                "diffPixels": 168,
+                "diffRatio": 0.00020036638424547745,
+                "exactDiffPixels": 868,
+                "exactDiffRatio": 0.0010352263186016336,
+                "exceededDiffPixels": 319,
                 "maxChannelDifference": 51,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0350-WPT_reftest-css-css-overflow-overflow-replaced-element-002.html-r01-p0001.png"
@@ -28715,7 +28765,7 @@
           }
         ],
         "triage": {
-          "status": "not-needed",
+          "status": "pending",
           "decision": ""
         }
       }

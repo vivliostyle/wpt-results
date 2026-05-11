@@ -25,22 +25,6 @@
       referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-border-image-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-border-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0046"
-  category: WPT reftest
-  title: css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html
-  file: css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "0047"
   category: WPT reftest
   title: css/compositing/mix-blend-mode/mix-blend-mode-video.html

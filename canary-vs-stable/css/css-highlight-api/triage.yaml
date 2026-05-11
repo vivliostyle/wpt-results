@@ -403,33 +403,6 @@
       referenceFile: css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0017"
-  category: WPT reftest
-  title: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html
-  file: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0018"
   category: WPT reftest
   title: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-002.html
@@ -2154,6 +2127,39 @@
     - side: stable
       errorName: Error
       errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
+      timeout: false
+- id: "0017"
+  category: WPT reftest
+  title: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html
+  file: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary, canary-reference
+  sideErrors:
+    - side: canary
+      errorName: Error
+      errorMessage: >-
+        Viewer error: Failed to load
+        https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html.
+        This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing
+        (CORS).
+      timeout: false
+    - side: canary-reference
+      referenceFile: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html
+      errorName: Error
+      errorMessage: >-
+        Viewer error: Failed to load
+        https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html.
+        This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing
+        (CORS).
       timeout: false
 - id: "0088"
   category: WPT reftest

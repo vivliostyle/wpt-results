@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T16:15:57.893Z",
+  "generatedAt": "2026-05-11T09:21:52.005Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,34 +39,36 @@
   },
   "summary": {
     "totalEntries": 1008,
-    "entriesWithDifferences": 96,
-    "entriesWithErrors": 1,
+    "entriesWithDifferences": 97,
+    "entriesWithErrors": 3,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 11,
     "outcomes": {
       "changeTypes": {
-        "pass": 912,
-        "known-fail": 85,
+        "pass": 910,
+        "known-fail": 86,
+        "error": 1,
         "improvement": 6,
         "changed-fail": 5
       },
       "statusPairs": {
-        "PASS->PASS": 912,
-        "FAIL->FAIL": 90,
+        "PASS->PASS": 910,
+        "FAIL->FAIL": 91,
+        "ERROR->ERROR": 1,
         "FAIL->PASS": 6
       }
     },
     "triage": {
       "differences": {
-        "pending": 90,
+        "pending": 91,
         "triaged": 0
       },
       "errors": {
-        "pending": 1,
+        "pending": 3,
         "triaged": 0
       },
-      "pendingEntries": 91,
+      "pendingEntries": 94,
       "triagedEntries": 0
     }
   },
@@ -462,8 +464,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 87094,
                 "diffRatio": 0.10387327303259293,
-                "exactDiffPixels": 838328,
-                "exactDiffRatio": 0.999837798641325,
+                "exactDiffPixels": 87094,
+                "exactDiffRatio": 0.10387327303259293,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -11302,9 +11304,9 @@
         "css/css-break/flexbox/single-line-row-flex-fragmentation-049.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-049.html",
-      "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -11314,6 +11316,57 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      },
+      "errors": [
+        {
+          "side": "canary-reference, stable-reference",
+          "error": {
+            "name": "Error",
+            "message": "Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).",
+            "timeout": false
+          },
+          "sideErrors": [
+            {
+              "side": "canary-reference",
+              "error": {
+                "name": "Error",
+                "message": "Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).",
+                "timeout": false
+              },
+              "referenceFile": "css/reference/ref-filled-green-100px-square-only.html"
+            },
+            {
+              "side": "stable-reference",
+              "error": {
+                "name": "Error",
+                "message": "page.goto: net::ERR_NETWORK_CHANGED at https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false\nCall log:\n  - navigating to \"https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false\", waiting until \"domcontentloaded\"\n",
+                "timeout": false
+              },
+              "referenceFile": "css/reference/ref-filled-green-100px-square-only.html"
+            }
+          ],
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
         }
       ]
     },
@@ -11325,9 +11378,9 @@
         "css/css-break/flexbox/single-line-row-flex-fragmentation-050.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html",
-      "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "actualStatus": "ERROR",
+      "baselineStatus": "ERROR",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -11337,6 +11390,38 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "errors": [
+        {
+          "side": "canary, stable",
+          "error": {
+            "name": "Error",
+            "message": "Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).",
+            "timeout": false
+          },
+          "sideErrors": [
+            {
+              "side": "canary",
+              "error": {
+                "name": "Error",
+                "message": "Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).",
+                "timeout": false
+              }
+            },
+            {
+              "side": "stable",
+              "error": {
+                "name": "Error",
+                "message": "page.goto: net::ERR_NETWORK_CHANGED at https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&pixelRatio=0&bookMode=false&zoom=1&spread=false\nCall log:\n  - navigating to \"https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&pixelRatio=0&bookMode=false&zoom=1&spread=false\", waiting until \"domcontentloaded\"\n",
+                "timeout": false
+              }
+            }
+          ],
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
         }
       ]
     },

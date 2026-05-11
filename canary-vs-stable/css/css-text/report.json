@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T18:06:49.914Z",
+  "generatedAt": "2026-05-11T11:16:37.357Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,37 +39,39 @@
   },
   "summary": {
     "totalEntries": 1484,
-    "entriesWithDifferences": 427,
+    "entriesWithDifferences": 428,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 12,
     "outcomes": {
       "changeTypes": {
-        "pass": 1055,
+        "pass": 1054,
         "known-fail": 415,
         "changed-fail": 10,
+        "regression": 1,
         "improvement": 1,
         "expected-change": 1,
         "unchanged": 2
       },
       "statusPairs": {
-        "PASS->PASS": 1056,
+        "PASS->PASS": 1055,
         "FAIL->FAIL": 425,
+        "PASS->FAIL": 1,
         "FAIL->PASS": 1,
         "MANUAL->MANUAL": 2
       }
     },
     "triage": {
       "differences": {
-        "pending": 426,
+        "pending": 427,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 426,
+      "pendingEntries": 427,
       "triagedEntries": 0
     }
   },
@@ -43192,9 +43194,9 @@
         "css/css-text/text-transform/text-transform-uppercase-dynamic.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html",
-      "actualStatus": "PASS",
+      "actualStatus": "FAIL",
       "baselineStatus": "PASS",
-      "changeType": "pass",
+      "changeType": "regression",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -43205,7 +43207,64 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "regression",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 13,
+                "diffRatio": 0.000015504541638042898,
+                "exactDiffPixels": 31,
+                "exactDiffRatio": 0.00003697236852148691,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0871-WPT_reftest-css-css-text-text-transform-text-transform-uppercase-dynamic.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0872",

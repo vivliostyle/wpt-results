@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T17:30:53.687Z",
+  "generatedAt": "2026-05-11T10:40:59.756Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -9423,21 +9423,6 @@
             "maxChannelDifference": 255,
             "dimensionMismatch": false,
             "diffImage": "diff/0103-WPT_print-reftest-css-css-page-page-background-001-print.html-p0001.png"
-          },
-          {
-            "page": 2,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 2154,
-            "diffRatio": 0.0025689832837188,
-            "exactDiffPixels": 2154,
-            "exactDiffRatio": 0.0025689832837188,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0103-WPT_print-reftest-css-css-page-page-background-001-print.html-p0002.png"
           }
         ],
         "comparisons": [
@@ -9475,6 +9460,23 @@
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
                 "diffImage": "actual-reference-diff/0103-WPT_print-reftest-css-css-page-page-background-001-print.html-r01-p0001.png"
+              },
+              {
+                "page": 2,
+                "actualPage": 2,
+                "baselinePage": 2,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2154,
+                "diffRatio": 0.0025689832837188,
+                "exactDiffPixels": 2154,
+                "exactDiffRatio": 0.0025689832837188,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0103-WPT_print-reftest-css-css-page-page-background-001-print.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,

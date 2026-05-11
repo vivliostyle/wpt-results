@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 96
-- Entries with differences: 80 (improvement: 1, pending: 79, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
+- Entries with differences: 79 (improvement: 1, pending: 78, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 4
-- Outcome summary: {"known-fail":76,"error":2,"changed-fail":3,"pass":14,"improvement":1}
+- Screenshot mismatches: 3
+- Outcome summary: {"known-fail":76,"error":3,"changed-fail":2,"pass":14,"improvement":1}
 
 ## Differences
 
@@ -204,19 +204,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-container-metrics-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.012952255553011221, diffPixels=10860
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0017] [WPT reftest] css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015886191893748568, diffPixels=1332
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007084382871536523, diffPixels=594
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0018] [WPT reftest] css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-002.html
   triage: pending
@@ -1057,6 +1044,17 @@
   stable error: Error: page.addStyleTag: Execution context was destroyed, most likely because of a navigation
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/css-target-text-decoration-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/css-target-text-decoration-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0017] [WPT reftest] css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html
+  triage: pending
+  side: canary, canary-reference
+  canary timeout: false
+  canary error: Error: Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).
+  canary-reference reference: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html
+  canary-reference timeout: false
+  canary-reference error: Error: Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001-ref.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0088] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-staticrange-003.html
   triage: pending

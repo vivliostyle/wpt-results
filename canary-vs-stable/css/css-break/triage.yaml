@@ -381,6 +381,20 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0432"
+  category: WPT reftest
+  title: css/css-break/flexbox/single-line-row-flex-fragmentation-049.html
+  file: css/css-break/flexbox/single-line-row-flex-fragmentation-049.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0517"
   category: WPT reftest
   title: css/css-break/grid/grid-item-fragmentation-039.html
@@ -2720,3 +2734,36 @@
       referenceFile: css/css-break/underflow-from-next-page-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/underflow-from-next-page-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0433"
+  category: WPT reftest
+  title: css/css-break/flexbox/single-line-row-flex-fragmentation-050.html
+  file: css/css-break/flexbox/single-line-row-flex-fragmentation-050.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary, stable
+  sideErrors:
+    - side: canary
+      errorName: Error
+      errorMessage: >-
+        Viewer error: Failed to load
+        https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html.
+        This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing
+        (CORS).
+      timeout: false
+    - side: stable
+      errorName: Error
+      errorMessage: >
+        page.goto: net::ERR_NETWORK_CHANGED at
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+        Call log:
+          - navigating to "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&pixelRatio=0&bookMode=false&zoom=1&spread=false", waiting until "domcontentloaded"
+      timeout: false

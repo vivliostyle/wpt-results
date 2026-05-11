@@ -7546,6 +7546,29 @@
       referenceFile: css/CSS2/floats-clear/margin-collapse-clear-015-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/floats-clear/margin-collapse-clear-015-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "1630"
+  category: WPT reftest
+  title: css/CSS2/floats-clear/margin-collapse-clear-017.xht
+  file: css/CSS2/floats-clear/margin-collapse-clear-017.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/floats-clear/margin-collapse-clear-017.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/floats-clear/margin-collapse-clear-017.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/floats-clear/margin-collapse-clear-017-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/floats-clear/margin-collapse-clear-017-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/floats-clear/margin-collapse-clear-017-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/floats-clear/margin-collapse-clear-017-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1631"
   category: WPT reftest
   title: css/CSS2/floats-clear/negative-clearance-after-adjoining-float.html
@@ -13513,6 +13536,213 @@
       referenceFile: css/CSS2/normal-flow/min-height-percentage-003-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/min-height-percentage-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "3707"
+  category: WPT reftest
+  title: css/CSS2/normal-flow/min-width-047.xht
+  file: css/CSS2/normal-flow/min-width-047.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/min-width-047.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/min-width-047.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/normal-flow/max-width-047-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/normal-flow/max-width-047-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/normal-flow/max-width-047-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-047-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "3710"
+  category: WPT reftest
+  title: css/CSS2/normal-flow/min-width-050.xht
+  file: css/CSS2/normal-flow/min-width-050.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/min-width-050.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/min-width-050.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/normal-flow/max-width-006-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/normal-flow/max-width-006-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/normal-flow/max-width-006-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "3711"
+  category: WPT reftest
+  title: css/CSS2/normal-flow/min-width-051.xht
+  file: css/CSS2/normal-flow/min-width-051.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/min-width-051.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/min-width-051.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/normal-flow/max-width-006-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/normal-flow/max-width-006-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/normal-flow/max-width-006-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "3714"
+  category: WPT reftest
+  title: css/CSS2/normal-flow/min-width-058.xht
+  file: css/CSS2/normal-flow/min-width-058.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/min-width-058.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/min-width-058.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/reference/ref-filled-black-96px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "3717"
+  category: WPT reftest
+  title: css/CSS2/normal-flow/min-width-061.xht
+  file: css/CSS2/normal-flow/min-width-061.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/min-width-061.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/min-width-061.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/normal-flow/max-width-061-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/normal-flow/max-width-061-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/normal-flow/max-width-061-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-061-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "3718"
+  category: WPT reftest
+  title: css/CSS2/normal-flow/min-width-062.xht
+  file: css/CSS2/normal-flow/min-width-062.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/min-width-062.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/min-width-062.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/normal-flow/max-width-061-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/normal-flow/max-width-061-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/normal-flow/max-width-061-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-061-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "3739"
+  category: WPT reftest
+  title: css/CSS2/normal-flow/min-width-095.xht
+  file: css/CSS2/normal-flow/min-width-095.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/min-width-095.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/min-width-095.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/normal-flow/max-width-006-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/normal-flow/max-width-006-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/normal-flow/max-width-006-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "3743"
+  category: WPT reftest
+  title: css/CSS2/normal-flow/min-width-103.xht
+  file: css/CSS2/normal-flow/min-width-103.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/min-width-103.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/min-width-103.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/normal-flow/max-width-003-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/normal-flow/max-width-003-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/normal-flow/max-width-003-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "3753"
+  category: WPT reftest
+  title: css/CSS2/normal-flow/min-width-applies-to-012.xht
+  file: css/CSS2/normal-flow/min-width-applies-to-012.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/min-width-applies-to-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/min-width-applies-to-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/reference/ref-filled-black-96px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "3755"
   category: WPT reftest
   title: css/CSS2/normal-flow/min-width-applies-to-014.xht
@@ -29572,22 +29802,6 @@
       referenceFile: css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "6569"
-  category: WPT manual
-  title: css/CSS2/css1/c535-bg-fixd-000.xht
-  file: css/CSS2/css1/c535-bg-fixd-000.xht
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/css1/c535-bg-fixd-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/css1/c535-bg-fixd-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "6585"
   category: WPT manual
   title: css/CSS2/floats-clear/floats-137.xht
@@ -29602,22 +29816,6 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/floats-clear/floats-137.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "6587"
-  category: WPT manual
-  title: css/CSS2/linebox/inline-formatting-context-010b.xht
-  file: css/CSS2/linebox/inline-formatting-context-010b.xht
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/linebox/inline-formatting-context-010b.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/linebox/inline-formatting-context-010b.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
 - id: "6613"
