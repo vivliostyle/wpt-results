@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T09:02:48.071Z",
+  "generatedAt": "2026-05-12T17:29:06.654Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,29 +39,31 @@
   },
   "summary": {
     "totalEntries": 187,
-    "entriesWithDifferences": 101,
-    "entriesWithErrors": 0,
-    "timeoutEntries": 0,
+    "entriesWithDifferences": 100,
+    "entriesWithErrors": 1,
+    "timeoutEntries": 1,
     "pageCountMismatches": 0,
     "screenshotMismatches": 5,
     "outcomes": {
       "changeTypes": {
         "pass": 86,
         "expected-change": 5,
-        "known-fail": 96
+        "known-fail": 95,
+        "error": 1
       },
       "statusPairs": {
         "PASS->PASS": 91,
-        "FAIL->FAIL": 96
+        "FAIL->FAIL": 95,
+        "FAIL->ERROR": 1
       }
     },
     "triage": {
       "differences": {
-        "pending": 101,
+        "pending": 100,
         "triaged": 0
       },
       "errors": {
-        "pending": 0,
+        "pending": 1,
         "triaged": 0
       },
       "pendingEntries": 101,
@@ -4431,9 +4433,9 @@
         "css/css-anchor-position/anchor-scroll-overflow-hidden.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "ERROR",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -4445,102 +4447,20 @@
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "difference": {
-        "classification": "known-fail",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 13560,
-                "diffRatio": 0.016172429585527823,
-                "exactDiffPixels": 14364,
-                "exactDiffRatio": 0.01713132585298832,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0069-WPT_reftest-css-css-anchor-position-anchor-scroll-overflow-hidden.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
           },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 13560,
-                "diffRatio": 0.016172429585527823,
-                "exactDiffPixels": 14364,
-                "exactDiffRatio": 0.01713132585298832,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0069-WPT_reftest-css-css-anchor-position-anchor-scroll-overflow-hidden.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "triage": {
+            "status": "pending",
+            "decision": ""
           }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
         }
-      }
+      ]
     },
     {
       "id": "0070",

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 471
-- Entries with differences: 208 (improvement: 5, pending: 203, triaged: 0)
+- Entries with differences: 209 (improvement: 6, pending: 203, triaged: 0)
 - Entries with errors: 4 (pending: 4, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 4
-- Outcome summary: {"known-fail":200,"pass":263,"regression":2,"improvement":5,"changed-fail":1}
+- Outcome summary: {"known-fail":201,"pass":262,"regression":2,"improvement":6}
 
 ## Differences
 
@@ -2279,15 +2279,6 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/bad-mask-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/bad-mask-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0356] [WPT reftest] css/css-masking/mask-image/mask-clip-2.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-masking/mask-image/mask-clip-2-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0359] [WPT reftest] css/css-masking/mask-image/mask-clip-5.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -2394,11 +2385,11 @@
 
 - [0379] [WPT reftest] css/css-masking/mask-image/mask-image-3d.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-image-3-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004637050606823906, diffPixels=3888
+  canary page 1: diffRatio=0.0016554079841233495, diffPixels=1388
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2482,6 +2473,24 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-cors-001.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-cors-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0400] [WPT reftest] css/css-masking/mask-image/mask-image-svg-loading-error.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-masking/mask-image/reference/mask-image-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-svg-loading-error.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/reference/mask-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0403] [WPT reftest] css/css-masking/mask-image/mask-image-url-image.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-masking/mask-image/reference/mask-image-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-url-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.007633005114113426, diffPixels=6400
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/reference/mask-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0404] [WPT reftest] css/css-masking/mask-image/mask-image-url-local-mask.html
   triage: pending

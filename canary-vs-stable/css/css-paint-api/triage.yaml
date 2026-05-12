@@ -2131,29 +2131,6 @@
       referenceFile: css/css-paint-api/two-element-one-custom-property-animation-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/two-element-one-custom-property-animation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0115"
-  category: WPT reftest
-  title: css/css-paint-api/valid-image-before-load.https.html
-  file: css/css-paint-api/valid-image-before-load.https.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/valid-image-before-load.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/valid-image-before-load.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-paint-api/valid-image-before-load-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-paint-api/valid-image-before-load-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-paint-api/valid-image-before-load-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/valid-image-before-load-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0070"
   category: WPT reftest
   title: css/css-paint-api/registered-property-interpolation-001.https.html
@@ -2203,8 +2180,15 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-003.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  errorName: TimeoutError
-  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+  sideErrors:
+    - side: canary
+      errorName: TimeoutError
+      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
+      timeout: true
+    - side: stable
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true
 - id: "0073"
   category: WPT reftest
   title: css/css-paint-api/registered-property-interpolation-004.https.html
@@ -2271,15 +2255,8 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-007.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
-      timeout: true
-    - side: stable
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
 - id: "0077"
   category: WPT reftest
   title: css/css-paint-api/registered-property-interpolation-008.https.html
@@ -2329,15 +2306,8 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-010.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
-      timeout: true
-    - side: stable
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
 - id: "0082"
   category: WPT reftest
   title: css/css-paint-api/registered-property-stylemap.https.html
@@ -2506,15 +2476,8 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/registered-property-value-008.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
-      timeout: true
-    - side: stable
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
 - id: "0092"
   category: WPT reftest
   title: css/css-paint-api/registered-property-value-009.https.html

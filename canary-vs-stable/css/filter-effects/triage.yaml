@@ -3630,15 +3630,8 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/filter-effects/reference/svg-relative-urls-002-ref.html
-  relation: "=="
   diffPages:
-    - css/filter-effects/reference/svg-relative-urls-002-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/filter-effects/reference/svg-relative-urls-002-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - 1
 - id: "0267"
   category: WPT reftest
   title: css/filter-effects/svg-sourcegraphic-currentcolor-dynamic-001.html

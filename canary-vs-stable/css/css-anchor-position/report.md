@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 187
-- Entries with differences: 101 (pending: 101, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 100 (pending: 100, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 5
-- Outcome summary: {"pass":86,"expected-change":5,"known-fail":96}
+- Outcome summary: {"pass":86,"expected-change":5,"known-fail":95,"error":1}
 
 ## Differences
 
@@ -394,19 +394,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.016036466681932676, diffPixels=13446
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0069] [WPT reftest] css/css-anchor-position/anchor-scroll-overflow-hidden.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.016172429585527823, diffPixels=13560
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.016172429585527823, diffPixels=13560
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0070] [WPT reftest] css/css-anchor-position/anchor-scroll-position-try-012.html
   triage: pending
@@ -1310,4 +1297,14 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/under-invalidation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.006765943439432104, diffPixels=5673
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0069] [WPT reftest] css/css-anchor-position/anchor-scroll-overflow-hidden.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

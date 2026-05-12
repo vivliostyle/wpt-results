@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T10:50:26.884Z",
+  "generatedAt": "2026-05-12T19:26:18.711Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -38,32 +38,32 @@
     "timeoutMs": 10000
   },
   "summary": {
-    "totalEntries": 106,
-    "entriesWithDifferences": 69,
+    "totalEntries": 126,
+    "entriesWithDifferences": 90,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 37,
-        "known-fail": 69
+        "pass": 36,
+        "known-fail": 90
       },
       "statusPairs": {
-        "PASS->PASS": 37,
-        "FAIL->FAIL": 69
+        "PASS->PASS": 36,
+        "FAIL->FAIL": 90
       }
     },
     "triage": {
       "differences": {
-        "pending": 69,
+        "pending": 90,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 69,
+      "pendingEntries": 90,
       "triagedEntries": 0
     }
   },
@@ -7853,10 +7853,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 751,
-                "diffRatio": 0.0008956854438592474,
-                "exactDiffPixels": 1299,
-                "exactDiffRatio": 0.0015492615067552095,
+                "diffPixels": 1133,
+                "diffRatio": 0.0013512804366078925,
+                "exactDiffPixels": 1936,
+                "exactDiffRatio": 0.0023089840470193117,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -7892,10 +7892,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 751,
-                "diffRatio": 0.0008956854438592474,
-                "exactDiffPixels": 1299,
-                "exactDiffRatio": 0.0015492615067552095,
+                "diffPixels": 1133,
+                "diffRatio": 0.0013512804366078925,
+                "exactDiffPixels": 1936,
+                "exactDiffRatio": 0.0023089840470193117,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -7972,10 +7972,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 10370,
-                "diffRatio": 0.012367853598961911,
-                "exactDiffPixels": 18719,
-                "exactDiffRatio": 0.022325347301732693,
+                "diffPixels": 15393,
+                "diffRatio": 0.01835856995649187,
+                "exactDiffPixels": 25040,
+                "exactDiffRatio": 0.029864132508968782,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -8011,10 +8011,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 10370,
-                "diffRatio": 0.012367853598961911,
-                "exactDiffPixels": 18719,
-                "exactDiffRatio": 0.022325347301732693,
+                "diffPixels": 15393,
+                "diffRatio": 0.01835856995649187,
+                "exactDiffPixels": 25040,
+                "exactDiffRatio": 0.029864132508968782,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -8041,9 +8041,9 @@
         "css/css-ruby/ruby-overhang-spaces-003.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-003.html",
-      "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -8054,7 +8054,103 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-003-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1380,
+                "diffRatio": 0.0016458667277307077,
+                "exactDiffPixels": 2260,
+                "exactDiffRatio": 0.002695404930921304,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0090-WPT_reftest-css-css-ruby-ruby-overhang-spaces-003.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-003-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1380,
+                "diffRatio": 0.0016458667277307077,
+                "exactDiffPixels": 2260,
+                "exactDiffRatio": 0.002695404930921304,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0090-WPT_reftest-css-css-ruby-ruby-overhang-spaces-003.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0091",
@@ -8114,10 +8210,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 490,
-                "diffRatio": 0.0005844019540493092,
-                "exactDiffPixels": 862,
-                "exactDiffRatio": 0.0010280703763071522,
+                "diffPixels": 710,
+                "diffRatio": 0.0008467865048469583,
+                "exactDiffPixels": 1270,
+                "exactDiffRatio": 0.001514674452331883,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -8153,10 +8249,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 490,
-                "diffRatio": 0.0005844019540493092,
-                "exactDiffPixels": 862,
-                "exactDiffRatio": 0.0010280703763071522,
+                "diffPixels": 710,
+                "diffRatio": 0.0008467865048469583,
+                "exactDiffPixels": 1270,
+                "exactDiffRatio": 0.001514674452331883,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -8201,6 +8297,2267 @@
     {
       "id": "0093",
       "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-006.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-006.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-006.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-006-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-006-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4168,
+                "diffRatio": 0.004970994580566369,
+                "exactDiffPixels": 7581,
+                "exactDiffRatio": 0.00904153308907717,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0093-WPT_reftest-css-css-ruby-ruby-overhang-spaces-006.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-006-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4168,
+                "diffRatio": 0.004970994580566369,
+                "exactDiffPixels": 7581,
+                "exactDiffRatio": 0.00904153308907717,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0093-WPT_reftest-css-css-ruby-ruby-overhang-spaces-006.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0094",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-007.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-007.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-007.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-006-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-006-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 3671,
+                "diffRatio": 0.004378244027173499,
+                "exactDiffPixels": 6684,
+                "exactDiffRatio": 0.00797171971605221,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0094-WPT_reftest-css-css-ruby-ruby-overhang-spaces-007.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-006-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 3671,
+                "diffRatio": 0.004378244027173499,
+                "exactDiffPixels": 6684,
+                "exactDiffRatio": 0.00797171971605221,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0094-WPT_reftest-css-css-ruby-ruby-overhang-spaces-007.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0095",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-008.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-008.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-008.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-008-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-008-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 690,
+                "diffRatio": 0.0008229333638653538,
+                "exactDiffPixels": 1130,
+                "exactDiffRatio": 0.001347702465460652,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0095-WPT_reftest-css-css-ruby-ruby-overhang-spaces-008.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-008-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 690,
+                "diffRatio": 0.0008229333638653538,
+                "exactDiffPixels": 1130,
+                "exactDiffRatio": 0.001347702465460652,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0095-WPT_reftest-css-css-ruby-ruby-overhang-spaces-008.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0096",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-009.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-009.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-009.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-009-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-009-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2081,
+                "diffRatio": 0.0024819193191359438,
+                "exactDiffPixels": 3801,
+                "exactDiffRatio": 0.004533289443553927,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0096-WPT_reftest-css-css-ruby-ruby-overhang-spaces-009.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-009-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2081,
+                "diffRatio": 0.0024819193191359438,
+                "exactDiffPixels": 3801,
+                "exactDiffRatio": 0.004533289443553927,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0096-WPT_reftest-css-css-ruby-ruby-overhang-spaces-009.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0097",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-010.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-010.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-010.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-010-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-010-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 843,
+                "diffRatio": 0.0010054098923746278,
+                "exactDiffPixels": 1398,
+                "exactDiffRatio": 0.0016673345546141516,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0097-WPT_reftest-css-css-ruby-ruby-overhang-spaces-010.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-010-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 843,
+                "diffRatio": 0.0010054098923746278,
+                "exactDiffPixels": 1398,
+                "exactDiffRatio": 0.0016673345546141516,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0097-WPT_reftest-css-css-ruby-ruby-overhang-spaces-010.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0098",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-011.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-011.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-011.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-011-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-011-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 5847,
+                "diffRatio": 0.006973465765972063,
+                "exactDiffPixels": 10621,
+                "exactDiffRatio": 0.012667210518281046,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0098-WPT_reftest-css-css-ruby-ruby-overhang-spaces-011.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-011-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 5847,
+                "diffRatio": 0.006973465765972063,
+                "exactDiffPixels": 10621,
+                "exactDiffRatio": 0.012667210518281046,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0098-WPT_reftest-css-css-ruby-ruby-overhang-spaces-011.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0099",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-012.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-012.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-012.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-012-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-012-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 6440,
+                "diffRatio": 0.007680711396076636,
+                "exactDiffPixels": 11534,
+                "exactDiffRatio": 0.01375610640409129,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0099-WPT_reftest-css-css-ruby-ruby-overhang-spaces-012.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-012-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 6440,
+                "diffRatio": 0.007680711396076636,
+                "exactDiffPixels": 11534,
+                "exactDiffRatio": 0.01375610640409129,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0099-WPT_reftest-css-css-ruby-ruby-overhang-spaces-012.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0100",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-013.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-013.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-013.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-013-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-013-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 785,
+                "diffRatio": 0.0009362357835279749,
+                "exactDiffPixels": 1298,
+                "exactDiffRatio": 0.0015480688497061293,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0100-WPT_reftest-css-css-ruby-ruby-overhang-spaces-013.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-013-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 785,
+                "diffRatio": 0.0009362357835279749,
+                "exactDiffPixels": 1298,
+                "exactDiffRatio": 0.0015480688497061293,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0100-WPT_reftest-css-css-ruby-ruby-overhang-spaces-013.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0101",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-014.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-014.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-014.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-014-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-014-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 3243,
+                "diffRatio": 0.0038677868101671628,
+                "exactDiffPixels": 5697,
+                "exactDiffRatio": 0.00679456720861003,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0101-WPT_reftest-css-css-ruby-ruby-overhang-spaces-014.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-014-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 3243,
+                "diffRatio": 0.0038677868101671628,
+                "exactDiffPixels": 5697,
+                "exactDiffRatio": 0.00679456720861003,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0101-WPT_reftest-css-css-ruby-ruby-overhang-spaces-014.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0102",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-015.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-015.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-015.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-015-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-015-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10289,
+                "diffRatio": 0.012271248377986413,
+                "exactDiffPixels": 17650,
+                "exactDiffRatio": 0.021050396916265934,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0102-WPT_reftest-css-css-ruby-ruby-overhang-spaces-015.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-015-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10289,
+                "diffRatio": 0.012271248377986413,
+                "exactDiffPixels": 17650,
+                "exactDiffRatio": 0.021050396916265934,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0102-WPT_reftest-css-css-ruby-ruby-overhang-spaces-015.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0103",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-align-001.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-align-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-001.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-align-001-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-align-001-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 411,
+                "diffRatio": 0.0004901820471719717,
+                "exactDiffPixels": 612,
+                "exactDiffRatio": 0.0007299061140370964,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0103-WPT_reftest-css-css-ruby-ruby-overhang-spaces-align-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-align-001-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 411,
+                "diffRatio": 0.0004901820471719717,
+                "exactDiffPixels": 612,
+                "exactDiffRatio": 0.0007299061140370964,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0103-WPT_reftest-css-css-ruby-ruby-overhang-spaces-align-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0104",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-align-002.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-align-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-002.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-align-001-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-align-001-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 441,
+                "diffRatio": 0.0005259617586443782,
+                "exactDiffPixels": 655,
+                "exactDiffRatio": 0.000781190367147546,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0104-WPT_reftest-css-css-ruby-ruby-overhang-spaces-align-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-align-001-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 441,
+                "diffRatio": 0.0005259617586443782,
+                "exactDiffPixels": 655,
+                "exactDiffRatio": 0.000781190367147546,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0104-WPT_reftest-css-css-ruby-ruby-overhang-spaces-align-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0105",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-align-003.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-align-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-003.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-align-003-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-align-003-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 468,
+                "diffRatio": 0.0005581634989695443,
+                "exactDiffPixels": 682,
+                "exactDiffRatio": 0.000813392107472712,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0105-WPT_reftest-css-css-ruby-ruby-overhang-spaces-align-003.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-align-003-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 468,
+                "diffRatio": 0.0005581634989695443,
+                "exactDiffPixels": 682,
+                "exactDiffRatio": 0.000813392107472712,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0105-WPT_reftest-css-css-ruby-ruby-overhang-spaces-align-003.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0106",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-align-004.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-align-004.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-004.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-align-003-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-align-003-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 468,
+                "diffRatio": 0.0005581634989695443,
+                "exactDiffPixels": 682,
+                "exactDiffRatio": 0.000813392107472712,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0106-WPT_reftest-css-css-ruby-ruby-overhang-spaces-align-004.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-align-003-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 468,
+                "diffRatio": 0.0005581634989695443,
+                "exactDiffPixels": 682,
+                "exactDiffRatio": 0.000813392107472712,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0106-WPT_reftest-css-css-ruby-ruby-overhang-spaces-align-004.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0107",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-align-005.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-align-005.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-005.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-align-005-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-align-005-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 411,
+                "diffRatio": 0.0004901820471719717,
+                "exactDiffPixels": 612,
+                "exactDiffRatio": 0.0007299061140370964,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0107-WPT_reftest-css-css-ruby-ruby-overhang-spaces-align-005.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-align-005-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 411,
+                "diffRatio": 0.0004901820471719717,
+                "exactDiffPixels": 612,
+                "exactDiffRatio": 0.0007299061140370964,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0107-WPT_reftest-css-css-ruby-ruby-overhang-spaces-align-005.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-align-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0108",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-non-bmp-001.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-non-bmp-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-non-bmp-001.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-non-bmp-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-non-bmp-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-non-bmp-001-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-non-bmp-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-non-bmp-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-non-bmp-001-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-non-bmp-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1476,
+                "diffRatio": 0.001760361804442409,
+                "exactDiffPixels": 2222,
+                "exactDiffRatio": 0.002650083963056255,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0108-WPT_reftest-css-css-ruby-ruby-overhang-spaces-non-bmp-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-non-bmp-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-non-bmp-001-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-non-bmp-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1476,
+                "diffRatio": 0.001760361804442409,
+                "exactDiffPixels": 2222,
+                "exactDiffRatio": 0.002650083963056255,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0108-WPT_reftest-css-css-ruby-ruby-overhang-spaces-non-bmp-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-non-bmp-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0109",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-vertical-001.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-vertical-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-001.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-vertical-001-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-vertical-001-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1991,
+                "diffRatio": 0.0023745801847187237,
+                "exactDiffPixels": 3407,
+                "exactDiffRatio": 0.004063382566216319,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0109-WPT_reftest-css-css-ruby-ruby-overhang-spaces-vertical-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-vertical-001-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1991,
+                "diffRatio": 0.0023745801847187237,
+                "exactDiffPixels": 3407,
+                "exactDiffRatio": 0.004063382566216319,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0109-WPT_reftest-css-css-ruby-ruby-overhang-spaces-vertical-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0110",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-vertical-002.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-vertical-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-002.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-vertical-002-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-vertical-002-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1638,
+                "diffRatio": 0.001953572246393405,
+                "exactDiffPixels": 2826,
+                "exactDiffRatio": 0.00337044882070071,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0110-WPT_reftest-css-css-ruby-ruby-overhang-spaces-vertical-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-vertical-002-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1638,
+                "diffRatio": 0.001953572246393405,
+                "exactDiffPixels": 2826,
+                "exactDiffRatio": 0.00337044882070071,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0110-WPT_reftest-css-css-ruby-ruby-overhang-spaces-vertical-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0111",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/ruby-overhang-spaces-vertical-003.html",
+      "file": [
+        "css/css-ruby/ruby-overhang-spaces-vertical-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-003.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ruby/ruby-overhang-spaces-vertical-003-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-vertical-003-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2059,
+                "diffRatio": 0.002455680864056179,
+                "exactDiffPixels": 3157,
+                "exactDiffRatio": 0.003765218303946264,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0111-WPT_reftest-css-css-ruby-ruby-overhang-spaces-vertical-003.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ruby/ruby-overhang-spaces-vertical-003-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2059,
+                "diffRatio": 0.002455680864056179,
+                "exactDiffPixels": 3157,
+                "exactDiffRatio": 0.003765218303946264,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0111-WPT_reftest-css-css-ruby-ruby-overhang-spaces-vertical-003.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0112",
+      "category": "WPT reftest",
       "title": "css/css-ruby/ruby-reflow-001-opaqueruby.html",
       "file": [
         "css/css-ruby/ruby-reflow-001-opaqueruby.html"
@@ -8222,7 +10579,7 @@
       ]
     },
     {
-      "id": "0094",
+      "id": "0113",
       "category": "WPT reftest",
       "title": "css/css-ruby/ruby-reflow-001-transparentruby.html",
       "file": [
@@ -8286,7 +10643,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0094-WPT_reftest-css-css-ruby-ruby-reflow-001-transparentruby.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0113-WPT_reftest-css-css-ruby-ruby-reflow-001-transparentruby.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8325,7 +10682,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0094-WPT_reftest-css-css-ruby-ruby-reflow-001-transparentruby.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0113-WPT_reftest-css-css-ruby-ruby-reflow-001-transparentruby.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8341,7 +10698,7 @@
       }
     },
     {
-      "id": "0095",
+      "id": "0114",
       "category": "WPT reftest",
       "title": "css/css-ruby/ruby-span-001.html",
       "file": [
@@ -8405,7 +10762,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0095-WPT_reftest-css-css-ruby-ruby-span-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0114-WPT_reftest-css-css-ruby-ruby-span-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8444,7 +10801,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0095-WPT_reftest-css-css-ruby-ruby-span-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0114-WPT_reftest-css-css-ruby-ruby-span-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8460,7 +10817,7 @@
       }
     },
     {
-      "id": "0096",
+      "id": "0115",
       "category": "WPT reftest",
       "title": "css/css-ruby/ruby-text-collapse.html",
       "file": [
@@ -8524,7 +10881,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0096-WPT_reftest-css-css-ruby-ruby-text-collapse.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0115-WPT_reftest-css-css-ruby-ruby-text-collapse.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8563,7 +10920,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0096-WPT_reftest-css-css-ruby-ruby-text-collapse.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0115-WPT_reftest-css-css-ruby-ruby-text-collapse.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8579,7 +10936,7 @@
       }
     },
     {
-      "id": "0097",
+      "id": "0116",
       "category": "WPT reftest",
       "title": "css/css-ruby/ruby-text-combine-upright-001a.html",
       "file": [
@@ -8602,7 +10959,7 @@
       ]
     },
     {
-      "id": "0098",
+      "id": "0117",
       "category": "WPT reftest",
       "title": "css/css-ruby/ruby-text-combine-upright-001b.html",
       "file": [
@@ -8625,7 +10982,7 @@
       ]
     },
     {
-      "id": "0099",
+      "id": "0118",
       "category": "WPT reftest",
       "title": "css/css-ruby/ruby-text-combine-upright-002a.html",
       "file": [
@@ -8648,7 +11005,7 @@
       ]
     },
     {
-      "id": "0100",
+      "id": "0119",
       "category": "WPT reftest",
       "title": "css/css-ruby/ruby-text-combine-upright-002b.html",
       "file": [
@@ -8671,7 +11028,7 @@
       ]
     },
     {
-      "id": "0101",
+      "id": "0120",
       "category": "WPT reftest",
       "title": "css/css-ruby/ruby-text-dynamic-style.html",
       "file": [
@@ -8735,7 +11092,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0101-WPT_reftest-css-css-ruby-ruby-text-dynamic-style.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0120-WPT_reftest-css-css-ruby-ruby-text-dynamic-style.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8774,7 +11131,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0101-WPT_reftest-css-css-ruby-ruby-text-dynamic-style.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0120-WPT_reftest-css-css-ruby-ruby-text-dynamic-style.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8790,7 +11147,7 @@
       }
     },
     {
-      "id": "0102",
+      "id": "0121",
       "category": "WPT reftest",
       "title": "css/css-ruby/ruby-whitespace-001.html",
       "file": [
@@ -8854,7 +11211,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0102-WPT_reftest-css-css-ruby-ruby-whitespace-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0121-WPT_reftest-css-css-ruby-ruby-whitespace-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8893,7 +11250,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0102-WPT_reftest-css-css-ruby-ruby-whitespace-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0121-WPT_reftest-css-css-ruby-ruby-whitespace-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8909,7 +11266,7 @@
       }
     },
     {
-      "id": "0103",
+      "id": "0122",
       "category": "WPT reftest",
       "title": "css/css-ruby/ruby-whitespace-002.html",
       "file": [
@@ -8973,7 +11330,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0103-WPT_reftest-css-css-ruby-ruby-whitespace-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0122-WPT_reftest-css-css-ruby-ruby-whitespace-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9012,7 +11369,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0103-WPT_reftest-css-css-ruby-ruby-whitespace-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0122-WPT_reftest-css-css-ruby-ruby-whitespace-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9028,7 +11385,7 @@
       }
     },
     {
-      "id": "0104",
+      "id": "0123",
       "category": "WPT reftest",
       "title": "css/css-ruby/ruby-with-floats-001.html",
       "file": [
@@ -9051,7 +11408,7 @@
       ]
     },
     {
-      "id": "0105",
+      "id": "0124",
       "category": "WPT reftest",
       "title": "css/css-ruby/ruby-with-floats-002.html",
       "file": [
@@ -9074,7 +11431,7 @@
       ]
     },
     {
-      "id": "0106",
+      "id": "0125",
       "category": "WPT reftest",
       "title": "css/css-ruby/ruby-with-floats-003.html",
       "file": [
@@ -9095,6 +11452,125 @@
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-with-floats-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ]
+    },
+    {
+      "id": "0126",
+      "category": "WPT reftest",
+      "title": "css/css-ruby/whitespace-ruby-beside-float.html",
+      "file": [
+        "css/css-ruby/whitespace-ruby-beside-float.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ruby/whitespace-ruby-beside-float.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/whitespace-ruby-beside-float.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/whitespace-ruby-beside-float.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 20000,
+                "diffRatio": 0.02385314098160446,
+                "exactDiffPixels": 20000,
+                "exactDiffRatio": 0.02385314098160446,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0126-WPT_reftest-css-css-ruby-whitespace-ruby-beside-float.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 20000,
+                "diffRatio": 0.02385314098160446,
+                "exactDiffPixels": 20000,
+                "exactDiffRatio": 0.02385314098160446,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0126-WPT_reftest-css-css-ruby-whitespace-ruby-beside-float.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     }
   ]
 }

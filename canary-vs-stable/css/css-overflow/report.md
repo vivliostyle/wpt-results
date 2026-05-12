@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 494
-- Entries with differences: 316 (improvement: 1, pending: 315, triaged: 0)
+- Entries with differences: 317 (improvement: 2, pending: 315, triaged: 0)
 - Entries with errors: 4 (pending: 4, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 7
-- Outcome summary: {"known-fail":307,"pass":175,"changed-fail":4,"expected-change":2,"improvement":1,"error":3,"regression":2}
+- Screenshot mismatches: 6
+- Outcome summary: {"known-fail":308,"pass":174,"changed-fail":3,"expected-change":2,"improvement":2,"error":3,"regression":2}
 
 ## Differences
 
@@ -2773,16 +2773,12 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-img-scroll-non-replaced-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0350] [WPT reftest] css/css-overflow/overflow-replaced-element-002.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-overflow/overflow-replaced-element-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0000572475383558507, diffPixels=48
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00020036638424547745, diffPixels=168
+  stable page 1: diffRatio=0.0002588065796504084, diffPixels=217
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0354] [WPT reftest] css/css-overflow/overflow-video-hidden.html
@@ -3789,17 +3785,30 @@
   stable page 1: diffRatio=0.000027431112128845128, diffPixels=23
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-inline-targets-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0446] [WPT reftest] css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.003938153576062896, diffPixels=3302
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.003938153576062896, diffPixels=3302
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0447] [WPT reftest] css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003939346233111977, diffPixels=3303
+  canary page 1: diffRatio=0.003940538890161056, diffPixels=3304
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003939346233111977, diffPixels=3303
+  stable page 1: diffRatio=0.003940538890161056, diffPixels=3304
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0448] [WPT reftest] css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003.html
@@ -3808,11 +3817,11 @@
   reference: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003975125944584383, diffPixels=3333
+  canary page 1: diffRatio=0.0002134856117853599, diffPixels=179
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003975125944584383, diffPixels=3333
+  stable page 1: diffRatio=0.0002134856117853599, diffPixels=179
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0449] [WPT reftest] css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004.html
@@ -3821,11 +3830,11 @@
   reference: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003977511258682544, diffPixels=3335
+  canary page 1: diffRatio=0.003975125944584383, diffPixels=3333
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003977511258682544, diffPixels=3335
+  stable page 1: diffRatio=0.003975125944584383, diffPixels=3333
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0456] [WPT reftest] css/css-overflow/scrollbar-gutter-002.html

@@ -804,33 +804,6 @@
       referenceFile: css/css-anchor-position/reference/anchor-scroll-nested-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0069"
-  category: WPT reftest
-  title: css/css-anchor-position/anchor-scroll-overflow-hidden.html
-  file: css/css-anchor-position/anchor-scroll-overflow-hidden.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0070"
   category: WPT reftest
   title: css/css-anchor-position/anchor-scroll-position-try-012.html
@@ -2724,3 +2697,20 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0069"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-overflow-hidden.html
+  file: css/css-anchor-position/anchor-scroll-overflow-hidden.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

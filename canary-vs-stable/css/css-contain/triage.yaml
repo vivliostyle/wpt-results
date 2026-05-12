@@ -889,7 +889,7 @@
       referenceFile: css/css-contain/reference/contain-layout-cell-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-layout-cell-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0095"
+- id: "0096"
   category: WPT reftest
   title: css/css-contain/contain-layout-dynamic-004.html
   file: css/css-contain/contain-layout-dynamic-004.html
@@ -916,7 +916,7 @@
       referenceFile: css/css-contain/contain-layout-dynamic-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-layout-dynamic-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0096"
+- id: "0097"
   category: WPT reftest
   title: css/css-contain/contain-layout-dynamic-005.html
   file: css/css-contain/contain-layout-dynamic-005.html
@@ -943,7 +943,7 @@
       referenceFile: css/css-contain/contain-layout-dynamic-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-layout-dynamic-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0098"
+- id: "0099"
   category: WPT reftest
   title: css/css-contain/contain-layout-formatting-context-float-001.html
   file: css/css-contain/contain-layout-formatting-context-float-001.html
@@ -970,7 +970,7 @@
       referenceFile: css/css-contain/contain-paint-formatting-context-float-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-paint-formatting-context-float-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0119"
+- id: "0120"
   category: WPT reftest
   title: css/css-contain/contain-layout-select-001.tentative.html
   file: css/css-contain/contain-layout-select-001.tentative.html
@@ -997,7 +997,7 @@
       referenceFile: css/css-contain/reference/contain-layout-select-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-layout-select-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0154"
+- id: "0155"
   category: WPT reftest
   title: css/css-contain/contain-paint-change-opacity.html
   file: css/css-contain/contain-paint-change-opacity.html
@@ -1024,7 +1024,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0169"
+- id: "0170"
   category: WPT reftest
   title: css/css-contain/contain-paint-clip-019.html
   file: css/css-contain/contain-paint-clip-019.html
@@ -1056,7 +1056,7 @@
       referenceFile: css/css-contain/reference/contain-paint-clip-019-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-paint-clip-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0172"
+- id: "0173"
   category: WPT reftest
   title: css/css-contain/contain-paint-dynamic-002.html
   file: css/css-contain/contain-paint-dynamic-002.html
@@ -1083,7 +1083,7 @@
       referenceFile: css/css-contain/contain-paint-dynamic-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-paint-dynamic-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0174"
+- id: "0175"
   category: WPT reftest
   title: css/css-contain/contain-paint-dynamic-004.html
   file: css/css-contain/contain-paint-dynamic-004.html
@@ -1110,7 +1110,7 @@
       referenceFile: css/css-contain/contain-paint-dynamic-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-paint-dynamic-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0175"
+- id: "0176"
   category: WPT reftest
   title: css/css-contain/contain-paint-dynamic-005.html
   file: css/css-contain/contain-paint-dynamic-005.html
@@ -1137,7 +1137,7 @@
       referenceFile: css/css-contain/contain-paint-dynamic-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-paint-dynamic-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0176"
+- id: "0177"
   category: WPT reftest
   title: css/css-contain/contain-paint-formatting-context-float-001.html
   file: css/css-contain/contain-paint-formatting-context-float-001.html
@@ -1164,7 +1164,7 @@
       referenceFile: css/css-contain/contain-paint-formatting-context-float-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-paint-formatting-context-float-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0217"
+- id: "0218"
   category: WPT reftest
   title: css/css-contain/contain-size-052.html
   file: css/css-contain/contain-size-052.html
@@ -1191,7 +1191,7 @@
       referenceFile: css/css-contain/reference/contain-size-051-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-size-051-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0238"
+- id: "0239"
   category: WPT reftest
   title: css/css-contain/contain-size-flexbox-002.html
   file: css/css-contain/contain-size-flexbox-002.html
@@ -1218,7 +1218,21 @@
       referenceFile: css/css-contain/reference/contain-size-flexbox-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-size-flexbox-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0262"
+- id: "0260"
+  category: WPT reftest
+  title: css/css-contain/contain-size-replaced-003b.html
+  file: css/css-contain/contain-size-replaced-003b.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-size-replaced-003b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-size-replaced-003b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0263"
   category: WPT reftest
   title: css/css-contain/contain-size-replaced-005.html
   file: css/css-contain/contain-size-replaced-005.html
@@ -1234,7 +1248,7 @@
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-size-replaced-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
-- id: "0280"
+- id: "0281"
   category: WPT reftest
   title: css/css-contain/contain-strict-011.html
   file: css/css-contain/contain-strict-011.html
@@ -1261,7 +1275,7 @@
       referenceFile: css/css-contain/reference/contain-strict-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-strict-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0287"
+- id: "0288"
   category: WPT reftest
   title: css/css-contain/contain-style-counters-001.html
   file: css/css-contain/contain-style-counters-001.html
@@ -1288,7 +1302,7 @@
       referenceFile: css/css-contain/reference/contain-style-counters-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-counters-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0289"
+- id: "0290"
   category: WPT reftest
   title: css/css-contain/contain-style-counters-003.html
   file: css/css-contain/contain-style-counters-003.html
@@ -1315,7 +1329,7 @@
       referenceFile: css/css-contain/reference/contain-style-counters-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-counters-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0290"
+- id: "0291"
   category: WPT reftest
   title: css/css-contain/contain-style-counters-004.html
   file: css/css-contain/contain-style-counters-004.html
@@ -1342,7 +1356,7 @@
       referenceFile: css/css-contain/reference/contain-style-counters-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-counters-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0291"
+- id: "0292"
   category: WPT reftest
   title: css/css-contain/contain-style-counters-005.html
   file: css/css-contain/contain-style-counters-005.html
@@ -1369,7 +1383,7 @@
       referenceFile: css/css-contain/reference/contain-style-counters-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-counters-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0294"
+- id: "0295"
   category: WPT reftest
   title: css/css-contain/contain-style-ol-ordinal-pseudo-reversed.html
   file: css/css-contain/contain-style-ol-ordinal-pseudo-reversed.html
@@ -1396,7 +1410,7 @@
       referenceFile: css/css-contain/reference/contain-style-ol-ordinal-pseudo-reversed-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-pseudo-reversed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0295"
+- id: "0296"
   category: WPT reftest
   title: css/css-contain/contain-style-ol-ordinal-pseudo.html
   file: css/css-contain/contain-style-ol-ordinal-pseudo.html
@@ -1423,7 +1437,7 @@
       referenceFile: css/css-contain/reference/contain-style-ol-ordinal-pseudo-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-pseudo-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0296"
+- id: "0297"
   category: WPT reftest
   title: css/css-contain/contain-style-ol-ordinal-reversed.html
   file: css/css-contain/contain-style-ol-ordinal-reversed.html
@@ -1450,7 +1464,7 @@
       referenceFile: css/css-contain/reference/contain-style-ol-ordinal-reversed-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-reversed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0297"
+- id: "0298"
   category: WPT reftest
   title: css/css-contain/contain-style-ol-ordinal-start-reversed.html
   file: css/css-contain/contain-style-ol-ordinal-start-reversed.html
@@ -1477,7 +1491,7 @@
       referenceFile: css/css-contain/reference/contain-style-ol-ordinal-start-reversed-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-start-reversed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0298"
+- id: "0299"
   category: WPT reftest
   title: css/css-contain/contain-style-ol-ordinal-start.html
   file: css/css-contain/contain-style-ol-ordinal-start.html
@@ -1504,7 +1518,7 @@
       referenceFile: css/css-contain/reference/contain-style-ol-ordinal-start-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-start-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0299"
+- id: "0300"
   category: WPT reftest
   title: css/css-contain/contain-style-ol-ordinal.html
   file: css/css-contain/contain-style-ol-ordinal.html
@@ -1531,7 +1545,7 @@
       referenceFile: css/css-contain/reference/contain-style-ol-ordinal-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0303"
+- id: "0304"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-002.html
   file: css/css-contain/content-visibility/content-visibility-002.html
@@ -1558,7 +1572,7 @@
       referenceFile: css/css-contain/content-visibility/container-with-child-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0306"
+- id: "0307"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-005.html
   file: css/css-contain/content-visibility/content-visibility-005.html
@@ -1585,7 +1599,7 @@
       referenceFile: css/css-contain/content-visibility/container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0307"
+- id: "0308"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-006.html
   file: css/css-contain/content-visibility/content-visibility-006.html
@@ -1612,7 +1626,7 @@
       referenceFile: css/css-contain/content-visibility/container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0308"
+- id: "0309"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-007.html
   file: css/css-contain/content-visibility/content-visibility-007.html
@@ -1639,7 +1653,7 @@
       referenceFile: css/css-contain/content-visibility/container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0309"
+- id: "0310"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-008.html
   file: css/css-contain/content-visibility/content-visibility-008.html
@@ -1666,7 +1680,7 @@
       referenceFile: css/css-contain/content-visibility/container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0310"
+- id: "0311"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-009.html
   file: css/css-contain/content-visibility/content-visibility-009.html
@@ -1693,7 +1707,7 @@
       referenceFile: css/css-contain/content-visibility/positioned-container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/positioned-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0311"
+- id: "0312"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-010.html
   file: css/css-contain/content-visibility/content-visibility-010.html
@@ -1720,7 +1734,7 @@
       referenceFile: css/css-contain/content-visibility/container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0312"
+- id: "0313"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-011.html
   file: css/css-contain/content-visibility/content-visibility-011.html
@@ -1747,7 +1761,7 @@
       referenceFile: css/css-contain/content-visibility/positioned-container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/positioned-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0313"
+- id: "0314"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-012.html
   file: css/css-contain/content-visibility/content-visibility-012.html
@@ -1774,7 +1788,7 @@
       referenceFile: css/css-contain/content-visibility/container-with-child-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0314"
+- id: "0315"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-013.html
   file: css/css-contain/content-visibility/content-visibility-013.html
@@ -1801,7 +1815,7 @@
       referenceFile: css/css-contain/content-visibility/container-with-child-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0315"
+- id: "0316"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-014.html
   file: css/css-contain/content-visibility/content-visibility-014.html
@@ -1828,7 +1842,7 @@
       referenceFile: css/css-contain/content-visibility/container-with-child-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0316"
+- id: "0317"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-019.sub.https.html
   file: css/css-contain/content-visibility/content-visibility-019.sub.https.html
@@ -1851,7 +1865,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-019-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0317"
+- id: "0318"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-020.html
   file: css/css-contain/content-visibility/content-visibility-020.html
@@ -1878,7 +1892,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-020-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0318"
+- id: "0319"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-021.html
   file: css/css-contain/content-visibility/content-visibility-021.html
@@ -1905,7 +1919,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-021-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0319"
+- id: "0320"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-022.html
   file: css/css-contain/content-visibility/content-visibility-022.html
@@ -1932,7 +1946,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-022-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0320"
+- id: "0321"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-023.html
   file: css/css-contain/content-visibility/content-visibility-023.html
@@ -1959,7 +1973,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-023-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0321"
+- id: "0322"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-024.html
   file: css/css-contain/content-visibility/content-visibility-024.html
@@ -1986,7 +2000,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-024-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0322"
+- id: "0323"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-025.html
   file: css/css-contain/content-visibility/content-visibility-025.html
@@ -2013,7 +2027,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-025-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0328"
+- id: "0329"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-037.html
   file: css/css-contain/content-visibility/content-visibility-037.html
@@ -2040,7 +2054,7 @@
       referenceFile: css/css-contain/content-visibility/container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0329"
+- id: "0330"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-040.html
   file: css/css-contain/content-visibility/content-visibility-040.html
@@ -2067,7 +2081,7 @@
       referenceFile: css/css-contain/content-visibility/container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0330"
+- id: "0331"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-041.html
   file: css/css-contain/content-visibility/content-visibility-041.html
@@ -2094,7 +2108,7 @@
       referenceFile: css/css-contain/content-visibility/container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0331"
+- id: "0332"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-042.html
   file: css/css-contain/content-visibility/content-visibility-042.html
@@ -2121,7 +2135,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-042-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-042-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0333"
+- id: "0334"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-045.html
   file: css/css-contain/content-visibility/content-visibility-045.html
@@ -2148,7 +2162,7 @@
       referenceFile: css/css-contain/content-visibility/container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0336"
+- id: "0337"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-051.html
   file: css/css-contain/content-visibility/content-visibility-051.html
@@ -2175,7 +2189,7 @@
       referenceFile: css/css-contain/content-visibility/container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0337"
+- id: "0338"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-052.html
   file: css/css-contain/content-visibility/content-visibility-052.html
@@ -2202,7 +2216,7 @@
       referenceFile: css/css-contain/content-visibility/container-with-pos-children-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-pos-children-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0339"
+- id: "0340"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-056.html
   file: css/css-contain/content-visibility/content-visibility-056.html
@@ -2229,7 +2243,7 @@
       referenceFile: css/css-contain/content-visibility/spacer-and-container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-and-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0340"
+- id: "0341"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-057.html
   file: css/css-contain/content-visibility/content-visibility-057.html
@@ -2256,7 +2270,7 @@
       referenceFile: css/css-contain/content-visibility/container-with-child-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0342"
+- id: "0343"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-060.html
   file: css/css-contain/content-visibility/content-visibility-060.html
@@ -2283,7 +2297,7 @@
       referenceFile: css/css-contain/content-visibility/spacer-and-container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-and-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0343"
+- id: "0344"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-061.html
   file: css/css-contain/content-visibility/content-visibility-061.html
@@ -2310,7 +2324,7 @@
       referenceFile: css/css-contain/content-visibility/spacer-and-container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-and-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0344"
+- id: "0345"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-062.html
   file: css/css-contain/content-visibility/content-visibility-062.html
@@ -2337,7 +2351,7 @@
       referenceFile: css/css-contain/content-visibility/spacer-and-container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-and-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0345"
+- id: "0346"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-063.html
   file: css/css-contain/content-visibility/content-visibility-063.html
@@ -2364,7 +2378,7 @@
       referenceFile: css/css-contain/content-visibility/spacer-and-container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-and-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0347"
+- id: "0348"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-065.html
   file: css/css-contain/content-visibility/content-visibility-065.html
@@ -2391,7 +2405,7 @@
       referenceFile: css/css-contain/content-visibility/spacer-and-container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-and-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0348"
+- id: "0349"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-066.html
   file: css/css-contain/content-visibility/content-visibility-066.html
@@ -2418,7 +2432,7 @@
       referenceFile: css/css-contain/content-visibility/spacer-and-container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-and-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0349"
+- id: "0350"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-067.html
   file: css/css-contain/content-visibility/content-visibility-067.html
@@ -2445,7 +2459,7 @@
       referenceFile: css/css-contain/content-visibility/spacer-and-container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-and-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0350"
+- id: "0351"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-073.html
   file: css/css-contain/content-visibility/content-visibility-073.html
@@ -2472,7 +2486,7 @@
       referenceFile: css/css-contain/content-visibility/inline-container-with-child-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/inline-container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0352"
+- id: "0353"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-075.html
   file: css/css-contain/content-visibility/content-visibility-075.html
@@ -2511,7 +2525,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-075-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-075-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0354"
+- id: "0355"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-078.html
   file: css/css-contain/content-visibility/content-visibility-078.html
@@ -2538,7 +2552,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-078-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-078-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0359"
+- id: "0360"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-085.html
   file: css/css-contain/content-visibility/content-visibility-085.html
@@ -2565,7 +2579,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0360"
+- id: "0361"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-094.html
   file: css/css-contain/content-visibility/content-visibility-094.html
@@ -2592,7 +2606,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-094-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-094-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0361"
+- id: "0362"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-095.html
   file: css/css-contain/content-visibility/content-visibility-095.html
@@ -2619,7 +2633,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-095-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-095-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0366"
+- id: "0367"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-animation-and-scroll.html
   file: css/css-contain/content-visibility/content-visibility-animation-and-scroll.html
@@ -2646,7 +2660,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-animation-and-scroll-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-animation-and-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0367"
+- id: "0368"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-animation-becomes-visible.html
   file: css/css-contain/content-visibility/content-visibility-animation-becomes-visible.html
@@ -2673,7 +2687,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-animation-becomes-visible-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-animation-becomes-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0373"
+- id: "0374"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-auto-svg-image.html
   file: css/css-contain/content-visibility/content-visibility-auto-svg-image.html
@@ -2700,7 +2714,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-auto-svg-image-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-auto-svg-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0375"
+- id: "0376"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-canvas.html
   file: css/css-contain/content-visibility/content-visibility-canvas.html
@@ -2727,7 +2741,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-canvas-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-canvas-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0377"
+- id: "0378"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-hidden-and-innertext.html
   file: css/css-contain/content-visibility/content-visibility-hidden-and-innertext.html
@@ -2754,7 +2768,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-hidden-and-innertext-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-hidden-and-innertext-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0379"
+- id: "0380"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-intrinsic-size-001.html
   file: css/css-contain/content-visibility/content-visibility-intrinsic-size-001.html
@@ -2788,7 +2802,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-intrinsic-size-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-intrinsic-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0381"
+- id: "0382"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-on-g.html
   file: css/css-contain/content-visibility/content-visibility-on-g.html
@@ -2815,7 +2829,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-on-g-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-on-g-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0385"
+- id: "0386"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-paint-containment-002.html
   file: css/css-contain/content-visibility/content-visibility-paint-containment-002.html
@@ -2842,7 +2856,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-paint-containment-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-paint-containment-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0386"
+- id: "0387"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-paint-containment-003.html
   file: css/css-contain/content-visibility/content-visibility-paint-containment-003.html
@@ -2869,7 +2883,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-paint-containment-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-paint-containment-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0389"
+- id: "0390"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-video.html
   file: css/css-contain/content-visibility/content-visibility-video.html
@@ -2896,7 +2910,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-video-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0393"
+- id: "0394"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-popover-top-layer-001.html
   file: css/css-contain/content-visibility/content-visibility-with-popover-top-layer-001.html
@@ -2928,7 +2942,7 @@
       referenceFile: css/css-contain/content-visibility/container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0394"
+- id: "0395"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-popover-top-layer-002.html
   file: css/css-contain/content-visibility/content-visibility-with-popover-top-layer-002.html
@@ -2960,7 +2974,7 @@
       referenceFile: css/css-contain/content-visibility/container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0396"
+- id: "0397"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-popover-top-layer-004.html
   file: css/css-contain/content-visibility/content-visibility-with-popover-top-layer-004.html
@@ -2994,7 +3008,7 @@
       referenceFile: css/css-contain/content-visibility/spacer-with-popover-top-layer-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-with-popover-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0397"
+- id: "0398"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-popover-top-layer-005.html
   file: css/css-contain/content-visibility/content-visibility-with-popover-top-layer-005.html
@@ -3022,7 +3036,7 @@
       referenceFile: css/css-contain/content-visibility/spacer-with-popover-top-layer-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-with-popover-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0398"
+- id: "0399"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-popover-top-layer-and-auto-descendant.html
   file: css/css-contain/content-visibility/content-visibility-with-popover-top-layer-and-auto-descendant.html
@@ -3049,7 +3063,7 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-with-popover-top-layer-and-auto-descendant-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-popover-top-layer-and-auto-descendant-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0399"
+- id: "0400"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-popover-top-layer-hide-after-addition.html
   file: css/css-contain/content-visibility/content-visibility-with-popover-top-layer-hide-after-addition.html
@@ -3081,7 +3095,7 @@
       referenceFile: css/css-contain/content-visibility/container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0401"
+- id: "0402"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-top-layer-001.html
   file: css/css-contain/content-visibility/content-visibility-with-top-layer-001.html
@@ -3108,7 +3122,7 @@
       referenceFile: css/css-contain/content-visibility/container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0402"
+- id: "0403"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-top-layer-002.html
   file: css/css-contain/content-visibility/content-visibility-with-top-layer-002.html
@@ -3135,7 +3149,7 @@
       referenceFile: css/css-contain/content-visibility/container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0403"
+- id: "0404"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-top-layer-003.html
   file: css/css-contain/content-visibility/content-visibility-with-top-layer-003.html
@@ -3162,7 +3176,7 @@
       referenceFile: css/css-contain/content-visibility/content-with-top-layer-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-with-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0407"
+- id: "0408"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-top-layer-hide-after-addition.html
   file: css/css-contain/content-visibility/content-visibility-with-top-layer-hide-after-addition.html
@@ -3189,7 +3203,7 @@
       referenceFile: css/css-contain/content-visibility/container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0408"
+- id: "0409"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-top-layer-in-auto-subtree-removal.html
   file: css/css-contain/content-visibility/content-visibility-with-top-layer-in-auto-subtree-removal.html
@@ -3216,7 +3230,7 @@
       referenceFile: css/css-contain/content-visibility/container-with-child-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0409"
+- id: "0410"
   category: WPT reftest
   title: css/css-contain/content-visibility/dynamic-change-paint-fully-obscuring-child-001.html
   file: css/css-contain/content-visibility/dynamic-change-paint-fully-obscuring-child-001.html
@@ -3243,7 +3257,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0410"
+- id: "0411"
   category: WPT reftest
   title: css/css-contain/content-visibility/dynamic-change-with-slotted-text.html
   file: css/css-contain/content-visibility/dynamic-change-with-slotted-text.html
@@ -3270,7 +3284,7 @@
       referenceFile: css/css-contain/content-visibility/dynamic-change-with-slotted-text-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/dynamic-change-with-slotted-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0413"
+- id: "0414"
   category: WPT reftest
   title: css/css-contain/content-visibility/scrollIntoView-target-with-contents-hidden.html
   file: css/css-contain/content-visibility/scrollIntoView-target-with-contents-hidden.html
@@ -3302,7 +3316,7 @@
       referenceFile: css/css-contain/content-visibility/scrollIntoView-target-with-contents-hidden-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/scrollIntoView-target-with-contents-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0414"
+- id: "0415"
   category: WPT reftest
   title: css/css-contain/content-visibility/scrollIntoView-with-focus-target-with-contents-hidden.html
   file: css/css-contain/content-visibility/scrollIntoView-with-focus-target-with-contents-hidden.html
@@ -3334,7 +3348,7 @@
       referenceFile: css/css-contain/content-visibility/scrollIntoView-with-focus-target-with-contents-hidden-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/scrollIntoView-with-focus-target-with-contents-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0415"
+- id: "0416"
   category: WPT reftest
   title: css/css-contain/counter-scoping-001.html
   file: css/css-contain/counter-scoping-001.html
@@ -3361,7 +3375,7 @@
       referenceFile: css/css-contain/reference/counter-scoping-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/counter-scoping-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0416"
+- id: "0417"
   category: WPT reftest
   title: css/css-contain/counter-scoping-002.html
   file: css/css-contain/counter-scoping-002.html
@@ -3388,7 +3402,7 @@
       referenceFile: css/css-contain/reference/counter-scoping-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/counter-scoping-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0417"
+- id: "0418"
   category: WPT reftest
   title: css/css-contain/counter-scoping-003.html
   file: css/css-contain/counter-scoping-003.html
@@ -3415,7 +3429,7 @@
       referenceFile: css/css-contain/reference/counter-scoping-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/counter-scoping-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0418"
+- id: "0419"
   category: WPT reftest
   title: css/css-contain/counter-scoping-004.html
   file: css/css-contain/counter-scoping-004.html
@@ -3442,7 +3456,7 @@
       referenceFile: css/css-contain/reference/counter-scoping-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/counter-scoping-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0419"
+- id: "0420"
   category: WPT reftest
   title: css/css-contain/quote-scoping-001.html
   file: css/css-contain/quote-scoping-001.html
@@ -3469,7 +3483,7 @@
       referenceFile: css/css-contain/reference/quote-scoping-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/quote-scoping-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0421"
+- id: "0422"
   category: WPT reftest
   title: css/css-contain/quote-scoping-003.html
   file: css/css-contain/quote-scoping-003.html
@@ -3496,7 +3510,7 @@
       referenceFile: css/css-contain/reference/quote-scoping-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/quote-scoping-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0424"
+- id: "0425"
   category: WPT reftest
   title: css/css-contain/quote-scoping-invalidation-001.html
   file: css/css-contain/quote-scoping-invalidation-001.html
@@ -3523,7 +3537,7 @@
       referenceFile: css/css-contain/reference/quote-scoping-invalidation-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/quote-scoping-invalidation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0426"
+- id: "0427"
   category: WPT reftest
   title: css/css-contain/quote-scoping-invalidation-003.html
   file: css/css-contain/quote-scoping-invalidation-003.html
@@ -3550,7 +3564,7 @@
       referenceFile: css/css-contain/reference/quote-scoping-invalidation-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/quote-scoping-invalidation-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0427"
+- id: "0428"
   category: WPT reftest
   title: css/css-contain/quote-scoping-invalidation-004.html
   file: css/css-contain/quote-scoping-invalidation-004.html
@@ -3577,7 +3591,7 @@
       referenceFile: css/css-contain/reference/quote-scoping-invalidation-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/quote-scoping-invalidation-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0335"
+- id: "0336"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-049.html
   file: css/css-contain/content-visibility/content-visibility-049.html
@@ -3595,13 +3609,20 @@
   sideErrors:
     - side: canary
       errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
       timeout: true
     - side: stable
       errorName: Error
-      errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
+      errorMessage: |
+        locator.screenshot: Protocol error (DOM.scrollIntoViewIfNeeded): Cannot find context with specified id
+        Call log:
+          - taking element screenshot
+          - waiting for fonts to load...
+          - fonts loaded
+          - attempting scroll into view action
+            - waiting for element to be stable
       timeout: false
-- id: "0338"
+- id: "0339"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-055.html
   file: css/css-contain/content-visibility/content-visibility-055.html
@@ -3616,16 +3637,9 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-055.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
-    - side: stable
-      errorName: Error
-      errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
-      timeout: false
-- id: "0353"
+  errorName: Error
+  errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
+- id: "0354"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-076.html
   file: css/css-contain/content-visibility/content-visibility-076.html
@@ -3640,20 +3654,9 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-076.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: Error
-      errorMessage: |-
-        page.evaluate: Error: Could not detect total pages (no spread container found).
-            at eval (eval at evaluate (:302:30), <anonymous>:10:11)
-            at UtilityScript.evaluate (<anonymous>:304:16)
-            at UtilityScript.<anonymous> (<anonymous>:1:44)
-      timeout: false
-    - side: stable
-      errorName: Error
-      errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
-      timeout: false
-- id: "0357"
+  errorName: Error
+  errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
+- id: "0358"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-083.html
   file: css/css-contain/content-visibility/content-visibility-083.html
@@ -3671,13 +3674,13 @@
   sideErrors:
     - side: canary
       errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
       timeout: true
     - side: stable
       errorName: Error
       errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
       timeout: false
-- id: "0358"
+- id: "0359"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-084.html
   file: css/css-contain/content-visibility/content-visibility-084.html
@@ -3701,7 +3704,7 @@
       errorName: Error
       errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
       timeout: false
-- id: "0404"
+- id: "0405"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-top-layer-004.html
   file: css/css-contain/content-visibility/content-visibility-with-top-layer-004.html
@@ -3718,7 +3721,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): navigating to page 2"
-- id: "0405"
+- id: "0406"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-top-layer-005.html
   file: css/css-contain/content-visibility/content-visibility-with-top-layer-005.html
@@ -3735,7 +3738,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): navigating to page 2"
-- id: "0406"
+- id: "0407"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-top-layer-and-auto-descendant.html
   file: css/css-contain/content-visibility/content-visibility-with-top-layer-and-auto-descendant.html

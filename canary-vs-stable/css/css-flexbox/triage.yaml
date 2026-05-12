@@ -2173,6 +2173,20 @@
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_box-clear.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
+- id: "0614"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox_flex-1-0-0-unitless.html
+  file: css/css-flexbox/flexbox_flex-1-0-0-unitless.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-1-0-0-unitless.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-1-0-0-unitless.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0722"
   category: WPT reftest
   title: css/css-flexbox/flexbox_order-box.html
@@ -2777,6 +2791,31 @@
       referenceFile: common/blank.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/common/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0615"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox_flex-1-0-0.html
+  file: css/css-flexbox/flexbox_flex-1-0-0.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-1-0-0.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-1-0-0.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary, canary-reference
+  sideErrors:
+    - side: canary
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true
+    - side: canary-reference
+      referenceFile: css/css-flexbox/flexbox_flex-1-0-0-ref.html
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true
 - id: "0858"
   category: WPT reftest
   title: css/css-flexbox/overflow-auto-005.html

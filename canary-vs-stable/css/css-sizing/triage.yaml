@@ -52,29 +52,6 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0230"
-  category: WPT reftest
-  title: css/css-sizing/aspect-ratio/replaced-element-012.html
-  file: css/css-sizing/aspect-ratio/replaced-element-012.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/reference/ref-filled-green-100px-square.xht
-  relation: "=="
-  diffPages:
-    - css/reference/ref-filled-green-100px-square.xht#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/reference/ref-filled-green-100px-square.xht
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0262"
   category: WPT reftest
   title: css/css-sizing/aspect-ratio/replaced-element-dynamic-aspect-ratio.html
@@ -1937,6 +1914,40 @@
       referenceFile: css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0300"
+  category: WPT reftest
+  title: css/css-sizing/box-sizing-replaced-002.xht
+  file: css/css-sizing/box-sizing-replaced-002.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0301"
+  category: WPT reftest
+  title: css/css-sizing/box-sizing-replaced-003.xht
+  file: css/css-sizing/box-sizing-replaced-003.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
 - id: "0496"
   category: WPT reftest
   title: css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-no-match-element.sub.tentative.html

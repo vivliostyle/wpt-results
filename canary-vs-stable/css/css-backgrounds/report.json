@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T09:11:13.198Z",
+  "generatedAt": "2026-05-12T17:38:02.731Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,35 +39,36 @@
   },
   "summary": {
     "totalEntries": 703,
-    "entriesWithDifferences": 226,
-    "entriesWithErrors": 2,
-    "timeoutEntries": 2,
+    "entriesWithDifferences": 228,
+    "entriesWithErrors": 3,
+    "timeoutEntries": 3,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 6,
+    "screenshotMismatches": 11,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 220,
-        "pass": 473,
-        "error": 2,
-        "changed-fail": 1,
-        "improvement": 5,
+        "known-fail": 217,
+        "pass": 470,
+        "error": 3,
+        "changed-fail": 3,
+        "improvement": 8,
         "unchanged": 2
       },
       "statusPairs": {
-        "FAIL->FAIL": 221,
-        "PASS->PASS": 473,
+        "FAIL->FAIL": 220,
+        "PASS->PASS": 470,
+        "FAIL->ERROR": 1,
         "ERROR->ERROR": 2,
-        "FAIL->PASS": 5,
+        "FAIL->PASS": 8,
         "MANUAL->MANUAL": 2
       }
     },
     "triage": {
       "differences": {
-        "pending": 221,
+        "pending": 220,
         "triaged": 0
       },
       "errors": {
-        "pending": 2,
+        "pending": 3,
         "triaged": 0
       },
       "pendingEntries": 223,
@@ -7123,9 +7124,9 @@
         "css/css-backgrounds/background-clip/clip-border-area-border-shape.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-border-shape.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "ERROR",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-border-shape.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-border-shape.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -7137,120 +7138,20 @@
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-border-shape-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "difference": {
-        "classification": "known-fail",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-backgrounds/background-clip/clip-border-area-border-shape-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-border-shape-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": {
-              "maxDifference": [
-                0,
-                50
-              ],
-              "totalPixels": [
-                0,
-                500
-              ]
-            },
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 24464,
-                "diffRatio": 0.029177162048698572,
-                "exactDiffPixels": 26654,
-                "exactDiffRatio": 0.031789080986184264,
-                "exceededDiffPixels": 26058,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0077-WPT_reftest-css-css-backgrounds-background-clip-clip-border-area-border-shape.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-border-shape-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
           },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-backgrounds/background-clip/clip-border-area-border-shape-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-border-shape-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": {
-              "maxDifference": [
-                0,
-                50
-              ],
-              "totalPixels": [
-                0,
-                500
-              ]
-            },
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 24464,
-                "diffRatio": 0.029177162048698572,
-                "exactDiffPixels": 26654,
-                "exactDiffRatio": 0.031789080986184264,
-                "exceededDiffPixels": 26058,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0077-WPT_reftest-css-css-backgrounds-background-clip-clip-border-area-border-shape.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-border-shape-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "triage": {
+            "status": "pending",
+            "decision": ""
           }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
         }
-      }
+      ]
     },
     {
       "id": "0078",
@@ -10316,7 +10217,7 @@
               "side": "stable",
               "error": {
                 "name": "TimeoutError",
-                "message": "locator.fill: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('#vivliostyle-page-number')\n    - locator resolved to <input type=\"text\" autocomplete=\"off\" inputmode=\"numeric\" aria-keyshortcuts=\"G\" title=\"Go to Page… (G)\" aria-label=\"Page number\" id=\"vivliostyle-page-number\" data-bind=\"value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}\"/>\n    - fill(\"1\")\n  - attempting fill action\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    20 × waiting for element to be visible, enabled and editable\n       - element is not visible\n     - retrying fill action\n       - waiting 500ms\n",
+                "message": "Timeout (10000ms): navigating to page 1",
                 "timeout": true
               }
             }
@@ -13317,8 +13218,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 46206,
                 "diffRatio": 0.05510791160980078,
-                "exactDiffPixels": 838464,
-                "exactDiffRatio": 1,
+                "exactDiffPixels": 50880,
+                "exactDiffRatio": 0.06068239065720174,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -25971,8 +25872,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 182784,
                 "diffRatio": 0.21799862605907946,
-                "exactDiffPixels": 836778,
-                "exactDiffRatio": 0.9979891802152507,
+                "exactDiffPixels": 182784,
+                "exactDiffRatio": 0.21799862605907946,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -30212,9 +30113,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-backgrounds/border-image-002.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
-      "viewerChanged": false,
+      "baselineStatus": "FAIL",
+      "changeType": "improvement",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -30224,7 +30125,80 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 9600,
+            "diffRatio": 0.01144950767117014,
+            "exactDiffPixels": 9600,
+            "exactDiffRatio": 0.01144950767117014,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0511-WPT_reftest-css-css-backgrounds-border-image-002.html-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-backgrounds/reference/ref-filled-green-100px-square.xht",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 9600,
+                "diffRatio": 0.01144950767117014,
+                "exactDiffPixels": 9600,
+                "exactDiffRatio": 0.01144950767117014,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0511-WPT_reftest-css-css-backgrounds-border-image-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0512",
@@ -30469,9 +30443,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-backgrounds/border-image-017.xht",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
-      "viewerChanged": false,
+      "baselineStatus": "FAIL",
+      "changeType": "improvement",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-017.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-017.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -30481,7 +30455,80 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 7500,
+            "diffRatio": 0.008944927868101672,
+            "exactDiffPixels": 7500,
+            "exactDiffRatio": 0.008944927868101672,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0519-WPT_reftest-css-css-backgrounds-border-image-017.xht-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 7500,
+                "diffRatio": 0.008944927868101672,
+                "exactDiffPixels": 7500,
+                "exactDiffRatio": 0.008944927868101672,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0519-WPT_reftest-css-css-backgrounds-border-image-017.xht-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0520",
@@ -30630,9 +30677,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-backgrounds/border-image-image-type-001.htm",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
-      "viewerChanged": false,
+      "baselineStatus": "FAIL",
+      "changeType": "improvement",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-image-type-001.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-image-type-001.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -30642,7 +30689,89 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-image-type-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-image-type-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 29696,
+            "diffRatio": 0.035417143729486296,
+            "exactDiffPixels": 30000,
+            "exactDiffRatio": 0.03577971147240669,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0526-WPT_reftest-css-css-backgrounds-border-image-image-type-001.htm-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-backgrounds/reference/border-image-image-type-001-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-image-type-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                64
+              ],
+              "totalPixels": [
+                0,
+                400
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 29600,
+                "diffRatio": 0.0353026486527746,
+                "exactDiffPixels": 30000,
+                "exactDiffRatio": 0.03577971147240669,
+                "exceededDiffPixels": 30000,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0526-WPT_reftest-css-css-backgrounds-border-image-image-type-001.htm-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-image-type-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0527",
@@ -30883,9 +31012,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-backgrounds/border-image-repeat-repeat-001.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
-      "viewerChanged": false,
+      "baselineStatus": "FAIL",
+      "changeType": "improvement",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -30895,7 +31024,80 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 45000,
+            "diffRatio": 0.053669567208610026,
+            "exactDiffPixels": 45000,
+            "exactDiffRatio": 0.053669567208610026,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0537-WPT_reftest-css-css-backgrounds-border-image-repeat-repeat-001.html-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-backgrounds/reference/border-image-repeat-repeat-001-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 45000,
+                "diffRatio": 0.053669567208610026,
+                "exactDiffPixels": 45000,
+                "exactDiffRatio": 0.053669567208610026,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0537-WPT_reftest-css-css-backgrounds-border-image-repeat-repeat-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0538",
@@ -30907,8 +31109,8 @@
       "sourceUrl": "https://wpt.live/css/css-backgrounds/border-image-repeat-round-003.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "changed-fail",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-round-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-round-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -30920,7 +31122,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "changed-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -30929,7 +31131,23 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 173952,
+            "diffRatio": 0.20746507900160294,
+            "exactDiffPixels": 173952,
+            "exactDiffRatio": 0.20746507900160294,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0538-WPT_reftest-css-css-backgrounds-border-image-repeat-round-003.html-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -30994,10 +31212,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 111007,
-                "diffRatio": 0.1323932810472483,
-                "exactDiffPixels": 111007,
-                "exactDiffRatio": 0.1323932810472483,
+                "diffPixels": 173952,
+                "diffRatio": 0.20746507900160294,
+                "exactDiffPixels": 173952,
+                "exactDiffRatio": 0.20746507900160294,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -31420,9 +31638,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-backgrounds/border-image-repeat-space-6.html",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -31432,80 +31650,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 696,
-            "diffRatio": 0.0008300893061598351,
-            "exactDiffPixels": 704,
-            "exactDiffRatio": 0.0008396305625524769,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0552-WPT_reftest-css-css-backgrounds-border-image-repeat-space-6.html-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-backgrounds/border-image-repeat-space-6-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 696,
-                "diffRatio": 0.0008300893061598351,
-                "exactDiffPixels": 704,
-                "exactDiffRatio": 0.0008396305625524769,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0552-WPT_reftest-css-css-backgrounds-border-image-repeat-space-6.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0553",
@@ -31750,9 +31895,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-backgrounds/border-image-shorthand-002.htm",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-shorthand-002.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-shorthand-002.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -31762,80 +31907,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-shorthand-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-shorthand-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 19200,
-            "diffRatio": 0.02289901534234028,
-            "exactDiffPixels": 19200,
-            "exactDiffRatio": 0.02289901534234028,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0559-WPT_reftest-css-css-backgrounds-border-image-shorthand-002.htm-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-backgrounds/reference/border-image-shorthand-002-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-shorthand-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 19200,
-                "diffRatio": 0.02289901534234028,
-                "exactDiffPixels": 19200,
-                "exactDiffRatio": 0.02289901534234028,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0559-WPT_reftest-css-css-backgrounds-border-image-shorthand-002.htm-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-shorthand-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0560",
@@ -32130,9 +32202,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-backgrounds/border-image-slice-005.htm",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
-      "viewerChanged": false,
+      "baselineStatus": "FAIL",
+      "changeType": "improvement",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-slice-005.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-slice-005.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -32142,7 +32214,89 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-image-slice-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-slice-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 17680,
+            "diffRatio": 0.021086176627738342,
+            "exactDiffPixels": 18800,
+            "exactDiffRatio": 0.02242195252270819,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0565-WPT_reftest-css-css-backgrounds-border-image-slice-005.htm-p0001.png"
+          }
+        ],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-backgrounds/reference/border-image-slice-005-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-slice-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                92
+              ],
+              "totalPixels": [
+                0,
+                5314
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 18240,
+                "diffRatio": 0.021754064575223265,
+                "exactDiffPixels": 18240,
+                "exactDiffRatio": 0.021754064575223265,
+                "exceededDiffPixels": 18240,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0565-WPT_reftest-css-css-backgrounds-border-image-slice-005.htm-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-slice-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0566",
@@ -32512,8 +32666,8 @@
       "sourceUrl": "https://wpt.live/css/css-backgrounds/border-image-width-009.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "changed-fail",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-width-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-width-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -32525,7 +32679,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "changed-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -32534,7 +32688,23 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 40000,
+            "diffRatio": 0.04770628196320892,
+            "exactDiffPixels": 40000,
+            "exactDiffRatio": 0.04770628196320892,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0578-WPT_reftest-css-css-backgrounds-border-image-width-009.html-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -32599,10 +32769,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 8800,
-                "diffRatio": 0.010495382031905962,
-                "exactDiffPixels": 8800,
-                "exactDiffRatio": 0.010495382031905962,
+                "diffPixels": 40000,
+                "diffRatio": 0.04770628196320892,
+                "exactDiffPixels": 40000,
+                "exactDiffRatio": 0.04770628196320892,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,

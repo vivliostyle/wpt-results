@@ -322,33 +322,6 @@
       referenceFile: css/css-inline/initial-letter/Initial-letter-breaking-vrl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0022"
-  category: WPT reftest
-  title: css/css-inline/initial-letter/Initial-letter-breaking.html
-  file: css/css-inline/initial-letter/Initial-letter-breaking.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-inline/initial-letter/Initial-letter-breaking-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-inline/initial-letter/Initial-letter-breaking-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-inline/initial-letter/Initial-letter-breaking-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-inline/initial-letter/Initial-letter-breaking-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0023"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-tall.html
@@ -376,33 +349,6 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-tall-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-tall-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0024"
-  category: WPT reftest
-  title: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html
-  file: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0025"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby-tall.html
@@ -1286,10 +1232,6 @@
   diffPages:
     - css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline-ref.html#1
   referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline-ref.html
       url: >-
@@ -2105,3 +2047,45 @@
       referenceFile: css/css-inline/text-box-trim/not-at-page-edges-003-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/not-at-page-edges-003-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0022"
+  category: WPT reftest
+  title: css/css-inline/initial-letter/Initial-letter-breaking.html
+  file: css/css-inline/initial-letter/Initial-letter-breaking.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0024"
+  category: WPT reftest
+  title: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html
+  file: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary, canary-reference
+  sideErrors:
+    - side: canary
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true
+    - side: canary-reference
+      referenceFile: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-ref.html
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true

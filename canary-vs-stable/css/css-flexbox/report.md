@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 981
-- Entries with differences: 130 (improvement: 22, pending: 108, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 131 (improvement: 22, pending: 109, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
 - Screenshot mismatches: 23
-- Outcome summary: {"pass":829,"known-fail":91,"improvement":22,"expected-change":14,"changed-fail":3,"error":1,"unchanged":21}
+- Outcome summary: {"pass":827,"known-fail":91,"improvement":22,"expected-change":14,"changed-fail":3,"regression":1,"error":2,"unchanged":21}
 
 ## Differences
 
@@ -1168,6 +1168,12 @@
   stable page 1: diffRatio=0.004483197847492557, diffPixels=3759
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_fbfc-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0614] [WPT reftest] css/css-flexbox/flexbox_flex-1-0-0-unitless.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-1-0-0-unitless.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-1-0-0-unitless.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0685] [WPT reftest] css/css-flexbox/flexbox_flow-row-wrap-reverse.html
   triage: not-needed
   outcome: improvement (baseline=FAIL, actual=PASS)
@@ -1531,6 +1537,26 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/common/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
+
+- [0614] [WPT reftest] css/css-flexbox/flexbox_flex-1-0-0-unitless.html
+  triage: pending
+  side: canary-reference
+  reference: css/css-flexbox/flexbox_flex-1-0-0-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-1-0-0-unitless.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-1-0-0-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0615] [WPT reftest] css/css-flexbox/flexbox_flex-1-0-0.html
+  triage: pending
+  side: canary, canary-reference
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary-reference reference: css/css-flexbox/flexbox_flex-1-0-0-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-1-0-0.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-1-0-0.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0858] [WPT reftest] css/css-flexbox/overflow-auto-005.html
   triage: pending

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 165
-- Entries with differences: 57 (pending: 57, triaged: 0)
+- Entries with differences: 56 (pending: 56, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 2
-- Outcome summary: {"pass":108,"known-fail":55,"changed-fail":1,"expected-change":1}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":109,"known-fail":55,"changed-fail":1}
 
 ## Differences
 
@@ -399,13 +399,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/change-display-in-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00016697198687123122, diffPixels=140
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/change-display-in-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0081] [WPT reftest] css/css-conditional/container-queries/container-for-cue.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0004019254255400351, diffPixels=337
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/container-for-cue.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/container-for-cue.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0082] [WPT reftest] css/css-conditional/container-queries/container-units-gradient-invalidation.html
   triage: pending

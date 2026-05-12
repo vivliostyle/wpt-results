@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T09:34:26.952Z",
+  "generatedAt": "2026-05-12T18:01:09.846Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -38,9 +38,9 @@
     "timeoutMs": 10000
   },
   "summary": {
-    "totalEntries": 428,
-    "entriesWithDifferences": 131,
-    "entriesWithErrors": 8,
+    "totalEntries": 429,
+    "entriesWithDifferences": 132,
+    "entriesWithErrors": 9,
     "timeoutEntries": 7,
     "pageCountMismatches": 0,
     "screenshotMismatches": 4,
@@ -49,27 +49,27 @@
         "pass": 289,
         "known-fail": 127,
         "changed-fail": 2,
+        "regression": 2,
         "expected-change": 1,
-        "regression": 1,
         "error": 8
       },
       "statusPairs": {
         "PASS->PASS": 290,
         "FAIL->FAIL": 129,
-        "PASS->FAIL": 1,
+        "PASS->FAIL": 2,
         "ERROR->ERROR": 8
       }
     },
     "triage": {
       "differences": {
-        "pending": 131,
+        "pending": 132,
         "triaged": 0
       },
       "errors": {
-        "pending": 8,
+        "pending": 9,
         "triaged": 0
       },
-      "pendingEntries": 139,
+      "pendingEntries": 141,
       "triagedEntries": 0
     }
   },
@@ -5384,6 +5384,29 @@
     {
       "id": "0094",
       "category": "WPT reftest",
+      "title": "css/css-contain/contain-layout-containing-block-absolute-002.html",
+      "file": [
+        "css/css-contain/contain-layout-containing-block-absolute-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-contain/contain-layout-containing-block-absolute-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-layout-containing-block-absolute-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-layout-containing-block-absolute-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-contain/reference/contain-layout-containing-block-absolute-002-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-layout-containing-block-absolute-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-layout-containing-block-absolute-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0095",
+      "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-containing-block-fixed-001.html",
       "file": [
         "css/css-contain/contain-layout-containing-block-fixed-001.html"
@@ -5405,7 +5428,7 @@
       ]
     },
     {
-      "id": "0095",
+      "id": "0096",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-dynamic-004.html",
       "file": [
@@ -5469,7 +5492,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0095-WPT_reftest-css-css-contain-contain-layout-dynamic-004.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0096-WPT_reftest-css-css-contain-contain-layout-dynamic-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5508,7 +5531,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0095-WPT_reftest-css-css-contain-contain-layout-dynamic-004.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0096-WPT_reftest-css-css-contain-contain-layout-dynamic-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5524,7 +5547,7 @@
       }
     },
     {
-      "id": "0096",
+      "id": "0097",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-dynamic-005.html",
       "file": [
@@ -5588,7 +5611,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0096-WPT_reftest-css-css-contain-contain-layout-dynamic-005.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0097-WPT_reftest-css-css-contain-contain-layout-dynamic-005.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5627,7 +5650,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0096-WPT_reftest-css-css-contain-contain-layout-dynamic-005.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0097-WPT_reftest-css-css-contain-contain-layout-dynamic-005.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5643,7 +5666,7 @@
       }
     },
     {
-      "id": "0097",
+      "id": "0098",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-flexbox-001.html",
       "file": [
@@ -5666,7 +5689,7 @@
       ]
     },
     {
-      "id": "0098",
+      "id": "0099",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-formatting-context-float-001.html",
       "file": [
@@ -5711,7 +5734,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 255,
             "dimensionMismatch": false,
-            "diffImage": "diff/0098-WPT_reftest-css-css-contain-contain-layout-formatting-context-float-001.html-p0001.png"
+            "diffImage": "diff/0099-WPT_reftest-css-css-contain-contain-layout-formatting-context-float-001.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -5746,7 +5769,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0098-WPT_reftest-css-css-contain-contain-layout-formatting-context-float-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0099-WPT_reftest-css-css-contain-contain-layout-formatting-context-float-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5785,7 +5808,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0098-WPT_reftest-css-css-contain-contain-layout-formatting-context-float-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0099-WPT_reftest-css-css-contain-contain-layout-formatting-context-float-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5801,7 +5824,7 @@
       }
     },
     {
-      "id": "0099",
+      "id": "0100",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-formatting-context-margin-001.html",
       "file": [
@@ -5824,7 +5847,7 @@
       ]
     },
     {
-      "id": "0100",
+      "id": "0101",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-grid-001.html",
       "file": [
@@ -5847,7 +5870,7 @@
       ]
     },
     {
-      "id": "0101",
+      "id": "0102",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-ifc-022.html",
       "file": [
@@ -5870,7 +5893,7 @@
       ]
     },
     {
-      "id": "0102",
+      "id": "0103",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-ignored-cases-ib-split-001.html",
       "file": [
@@ -5893,7 +5916,7 @@
       ]
     },
     {
-      "id": "0103",
+      "id": "0104",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-ignored-cases-no-principal-box-001.html",
       "file": [
@@ -5916,7 +5939,7 @@
       ]
     },
     {
-      "id": "0104",
+      "id": "0105",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-ignored-cases-no-principal-box-002.html",
       "file": [
@@ -5939,7 +5962,7 @@
       ]
     },
     {
-      "id": "0105",
+      "id": "0106",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-ignored-cases-no-principal-box-003.html",
       "file": [
@@ -5962,7 +5985,7 @@
       ]
     },
     {
-      "id": "0106",
+      "id": "0107",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-independent-formatting-context-001.html",
       "file": [
@@ -5985,7 +6008,7 @@
       ]
     },
     {
-      "id": "0107",
+      "id": "0108",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-independent-formatting-context-002.html",
       "file": [
@@ -6008,7 +6031,7 @@
       ]
     },
     {
-      "id": "0108",
+      "id": "0109",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-independent-formatting-context-003.html",
       "file": [
@@ -6031,7 +6054,7 @@
       ]
     },
     {
-      "id": "0109",
+      "id": "0110",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-ink-overflow-013.html",
       "file": [
@@ -6054,7 +6077,7 @@
       ]
     },
     {
-      "id": "0110",
+      "id": "0111",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-ink-overflow-014.html",
       "file": [
@@ -6077,7 +6100,7 @@
       ]
     },
     {
-      "id": "0111",
+      "id": "0112",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-ink-overflow-015.html",
       "file": [
@@ -6100,7 +6123,7 @@
       ]
     },
     {
-      "id": "0112",
+      "id": "0113",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-ink-overflow-016.html",
       "file": [
@@ -6123,7 +6146,7 @@
       ]
     },
     {
-      "id": "0113",
+      "id": "0114",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-ink-overflow-017.html",
       "file": [
@@ -6146,7 +6169,7 @@
       ]
     },
     {
-      "id": "0114",
+      "id": "0115",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-ink-overflow-018.html",
       "file": [
@@ -6169,7 +6192,7 @@
       ]
     },
     {
-      "id": "0115",
+      "id": "0116",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-ink-overflow-019.html",
       "file": [
@@ -6192,7 +6215,7 @@
       ]
     },
     {
-      "id": "0116",
+      "id": "0117",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-ink-overflow-020.html",
       "file": [
@@ -6215,7 +6238,7 @@
       ]
     },
     {
-      "id": "0117",
+      "id": "0118",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-overflow-001.html",
       "file": [
@@ -6238,7 +6261,7 @@
       ]
     },
     {
-      "id": "0118",
+      "id": "0119",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-overflow-002.html",
       "file": [
@@ -6261,7 +6284,7 @@
       ]
     },
     {
-      "id": "0119",
+      "id": "0120",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-select-001.tentative.html",
       "file": [
@@ -6325,7 +6348,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0119-WPT_reftest-css-css-contain-contain-layout-select-001.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0120-WPT_reftest-css-css-contain-contain-layout-select-001.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6364,7 +6387,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0119-WPT_reftest-css-css-contain-contain-layout-select-001.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0120-WPT_reftest-css-css-contain-contain-layout-select-001.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6380,7 +6403,7 @@
       }
     },
     {
-      "id": "0120",
+      "id": "0121",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-size-003.html",
       "file": [
@@ -6403,7 +6426,7 @@
       ]
     },
     {
-      "id": "0121",
+      "id": "0122",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-stacking-context-001.html",
       "file": [
@@ -6426,7 +6449,7 @@
       ]
     },
     {
-      "id": "0122",
+      "id": "0123",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-suppress-baseline-001.html",
       "file": [
@@ -6449,7 +6472,7 @@
       ]
     },
     {
-      "id": "0123",
+      "id": "0124",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-layout-suppress-baseline-002.html",
       "file": [
@@ -6472,7 +6495,7 @@
       ]
     },
     {
-      "id": "0124",
+      "id": "0125",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-001.html",
       "file": [
@@ -6495,7 +6518,7 @@
       ]
     },
     {
-      "id": "0125",
+      "id": "0126",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-002.html",
       "file": [
@@ -6518,7 +6541,7 @@
       ]
     },
     {
-      "id": "0126",
+      "id": "0127",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-004.html",
       "file": [
@@ -6541,7 +6564,7 @@
       ]
     },
     {
-      "id": "0127",
+      "id": "0128",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-005.html",
       "file": [
@@ -6564,7 +6587,7 @@
       ]
     },
     {
-      "id": "0128",
+      "id": "0129",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-006.html",
       "file": [
@@ -6587,7 +6610,7 @@
       ]
     },
     {
-      "id": "0129",
+      "id": "0130",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-007.html",
       "file": [
@@ -6610,7 +6633,7 @@
       ]
     },
     {
-      "id": "0130",
+      "id": "0131",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-008.html",
       "file": [
@@ -6633,7 +6656,7 @@
       ]
     },
     {
-      "id": "0131",
+      "id": "0132",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-009.html",
       "file": [
@@ -6656,7 +6679,7 @@
       ]
     },
     {
-      "id": "0132",
+      "id": "0133",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-010.html",
       "file": [
@@ -6679,7 +6702,7 @@
       ]
     },
     {
-      "id": "0133",
+      "id": "0134",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-011.html",
       "file": [
@@ -6702,7 +6725,7 @@
       ]
     },
     {
-      "id": "0134",
+      "id": "0135",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-012.html",
       "file": [
@@ -6725,7 +6748,7 @@
       ]
     },
     {
-      "id": "0135",
+      "id": "0136",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-014.html",
       "file": [
@@ -6748,7 +6771,7 @@
       ]
     },
     {
-      "id": "0136",
+      "id": "0137",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-015.html",
       "file": [
@@ -6771,7 +6794,7 @@
       ]
     },
     {
-      "id": "0137",
+      "id": "0138",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-016.html",
       "file": [
@@ -6794,7 +6817,7 @@
       ]
     },
     {
-      "id": "0138",
+      "id": "0139",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-017.html",
       "file": [
@@ -6817,7 +6840,7 @@
       ]
     },
     {
-      "id": "0139",
+      "id": "0140",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-018.html",
       "file": [
@@ -6840,7 +6863,7 @@
       ]
     },
     {
-      "id": "0140",
+      "id": "0141",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-019.html",
       "file": [
@@ -6863,7 +6886,7 @@
       ]
     },
     {
-      "id": "0141",
+      "id": "0142",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-020.html",
       "file": [
@@ -6886,7 +6909,7 @@
       ]
     },
     {
-      "id": "0142",
+      "id": "0143",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-021.html",
       "file": [
@@ -6909,7 +6932,7 @@
       ]
     },
     {
-      "id": "0143",
+      "id": "0144",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-022.html",
       "file": [
@@ -6932,7 +6955,7 @@
       ]
     },
     {
-      "id": "0144",
+      "id": "0145",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-023.html",
       "file": [
@@ -6955,7 +6978,7 @@
       ]
     },
     {
-      "id": "0145",
+      "id": "0146",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-024.html",
       "file": [
@@ -6978,7 +7001,7 @@
       ]
     },
     {
-      "id": "0146",
+      "id": "0147",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-025.html",
       "file": [
@@ -7001,7 +7024,7 @@
       ]
     },
     {
-      "id": "0147",
+      "id": "0148",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-026.html",
       "file": [
@@ -7024,7 +7047,7 @@
       ]
     },
     {
-      "id": "0148",
+      "id": "0149",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-047.html",
       "file": [
@@ -7047,7 +7070,7 @@
       ]
     },
     {
-      "id": "0149",
+      "id": "0150",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-048.html",
       "file": [
@@ -7070,7 +7093,7 @@
       ]
     },
     {
-      "id": "0150",
+      "id": "0151",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-050.html",
       "file": [
@@ -7093,7 +7116,7 @@
       ]
     },
     {
-      "id": "0151",
+      "id": "0152",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-baseline-001.html",
       "file": [
@@ -7116,7 +7139,7 @@
       ]
     },
     {
-      "id": "0152",
+      "id": "0153",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-cell-001.html",
       "file": [
@@ -7139,7 +7162,7 @@
       ]
     },
     {
-      "id": "0153",
+      "id": "0154",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-cell-002.html",
       "file": [
@@ -7162,7 +7185,7 @@
       ]
     },
     {
-      "id": "0154",
+      "id": "0155",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-change-opacity.html",
       "file": [
@@ -7226,7 +7249,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 228,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0154-WPT_reftest-css-css-contain-contain-paint-change-opacity.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0155-WPT_reftest-css-css-contain-contain-paint-change-opacity.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7265,7 +7288,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 228,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0154-WPT_reftest-css-css-contain-contain-paint-change-opacity.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0155-WPT_reftest-css-css-contain-contain-paint-change-opacity.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7281,7 +7304,7 @@
       }
     },
     {
-      "id": "0155",
+      "id": "0156",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-clip-001.html",
       "file": [
@@ -7304,7 +7327,7 @@
       ]
     },
     {
-      "id": "0156",
+      "id": "0157",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-clip-002.html",
       "file": [
@@ -7327,7 +7350,7 @@
       ]
     },
     {
-      "id": "0157",
+      "id": "0158",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-clip-003.html",
       "file": [
@@ -7350,7 +7373,7 @@
       ]
     },
     {
-      "id": "0158",
+      "id": "0159",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-clip-004.html",
       "file": [
@@ -7373,7 +7396,7 @@
       ]
     },
     {
-      "id": "0159",
+      "id": "0160",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-clip-005.html",
       "file": [
@@ -7396,7 +7419,7 @@
       ]
     },
     {
-      "id": "0160",
+      "id": "0161",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-clip-006.html",
       "file": [
@@ -7419,7 +7442,7 @@
       ]
     },
     {
-      "id": "0161",
+      "id": "0162",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-clip-011.html",
       "file": [
@@ -7442,7 +7465,7 @@
       ]
     },
     {
-      "id": "0162",
+      "id": "0163",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-clip-012.html",
       "file": [
@@ -7465,7 +7488,7 @@
       ]
     },
     {
-      "id": "0163",
+      "id": "0164",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-clip-013.html",
       "file": [
@@ -7488,7 +7511,7 @@
       ]
     },
     {
-      "id": "0164",
+      "id": "0165",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-clip-014.html",
       "file": [
@@ -7511,7 +7534,7 @@
       ]
     },
     {
-      "id": "0165",
+      "id": "0166",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-clip-015.html",
       "file": [
@@ -7534,7 +7557,7 @@
       ]
     },
     {
-      "id": "0166",
+      "id": "0167",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-clip-016.html",
       "file": [
@@ -7557,7 +7580,7 @@
       ]
     },
     {
-      "id": "0167",
+      "id": "0168",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-clip-017.html",
       "file": [
@@ -7580,7 +7603,7 @@
       ]
     },
     {
-      "id": "0168",
+      "id": "0169",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-clip-018.html",
       "file": [
@@ -7603,7 +7626,7 @@
       ]
     },
     {
-      "id": "0169",
+      "id": "0170",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-clip-019.html",
       "file": [
@@ -7688,7 +7711,7 @@
       }
     },
     {
-      "id": "0170",
+      "id": "0171",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-containing-block-absolute-001.html",
       "file": [
@@ -7711,7 +7734,7 @@
       ]
     },
     {
-      "id": "0171",
+      "id": "0172",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-containing-block-fixed-001.html",
       "file": [
@@ -7734,7 +7757,7 @@
       ]
     },
     {
-      "id": "0172",
+      "id": "0173",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-dynamic-002.html",
       "file": [
@@ -7798,7 +7821,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0172-WPT_reftest-css-css-contain-contain-paint-dynamic-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0173-WPT_reftest-css-css-contain-contain-paint-dynamic-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7837,7 +7860,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0172-WPT_reftest-css-css-contain-contain-paint-dynamic-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0173-WPT_reftest-css-css-contain-contain-paint-dynamic-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7853,7 +7876,7 @@
       }
     },
     {
-      "id": "0173",
+      "id": "0174",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-dynamic-003.html",
       "file": [
@@ -7876,7 +7899,7 @@
       ]
     },
     {
-      "id": "0174",
+      "id": "0175",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-dynamic-004.html",
       "file": [
@@ -7940,7 +7963,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 211,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0174-WPT_reftest-css-css-contain-contain-paint-dynamic-004.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0175-WPT_reftest-css-css-contain-contain-paint-dynamic-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7979,7 +8002,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 211,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0174-WPT_reftest-css-css-contain-contain-paint-dynamic-004.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0175-WPT_reftest-css-css-contain-contain-paint-dynamic-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7995,7 +8018,7 @@
       }
     },
     {
-      "id": "0175",
+      "id": "0176",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-dynamic-005.html",
       "file": [
@@ -8059,7 +8082,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 211,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0175-WPT_reftest-css-css-contain-contain-paint-dynamic-005.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0176-WPT_reftest-css-css-contain-contain-paint-dynamic-005.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8098,7 +8121,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 211,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0175-WPT_reftest-css-css-contain-contain-paint-dynamic-005.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0176-WPT_reftest-css-css-contain-contain-paint-dynamic-005.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8114,7 +8137,7 @@
       }
     },
     {
-      "id": "0176",
+      "id": "0177",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-formatting-context-float-001.html",
       "file": [
@@ -8159,7 +8182,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 255,
             "dimensionMismatch": false,
-            "diffImage": "diff/0176-WPT_reftest-css-css-contain-contain-paint-formatting-context-float-001.html-p0001.png"
+            "diffImage": "diff/0177-WPT_reftest-css-css-contain-contain-paint-formatting-context-float-001.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -8194,7 +8217,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0176-WPT_reftest-css-css-contain-contain-paint-formatting-context-float-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0177-WPT_reftest-css-css-contain-contain-paint-formatting-context-float-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8233,7 +8256,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0176-WPT_reftest-css-css-contain-contain-paint-formatting-context-float-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0177-WPT_reftest-css-css-contain-contain-paint-formatting-context-float-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8249,7 +8272,7 @@
       }
     },
     {
-      "id": "0177",
+      "id": "0178",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-formatting-context-margin-001.html",
       "file": [
@@ -8272,7 +8295,7 @@
       ]
     },
     {
-      "id": "0178",
+      "id": "0179",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-ifc-011.html",
       "file": [
@@ -8295,7 +8318,7 @@
       ]
     },
     {
-      "id": "0179",
+      "id": "0180",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-ignored-cases-ib-split-001.html",
       "file": [
@@ -8318,7 +8341,7 @@
       ]
     },
     {
-      "id": "0180",
+      "id": "0181",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-ignored-cases-internal-table-001a.html",
       "file": [
@@ -8341,7 +8364,7 @@
       ]
     },
     {
-      "id": "0181",
+      "id": "0182",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-ignored-cases-internal-table-001b.html",
       "file": [
@@ -8364,7 +8387,7 @@
       ]
     },
     {
-      "id": "0182",
+      "id": "0183",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-ignored-cases-no-principal-box-001.html",
       "file": [
@@ -8387,7 +8410,7 @@
       ]
     },
     {
-      "id": "0183",
+      "id": "0184",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-ignored-cases-ruby-containing-block-001.html",
       "file": [
@@ -8410,7 +8433,7 @@
       ]
     },
     {
-      "id": "0184",
+      "id": "0185",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-ignored-cases-ruby-stacking-and-clipping-001.html",
       "file": [
@@ -8433,7 +8456,7 @@
       ]
     },
     {
-      "id": "0185",
+      "id": "0186",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-independent-formatting-context-001.html",
       "file": [
@@ -8456,7 +8479,7 @@
       ]
     },
     {
-      "id": "0186",
+      "id": "0187",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-independent-formatting-context-002.html",
       "file": [
@@ -8479,7 +8502,7 @@
       ]
     },
     {
-      "id": "0187",
+      "id": "0188",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-independent-formatting-context-003.html",
       "file": [
@@ -8502,7 +8525,7 @@
       ]
     },
     {
-      "id": "0188",
+      "id": "0189",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-size-001.html",
       "file": [
@@ -8525,7 +8548,7 @@
       ]
     },
     {
-      "id": "0189",
+      "id": "0190",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-size-002.html",
       "file": [
@@ -8548,7 +8571,7 @@
       ]
     },
     {
-      "id": "0190",
+      "id": "0191",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-size-003.html",
       "file": [
@@ -8571,7 +8594,7 @@
       ]
     },
     {
-      "id": "0191",
+      "id": "0192",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-stacking-context-001a.html",
       "file": [
@@ -8594,7 +8617,7 @@
       ]
     },
     {
-      "id": "0192",
+      "id": "0193",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-stacking-context-001b.html",
       "file": [
@@ -8617,7 +8640,7 @@
       ]
     },
     {
-      "id": "0193",
+      "id": "0194",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-table-001.html",
       "file": [
@@ -8640,7 +8663,7 @@
       ]
     },
     {
-      "id": "0194",
+      "id": "0195",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-paint-table-002.html",
       "file": [
@@ -8663,7 +8686,7 @@
       ]
     },
     {
-      "id": "0195",
+      "id": "0196",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-001.html",
       "file": [
@@ -8686,7 +8709,7 @@
       ]
     },
     {
-      "id": "0196",
+      "id": "0197",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-002.html",
       "file": [
@@ -8709,7 +8732,7 @@
       ]
     },
     {
-      "id": "0197",
+      "id": "0198",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-003.html",
       "file": [
@@ -8732,7 +8755,7 @@
       ]
     },
     {
-      "id": "0198",
+      "id": "0199",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-004.html",
       "file": [
@@ -8755,7 +8778,7 @@
       ]
     },
     {
-      "id": "0199",
+      "id": "0200",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-005.html",
       "file": [
@@ -8778,7 +8801,7 @@
       ]
     },
     {
-      "id": "0200",
+      "id": "0201",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-006.html",
       "file": [
@@ -8801,7 +8824,7 @@
       ]
     },
     {
-      "id": "0201",
+      "id": "0202",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-007.html",
       "file": [
@@ -8824,7 +8847,7 @@
       ]
     },
     {
-      "id": "0202",
+      "id": "0203",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-008.html",
       "file": [
@@ -8847,7 +8870,7 @@
       ]
     },
     {
-      "id": "0203",
+      "id": "0204",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-009.html",
       "file": [
@@ -8870,7 +8893,7 @@
       ]
     },
     {
-      "id": "0204",
+      "id": "0205",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-010.html",
       "file": [
@@ -8893,7 +8916,7 @@
       ]
     },
     {
-      "id": "0205",
+      "id": "0206",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-011.html",
       "file": [
@@ -8916,7 +8939,7 @@
       ]
     },
     {
-      "id": "0206",
+      "id": "0207",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-012.html",
       "file": [
@@ -8939,7 +8962,7 @@
       ]
     },
     {
-      "id": "0207",
+      "id": "0208",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-012b.html",
       "file": [
@@ -8962,7 +8985,7 @@
       ]
     },
     {
-      "id": "0208",
+      "id": "0209",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-013.html",
       "file": [
@@ -8985,7 +9008,7 @@
       ]
     },
     {
-      "id": "0209",
+      "id": "0210",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-014.html",
       "file": [
@@ -9008,7 +9031,7 @@
       ]
     },
     {
-      "id": "0210",
+      "id": "0211",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-021.html",
       "file": [
@@ -9031,7 +9054,7 @@
       ]
     },
     {
-      "id": "0211",
+      "id": "0212",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-023.html",
       "file": [
@@ -9054,7 +9077,7 @@
       ]
     },
     {
-      "id": "0212",
+      "id": "0213",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-025.html",
       "file": [
@@ -9077,7 +9100,7 @@
       ]
     },
     {
-      "id": "0213",
+      "id": "0214",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-027.html",
       "file": [
@@ -9100,7 +9123,7 @@
       ]
     },
     {
-      "id": "0214",
+      "id": "0215",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-041.html",
       "file": [
@@ -9123,7 +9146,7 @@
       ]
     },
     {
-      "id": "0215",
+      "id": "0216",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-042.html",
       "file": [
@@ -9146,7 +9169,7 @@
       ]
     },
     {
-      "id": "0216",
+      "id": "0217",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-051.html",
       "file": [
@@ -9169,7 +9192,7 @@
       ]
     },
     {
-      "id": "0217",
+      "id": "0218",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-052.html",
       "file": [
@@ -9233,7 +9256,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0217-WPT_reftest-css-css-contain-contain-size-052.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0218-WPT_reftest-css-css-contain-contain-size-052.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9272,7 +9295,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0217-WPT_reftest-css-css-contain-contain-size-052.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0218-WPT_reftest-css-css-contain-contain-size-052.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9288,7 +9311,7 @@
       }
     },
     {
-      "id": "0218",
+      "id": "0219",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-056.html",
       "file": [
@@ -9311,7 +9334,7 @@
       ]
     },
     {
-      "id": "0219",
+      "id": "0220",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-061.html",
       "file": [
@@ -9334,7 +9357,7 @@
       ]
     },
     {
-      "id": "0220",
+      "id": "0221",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-062.html",
       "file": [
@@ -9357,7 +9380,7 @@
       ]
     },
     {
-      "id": "0221",
+      "id": "0222",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-063.html",
       "file": [
@@ -9380,7 +9403,7 @@
       ]
     },
     {
-      "id": "0222",
+      "id": "0223",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-064.html",
       "file": [
@@ -9403,7 +9426,7 @@
       ]
     },
     {
-      "id": "0223",
+      "id": "0224",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-baseline-001.html",
       "file": [
@@ -9426,7 +9449,7 @@
       ]
     },
     {
-      "id": "0224",
+      "id": "0225",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-block-001.html",
       "file": [
@@ -9449,7 +9472,7 @@
       ]
     },
     {
-      "id": "0225",
+      "id": "0226",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-block-002.html",
       "file": [
@@ -9472,7 +9495,7 @@
       ]
     },
     {
-      "id": "0226",
+      "id": "0227",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-block-003.html",
       "file": [
@@ -9495,7 +9518,7 @@
       ]
     },
     {
-      "id": "0227",
+      "id": "0228",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-block-004.html",
       "file": [
@@ -9518,7 +9541,7 @@
       ]
     },
     {
-      "id": "0228",
+      "id": "0229",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-borders.html",
       "file": [
@@ -9541,7 +9564,7 @@
       ]
     },
     {
-      "id": "0229",
+      "id": "0230",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-breaks-001.html",
       "file": [
@@ -9564,7 +9587,7 @@
       ]
     },
     {
-      "id": "0230",
+      "id": "0231",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-button-001.html",
       "file": [
@@ -9587,7 +9610,7 @@
       ]
     },
     {
-      "id": "0231",
+      "id": "0232",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-button-002.html",
       "file": [
@@ -9610,7 +9633,7 @@
       ]
     },
     {
-      "id": "0232",
+      "id": "0233",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-fieldset-001.html",
       "file": [
@@ -9633,7 +9656,7 @@
       ]
     },
     {
-      "id": "0233",
+      "id": "0234",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-fieldset-002.html",
       "file": [
@@ -9656,7 +9679,7 @@
       ]
     },
     {
-      "id": "0234",
+      "id": "0235",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-fieldset-003.html",
       "file": [
@@ -9679,7 +9702,7 @@
       ]
     },
     {
-      "id": "0235",
+      "id": "0236",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-fieldset-004.html",
       "file": [
@@ -9702,7 +9725,7 @@
       ]
     },
     {
-      "id": "0236",
+      "id": "0237",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-flex-001.html",
       "file": [
@@ -9725,7 +9748,7 @@
       ]
     },
     {
-      "id": "0237",
+      "id": "0238",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-flexbox-001.html",
       "file": [
@@ -9748,7 +9771,7 @@
       ]
     },
     {
-      "id": "0238",
+      "id": "0239",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-flexbox-002.html",
       "file": [
@@ -9812,7 +9835,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0238-WPT_reftest-css-css-contain-contain-size-flexbox-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0239-WPT_reftest-css-css-contain-contain-size-flexbox-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9851,7 +9874,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0238-WPT_reftest-css-css-contain-contain-size-flexbox-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0239-WPT_reftest-css-css-contain-contain-size-flexbox-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9867,7 +9890,7 @@
       }
     },
     {
-      "id": "0239",
+      "id": "0240",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-grid-001.html",
       "file": [
@@ -9890,7 +9913,7 @@
       ]
     },
     {
-      "id": "0240",
+      "id": "0241",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-grid-002.html",
       "file": [
@@ -9913,7 +9936,7 @@
       ]
     },
     {
-      "id": "0241",
+      "id": "0242",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-grid-005.html",
       "file": [
@@ -9936,7 +9959,7 @@
       ]
     },
     {
-      "id": "0242",
+      "id": "0243",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-grid-indefinite-height-min-height-flex-row.html",
       "file": [
@@ -9959,7 +9982,7 @@
       ]
     },
     {
-      "id": "0243",
+      "id": "0244",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-grid-stretches-auto-rows.html",
       "file": [
@@ -9982,7 +10005,7 @@
       ]
     },
     {
-      "id": "0244",
+      "id": "0245",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-inline-block-001.html",
       "file": [
@@ -10005,7 +10028,7 @@
       ]
     },
     {
-      "id": "0245",
+      "id": "0246",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-inline-block-002.html",
       "file": [
@@ -10028,7 +10051,7 @@
       ]
     },
     {
-      "id": "0246",
+      "id": "0247",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-inline-block-003.html",
       "file": [
@@ -10051,7 +10074,7 @@
       ]
     },
     {
-      "id": "0247",
+      "id": "0248",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-inline-block-004.html",
       "file": [
@@ -10074,7 +10097,7 @@
       ]
     },
     {
-      "id": "0248",
+      "id": "0249",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-inline-flex-001.html",
       "file": [
@@ -10097,7 +10120,7 @@
       ]
     },
     {
-      "id": "0249",
+      "id": "0250",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-monolithic-001.html",
       "file": [
@@ -10120,7 +10143,7 @@
       ]
     },
     {
-      "id": "0250",
+      "id": "0251",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-monolithic-002.html",
       "file": [
@@ -10143,7 +10166,7 @@
       ]
     },
     {
-      "id": "0251",
+      "id": "0252",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-multicol-001.html",
       "file": [
@@ -10166,7 +10189,7 @@
       ]
     },
     {
-      "id": "0252",
+      "id": "0253",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-multicol-002.html",
       "file": [
@@ -10189,7 +10212,7 @@
       ]
     },
     {
-      "id": "0253",
+      "id": "0254",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-multicol-003.html",
       "file": [
@@ -10212,7 +10235,7 @@
       ]
     },
     {
-      "id": "0254",
+      "id": "0255",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-multicol-004.html",
       "file": [
@@ -10235,7 +10258,7 @@
       ]
     },
     {
-      "id": "0255",
+      "id": "0256",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-removed.html",
       "file": [
@@ -10258,7 +10281,7 @@
       ]
     },
     {
-      "id": "0256",
+      "id": "0257",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-replaced-001.html",
       "file": [
@@ -10281,7 +10304,7 @@
       ]
     },
     {
-      "id": "0257",
+      "id": "0258",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-replaced-002.html",
       "file": [
@@ -10304,7 +10327,7 @@
       ]
     },
     {
-      "id": "0258",
+      "id": "0259",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-replaced-003a.html",
       "file": [
@@ -10327,16 +10350,16 @@
       ]
     },
     {
-      "id": "0259",
+      "id": "0260",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-replaced-003b.html",
       "file": [
         "css/css-contain/contain-size-replaced-003b.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-contain/contain-size-replaced-003b.html",
-      "actualStatus": "PASS",
+      "actualStatus": "FAIL",
       "baselineStatus": "PASS",
-      "changeType": "pass",
+      "changeType": "regression",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-size-replaced-003b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-size-replaced-003b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -10347,10 +10370,42 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-size-replaced-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-size-replaced-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
+      ],
+      "difference": {
+        "classification": "regression",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      },
+      "errors": [
+        {
+          "side": "canary-reference",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "referenceFile": "css/css-contain/contain-size-replaced-003-ref.html",
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
       ]
     },
     {
-      "id": "0260",
+      "id": "0261",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-replaced-003c.html",
       "file": [
@@ -10373,7 +10428,7 @@
       ]
     },
     {
-      "id": "0261",
+      "id": "0262",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-replaced-004.html",
       "file": [
@@ -10396,7 +10451,7 @@
       ]
     },
     {
-      "id": "0262",
+      "id": "0263",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-replaced-005.html",
       "file": [
@@ -10441,7 +10496,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 255,
             "dimensionMismatch": false,
-            "diffImage": "diff/0262-WPT_reftest-css-css-contain-contain-size-replaced-005.html-p0001.png"
+            "diffImage": "diff/0263-WPT_reftest-css-css-contain-contain-size-replaced-005.html-p0001.png"
           }
         ],
         "comparisons": [],
@@ -10452,7 +10507,7 @@
       }
     },
     {
-      "id": "0263",
+      "id": "0264",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-replaced-006.html",
       "file": [
@@ -10475,7 +10530,7 @@
       ]
     },
     {
-      "id": "0264",
+      "id": "0265",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-replaced-007.html",
       "file": [
@@ -10498,7 +10553,7 @@
       ]
     },
     {
-      "id": "0265",
+      "id": "0266",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-scrollbars-001.html",
       "file": [
@@ -10521,7 +10576,7 @@
       ]
     },
     {
-      "id": "0266",
+      "id": "0267",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-scrollbars-002.html",
       "file": [
@@ -10544,7 +10599,7 @@
       ]
     },
     {
-      "id": "0267",
+      "id": "0268",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-scrollbars-003.html",
       "file": [
@@ -10567,7 +10622,7 @@
       ]
     },
     {
-      "id": "0268",
+      "id": "0269",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-scrollbars-004.html",
       "file": [
@@ -10590,7 +10645,7 @@
       ]
     },
     {
-      "id": "0269",
+      "id": "0270",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-select-001.html",
       "file": [
@@ -10613,7 +10668,7 @@
       ]
     },
     {
-      "id": "0270",
+      "id": "0271",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-select-002.html",
       "file": [
@@ -10636,7 +10691,7 @@
       ]
     },
     {
-      "id": "0271",
+      "id": "0272",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-select-elem-001.html",
       "file": [
@@ -10659,7 +10714,7 @@
       ]
     },
     {
-      "id": "0272",
+      "id": "0273",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-select-elem-002.html",
       "file": [
@@ -10682,7 +10737,7 @@
       ]
     },
     {
-      "id": "0273",
+      "id": "0274",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-select-elem-003.html",
       "file": [
@@ -10705,7 +10760,7 @@
       ]
     },
     {
-      "id": "0274",
+      "id": "0275",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-select-elem-004.html",
       "file": [
@@ -10728,7 +10783,7 @@
       ]
     },
     {
-      "id": "0275",
+      "id": "0276",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-select-elem-005.html",
       "file": [
@@ -10751,7 +10806,7 @@
       ]
     },
     {
-      "id": "0276",
+      "id": "0277",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-size-table-caption-001.html",
       "file": [
@@ -10774,7 +10829,7 @@
       ]
     },
     {
-      "id": "0277",
+      "id": "0278",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-strict-001.html",
       "file": [
@@ -10797,7 +10852,7 @@
       ]
     },
     {
-      "id": "0278",
+      "id": "0279",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-strict-002.html",
       "file": [
@@ -10820,7 +10875,7 @@
       ]
     },
     {
-      "id": "0279",
+      "id": "0280",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-strict-003.html",
       "file": [
@@ -10843,7 +10898,7 @@
       ]
     },
     {
-      "id": "0280",
+      "id": "0281",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-strict-011.html",
       "file": [
@@ -10907,7 +10962,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0280-WPT_reftest-css-css-contain-contain-strict-011.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0281-WPT_reftest-css-css-contain-contain-strict-011.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10946,7 +11001,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0280-WPT_reftest-css-css-contain-contain-strict-011.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0281-WPT_reftest-css-css-contain-contain-strict-011.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10962,7 +11017,7 @@
       }
     },
     {
-      "id": "0281",
+      "id": "0282",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-baseline-001.html",
       "file": [
@@ -10985,7 +11040,7 @@
       ]
     },
     {
-      "id": "0282",
+      "id": "0283",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-breaks-001.html",
       "file": [
@@ -11008,7 +11063,7 @@
       ]
     },
     {
-      "id": "0283",
+      "id": "0284",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-breaks-002.html",
       "file": [
@@ -11031,7 +11086,7 @@
       ]
     },
     {
-      "id": "0284",
+      "id": "0285",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-breaks-003.html",
       "file": [
@@ -11054,7 +11109,7 @@
       ]
     },
     {
-      "id": "0285",
+      "id": "0286",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-breaks-004.html",
       "file": [
@@ -11077,7 +11132,7 @@
       ]
     },
     {
-      "id": "0286",
+      "id": "0287",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-breaks-005.html",
       "file": [
@@ -11100,7 +11155,7 @@
       ]
     },
     {
-      "id": "0287",
+      "id": "0288",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-counters-001.html",
       "file": [
@@ -11164,7 +11219,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0287-WPT_reftest-css-css-contain-contain-style-counters-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0288-WPT_reftest-css-css-contain-contain-style-counters-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11203,7 +11258,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0287-WPT_reftest-css-css-contain-contain-style-counters-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0288-WPT_reftest-css-css-contain-contain-style-counters-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11219,7 +11274,7 @@
       }
     },
     {
-      "id": "0288",
+      "id": "0289",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-counters-002.html",
       "file": [
@@ -11242,7 +11297,7 @@
       ]
     },
     {
-      "id": "0289",
+      "id": "0290",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-counters-003.html",
       "file": [
@@ -11306,7 +11361,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0289-WPT_reftest-css-css-contain-contain-style-counters-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0290-WPT_reftest-css-css-contain-contain-style-counters-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11345,7 +11400,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0289-WPT_reftest-css-css-contain-contain-style-counters-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0290-WPT_reftest-css-css-contain-contain-style-counters-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11361,7 +11416,7 @@
       }
     },
     {
-      "id": "0290",
+      "id": "0291",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-counters-004.html",
       "file": [
@@ -11425,7 +11480,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0290-WPT_reftest-css-css-contain-contain-style-counters-004.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0291-WPT_reftest-css-css-contain-contain-style-counters-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11464,7 +11519,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0290-WPT_reftest-css-css-contain-contain-style-counters-004.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0291-WPT_reftest-css-css-contain-contain-style-counters-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11480,7 +11535,7 @@
       }
     },
     {
-      "id": "0291",
+      "id": "0292",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-counters-005.html",
       "file": [
@@ -11544,7 +11599,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0291-WPT_reftest-css-css-contain-contain-style-counters-005.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0292-WPT_reftest-css-css-contain-contain-style-counters-005.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11583,7 +11638,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0291-WPT_reftest-css-css-contain-contain-style-counters-005.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0292-WPT_reftest-css-css-contain-contain-style-counters-005.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11599,7 +11654,7 @@
       }
     },
     {
-      "id": "0292",
+      "id": "0293",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-dynamic-002.html",
       "file": [
@@ -11622,7 +11677,7 @@
       ]
     },
     {
-      "id": "0293",
+      "id": "0294",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-ol-ordinal-li-container.html",
       "file": [
@@ -11645,7 +11700,7 @@
       ]
     },
     {
-      "id": "0294",
+      "id": "0295",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-ol-ordinal-pseudo-reversed.html",
       "file": [
@@ -11709,7 +11764,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0294-WPT_reftest-css-css-contain-contain-style-ol-ordinal-pseudo-reversed.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0295-WPT_reftest-css-css-contain-contain-style-ol-ordinal-pseudo-reversed.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11748,7 +11803,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0294-WPT_reftest-css-css-contain-contain-style-ol-ordinal-pseudo-reversed.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0295-WPT_reftest-css-css-contain-contain-style-ol-ordinal-pseudo-reversed.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11764,7 +11819,7 @@
       }
     },
     {
-      "id": "0295",
+      "id": "0296",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-ol-ordinal-pseudo.html",
       "file": [
@@ -11828,7 +11883,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0295-WPT_reftest-css-css-contain-contain-style-ol-ordinal-pseudo.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0296-WPT_reftest-css-css-contain-contain-style-ol-ordinal-pseudo.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11867,7 +11922,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0295-WPT_reftest-css-css-contain-contain-style-ol-ordinal-pseudo.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0296-WPT_reftest-css-css-contain-contain-style-ol-ordinal-pseudo.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11883,7 +11938,7 @@
       }
     },
     {
-      "id": "0296",
+      "id": "0297",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-ol-ordinal-reversed.html",
       "file": [
@@ -11947,7 +12002,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0296-WPT_reftest-css-css-contain-contain-style-ol-ordinal-reversed.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0297-WPT_reftest-css-css-contain-contain-style-ol-ordinal-reversed.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11986,7 +12041,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0296-WPT_reftest-css-css-contain-contain-style-ol-ordinal-reversed.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0297-WPT_reftest-css-css-contain-contain-style-ol-ordinal-reversed.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12002,7 +12057,7 @@
       }
     },
     {
-      "id": "0297",
+      "id": "0298",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-ol-ordinal-start-reversed.html",
       "file": [
@@ -12066,7 +12121,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0297-WPT_reftest-css-css-contain-contain-style-ol-ordinal-start-reversed.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0298-WPT_reftest-css-css-contain-contain-style-ol-ordinal-start-reversed.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12105,7 +12160,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0297-WPT_reftest-css-css-contain-contain-style-ol-ordinal-start-reversed.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0298-WPT_reftest-css-css-contain-contain-style-ol-ordinal-start-reversed.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12121,7 +12176,7 @@
       }
     },
     {
-      "id": "0298",
+      "id": "0299",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-ol-ordinal-start.html",
       "file": [
@@ -12185,7 +12240,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0298-WPT_reftest-css-css-contain-contain-style-ol-ordinal-start.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0299-WPT_reftest-css-css-contain-contain-style-ol-ordinal-start.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12224,7 +12279,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0298-WPT_reftest-css-css-contain-contain-style-ol-ordinal-start.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0299-WPT_reftest-css-css-contain-contain-style-ol-ordinal-start.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12240,7 +12295,7 @@
       }
     },
     {
-      "id": "0299",
+      "id": "0300",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-style-ol-ordinal.html",
       "file": [
@@ -12304,7 +12359,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0299-WPT_reftest-css-css-contain-contain-style-ol-ordinal.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0300-WPT_reftest-css-css-contain-contain-style-ol-ordinal.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12343,7 +12398,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0299-WPT_reftest-css-css-contain-contain-style-ol-ordinal.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0300-WPT_reftest-css-css-contain-contain-style-ol-ordinal.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12359,7 +12414,7 @@
       }
     },
     {
-      "id": "0300",
+      "id": "0301",
       "category": "WPT reftest",
       "title": "css/css-contain/contain-subgrid-001.html",
       "file": [
@@ -12382,7 +12437,7 @@
       ]
     },
     {
-      "id": "0301",
+      "id": "0302",
       "category": "WPT reftest",
       "title": "css/css-contain/container-iframe-resize-events.html",
       "file": [
@@ -12405,7 +12460,7 @@
       ]
     },
     {
-      "id": "0302",
+      "id": "0303",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-001.html",
       "file": [
@@ -12428,7 +12483,7 @@
       ]
     },
     {
-      "id": "0303",
+      "id": "0304",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-002.html",
       "file": [
@@ -12492,7 +12547,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0303-WPT_reftest-css-css-contain-content-visibility-content-visibility-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0304-WPT_reftest-css-css-contain-content-visibility-content-visibility-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12531,7 +12586,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0303-WPT_reftest-css-css-contain-content-visibility-content-visibility-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0304-WPT_reftest-css-css-contain-content-visibility-content-visibility-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12547,7 +12602,7 @@
       }
     },
     {
-      "id": "0304",
+      "id": "0305",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-003.html",
       "file": [
@@ -12570,7 +12625,7 @@
       ]
     },
     {
-      "id": "0305",
+      "id": "0306",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-004.html",
       "file": [
@@ -12593,7 +12648,7 @@
       ]
     },
     {
-      "id": "0306",
+      "id": "0307",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-005.html",
       "file": [
@@ -12657,7 +12712,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0306-WPT_reftest-css-css-contain-content-visibility-content-visibility-005.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0307-WPT_reftest-css-css-contain-content-visibility-content-visibility-005.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12696,7 +12751,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0306-WPT_reftest-css-css-contain-content-visibility-content-visibility-005.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0307-WPT_reftest-css-css-contain-content-visibility-content-visibility-005.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12712,7 +12767,7 @@
       }
     },
     {
-      "id": "0307",
+      "id": "0308",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-006.html",
       "file": [
@@ -12776,7 +12831,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0307-WPT_reftest-css-css-contain-content-visibility-content-visibility-006.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0308-WPT_reftest-css-css-contain-content-visibility-content-visibility-006.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12815,7 +12870,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0307-WPT_reftest-css-css-contain-content-visibility-content-visibility-006.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0308-WPT_reftest-css-css-contain-content-visibility-content-visibility-006.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12831,7 +12886,7 @@
       }
     },
     {
-      "id": "0308",
+      "id": "0309",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-007.html",
       "file": [
@@ -12895,7 +12950,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0308-WPT_reftest-css-css-contain-content-visibility-content-visibility-007.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0309-WPT_reftest-css-css-contain-content-visibility-content-visibility-007.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12934,7 +12989,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0308-WPT_reftest-css-css-contain-content-visibility-content-visibility-007.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0309-WPT_reftest-css-css-contain-content-visibility-content-visibility-007.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12950,7 +13005,7 @@
       }
     },
     {
-      "id": "0309",
+      "id": "0310",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-008.html",
       "file": [
@@ -13014,7 +13069,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0309-WPT_reftest-css-css-contain-content-visibility-content-visibility-008.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0310-WPT_reftest-css-css-contain-content-visibility-content-visibility-008.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13053,7 +13108,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0309-WPT_reftest-css-css-contain-content-visibility-content-visibility-008.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0310-WPT_reftest-css-css-contain-content-visibility-content-visibility-008.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13069,7 +13124,7 @@
       }
     },
     {
-      "id": "0310",
+      "id": "0311",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-009.html",
       "file": [
@@ -13133,7 +13188,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0310-WPT_reftest-css-css-contain-content-visibility-content-visibility-009.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0311-WPT_reftest-css-css-contain-content-visibility-content-visibility-009.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13172,7 +13227,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0310-WPT_reftest-css-css-contain-content-visibility-content-visibility-009.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0311-WPT_reftest-css-css-contain-content-visibility-content-visibility-009.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13188,7 +13243,7 @@
       }
     },
     {
-      "id": "0311",
+      "id": "0312",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-010.html",
       "file": [
@@ -13252,7 +13307,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0311-WPT_reftest-css-css-contain-content-visibility-content-visibility-010.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0312-WPT_reftest-css-css-contain-content-visibility-content-visibility-010.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13291,7 +13346,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0311-WPT_reftest-css-css-contain-content-visibility-content-visibility-010.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0312-WPT_reftest-css-css-contain-content-visibility-content-visibility-010.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13307,7 +13362,7 @@
       }
     },
     {
-      "id": "0312",
+      "id": "0313",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-011.html",
       "file": [
@@ -13371,7 +13426,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0312-WPT_reftest-css-css-contain-content-visibility-content-visibility-011.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0313-WPT_reftest-css-css-contain-content-visibility-content-visibility-011.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13410,7 +13465,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0312-WPT_reftest-css-css-contain-content-visibility-content-visibility-011.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0313-WPT_reftest-css-css-contain-content-visibility-content-visibility-011.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13426,7 +13481,7 @@
       }
     },
     {
-      "id": "0313",
+      "id": "0314",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-012.html",
       "file": [
@@ -13490,7 +13545,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0313-WPT_reftest-css-css-contain-content-visibility-content-visibility-012.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0314-WPT_reftest-css-css-contain-content-visibility-content-visibility-012.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13529,7 +13584,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0313-WPT_reftest-css-css-contain-content-visibility-content-visibility-012.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0314-WPT_reftest-css-css-contain-content-visibility-content-visibility-012.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13545,7 +13600,7 @@
       }
     },
     {
-      "id": "0314",
+      "id": "0315",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-013.html",
       "file": [
@@ -13609,7 +13664,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0314-WPT_reftest-css-css-contain-content-visibility-content-visibility-013.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0315-WPT_reftest-css-css-contain-content-visibility-content-visibility-013.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13648,7 +13703,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0314-WPT_reftest-css-css-contain-content-visibility-content-visibility-013.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0315-WPT_reftest-css-css-contain-content-visibility-content-visibility-013.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13664,7 +13719,7 @@
       }
     },
     {
-      "id": "0315",
+      "id": "0316",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-014.html",
       "file": [
@@ -13728,7 +13783,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0315-WPT_reftest-css-css-contain-content-visibility-content-visibility-014.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0316-WPT_reftest-css-css-contain-content-visibility-content-visibility-014.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13767,7 +13822,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0315-WPT_reftest-css-css-contain-content-visibility-content-visibility-014.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0316-WPT_reftest-css-css-contain-content-visibility-content-visibility-014.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13783,7 +13838,7 @@
       }
     },
     {
-      "id": "0316",
+      "id": "0317",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-019.sub.https.html",
       "file": [
@@ -13828,7 +13883,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 255,
             "dimensionMismatch": false,
-            "diffImage": "diff/0316-WPT_reftest-css-css-contain-content-visibility-content-visibility-019.sub.https.html-p0001.png"
+            "diffImage": "diff/0317-WPT_reftest-css-css-contain-content-visibility-content-visibility-019.sub.https.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -13863,7 +13918,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0316-WPT_reftest-css-css-contain-content-visibility-content-visibility-019.sub.https.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0317-WPT_reftest-css-css-contain-content-visibility-content-visibility-019.sub.https.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13879,7 +13934,7 @@
       }
     },
     {
-      "id": "0317",
+      "id": "0318",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-020.html",
       "file": [
@@ -13943,7 +13998,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0317-WPT_reftest-css-css-contain-content-visibility-content-visibility-020.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0318-WPT_reftest-css-css-contain-content-visibility-content-visibility-020.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13982,7 +14037,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0317-WPT_reftest-css-css-contain-content-visibility-content-visibility-020.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0318-WPT_reftest-css-css-contain-content-visibility-content-visibility-020.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13998,7 +14053,7 @@
       }
     },
     {
-      "id": "0318",
+      "id": "0319",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-021.html",
       "file": [
@@ -14062,7 +14117,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0318-WPT_reftest-css-css-contain-content-visibility-content-visibility-021.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0319-WPT_reftest-css-css-contain-content-visibility-content-visibility-021.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14101,7 +14156,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0318-WPT_reftest-css-css-contain-content-visibility-content-visibility-021.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0319-WPT_reftest-css-css-contain-content-visibility-content-visibility-021.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14117,7 +14172,7 @@
       }
     },
     {
-      "id": "0319",
+      "id": "0320",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-022.html",
       "file": [
@@ -14181,7 +14236,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0319-WPT_reftest-css-css-contain-content-visibility-content-visibility-022.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0320-WPT_reftest-css-css-contain-content-visibility-content-visibility-022.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14220,7 +14275,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0319-WPT_reftest-css-css-contain-content-visibility-content-visibility-022.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0320-WPT_reftest-css-css-contain-content-visibility-content-visibility-022.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14236,7 +14291,7 @@
       }
     },
     {
-      "id": "0320",
+      "id": "0321",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-023.html",
       "file": [
@@ -14300,7 +14355,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0320-WPT_reftest-css-css-contain-content-visibility-content-visibility-023.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0321-WPT_reftest-css-css-contain-content-visibility-content-visibility-023.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14339,7 +14394,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0320-WPT_reftest-css-css-contain-content-visibility-content-visibility-023.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0321-WPT_reftest-css-css-contain-content-visibility-content-visibility-023.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14355,7 +14410,7 @@
       }
     },
     {
-      "id": "0321",
+      "id": "0322",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-024.html",
       "file": [
@@ -14428,7 +14483,7 @@
                 "exceededDiffPixels": 146800,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0321-WPT_reftest-css-css-contain-content-visibility-content-visibility-024.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0322-WPT_reftest-css-css-contain-content-visibility-content-visibility-024.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14476,7 +14531,7 @@
                 "exceededDiffPixels": 146800,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0321-WPT_reftest-css-css-contain-content-visibility-content-visibility-024.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0322-WPT_reftest-css-css-contain-content-visibility-content-visibility-024.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14492,7 +14547,7 @@
       }
     },
     {
-      "id": "0322",
+      "id": "0323",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-025.html",
       "file": [
@@ -14556,7 +14611,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0322-WPT_reftest-css-css-contain-content-visibility-content-visibility-025.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0323-WPT_reftest-css-css-contain-content-visibility-content-visibility-025.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14595,7 +14650,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0322-WPT_reftest-css-css-contain-content-visibility-content-visibility-025.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0323-WPT_reftest-css-css-contain-content-visibility-content-visibility-025.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14611,7 +14666,7 @@
       }
     },
     {
-      "id": "0323",
+      "id": "0324",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-027.html",
       "file": [
@@ -14634,7 +14689,7 @@
       ]
     },
     {
-      "id": "0324",
+      "id": "0325",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-028.html",
       "file": [
@@ -14657,7 +14712,7 @@
       ]
     },
     {
-      "id": "0325",
+      "id": "0326",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-032.html",
       "file": [
@@ -14680,7 +14735,7 @@
       ]
     },
     {
-      "id": "0326",
+      "id": "0327",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-033.sub.https.html",
       "file": [
@@ -14703,7 +14758,7 @@
       ]
     },
     {
-      "id": "0327",
+      "id": "0328",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-034.html",
       "file": [
@@ -14726,7 +14781,7 @@
       ]
     },
     {
-      "id": "0328",
+      "id": "0329",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-037.html",
       "file": [
@@ -14790,7 +14845,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0328-WPT_reftest-css-css-contain-content-visibility-content-visibility-037.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0329-WPT_reftest-css-css-contain-content-visibility-content-visibility-037.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14829,7 +14884,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0328-WPT_reftest-css-css-contain-content-visibility-content-visibility-037.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0329-WPT_reftest-css-css-contain-content-visibility-content-visibility-037.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14845,7 +14900,7 @@
       }
     },
     {
-      "id": "0329",
+      "id": "0330",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-040.html",
       "file": [
@@ -14909,7 +14964,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0329-WPT_reftest-css-css-contain-content-visibility-content-visibility-040.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0330-WPT_reftest-css-css-contain-content-visibility-content-visibility-040.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14948,7 +15003,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0329-WPT_reftest-css-css-contain-content-visibility-content-visibility-040.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0330-WPT_reftest-css-css-contain-content-visibility-content-visibility-040.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14964,7 +15019,7 @@
       }
     },
     {
-      "id": "0330",
+      "id": "0331",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-041.html",
       "file": [
@@ -15028,7 +15083,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 82,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0330-WPT_reftest-css-css-contain-content-visibility-content-visibility-041.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0331-WPT_reftest-css-css-contain-content-visibility-content-visibility-041.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -15067,7 +15122,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 82,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0330-WPT_reftest-css-css-contain-content-visibility-content-visibility-041.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0331-WPT_reftest-css-css-contain-content-visibility-content-visibility-041.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -15083,7 +15138,7 @@
       }
     },
     {
-      "id": "0331",
+      "id": "0332",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-042.html",
       "file": [
@@ -15147,7 +15202,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0331-WPT_reftest-css-css-contain-content-visibility-content-visibility-042.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0332-WPT_reftest-css-css-contain-content-visibility-content-visibility-042.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -15186,7 +15241,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0331-WPT_reftest-css-css-contain-content-visibility-content-visibility-042.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0332-WPT_reftest-css-css-contain-content-visibility-content-visibility-042.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -15202,7 +15257,7 @@
       }
     },
     {
-      "id": "0332",
+      "id": "0333",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-043.html",
       "file": [
@@ -15225,7 +15280,7 @@
       ]
     },
     {
-      "id": "0333",
+      "id": "0334",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-045.html",
       "file": [
@@ -15289,7 +15344,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0333-WPT_reftest-css-css-contain-content-visibility-content-visibility-045.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0334-WPT_reftest-css-css-contain-content-visibility-content-visibility-045.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -15328,7 +15383,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0333-WPT_reftest-css-css-contain-content-visibility-content-visibility-045.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0334-WPT_reftest-css-css-contain-content-visibility-content-visibility-045.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -15344,7 +15399,7 @@
       }
     },
     {
-      "id": "0334",
+      "id": "0335",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-046.html",
       "file": [
@@ -15367,7 +15422,7 @@
       ]
     },
     {
-      "id": "0335",
+      "id": "0336",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-049.html",
       "file": [
@@ -15393,7 +15448,7 @@
           "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
+            "message": "page.waitForFunction: Timeout 10000ms exceeded.",
             "timeout": true
           },
           "sideErrors": [
@@ -15401,7 +15456,7 @@
               "side": "canary",
               "error": {
                 "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
+                "message": "page.waitForFunction: Timeout 10000ms exceeded.",
                 "timeout": true
               }
             },
@@ -15409,7 +15464,7 @@
               "side": "stable",
               "error": {
                 "name": "Error",
-                "message": "page.addStyleTag: Execution context was destroyed, most likely because of a navigation",
+                "message": "locator.screenshot: Protocol error (DOM.scrollIntoViewIfNeeded): Cannot find context with specified id\nCall log:\n  - taking element screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n  - attempting scroll into view action\n    - waiting for element to be stable\n",
                 "timeout": false
               }
             }
@@ -15422,7 +15477,7 @@
       ]
     },
     {
-      "id": "0336",
+      "id": "0337",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-051.html",
       "file": [
@@ -15486,7 +15541,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0336-WPT_reftest-css-css-contain-content-visibility-content-visibility-051.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0337-WPT_reftest-css-css-contain-content-visibility-content-visibility-051.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -15525,7 +15580,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0336-WPT_reftest-css-css-contain-content-visibility-content-visibility-051.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0337-WPT_reftest-css-css-contain-content-visibility-content-visibility-051.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -15541,7 +15596,7 @@
       }
     },
     {
-      "id": "0337",
+      "id": "0338",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-052.html",
       "file": [
@@ -15605,7 +15660,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0337-WPT_reftest-css-css-contain-content-visibility-content-visibility-052.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0338-WPT_reftest-css-css-contain-content-visibility-content-visibility-052.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -15644,7 +15699,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0337-WPT_reftest-css-css-contain-content-visibility-content-visibility-052.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0338-WPT_reftest-css-css-contain-content-visibility-content-visibility-052.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -15660,7 +15715,7 @@
       }
     },
     {
-      "id": "0338",
+      "id": "0339",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-055.html",
       "file": [
@@ -15685,17 +15740,17 @@
         {
           "side": "canary, stable",
           "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
+            "name": "Error",
+            "message": "page.addStyleTag: Execution context was destroyed, most likely because of a navigation",
+            "timeout": false
           },
           "sideErrors": [
             {
               "side": "canary",
               "error": {
-                "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
-                "timeout": true
+                "name": "Error",
+                "message": "page.addStyleTag: Execution context was destroyed, most likely because of a navigation",
+                "timeout": false
               }
             },
             {
@@ -15715,7 +15770,7 @@
       ]
     },
     {
-      "id": "0339",
+      "id": "0340",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-056.html",
       "file": [
@@ -15781,7 +15836,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0339-WPT_reftest-css-css-contain-content-visibility-content-visibility-056.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0340-WPT_reftest-css-css-contain-content-visibility-content-visibility-056.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -15822,7 +15877,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0339-WPT_reftest-css-css-contain-content-visibility-content-visibility-056.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0340-WPT_reftest-css-css-contain-content-visibility-content-visibility-056.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -15838,7 +15893,7 @@
       }
     },
     {
-      "id": "0340",
+      "id": "0341",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-057.html",
       "file": [
@@ -15902,7 +15957,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0340-WPT_reftest-css-css-contain-content-visibility-content-visibility-057.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0341-WPT_reftest-css-css-contain-content-visibility-content-visibility-057.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -15941,7 +15996,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0340-WPT_reftest-css-css-contain-content-visibility-content-visibility-057.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0341-WPT_reftest-css-css-contain-content-visibility-content-visibility-057.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -15957,7 +16012,7 @@
       }
     },
     {
-      "id": "0341",
+      "id": "0342",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-058.html",
       "file": [
@@ -15980,7 +16035,7 @@
       ]
     },
     {
-      "id": "0342",
+      "id": "0343",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-060.html",
       "file": [
@@ -16046,7 +16101,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0342-WPT_reftest-css-css-contain-content-visibility-content-visibility-060.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0343-WPT_reftest-css-css-contain-content-visibility-content-visibility-060.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -16087,7 +16142,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0342-WPT_reftest-css-css-contain-content-visibility-content-visibility-060.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0343-WPT_reftest-css-css-contain-content-visibility-content-visibility-060.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -16103,7 +16158,7 @@
       }
     },
     {
-      "id": "0343",
+      "id": "0344",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-061.html",
       "file": [
@@ -16169,7 +16224,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0343-WPT_reftest-css-css-contain-content-visibility-content-visibility-061.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0344-WPT_reftest-css-css-contain-content-visibility-content-visibility-061.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -16210,7 +16265,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0343-WPT_reftest-css-css-contain-content-visibility-content-visibility-061.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0344-WPT_reftest-css-css-contain-content-visibility-content-visibility-061.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -16226,7 +16281,7 @@
       }
     },
     {
-      "id": "0344",
+      "id": "0345",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-062.html",
       "file": [
@@ -16292,7 +16347,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0344-WPT_reftest-css-css-contain-content-visibility-content-visibility-062.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0345-WPT_reftest-css-css-contain-content-visibility-content-visibility-062.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -16333,7 +16388,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0344-WPT_reftest-css-css-contain-content-visibility-content-visibility-062.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0345-WPT_reftest-css-css-contain-content-visibility-content-visibility-062.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -16349,7 +16404,7 @@
       }
     },
     {
-      "id": "0345",
+      "id": "0346",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-063.html",
       "file": [
@@ -16415,7 +16470,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0345-WPT_reftest-css-css-contain-content-visibility-content-visibility-063.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0346-WPT_reftest-css-css-contain-content-visibility-content-visibility-063.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -16456,7 +16511,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0345-WPT_reftest-css-css-contain-content-visibility-content-visibility-063.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0346-WPT_reftest-css-css-contain-content-visibility-content-visibility-063.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -16472,7 +16527,7 @@
       }
     },
     {
-      "id": "0346",
+      "id": "0347",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-064.html",
       "file": [
@@ -16495,7 +16550,7 @@
       ]
     },
     {
-      "id": "0347",
+      "id": "0348",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-065.html",
       "file": [
@@ -16561,7 +16616,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0347-WPT_reftest-css-css-contain-content-visibility-content-visibility-065.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0348-WPT_reftest-css-css-contain-content-visibility-content-visibility-065.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -16602,7 +16657,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0347-WPT_reftest-css-css-contain-content-visibility-content-visibility-065.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0348-WPT_reftest-css-css-contain-content-visibility-content-visibility-065.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -16618,7 +16673,7 @@
       }
     },
     {
-      "id": "0348",
+      "id": "0349",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-066.html",
       "file": [
@@ -16684,7 +16739,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0348-WPT_reftest-css-css-contain-content-visibility-content-visibility-066.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0349-WPT_reftest-css-css-contain-content-visibility-content-visibility-066.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -16725,7 +16780,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0348-WPT_reftest-css-css-contain-content-visibility-content-visibility-066.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0349-WPT_reftest-css-css-contain-content-visibility-content-visibility-066.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -16741,7 +16796,7 @@
       }
     },
     {
-      "id": "0349",
+      "id": "0350",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-067.html",
       "file": [
@@ -16807,7 +16862,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0349-WPT_reftest-css-css-contain-content-visibility-content-visibility-067.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0350-WPT_reftest-css-css-contain-content-visibility-content-visibility-067.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -16848,7 +16903,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0349-WPT_reftest-css-css-contain-content-visibility-content-visibility-067.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0350-WPT_reftest-css-css-contain-content-visibility-content-visibility-067.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -16864,7 +16919,7 @@
       }
     },
     {
-      "id": "0350",
+      "id": "0351",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-073.html",
       "file": [
@@ -16928,7 +16983,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0350-WPT_reftest-css-css-contain-content-visibility-content-visibility-073.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0351-WPT_reftest-css-css-contain-content-visibility-content-visibility-073.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -16967,7 +17022,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0350-WPT_reftest-css-css-contain-content-visibility-content-visibility-073.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0351-WPT_reftest-css-css-contain-content-visibility-content-visibility-073.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -16983,7 +17038,7 @@
       }
     },
     {
-      "id": "0351",
+      "id": "0352",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-074.html",
       "file": [
@@ -17006,7 +17061,7 @@
       ]
     },
     {
-      "id": "0352",
+      "id": "0353",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-075.html",
       "file": [
@@ -17105,7 +17160,7 @@
       }
     },
     {
-      "id": "0353",
+      "id": "0354",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-076.html",
       "file": [
@@ -17131,7 +17186,7 @@
           "side": "canary, stable",
           "error": {
             "name": "Error",
-            "message": "page.evaluate: Error: Could not detect total pages (no spread container found).\n    at eval (eval at evaluate (:302:30), <anonymous>:10:11)\n    at UtilityScript.evaluate (<anonymous>:304:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+            "message": "page.addStyleTag: Execution context was destroyed, most likely because of a navigation",
             "timeout": false
           },
           "sideErrors": [
@@ -17139,7 +17194,7 @@
               "side": "canary",
               "error": {
                 "name": "Error",
-                "message": "page.evaluate: Error: Could not detect total pages (no spread container found).\n    at eval (eval at evaluate (:302:30), <anonymous>:10:11)\n    at UtilityScript.evaluate (<anonymous>:304:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+                "message": "page.addStyleTag: Execution context was destroyed, most likely because of a navigation",
                 "timeout": false
               }
             },
@@ -17160,7 +17215,7 @@
       ]
     },
     {
-      "id": "0354",
+      "id": "0355",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-078.html",
       "file": [
@@ -17224,7 +17279,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0354-WPT_reftest-css-css-contain-content-visibility-content-visibility-078.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0355-WPT_reftest-css-css-contain-content-visibility-content-visibility-078.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -17263,7 +17318,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0354-WPT_reftest-css-css-contain-content-visibility-content-visibility-078.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0355-WPT_reftest-css-css-contain-content-visibility-content-visibility-078.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -17279,7 +17334,7 @@
       }
     },
     {
-      "id": "0355",
+      "id": "0356",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-079.html",
       "file": [
@@ -17302,7 +17357,7 @@
       ]
     },
     {
-      "id": "0356",
+      "id": "0357",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-082.html",
       "file": [
@@ -17325,7 +17380,7 @@
       ]
     },
     {
-      "id": "0357",
+      "id": "0358",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-083.html",
       "file": [
@@ -17351,7 +17406,7 @@
           "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
+            "message": "page.waitForFunction: Timeout 10000ms exceeded.",
             "timeout": true
           },
           "sideErrors": [
@@ -17359,7 +17414,7 @@
               "side": "canary",
               "error": {
                 "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
+                "message": "page.waitForFunction: Timeout 10000ms exceeded.",
                 "timeout": true
               }
             },
@@ -17380,7 +17435,7 @@
       ]
     },
     {
-      "id": "0358",
+      "id": "0359",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-084.html",
       "file": [
@@ -17435,7 +17490,7 @@
       ]
     },
     {
-      "id": "0359",
+      "id": "0360",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-085.html",
       "file": [
@@ -17499,7 +17554,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0359-WPT_reftest-css-css-contain-content-visibility-content-visibility-085.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0360-WPT_reftest-css-css-contain-content-visibility-content-visibility-085.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -17538,7 +17593,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0359-WPT_reftest-css-css-contain-content-visibility-content-visibility-085.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0360-WPT_reftest-css-css-contain-content-visibility-content-visibility-085.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -17554,7 +17609,7 @@
       }
     },
     {
-      "id": "0360",
+      "id": "0361",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-094.html",
       "file": [
@@ -17618,7 +17673,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0360-WPT_reftest-css-css-contain-content-visibility-content-visibility-094.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0361-WPT_reftest-css-css-contain-content-visibility-content-visibility-094.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -17657,7 +17712,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0360-WPT_reftest-css-css-contain-content-visibility-content-visibility-094.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0361-WPT_reftest-css-css-contain-content-visibility-content-visibility-094.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -17673,7 +17728,7 @@
       }
     },
     {
-      "id": "0361",
+      "id": "0362",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-095.html",
       "file": [
@@ -17737,7 +17792,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0361-WPT_reftest-css-css-contain-content-visibility-content-visibility-095.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0362-WPT_reftest-css-css-contain-content-visibility-content-visibility-095.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -17776,7 +17831,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0361-WPT_reftest-css-css-contain-content-visibility-content-visibility-095.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0362-WPT_reftest-css-css-contain-content-visibility-content-visibility-095.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -17792,7 +17847,7 @@
       }
     },
     {
-      "id": "0362",
+      "id": "0363",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-096.html",
       "file": [
@@ -17815,7 +17870,7 @@
       ]
     },
     {
-      "id": "0363",
+      "id": "0364",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-097.html",
       "file": [
@@ -17838,7 +17893,7 @@
       ]
     },
     {
-      "id": "0364",
+      "id": "0365",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-098.html",
       "file": [
@@ -17861,7 +17916,7 @@
       ]
     },
     {
-      "id": "0365",
+      "id": "0366",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-099.html",
       "file": [
@@ -17884,7 +17939,7 @@
       ]
     },
     {
-      "id": "0366",
+      "id": "0367",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-animation-and-scroll.html",
       "file": [
@@ -17948,7 +18003,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0366-WPT_reftest-css-css-contain-content-visibility-content-visibility-animation-and-scroll.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0367-WPT_reftest-css-css-contain-content-visibility-content-visibility-animation-and-scroll.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -17987,7 +18042,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0366-WPT_reftest-css-css-contain-content-visibility-content-visibility-animation-and-scroll.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0367-WPT_reftest-css-css-contain-content-visibility-content-visibility-animation-and-scroll.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -18003,7 +18058,7 @@
       }
     },
     {
-      "id": "0367",
+      "id": "0368",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-animation-becomes-visible.html",
       "file": [
@@ -18067,7 +18122,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0367-WPT_reftest-css-css-contain-content-visibility-content-visibility-animation-becomes-visible.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0368-WPT_reftest-css-css-contain-content-visibility-content-visibility-animation-becomes-visible.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -18106,7 +18161,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0367-WPT_reftest-css-css-contain-content-visibility-content-visibility-animation-becomes-visible.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0368-WPT_reftest-css-css-contain-content-visibility-content-visibility-animation-becomes-visible.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -18122,7 +18177,7 @@
       }
     },
     {
-      "id": "0368",
+      "id": "0369",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-auto-img-001.html",
       "file": [
@@ -18145,7 +18200,7 @@
       ]
     },
     {
-      "id": "0369",
+      "id": "0370",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-auto-in-iframe.html",
       "file": [
@@ -18168,7 +18223,7 @@
       ]
     },
     {
-      "id": "0370",
+      "id": "0371",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-auto-intrinsic-width.html",
       "file": [
@@ -18191,7 +18246,7 @@
       ]
     },
     {
-      "id": "0371",
+      "id": "0372",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-auto-nested-scroll.html",
       "file": [
@@ -18214,7 +18269,7 @@
       ]
     },
     {
-      "id": "0372",
+      "id": "0373",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-auto-nested.html",
       "file": [
@@ -18237,7 +18292,7 @@
       ]
     },
     {
-      "id": "0373",
+      "id": "0374",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-auto-svg-image.html",
       "file": [
@@ -18301,7 +18356,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0373-WPT_reftest-css-css-contain-content-visibility-content-visibility-auto-svg-image.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0374-WPT_reftest-css-css-contain-content-visibility-content-visibility-auto-svg-image.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -18340,7 +18395,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0373-WPT_reftest-css-css-contain-content-visibility-content-visibility-auto-svg-image.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0374-WPT_reftest-css-css-contain-content-visibility-content-visibility-auto-svg-image.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -18356,7 +18411,7 @@
       }
     },
     {
-      "id": "0374",
+      "id": "0375",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-auto-svg-text.html",
       "file": [
@@ -18379,7 +18434,7 @@
       ]
     },
     {
-      "id": "0375",
+      "id": "0376",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-canvas.html",
       "file": [
@@ -18443,7 +18498,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0375-WPT_reftest-css-css-contain-content-visibility-content-visibility-canvas.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0376-WPT_reftest-css-css-contain-content-visibility-content-visibility-canvas.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -18482,7 +18537,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0375-WPT_reftest-css-css-contain-content-visibility-content-visibility-canvas.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0376-WPT_reftest-css-css-contain-content-visibility-content-visibility-canvas.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -18498,7 +18553,7 @@
       }
     },
     {
-      "id": "0376",
+      "id": "0377",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-fieldset-size.html",
       "file": [
@@ -18521,7 +18576,7 @@
       ]
     },
     {
-      "id": "0377",
+      "id": "0378",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-hidden-and-innertext.html",
       "file": [
@@ -18585,7 +18640,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0377-WPT_reftest-css-css-contain-content-visibility-content-visibility-hidden-and-innertext.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0378-WPT_reftest-css-css-contain-content-visibility-content-visibility-hidden-and-innertext.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -18624,7 +18679,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0377-WPT_reftest-css-css-contain-content-visibility-content-visibility-hidden-and-innertext.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0378-WPT_reftest-css-css-contain-content-visibility-content-visibility-hidden-and-innertext.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -18640,7 +18695,7 @@
       }
     },
     {
-      "id": "0378",
+      "id": "0379",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-hidden-with-column-spanner.html",
       "file": [
@@ -18663,7 +18718,7 @@
       ]
     },
     {
-      "id": "0379",
+      "id": "0380",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-intrinsic-size-001.html",
       "file": [
@@ -18752,7 +18807,7 @@
       }
     },
     {
-      "id": "0380",
+      "id": "0381",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-on-display-contents.html",
       "file": [
@@ -18775,7 +18830,7 @@
       ]
     },
     {
-      "id": "0381",
+      "id": "0382",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-on-g.html",
       "file": [
@@ -18839,7 +18894,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0381-WPT_reftest-css-css-contain-content-visibility-content-visibility-on-g.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0382-WPT_reftest-css-css-contain-content-visibility-content-visibility-on-g.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -18878,7 +18933,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0381-WPT_reftest-css-css-contain-content-visibility-content-visibility-on-g.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0382-WPT_reftest-css-css-contain-content-visibility-content-visibility-on-g.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -18894,7 +18949,7 @@
       }
     },
     {
-      "id": "0382",
+      "id": "0383",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-on-root-svg.html",
       "file": [
@@ -18917,7 +18972,7 @@
       ]
     },
     {
-      "id": "0383",
+      "id": "0384",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-on-ruby.html",
       "file": [
@@ -18940,7 +18995,7 @@
       ]
     },
     {
-      "id": "0384",
+      "id": "0385",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-paint-containment-001.html",
       "file": [
@@ -18963,7 +19018,7 @@
       ]
     },
     {
-      "id": "0385",
+      "id": "0386",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-paint-containment-002.html",
       "file": [
@@ -19027,7 +19082,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0385-WPT_reftest-css-css-contain-content-visibility-content-visibility-paint-containment-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0386-WPT_reftest-css-css-contain-content-visibility-content-visibility-paint-containment-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -19066,7 +19121,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0385-WPT_reftest-css-css-contain-content-visibility-content-visibility-paint-containment-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0386-WPT_reftest-css-css-contain-content-visibility-content-visibility-paint-containment-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -19082,7 +19137,7 @@
       }
     },
     {
-      "id": "0386",
+      "id": "0387",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-paint-containment-003.html",
       "file": [
@@ -19146,7 +19201,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0386-WPT_reftest-css-css-contain-content-visibility-content-visibility-paint-containment-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0387-WPT_reftest-css-css-contain-content-visibility-content-visibility-paint-containment-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -19185,7 +19240,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0386-WPT_reftest-css-css-contain-content-visibility-content-visibility-paint-containment-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0387-WPT_reftest-css-css-contain-content-visibility-content-visibility-paint-containment-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -19201,7 +19256,7 @@
       }
     },
     {
-      "id": "0387",
+      "id": "0388",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-paint-containment-004.html",
       "file": [
@@ -19224,7 +19279,7 @@
       ]
     },
     {
-      "id": "0388",
+      "id": "0389",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-resize-observer-no-error.html",
       "file": [
@@ -19247,7 +19302,7 @@
       ]
     },
     {
-      "id": "0389",
+      "id": "0390",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-video.html",
       "file": [
@@ -19304,14 +19359,14 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 28266,
-                "diffRatio": 0.03371164414930158,
+                "diffPixels": 33962,
+                "diffRatio": 0.04050501870086253,
                 "exactDiffPixels": 35000,
                 "exactDiffRatio": 0.041742996717807804,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0389-WPT_reftest-css-css-contain-content-visibility-content-visibility-video.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0390-WPT_reftest-css-css-contain-content-visibility-content-visibility-video.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -19343,14 +19398,14 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 30000,
-                "diffRatio": 0.03577971147240669,
+                "diffPixels": 33963,
+                "diffRatio": 0.04050621135791161,
                 "exactDiffPixels": 35000,
                 "exactDiffRatio": 0.041742996717807804,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0389-WPT_reftest-css-css-contain-content-visibility-content-visibility-video.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0390-WPT_reftest-css-css-contain-content-visibility-content-visibility-video.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -19366,7 +19421,7 @@
       }
     },
     {
-      "id": "0390",
+      "id": "0391",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-vs-scrollIntoView-001.html",
       "file": [
@@ -19389,7 +19444,7 @@
       ]
     },
     {
-      "id": "0391",
+      "id": "0392",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-vs-scrollIntoView-002.html",
       "file": [
@@ -19412,7 +19467,7 @@
       ]
     },
     {
-      "id": "0392",
+      "id": "0393",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-popover-top-layer-000.html",
       "file": [
@@ -19435,7 +19490,7 @@
       ]
     },
     {
-      "id": "0393",
+      "id": "0394",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-popover-top-layer-001.html",
       "file": [
@@ -19520,7 +19575,7 @@
       }
     },
     {
-      "id": "0394",
+      "id": "0395",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-popover-top-layer-002.html",
       "file": [
@@ -19605,7 +19660,7 @@
       }
     },
     {
-      "id": "0395",
+      "id": "0396",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-popover-top-layer-003.html",
       "file": [
@@ -19628,7 +19683,7 @@
       ]
     },
     {
-      "id": "0396",
+      "id": "0397",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-popover-top-layer-004.html",
       "file": [
@@ -19717,7 +19772,7 @@
       }
     },
     {
-      "id": "0397",
+      "id": "0398",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-popover-top-layer-005.html",
       "file": [
@@ -19785,7 +19840,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0397-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-popover-top-layer-005.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0398-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-popover-top-layer-005.html-r01-p0002.png"
               },
               {
                 "page": 3,
@@ -19802,7 +19857,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0397-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-popover-top-layer-005.html-r01-p0003.png"
+                "diffImage": "actual-reference-diff/0398-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-popover-top-layer-005.html-r01-p0003.png"
               }
             ],
             "unexpectedEquality": false,
@@ -19845,7 +19900,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0397-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-popover-top-layer-005.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0398-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-popover-top-layer-005.html-r01-p0002.png"
               },
               {
                 "page": 3,
@@ -19862,7 +19917,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0397-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-popover-top-layer-005.html-r01-p0003.png"
+                "diffImage": "baseline-reference-diff/0398-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-popover-top-layer-005.html-r01-p0003.png"
               }
             ],
             "unexpectedEquality": false,
@@ -19878,7 +19933,7 @@
       }
     },
     {
-      "id": "0398",
+      "id": "0399",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-popover-top-layer-and-auto-descendant.html",
       "file": [
@@ -19944,7 +19999,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0398-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-popover-top-layer-and-auto-descendant.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0399-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-popover-top-layer-and-auto-descendant.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -19985,7 +20040,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0398-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-popover-top-layer-and-auto-descendant.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0399-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-popover-top-layer-and-auto-descendant.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20001,7 +20056,7 @@
       }
     },
     {
-      "id": "0399",
+      "id": "0400",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-popover-top-layer-hide-after-addition.html",
       "file": [
@@ -20086,7 +20141,7 @@
       }
     },
     {
-      "id": "0400",
+      "id": "0401",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-top-layer-000.html",
       "file": [
@@ -20109,7 +20164,7 @@
       ]
     },
     {
-      "id": "0401",
+      "id": "0402",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-top-layer-001.html",
       "file": [
@@ -20173,7 +20228,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0401-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0402-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20212,7 +20267,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0401-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0402-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20228,7 +20283,7 @@
       }
     },
     {
-      "id": "0402",
+      "id": "0403",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-top-layer-002.html",
       "file": [
@@ -20292,7 +20347,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0402-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0403-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20331,7 +20386,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0402-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0403-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20347,7 +20402,7 @@
       }
     },
     {
-      "id": "0403",
+      "id": "0404",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-top-layer-003.html",
       "file": [
@@ -20411,7 +20466,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0403-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0404-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20450,7 +20505,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0403-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0404-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20466,7 +20521,7 @@
       }
     },
     {
-      "id": "0404",
+      "id": "0405",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-top-layer-004.html",
       "file": [
@@ -20521,7 +20576,7 @@
       ]
     },
     {
-      "id": "0405",
+      "id": "0406",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-top-layer-005.html",
       "file": [
@@ -20576,7 +20631,7 @@
       ]
     },
     {
-      "id": "0406",
+      "id": "0407",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-top-layer-and-auto-descendant.html",
       "file": [
@@ -20631,7 +20686,7 @@
       ]
     },
     {
-      "id": "0407",
+      "id": "0408",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-top-layer-hide-after-addition.html",
       "file": [
@@ -20695,7 +20750,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0407-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-hide-after-addition.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0408-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-hide-after-addition.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20734,7 +20789,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0407-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-hide-after-addition.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0408-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-hide-after-addition.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20750,7 +20805,7 @@
       }
     },
     {
-      "id": "0408",
+      "id": "0409",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/content-visibility-with-top-layer-in-auto-subtree-removal.html",
       "file": [
@@ -20814,7 +20869,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0408-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-in-auto-subtree-removal.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0409-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-in-auto-subtree-removal.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20853,7 +20908,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 230,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0408-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-in-auto-subtree-removal.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0409-WPT_reftest-css-css-contain-content-visibility-content-visibility-with-top-layer-in-auto-subtree-removal.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20869,7 +20924,7 @@
       }
     },
     {
-      "id": "0409",
+      "id": "0410",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/dynamic-change-paint-fully-obscuring-child-001.html",
       "file": [
@@ -20933,7 +20988,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0409-WPT_reftest-css-css-contain-content-visibility-dynamic-change-paint-fully-obscuring-child-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0410-WPT_reftest-css-css-contain-content-visibility-dynamic-change-paint-fully-obscuring-child-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20972,7 +21027,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0409-WPT_reftest-css-css-contain-content-visibility-dynamic-change-paint-fully-obscuring-child-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0410-WPT_reftest-css-css-contain-content-visibility-dynamic-change-paint-fully-obscuring-child-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20988,7 +21043,7 @@
       }
     },
     {
-      "id": "0410",
+      "id": "0411",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/dynamic-change-with-slotted-text.html",
       "file": [
@@ -21052,7 +21107,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0410-WPT_reftest-css-css-contain-content-visibility-dynamic-change-with-slotted-text.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0411-WPT_reftest-css-css-contain-content-visibility-dynamic-change-with-slotted-text.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21091,7 +21146,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0410-WPT_reftest-css-css-contain-content-visibility-dynamic-change-with-slotted-text.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0411-WPT_reftest-css-css-contain-content-visibility-dynamic-change-with-slotted-text.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21107,7 +21162,7 @@
       }
     },
     {
-      "id": "0411",
+      "id": "0412",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/element-reassigned-to-skipped-slot.html",
       "file": [
@@ -21130,7 +21185,7 @@
       ]
     },
     {
-      "id": "0412",
+      "id": "0413",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/element-reassigned-to-slot-in-skipped-subtree.html",
       "file": [
@@ -21153,7 +21208,7 @@
       ]
     },
     {
-      "id": "0413",
+      "id": "0414",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/scrollIntoView-target-with-contents-hidden.html",
       "file": [
@@ -21238,7 +21293,7 @@
       }
     },
     {
-      "id": "0414",
+      "id": "0415",
       "category": "WPT reftest",
       "title": "css/css-contain/content-visibility/scrollIntoView-with-focus-target-with-contents-hidden.html",
       "file": [
@@ -21323,7 +21378,7 @@
       }
     },
     {
-      "id": "0415",
+      "id": "0416",
       "category": "WPT reftest",
       "title": "css/css-contain/counter-scoping-001.html",
       "file": [
@@ -21387,7 +21442,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0415-WPT_reftest-css-css-contain-counter-scoping-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0416-WPT_reftest-css-css-contain-counter-scoping-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21426,7 +21481,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0415-WPT_reftest-css-css-contain-counter-scoping-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0416-WPT_reftest-css-css-contain-counter-scoping-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21442,7 +21497,7 @@
       }
     },
     {
-      "id": "0416",
+      "id": "0417",
       "category": "WPT reftest",
       "title": "css/css-contain/counter-scoping-002.html",
       "file": [
@@ -21506,7 +21561,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0416-WPT_reftest-css-css-contain-counter-scoping-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0417-WPT_reftest-css-css-contain-counter-scoping-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21545,7 +21600,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0416-WPT_reftest-css-css-contain-counter-scoping-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0417-WPT_reftest-css-css-contain-counter-scoping-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21561,7 +21616,7 @@
       }
     },
     {
-      "id": "0417",
+      "id": "0418",
       "category": "WPT reftest",
       "title": "css/css-contain/counter-scoping-003.html",
       "file": [
@@ -21625,7 +21680,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0417-WPT_reftest-css-css-contain-counter-scoping-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0418-WPT_reftest-css-css-contain-counter-scoping-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21664,7 +21719,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0417-WPT_reftest-css-css-contain-counter-scoping-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0418-WPT_reftest-css-css-contain-counter-scoping-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21680,7 +21735,7 @@
       }
     },
     {
-      "id": "0418",
+      "id": "0419",
       "category": "WPT reftest",
       "title": "css/css-contain/counter-scoping-004.html",
       "file": [
@@ -21744,7 +21799,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0418-WPT_reftest-css-css-contain-counter-scoping-004.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0419-WPT_reftest-css-css-contain-counter-scoping-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21783,7 +21838,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0418-WPT_reftest-css-css-contain-counter-scoping-004.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0419-WPT_reftest-css-css-contain-counter-scoping-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21799,7 +21854,7 @@
       }
     },
     {
-      "id": "0419",
+      "id": "0420",
       "category": "WPT reftest",
       "title": "css/css-contain/quote-scoping-001.html",
       "file": [
@@ -21863,7 +21918,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0419-WPT_reftest-css-css-contain-quote-scoping-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0420-WPT_reftest-css-css-contain-quote-scoping-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21902,7 +21957,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0419-WPT_reftest-css-css-contain-quote-scoping-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0420-WPT_reftest-css-css-contain-quote-scoping-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21918,7 +21973,7 @@
       }
     },
     {
-      "id": "0420",
+      "id": "0421",
       "category": "WPT reftest",
       "title": "css/css-contain/quote-scoping-002.html",
       "file": [
@@ -21941,7 +21996,7 @@
       ]
     },
     {
-      "id": "0421",
+      "id": "0422",
       "category": "WPT reftest",
       "title": "css/css-contain/quote-scoping-003.html",
       "file": [
@@ -22005,7 +22060,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0421-WPT_reftest-css-css-contain-quote-scoping-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0422-WPT_reftest-css-css-contain-quote-scoping-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22044,7 +22099,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0421-WPT_reftest-css-css-contain-quote-scoping-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0422-WPT_reftest-css-css-contain-quote-scoping-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22060,7 +22115,7 @@
       }
     },
     {
-      "id": "0422",
+      "id": "0423",
       "category": "WPT reftest",
       "title": "css/css-contain/quote-scoping-004.html",
       "file": [
@@ -22083,7 +22138,7 @@
       ]
     },
     {
-      "id": "0423",
+      "id": "0424",
       "category": "WPT reftest",
       "title": "css/css-contain/quote-scoping-empty-style-boundaries.html",
       "file": [
@@ -22106,7 +22161,7 @@
       ]
     },
     {
-      "id": "0424",
+      "id": "0425",
       "category": "WPT reftest",
       "title": "css/css-contain/quote-scoping-invalidation-001.html",
       "file": [
@@ -22170,7 +22225,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0424-WPT_reftest-css-css-contain-quote-scoping-invalidation-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0425-WPT_reftest-css-css-contain-quote-scoping-invalidation-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22209,7 +22264,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0424-WPT_reftest-css-css-contain-quote-scoping-invalidation-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0425-WPT_reftest-css-css-contain-quote-scoping-invalidation-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22225,7 +22280,7 @@
       }
     },
     {
-      "id": "0425",
+      "id": "0426",
       "category": "WPT reftest",
       "title": "css/css-contain/quote-scoping-invalidation-002.html",
       "file": [
@@ -22248,7 +22303,7 @@
       ]
     },
     {
-      "id": "0426",
+      "id": "0427",
       "category": "WPT reftest",
       "title": "css/css-contain/quote-scoping-invalidation-003.html",
       "file": [
@@ -22312,7 +22367,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0426-WPT_reftest-css-css-contain-quote-scoping-invalidation-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0427-WPT_reftest-css-css-contain-quote-scoping-invalidation-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22351,7 +22406,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0426-WPT_reftest-css-css-contain-quote-scoping-invalidation-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0427-WPT_reftest-css-css-contain-quote-scoping-invalidation-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22367,7 +22422,7 @@
       }
     },
     {
-      "id": "0427",
+      "id": "0428",
       "category": "WPT reftest",
       "title": "css/css-contain/quote-scoping-invalidation-004.html",
       "file": [
@@ -22431,7 +22486,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0427-WPT_reftest-css-css-contain-quote-scoping-invalidation-004.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0428-WPT_reftest-css-css-contain-quote-scoping-invalidation-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22470,7 +22525,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0427-WPT_reftest-css-css-contain-quote-scoping-invalidation-004.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0428-WPT_reftest-css-css-contain-quote-scoping-invalidation-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22486,7 +22541,7 @@
       }
     },
     {
-      "id": "0428",
+      "id": "0429",
       "category": "WPT print-reftest",
       "title": "css/css-contain/content-visibility/content-visibility-auto-print.html",
       "file": [

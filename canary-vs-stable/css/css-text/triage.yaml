@@ -5224,6 +5224,33 @@
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-fit/text-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0748"
   category: WPT reftest
+  title: css/css-text/text-fit/text-decoration.html
+  file: css/css-text/text-fit/text-decoration.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-fit/text-decoration.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-fit/text-decoration.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-text/text-fit/text-decoration-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-text/text-fit/text-decoration-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-text/text-fit/text-decoration-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-fit/text-decoration-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-text/text-fit/text-decoration-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-fit/text-decoration-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0749"
+  category: WPT reftest
   title: css/css-text/text-fit/writing-mode.html
   file: css/css-text/text-fit/writing-mode.html
   type: difference
@@ -5249,7 +5276,7 @@
       referenceFile: css/css-text/text-fit/writing-mode-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-fit/writing-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0763"
+- id: "0764"
   category: WPT reftest
   title: css/css-text/text-indent/below-float3.html
   file: css/css-text/text-indent/below-float3.html
@@ -5276,7 +5303,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0767"
+- id: "0768"
   category: WPT reftest
   title: css/css-text/text-indent/text-indent-dynamic-each-line-001.html
   file: css/css-text/text-indent/text-indent-dynamic-each-line-001.html
@@ -5303,7 +5330,7 @@
       referenceFile: css/css-text/text-indent/reference/text-indent-each-line-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-indent/reference/text-indent-each-line-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0768"
+- id: "0769"
   category: WPT reftest
   title: css/css-text/text-indent/text-indent-dynamic-each-line-002.html
   file: css/css-text/text-indent/text-indent-dynamic-each-line-002.html
@@ -5330,7 +5357,7 @@
       referenceFile: css/css-text/text-indent/reference/text-indent-each-line-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-indent/reference/text-indent-each-line-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0769"
+- id: "0770"
   category: WPT reftest
   title: css/css-text/text-indent/text-indent-dynamic-hanging-001.html
   file: css/css-text/text-indent/text-indent-dynamic-hanging-001.html
@@ -5357,7 +5384,7 @@
       referenceFile: css/css-text/text-indent/reference/text-indent-hanging-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-indent/reference/text-indent-hanging-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0770"
+- id: "0771"
   category: WPT reftest
   title: css/css-text/text-indent/text-indent-dynamic-hanging-002.html
   file: css/css-text/text-indent/text-indent-dynamic-hanging-002.html
@@ -5384,7 +5411,7 @@
       referenceFile: css/css-text/text-indent/reference/text-indent-hanging-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-indent/reference/text-indent-hanging-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0782"
+- id: "0783"
   category: WPT reftest
   title: css/css-text/text-indent/text-indent-with-absolute-pos-child.html
   file: css/css-text/text-indent/text-indent-with-absolute-pos-child.html
@@ -5411,7 +5438,7 @@
       referenceFile: css/css-text/text-indent/reference/text-indent-with-absolute-pos-child-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-indent/reference/text-indent-with-absolute-pos-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0789"
+- id: "0790"
   category: WPT reftest
   title: css/css-text/text-justify/text-justify-and-trailing-spaces-005.html
   file: css/css-text/text-justify/text-justify-and-trailing-spaces-005.html
@@ -5451,7 +5478,7 @@
       referenceFile: css/css-text/text-justify/reference/text-justify-and-trailing-spaces-alt-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-justify/reference/text-justify-and-trailing-spaces-alt-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0790"
+- id: "0791"
   category: WPT reftest
   title: css/css-text/text-justify/text-justify-and-trailing-spaces-006.html
   file: css/css-text/text-justify/text-justify-and-trailing-spaces-006.html
@@ -5491,7 +5518,7 @@
       referenceFile: css/css-text/text-justify/reference/text-justify-and-trailing-spaces-alt-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-justify/reference/text-justify-and-trailing-spaces-alt-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0797"
+- id: "0798"
   category: WPT reftest
   title: css/css-text/text-justify/text-justify-word-separators.html
   file: css/css-text/text-justify/text-justify-word-separators.html
@@ -5518,7 +5545,7 @@
       referenceFile: css/css-text/text-justify/text-justify-word-separators-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-justify/text-justify-word-separators-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0799"
+- id: "0800"
   category: WPT reftest
   title: css/css-text/text-spacing-trim/text-spacing-trim-colon-001.html
   file: css/css-text/text-spacing-trim/text-spacing-trim-colon-001.html
@@ -5545,7 +5572,7 @@
       referenceFile: css/css-text/text-spacing-trim/text-spacing-trim-colon-001-ref.html?class=chws,htb
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-spacing-trim/text-spacing-trim-colon-001-ref.html?class=chws,htb&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0800"
+- id: "0801"
   category: WPT reftest
   title: css/css-text/text-spacing-trim/text-spacing-trim-dot-001.html
   file: css/css-text/text-spacing-trim/text-spacing-trim-dot-001.html
@@ -5572,7 +5599,7 @@
       referenceFile: css/css-text/text-spacing-trim/text-spacing-trim-dot-001-ref.html?class=chws,htb
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-spacing-trim/text-spacing-trim-dot-001-ref.html?class=chws,htb&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0801"
+- id: "0802"
   category: WPT reftest
   title: css/css-text/text-spacing-trim/text-spacing-trim-dynamic-001.html
   file: css/css-text/text-spacing-trim/text-spacing-trim-dynamic-001.html
@@ -5599,7 +5626,7 @@
       referenceFile: css/css-text/text-spacing-trim/text-spacing-trim-space-all-001-ref.html?class=chws
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-spacing-trim/text-spacing-trim-space-all-001-ref.html?class=chws&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0805"
+- id: "0806"
   category: WPT reftest
   title: css/css-text/text-spacing-trim/text-spacing-trim-feature-001.html
   file: css/css-text/text-spacing-trim/text-spacing-trim-feature-001.html
@@ -5626,7 +5653,7 @@
       referenceFile: css/css-text/text-spacing-trim/text-spacing-trim-feature-001-ref.html?class=htb&feature=halt
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-spacing-trim/text-spacing-trim-feature-001-ref.html?class=htb&feature=halt&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0814"
+- id: "0815"
   category: WPT reftest
   title: css/css-text/text-spacing-trim/text-spacing-trim-trim-all-001.html
   file: css/css-text/text-spacing-trim/text-spacing-trim-trim-all-001.html
@@ -5653,7 +5680,7 @@
       referenceFile: css/css-text/text-spacing-trim/text-spacing-trim-trim-all-001-ref.html?class=chws,htb
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-spacing-trim/text-spacing-trim-trim-all-001-ref.html?class=chws,htb&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0831"
+- id: "0832"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-capitalize-026.html
   file: css/css-text/text-transform/text-transform-capitalize-026.html
@@ -5680,7 +5707,7 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-capitalize-026-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-capitalize-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0832"
+- id: "0833"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-capitalize-028.html
   file: css/css-text/text-transform/text-transform-capitalize-028.html
@@ -5707,7 +5734,7 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-capitalize-028-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-capitalize-028-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0837"
+- id: "0838"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-capitalize-034.html
   file: css/css-text/text-transform/text-transform-capitalize-034.html
@@ -5734,7 +5761,7 @@
       referenceFile: css/css-text/text-transform/text-transform-capitalize-034-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-capitalize-034-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0839"
+- id: "0840"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-full-size-kana-001.html
   file: css/css-text/text-transform/text-transform-full-size-kana-001.html
@@ -5761,7 +5788,7 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-full-size-kana-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-full-size-kana-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0840"
+- id: "0841"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-full-size-kana-002.html
   file: css/css-text/text-transform/text-transform-full-size-kana-002.html
@@ -5788,7 +5815,7 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-full-size-kana-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-full-size-kana-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0841"
+- id: "0842"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-full-size-kana-003.html
   file: css/css-text/text-transform/text-transform-full-size-kana-003.html
@@ -5815,7 +5842,7 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-full-size-kana-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-full-size-kana-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0842"
+- id: "0843"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-full-size-kana-004.html
   file: css/css-text/text-transform/text-transform-full-size-kana-004.html
@@ -5842,7 +5869,7 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-full-size-kana-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-full-size-kana-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0845"
+- id: "0846"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-full-size-kana-007.html
   file: css/css-text/text-transform/text-transform-full-size-kana-007.html
@@ -5869,7 +5896,7 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-full-size-kana-007-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-full-size-kana-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0846"
+- id: "0847"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-full-size-kana-008.html
   file: css/css-text/text-transform/text-transform-full-size-kana-008.html
@@ -5896,7 +5923,7 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-full-size-kana-008-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-full-size-kana-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0847"
+- id: "0848"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-fullwidth-001.xht
   file: css/css-text/text-transform/text-transform-fullwidth-001.xht
@@ -5923,7 +5950,7 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-fullwidth-001-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-fullwidth-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0848"
+- id: "0849"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-fullwidth-002.xht
   file: css/css-text/text-transform/text-transform-fullwidth-002.xht
@@ -5950,7 +5977,7 @@
       referenceFile: css/css-text/text-transform/text-transform-fullwidth-002-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-fullwidth-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0849"
+- id: "0850"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-fullwidth-004.xht
   file: css/css-text/text-transform/text-transform-fullwidth-004.xht
@@ -5977,7 +6004,7 @@
       referenceFile: css/css-text/text-transform/text-transform-fullwidth-004-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-fullwidth-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0850"
+- id: "0851"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-fullwidth-005.xht
   file: css/css-text/text-transform/text-transform-fullwidth-005.xht
@@ -6004,7 +6031,7 @@
       referenceFile: css/css-text/text-transform/text-transform-fullwidth-005-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-fullwidth-005-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0853"
+- id: "0854"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-fullwidth-008.html
   file: css/css-text/text-transform/text-transform-fullwidth-008.html
@@ -6031,7 +6058,7 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-fullwidth-008-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-fullwidth-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0854"
+- id: "0855"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-fullwidth-009.html
   file: css/css-text/text-transform/text-transform-fullwidth-009.html
@@ -6058,7 +6085,7 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-fullwidth-009-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-fullwidth-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0855"
+- id: "0856"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-fullwidth-010.html
   file: css/css-text/text-transform/text-transform-fullwidth-010.html
@@ -6085,7 +6112,7 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-fullwidth-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-fullwidth-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0858"
+- id: "0859"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-multiple-001.html
   file: css/css-text/text-transform/text-transform-multiple-001.html
@@ -6112,7 +6139,7 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-multiple-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-multiple-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0863"
+- id: "0864"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-tailoring-001.html
   file: css/css-text/text-transform/text-transform-tailoring-001.html
@@ -6139,7 +6166,7 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-tailoring-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-tailoring-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0864"
+- id: "0865"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-tailoring-001a.html
   file: css/css-text/text-transform/text-transform-tailoring-001a.html
@@ -6166,30 +6193,7 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-tailoring-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-tailoring-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0871"
-  category: WPT reftest
-  title: css/css-text/text-transform/text-transform-uppercase-dynamic.html
-  file: css/css-text/text-transform/text-transform-uppercase-dynamic.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0886"
+- id: "0887"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-upperlower-016.html
   file: css/css-text/text-transform/text-transform-upperlower-016.html
@@ -6216,7 +6220,7 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-upperlower-016-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-upperlower-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0919"
+- id: "0920"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-001.html
   file: css/css-text/white-space/break-spaces-001.html
@@ -6243,7 +6247,7 @@
       referenceFile: css/css-text/white-space/reference/pre-wrap-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0921"
+- id: "0922"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-003.html
   file: css/css-text/white-space/break-spaces-003.html
@@ -6270,7 +6274,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0924"
+- id: "0925"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-006.html
   file: css/css-text/white-space/break-spaces-006.html
@@ -6297,7 +6301,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0925"
+- id: "0926"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-007.html
   file: css/css-text/white-space/break-spaces-007.html
@@ -6324,7 +6328,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0926"
+- id: "0927"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-008.html
   file: css/css-text/white-space/break-spaces-008.html
@@ -6351,7 +6355,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0927"
+- id: "0928"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-009.html
   file: css/css-text/white-space/break-spaces-009.html
@@ -6378,7 +6382,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0929"
+- id: "0930"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-011.html
   file: css/css-text/white-space/break-spaces-011.html
@@ -6405,7 +6409,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0932"
+- id: "0933"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-char-001.html
   file: css/css-text/white-space/break-spaces-before-first-char-001.html
@@ -6432,7 +6436,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0933"
+- id: "0934"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-char-002.html
   file: css/css-text/white-space/break-spaces-before-first-char-002.html
@@ -6459,7 +6463,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0934"
+- id: "0935"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-char-003.html
   file: css/css-text/white-space/break-spaces-before-first-char-003.html
@@ -6486,7 +6490,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0938"
+- id: "0939"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-char-007.html
   file: css/css-text/white-space/break-spaces-before-first-char-007.html
@@ -6513,7 +6517,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0939"
+- id: "0940"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-char-008.html
   file: css/css-text/white-space/break-spaces-before-first-char-008.html
@@ -6540,7 +6544,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0940"
+- id: "0941"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-char-009.html
   file: css/css-text/white-space/break-spaces-before-first-char-009.html
@@ -6567,7 +6571,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0941"
+- id: "0942"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-char-010.html
   file: css/css-text/white-space/break-spaces-before-first-char-010.html
@@ -6594,7 +6598,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0942"
+- id: "0943"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-char-011.html
   file: css/css-text/white-space/break-spaces-before-first-char-011.html
@@ -6621,7 +6625,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0945"
+- id: "0946"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-char-014.html
   file: css/css-text/white-space/break-spaces-before-first-char-014.html
@@ -6648,7 +6652,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0947"
+- id: "0948"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-char-016.html
   file: css/css-text/white-space/break-spaces-before-first-char-016.html
@@ -6675,7 +6679,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0948"
+- id: "0949"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-char-017.html
   file: css/css-text/white-space/break-spaces-before-first-char-017.html
@@ -6702,7 +6706,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0950"
+- id: "0951"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-ideographic-char-001.html
   file: css/css-text/white-space/break-spaces-before-first-ideographic-char-001.html
@@ -6729,7 +6733,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0951"
+- id: "0952"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-ideographic-char-002.html
   file: css/css-text/white-space/break-spaces-before-first-ideographic-char-002.html
@@ -6756,7 +6760,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0952"
+- id: "0953"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-ideographic-char-003.html
   file: css/css-text/white-space/break-spaces-before-first-ideographic-char-003.html
@@ -6783,7 +6787,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0956"
+- id: "0957"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-ideographic-char-007.html
   file: css/css-text/white-space/break-spaces-before-first-ideographic-char-007.html
@@ -6810,7 +6814,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0957"
+- id: "0958"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-ideographic-char-008.html
   file: css/css-text/white-space/break-spaces-before-first-ideographic-char-008.html
@@ -6837,7 +6841,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0958"
+- id: "0959"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-ideographic-char-009.html
   file: css/css-text/white-space/break-spaces-before-first-ideographic-char-009.html
@@ -6864,7 +6868,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0959"
+- id: "0960"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-ideographic-char-010.html
   file: css/css-text/white-space/break-spaces-before-first-ideographic-char-010.html
@@ -6891,7 +6895,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0960"
+- id: "0961"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-ideographic-char-011.html
   file: css/css-text/white-space/break-spaces-before-first-ideographic-char-011.html
@@ -6918,7 +6922,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0963"
+- id: "0964"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-ideographic-char-014.html
   file: css/css-text/white-space/break-spaces-before-first-ideographic-char-014.html
@@ -6945,7 +6949,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0965"
+- id: "0966"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-ideographic-char-016.html
   file: css/css-text/white-space/break-spaces-before-first-ideographic-char-016.html
@@ -6972,7 +6976,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0966"
+- id: "0967"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-before-first-ideographic-char-017.html
   file: css/css-text/white-space/break-spaces-before-first-ideographic-char-017.html
@@ -6999,7 +7003,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0980"
+- id: "0981"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-with-ideographic-space-001.html
   file: css/css-text/white-space/break-spaces-with-ideographic-space-001.html
@@ -7026,7 +7030,7 @@
       referenceFile: css/css-text/white-space/reference/pre-wrap-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0981"
+- id: "0982"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-with-ideographic-space-002.html
   file: css/css-text/white-space/break-spaces-with-ideographic-space-002.html
@@ -7053,7 +7057,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0982"
+- id: "0983"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-with-ideographic-space-003.html
   file: css/css-text/white-space/break-spaces-with-ideographic-space-003.html
@@ -7080,7 +7084,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0985"
+- id: "0986"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-with-ideographic-space-006.html
   file: css/css-text/white-space/break-spaces-with-ideographic-space-006.html
@@ -7107,7 +7111,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0986"
+- id: "0987"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-with-ideographic-space-007.html
   file: css/css-text/white-space/break-spaces-with-ideographic-space-007.html
@@ -7134,7 +7138,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0987"
+- id: "0988"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-with-ideographic-space-008.html
   file: css/css-text/white-space/break-spaces-with-ideographic-space-008.html
@@ -7161,7 +7165,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0988"
+- id: "0989"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-with-ideographic-space-009.html
   file: css/css-text/white-space/break-spaces-with-ideographic-space-009.html
@@ -7188,7 +7192,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0990"
+- id: "0991"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-with-overflow-wrap-001.html
   file: css/css-text/white-space/break-spaces-with-overflow-wrap-001.html
@@ -7215,7 +7219,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0991"
+- id: "0992"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-with-overflow-wrap-002.html
   file: css/css-text/white-space/break-spaces-with-overflow-wrap-002.html
@@ -7242,7 +7246,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0994"
+- id: "0995"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-with-overflow-wrap-005.html
   file: css/css-text/white-space/break-spaces-with-overflow-wrap-005.html
@@ -7269,7 +7273,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0995"
+- id: "0996"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-with-overflow-wrap-006.html
   file: css/css-text/white-space/break-spaces-with-overflow-wrap-006.html
@@ -7296,7 +7300,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0998"
+- id: "0999"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-with-overflow-wrap-009.html
   file: css/css-text/white-space/break-spaces-with-overflow-wrap-009.html
@@ -7323,7 +7327,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0999"
+- id: "1000"
   category: WPT reftest
   title: css/css-text/white-space/break-spaces-with-overflow-wrap-010.html
   file: css/css-text/white-space/break-spaces-with-overflow-wrap-010.html
@@ -7350,7 +7354,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1002"
+- id: "1003"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-001.html
   file: css/css-text/white-space/control-chars-001.html
@@ -7377,7 +7381,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1003"
+- id: "1004"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-002.html
   file: css/css-text/white-space/control-chars-002.html
@@ -7404,7 +7408,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1004"
+- id: "1005"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-003.html
   file: css/css-text/white-space/control-chars-003.html
@@ -7431,7 +7435,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1005"
+- id: "1006"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-004.html
   file: css/css-text/white-space/control-chars-004.html
@@ -7458,7 +7462,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1006"
+- id: "1007"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-005.html
   file: css/css-text/white-space/control-chars-005.html
@@ -7485,7 +7489,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1007"
+- id: "1008"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-006.html
   file: css/css-text/white-space/control-chars-006.html
@@ -7512,7 +7516,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1008"
+- id: "1009"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-007.html
   file: css/css-text/white-space/control-chars-007.html
@@ -7539,7 +7543,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1009"
+- id: "1010"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-008.html
   file: css/css-text/white-space/control-chars-008.html
@@ -7566,7 +7570,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1010"
+- id: "1011"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-00B.html
   file: css/css-text/white-space/control-chars-00B.html
@@ -7593,7 +7597,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1011"
+- id: "1012"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-00C.html
   file: css/css-text/white-space/control-chars-00C.html
@@ -7620,7 +7624,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1012"
+- id: "1013"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-00D.html
   file: css/css-text/white-space/control-chars-00D.html
@@ -7647,7 +7651,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-00D-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-00D-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1013"
+- id: "1014"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-00E.html
   file: css/css-text/white-space/control-chars-00E.html
@@ -7674,7 +7678,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1014"
+- id: "1015"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-00F.html
   file: css/css-text/white-space/control-chars-00F.html
@@ -7701,7 +7705,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1015"
+- id: "1016"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-010.html
   file: css/css-text/white-space/control-chars-010.html
@@ -7728,7 +7732,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1016"
+- id: "1017"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-011.html
   file: css/css-text/white-space/control-chars-011.html
@@ -7755,7 +7759,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1017"
+- id: "1018"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-012.html
   file: css/css-text/white-space/control-chars-012.html
@@ -7782,7 +7786,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1018"
+- id: "1019"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-013.html
   file: css/css-text/white-space/control-chars-013.html
@@ -7809,7 +7813,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1019"
+- id: "1020"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-014.html
   file: css/css-text/white-space/control-chars-014.html
@@ -7836,7 +7840,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1020"
+- id: "1021"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-015.html
   file: css/css-text/white-space/control-chars-015.html
@@ -7863,7 +7867,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1021"
+- id: "1022"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-016.html
   file: css/css-text/white-space/control-chars-016.html
@@ -7890,7 +7894,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1022"
+- id: "1023"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-017.html
   file: css/css-text/white-space/control-chars-017.html
@@ -7917,7 +7921,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1023"
+- id: "1024"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-018.html
   file: css/css-text/white-space/control-chars-018.html
@@ -7944,7 +7948,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1024"
+- id: "1025"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-019.html
   file: css/css-text/white-space/control-chars-019.html
@@ -7971,7 +7975,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1025"
+- id: "1026"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-01A.html
   file: css/css-text/white-space/control-chars-01A.html
@@ -7998,7 +8002,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1026"
+- id: "1027"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-01B.html
   file: css/css-text/white-space/control-chars-01B.html
@@ -8025,7 +8029,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1027"
+- id: "1028"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-01C.html
   file: css/css-text/white-space/control-chars-01C.html
@@ -8052,7 +8056,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1028"
+- id: "1029"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-01D.html
   file: css/css-text/white-space/control-chars-01D.html
@@ -8079,7 +8083,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1029"
+- id: "1030"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-01E.html
   file: css/css-text/white-space/control-chars-01E.html
@@ -8106,7 +8110,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1030"
+- id: "1031"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-01F.html
   file: css/css-text/white-space/control-chars-01F.html
@@ -8133,7 +8137,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1031"
+- id: "1032"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-07F.html
   file: css/css-text/white-space/control-chars-07F.html
@@ -8160,7 +8164,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1035"
+- id: "1036"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-083.html
   file: css/css-text/white-space/control-chars-083.html
@@ -8187,7 +8191,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1037"
+- id: "1038"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-085.html
   file: css/css-text/white-space/control-chars-085.html
@@ -8214,7 +8218,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1038"
+- id: "1039"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-086.html
   file: css/css-text/white-space/control-chars-086.html
@@ -8241,7 +8245,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1039"
+- id: "1040"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-087.html
   file: css/css-text/white-space/control-chars-087.html
@@ -8268,7 +8272,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1040"
+- id: "1041"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-088.html
   file: css/css-text/white-space/control-chars-088.html
@@ -8295,7 +8299,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1041"
+- id: "1042"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-089.html
   file: css/css-text/white-space/control-chars-089.html
@@ -8322,7 +8326,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1042"
+- id: "1043"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-08A.html
   file: css/css-text/white-space/control-chars-08A.html
@@ -8349,7 +8353,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1043"
+- id: "1044"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-08B.html
   file: css/css-text/white-space/control-chars-08B.html
@@ -8376,7 +8380,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1044"
+- id: "1045"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-08C.html
   file: css/css-text/white-space/control-chars-08C.html
@@ -8403,7 +8407,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1045"
+- id: "1046"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-08D.html
   file: css/css-text/white-space/control-chars-08D.html
@@ -8430,7 +8434,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1046"
+- id: "1047"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-08E.html
   file: css/css-text/white-space/control-chars-08E.html
@@ -8457,7 +8461,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1047"
+- id: "1048"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-08F.html
   file: css/css-text/white-space/control-chars-08F.html
@@ -8484,7 +8488,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1048"
+- id: "1049"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-090.html
   file: css/css-text/white-space/control-chars-090.html
@@ -8511,7 +8515,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1049"
+- id: "1050"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-091.html
   file: css/css-text/white-space/control-chars-091.html
@@ -8538,7 +8542,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1050"
+- id: "1051"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-092.html
   file: css/css-text/white-space/control-chars-092.html
@@ -8565,7 +8569,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1051"
+- id: "1052"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-093.html
   file: css/css-text/white-space/control-chars-093.html
@@ -8592,7 +8596,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1052"
+- id: "1053"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-094.html
   file: css/css-text/white-space/control-chars-094.html
@@ -8619,7 +8623,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1053"
+- id: "1054"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-095.html
   file: css/css-text/white-space/control-chars-095.html
@@ -8646,7 +8650,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1054"
+- id: "1055"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-096.html
   file: css/css-text/white-space/control-chars-096.html
@@ -8673,7 +8677,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1055"
+- id: "1056"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-097.html
   file: css/css-text/white-space/control-chars-097.html
@@ -8700,7 +8704,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1056"
+- id: "1057"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-098.html
   file: css/css-text/white-space/control-chars-098.html
@@ -8727,7 +8731,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1057"
+- id: "1058"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-099.html
   file: css/css-text/white-space/control-chars-099.html
@@ -8754,7 +8758,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1058"
+- id: "1059"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-09A.html
   file: css/css-text/white-space/control-chars-09A.html
@@ -8781,7 +8785,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1059"
+- id: "1060"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-09B.html
   file: css/css-text/white-space/control-chars-09B.html
@@ -8808,7 +8812,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1060"
+- id: "1061"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-09C.html
   file: css/css-text/white-space/control-chars-09C.html
@@ -8835,7 +8839,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1061"
+- id: "1062"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-09D.html
   file: css/css-text/white-space/control-chars-09D.html
@@ -8862,7 +8866,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1062"
+- id: "1063"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-09E.html
   file: css/css-text/white-space/control-chars-09E.html
@@ -8889,7 +8893,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1063"
+- id: "1064"
   category: WPT reftest
   title: css/css-text/white-space/control-chars-09F.html
   file: css/css-text/white-space/control-chars-09F.html
@@ -8916,7 +8920,7 @@
       referenceFile: css/css-text/white-space/reference/control-chars-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1072"
+- id: "1073"
   category: WPT reftest
   title: css/css-text/white-space/full-width-leading-spaces-004.html
   file: css/css-text/white-space/full-width-leading-spaces-004.html
@@ -8943,7 +8947,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1095"
+- id: "1096"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-008.html
   file: css/css-text/white-space/pre-wrap-008.html
@@ -8970,7 +8974,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1096"
+- id: "1097"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-009.html
   file: css/css-text/white-space/pre-wrap-009.html
@@ -8997,7 +9001,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1105"
+- id: "1106"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-018.html
   file: css/css-text/white-space/pre-wrap-018.html
@@ -9024,7 +9028,7 @@
       referenceFile: css/css-text/white-space/reference/pre-wrap-018-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1126"
+- id: "1127"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-leading-spaces-001.html
   file: css/css-text/white-space/pre-wrap-leading-spaces-001.html
@@ -9051,7 +9055,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1127"
+- id: "1128"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-leading-spaces-002.html
   file: css/css-text/white-space/pre-wrap-leading-spaces-002.html
@@ -9078,7 +9082,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1128"
+- id: "1129"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-leading-spaces-003.html
   file: css/css-text/white-space/pre-wrap-leading-spaces-003.html
@@ -9105,7 +9109,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1129"
+- id: "1130"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-leading-spaces-004.html
   file: css/css-text/white-space/pre-wrap-leading-spaces-004.html
@@ -9132,7 +9136,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1130"
+- id: "1131"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-leading-spaces-005.html
   file: css/css-text/white-space/pre-wrap-leading-spaces-005.html
@@ -9159,7 +9163,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1131"
+- id: "1132"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-leading-spaces-006.html
   file: css/css-text/white-space/pre-wrap-leading-spaces-006.html
@@ -9186,7 +9190,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1132"
+- id: "1133"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-leading-spaces-007.html
   file: css/css-text/white-space/pre-wrap-leading-spaces-007.html
@@ -9213,7 +9217,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1133"
+- id: "1134"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-leading-spaces-008.html
   file: css/css-text/white-space/pre-wrap-leading-spaces-008.html
@@ -9240,7 +9244,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1134"
+- id: "1135"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-leading-spaces-009.html
   file: css/css-text/white-space/pre-wrap-leading-spaces-009.html
@@ -9267,7 +9271,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1135"
+- id: "1136"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-leading-spaces-010.html
   file: css/css-text/white-space/pre-wrap-leading-spaces-010.html
@@ -9294,7 +9298,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1136"
+- id: "1137"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-leading-spaces-011.html
   file: css/css-text/white-space/pre-wrap-leading-spaces-011.html
@@ -9321,7 +9325,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1137"
+- id: "1138"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-leading-spaces-012.html
   file: css/css-text/white-space/pre-wrap-leading-spaces-012.html
@@ -9348,7 +9352,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1138"
+- id: "1139"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-leading-spaces-013.html
   file: css/css-text/white-space/pre-wrap-leading-spaces-013.html
@@ -9375,7 +9379,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1139"
+- id: "1140"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-leading-spaces-014.html
   file: css/css-text/white-space/pre-wrap-leading-spaces-014.html
@@ -9402,7 +9406,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1147"
+- id: "1148"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-tab-005.html
   file: css/css-text/white-space/pre-wrap-tab-005.html
@@ -9429,7 +9433,7 @@
       referenceFile: css/css-text/white-space/reference/pre-wrap-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1148"
+- id: "1149"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-tab-006.html
   file: css/css-text/white-space/pre-wrap-tab-006.html
@@ -9456,7 +9460,7 @@
       referenceFile: css/css-text/white-space/reference/pre-wrap-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1161"
+- id: "1162"
   category: WPT reftest
   title: css/css-text/white-space/text-wrap-balance-004.html
   file: css/css-text/white-space/text-wrap-balance-004.html
@@ -9483,7 +9487,7 @@
       referenceFile: css/css-text/white-space/reference/text-wrap-balance-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/text-wrap-balance-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1171"
+- id: "1172"
   category: WPT reftest
   title: css/css-text/white-space/text-wrap-balance-float-005.html
   file: css/css-text/white-space/text-wrap-balance-float-005.html
@@ -9510,7 +9514,7 @@
       referenceFile: css/css-text/white-space/reference/text-wrap-balance-float-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/text-wrap-balance-float-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1174"
+- id: "1175"
   category: WPT reftest
   title: css/css-text/white-space/text-wrap-balance-line-clamp-002.html
   file: css/css-text/white-space/text-wrap-balance-line-clamp-002.html
@@ -9537,7 +9541,7 @@
       referenceFile: css/css-text/white-space/reference/text-wrap-balance-line-clamp-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/text-wrap-balance-line-clamp-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1175"
+- id: "1176"
   category: WPT reftest
   title: css/css-text/white-space/text-wrap-balance-line-clamp-003.html
   file: css/css-text/white-space/text-wrap-balance-line-clamp-003.html
@@ -9564,7 +9568,7 @@
       referenceFile: css/css-text/white-space/reference/text-wrap-balance-line-clamp-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/text-wrap-balance-line-clamp-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1176"
+- id: "1177"
   category: WPT reftest
   title: css/css-text/white-space/text-wrap-balance-line-clamp-004.html
   file: css/css-text/white-space/text-wrap-balance-line-clamp-004.html
@@ -9591,7 +9595,7 @@
       referenceFile: css/css-text/white-space/reference/text-wrap-balance-line-clamp-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/text-wrap-balance-line-clamp-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1179"
+- id: "1180"
   category: WPT reftest
   title: css/css-text/white-space/text-wrap-balance-line-clamp-007.html
   file: css/css-text/white-space/text-wrap-balance-line-clamp-007.html
@@ -9618,7 +9622,7 @@
       referenceFile: css/css-text/white-space/reference/text-wrap-balance-line-clamp-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/text-wrap-balance-line-clamp-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1186"
+- id: "1187"
   category: WPT reftest
   title: css/css-text/white-space/textarea-break-spaces-001.html
   file: css/css-text/white-space/textarea-break-spaces-001.html
@@ -9645,7 +9649,7 @@
       referenceFile: css/css-text/white-space/reference/textarea-pre-wrap-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/textarea-pre-wrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1196"
+- id: "1197"
   category: WPT reftest
   title: css/css-text/white-space/textarea-pre-wrap-012.html
   file: css/css-text/white-space/textarea-pre-wrap-012.html
@@ -9672,7 +9676,7 @@
       referenceFile: css/css-text/white-space/reference/pre-wrap-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1199"
+- id: "1200"
   category: WPT reftest
   title: css/css-text/white-space/trailing-ideographic-space-001.html
   file: css/css-text/white-space/trailing-ideographic-space-001.html
@@ -9699,7 +9703,7 @@
       referenceFile: css/css-text/white-space/reference/trailing-ideographic-space-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-ideographic-space-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1200"
+- id: "1201"
   category: WPT reftest
   title: css/css-text/white-space/trailing-ideographic-space-002.html
   file: css/css-text/white-space/trailing-ideographic-space-002.html
@@ -9726,7 +9730,7 @@
       referenceFile: css/css-text/white-space/reference/trailing-ideographic-space-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-ideographic-space-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1203"
+- id: "1204"
   category: WPT reftest
   title: css/css-text/white-space/trailing-ideographic-space-005.html
   file: css/css-text/white-space/trailing-ideographic-space-005.html
@@ -9766,7 +9770,7 @@
       referenceFile: css/css-text/white-space/reference/trailing-ideographic-space-alt-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-ideographic-space-alt-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1208"
+- id: "1209"
   category: WPT reftest
   title: css/css-text/white-space/trailing-ideographic-space-010.html
   file: css/css-text/white-space/trailing-ideographic-space-010.html
@@ -9806,7 +9810,7 @@
       referenceFile: css/css-text/white-space/reference/trailing-ideographic-space-alt-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-ideographic-space-alt-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1209"
+- id: "1210"
   category: WPT reftest
   title: css/css-text/white-space/trailing-ideographic-space-011.html
   file: css/css-text/white-space/trailing-ideographic-space-011.html
@@ -9846,7 +9850,7 @@
       referenceFile: css/css-text/white-space/reference/trailing-ideographic-space-alt-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-ideographic-space-alt-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1213"
+- id: "1214"
   category: WPT reftest
   title: css/css-text/white-space/trailing-ideographic-space-015.html
   file: css/css-text/white-space/trailing-ideographic-space-015.html
@@ -9886,7 +9890,7 @@
       referenceFile: css/css-text/white-space/reference/trailing-ideographic-space-alt-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-ideographic-space-alt-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1214"
+- id: "1215"
   category: WPT reftest
   title: css/css-text/white-space/trailing-ideographic-space-016.html
   file: css/css-text/white-space/trailing-ideographic-space-016.html
@@ -9926,7 +9930,7 @@
       referenceFile: css/css-text/white-space/reference/trailing-ideographic-space-alt-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-ideographic-space-alt-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1230"
+- id: "1231"
   category: WPT reftest
   title: css/css-text/white-space/trailing-ideographic-space-break-spaces-007.html
   file: css/css-text/white-space/trailing-ideographic-space-break-spaces-007.html
@@ -9953,7 +9957,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1232"
+- id: "1233"
   category: WPT reftest
   title: css/css-text/white-space/trailing-ogham-001.html
   file: css/css-text/white-space/trailing-ogham-001.html
@@ -9980,7 +9984,7 @@
       referenceFile: css/css-text/white-space/reference/trailing-ogham-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-ogham-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1233"
+- id: "1234"
   category: WPT reftest
   title: css/css-text/white-space/trailing-ogham-002.html
   file: css/css-text/white-space/trailing-ogham-002.html
@@ -10007,7 +10011,7 @@
       referenceFile: css/css-text/white-space/reference/trailing-ogham-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-ogham-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1234"
+- id: "1235"
   category: WPT reftest
   title: css/css-text/white-space/trailing-ogham-003.html
   file: css/css-text/white-space/trailing-ogham-003.html
@@ -10034,7 +10038,7 @@
       referenceFile: css/css-text/white-space/reference/trailing-ogham-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-ogham-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1235"
+- id: "1236"
   category: WPT reftest
   title: css/css-text/white-space/trailing-other-space-separators-001.html
   file: css/css-text/white-space/trailing-other-space-separators-001.html
@@ -10061,7 +10065,7 @@
       referenceFile: css/css-text/white-space/reference/trailing-other-space-separators-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-other-space-separators-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1236"
+- id: "1237"
   category: WPT reftest
   title: css/css-text/white-space/trailing-other-space-separators-002.html
   file: css/css-text/white-space/trailing-other-space-separators-002.html
@@ -10088,7 +10092,7 @@
       referenceFile: css/css-text/white-space/reference/trailing-other-space-separators-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-other-space-separators-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1237"
+- id: "1238"
   category: WPT reftest
   title: css/css-text/white-space/trailing-other-space-separators-003.html
   file: css/css-text/white-space/trailing-other-space-separators-003.html
@@ -10115,7 +10119,7 @@
       referenceFile: css/css-text/white-space/reference/trailing-other-space-separators-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-other-space-separators-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1238"
+- id: "1239"
   category: WPT reftest
   title: css/css-text/white-space/trailing-other-space-separators-004.html
   file: css/css-text/white-space/trailing-other-space-separators-004.html
@@ -10142,7 +10146,7 @@
       referenceFile: css/css-text/white-space/reference/trailing-other-space-separators-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-other-space-separators-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1266"
+- id: "1267"
   category: WPT reftest
   title: css/css-text/white-space/white-space-applies-to-text-001.html
   file: css/css-text/white-space/white-space-applies-to-text-001.html
@@ -10158,7 +10162,7 @@
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-applies-to-text-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
-- id: "1267"
+- id: "1268"
   category: WPT reftest
   title: css/css-text/white-space/white-space-collapse-discard-001.xht
   file: css/css-text/white-space/white-space-collapse-discard-001.xht
@@ -10185,7 +10189,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-collapse-discard-001-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-collapse-discard-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1268"
+- id: "1269"
   category: WPT reftest
   title: css/css-text/white-space/white-space-collapse-preserve-breaks-001.xht
   file: css/css-text/white-space/white-space-collapse-preserve-breaks-001.xht
@@ -10212,7 +10216,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-collapse-preserve-breaks-001-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-collapse-preserve-breaks-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1292"
+- id: "1293"
   category: WPT reftest
   title: css/css-text/white-space/white-space-pre-034.html
   file: css/css-text/white-space/white-space-pre-034.html
@@ -10239,7 +10243,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-pre-034-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-pre-034-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1300"
+- id: "1301"
   category: WPT reftest
   title: css/css-text/white-space/white-space-pre-wrap-trailing-spaces-001.html
   file: css/css-text/white-space/white-space-pre-wrap-trailing-spaces-001.html
@@ -10266,7 +10270,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1312"
+- id: "1313"
   category: WPT reftest
   title: css/css-text/white-space/white-space-pre-wrap-trailing-spaces-014.html
   file: css/css-text/white-space/white-space-pre-wrap-trailing-spaces-014.html
@@ -10306,7 +10310,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-alt-014-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-alt-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1313"
+- id: "1314"
   category: WPT reftest
   title: css/css-text/white-space/white-space-pre-wrap-trailing-spaces-015.html
   file: css/css-text/white-space/white-space-pre-wrap-trailing-spaces-015.html
@@ -10346,7 +10350,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-alt-015-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-alt-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1317"
+- id: "1318"
   category: WPT reftest
   title: css/css-text/white-space/white-space-trim-discard-inner-001.xht
   file: css/css-text/white-space/white-space-trim-discard-inner-001.xht
@@ -10373,7 +10377,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-trim-discard-inner-001-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-trim-discard-inner-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1319"
+- id: "1320"
   category: WPT reftest
   title: css/css-text/white-space/white-space-vs-joiners-002.html
   file: css/css-text/white-space/white-space-vs-joiners-002.html
@@ -10400,7 +10404,7 @@
       referenceFile: css/css-text/white-space/reference/white-space-vs-joiners-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-vs-joiners-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1328"
+- id: "1329"
   category: WPT reftest
   title: css/css-text/white-space/ws-break-spaces-applies-to-007.html
   file: css/css-text/white-space/ws-break-spaces-applies-to-007.html
@@ -10427,7 +10431,7 @@
       referenceFile: css/css-text/white-space/reference/ws-break-spaces-applies-to-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/ws-break-spaces-applies-to-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1359"
+- id: "1360"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-004.html
   file: css/css-text/word-break/word-break-break-all-004.html
@@ -10454,7 +10458,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-ref-004.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1361"
+- id: "1362"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-006.html
   file: css/css-text/word-break/word-break-break-all-006.html
@@ -10481,7 +10485,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-ref-006.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-ref-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1363"
+- id: "1364"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-008.html
   file: css/css-text/word-break/word-break-break-all-008.html
@@ -10508,7 +10512,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-ref-008.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-ref-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1364"
+- id: "1365"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-010.html
   file: css/css-text/word-break/word-break-break-all-010.html
@@ -10535,7 +10539,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1366"
+- id: "1367"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-012.html
   file: css/css-text/word-break/word-break-break-all-012.html
@@ -10562,7 +10566,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1369"
+- id: "1370"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-015.html
   file: css/css-text/word-break/word-break-break-all-015.html
@@ -10589,7 +10593,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1370"
+- id: "1371"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-016.html
   file: css/css-text/word-break/word-break-break-all-016.html
@@ -10616,7 +10620,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1371"
+- id: "1372"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-017.html
   file: css/css-text/word-break/word-break-break-all-017.html
@@ -10643,7 +10647,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1372"
+- id: "1373"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-018.html
   file: css/css-text/word-break/word-break-break-all-018.html
@@ -10670,7 +10674,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1373"
+- id: "1374"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-019.html
   file: css/css-text/word-break/word-break-break-all-019.html
@@ -10697,7 +10701,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1375"
+- id: "1376"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-021.html
   file: css/css-text/word-break/word-break-break-all-021.html
@@ -10724,7 +10728,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1376"
+- id: "1377"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-022.html
   file: css/css-text/word-break/word-break-break-all-022.html
@@ -10751,7 +10755,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1377"
+- id: "1378"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-023.html
   file: css/css-text/word-break/word-break-break-all-023.html
@@ -10778,7 +10782,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1380"
+- id: "1381"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-026.html
   file: css/css-text/word-break/word-break-break-all-026.html
@@ -10805,7 +10809,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1381"
+- id: "1382"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-027.html
   file: css/css-text/word-break/word-break-break-all-027.html
@@ -10832,7 +10836,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1383"
+- id: "1384"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-029.html
   file: css/css-text/word-break/word-break-break-all-029.html
@@ -10859,7 +10863,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1384"
+- id: "1385"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-030.html
   file: css/css-text/word-break/word-break-break-all-030.html
@@ -10886,7 +10890,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1388"
+- id: "1389"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-ethiopic.html
   file: css/css-text/word-break/word-break-break-all-ethiopic.html
@@ -10913,7 +10917,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-ethiopic-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-ethiopic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1392"
+- id: "1393"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-inline-004.tentative.html
   file: css/css-text/word-break/word-break-break-all-inline-004.tentative.html
@@ -10940,7 +10944,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-inline-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-inline-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1395"
+- id: "1396"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-inline-007.tentative.html
   file: css/css-text/word-break/word-break-break-all-inline-007.tentative.html
@@ -10967,7 +10971,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-inline-007-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-inline-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1397"
+- id: "1398"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-inline-009.html
   file: css/css-text/word-break/word-break-break-all-inline-009.html
@@ -10994,7 +10998,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1398"
+- id: "1399"
   category: WPT reftest
   title: css/css-text/word-break/word-break-break-all-inline-010.tentative.html
   file: css/css-text/word-break/word-break-break-all-inline-010.tentative.html
@@ -11021,7 +11025,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1410"
+- id: "1411"
   category: WPT reftest
   title: css/css-text/word-break/word-break-keep-all-011.html
   file: css/css-text/word-break/word-break-keep-all-011.html
@@ -11053,7 +11057,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-keep-all-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-keep-all-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1413"
+- id: "1414"
   category: WPT reftest
   title: css/css-text/word-break/word-break-manual-001.html
   file: css/css-text/word-break/word-break-manual-001.html
@@ -11080,7 +11084,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-manual-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-manual-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1417"
+- id: "1418"
   category: WPT reftest
   title: css/css-text/word-break/word-break-min-content-004.html
   file: css/css-text/word-break/word-break-min-content-004.html
@@ -11107,7 +11111,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-break-all-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1437"
+- id: "1438"
   category: WPT reftest
   title: css/css-text/word-break/word-break-normal-tdd-000.html
   file: css/css-text/word-break/word-break-normal-tdd-000.html
@@ -11134,7 +11138,7 @@
       referenceFile: css/css-text/word-break/reference/word-break-normal-tdd-ref-000.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/reference/word-break-normal-tdd-ref-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1441"
+- id: "1442"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-001.html
   file: css/css-text/word-space-transform/word-space-transform-001.html
@@ -11161,7 +11165,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1442"
+- id: "1443"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-002.html
   file: css/css-text/word-space-transform/word-space-transform-002.html
@@ -11188,7 +11192,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1443"
+- id: "1444"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-003.html
   file: css/css-text/word-space-transform/word-space-transform-003.html
@@ -11215,7 +11219,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1444"
+- id: "1445"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-004.html
   file: css/css-text/word-space-transform/word-space-transform-004.html
@@ -11242,7 +11246,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1445"
+- id: "1446"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-005.html
   file: css/css-text/word-space-transform/word-space-transform-005.html
@@ -11269,7 +11273,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1446"
+- id: "1447"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-006.html
   file: css/css-text/word-space-transform/word-space-transform-006.html
@@ -11296,7 +11300,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1447"
+- id: "1448"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-007.html
   file: css/css-text/word-space-transform/word-space-transform-007.html
@@ -11323,7 +11327,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-007-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1448"
+- id: "1449"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-008.html
   file: css/css-text/word-space-transform/word-space-transform-008.html
@@ -11350,7 +11354,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-008-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1449"
+- id: "1450"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-009.html
   file: css/css-text/word-space-transform/word-space-transform-009.html
@@ -11377,7 +11381,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-009-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1450"
+- id: "1451"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-010.html
   file: css/css-text/word-space-transform/word-space-transform-010.html
@@ -11404,7 +11408,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1451"
+- id: "1452"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-011.html
   file: css/css-text/word-space-transform/word-space-transform-011.html
@@ -11431,7 +11435,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1452"
+- id: "1453"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-012.html
   file: css/css-text/word-space-transform/word-space-transform-012.html
@@ -11458,7 +11462,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1453"
+- id: "1454"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-013.html
   file: css/css-text/word-space-transform/word-space-transform-013.html
@@ -11485,7 +11489,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-013-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1454"
+- id: "1455"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-014.html
   file: css/css-text/word-space-transform/word-space-transform-014.html
@@ -11512,7 +11516,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-014-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1455"
+- id: "1456"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-016.html
   file: css/css-text/word-space-transform/word-space-transform-016.html
@@ -11552,7 +11556,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-016-b-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-016-b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1456"
+- id: "1457"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-017.html
   file: css/css-text/word-space-transform/word-space-transform-017.html
@@ -11579,7 +11583,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-017-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1457"
+- id: "1458"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-018.html
   file: css/css-text/word-space-transform/word-space-transform-018.html
@@ -11606,7 +11610,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-018-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1458"
+- id: "1459"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-019.html
   file: css/css-text/word-space-transform/word-space-transform-019.html
@@ -11646,7 +11650,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-019-b-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-019-b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1462"
+- id: "1463"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-023.html
   file: css/css-text/word-space-transform/word-space-transform-023.html
@@ -11673,7 +11677,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-022-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1469"
+- id: "1470"
   category: WPT reftest
   title: css/css-text/word-space-transform/word-space-transform-030.html
   file: css/css-text/word-space-transform/word-space-transform-030.html
@@ -11700,7 +11704,7 @@
       referenceFile: css/css-text/word-space-transform/reference/word-space-transform-030-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/reference/word-space-transform-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1473"
+- id: "1474"
   category: WPT reftest
   title: css/css-text/word-spacing/word-spacing-animating-font-size.html
   file: css/css-text/word-spacing/word-spacing-animating-font-size.html
@@ -11727,7 +11731,7 @@
       referenceFile: css/css-text/word-spacing/reference/word-spacing-animating-font-size-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-spacing/reference/word-spacing-animating-font-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1478"
+- id: "1479"
   category: WPT reftest
   title: css/css-text/writing-system/writing-system-line-break-001.html
   file: css/css-text/writing-system/writing-system-line-break-001.html
@@ -11754,7 +11758,7 @@
       referenceFile: css/css-text/writing-system/reference/writing-system-line-break-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/writing-system/reference/writing-system-line-break-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1479"
+- id: "1480"
   category: WPT reftest
   title: css/css-text/writing-system/writing-system-line-break-002.html
   file: css/css-text/writing-system/writing-system-line-break-002.html
@@ -11781,7 +11785,7 @@
       referenceFile: css/css-text/writing-system/reference/writing-system-line-break-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/writing-system/reference/writing-system-line-break-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1480"
+- id: "1481"
   category: WPT reftest
   title: css/css-text/writing-system/writing-system-segment-break-001.html
   file: css/css-text/writing-system/writing-system-segment-break-001.html
@@ -11808,7 +11812,7 @@
       referenceFile: css/css-text/writing-system/reference/writing-system-segment-break-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/writing-system/reference/writing-system-segment-break-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1481"
+- id: "1482"
   category: WPT reftest
   title: css/css-text/writing-system/writing-system-text-transform-001.html
   file: css/css-text/writing-system/writing-system-text-transform-001.html
@@ -11835,3 +11839,20 @@
       referenceFile: css/css-text/writing-system/reference/writing-system-text-transform-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/writing-system/reference/writing-system-text-transform-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0581"
+  category: WPT reftest
+  title: css/css-text/shaping/shaping-021.html
+  file: css/css-text/shaping/shaping-021.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/shaping/shaping-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/shaping/shaping-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

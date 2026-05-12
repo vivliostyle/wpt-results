@@ -6,6 +6,9 @@ baseline-reference
 baseline-reference-diff
 diff
 
+# VSCode settings
+.vscode/
+
 # Logs
 logs
 *.log

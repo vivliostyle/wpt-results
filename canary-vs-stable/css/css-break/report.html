@@ -74,7 +74,7 @@
 <body>
   <main>
     <h1>canary vs stable</h1>
-    <p>reftest-diff mode report generated at 2026-05-11T09:21:52.005Z · <a class="header-link" href="report.json">JSON</a> · <a class="header-link" href="report.md">Markdown</a> · <a class="header-link" href="triage.yaml">Triage</a></p>
+    <p>reftest-diff mode report generated at 2026-05-12T17:49:54.438Z · <a class="header-link" href="report.json">JSON</a> · <a class="header-link" href="report.md">Markdown</a> · <a class="header-link" href="triage.yaml">Triage</a></p>
     <section class="summary">
       <button type="button" class="card summary-card neutral is-filterable" data-filter-kind="clear" data-filter-value="" data-filter-label="Compared">
         <div class="label">Compared</div>
@@ -82,7 +82,7 @@
       </button>
 <button type="button" class="card summary-card pass is-filterable" data-filter-kind="change-type" data-filter-value="pass" data-filter-label="PASS">
         <div class="label">PASS</div>
-        <div class="value">910</div>
+        <div class="value">911</div>
       </button>
 <button type="button" class="card summary-card improvement is-filterable" data-filter-kind="change-type" data-filter-value="improvement" data-filter-label="improvement">
         <div class="label">improvement</div>
@@ -90,7 +90,7 @@
       </button>
 <button type="button" class="card summary-card known-fail is-filterable" data-filter-kind="change-type" data-filter-value="known-fail" data-filter-label="known-fail">
         <div class="label">known-fail</div>
-        <div class="value">86</div>
+        <div class="value">85</div>
       </button>
 <button type="button" class="card summary-card fail is-filterable" data-filter-kind="change-type" data-filter-value="changed-fail" data-filter-label="changed-fail">
         <div class="label">changed-fail</div>
@@ -102,7 +102,7 @@
       </button>
 <button type="button" class="card summary-card error is-filterable" data-filter-kind="error" data-filter-value="1" data-filter-label="Entry errors">
         <div class="label">Entry errors</div>
-        <div class="value">3</div>
+        <div class="value">2</div>
       </button>
 <button type="button" class="card summary-card neutral is-filterable" data-filter-kind="page-count-mismatch" data-filter-value="1" data-filter-label="Page count changed">
         <div class="label">Page count changed</div>
@@ -112,9 +112,9 @@
         <div class="label">Screenshot mismatches</div>
         <div class="value">52</div>
       </button>
-<button type="button" class="card summary-card neutral is-filterable" data-filter-kind="timeout" data-filter-value="1" data-filter-label="Timeout entries">
+<button type="button" class="card summary-card error is-filterable" data-filter-kind="timeout" data-filter-value="1" data-filter-label="Timeout entries">
         <div class="label">Timeout entries</div>
-        <div class="value">0</div>
+        <div class="value">1</div>
       </button>
     </section>
     <div class="toolbar" id="filter-toolbar" hidden>
@@ -3582,27 +3582,21 @@
           <td><span class="badge pass">PASS</span></td>
           <td>-</td>
 </tr>
-<tr data-filter-change-type="known-fail" data-filter-error="1" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
+<tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
           <td class="entry-id">0432</td>
           <td class="test-path"><div class="entry-category">WPT reftest</div><div class="entry-title"><a class="test-link" href="https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-049.html" target="lr-source">css/css-break/flexbox/single-line-row-flex-fragmentation-049.html</a></div><div class="entry-ref">== <a class="ref-link" href="https://wpt.live/css/reference/ref-filled-green-100px-square-only.html" target="lr-source">css/reference/ref-filled-green-100px-square-only.html</a></div></td>
-  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-049.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge fail">FAIL</span></a><a class="ref-viewer-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">stable ref</a></div></td>
-  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-049.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge fail">FAIL</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
-          <td><span class="badge known-fail">known-fail</span></td>
-          <td>canary-reference (css/reference/ref-filled-green-100px-square-only.html): Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/reference/ref-filled-green-100px-square-only.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS). | stable-reference (css/reference/ref-filled-green-100px-square-only.html): page.goto: net::ERR_NETWORK_CHANGED at https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false
-Call log:
-  - navigating to &quot;https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false&quot;, waiting until &quot;domcontentloaded&quot;
-</td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-049.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">stable ref</a></div></td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-049.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
+          <td><span class="badge pass">PASS</span></td>
+          <td>-</td>
 </tr>
-<tr data-filter-change-type="error" data-filter-error="1" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
+<tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
           <td class="entry-id">0433</td>
           <td class="test-path"><div class="entry-category">WPT reftest</div><div class="entry-title"><a class="test-link" href="https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html" target="lr-source">css/css-break/flexbox/single-line-row-flex-fragmentation-050.html</a></div><div class="entry-ref">== <a class="ref-link" href="https://wpt.live/css/reference/ref-filled-green-100px-square-only.html" target="lr-source">css/reference/ref-filled-green-100px-square-only.html</a></div></td>
-  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge error">ERROR</span></a><a class="ref-viewer-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">stable ref</a></div></td>
-  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge error">ERROR</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
-          <td><span class="badge error">ERROR</span></td>
-          <td>canary: Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS). | stable: page.goto: net::ERR_NETWORK_CHANGED at https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false
-Call log:
-  - navigating to &quot;https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false&quot;, waiting until &quot;domcontentloaded&quot;
-</td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">stable ref</a></div></td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-050.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
+          <td><span class="badge pass">PASS</span></td>
+          <td>-</td>
 </tr>
 <tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
           <td class="entry-id">0434</td>
@@ -3948,13 +3942,13 @@ Call log:
           <td><span class="badge pass">PASS</span></td>
           <td>-</td>
 </tr>
-<tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
+<tr data-filter-change-type="error" data-filter-error="1" data-filter-timeout="1" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
           <td class="entry-id">0477</td>
           <td class="test-path"><div class="entry-category">WPT reftest</div><div class="entry-title"><a class="test-link" href="https://wpt.live/css/css-break/grid/grid-item-008.html" target="lr-source">css/css-break/grid/grid-item-008.html</a></div><div class="entry-ref">== <a class="ref-link" href="https://wpt.live/css/reference/ref-filled-green-100px-square.xht" target="lr-source">css/reference/ref-filled-green-100px-square.xht</a></div></td>
   <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-item-008.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">stable ref</a></div></td>
-  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-item-008.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
-          <td><span class="badge pass">PASS</span></td>
-          <td>-</td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-item-008.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge error">ERROR</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
+          <td><span class="badge error">ERROR</span></td>
+          <td>canary: Timeout (10000ms): waiting for viewer ready</td>
 </tr>
 <tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
           <td class="entry-id">0478</td>

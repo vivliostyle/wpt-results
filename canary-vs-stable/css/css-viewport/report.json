@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T11:47:51.194Z",
+  "generatedAt": "2026-05-12T20:28:41.617Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -579,8 +579,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 8,
                 "diffRatio": 0.000009541256392641783,
-                "exactDiffPixels": 1716,
-                "exactDiffRatio": 0.0020465994962216624,
+                "exactDiffPixels": 2370,
+                "exactDiffRatio": 0.0028265972063201282,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 85,
                 "dimensionMismatch": false,
@@ -618,8 +618,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 8,
                 "diffRatio": 0.000009541256392641783,
-                "exactDiffPixels": 1716,
-                "exactDiffRatio": 0.0020465994962216624,
+                "exactDiffPixels": 2370,
+                "exactDiffRatio": 0.0028265972063201282,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 85,
                 "dimensionMismatch": false,

@@ -2104,8 +2104,15 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-values/reference/vh-update-and-transition-in-subframe-ref.html
+  relation: "=="
   diffPages:
-    - 1
+    - css/css-values/reference/vh-update-and-transition-in-subframe-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-values/reference/vh-update-and-transition-in-subframe-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0197"
   category: WPT reftest
   title: css/css-values/viewport-units-scrollbars-auto-vhw-001.html
