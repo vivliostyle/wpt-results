@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1008
-- Entries with differences: 96 (improvement: 6, pending: 90, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
-- Timeout entries: 1
+- Entries with differences: 99 (improvement: 6, pending: 93, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 11
-- Outcome summary: {"pass":911,"known-fail":85,"error":1,"improvement":6,"changed-fail":5}
+- Screenshot mismatches: 14
+- Outcome summary: {"pass":909,"known-fail":85,"regression":2,"expected-change":1,"improvement":6,"changed-fail":5}
 
 ## Differences
 
@@ -23,6 +23,24 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-attachment-fixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0009] [WPT reftest] css/css-break/background-image-000.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-break/background-image-000-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.2504579803068468, diffPixels=210000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0010] [WPT reftest] css/css-break/background-image-001.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-break/background-image-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.2504579803068468, diffPixels=210000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0011] [WPT reftest] css/css-break/background-image-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -35,6 +53,13 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-image-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.10387327303259293, diffPixels=87094
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-image-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0016] [WPT reftest] css/css-break/background-image-007.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.00754236317838333, diffPixels=6324
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-image-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0047] [WPT reftest] css/css-break/borders-006.html
   triage: pending
@@ -1245,14 +1270,6 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/underflow-from-next-page-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
-
-- [0477] [WPT reftest] css/css-break/grid/grid-item-008.html
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-item-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-item-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0986] [WPT print-reftest] css/css-break/ink-overflow-001-print.html
   triage: pending

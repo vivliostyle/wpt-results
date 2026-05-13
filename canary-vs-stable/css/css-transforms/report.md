@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 792
-- Entries with differences: 259 (improvement: 3, pending: 256, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 260 (improvement: 3, pending: 257, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 2
-- Outcome summary: {"pass":532,"known-fail":255,"improvement":3,"changed-fail":1,"unchanged":1}
+- Outcome summary: {"pass":531,"known-fail":255,"improvement":3,"regression":1,"changed-fail":1,"unchanged":1}
 
 ## Differences
 
@@ -2063,6 +2063,12 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-flattening-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-flattening-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0455] [WPT reftest] css/css-transforms/transform-iframe-001.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-iframe-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-iframe-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0456] [WPT reftest] css/css-transforms/transform-iframe-002.html
   triage: not-needed
   outcome: improvement (baseline=FAIL, actual=PASS)
@@ -3378,4 +3384,13 @@
   error: Error: Viewer error: Failed to load about:blank. The target resource is invalid.
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-flattening-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=about:blank&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0455] [WPT reftest] css/css-transforms/transform-iframe-001.html
+  triage: pending
+  side: canary-reference
+  reference: css/css-transforms/transform-iframe-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-iframe-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T17:25:57.621Z",
+  "generatedAt": "2026-05-13T00:29:48.864Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,24 +39,24 @@
   },
   "summary": {
     "totalEntries": 60,
-    "entriesWithDifferences": 14,
-    "entriesWithErrors": 1,
-    "timeoutEntries": 1,
+    "entriesWithDifferences": 13,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 5,
+    "screenshotMismatches": 4,
     "outcomes": {
       "changeTypes": {
-        "pass": 46,
-        "known-fail": 8,
-        "improvement": 3,
-        "regression": 2,
-        "changed-fail": 1
+        "pass": 47,
+        "known-fail": 9,
+        "improvement": 2,
+        "expected-change": 1,
+        "regression": 1
       },
       "statusPairs": {
-        "PASS->PASS": 46,
+        "PASS->PASS": 48,
         "FAIL->FAIL": 9,
-        "FAIL->PASS": 3,
-        "PASS->FAIL": 2
+        "FAIL->PASS": 2,
+        "PASS->FAIL": 1
       }
     },
     "triage": {
@@ -65,10 +65,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 1,
+        "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 12,
+      "pendingEntries": 11,
       "triagedEntries": 0
     }
   },
@@ -802,9 +802,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-mask.html",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-mask.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-mask.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -814,89 +814,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-mask-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-mask-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 4850,
-            "diffRatio": 0.005784386688039081,
-            "exactDiffPixels": 5134,
-            "exactDiffRatio": 0.006123101289977864,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0021-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-mask.html-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/compositing/mix-blend-mode/reference/mix-blend-mode-mask-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-mask-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": {
-              "maxDifference": [
-                0,
-                1
-              ],
-              "totalPixels": [
-                0,
-                10
-              ]
-            },
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 4850,
-                "diffRatio": 0.005784386688039081,
-                "exactDiffPixels": 5147,
-                "exactDiffRatio": 0.006138605831615907,
-                "exceededDiffPixels": 5124,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0021-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-mask.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-mask-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0022",
@@ -1343,9 +1261,9 @@
         "css/compositing/mix-blend-mode/mix-blend-mode-simple.html"
       ],
       "sourceUrl": "https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-simple.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "regression",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-simple.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-simple.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -1355,38 +1273,6 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/green-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/green-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "difference": {
-        "classification": "regression",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      },
-      "errors": [
-        {
-          "side": "canary-reference",
-          "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
-          },
-          "referenceFile": "css/compositing/mix-blend-mode/reference/green-square.html",
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
         }
       ]
     },
@@ -1492,8 +1378,8 @@
       "sourceUrl": "https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "pass",
-      "viewerChanged": false,
+      "changeType": "expected-change",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1503,7 +1389,40 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-video-sibling-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-video-sibling-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "expected-change",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 152625,
+            "diffRatio": 0.18202928211586902,
+            "exactDiffPixels": 155710,
+            "exactDiffRatio": 0.1857086291122815,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0046-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-video-sibling.html-p0001.png"
+          }
+        ],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0047",
@@ -1616,8 +1535,8 @@
       "sourceUrl": "https://wpt.live/css/compositing/root-element-background-image-transparency-001.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1629,7 +1548,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -1638,23 +1557,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 251580,
-            "diffRatio": 0.3000486604076025,
-            "exactDiffPixels": 262308,
-            "exactDiffRatio": 0.3128434852301351,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0049-WPT_reftest-css-compositing-root-element-background-image-transparency-001.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -1737,12 +1640,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 251848,
-                "diffRatio": 0.30036829249675595,
-                "exactDiffPixels": 262573,
-                "exactDiffRatio": 0.31315953934814134,
-                "exceededDiffPixels": 262573,
-                "maxChannelDifference": 127,
+                "diffPixels": 246634,
+                "diffRatio": 0.2941497786428517,
+                "exactDiffPixels": 267857,
+                "exactDiffRatio": 0.31946153919548126,
+                "exceededDiffPixels": 267857,
+                "maxChannelDifference": 255,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0049-WPT_reftest-css-compositing-root-element-background-image-transparency-001.html-r01-p0001.png"
               }

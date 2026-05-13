@@ -74,7 +74,7 @@
 <body>
   <main>
     <h1>canary vs stable</h1>
-    <p>reftest-diff mode report generated at 2026-05-12T20:07:50.830Z · <a class="header-link" href="report.json">JSON</a> · <a class="header-link" href="report.md">Markdown</a> · <a class="header-link" href="triage.yaml">Triage</a></p>
+    <p>reftest-diff mode report generated at 2026-05-13T02:51:20.316Z · <a class="header-link" href="report.json">JSON</a> · <a class="header-link" href="report.md">Markdown</a> · <a class="header-link" href="triage.yaml">Triage</a></p>
     <section class="summary">
       <button type="button" class="card summary-card neutral is-filterable" data-filter-kind="clear" data-filter-value="" data-filter-label="Compared">
         <div class="label">Compared</div>
@@ -82,11 +82,15 @@
       </button>
 <button type="button" class="card summary-card pass is-filterable" data-filter-kind="change-type" data-filter-value="pass" data-filter-label="PASS">
         <div class="label">PASS</div>
-        <div class="value">532</div>
+        <div class="value">531</div>
       </button>
 <button type="button" class="card summary-card improvement is-filterable" data-filter-kind="change-type" data-filter-value="improvement" data-filter-label="improvement">
         <div class="label">improvement</div>
         <div class="value">3</div>
+      </button>
+<button type="button" class="card summary-card regression is-filterable" data-filter-kind="change-type" data-filter-value="regression" data-filter-label="regression">
+        <div class="label">regression</div>
+        <div class="value">1</div>
       </button>
 <button type="button" class="card summary-card known-fail is-filterable" data-filter-kind="change-type" data-filter-value="known-fail" data-filter-label="known-fail">
         <div class="label">known-fail</div>
@@ -102,7 +106,7 @@
       </button>
 <button type="button" class="card summary-card error is-filterable" data-filter-kind="error" data-filter-value="1" data-filter-label="Entry errors">
         <div class="label">Entry errors</div>
-        <div class="value">2</div>
+        <div class="value">3</div>
       </button>
 <button type="button" class="card summary-card neutral is-filterable" data-filter-kind="page-count-mismatch" data-filter-value="1" data-filter-label="Page count changed">
         <div class="label">Page count changed</div>
@@ -112,9 +116,9 @@
         <div class="label">Screenshot mismatches</div>
         <div class="value">255</div>
       </button>
-<button type="button" class="card summary-card neutral is-filterable" data-filter-kind="timeout" data-filter-value="1" data-filter-label="Timeout entries">
+<button type="button" class="card summary-card error is-filterable" data-filter-kind="timeout" data-filter-value="1" data-filter-label="Timeout entries">
         <div class="label">Timeout entries</div>
-        <div class="value">0</div>
+        <div class="value">1</div>
       </button>
     </section>
     <div class="toolbar" id="filter-toolbar" hidden>
@@ -3766,13 +3770,13 @@
           <td><span class="badge pass">PASS</span></td>
           <td>-</td>
 </tr>
-<tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
+<tr data-filter-change-type="regression" data-filter-error="1" data-filter-timeout="1" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
           <td class="entry-id">0455</td>
           <td class="test-path"><div class="entry-category">WPT reftest</div><div class="entry-title"><a class="test-link" href="https://wpt.live/css/css-transforms/transform-iframe-001.html" target="lr-source">css/css-transforms/transform-iframe-001.html</a></div><div class="entry-ref">== <a class="ref-link" href="https://wpt.live/css/css-transforms/transform-iframe-ref.html" target="lr-source">css/css-transforms/transform-iframe-ref.html</a></div></td>
   <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-iframe-001.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-iframe-ref.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">stable ref</a></div></td>
-  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-iframe-001.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-iframe-ref.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
-          <td><span class="badge pass">PASS</span></td>
-          <td>-</td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-iframe-001.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge fail">FAIL</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-iframe-ref.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
+          <td><span class="badge regression">regression</span></td>
+          <td>canary-reference (css/css-transforms/transform-iframe-ref.html): Timeout (10000ms): waiting for viewer ready</td>
 </tr>
 <tr data-filter-change-type="improvement" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="1">
           <td class="entry-id">0456</td>

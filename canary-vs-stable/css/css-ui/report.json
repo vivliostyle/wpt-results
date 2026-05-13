@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T20:19:55.419Z",
+  "generatedAt": "2026-05-13T03:02:21.584Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,17 +39,17 @@
   },
   "summary": {
     "totalEntries": 1225,
-    "entriesWithDifferences": 638,
+    "entriesWithDifferences": 637,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 42,
+    "screenshotMismatches": 41,
     "outcomes": {
       "changeTypes": {
         "pass": 396,
         "known-fail": 596,
-        "unchanged": 191,
-        "changed": 42
+        "unchanged": 192,
+        "changed": 41
       },
       "statusPairs": {
         "PASS->PASS": 396,
@@ -59,14 +59,14 @@
     },
     "triage": {
       "differences": {
-        "pending": 638,
+        "pending": 637,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 638,
+      "pendingEntries": 637,
       "triagedEntries": 0
     }
   },
@@ -85014,44 +85014,11 @@
       "sourceUrl": "https://wpt.live/css/css-ui/resize-014.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
-      "changeType": "changed",
-      "viewerChanged": true,
+      "changeType": "unchanged",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": [],
-      "difference": {
-        "classification": "changed",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 5158,
-            "diffRatio": 0.00615172505915579,
-            "exactDiffPixels": 7500,
-            "exactDiffRatio": 0.008944927868101672,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/1215-WPT_manual-css-css-ui-resize-014.html-p0001.png"
-          }
-        ],
-        "comparisons": [],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      "references": []
     },
     {
       "id": "1216",

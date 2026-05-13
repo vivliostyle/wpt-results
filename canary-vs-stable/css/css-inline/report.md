@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 150
-- Entries with differences: 76 (pending: 76, triaged: 0)
-- Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 3
+- Entries with differences: 78 (pending: 78, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"known-fail":75,"changed-fail":1,"pass":72,"error":2}
+- Screenshot mismatches: 0
+- Outcome summary: {"known-fail":78,"pass":72}
 
 ## Differences
 
@@ -64,11 +64,11 @@
 
 - [0005] [WPT reftest] css/css-inline/baseline-shift/baseline-shift-length-percentage-svg.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/baseline-shift/baseline-shift-length-percentage-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/baseline-shift/baseline-shift-length-percentage-svg.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005247691015952981, diffPixels=4400
+  canary page 1: diffRatio=0.0009541256392641783, diffPixels=800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/baseline-shift/baseline-shift-length-percentage-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/baseline-shift/baseline-shift-length-percentage-svg.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -166,6 +166,19 @@
   stable page 1: diffRatio=0.051395170216014044, diffPixels=43093
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0022] [WPT reftest] css/css-inline/initial-letter/Initial-letter-breaking.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-inline/initial-letter/Initial-letter-breaking-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.06271587092588352, diffPixels=52585
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.06271587092588352, diffPixels=52585
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0023] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-tall.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -178,6 +191,19 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-tall.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.010692170445004198, diffPixels=8965
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-tall-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0024] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01209354247767346, diffPixels=10140
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01209354247767346, diffPixels=10140
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0025] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby-tall.html
   triage: pending
@@ -599,6 +625,10 @@
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0012856842989084803, diffPixels=1078
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0012856842989084803, diffPixels=1078
@@ -995,34 +1025,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/not-at-page-edges-003-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.05, diffPixels=8000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/not-at-page-edges-003-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0022] [WPT reftest] css/css-inline/initial-letter/Initial-letter-breaking.html
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0024] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html
-  triage: pending
-  side: canary, canary-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0057] [WPT reftest] css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline.html
-  triage: pending
-  side: canary-reference
-  reference: css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

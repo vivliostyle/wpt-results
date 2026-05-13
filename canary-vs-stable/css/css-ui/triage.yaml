@@ -16857,19 +16857,3 @@
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
     - 1
-- id: "1215"
-  category: WPT manual
-  title: css/css-ui/resize-014.html
-  file: css/css-ui/resize-014.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1217
-- Entries with differences: 583 (improvement: 29, pending: 554, triaged: 0)
+- Entries with differences: 581 (improvement: 28, pending: 553, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 48
-- Outcome summary: {"expected-change":3,"pass":558,"improvement":29,"known-fail":533,"changed-fail":16,"regression":2,"unchanged":76}
+- Screenshot mismatches: 42
+- Outcome summary: {"expected-change":3,"pass":560,"improvement":28,"known-fail":539,"changed-fail":11,"unchanged":76}
 
 ## Differences
 
@@ -129,7 +129,7 @@
   reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-033.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0022] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vrl-006.xht
@@ -1160,7 +1160,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-147.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.017998387527669645, diffPixels=15091
+  stable page 1: diffRatio=0.017982882986031602, diffPixels=15078
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0107] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-vlr-149.xht
@@ -3492,9 +3492,13 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0297] [WPT reftest] css/css-writing-modes/background-size-document-root-vrl-008.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/background-size-document-root-vrl-002-ref.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
@@ -4306,31 +4310,13 @@
   stable page 1: diffRatio=0.000834859934356156, diffPixels=700
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-012-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0546] [WPT reftest] css/css-writing-modes/float-contiguous-vrl-002.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-writing-modes/inline-replaced-vrl-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007953829860316007, diffPixels=6669
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/inline-replaced-vrl-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0547] [WPT reftest] css/css-writing-modes/float-contiguous-vrl-004.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-writing-modes/inline-replaced-vrl-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.016286924662239525, diffPixels=13656
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/inline-replaced-vrl-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0548] [WPT reftest] css/css-writing-modes/float-contiguous-vrl-006.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/float-contiguous-vrl-006-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009809604228684833, diffPixels=8225
+  canary page 1: diffRatio=0.015305367910846501, diffPixels=12833
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4339,11 +4325,11 @@
 
 - [0549] [WPT reftest] css/css-writing-modes/float-contiguous-vrl-008.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/float-contiguous-vrl-008-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009956301045721701, diffPixels=8348
+  canary page 1: diffRatio=0.015305367910846501, diffPixels=12833
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4356,7 +4342,7 @@
   reference: css/css-writing-modes/float-contiguous-vrl-012-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012889044729409969, diffPixels=10807
+  canary page 1: diffRatio=0.000834859934356156, diffPixels=700
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-012-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4473,7 +4459,7 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-vlr-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014848580261048775, diffPixels=12450
+  canary page 1: diffRatio=0.00888529501564766, diffPixels=7450
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-vlr-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4486,7 +4472,7 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-vlr-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014848580261048775, diffPixels=12450
+  canary page 1: diffRatio=0.00888529501564766, diffPixels=7450
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-vlr-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4495,11 +4481,11 @@
 
 - [0572] [WPT reftest] css/css-writing-modes/float-vlr-007.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-vlr-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.026715517899396992, diffPixels=22400
+  canary page 1: diffRatio=0.026716710556446074, diffPixels=22401
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-vlr-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4508,11 +4494,11 @@
 
 - [0573] [WPT reftest] css/css-writing-modes/float-vlr-009.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-vlr-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.023733875276696435, diffPixels=19900
+  canary page 1: diffRatio=0.023793508129150445, diffPixels=19950
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-vlr-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4521,11 +4507,11 @@
 
 - [0574] [WPT reftest] css/css-writing-modes/float-vlr-011.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-vlr-011.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.023733875276696435, diffPixels=19900
+  canary page 1: diffRatio=0.023793508129150445, diffPixels=19950
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-vlr-011.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4538,7 +4524,7 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-vlr-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.023793508129150445, diffPixels=19950
+  canary page 1: diffRatio=0.020811865506449888, diffPixels=17450
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-vlr-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false

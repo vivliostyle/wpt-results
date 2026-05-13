@@ -2137,6 +2137,10 @@
       referenceFile: css/css-masking/clip-path/reference/green-100x100.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-masking/clip-path/reference/green-100x100.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0229"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-url-reference-svg-foreignobject-zoomed.html
@@ -5215,29 +5219,6 @@
       referenceFile: css/css-masking/mask-image/mask-opacity-1-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-opacity-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0432"
-  category: WPT reftest
-  title: css/css-masking/mask-image/mask-position-4d.html
-  file: css/css-masking/mask-image/mask-position-4d.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-position-4d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-position-4d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-masking/mask-image/mask-position-4-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-masking/mask-image/mask-position-4-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-masking/mask-image/mask-position-4-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-position-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0462"
   category: WPT reftest
   title: css/css-masking/mask-svg-content/mask-empty-container-with-filter.svg

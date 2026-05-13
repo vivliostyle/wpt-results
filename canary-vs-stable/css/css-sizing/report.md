@@ -2,11 +2,11 @@
 
 - Compared entries: 549
 - Entries with differences: 74 (improvement: 1, pending: 73, triaged: 0)
-- Entries with errors: 5 (pending: 5, triaged: 0)
-- Timeout entries: 5
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 3
 - Page count changed: 0
 - Screenshot mismatches: 8
-- Outcome summary: {"pass":470,"known-fail":66,"error":5,"improvement":1,"expected-change":5,"changed-fail":2}
+- Outcome summary: {"pass":472,"known-fail":66,"improvement":1,"expected-change":5,"error":3,"changed-fail":2}
 
 ## Differences
 
@@ -939,22 +939,6 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
-
-- [0300] [WPT reftest] css/css-sizing/box-sizing-replaced-002.xht
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0301] [WPT reftest] css/css-sizing/box-sizing-replaced-003.xht
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0496] [WPT reftest] css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-no-match-element.sub.tentative.html
   triage: pending

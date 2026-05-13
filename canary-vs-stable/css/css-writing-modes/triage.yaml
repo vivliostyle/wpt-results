@@ -6848,6 +6848,33 @@
       referenceFile: css/css-writing-modes/background-position-vrl-018-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/background-position-vrl-018-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0297"
+  category: WPT reftest
+  title: css/css-writing-modes/background-size-document-root-vrl-008.html
+  file: css/css-writing-modes/background-size-document-root-vrl-008.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-writing-modes/background-size-document-root-vrl-002-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-writing-modes/background-size-document-root-vrl-002-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-writing-modes/background-size-document-root-vrl-002-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-writing-modes/background-size-document-root-vrl-002-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0308"
   category: WPT reftest
   title: css/css-writing-modes/bidi-embed-003.html
@@ -8549,52 +8576,6 @@
       referenceFile: css/css-writing-modes/float-contiguous-vrl-012-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-012-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0546"
-  category: WPT reftest
-  title: css/css-writing-modes/float-contiguous-vrl-002.xht
-  file: css/css-writing-modes/float-contiguous-vrl-002.xht
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-writing-modes/inline-replaced-vrl-004-ref.xht
-  relation: "=="
-  diffPages:
-    - css/css-writing-modes/inline-replaced-vrl-004-ref.xht#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-writing-modes/inline-replaced-vrl-004-ref.xht
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/inline-replaced-vrl-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0547"
-  category: WPT reftest
-  title: css/css-writing-modes/float-contiguous-vrl-004.xht
-  file: css/css-writing-modes/float-contiguous-vrl-004.xht
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-contiguous-vrl-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-writing-modes/inline-replaced-vrl-004-ref.xht
-  relation: "=="
-  diffPages:
-    - css/css-writing-modes/inline-replaced-vrl-004-ref.xht#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-writing-modes/inline-replaced-vrl-004-ref.xht
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/inline-replaced-vrl-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0548"
   category: WPT reftest
   title: css/css-writing-modes/float-contiguous-vrl-006.xht

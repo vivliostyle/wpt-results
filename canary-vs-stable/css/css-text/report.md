@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1485
-- Entries with differences: 428 (improvement: 1, pending: 427, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with differences: 432 (improvement: 1, pending: 431, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 12
-- Outcome summary: {"pass":1054,"known-fail":416,"changed-fail":10,"error":1,"improvement":1,"expected-change":1,"unchanged":2}
+- Screenshot mismatches: 15
+- Outcome summary: {"pass":1051,"known-fail":416,"changed-fail":10,"regression":4,"improvement":1,"expected-change":1,"unchanged":2}
 
 ## Differences
 
@@ -1186,6 +1186,33 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.007305024425616365, diffPixels=6125
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-breaking/reference/line-reabking-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0395] [WPT reftest] css/css-text/line-breaking/line-breaking-030.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-text/line-breaking/reference/line-breaking-030-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-030.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0046060415235478205, diffPixels=3862
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0396] [WPT reftest] css/css-text/line-breaking/line-breaking-031.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-text/line-breaking/reference/line-breaking-030-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-031.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.008325938859629036, diffPixels=6981
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0397] [WPT reftest] css/css-text/line-breaking/line-breaking-032.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-text/line-breaking/reference/line-breaking-030-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-032.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00444145485077475, diffPixels=3724
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0400] [WPT reftest] css/css-text/line-breaking/line-breaking-atomic-003.html
   triage: pending
@@ -2977,6 +3004,15 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-tailoring-001a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00040311808258911534, diffPixels=338
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-tailoring-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0872] [WPT reftest] css/css-text/text-transform/text-transform-uppercase-dynamic.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000015504541638042898, diffPixels=13
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0887] [WPT reftest] css/css-text/text-transform/text-transform-upperlower-016.html
   triage: pending
@@ -5690,14 +5726,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/writing-system/writing-system-text-transform-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000019082512785283566, diffPixels=16
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/writing-system/reference/writing-system-text-transform-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0581] [WPT reftest] css/css-text/shaping/shaping-021.html
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/shaping/shaping-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/shaping/shaping-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

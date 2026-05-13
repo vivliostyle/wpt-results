@@ -1,1 +1,17 @@
-[]
+- id: "0009"
+  category: WPT manual
+  title: css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html
+  file: css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: stable
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

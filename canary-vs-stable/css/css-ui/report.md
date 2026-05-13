@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1225
-- Entries with differences: 638 (pending: 638, triaged: 0)
+- Entries with differences: 637 (pending: 637, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 42
-- Outcome summary: {"pass":396,"known-fail":596,"unchanged":191,"changed":42}
+- Screenshot mismatches: 41
+- Outcome summary: {"pass":396,"known-fail":596,"unchanged":192,"changed":41}
 
 ## Differences
 
@@ -8054,11 +8054,4 @@
   page 1: diffRatio=0.01192657049080223, diffPixels=10000
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1215] [WPT manual] css/css-ui/resize-014.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00615172505915579, diffPixels=5158
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

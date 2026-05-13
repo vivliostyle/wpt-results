@@ -2,11 +2,11 @@
 
 - Compared entries: 26
 - Entries with differences: 6 (pending: 6, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":19,"known-fail":6,"error":1}
+- Outcome summary: {"pass":18,"known-fail":6,"error":2}
 
 ## Differences
 
@@ -90,13 +90,27 @@
 
 ## Errors
 
+- [0009] [WPT print-reftest] css/printing/fixed-pos-object-pdf-crash-print.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0026] [WPT print-reftest] css/printing/zero-size-003-print.tentative.html
   triage: pending
-  side: canary, stable
+  side: canary, canary-reference, stable, stable-reference
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary-reference reference: css/printing/zero-size-print-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/printing/zero-size-print-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/zero-size-003-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/zero-size-003-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

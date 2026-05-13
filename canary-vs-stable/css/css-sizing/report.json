@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T19:36:38.123Z",
+  "generatedAt": "2026-05-13T02:23:02.013Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -40,24 +40,24 @@
   "summary": {
     "totalEntries": 549,
     "entriesWithDifferences": 74,
-    "entriesWithErrors": 5,
-    "timeoutEntries": 5,
+    "entriesWithErrors": 3,
+    "timeoutEntries": 3,
     "pageCountMismatches": 0,
     "screenshotMismatches": 8,
     "outcomes": {
       "changeTypes": {
-        "pass": 470,
+        "pass": 472,
         "known-fail": 66,
-        "error": 5,
         "improvement": 1,
         "expected-change": 5,
+        "error": 3,
         "changed-fail": 2
       },
       "statusPairs": {
-        "PASS->PASS": 475,
+        "PASS->PASS": 477,
         "FAIL->FAIL": 68,
-        "PASS->ERROR": 4,
         "FAIL->PASS": 1,
+        "PASS->ERROR": 2,
         "FAIL->ERROR": 1
       }
     },
@@ -67,10 +67,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 5,
+        "pending": 3,
         "triaged": 0
       },
-      "pendingEntries": 78,
+      "pendingEntries": 76,
       "triagedEntries": 0
     }
   },
@@ -7536,9 +7536,9 @@
         "css/css-sizing/box-sizing-replaced-002.xht"
       ],
       "sourceUrl": "https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht",
-      "actualStatus": "ERROR",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "error",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -7548,20 +7548,6 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "errors": [
-        {
-          "side": "canary",
-          "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
-          },
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
         }
       ]
     },
@@ -7573,9 +7559,9 @@
         "css/css-sizing/box-sizing-replaced-003.xht"
       ],
       "sourceUrl": "https://wpt.live/css/css-sizing/box-sizing-replaced-003.xht",
-      "actualStatus": "ERROR",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "error",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -7585,20 +7571,6 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "errors": [
-        {
-          "side": "canary",
-          "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
-          },
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
         }
       ]
     },

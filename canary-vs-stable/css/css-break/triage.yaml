@@ -30,6 +30,52 @@
       referenceFile: css/css-break/background-attachment-fixed-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-attachment-fixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0009"
+  category: WPT reftest
+  title: css/css-break/background-image-000.html
+  file: css/css-break/background-image-000.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-image-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-break/background-image-000-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-break/background-image-000-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-break/background-image-000-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0010"
+  category: WPT reftest
+  title: css/css-break/background-image-001.html
+  file: css/css-break/background-image-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-image-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-break/background-image-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-break/background-image-001-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-break/background-image-001-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0011"
   category: WPT reftest
   title: css/css-break/background-image-002.html
@@ -57,6 +103,22 @@
       referenceFile: css/css-break/background-image-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-image-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0016"
+  category: WPT reftest
+  title: css/css-break/background-image-007.html
+  file: css/css-break/background-image-007.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-image-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
 - id: "0047"
   category: WPT reftest
   title: css/css-break/borders-006.html
@@ -2720,20 +2782,3 @@
       referenceFile: css/css-break/underflow-from-next-page-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/underflow-from-next-page-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0477"
-  category: WPT reftest
-  title: css/css-break/grid/grid-item-008.html
-  file: css/css-break/grid/grid-item-008.html
-  type: error
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-item-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-item-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  errorSide: canary
-  errorName: TimeoutError
-  errorMessage: "Timeout (10000ms): waiting for viewer ready"
