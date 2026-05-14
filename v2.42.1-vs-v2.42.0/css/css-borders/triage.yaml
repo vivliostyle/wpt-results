@@ -1,0 +1,351 @@
+- id: "0003"
+  category: WPT reftest
+  title: css/css-borders/border-shape/border-shape-background-origin-border-box.html
+  file: css/css-borders/border-shape/border-shape-background-origin-border-box.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.42.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.1
+      referenceFile: css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.42.0
+      referenceFile: css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0005"
+  category: WPT reftest
+  title: css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html
+  file: css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.42.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.1
+      referenceFile: css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.42.0
+      referenceFile: css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0006"
+  category: WPT reftest
+  title: css/css-borders/border-shape/border-shape-combined-shadow.html
+  file: css/css-borders/border-shape/border-shape-combined-shadow.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.42.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/border-shape/border-shape-combined-shadow-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-borders/border-shape/border-shape-combined-shadow-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.1
+      referenceFile: css/css-borders/border-shape/border-shape-combined-shadow-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.42.0
+      referenceFile: css/css-borders/border-shape/border-shape-combined-shadow-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0008"
+  category: WPT reftest
+  title: css/css-borders/border-shape/border-shape-dynamic-color.html
+  file: css/css-borders/border-shape/border-shape-dynamic-color.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.42.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/border-shape/border-shape-dynamic-color-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-borders/border-shape/border-shape-dynamic-color-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.1
+      referenceFile: css/css-borders/border-shape/border-shape-dynamic-color-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.42.0
+      referenceFile: css/css-borders/border-shape/border-shape-dynamic-color-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0011"
+  category: WPT reftest
+  title: css/css-borders/border-shape/border-shape-ignore-radius.html
+  file: css/css-borders/border-shape/border-shape-ignore-radius.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.42.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/border-shape/border-shape-ignore-radius-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-borders/border-shape/border-shape-ignore-radius-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.1
+      referenceFile: css/css-borders/border-shape/border-shape-ignore-radius-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.42.0
+      referenceFile: css/css-borders/border-shape/border-shape-ignore-radius-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0024"
+  category: WPT reftest
+  title: css/css-borders/border-shape/border-shape-outline-with-border.html
+  file: css/css-borders/border-shape/border-shape-outline-with-border.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.42.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/border-shape/border-shape-outline-with-border-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-borders/border-shape/border-shape-outline-with-border-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.1
+      referenceFile: css/css-borders/border-shape/border-shape-outline-with-border-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.42.0
+      referenceFile: css/css-borders/border-shape/border-shape-outline-with-border-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0033"
+  category: WPT reftest
+  title: css/css-borders/border-shape/border-shape-shadow-blur.html
+  file: css/css-borders/border-shape/border-shape-shadow-blur.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.42.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/border-shape/border-shape-shadow-blur-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-borders/border-shape/border-shape-shadow-blur-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.1
+      referenceFile: css/css-borders/border-shape/border-shape-shadow-blur-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.42.0
+      referenceFile: css/css-borders/border-shape/border-shape-shadow-blur-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0034"
+  category: WPT reftest
+  title: css/css-borders/border-shape/border-shape-shadow-circle.html
+  file: css/css-borders/border-shape/border-shape-shadow-circle.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.42.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/border-shape/border-shape-shadow-circle-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-borders/border-shape/border-shape-shadow-circle-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.1
+      referenceFile: css/css-borders/border-shape/border-shape-shadow-circle-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.42.0
+      referenceFile: css/css-borders/border-shape/border-shape-shadow-circle-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0035"
+  category: WPT reftest
+  title: css/css-borders/border-shape/border-shape-shadow-inset-blur.html
+  file: css/css-borders/border-shape/border-shape-shadow-inset-blur.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.42.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.1
+      referenceFile: css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.42.0
+      referenceFile: css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0040"
+  category: WPT reftest
+  title: css/css-borders/border-shape/border-shape-stroke-from-border.html
+  file: css/css-borders/border-shape/border-shape-stroke-from-border.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.42.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/border-shape/border-shape-stroke-from-border-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-borders/border-shape/border-shape-stroke-from-border-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.1
+      referenceFile: css/css-borders/border-shape/border-shape-stroke-from-border-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.42.0
+      referenceFile: css/css-borders/border-shape/border-shape-stroke-from-border-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0042"
+  category: WPT reftest
+  title: css/css-borders/border-shape/border-shape-two-shapes-shadow.html
+  file: css/css-borders/border-shape/border-shape-two-shapes-shadow.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.42.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.1
+      referenceFile: css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.42.0
+      referenceFile: css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0064"
+  category: WPT reftest
+  title: css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
+  file: css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.42.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/reference/border-radius-side-shorthands-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-borders/reference/border-radius-side-shorthands-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.1
+      referenceFile: css/css-borders/reference/border-radius-side-shorthands-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.42.0
+      referenceFile: css/css-borders/reference/border-radius-side-shorthands-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0065"
+  category: WPT reftest
+  title: css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html
+  file: css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.42.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/reference/border-radius-side-shorthands-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-borders/reference/border-radius-side-shorthands-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.1
+      referenceFile: css/css-borders/reference/border-radius-side-shorthands-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.42.0
+      referenceFile: css/css-borders/reference/border-radius-side-shorthands-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

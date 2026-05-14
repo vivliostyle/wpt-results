@@ -1,0 +1,27 @@
+- id: "0001"
+  category: WPT reftest
+  title: css/fill-stroke/paint-order-001.html
+  file: css/fill-stroke/paint-order-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.42.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/fill-stroke/paint-order-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.42.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/fill-stroke/paint-order-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/fill-stroke/reference/paint-order-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/fill-stroke/reference/paint-order-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.42.1
+      referenceFile: css/fill-stroke/reference/paint-order-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/fill-stroke/reference/paint-order-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.42.0
+      referenceFile: css/fill-stroke/reference/paint-order-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/fill-stroke/reference/paint-order-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

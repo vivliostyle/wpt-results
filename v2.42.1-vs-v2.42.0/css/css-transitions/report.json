@@ -1,0 +1,1476 @@
+{
+  "generatedAt": "2026-05-13T23:34:06.050Z",
+  "labels": {
+    "actual": "v2.42.1",
+    "baseline": "v2.42.0"
+  },
+  "options": {
+    "categories": [],
+    "titleIncludes": [],
+    "files": [],
+    "limit": null,
+    "mode": "reftest-diff",
+    "browser": "chromium",
+    "outDir": "v2.42.1-vs-v2.42.0/css/css-transitions",
+    "timeoutSec": 10,
+    "maxDiffRatio": 0.00002,
+    "pixelThreshold": 0.1,
+    "viewportWidth": 1800,
+    "viewportHeight": 1800,
+    "skipScreenshots": false,
+    "concurrency": 8,
+    "exportHtml": false,
+    "exportHtmlDiff": false,
+    "actualViewer": "https://vivliostyle.github.io/viewer/v2.42.1/",
+    "baselineViewer": "https://vivliostyle.github.io/viewer/v2.42.0/",
+    "actualLabel": "v2.42.1",
+    "baselineLabel": "v2.42.0",
+    "extraViewerParams": "",
+    "actualViewerParams": "",
+    "baselineViewerParams": "",
+    "testUrls": [],
+    "refUrls": [],
+    "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
+    "wptBaseUrl": "https://wpt.live/",
+    "wptPathPrefixes": [
+      "css/css-transitions/"
+    ],
+    "timeoutMs": 10000
+  },
+  "summary": {
+    "totalEntries": 61,
+    "entriesWithDifferences": 4,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
+    "pageCountMismatches": 0,
+    "screenshotMismatches": 0,
+    "outcomes": {
+      "changeTypes": {
+        "known-fail": 4,
+        "pass": 2,
+        "unchanged": 55
+      },
+      "statusPairs": {
+        "FAIL->FAIL": 4,
+        "PASS->PASS": 2,
+        "MANUAL->MANUAL": 55
+      }
+    },
+    "triage": {
+      "differences": {
+        "pending": 4,
+        "triaged": 0
+      },
+      "errors": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "pendingEntries": 4,
+      "triagedEntries": 0
+    }
+  },
+  "entries": [
+    {
+      "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/css-transitions/allow-discrete-auto-inset.html",
+      "file": [
+        "css/css-transitions/allow-discrete-auto-inset.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/allow-discrete-auto-inset.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/allow-discrete-auto-inset.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/allow-discrete-auto-inset.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10000,
+                "diffRatio": 0.01192657049080223,
+                "exactDiffPixels": 10000,
+                "exactDiffRatio": 0.01192657049080223,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0001-WPT_reftest-css-css-transitions-allow-discrete-auto-inset.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10000,
+                "diffRatio": 0.01192657049080223,
+                "exactDiffPixels": 10000,
+                "exactDiffRatio": 0.01192657049080223,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0001-WPT_reftest-css-css-transitions-allow-discrete-auto-inset.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0002",
+      "category": "WPT reftest",
+      "title": "css/css-transitions/inherit-background-color-transition.html",
+      "file": [
+        "css/css-transitions/inherit-background-color-transition.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/inherit-background-color-transition.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/inherit-background-color-transition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/inherit-background-color-transition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-transitions/inherit-background-color-transition-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/inherit-background-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/inherit-background-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-transitions/inherit-background-color-transition-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/inherit-background-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 536233,
+                "diffRatio": 0.6395420673994352,
+                "exactDiffPixels": 536784,
+                "exactDiffRatio": 0.6401992214334784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0002-WPT_reftest-css-css-transitions-inherit-background-color-transition.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/inherit-background-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-transitions/inherit-background-color-transition-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/inherit-background-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 536233,
+                "diffRatio": 0.6395420673994352,
+                "exactDiffPixels": 536784,
+                "exactDiffRatio": 0.6401992214334784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0002-WPT_reftest-css-css-transitions-inherit-background-color-transition.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/inherit-background-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0003",
+      "category": "WPT reftest",
+      "title": "css/css-transitions/pseudo-element-transform.html",
+      "file": [
+        "css/css-transitions/pseudo-element-transform.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/pseudo-element-transform.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/pseudo-element-transform.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/pseudo-element-transform.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-transitions/pseudo-element-transform-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/pseudo-element-transform-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/pseudo-element-transform-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-transitions/pseudo-element-transform-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/pseudo-element-transform-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 5000,
+                "diffRatio": 0.005963285245401115,
+                "exactDiffPixels": 5000,
+                "exactDiffRatio": 0.005963285245401115,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 76,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0003-WPT_reftest-css-css-transitions-pseudo-element-transform.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/pseudo-element-transform-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-transitions/pseudo-element-transform-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/pseudo-element-transform-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 5000,
+                "diffRatio": 0.005963285245401115,
+                "exactDiffPixels": 5000,
+                "exactDiffRatio": 0.005963285245401115,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 76,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0003-WPT_reftest-css-css-transitions-pseudo-element-transform.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/pseudo-element-transform-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0004",
+      "category": "WPT reftest",
+      "title": "css/css-transitions/render-blocking/no-transition-from-ua-to-blocking-stylesheet.html",
+      "file": [
+        "css/css-transitions/render-blocking/no-transition-from-ua-to-blocking-stylesheet.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/render-blocking/no-transition-from-ua-to-blocking-stylesheet.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/render-blocking/no-transition-from-ua-to-blocking-stylesheet.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/render-blocking/no-transition-from-ua-to-blocking-stylesheet.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-transitions/render-blocking/no-transition-from-ua-to-blocking-stylesheet-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/render-blocking/no-transition-from-ua-to-blocking-stylesheet-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/render-blocking/no-transition-from-ua-to-blocking-stylesheet-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0005",
+      "category": "WPT reftest",
+      "title": "css/css-transitions/root-color-transition.html",
+      "file": [
+        "css/css-transitions/root-color-transition.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/root-color-transition.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/root-color-transition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/root-color-transition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-transitions/root-color-transition-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/root-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/root-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-transitions/root-color-transition-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/root-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1526,
+                "diffRatio": 0.0018199946568964202,
+                "exactDiffPixels": 2673,
+                "exactDiffRatio": 0.003187972292191436,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0005-WPT_reftest-css-css-transitions-root-color-transition.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/root-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-transitions/root-color-transition-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/root-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1526,
+                "diffRatio": 0.0018199946568964202,
+                "exactDiffPixels": 2673,
+                "exactDiffRatio": 0.003187972292191436,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0005-WPT_reftest-css-css-transitions-root-color-transition.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.42.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/root-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0006",
+      "category": "WPT reftest",
+      "title": "css/css-transitions/transition-test.html",
+      "file": [
+        "css/css-transitions/transition-test.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-test.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-test.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-test.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-transitions/reference/transition-test-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/reference/transition-test-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/reference/transition-test-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0007",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-delay-000-manual.html",
+      "file": [
+        "css/css-transitions/transition-delay-000-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-delay-000-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-delay-000-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-delay-000-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0008",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-delay-002-manual.html",
+      "file": [
+        "css/css-transitions/transition-delay-002-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-delay-002-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-delay-002-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-delay-002-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0009",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-delay-003-manual.html",
+      "file": [
+        "css/css-transitions/transition-delay-003-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-delay-003-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-delay-003-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-delay-003-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0010",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-duration-002-manual.html",
+      "file": [
+        "css/css-transitions/transition-duration-002-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-duration-002-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-duration-002-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-duration-002-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0011",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-duration-003-manual.html",
+      "file": [
+        "css/css-transitions/transition-duration-003-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-duration-003-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-duration-003-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-duration-003-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0012",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-duration-004-manual.html",
+      "file": [
+        "css/css-transitions/transition-duration-004-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-duration-004-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-duration-004-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-duration-004-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0013",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-003-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-003-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-003-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-003-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-003-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0014",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-004-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-004-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-004-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-004-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-004-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0015",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-005-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-005-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-005-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-005-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-005-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0016",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-006-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-006-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-006-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-006-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-006-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0017",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-007-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-007-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-007-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-007-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-007-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0018",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-008-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-008-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-008-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-008-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-008-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0019",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-009-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-009-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-009-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-009-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-009-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0020",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-010-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-010-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-010-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-010-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-010-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0021",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-011-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-011-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-011-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-011-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-011-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0022",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-012-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-012-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-012-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-012-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-012-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0023",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-013-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-013-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-013-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-013-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-013-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0024",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-014-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-014-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-014-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-014-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-014-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0025",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-015-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-015-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-015-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-015-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-015-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0026",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-016-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-016-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-016-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-016-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-016-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0027",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-017-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-017-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-017-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-017-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-017-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0028",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-018-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-018-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-018-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-018-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-018-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0029",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-019-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-019-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-019-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-019-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-019-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0030",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-020-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-020-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-020-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-020-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-020-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0031",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-021-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-021-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-021-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-021-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-021-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0032",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-022-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-022-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-022-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-022-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-022-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0033",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-023-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-023-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-023-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-023-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-023-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0034",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-024-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-024-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-024-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-024-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-024-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0035",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-025-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-025-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-025-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-025-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-025-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0036",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-026-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-026-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-026-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-026-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-026-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0037",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-027-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-027-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-027-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-027-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-027-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0038",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-028-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-028-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-028-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-028-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-028-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0039",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-029-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-029-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-029-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-029-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-029-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0040",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-030-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-030-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-030-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-030-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-030-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0041",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-031-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-031-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-031-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-031-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-031-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0042",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-032-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-032-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-032-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-032-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-032-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0043",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-033-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-033-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-033-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-033-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-033-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0044",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-034-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-034-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-034-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-034-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-034-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0045",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-035-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-035-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-035-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-035-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-035-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0046",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-036-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-036-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-036-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-036-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-036-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0047",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-037-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-037-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-037-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-037-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-037-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0048",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-038-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-038-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-038-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-038-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-038-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0049",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-039-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-039-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-039-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-039-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-039-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0050",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-040-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-040-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-040-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-040-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-040-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0051",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-041-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-041-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-041-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-041-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-041-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0052",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-042-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-042-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-042-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-042-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-042-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0053",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-043-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-043-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-043-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-043-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-043-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0054",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-044-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-044-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-044-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-044-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-044-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0055",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-property-045-manual.html",
+      "file": [
+        "css/css-transitions/transition-property-045-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-property-045-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-property-045-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-property-045-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0056",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-timing-function-002-manual.html",
+      "file": [
+        "css/css-transitions/transition-timing-function-002-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-timing-function-002-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-timing-function-002-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-timing-function-002-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0057",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-timing-function-003-manual.html",
+      "file": [
+        "css/css-transitions/transition-timing-function-003-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-timing-function-003-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-timing-function-003-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-timing-function-003-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0058",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-timing-function-004-manual.html",
+      "file": [
+        "css/css-transitions/transition-timing-function-004-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-timing-function-004-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-timing-function-004-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-timing-function-004-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0059",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-timing-function-005-manual.html",
+      "file": [
+        "css/css-transitions/transition-timing-function-005-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-timing-function-005-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-timing-function-005-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-timing-function-005-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0060",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-timing-function-006-manual.html",
+      "file": [
+        "css/css-transitions/transition-timing-function-006-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-timing-function-006-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-timing-function-006-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-timing-function-006-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0061",
+      "category": "WPT manual",
+      "title": "css/css-transitions/transition-timing-function-010-manual.html",
+      "file": [
+        "css/css-transitions/transition-timing-function-010-manual.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-transitions/transition-timing-function-010-manual.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-transitions/transition-timing-function-010-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.0/#src=https://wpt.live/css/css-transitions/transition-timing-function-010-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    }
+  ]
+}
