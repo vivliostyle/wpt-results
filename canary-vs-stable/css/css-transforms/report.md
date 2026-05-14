@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 792
-- Entries with differences: 260 (improvement: 3, pending: 257, triaged: 0)
-- Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 1
+- Entries with differences: 256 (pending: 256, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 2
-- Outcome summary: {"pass":531,"known-fail":255,"improvement":3,"regression":1,"changed-fail":1,"unchanged":1}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":535,"known-fail":256,"unchanged":1}
 
 ## Differences
 
@@ -1856,12 +1856,6 @@
   stable page 1: diffRatio=0.008944927868101672, diffPixels=7500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0378] [WPT reftest] css/css-transforms/text-perspective-001.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/text-perspective-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/text-perspective-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0396] [WPT reftest] css/css-transforms/transform-background-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -2057,30 +2051,9 @@
   stable page 1: diffRatio=0.004412831081596825, diffPixels=3700
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-fixed-bg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0452] [WPT reftest] css/css-transforms/transform-flattening-001.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-flattening-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-flattening-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0455] [WPT reftest] css/css-transforms/transform-iframe-001.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-iframe-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-iframe-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0456] [WPT reftest] css/css-transforms/transform-iframe-002.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square-only.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-iframe-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0457] [WPT reftest] css/css-transforms/transform-iframe-scroll-position.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-iframe-scroll-position-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-iframe-scroll-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2088,7 +2061,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-iframe-scroll-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-iframe-scroll-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  stable page 1: diffRatio=0.0014908213113502787, diffPixels=1250
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-iframe-scroll-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0459] [WPT reftest] css/css-transforms/transform-inherit-001.html
@@ -3364,33 +3337,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/ttwf-reftest-rotate.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00942199068773376, diffPixels=7900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/reference/ttwf-reftest-rotate-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0378] [WPT reftest] css/css-transforms/text-perspective-001.html
-  triage: pending
-  side: stable-reference
-  reference: about:blank
-  timeout: false
-  error: Error: Viewer error: Failed to load about:blank. The target resource is invalid.
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/text-perspective-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=about:blank&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0452] [WPT reftest] css/css-transforms/transform-flattening-001.html
-  triage: pending
-  side: stable-reference
-  reference: about:blank
-  timeout: false
-  error: Error: Viewer error: Failed to load about:blank. The target resource is invalid.
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-flattening-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=about:blank&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0455] [WPT reftest] css/css-transforms/transform-iframe-001.html
-  triage: pending
-  side: canary-reference
-  reference: css/css-transforms/transform-iframe-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-iframe-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

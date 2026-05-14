@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T02:07:31.007Z",
+  "generatedAt": "2026-05-14T01:16:27.814Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -53,8 +53,7 @@
       "statusPairs": {
         "FAIL->FAIL": 97,
         "PASS->PASS": 136,
-        "PASS->ERROR": 2,
-        "FAIL->ERROR": 1
+        "ERROR->ERROR": 3
       }
     },
     "triage": {
@@ -4583,7 +4582,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-position/position-absolute-iframe-print-001.sub.html",
       "actualStatus": "ERROR",
-      "baselineStatus": "PASS",
+      "baselineStatus": "ERROR",
       "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-iframe-print-001.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -4598,12 +4597,30 @@
       ],
       "errors": [
         {
-          "side": "canary",
+          "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
             "message": "Timeout (10000ms): waiting for viewer ready",
             "timeout": true
           },
+          "sideErrors": [
+            {
+              "side": "canary",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            },
+            {
+              "side": "stable",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            }
+          ],
           "triage": {
             "status": "pending",
             "decision": ""
@@ -4620,7 +4637,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-position/position-absolute-iframe-print-002.sub.html",
       "actualStatus": "ERROR",
-      "baselineStatus": "PASS",
+      "baselineStatus": "ERROR",
       "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-iframe-print-002.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -4635,12 +4652,30 @@
       ],
       "errors": [
         {
-          "side": "canary",
+          "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
             "message": "Timeout (10000ms): waiting for viewer ready",
             "timeout": true
           },
+          "sideErrors": [
+            {
+              "side": "canary",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            },
+            {
+              "side": "stable",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            }
+          ],
           "triage": {
             "status": "pending",
             "decision": ""
@@ -11499,7 +11534,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor-iframe.html",
       "actualStatus": "ERROR",
-      "baselineStatus": "FAIL",
+      "baselineStatus": "ERROR",
       "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -11514,12 +11549,30 @@
       ],
       "errors": [
         {
-          "side": "canary",
+          "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
             "message": "Timeout (10000ms): waiting for viewer ready",
             "timeout": true
           },
+          "sideErrors": [
+            {
+              "side": "canary",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            },
+            {
+              "side": "stable",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            }
+          ],
           "triage": {
             "status": "pending",
             "decision": ""

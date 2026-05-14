@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 262
-- Entries with differences: 137 (improvement: 4, pending: 133, triaged: 0)
+- Entries with differences: 133 (pending: 133, triaged: 0)
 - Entries with errors: 23 (pending: 23, triaged: 0)
 - Timeout entries: 23
 - Page count changed: 0
-- Screenshot mismatches: 5
-- Outcome summary: {"known-fail":132,"pass":95,"error":23,"improvement":4,"changed-fail":1,"unchanged":7}
+- Screenshot mismatches: 0
+- Outcome summary: {"known-fail":133,"pass":99,"error":23,"unchanged":7}
 
 ## Differences
 
@@ -1268,15 +1268,6 @@
   stable page 1: diffRatio=0.0010841252576139226, diffPixels=909
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-font-variant-numeric-normal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0173] [WPT reftest] css/css-pseudo/marker-hyphens.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-pseudo/marker-hyphens-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-hyphens.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009290798412334936, diffPixels=779
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-hyphens-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0176] [WPT reftest] css/css-pseudo/marker-intrinsic-contribution-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -1323,7 +1314,7 @@
 
 - [0179] [WPT reftest] css/css-pseudo/marker-line-height.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/marker-line-height-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-line-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1331,7 +1322,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-line-height-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-line-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003768796275093504, diffPixels=316
+  stable page 1: diffRatio=0.00003339439737424624, diffPixels=28
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-line-height-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0181] [WPT reftest] css/css-pseudo/marker-overflow-wrap.html
@@ -1347,15 +1338,6 @@
   stable page 1: diffRatio=0.00027908174948477213, diffPixels=234
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-line-break-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0182] [WPT reftest] css/css-pseudo/marker-tab-size.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-pseudo/marker-tab-size-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-tab-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.006440348065033204, diffPixels=5400
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-tab-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0187] [WPT reftest] css/css-pseudo/marker-text-decoration-skip-ink.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -1368,24 +1350,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-decoration-skip-ink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0000727520799938936, diffPixels=61
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-decoration-skip-ink-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0188] [WPT reftest] css/css-pseudo/marker-text-emphasis.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-pseudo/marker-text-emphasis-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-emphasis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00021229295473627967, diffPixels=178
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-emphasis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0189] [WPT reftest] css/css-pseudo/marker-text-shadow.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-pseudo/marker-text-shadow-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000197981070147317, diffPixels=166
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0191] [WPT reftest] css/css-pseudo/marker-text-transform-dynamic.html
   triage: pending

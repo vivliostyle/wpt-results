@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T03:10:13.776Z",
+  "generatedAt": "2026-05-14T02:18:53.240Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -53,7 +53,7 @@
       "statusPairs": {
         "PASS->PASS": 36,
         "FAIL->FAIL": 30,
-        "PASS->ERROR": 2
+        "ERROR->ERROR": 2
       }
     },
     "triage": {
@@ -2603,7 +2603,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-viewport/zoom/iframe-zoom-nested.html",
       "actualStatus": "ERROR",
-      "baselineStatus": "PASS",
+      "baselineStatus": "ERROR",
       "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/iframe-zoom-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -2618,7 +2618,7 @@
       ],
       "errors": [
         {
-          "side": "canary, canary-reference",
+          "side": "canary, canary-reference, stable, stable-reference",
           "error": {
             "name": "TimeoutError",
             "message": "Timeout (10000ms): waiting for viewer ready",
@@ -2635,6 +2635,23 @@
             },
             {
               "side": "canary-reference",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              },
+              "referenceFile": "css/css-viewport/zoom/reference/iframe-zoom-nested-ref.html"
+            },
+            {
+              "side": "stable",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            },
+            {
+              "side": "stable-reference",
               "error": {
                 "name": "TimeoutError",
                 "message": "Timeout (10000ms): waiting for viewer ready",
@@ -2659,7 +2676,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-viewport/zoom/iframe-zoom.sub.html",
       "actualStatus": "ERROR",
-      "baselineStatus": "PASS",
+      "baselineStatus": "ERROR",
       "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/iframe-zoom.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -2674,12 +2691,30 @@
       ],
       "errors": [
         {
-          "side": "canary",
+          "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
             "message": "Timeout (10000ms): waiting for viewer ready",
             "timeout": true
           },
+          "sideErrors": [
+            {
+              "side": "canary",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            },
+            {
+              "side": "stable",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            }
+          ],
           "triage": {
             "status": "pending",
             "decision": ""

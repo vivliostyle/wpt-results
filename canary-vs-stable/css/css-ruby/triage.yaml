@@ -2321,10 +2321,6 @@
       referenceFile: css/css-ruby/ruby-text-collapse-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-text-collapse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-ruby/ruby-text-collapse-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-text-collapse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0120"
   category: WPT reftest
   title: css/css-ruby/ruby-text-dynamic-style.html

@@ -1,42 +1,14 @@
 # canary vs stable comparison report
 
-- Compared entries: 187
-- Entries with differences: 101 (pending: 101, triaged: 0)
+- Compared entries: 188
+- Entries with differences: 97 (improvement: 1, pending: 96, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 5
-- Outcome summary: {"pass":86,"expected-change":5,"known-fail":96}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":91,"known-fail":96,"improvement":1}
 
 ## Differences
-
-- [0003] [WPT reftest] css/css-anchor-position/anchor-center-overflow-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.018054442408976416, diffPixels=15138
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-center-overflow-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-center-overflow-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0004] [WPT reftest] css/css-anchor-position/anchor-center-overflow-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.02011535378978704, diffPixels=16866
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-center-overflow-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-center-overflow-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0005] [WPT reftest] css/css-anchor-position/anchor-center-overflow-003.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.015156285779711473, diffPixels=12708
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-center-overflow-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-center-overflow-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0006] [WPT reftest] css/css-anchor-position/anchor-center-overflow-004.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.02241241126631555, diffPixels=18792
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-center-overflow-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-center-overflow-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0008] [WPT reftest] css/css-anchor-position/anchor-center-safe-rtl.html
   triage: pending
@@ -631,6 +603,12 @@
   stable page 2: diffRatio=0.01877838523776811, diffPixels=15745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0093] [WPT reftest] css/css-anchor-position/anchored-transition-display-none-002.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchored-transition-display-none-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchored-transition-display-none-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0095] [WPT reftest] css/css-anchor-position/container-queries/anchored-fallback-color-change.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -760,13 +738,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-area-alignment-inset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.004114666819326769, diffPixels=3450
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-area-alignment-inset-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0109] [WPT reftest] css/css-anchor-position/position-area-anchor-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.010611069765666743, diffPixels=8897
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/position-area-anchor-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-area-anchor-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0110] [WPT reftest] css/css-anchor-position/position-area-anchor-002.html
   triage: pending
@@ -967,7 +938,7 @@
   stable page 2: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-try-switch-to-fixed-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0135] [WPT reftest] css/css-anchor-position/position-visibility-anchors-valid.tentative.html
+- [0136] [WPT reftest] css/css-anchor-position/position-visibility-anchors-valid.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-anchors-valid-ref.html (==)
@@ -980,7 +951,7 @@
   stable page 1: diffRatio=0.011708314250820548, diffPixels=9817
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-valid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0138] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out.html
+- [0139] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html (==)
@@ -993,7 +964,7 @@
   stable page 1: diffRatio=0.023473876039996948, diffPixels=19682
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0140] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-chained-001.html
+- [0141] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-chained-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html (==)
@@ -1006,7 +977,7 @@
   stable page 1: diffRatio=0.023203142889855737, diffPixels=19455
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0141] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-chained-002.html
+- [0142] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-chained-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html (==)
@@ -1019,7 +990,7 @@
   stable page 1: diffRatio=0.023442866956720862, diffPixels=19656
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0142] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-chained-003.html
+- [0143] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-chained-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html (==)
@@ -1032,7 +1003,7 @@
   stable page 1: diffRatio=0.034634760705289674, diffPixels=29040
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0144] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-change-anchor.html
+- [0145] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-change-anchor.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-anchors-visible-change-anchor-ref.html (==)
@@ -1045,7 +1016,7 @@
   stable page 1: diffRatio=0.035305033966872755, diffPixels=29602
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-change-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0145] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility.html
+- [0146] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility-ref.html (==)
@@ -1058,7 +1029,7 @@
   stable page 1: diffRatio=0.023473876039996948, diffPixels=19682
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0150] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container.html
+- [0151] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container-ref.html (==)
@@ -1071,7 +1042,7 @@
   stable page 1: diffRatio=0.02350369246622395, diffPixels=19707
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0151] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-position-fixed.html
+- [0152] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-position-fixed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-anchors-visible-ref.html (==)
@@ -1084,7 +1055,7 @@
   stable page 1: diffRatio=0.023473876039996948, diffPixels=19682
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0152] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-stacked-child.html
+- [0153] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-stacked-child.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-anchors-visible-ref.html (==)
@@ -1097,7 +1068,7 @@
   stable page 1: diffRatio=0.02869175062972292, diffPixels=24057
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0153] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-stacked-child.tentative.html
+- [0154] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-stacked-child.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-anchors-visible-ref.html (==)
@@ -1110,7 +1081,7 @@
   stable page 1: diffRatio=0.02869175062972292, diffPixels=24057
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0154] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-with-position.html
+- [0155] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible-with-position.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-anchors-visible-with-position-ref.html (==)
@@ -1123,7 +1094,7 @@
   stable page 1: diffRatio=0.011727396763605832, diffPixels=9833
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-with-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0155] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible.html
+- [0156] [WPT reftest] css/css-anchor-position/position-visibility-anchors-visible.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-anchors-visible-ref.html (==)
@@ -1136,7 +1107,7 @@
   stable page 1: diffRatio=0.023473876039996948, diffPixels=19682
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0156] [WPT reftest] css/css-anchor-position/position-visibility-initial.html
+- [0157] [WPT reftest] css/css-anchor-position/position-visibility-initial.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-initial-ref.html (==)
@@ -1149,7 +1120,7 @@
   stable page 1: diffRatio=0.023473876039996948, diffPixels=19682
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-initial-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0158] [WPT reftest] css/css-anchor-position/position-visibility-no-overflow-scroll-002.html
+- [0159] [WPT reftest] css/css-anchor-position/position-visibility-no-overflow-scroll-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html (==)
@@ -1162,7 +1133,7 @@
   stable page 1: diffRatio=0.017704993893595908, diffPixels=14845
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0159] [WPT reftest] css/css-anchor-position/position-visibility-no-overflow-scroll.html
+- [0160] [WPT reftest] css/css-anchor-position/position-visibility-no-overflow-scroll.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html (==)
@@ -1175,7 +1146,7 @@
   stable page 1: diffRatio=0.011865744981299137, diffPixels=9949
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0163] [WPT reftest] css/css-anchor-position/position-visibility-remove-anchors-visible.html
+- [0164] [WPT reftest] css/css-anchor-position/position-visibility-remove-anchors-visible.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/position-visibility-remove-anchors-visible-ref.html (==)
@@ -1188,7 +1159,7 @@
   stable page 1: diffRatio=0.02481800053431036, diffPixels=20809
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-remove-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0165] [WPT reftest] css/css-anchor-position/pseudo-element-implicit-anchor-center.html
+- [0166] [WPT reftest] css/css-anchor-position/pseudo-element-implicit-anchor-center.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -1201,7 +1172,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0166] [WPT reftest] css/css-anchor-position/pseudo-element-implicit-anchor.html
+- [0167] [WPT reftest] css/css-anchor-position/pseudo-element-implicit-anchor.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -1214,7 +1185,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0167] [WPT reftest] css/css-anchor-position/pseudo-element-with-slotted-anchor.html
+- [0168] [WPT reftest] css/css-anchor-position/pseudo-element-with-slotted-anchor.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/pseudo-element-with-slotted-anchor-ref.html (==)
@@ -1227,7 +1198,7 @@
   stable page 1: diffRatio=0.014376288069613007, diffPixels=12054
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/pseudo-element-with-slotted-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0168] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-000.html
+- [0169] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-000.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/scroll-to-anchored-fixed-000-ref.html (==)
@@ -1242,7 +1213,7 @@
   stable page 2: diffRatio=0.008625295778948171, diffPixels=7232
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0171] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-003.html
+- [0172] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/scroll-to-anchored-fixed-003-ref.html (==)
@@ -1255,7 +1226,7 @@
   stable page 2: diffRatio=0.01461243416533089, diffPixels=12252
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0172] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-004.html
+- [0173] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/scroll-to-anchored-fixed-004-ref.html (==)
@@ -1268,7 +1239,7 @@
   stable page 2: diffRatio=0.01461243416533089, diffPixels=12252
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0173] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-005.html
+- [0174] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/scroll-to-anchored-fixed-005-ref.html (==)
@@ -1283,7 +1254,7 @@
   stable page 2: diffRatio=0.013573629875582017, diffPixels=11381
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0174] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-006.html
+- [0175] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/scroll-to-anchored-fixed-006-ref.html (==)
@@ -1298,7 +1269,7 @@
   stable page 2: diffRatio=0.013573629875582017, diffPixels=11381
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0185] [WPT reftest] css/css-anchor-position/under-invalidation.html
+- [0186] [WPT reftest] css/css-anchor-position/under-invalidation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)

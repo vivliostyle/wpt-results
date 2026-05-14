@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1008
-- Entries with differences: 99 (improvement: 6, pending: 93, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
+- Entries with differences: 90 (pending: 90, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 14
-- Outcome summary: {"pass":909,"known-fail":85,"regression":2,"expected-change":1,"improvement":6,"changed-fail":5}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":918,"known-fail":90}
 
 ## Differences
 
@@ -23,24 +23,6 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-attachment-fixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0009] [WPT reftest] css/css-break/background-image-000.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-break/background-image-000-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.2504579803068468, diffPixels=210000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0010] [WPT reftest] css/css-break/background-image-001.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-break/background-image-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.2504579803068468, diffPixels=210000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0011] [WPT reftest] css/css-break/background-image-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -53,13 +35,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-image-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.10387327303259293, diffPixels=87094
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-image-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0016] [WPT reftest] css/css-break/background-image-007.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.00754236317838333, diffPixels=6324
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/background-image-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-image-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0047] [WPT reftest] css/css-break/borders-006.html
   triage: pending
@@ -269,42 +244,6 @@
   stable page 1: diffRatio=0.0034587054423326465, diffPixels=2900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0608] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-021.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0610] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-023.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012540788871078543, diffPixels=10515
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0611] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-024.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01649444698877948, diffPixels=13830
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0615] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-028.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-028.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012540788871078543, diffPixels=10515
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0642] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-055.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -329,24 +268,6 @@
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-063.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.02403203953896649, diffPixels=20150
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0658] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-071.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-071.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.023933049003892832, diffPixels=20067
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0668] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-081.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-081.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012540788871078543, diffPixels=10515
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0680] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-093.html
@@ -390,7 +311,7 @@
 
 - [0706] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-120.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-120.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -398,7 +319,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-120.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.015504541638042898, diffPixels=13000
+  stable page 1: diffRatio=0.0035779711472406685, diffPixels=3000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0719] [WPT reftest] css/css-break/overflow-clip-001.html
@@ -1073,6 +994,10 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/ink-overflow-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
   canary reference render: https://vivliostyle.vercel.app/#src=about:blank&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/ink-overflow-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
+  stable reference render: https://vivliostyle.org/viewer/#src=about:blank&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0987] [WPT print-reftest] css/css-break/overflowed-abs-pos-with-percentage-height-print.html
   triage: pending
@@ -1128,7 +1053,7 @@
 
 - [0996] [WPT print-reftest] css/css-break/table/table-fragmentation-002a-print.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-fragmentation-002a-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1136,12 +1061,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 3: diffRatio=0.10023871527777778, diffPixels=13857
+  stable page 3: diffRatio=0.1267578125, diffPixels=17523
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0997] [WPT print-reftest] css/css-break/table/table-fragmentation-002b-print.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-fragmentation-002a-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002b-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1149,12 +1074,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002b-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 3: diffRatio=0.10023871527777778, diffPixels=13857
+  stable page 3: diffRatio=0.1267578125, diffPixels=17523
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0998] [WPT print-reftest] css/css-break/table/table-fragmentation-002c-print.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-fragmentation-002c-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1162,12 +1087,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 3: diffRatio=0.15557725694444444, diffPixels=21507
+  stable page 3: diffRatio=0.1267578125, diffPixels=17523
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0999] [WPT print-reftest] css/css-break/table/table-fragmentation-002d-print.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-fragmentation-002c-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002d-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1175,7 +1100,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002d-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 3: diffRatio=0.15557725694444444, diffPixels=21507
+  stable page 3: diffRatio=0.1267578125, diffPixels=17523
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1000] [WPT print-reftest] css/css-break/table/table-fragmentation-003a-print.html
@@ -1268,15 +1193,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/underflow-from-next-page-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00008706396458285627, diffPixels=73
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/underflow-from-next-page-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0986] [WPT print-reftest] css/css-break/ink-overflow-001-print.html
-  triage: pending
-  side: stable-reference
-  reference: about:blank
-  timeout: false
-  error: Error: Viewer error: Failed to load about:blank. The target resource is invalid.
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/ink-overflow-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=about:blank&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

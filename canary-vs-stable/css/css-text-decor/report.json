@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T02:44:00.608Z",
+  "generatedAt": "2026-05-14T01:51:31.413Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,36 +39,36 @@
   },
   "summary": {
     "totalEntries": 362,
-    "entriesWithDifferences": 166,
-    "entriesWithErrors": 6,
+    "entriesWithDifferences": 164,
+    "entriesWithErrors": 7,
     "timeoutEntries": 6,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 2,
+    "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 124,
+        "pass": 126,
         "known-fail": 164,
         "error": 6,
-        "expected-change": 2,
         "unchanged": 66
       },
       "statusPairs": {
         "PASS->PASS": 126,
-        "FAIL->FAIL": 164,
+        "FAIL->FAIL": 163,
+        "ERROR->FAIL": 1,
         "ERROR->ERROR": 6,
         "MANUAL->MANUAL": 66
       }
     },
     "triage": {
       "differences": {
-        "pending": 166,
+        "pending": 164,
         "triaged": 0
       },
       "errors": {
-        "pending": 6,
+        "pending": 7,
         "triaged": 0
       },
-      "pendingEntries": 172,
+      "pendingEntries": 171,
       "triagedEntries": 0
     }
   },
@@ -1172,7 +1172,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-text-decor/text-decoration-color.html",
       "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
+      "baselineStatus": "ERROR",
       "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-decoration-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -1193,7 +1193,7 @@
           "totalPages": 1
         },
         "baseline": {
-          "totalPages": 1
+          "totalPages": null
         },
         "pages": [],
         "comparisons": [
@@ -1235,52 +1235,27 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-text-decor/reference/text-decoration-color-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 519,
-                "diffRatio": 0.0006189890084726357,
-                "exactDiffPixels": 749,
-                "exactDiffRatio": 0.0008933001297610869,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0015-WPT_reftest-css-css-text-decor-text-decoration-color.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      }
+      },
+      "errors": [
+        {
+          "side": "stable",
+          "error": {
+            "name": "Error",
+            "message": "Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-text-decor/text-decoration-color.html (500)",
+            "timeout": false
+          },
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
+      ]
     },
     {
       "id": "0016",
@@ -22638,8 +22613,8 @@
       "sourceUrl": "https://wpt.live/css/css-text-decor/text-underline-position-001a.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "expected-change",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-underline-position-001a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-underline-position-001a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -22649,40 +22624,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/reference/text-underline-position-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/reference/text-underline-position-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "expected-change",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 4564,
-            "diffRatio": 0.005443286772002137,
-            "exactDiffPixels": 7022,
-            "exactDiffRatio": 0.008374837798641325,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0290-WPT_reftest-css-css-text-decor-text-underline-position-001a.html-p0001.png"
-          }
-        ],
-        "comparisons": [],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0291",
@@ -22694,8 +22636,8 @@
       "sourceUrl": "https://wpt.live/css/css-text-decor/text-underline-position-001b.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "expected-change",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-underline-position-001b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-underline-position-001b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -22705,40 +22647,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/reference/text-underline-position-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/reference/text-underline-position-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "expected-change",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 4564,
-            "diffRatio": 0.005443286772002137,
-            "exactDiffPixels": 7022,
-            "exactDiffRatio": 0.008374837798641325,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0291-WPT_reftest-css-css-text-decor-text-underline-position-001b.html-p0001.png"
-          }
-        ],
-        "comparisons": [],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0292",

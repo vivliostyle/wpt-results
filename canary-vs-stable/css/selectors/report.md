@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 356
-- Entries with differences: 193 (pending: 193, triaged: 0)
+- Entries with differences: 192 (pending: 192, triaged: 0)
 - Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":141,"known-fail":192,"expected-change":1,"error":1,"unchanged":21}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":142,"known-fail":192,"error":1,"unchanged":21}
 
 ## Differences
 
@@ -425,13 +425,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.04651362491412869, diffPixels=39000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0044] [WPT reftest] css/selectors/focus-within-013.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0010721986871231205, diffPixels=899
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/focus-within-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0045] [WPT reftest] css/selectors/focus-within-shadow-001.html
   triage: pending

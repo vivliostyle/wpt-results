@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T00:52:50.449Z",
+  "generatedAt": "2026-05-13T23:59:30.214Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,38 +39,33 @@
   },
   "summary": {
     "totalEntries": 20,
-    "entriesWithDifferences": 10,
+    "entriesWithDifferences": 8,
     "entriesWithErrors": 7,
     "timeoutEntries": 7,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 7,
+    "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 3,
-        "pass": 3,
-        "changed-fail": 5,
-        "error": 7,
-        "expected-change": 1,
-        "improvement": 1
+        "known-fail": 8,
+        "pass": 5,
+        "error": 7
       },
       "statusPairs": {
         "FAIL->FAIL": 8,
-        "PASS->PASS": 4,
-        "FAIL->ERROR": 6,
-        "PASS->ERROR": 1,
-        "FAIL->PASS": 1
+        "PASS->PASS": 5,
+        "ERROR->ERROR": 7
       }
     },
     "triage": {
       "differences": {
-        "pending": 9,
+        "pending": 8,
         "triaged": 0
       },
       "errors": {
         "pending": 7,
         "triaged": 0
       },
-      "pendingEntries": 16,
+      "pendingEntries": 15,
       "triagedEntries": 0
     }
   },
@@ -191,8 +186,8 @@
       "sourceUrl": "https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-alpha.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-alpha.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-alpha.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -204,7 +199,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -213,23 +208,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 534680,
-            "diffRatio": 0.6376898710022135,
-            "exactDiffPixels": 536575,
-            "exactDiffRatio": 0.6399499561102205,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0003-WPT_reftest-css-css-color-adjust-rendering-dark-color-scheme-color-scheme-iframe-background-mismatch-alpha.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -294,12 +273,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 534801,
-                "diffRatio": 0.6378341825051522,
-                "exactDiffPixels": 536784,
-                "exactDiffRatio": 0.6401992214334784,
+                "diffPixels": 534943,
+                "diffRatio": 0.6380035398061217,
+                "exactDiffPixels": 537328,
+                "exactDiffRatio": 0.640848026868178,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
+                "maxChannelDifference": 246,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0003-WPT_reftest-css-css-color-adjust-rendering-dark-color-scheme-color-scheme-iframe-background-mismatch-alpha.html-r01-p0001.png"
               }
@@ -325,7 +304,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-dynamic-cross-origin.sub.html",
       "actualStatus": "ERROR",
-      "baselineStatus": "FAIL",
+      "baselineStatus": "ERROR",
       "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-dynamic-cross-origin.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -340,12 +319,30 @@
       ],
       "errors": [
         {
-          "side": "canary",
+          "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
             "message": "Timeout (10000ms): waiting for viewer ready",
             "timeout": true
           },
+          "sideErrors": [
+            {
+              "side": "canary",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            },
+            {
+              "side": "stable",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            }
+          ],
           "triage": {
             "status": "pending",
             "decision": ""
@@ -363,8 +360,8 @@
       "sourceUrl": "https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-dynamic.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -376,7 +373,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -385,23 +382,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 621,
-            "diffRatio": 0.0007406400274788184,
-            "exactDiffPixels": 1724,
-            "exactDiffRatio": 0.0020561407526143043,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0005-WPT_reftest-css-css-color-adjust-rendering-dark-color-scheme-color-scheme-iframe-background-mismatch-dynamic.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -463,7 +444,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-001.sub.html",
       "actualStatus": "ERROR",
-      "baselineStatus": "FAIL",
+      "baselineStatus": "ERROR",
       "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-001.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -478,12 +459,30 @@
       ],
       "errors": [
         {
-          "side": "canary",
+          "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
             "message": "Timeout (10000ms): waiting for viewer ready",
             "timeout": true
           },
+          "sideErrors": [
+            {
+              "side": "canary",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            },
+            {
+              "side": "stable",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            }
+          ],
           "triage": {
             "status": "pending",
             "decision": ""
@@ -500,7 +499,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-002.sub.html",
       "actualStatus": "ERROR",
-      "baselineStatus": "FAIL",
+      "baselineStatus": "ERROR",
       "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-002.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -515,12 +514,30 @@
       ],
       "errors": [
         {
-          "side": "canary",
+          "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
             "message": "Timeout (10000ms): waiting for viewer ready",
             "timeout": true
           },
+          "sideErrors": [
+            {
+              "side": "canary",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            },
+            {
+              "side": "stable",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            }
+          ],
           "triage": {
             "status": "pending",
             "decision": ""
@@ -537,7 +554,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-003.sub.html",
       "actualStatus": "ERROR",
-      "baselineStatus": "PASS",
+      "baselineStatus": "ERROR",
       "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque-cross-origin-003.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -552,12 +569,30 @@
       ],
       "errors": [
         {
-          "side": "canary",
+          "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
             "message": "Timeout (10000ms): waiting for viewer ready",
             "timeout": true
           },
+          "sideErrors": [
+            {
+              "side": "canary",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            },
+            {
+              "side": "stable",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            }
+          ],
           "triage": {
             "status": "pending",
             "decision": ""
@@ -575,8 +610,8 @@
       "sourceUrl": "https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-mismatch-opaque.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -588,7 +623,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -597,23 +632,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 535226,
-            "diffRatio": 0.6383410617510114,
-            "exactDiffPixels": 536575,
-            "exactDiffRatio": 0.6399499561102205,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0009-WPT_reftest-css-css-color-adjust-rendering-dark-color-scheme-color-scheme-iframe-background-mismatch-opaque.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -678,10 +697,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 1005,
-                "diffRatio": 0.001198620334325624,
-                "exactDiffPixels": 2751,
-                "exactDiffRatio": 0.003280999542019693,
+                "diffPixels": 534866,
+                "diffRatio": 0.6379117052133425,
+                "exactDiffPixels": 536495,
+                "exactDiffRatio": 0.6398545435462942,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -733,8 +752,8 @@
       "sourceUrl": "https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "expected-change",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -744,40 +763,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "expected-change",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 1255,
-            "diffRatio": 0.0014967845965956797,
-            "exactDiffPixels": 3373,
-            "exactDiffRatio": 0.004022832226547592,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0011-WPT_reftest-css-css-color-adjust-rendering-dark-color-scheme-color-scheme-iframe-background.html-p0001.png"
-          }
-        ],
-        "comparisons": [],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0012",
@@ -788,7 +774,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-cross-origin.sub.html",
       "actualStatus": "ERROR",
-      "baselineStatus": "FAIL",
+      "baselineStatus": "ERROR",
       "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-cross-origin.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -803,12 +789,30 @@
       ],
       "errors": [
         {
-          "side": "canary",
+          "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
             "message": "Timeout (10000ms): waiting for viewer ready",
             "timeout": true
           },
+          "sideErrors": [
+            {
+              "side": "canary",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            },
+            {
+              "side": "stable",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            }
+          ],
           "triage": {
             "status": "pending",
             "decision": ""
@@ -825,7 +829,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark-cross-origin.sub.html",
       "actualStatus": "ERROR",
-      "baselineStatus": "FAIL",
+      "baselineStatus": "ERROR",
       "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark-cross-origin.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -840,12 +844,30 @@
       ],
       "errors": [
         {
-          "side": "canary",
+          "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
             "message": "Timeout (10000ms): waiting for viewer ready",
             "timeout": true
           },
+          "sideErrors": [
+            {
+              "side": "canary",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            },
+            {
+              "side": "stable",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            }
+          ],
           "triage": {
             "status": "pending",
             "decision": ""
@@ -863,8 +885,8 @@
       "sourceUrl": "https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-dark.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -876,7 +898,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -885,23 +907,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 10000,
-            "diffRatio": 0.01192657049080223,
-            "exactDiffPixels": 10000,
-            "exactDiffRatio": 0.01192657049080223,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0014-WPT_reftest-css-css-color-adjust-rendering-dark-color-scheme-color-scheme-iframe-preferred-page-dark.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -971,7 +977,7 @@
                 "exactDiffPixels": 10000,
                 "exactDiffRatio": 0.01192657049080223,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
+                "maxChannelDifference": 128,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0014-WPT_reftest-css-css-color-adjust-rendering-dark-color-scheme-color-scheme-iframe-preferred-page-dark.html-r01-p0001.png"
               }
@@ -997,7 +1003,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-light-cross-origin.sub.html",
       "actualStatus": "ERROR",
-      "baselineStatus": "FAIL",
+      "baselineStatus": "ERROR",
       "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-light-cross-origin.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -1012,12 +1018,30 @@
       ],
       "errors": [
         {
-          "side": "canary",
+          "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
             "message": "Timeout (10000ms): waiting for viewer ready",
             "timeout": true
           },
+          "sideErrors": [
+            {
+              "side": "canary",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            },
+            {
+              "side": "stable",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            }
+          ],
           "triage": {
             "status": "pending",
             "decision": ""
@@ -1034,9 +1058,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-light.html",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-light.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-light.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1046,80 +1070,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-light-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-light-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 10000,
-            "diffRatio": 0.01192657049080223,
-            "exactDiffPixels": 10000,
-            "exactDiffRatio": 0.01192657049080223,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0016-WPT_reftest-css-css-color-adjust-rendering-dark-color-scheme-color-scheme-iframe-preferred-page-light.html-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-light-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-light-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0016-WPT_reftest-css-css-color-adjust-rendering-dark-color-scheme-color-scheme-iframe-preferred-page-light.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred-page-light-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0017",
@@ -1131,8 +1082,8 @@
       "sourceUrl": "https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-iframe-preferred.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1144,7 +1095,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -1153,23 +1104,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 20000,
-            "diffRatio": 0.02385314098160446,
-            "exactDiffPixels": 20000,
-            "exactDiffRatio": 0.02385314098160446,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0017-WPT_reftest-css-css-color-adjust-rendering-dark-color-scheme-color-scheme-iframe-preferred.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -1234,12 +1169,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 20000,
-                "diffRatio": 0.02385314098160446,
-                "exactDiffPixels": 20000,
-                "exactDiffRatio": 0.02385314098160446,
+                "diffPixels": 10000,
+                "diffRatio": 0.01192657049080223,
+                "exactDiffPixels": 10000,
+                "exactDiffRatio": 0.01192657049080223,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
+                "maxChannelDifference": 128,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0017-WPT_reftest-css-css-color-adjust-rendering-dark-color-scheme-color-scheme-iframe-preferred.html-r01-p0001.png"
               }

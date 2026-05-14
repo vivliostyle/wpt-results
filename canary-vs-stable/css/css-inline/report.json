@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T01:41:25.281Z",
+  "generatedAt": "2026-05-14T00:50:26.570Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -43,10 +43,11 @@
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 0,
+    "screenshotMismatches": 1,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 78,
+        "known-fail": 77,
+        "changed-fail": 1,
         "pass": 72
       },
       "statusPairs": {
@@ -554,8 +555,8 @@
       "sourceUrl": "https://wpt.live/css/css-inline/baseline-shift/baseline-shift-length-percentage-svg.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "changed-fail",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/baseline-shift/baseline-shift-length-percentage-svg.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/baseline-shift/baseline-shift-length-percentage-svg.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -567,7 +568,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "changed-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -576,7 +577,23 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 3600,
+            "diffRatio": 0.004293565376688803,
+            "exactDiffPixels": 3600,
+            "exactDiffRatio": 0.004293565376688803,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0005-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-length-percentage-svg.html-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -602,10 +619,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 800,
-                "diffRatio": 0.0009541256392641783,
-                "exactDiffPixels": 986,
-                "exactDiffRatio": 0.0011759598503930998,
+                "diffPixels": 4400,
+                "diffRatio": 0.005247691015952981,
+                "exactDiffPixels": 4586,
+                "exactDiffRatio": 0.005469525227081902,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,

@@ -1,67 +1,3 @@
-- id: "0003"
-  category: WPT reftest
-  title: css/css-anchor-position/anchor-center-overflow-001.html
-  file: css/css-anchor-position/anchor-center-overflow-001.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-center-overflow-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-center-overflow-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "0004"
-  category: WPT reftest
-  title: css/css-anchor-position/anchor-center-overflow-002.html
-  file: css/css-anchor-position/anchor-center-overflow-002.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-center-overflow-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-center-overflow-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "0005"
-  category: WPT reftest
-  title: css/css-anchor-position/anchor-center-overflow-003.html
-  file: css/css-anchor-position/anchor-center-overflow-003.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-center-overflow-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-center-overflow-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "0006"
-  category: WPT reftest
-  title: css/css-anchor-position/anchor-center-overflow-004.html
-  file: css/css-anchor-position/anchor-center-overflow-004.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-center-overflow-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-center-overflow-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "0008"
   category: WPT reftest
   title: css/css-anchor-position/anchor-center-safe-rtl.html
@@ -1591,22 +1527,6 @@
       referenceFile: css/css-anchor-position/position-area-alignment-inset-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-area-alignment-inset-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0109"
-  category: WPT reftest
-  title: css/css-anchor-position/position-area-anchor-001.html
-  file: css/css-anchor-position/position-area-anchor-001.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/position-area-anchor-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-area-anchor-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "0110"
   category: WPT reftest
   title: css/css-anchor-position/position-area-anchor-002.html
@@ -2019,7 +1939,7 @@
       referenceFile: css/css-anchor-position/position-try-switch-to-fixed-anchor-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-try-switch-to-fixed-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0135"
+- id: "0136"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-anchors-valid.tentative.html
   file: css/css-anchor-position/position-visibility-anchors-valid.tentative.html
@@ -2046,7 +1966,7 @@
       referenceFile: css/css-anchor-position/position-visibility-anchors-valid-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-valid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0138"
+- id: "0139"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out.html
   file: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out.html
@@ -2073,7 +1993,7 @@
       referenceFile: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0140"
+- id: "0141"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-anchors-visible-chained-001.html
   file: css/css-anchor-position/position-visibility-anchors-visible-chained-001.html
@@ -2100,7 +2020,7 @@
       referenceFile: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0141"
+- id: "0142"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-anchors-visible-chained-002.html
   file: css/css-anchor-position/position-visibility-anchors-visible-chained-002.html
@@ -2127,7 +2047,7 @@
       referenceFile: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0142"
+- id: "0143"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-anchors-visible-chained-003.html
   file: css/css-anchor-position/position-visibility-anchors-visible-chained-003.html
@@ -2154,7 +2074,7 @@
       referenceFile: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0144"
+- id: "0145"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-anchors-visible-change-anchor.html
   file: css/css-anchor-position/position-visibility-anchors-visible-change-anchor.html
@@ -2181,7 +2101,7 @@
       referenceFile: css/css-anchor-position/position-visibility-anchors-visible-change-anchor-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-change-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0145"
+- id: "0146"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility.html
   file: css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility.html
@@ -2208,7 +2128,7 @@
       referenceFile: css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0150"
+- id: "0151"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container.html
   file: css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container.html
@@ -2235,7 +2155,7 @@
       referenceFile: css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0151"
+- id: "0152"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-anchors-visible-position-fixed.html
   file: css/css-anchor-position/position-visibility-anchors-visible-position-fixed.html
@@ -2262,7 +2182,7 @@
       referenceFile: css/css-anchor-position/position-visibility-anchors-visible-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0152"
+- id: "0153"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-anchors-visible-stacked-child.html
   file: css/css-anchor-position/position-visibility-anchors-visible-stacked-child.html
@@ -2289,7 +2209,7 @@
       referenceFile: css/css-anchor-position/position-visibility-anchors-visible-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0153"
+- id: "0154"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-anchors-visible-stacked-child.tentative.html
   file: css/css-anchor-position/position-visibility-anchors-visible-stacked-child.tentative.html
@@ -2316,7 +2236,7 @@
       referenceFile: css/css-anchor-position/position-visibility-anchors-visible-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0154"
+- id: "0155"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-anchors-visible-with-position.html
   file: css/css-anchor-position/position-visibility-anchors-visible-with-position.html
@@ -2343,7 +2263,7 @@
       referenceFile: css/css-anchor-position/position-visibility-anchors-visible-with-position-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-with-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0155"
+- id: "0156"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-anchors-visible.html
   file: css/css-anchor-position/position-visibility-anchors-visible.html
@@ -2370,7 +2290,7 @@
       referenceFile: css/css-anchor-position/position-visibility-anchors-visible-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0156"
+- id: "0157"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-initial.html
   file: css/css-anchor-position/position-visibility-initial.html
@@ -2397,7 +2317,7 @@
       referenceFile: css/css-anchor-position/position-visibility-initial-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-initial-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0158"
+- id: "0159"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-no-overflow-scroll-002.html
   file: css/css-anchor-position/position-visibility-no-overflow-scroll-002.html
@@ -2424,7 +2344,7 @@
       referenceFile: css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0159"
+- id: "0160"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-no-overflow-scroll.html
   file: css/css-anchor-position/position-visibility-no-overflow-scroll.html
@@ -2451,7 +2371,7 @@
       referenceFile: css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0163"
+- id: "0164"
   category: WPT reftest
   title: css/css-anchor-position/position-visibility-remove-anchors-visible.html
   file: css/css-anchor-position/position-visibility-remove-anchors-visible.html
@@ -2478,7 +2398,7 @@
       referenceFile: css/css-anchor-position/position-visibility-remove-anchors-visible-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-visibility-remove-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0165"
+- id: "0166"
   category: WPT reftest
   title: css/css-anchor-position/pseudo-element-implicit-anchor-center.html
   file: css/css-anchor-position/pseudo-element-implicit-anchor-center.html
@@ -2505,7 +2425,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0166"
+- id: "0167"
   category: WPT reftest
   title: css/css-anchor-position/pseudo-element-implicit-anchor.html
   file: css/css-anchor-position/pseudo-element-implicit-anchor.html
@@ -2532,7 +2452,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0167"
+- id: "0168"
   category: WPT reftest
   title: css/css-anchor-position/pseudo-element-with-slotted-anchor.html
   file: css/css-anchor-position/pseudo-element-with-slotted-anchor.html
@@ -2559,7 +2479,7 @@
       referenceFile: css/css-anchor-position/pseudo-element-with-slotted-anchor-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/pseudo-element-with-slotted-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0168"
+- id: "0169"
   category: WPT reftest
   title: css/css-anchor-position/scroll-to-anchored-fixed-000.html
   file: css/css-anchor-position/scroll-to-anchored-fixed-000.html
@@ -2587,7 +2507,7 @@
       referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0171"
+- id: "0172"
   category: WPT reftest
   title: css/css-anchor-position/scroll-to-anchored-fixed-003.html
   file: css/css-anchor-position/scroll-to-anchored-fixed-003.html
@@ -2614,7 +2534,7 @@
       referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0172"
+- id: "0173"
   category: WPT reftest
   title: css/css-anchor-position/scroll-to-anchored-fixed-004.html
   file: css/css-anchor-position/scroll-to-anchored-fixed-004.html
@@ -2641,7 +2561,7 @@
       referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0173"
+- id: "0174"
   category: WPT reftest
   title: css/css-anchor-position/scroll-to-anchored-fixed-005.html
   file: css/css-anchor-position/scroll-to-anchored-fixed-005.html
@@ -2669,7 +2589,7 @@
       referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0174"
+- id: "0175"
   category: WPT reftest
   title: css/css-anchor-position/scroll-to-anchored-fixed-006.html
   file: css/css-anchor-position/scroll-to-anchored-fixed-006.html
@@ -2697,7 +2617,7 @@
       referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0185"
+- id: "0186"
   category: WPT reftest
   title: css/css-anchor-position/under-invalidation.html
   file: css/css-anchor-position/under-invalidation.html

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 466
-- Entries with differences: 103 (improvement: 4, pending: 99, triaged: 0)
+- Entries with differences: 99 (pending: 99, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 4
-- Outcome summary: {"pass":362,"known-fail":97,"improvement":4,"changed-fail":2,"unchanged":1}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":366,"known-fail":99,"unchanged":1}
 
 ## Differences
 
@@ -255,15 +255,6 @@
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-wrap-no-constraints-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable selected pages: test=[1, 2, 3], reference=[1]
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0081] [WPT reftest] css/css-multicol/fixed-in-nested-multicol-with-viewport-container.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/fixed-in-nested-multicol-with-viewport-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007322914281352569, diffPixels=614
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0086] [WPT reftest] css/css-multicol/fixedpos-static-pos-with-viewport-cb-003.html
@@ -515,7 +506,7 @@
 
 - [0166] [WPT reftest] css/css-multicol/multicol-fill-auto-block-children-001.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-multicol/multicol-fill-auto-block-children-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-fill-auto-block-children-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -617,15 +608,6 @@
   stable page 1: diffRatio=0.020894158842836425, diffPixels=17519
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-margin-child-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0247] [WPT reftest] css/css-multicol/multicol-nested-column-rule-002.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-column-rule-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0262] [WPT reftest] css/css-multicol/multicol-reduce-000.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -680,11 +662,11 @@
 
 - [0304] [WPT reftest] css/css-multicol/multicol-span-all-007.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-multicol/multicol-span-all-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004881545301885352, diffPixels=4093
+  canary page 1: diffRatio=0.0014311884588962675, diffPixels=1200
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1171,24 +1153,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-auto-size-in-vertical-writing-mode-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0377] [WPT reftest] css/css-multicol/multicol-span-float-002.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-multicol/multicol-span-float-002-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-float-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00033394397374246243, diffPixels=280
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-float-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0378] [WPT reftest] css/css-multicol/multicol-span-float-003.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-multicol/multicol-span-float-002-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-float-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00033394397374246243, diffPixels=280
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-float-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0381] [WPT reftest] css/css-multicol/multicol-under-vertical-rl-scroll.html
   triage: pending

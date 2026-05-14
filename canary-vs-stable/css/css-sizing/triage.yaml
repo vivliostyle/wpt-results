@@ -943,86 +943,6 @@
       referenceFile: css/css-sizing/intrinsic-height-abspos-stretch-percentage-child-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/intrinsic-height-abspos-stretch-percentage-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0419"
-  category: WPT reftest
-  title: css/css-sizing/intrinsic-percent-non-replaced-001.html
-  file: css/css-sizing/intrinsic-percent-non-replaced-001.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "0420"
-  category: WPT reftest
-  title: css/css-sizing/intrinsic-percent-non-replaced-002.html
-  file: css/css-sizing/intrinsic-percent-non-replaced-002.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "0421"
-  category: WPT reftest
-  title: css/css-sizing/intrinsic-percent-non-replaced-003.html
-  file: css/css-sizing/intrinsic-percent-non-replaced-003.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "0422"
-  category: WPT reftest
-  title: css/css-sizing/intrinsic-percent-non-replaced-004.html
-  file: css/css-sizing/intrinsic-percent-non-replaced-004.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "0423"
-  category: WPT reftest
-  title: css/css-sizing/intrinsic-percent-non-replaced-005.html
-  file: css/css-sizing/intrinsic-percent-non-replaced-005.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "0425"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-002.html
@@ -1928,7 +1848,7 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-no-match-element.sub.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  errorSide: canary
+  errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
 - id: "0497"
@@ -1945,7 +1865,7 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-not-embedded-sized.sub.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  errorSide: canary
+  errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
 - id: "0498"
@@ -1962,6 +1882,6 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-cross-origin.sub.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  errorSide: canary
+  errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"

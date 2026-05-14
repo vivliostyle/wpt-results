@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T02:10:43.218Z",
+  "generatedAt": "2026-05-14T01:19:42.181Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,25 +39,22 @@
   },
   "summary": {
     "totalEntries": 262,
-    "entriesWithDifferences": 137,
+    "entriesWithDifferences": 133,
     "entriesWithErrors": 23,
     "timeoutEntries": 23,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 5,
+    "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 132,
-        "pass": 95,
+        "known-fail": 133,
+        "pass": 99,
         "error": 23,
-        "improvement": 4,
-        "changed-fail": 1,
         "unchanged": 7
       },
       "statusPairs": {
         "FAIL->FAIL": 133,
-        "PASS->PASS": 95,
+        "PASS->PASS": 99,
         "ERROR->ERROR": 23,
-        "FAIL->PASS": 4,
         "MANUAL->MANUAL": 7
       }
     },
@@ -13740,9 +13737,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-pseudo/marker-hyphens.html",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-hyphens.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-hyphens.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -13752,80 +13749,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-hyphens-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-hyphens-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 779,
-            "diffRatio": 0.0009290798412334936,
-            "exactDiffPixels": 1838,
-            "exactDiffRatio": 0.0021921036562094496,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0173-WPT_reftest-css-css-pseudo-marker-hyphens.html-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-pseudo/marker-hyphens-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-hyphens-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 779,
-                "diffRatio": 0.0009290798412334936,
-                "exactDiffPixels": 1838,
-                "exactDiffRatio": 0.0021921036562094496,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0173-WPT_reftest-css-css-pseudo-marker-hyphens.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-hyphens-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0174",
@@ -14324,8 +14248,8 @@
       "sourceUrl": "https://wpt.live/css/css-pseudo/marker-line-height.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-line-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-line-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -14337,7 +14261,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -14346,23 +14270,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 288,
-            "diffRatio": 0.0003434852301351042,
-            "exactDiffPixels": 939,
-            "exactDiffRatio": 0.0011199049690863293,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0179-WPT_reftest-css-css-pseudo-marker-line-height.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -14427,12 +14335,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 316,
-                "diffRatio": 0.0003768796275093504,
-                "exactDiffPixels": 1247,
-                "exactDiffRatio": 0.001487243340203038,
+                "diffPixels": 28,
+                "diffRatio": 0.00003339439737424624,
+                "exactDiffPixels": 308,
+                "exactDiffRatio": 0.00036733837111670864,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
+                "maxChannelDifference": 105,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0179-WPT_reftest-css-css-pseudo-marker-line-height.html-r01-p0001.png"
               }
@@ -14606,9 +14514,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-pseudo/marker-tab-size.html",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-tab-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-tab-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -14618,80 +14526,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-tab-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-tab-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 5400,
-            "diffRatio": 0.006440348065033204,
-            "exactDiffPixels": 6213,
-            "exactDiffRatio": 0.007409978245935425,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0182-WPT_reftest-css-css-pseudo-marker-tab-size.html-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-pseudo/marker-tab-size-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-tab-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 5400,
-                "diffRatio": 0.006440348065033204,
-                "exactDiffPixels": 6213,
-                "exactDiffRatio": 0.007409978245935425,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0182-WPT_reftest-css-css-pseudo-marker-tab-size.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-tab-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0183",
@@ -14913,9 +14748,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-pseudo/marker-text-emphasis.html",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-text-emphasis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-emphasis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -14925,80 +14760,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-text-emphasis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-emphasis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 178,
-            "diffRatio": 0.00021229295473627967,
-            "exactDiffPixels": 541,
-            "exactDiffRatio": 0.0006452274635524006,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0188-WPT_reftest-css-css-pseudo-marker-text-emphasis.html-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-pseudo/marker-text-emphasis-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-emphasis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 178,
-                "diffRatio": 0.00021229295473627967,
-                "exactDiffPixels": 541,
-                "exactDiffRatio": 0.0006452274635524006,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0188-WPT_reftest-css-css-pseudo-marker-text-emphasis.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-emphasis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0189",
@@ -15009,9 +14771,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-pseudo/marker-text-shadow.html",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-text-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -15021,80 +14783,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-text-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 166,
-            "diffRatio": 0.000197981070147317,
-            "exactDiffPixels": 673,
-            "exactDiffRatio": 0.00080265819403099,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 141,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0189-WPT_reftest-css-css-pseudo-marker-text-shadow.html-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-pseudo/marker-text-shadow-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 166,
-                "diffRatio": 0.000197981070147317,
-                "exactDiffPixels": 673,
-                "exactDiffRatio": 0.00080265819403099,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 141,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0189-WPT_reftest-css-css-pseudo-marker-text-shadow.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0190",

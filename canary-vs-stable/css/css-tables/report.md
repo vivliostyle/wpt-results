@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 160
-- Entries with differences: 31 (improvement: 1, pending: 30, triaged: 0)
+- Entries with differences: 30 (pending: 30, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"known-fail":30,"pass":129,"improvement":1}
+- Screenshot mismatches: 0
+- Outcome summary: {"known-fail":30,"pass":130}
 
 ## Differences
 
@@ -282,15 +282,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/rules-groups.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.007025942676131593, diffPixels=5891
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/rules-groups-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0106] [WPT reftest] css/css-tables/table-cell-baseline-static-position.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square-only.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/table-cell-baseline-static-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0107] [WPT reftest] css/css-tables/table-cell-child-overflow-measure.html
   triage: pending

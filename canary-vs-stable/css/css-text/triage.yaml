@@ -2468,75 +2468,6 @@
       referenceFile: css/css-text/line-breaking/reference/line-reabking-022.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-breaking/reference/line-reabking-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0395"
-  category: WPT reftest
-  title: css/css-text/line-breaking/line-breaking-030.html
-  file: css/css-text/line-breaking/line-breaking-030.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-030.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-030.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-text/line-breaking/reference/line-breaking-030-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-text/line-breaking/reference/line-breaking-030-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-text/line-breaking/reference/line-breaking-030-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0396"
-  category: WPT reftest
-  title: css/css-text/line-breaking/line-breaking-031.html
-  file: css/css-text/line-breaking/line-breaking-031.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-031.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-031.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-text/line-breaking/reference/line-breaking-030-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-text/line-breaking/reference/line-breaking-030-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-text/line-breaking/reference/line-breaking-030-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0397"
-  category: WPT reftest
-  title: css/css-text/line-breaking/line-breaking-032.html
-  file: css/css-text/line-breaking/line-breaking-032.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-032.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-032.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-text/line-breaking/reference/line-breaking-030-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-text/line-breaking/reference/line-breaking-030-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-text/line-breaking/reference/line-breaking-030-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0400"
   category: WPT reftest
   title: css/css-text/line-breaking/line-breaking-atomic-003.html
@@ -6285,6 +6216,10 @@
       referenceFile: css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0887"
   category: WPT reftest
   title: css/css-text/text-transform/text-transform-upperlower-016.html
@@ -10238,22 +10173,6 @@
       referenceFile: css/css-text/white-space/reference/trailing-other-space-separators-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-other-space-separators-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1267"
-  category: WPT reftest
-  title: css/css-text/white-space/white-space-applies-to-text-001.html
-  file: css/css-text/white-space/white-space-applies-to-text-001.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/white-space-applies-to-text-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-applies-to-text-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "1268"
   category: WPT reftest
   title: css/css-text/white-space/white-space-collapse-discard-001.xht

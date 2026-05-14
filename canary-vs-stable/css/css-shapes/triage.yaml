@@ -1410,8 +1410,6 @@
         css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-horizontal-rtl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/gradients/reference/shape-outside-linear-gradient-horizontal-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "0069"
   category: WPT reftest
   title: css/css-shapes/shape-outside/shape-image/shape-image-000.html
@@ -1570,6 +1568,10 @@
       referenceFile: css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0076"
   category: WPT reftest
   title: css/css-shapes/shape-outside/shape-image/shape-image-007.html
@@ -1593,6 +1595,10 @@
       referenceFile: css/css-shapes/shape-outside/shape-image/reference/shape-image-007-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-shapes/shape-outside/shape-image/reference/shape-image-007-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0081"
   category: WPT reftest
   title: css/css-shapes/shape-outside/shape-image/shape-image-012.html
@@ -1616,6 +1622,10 @@
       referenceFile: css/css-shapes/shape-outside/shape-image/reference/shape-image-012-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-shapes/shape-outside/shape-image/reference/shape-image-012-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0082"
   category: WPT reftest
   title: css/css-shapes/shape-outside/shape-image/shape-image-013.html
@@ -1936,6 +1946,10 @@
       referenceFile: css/css-shapes/shape-outside/shape-image/reference/shape-image-024-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-shapes/shape-outside/shape-image/reference/shape-image-024-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0094"
   category: WPT reftest
   title: css/css-shapes/shape-outside/shape-image/shape-image-025.html
@@ -1959,52 +1973,10 @@
       referenceFile: css/css-shapes/shape-outside/shape-image/reference/shape-image-025-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0095"
-  category: WPT reftest
-  title: css/css-shapes/shape-outside/shape-image/shape-image-026.html
-  file: css/css-shapes/shape-outside/shape-image/shape-image-026.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html
+    - side: stable
+      referenceFile: css/css-shapes/shape-outside/shape-image/reference/shape-image-025-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0096"
-  category: WPT reftest
-  title: css/css-shapes/shape-outside/shape-image/shape-image-027.html
-  file: css/css-shapes/shape-outside/shape-image/shape-image-027.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0098"
   category: WPT reftest
   title: css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-013.html
@@ -4273,22 +4245,6 @@
       referenceFile: css/css-shapes/shape-outside/supported-shapes/path/reference/shape-outside-path-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/path/reference/shape-outside-path-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0197"
-  category: WPT reftest
-  title: css/css-shapes/shape-outside/supported-shapes/path/shape-outside-path-003.html
-  file: css/css-shapes/shape-outside/supported-shapes/path/shape-outside-path-003.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/path/shape-outside-path-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/path/shape-outside-path-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "0209"
   category: WPT reftest
   title: css/css-shapes/shape-outside/supported-shapes/polygon/shape-outside-polygon-018.html
@@ -4532,22 +4488,6 @@
       referenceFile: css/css-shapes/shape-outside/supported-shapes/shape/reference/shape-outside-shape-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/shape/reference/shape-outside-shape-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0221"
-  category: WPT reftest
-  title: css/css-shapes/shape-outside/supported-shapes/shape/shape-outside-shape-003.html
-  file: css/css-shapes/shape-outside/supported-shapes/shape/shape-outside-shape-003.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/shape/shape-outside-shape-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/shape/shape-outside-shape-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "0222"
   category: WPT reftest
   title: css/css-shapes/shape-outside/values/shape-outside-inset-0010.html

@@ -48,6 +48,10 @@
       referenceFile: css/css-fonts/downloadable-font-scoped-to-document-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-fonts/downloadable-font-scoped-to-document-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0017"
   category: WPT reftest
   title: css/css-fonts/font-display/font-display-feature-policy-02.tentative.html

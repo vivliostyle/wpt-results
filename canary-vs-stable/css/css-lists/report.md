@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 166
-- Entries with differences: 104 (improvement: 1, pending: 103, triaged: 0)
+- Entries with differences: 103 (pending: 103, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":62,"known-fail":103,"improvement":1}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":63,"known-fail":103}
 
 ## Differences
 
@@ -464,15 +464,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00530016792611251, diffPixels=4444
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0060] [WPT reftest] css/css-lists/counters-006.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-lists/counters-006-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005522002137241432, diffPixels=463
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0061] [WPT reftest] css/css-lists/counters-scope-001.html
   triage: pending

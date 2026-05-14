@@ -5646,22 +5646,6 @@
       referenceFile: css/CSS2/css21-errata/s-11-1-1b-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/css21-errata/s-11-1-1b-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1323"
-  category: WPT reftest
-  title: css/CSS2/floats/float-no-content-beside-001.html
-  file: css/CSS2/floats/float-no-content-beside-001.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/floats/float-no-content-beside-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/floats/float-no-content-beside-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "1324"
   category: WPT reftest
   title: css/CSS2/floats/float-nowrap-1.html
@@ -5743,22 +5727,6 @@
       referenceFile: css/CSS2/floats/float-nowrap-3-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/floats/float-nowrap-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1328"
-  category: WPT reftest
-  title: css/CSS2/floats/float-nowrap-4.html
-  file: css/CSS2/floats/float-nowrap-4.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/floats/float-nowrap-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/floats/float-nowrap-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "1331"
   category: WPT reftest
   title: css/CSS2/floats/float-nowrap-7.html
@@ -9701,6 +9669,9 @@
     - side: canary
       referenceFile: about:blank
       url: https://vivliostyle.vercel.app/#src=about:blank&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: about:blank
+      url: https://vivliostyle.org/viewer/#src=about:blank&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1984"
   category: WPT reftest
   title: css/CSS2/generated-content/content-counter-003.xht
@@ -10241,38 +10212,6 @@
       referenceFile: css/reference/pass_if_pass_below.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/pass_if_pass_below.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "2040"
-  category: WPT reftest
-  title: css/CSS2/linebox/iframe-in-block-in-inline.html
-  file: css/CSS2/linebox/iframe-in-block-in-inline.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/linebox/iframe-in-block-in-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/linebox/iframe-in-block-in-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "2041"
-  category: WPT reftest
-  title: css/CSS2/linebox/iframe-in-wrapped-span.html
-  file: css/CSS2/linebox/iframe-in-wrapped-span.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/linebox/iframe-in-wrapped-span.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/linebox/iframe-in-wrapped-span.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "2045"
   category: WPT reftest
   title: css/CSS2/linebox/inline-formatting-context-002.xht
@@ -20296,6 +20235,10 @@
       referenceFile: css/CSS2/syntax/at-charset-001-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/syntax/at-charset-001-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "4969"
   category: WPT reftest
   title: css/CSS2/syntax/at-charset-016.xht
@@ -20319,6 +20262,10 @@
       referenceFile: css/CSS2/syntax/at-charset-001-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/syntax/at-charset-001-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "4971"
   category: WPT reftest
   title: css/CSS2/syntax/at-charset-020.xht
@@ -20342,6 +20289,10 @@
       referenceFile: css/CSS2/syntax/at-charset-001-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/syntax/at-charset-001-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "4972"
   category: WPT reftest
   title: css/CSS2/syntax/at-charset-021.xht
@@ -20365,6 +20316,10 @@
       referenceFile: css/CSS2/syntax/at-charset-001-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/syntax/at-charset-001-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "4973"
   category: WPT reftest
   title: css/CSS2/syntax/at-charset-024.xht
@@ -20496,6 +20451,10 @@
       referenceFile: css/CSS2/syntax/at-charset-001-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/syntax/at-charset-001-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "4992"
   category: WPT reftest
   title: css/CSS2/syntax/at-charset-045.xht
@@ -20519,6 +20478,10 @@
       referenceFile: css/CSS2/syntax/at-charset-001-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/syntax/at-charset-001-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "5000"
   category: WPT reftest
   title: css/CSS2/syntax/at-charset-053.xht
@@ -20569,6 +20532,10 @@
       referenceFile: css/CSS2/syntax/at-charset-001-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/syntax/at-charset-001-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "5009"
   category: WPT reftest
   title: css/CSS2/syntax/at-charset-071.xht
@@ -20781,6 +20748,10 @@
       referenceFile: css/CSS2/syntax/at-charset-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/at-charset-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/syntax/at-charset-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "5021"
   category: WPT reftest
   title: css/CSS2/syntax/at-charset-utf16-be-003.xht
@@ -20804,6 +20775,10 @@
       referenceFile: css/CSS2/syntax/at-charset-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/at-charset-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/syntax/at-charset-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "5023"
   category: WPT reftest
   title: css/CSS2/syntax/at-charset-utf16-le-002.xht
@@ -20827,6 +20802,10 @@
       referenceFile: css/CSS2/syntax/at-charset-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/at-charset-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/syntax/at-charset-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "5024"
   category: WPT reftest
   title: css/CSS2/syntax/at-charset-utf16-le-003.xht
@@ -20850,6 +20829,10 @@
       referenceFile: css/CSS2/syntax/at-charset-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/at-charset-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/syntax/at-charset-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "5033"
   category: WPT reftest
   title: css/CSS2/syntax/at-rule-006.xht
@@ -21332,6 +21315,10 @@
       referenceFile: css/CSS2/syntax/at-charset-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/at-charset-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/syntax/at-charset-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "5086"
   category: WPT reftest
   title: css/CSS2/syntax/content-type-000.xht
@@ -21949,6 +21936,10 @@
       referenceFile: css/CSS2/syntax/matching-brackets-001-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/matching-brackets-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/syntax/matching-brackets-001-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/matching-brackets-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "5202"
   category: WPT reftest
   title: css/CSS2/syntax/sgml-comments-000.xht
@@ -29359,22 +29350,6 @@
       referenceFile: css/CSS2/pagination/float-page-break-inside-avoid-8-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/float-page-break-inside-avoid-8-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "6272"
-  category: WPT print-reftest
-  title: css/CSS2/pagination/float-page-break-inside-avoid-9-print.html
-  file: css/CSS2/pagination/float-page-break-inside-avoid-9-print.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/pagination/float-page-break-inside-avoid-9-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/float-page-break-inside-avoid-9-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "6273"
   category: WPT print-reftest
   title: css/CSS2/pagination/inline-page-break-inside-avoid-1-print.html
@@ -29572,38 +29547,6 @@
       referenceFile: css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "6585"
-  category: WPT manual
-  title: css/CSS2/floats-clear/floats-137.xht
-  file: css/CSS2/floats-clear/floats-137.xht
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/floats-clear/floats-137.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/floats-clear/floats-137.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "6613"
-  category: WPT manual
-  title: css/CSS2/page-box/page-container-005.xht
-  file: css/CSS2/page-box/page-container-005.xht
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/page-box/page-container-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/page-box/page-container-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 2
 - id: "3240"
   category: WPT reftest
   title: css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html
@@ -29618,7 +29561,7 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  errorSide: canary
+  errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
 - id: "6174"

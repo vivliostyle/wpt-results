@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T03:28:37.127Z",
+  "generatedAt": "2026-05-14T02:38:22.966Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -1224,7 +1224,7 @@
       ],
       "errors": [
         {
-          "side": "canary, canary-reference, stable, stable-reference",
+          "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
             "message": "Timeout (10000ms): waiting for viewer ready",
@@ -1240,30 +1240,12 @@
               }
             },
             {
-              "side": "canary-reference",
-              "error": {
-                "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
-                "timeout": true
-              },
-              "referenceFile": "css/printing/zero-size-print-ref.html"
-            },
-            {
               "side": "stable",
               "error": {
                 "name": "TimeoutError",
                 "message": "Timeout (10000ms): waiting for viewer ready",
                 "timeout": true
               }
-            },
-            {
-              "side": "stable-reference",
-              "error": {
-                "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
-                "timeout": true
-              },
-              "referenceFile": "css/printing/zero-size-print-ref.html"
             }
           ],
           "triage": {

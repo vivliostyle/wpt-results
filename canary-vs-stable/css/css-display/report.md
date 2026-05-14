@@ -1,32 +1,14 @@
 # canary vs stable comparison report
 
 - Compared entries: 214
-- Entries with differences: 107 (improvement: 4, pending: 103, triaged: 0)
+- Entries with differences: 103 (pending: 103, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 7
-- Outcome summary: {"improvement":4,"pass":106,"known-fail":99,"changed-fail":4,"unchanged":1}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":110,"known-fail":103,"unchanged":1}
 
 ## Differences
-
-- [0001] [WPT reftest] css/css-display/display-change-iframe.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-change-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0002] [WPT reftest] css/css-display/display-change-object-iframe.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-change-object-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0005] [WPT reftest] css/css-display/display-contents-before-after-001.html
   triage: pending
@@ -249,12 +231,6 @@
   stable page 1: diffRatio=0.002984027936798718, diffPixels=2502
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-contents-shadow-dom-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0056] [WPT reftest] css/css-display/display-contents-sharing-001.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/display-contents-sharing-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-contents-sharing-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0058] [WPT reftest] css/css-display/display-contents-state-change-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -320,15 +296,6 @@
   stable page 1: diffRatio=0.00015862338752766964, diffPixels=133
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-first-line-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0072] [WPT reftest] css/css-display/display-flow-root-001.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-display/display-flow-root-001-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-flow-root-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00818282001373941, diffPixels=6861
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-flow-root-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0073] [WPT reftest] css/css-display/display-flow-root-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -357,7 +324,7 @@
 
 - [0075] [WPT reftest] css/css-display/display-flow-root-list-item-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-display/display-flow-root-list-item-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/display-flow-root-list-item-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -365,7 +332,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/display-flow-root-list-item-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-flow-root-list-item-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04206024349286314, diffPixels=35266
+  stable page 1: diffRatio=0.04061712846347607, diffPixels=34056
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-flow-root-list-item-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0076] [WPT reftest] css/css-display/display-inline-dynamic-001.html
@@ -669,7 +636,7 @@
 
 - [0120] [WPT reftest] css/css-display/run-in/run-in-clear-001.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-display/run-in/run-in-text-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/run-in/run-in-clear-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -677,7 +644,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/run-in/run-in-text-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/run-in/run-in-clear-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01176675444622548, diffPixels=9866
+  stable page 1: diffRatio=0.011479324097397145, diffPixels=9625
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/run-in/run-in-text-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0121] [WPT reftest] css/css-display/run-in/run-in-clear-002.xht
@@ -747,7 +714,7 @@
 
 - [0131] [WPT reftest] css/css-display/run-in/run-in-contains-float-001.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-display/run-in/run-in-basic-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/run-in/run-in-contains-float-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -755,7 +722,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/run-in/run-in-basic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/run-in/run-in-contains-float-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012330881230440424, diffPixels=10339
+  stable page 1: diffRatio=0.01214840470193115, diffPixels=10186
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/run-in/run-in-basic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0132] [WPT reftest] css/css-display/run-in/run-in-contains-inline-001.xht
@@ -838,7 +805,7 @@
 
 - [0138] [WPT reftest] css/css-display/run-in/run-in-contains-inline-007.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-display/run-in/run-in-basic-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/run-in/run-in-contains-inline-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -846,7 +813,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/run-in/run-in-basic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/run-in/run-in-contains-inline-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012330881230440424, diffPixels=10339
+  stable page 1: diffRatio=0.01214840470193115, diffPixels=10186
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/run-in/run-in-basic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0139] [WPT reftest] css/css-display/run-in/run-in-contains-inline-block-001.xht

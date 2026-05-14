@@ -187,22 +187,6 @@
       referenceFile: css/css-view-transitions/auto-name-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/auto-name-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0014"
-  category: WPT reftest
-  title: css/css-view-transitions/backdrop-filter-while-promise-pending.html
-  file: css/css-view-transitions/backdrop-filter-while-promise-pending.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/backdrop-filter-while-promise-pending.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/backdrop-filter-while-promise-pending.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "0015"
   category: WPT reftest
   title: css/css-view-transitions/block-with-overflowing-text.html
@@ -753,6 +737,10 @@
       referenceFile: css/css-view-transitions/dialog-in-rtl-iframe-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/dialog-in-rtl-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-view-transitions/dialog-in-rtl-iframe-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/dialog-in-rtl-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0039"
   category: WPT reftest
   title: css/css-view-transitions/dialog-in-top-layer-during-transition-new.html
@@ -1387,38 +1375,6 @@
       referenceFile: css/css-view-transitions/iframe-and-main-frame-transition-with-name-on-iframe-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/iframe-and-main-frame-transition-with-name-on-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0067"
-  category: WPT reftest
-  title: css/css-view-transitions/iframe-new-has-scrollbar.html
-  file: css/css-view-transitions/iframe-new-has-scrollbar.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/iframe-new-has-scrollbar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/iframe-new-has-scrollbar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "0068"
-  category: WPT reftest
-  title: css/css-view-transitions/iframe-old-has-scrollbar.html
-  file: css/css-view-transitions/iframe-old-has-scrollbar.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/iframe-old-has-scrollbar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/iframe-old-has-scrollbar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
 - id: "0072"
   category: WPT reftest
   title: css/css-view-transitions/inline-child-with-overflow-shadow.html
@@ -2229,6 +2185,10 @@
       referenceFile: css/css-view-transitions/navigation/root-element-transition-iframe-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/navigation/root-element-transition-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-view-transitions/navigation/root-element-transition-iframe-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/navigation/root-element-transition-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0104"
   category: WPT reftest
   title: css/css-view-transitions/navigation/root-element-transition-iframe-with-startVT-on-main.html
@@ -2279,6 +2239,10 @@
       referenceFile: css/css-view-transitions/navigation/root-element-transition-iframe-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/navigation/root-element-transition-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-view-transitions/navigation/root-element-transition-iframe-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/navigation/root-element-transition-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0118"
   category: WPT reftest
   title: css/css-view-transitions/nested/group-children-sizing-with-border-props.html
@@ -5903,6 +5867,10 @@
       referenceFile: css/css-view-transitions/transition-in-empty-iframe-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/transition-in-empty-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-view-transitions/transition-in-empty-iframe-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/transition-in-empty-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0292"
   category: WPT reftest
   title: css/css-view-transitions/view-transition-name-removed-mid-transition.html
@@ -6295,6 +6263,6 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/iframe-transition.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  errorSide: canary
+  errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"

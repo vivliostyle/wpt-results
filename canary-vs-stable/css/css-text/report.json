@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T02:40:36.266Z",
+  "generatedAt": "2026-05-14T01:47:49.162Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,39 +39,33 @@
   },
   "summary": {
     "totalEntries": 1485,
-    "entriesWithDifferences": 432,
+    "entriesWithDifferences": 427,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 15,
+    "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 1051,
-        "known-fail": 416,
-        "changed-fail": 10,
-        "regression": 4,
-        "improvement": 1,
-        "expected-change": 1,
+        "pass": 1056,
+        "known-fail": 427,
         "unchanged": 2
       },
       "statusPairs": {
-        "PASS->PASS": 1052,
-        "FAIL->FAIL": 426,
-        "PASS->FAIL": 4,
-        "FAIL->PASS": 1,
+        "PASS->PASS": 1056,
+        "FAIL->FAIL": 427,
         "MANUAL->MANUAL": 2
       }
     },
     "triage": {
       "differences": {
-        "pending": 431,
+        "pending": 427,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 431,
+      "pendingEntries": 427,
       "triagedEntries": 0
     }
   },
@@ -742,8 +736,8 @@
       "sourceUrl": "https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-allow-end-inlines.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-allow-end-inlines.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-allow-end-inlines.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -755,7 +749,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -764,23 +758,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 2909,
-            "diffRatio": 0.0034694393557743682,
-            "exactDiffPixels": 4171,
-            "exactDiffRatio": 0.00497457255171361,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0017-WPT_reftest-css-css-text-hanging-punctuation-hanging-punctuation-allow-end-inlines.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -877,8 +855,8 @@
       "sourceUrl": "https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-allow-end.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-allow-end.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-allow-end.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -890,7 +868,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -899,23 +877,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 2933,
-            "diffRatio": 0.0034980631249522938,
-            "exactDiffPixels": 4488,
-            "exactDiffRatio": 0.0053526448362720405,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0018-WPT_reftest-css-css-text-hanging-punctuation-hanging-punctuation-allow-end.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -1177,8 +1139,8 @@
       "sourceUrl": "https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-first-and-last-together.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-first-and-last-together.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-first-and-last-together.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1190,7 +1152,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -1199,23 +1161,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 1339,
-            "diffRatio": 0.0015969677887184184,
-            "exactDiffPixels": 2469,
-            "exactDiffRatio": 0.0029446702541790705,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0022-WPT_reftest-css-css-text-hanging-punctuation-hanging-punctuation-first-and-last-together.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -1431,8 +1377,8 @@
       "sourceUrl": "https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-first-rtl.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-first-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-first-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1444,7 +1390,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -1453,23 +1399,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 2209,
-            "diffRatio": 0.0026345794214182126,
-            "exactDiffPixels": 7315,
-            "exactDiffRatio": 0.00872428631402183,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0024-WPT_reftest-css-css-text-hanging-punctuation-hanging-punctuation-first-rtl.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -1566,8 +1496,8 @@
       "sourceUrl": "https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-first-whitespace.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-first-whitespace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-first-whitespace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1579,7 +1509,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -1588,23 +1518,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 2364,
-            "diffRatio": 0.002819441264025647,
-            "exactDiffPixels": 7309,
-            "exactDiffRatio": 0.008717130371727349,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0025-WPT_reftest-css-css-text-hanging-punctuation-hanging-punctuation-first-whitespace.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -1701,8 +1615,8 @@
       "sourceUrl": "https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-first.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-first.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-first.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1714,7 +1628,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -1723,23 +1637,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 2333,
-            "diffRatio": 0.00278246889550416,
-            "exactDiffPixels": 7279,
-            "exactDiffRatio": 0.008681350660254942,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0026-WPT_reftest-css-css-text-hanging-punctuation-hanging-punctuation-first.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -2143,8 +2041,8 @@
       "sourceUrl": "https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-last-rtl.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-last-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-last-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -2156,7 +2054,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -2165,23 +2063,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 272,
-            "diffRatio": 0.0003244027173498206,
-            "exactDiffPixels": 836,
-            "exactDiffRatio": 0.0009970612930310662,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0032-WPT_reftest-css-css-text-hanging-punctuation-hanging-punctuation-last-rtl.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -2278,8 +2160,8 @@
       "sourceUrl": "https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-last-whitespace.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-last-whitespace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-last-whitespace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -2291,7 +2173,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -2300,23 +2182,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 287,
-            "diffRatio": 0.00034229257308602396,
-            "exactDiffPixels": 846,
-            "exactDiffRatio": 0.0010089878635218686,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0033-WPT_reftest-css-css-text-hanging-punctuation-hanging-punctuation-last-whitespace.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -2413,8 +2279,8 @@
       "sourceUrl": "https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-last.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-last.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-last.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -2426,7 +2292,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -2435,23 +2301,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 256,
-            "diffRatio": 0.00030532020456453706,
-            "exactDiffPixels": 816,
-            "exactDiffRatio": 0.0009732081520494619,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0034-WPT_reftest-css-css-text-hanging-punctuation-hanging-punctuation-last.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -18724,10 +18574,10 @@
         "css/css-text/line-breaking/line-breaking-030.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-text/line-breaking/line-breaking-030.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "regression",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-030.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-030.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -18737,80 +18587,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "regression",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 7023,
-            "diffRatio": 0.008376030455690405,
-            "exactDiffPixels": 7200,
-            "exactDiffRatio": 0.008587130753377605,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0395-WPT_reftest-css-css-text-line-breaking-line-breaking-030.html-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-text/line-breaking/reference/line-breaking-030-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 3862,
-                "diffRatio": 0.0046060415235478205,
-                "exactDiffPixels": 4173,
-                "exactDiffRatio": 0.00497695786581177,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0395-WPT_reftest-css-css-text-line-breaking-line-breaking-030.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0396",
@@ -18820,10 +18597,10 @@
         "css/css-text/line-breaking/line-breaking-031.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-text/line-breaking/line-breaking-031.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "regression",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-031.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-031.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -18833,80 +18610,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "regression",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 3539,
-            "diffRatio": 0.004220813296694909,
-            "exactDiffPixels": 3600,
-            "exactDiffRatio": 0.004293565376688803,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0396-WPT_reftest-css-css-text-line-breaking-line-breaking-031.html-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-text/line-breaking/reference/line-breaking-030-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 6981,
-                "diffRatio": 0.008325938859629036,
-                "exactDiffPixels": 7491,
-                "exactDiffRatio": 0.00893419395465995,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0396-WPT_reftest-css-css-text-line-breaking-line-breaking-031.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0397",
@@ -18916,10 +18620,10 @@
         "css/css-text/line-breaking/line-breaking-032.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-text/line-breaking/line-breaking-032.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "regression",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-032.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-032.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -18929,80 +18633,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "regression",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 3473,
-            "diffRatio": 0.004142097931455614,
-            "exactDiffPixels": 3600,
-            "exactDiffRatio": 0.004293565376688803,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0397-WPT_reftest-css-css-text-line-breaking-line-breaking-032.html-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-text/line-breaking/reference/line-breaking-030-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 3724,
-                "diffRatio": 0.00444145485077475,
-                "exactDiffPixels": 3991,
-                "exactDiffRatio": 0.0047598942828791695,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0397-WPT_reftest-css-css-text-line-breaking-line-breaking-032.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0398",
@@ -21928,8 +21559,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 9888,
                 "diffRatio": 0.011792992901305244,
-                "exactDiffPixels": 838221,
-                "exactDiffRatio": 0.9997101843370735,
+                "exactDiffPixels": 10000,
+                "exactDiffRatio": 0.01192657049080223,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -37638,8 +37269,8 @@
       "sourceUrl": "https://wpt.live/css/css-text/text-indent/below-float3.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-indent/below-float3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-indent/below-float3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -37651,7 +37282,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -37660,23 +37291,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 17,
-            "diffRatio": 0.000020275169834363788,
-            "exactDiffPixels": 52,
-            "exactDiffRatio": 0.00006201816655217159,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0764-WPT_reftest-css-css-text-text-indent-below-float3.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -43533,8 +43148,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html",
       "actualStatus": "FAIL",
-      "baselineStatus": "PASS",
-      "changeType": "regression",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -43547,7 +43162,7 @@
         }
       ],
       "difference": {
-        "classification": "regression",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -43596,6 +43211,45 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 13,
+                "diffRatio": 0.000015504541638042898,
+                "exactDiffPixels": 31,
+                "exactDiffRatio": 0.00003697236852148691,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0872-WPT_reftest-css-css-text-text-transform-text-transform-uppercase-dynamic.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -57472,9 +57126,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-text/white-space/pre-wrap-float-001.html",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-float-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-float-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -57484,80 +57138,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-float-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-float-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 160,
-            "diffRatio": 0.00019082512785283565,
-            "exactDiffPixels": 371,
-            "exactDiffRatio": 0.0004424757652087627,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/1126-WPT_reftest-css-css-text-white-space-pre-wrap-float-001.html-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-text/white-space/reference/pre-wrap-float-001-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-float-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 160,
-                "diffRatio": 0.00019082512785283565,
-                "exactDiffPixels": 371,
-                "exactDiffRatio": 0.0004424757652087627,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/1126-WPT_reftest-css-css-text-white-space-pre-wrap-float-001.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-float-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "1127",
@@ -65025,8 +64606,8 @@
       "sourceUrl": "https://wpt.live/css/css-text/white-space/white-space-applies-to-text-001.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "expected-change",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/white-space-applies-to-text-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-applies-to-text-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -65036,40 +64617,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-applies-to-text-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-applies-to-text-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "expected-change",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 11444,
-            "diffRatio": 0.01364876726967407,
-            "exactDiffPixels": 17567,
-            "exactDiffRatio": 0.020951406381192274,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/1267-WPT_reftest-css-css-text-white-space-white-space-applies-to-text-001.html-p0001.png"
-          }
-        ],
-        "comparisons": [],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "1268",

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 26
-- Entries with differences: 21 (improvement: 4, pending: 17, triaged: 0)
+- Entries with differences: 17 (pending: 17, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 5
-- Outcome summary: {"known-fail":16,"changed-fail":1,"improvement":4,"pass":5}
+- Screenshot mismatches: 0
+- Outcome summary: {"known-fail":17,"pass":9}
 
 ## Differences
 
@@ -64,7 +64,7 @@
 
 - [0005] [WPT reftest] css/css-scroll-snap/scroll-target-align-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-scroll-snap/scroll-target-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -72,7 +72,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014955919395465995, diffPixels=12540
+  stable page 1: diffRatio=0.030053764979772538, diffPixels=25199
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0006] [WPT reftest] css/css-scroll-snap/scroll-target-align-002.html
@@ -101,15 +101,6 @@
   stable page 1: diffRatio=0.014955919395465995, diffPixels=12540
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0008] [WPT reftest] css/css-scroll-snap/scroll-target-align-004.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-scroll-snap/scroll-target-004-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014955919395465995, diffPixels=12540
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0009] [WPT reftest] css/css-scroll-snap/scroll-target-align-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -135,15 +126,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-align-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.014955919395465995, diffPixels=12540
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0011] [WPT reftest] css/css-scroll-snap/scroll-target-margin-001.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-scroll-snap/scroll-target-001-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014955919395465995, diffPixels=12540
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0012] [WPT reftest] css/css-scroll-snap/scroll-target-margin-002.html
   triage: pending
@@ -184,15 +166,6 @@
   stable page 1: diffRatio=0.014955919395465995, diffPixels=12540
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0015] [WPT reftest] css/css-scroll-snap/scroll-target-padding-001.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-scroll-snap/scroll-target-001-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-padding-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014955919395465995, diffPixels=12540
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0016] [WPT reftest] css/css-scroll-snap/scroll-target-padding-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -216,15 +189,6 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-padding-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014955919395465995, diffPixels=12540
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0018] [WPT reftest] css/css-scroll-snap/scroll-target-snap-001.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-scroll-snap/scroll-target-001-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-snap-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.014955919395465995, diffPixels=12540
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

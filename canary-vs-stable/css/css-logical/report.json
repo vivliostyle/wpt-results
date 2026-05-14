@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T01:44:44.243Z",
+  "generatedAt": "2026-05-14T00:53:45.807Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,15 +39,14 @@
   },
   "summary": {
     "totalEntries": 6,
-    "entriesWithDifferences": 2,
+    "entriesWithDifferences": 0,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 2,
+    "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 4,
-        "expected-change": 2
+        "pass": 6
       },
       "statusPairs": {
         "PASS->PASS": 6
@@ -55,14 +54,14 @@
     },
     "triage": {
       "differences": {
-        "pending": 2,
+        "pending": 0,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 2,
+      "pendingEntries": 0,
       "triagedEntries": 0
     }
   },
@@ -146,8 +145,8 @@
       "sourceUrl": "https://wpt.live/css/css-logical/logical-values-float-clear-3.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "expected-change",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-logical/logical-values-float-clear-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-logical/logical-values-float-clear-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -157,40 +156,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "expected-change",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 3273,
-            "diffRatio": 0.0039035665216395695,
-            "exactDiffPixels": 8776,
-            "exactDiffRatio": 0.010466758262728037,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0004-WPT_reftest-css-css-logical-logical-values-float-clear-3.html-p0001.png"
-          }
-        ],
-        "comparisons": [],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0005",
@@ -202,8 +168,8 @@
       "sourceUrl": "https://wpt.live/css/css-logical/logical-values-float-clear-4.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "expected-change",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-logical/logical-values-float-clear-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-logical/logical-values-float-clear-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -213,55 +179,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "expected-change",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 2
-        },
-        "baseline": {
-          "totalPages": 2
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 2409,
-            "diffRatio": 0.002873110831234257,
-            "exactDiffPixels": 7095,
-            "exactDiffRatio": 0.008461901763224181,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0005-WPT_reftest-css-css-logical-logical-values-float-clear-4.html-p0001.png"
-          },
-          {
-            "page": 2,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 778,
-            "diffRatio": 0.0009278871841844135,
-            "exactDiffPixels": 2342,
-            "exactDiffRatio": 0.002793202808945882,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0005-WPT_reftest-css-css-logical-logical-values-float-clear-4.html-p0002.png"
-          }
-        ],
-        "comparisons": [],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0006",

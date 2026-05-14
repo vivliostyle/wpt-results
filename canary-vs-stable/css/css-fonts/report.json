@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T01:15:57.861Z",
+  "generatedAt": "2026-05-14T00:23:27.737Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -48,12 +48,13 @@
       "changeTypes": {
         "known-fail": 96,
         "pass": 271,
-        "regression": 2
+        "changed-fail": 1,
+        "regression": 1
       },
       "statusPairs": {
-        "FAIL->FAIL": 96,
+        "FAIL->FAIL": 97,
         "PASS->PASS": 271,
-        "PASS->FAIL": 2
+        "PASS->FAIL": 1
       }
     },
     "triage": {
@@ -221,8 +222,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html",
       "actualStatus": "FAIL",
-      "baselineStatus": "PASS",
-      "changeType": "regression",
+      "baselineStatus": "FAIL",
+      "changeType": "changed-fail",
       "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -235,7 +236,7 @@
         }
       ],
       "difference": {
-        "classification": "regression",
+        "classification": "changed-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -251,10 +252,10 @@
             "height": 1056,
             "actualWidth": 794,
             "actualHeight": 1056,
-            "diffPixels": 6665,
-            "diffRatio": 0.007949059232119686,
-            "exactDiffPixels": 8262,
-            "exactDiffRatio": 0.009853732539500802,
+            "diffPixels": 2477,
+            "diffRatio": 0.002954211510571712,
+            "exactDiffPixels": 4963,
+            "exactDiffRatio": 0.005919156934585146,
             "exceededDiffPixels": 0,
             "maxChannelDifference": 255,
             "dimensionMismatch": false,
@@ -286,10 +287,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 1601,
-                "diffRatio": 0.0019094439355774367,
-                "exactDiffPixels": 3333,
-                "exactDiffRatio": 0.003975125944584383,
+                "diffPixels": 1584,
+                "diffRatio": 0.001889168765743073,
+                "exactDiffPixels": 3291,
+                "exactDiffRatio": 0.003925034348523013,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -300,6 +301,45 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-fonts/downloadable-font-scoped-to-document-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1537,
+                "diffRatio": 0.0018331138844363026,
+                "exactDiffPixels": 3002,
+                "exactDiffRatio": 0.003580356461338829,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0003-WPT_reftest-css-css-fonts-downloadable-font-scoped-to-document.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1485
-- Entries with differences: 432 (improvement: 1, pending: 431, triaged: 0)
+- Entries with differences: 427 (pending: 427, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 15
-- Outcome summary: {"pass":1051,"known-fail":416,"changed-fail":10,"regression":4,"improvement":1,"expected-change":1,"unchanged":2}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":1056,"known-fail":427,"unchanged":2}
 
 ## Differences
 
@@ -51,7 +51,7 @@
 
 - [0017] [WPT reftest] css/css-text/hanging-punctuation/hanging-punctuation-allow-end-inlines.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text/hanging-punctuation/reference/hanging-punctuation-allow-end-inlines-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-allow-end-inlines.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -64,7 +64,7 @@
 
 - [0018] [WPT reftest] css/css-text/hanging-punctuation/hanging-punctuation-allow-end.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text/hanging-punctuation/reference/hanging-punctuation-allow-end-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-allow-end.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -90,7 +90,7 @@
 
 - [0022] [WPT reftest] css/css-text/hanging-punctuation/hanging-punctuation-first-and-last-together.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text/hanging-punctuation/reference/hanging-punctuation-first-and-last-together-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-first-and-last-together.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -116,7 +116,7 @@
 
 - [0024] [WPT reftest] css/css-text/hanging-punctuation/hanging-punctuation-first-rtl.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text/hanging-punctuation/reference/hanging-punctuation-first-rtl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-first-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -129,7 +129,7 @@
 
 - [0025] [WPT reftest] css/css-text/hanging-punctuation/hanging-punctuation-first-whitespace.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text/hanging-punctuation/reference/hanging-punctuation-first-whitespace-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-first-whitespace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -142,7 +142,7 @@
 
 - [0026] [WPT reftest] css/css-text/hanging-punctuation/hanging-punctuation-first.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text/hanging-punctuation/reference/hanging-punctuation-first-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-first.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -181,7 +181,7 @@
 
 - [0032] [WPT reftest] css/css-text/hanging-punctuation/hanging-punctuation-last-rtl.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text/hanging-punctuation/reference/hanging-punctuation-last-rtl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-last-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -194,7 +194,7 @@
 
 - [0033] [WPT reftest] css/css-text/hanging-punctuation/hanging-punctuation-last-whitespace.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text/hanging-punctuation/reference/hanging-punctuation-last-whitespace-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-last-whitespace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -207,7 +207,7 @@
 
 - [0034] [WPT reftest] css/css-text/hanging-punctuation/hanging-punctuation-last.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text/hanging-punctuation/reference/hanging-punctuation-last-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hanging-punctuation/hanging-punctuation-last.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1186,33 +1186,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.007305024425616365, diffPixels=6125
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-breaking/reference/line-reabking-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0395] [WPT reftest] css/css-text/line-breaking/line-breaking-030.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-text/line-breaking/reference/line-breaking-030-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-030.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0046060415235478205, diffPixels=3862
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0396] [WPT reftest] css/css-text/line-breaking/line-breaking-031.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-text/line-breaking/reference/line-breaking-030-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-031.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008325938859629036, diffPixels=6981
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0397] [WPT reftest] css/css-text/line-breaking/line-breaking-032.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-text/line-breaking/reference/line-breaking-030-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-032.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00444145485077475, diffPixels=3724
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/reference/line-breaking-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0400] [WPT reftest] css/css-text/line-breaking/line-breaking-atomic-003.html
   triage: pending
@@ -2568,7 +2541,7 @@
 
 - [0764] [WPT reftest] css/css-text/text-indent/below-float3.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-indent/below-float3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3007,12 +2980,16 @@
 
 - [0872] [WPT reftest] css/css-text/text-transform/text-transform-uppercase-dynamic.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.000015504541638042898, diffPixels=13
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000015504541638042898, diffPixels=13
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0887] [WPT reftest] css/css-text/text-transform/text-transform-upperlower-016.html
   triage: pending
@@ -4379,15 +4356,6 @@
   stable page 1: diffRatio=0.0000011926570490802229, diffPixels=1
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1126] [WPT reftest] css/css-text/white-space/pre-wrap-float-001.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-text/white-space/reference/pre-wrap-float-001-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-float-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00019082512785283565, diffPixels=160
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-float-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [1127] [WPT reftest] css/css-text/white-space/pre-wrap-leading-spaces-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -4919,13 +4887,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/trailing-other-space-separators-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0025343962292954736, diffPixels=2125
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-other-space-separators-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1267] [WPT reftest] css/css-text/white-space/white-space-applies-to-text-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.01364876726967407, diffPixels=11444
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/white-space-applies-to-text-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-applies-to-text-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1268] [WPT reftest] css/css-text/white-space/white-space-collapse-discard-001.xht
   triage: pending

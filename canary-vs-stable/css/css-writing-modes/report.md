@@ -1,244 +1,14 @@
 # canary vs stable comparison report
 
 - Compared entries: 1217
-- Entries with differences: 581 (improvement: 28, pending: 553, triaged: 0)
+- Entries with differences: 549 (pending: 549, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 42
-- Outcome summary: {"expected-change":3,"pass":560,"improvement":28,"known-fail":539,"changed-fail":11,"unchanged":76}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":592,"known-fail":549,"unchanged":76}
 
 ## Differences
-
-- [0001] [WPT reftest] css/css-writing-modes/abs-pos-border-offset-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.02103847034577513, diffPixels=17640
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-border-offset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-border-offset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0002] [WPT reftest] css/css-writing-modes/abs-pos-border-offset-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.07190529348904663, diffPixels=60290
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-border-offset-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-border-offset-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0006] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vlr-007.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021003883291351805, diffPixels=17611
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0007] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vlr-009.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0010] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vlr-015.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-015.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0011] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vlr-017.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-017.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0012] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vlr-019.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-019.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021003883291351805, diffPixels=17611
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0013] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vlr-021.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-021.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021003883291351805, diffPixels=17611
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0014] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vlr-023.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-023.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0015] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vlr-025.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-025.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0016] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vlr-027.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-027.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0017] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vlr-029.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0018] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vlr-031.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-031.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0019] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vlr-033.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vlr-033.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0022] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vrl-006.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021003883291351805, diffPixels=17611
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0023] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0026] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vrl-014.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0027] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vrl-016.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-016.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0028] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vrl-018.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021003883291351805, diffPixels=17611
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0029] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vrl-020.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-020.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021003883291351805, diffPixels=17611
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0030] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vrl-022.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-022.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0031] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vrl-024.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-024.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0032] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vrl-026.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-026.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0033] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vrl-028.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-028.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0034] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vrl-030.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-030.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0035] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-icb-vrl-032.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-032.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021919843905045415, diffPixels=18379
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-icb-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0036] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-vlr-003.xht
   triage: pending
@@ -1160,7 +930,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-147.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.017982882986031602, diffPixels=15078
+  stable page 1: diffRatio=0.017998387527669645, diffPixels=15091
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0107] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-vlr-149.xht
@@ -3464,46 +3234,6 @@
   stable page 1: diffRatio=0.10066025494237081, diffPixels=84400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/background-position-vrl-018-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0294] [WPT reftest] css/css-writing-modes/background-size-document-root-vrl-002.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/background-size-document-root-vrl-002-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0295] [WPT reftest] css/css-writing-modes/background-size-document-root-vrl-004.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/background-size-document-root-vrl-002-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0296] [WPT reftest] css/css-writing-modes/background-size-document-root-vrl-006.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/background-size-document-root-vrl-002-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0297] [WPT reftest] css/css-writing-modes/background-size-document-root-vrl-008.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-writing-modes/background-size-document-root-vrl-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/background-size-document-root-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0308] [WPT reftest] css/css-writing-modes/bidi-embed-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -4000,7 +3730,7 @@
 
 - [0491] [WPT reftest] css/css-writing-modes/clearance-calculations-vrl-008.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/clearance-calculations-vrl-008-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/clearance-calculations-vrl-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4156,7 +3886,7 @@
 
 - [0519] [WPT reftest] css/css-writing-modes/direction-upright-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/reference/direction-upright-001.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/direction-upright-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4169,7 +3899,7 @@
 
 - [0520] [WPT reftest] css/css-writing-modes/direction-upright-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/reference/direction-upright-002.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/direction-upright-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4195,7 +3925,7 @@
 
 - [0532] [WPT reftest] css/css-writing-modes/float-clear-vlr-003.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-clear-vlr-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4203,7 +3933,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-clear-vlr-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014729314556140752, diffPixels=12350
+  stable page 1: diffRatio=0.014908213113502785, diffPixels=12500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0533] [WPT reftest] css/css-writing-modes/float-clear-vlr-005.xht
@@ -4351,7 +4081,7 @@
 
 - [0553] [WPT reftest] css/css-writing-modes/float-lft-orthog-htb-in-vlr-002.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/float-lft-orthog-htb-in-vlr-002-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vlr-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4359,7 +4089,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vlr-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vlr-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01599114571406763, diffPixels=13408
+  stable page 1: diffRatio=0.015851604839325243, diffPixels=13291
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vlr-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0554] [WPT reftest] css/css-writing-modes/float-lft-orthog-htb-in-vrl-002.xht
@@ -4455,7 +4185,7 @@
 
 - [0570] [WPT reftest] css/css-writing-modes/float-vlr-003.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-vlr-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4463,12 +4193,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-vlr-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008767221967788718, diffPixels=7351
+  stable page 1: diffRatio=0.00888529501564766, diffPixels=7450
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0571] [WPT reftest] css/css-writing-modes/float-vlr-005.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-vlr-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4476,7 +4206,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-vlr-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008767221967788718, diffPixels=7351
+  stable page 1: diffRatio=0.00888529501564766, diffPixels=7450
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0572] [WPT reftest] css/css-writing-modes/float-vlr-007.xht
@@ -4520,7 +4250,7 @@
 
 - [0575] [WPT reftest] css/css-writing-modes/float-vlr-013.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-vlr-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4528,7 +4258,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-vlr-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.020634159606136935, diffPixels=17301
+  stable page 1: diffRatio=0.020811865506449888, diffPixels=17450
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0576] [WPT reftest] css/css-writing-modes/float-vlr-014.html
@@ -4769,7 +4499,7 @@
 
 - [0734] [WPT reftest] css/css-writing-modes/margin-collapse-vlr-011.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/margin-collapse-vlr-011.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4777,7 +4507,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/margin-collapse-vlr-011.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.020662783375314863, diffPixels=17325
+  stable page 1: diffRatio=0.020871498358903902, diffPixels=17500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0737] [WPT reftest] css/css-writing-modes/margin-collapse-vlr-023.xht
@@ -4896,7 +4626,7 @@
 
 - [0763] [WPT reftest] css/css-writing-modes/ortho-htb-alongside-vrl-floats-006.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/ortho-htb-alongside-vrl-floats-006-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/ortho-htb-alongside-vrl-floats-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4922,7 +4652,7 @@
 
 - [0765] [WPT reftest] css/css-writing-modes/ortho-htb-alongside-vrl-floats-014.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/ortho-htb-alongside-vrl-floats-014-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/ortho-htb-alongside-vrl-floats-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -4930,7 +4660,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/ortho-htb-alongside-vrl-floats-014-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/ortho-htb-alongside-vrl-floats-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.025013596290359513, diffPixels=20973
+  stable page 1: diffRatio=0.026236069765666743, diffPixels=21998
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/ortho-htb-alongside-vrl-floats-014-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0767] [WPT reftest] css/css-writing-modes/orthogonal-child-with-border.html
@@ -6493,13 +6223,6 @@
   stable selected pages: test=[1, 2, 3, 4], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-percentages-replaced-orthogonal-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0941] [WPT reftest] css/css-writing-modes/slr-alongside-vlr-floats.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0018987100221357148, diffPixels=1592
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/slr-alongside-vlr-floats.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/slr-alongside-vlr-floats.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0942] [WPT reftest] css/css-writing-modes/srl-alongside-vrl-floats.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -6954,15 +6677,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/text-indent-vrl-016.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0041134741622776885, diffPixels=3449
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/text-indent-vrl-012-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1059] [WPT reftest] css/css-writing-modes/text-orientation-020.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-writing-modes/reference/text-orientation-020-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/text-orientation-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000020275169834363788, diffPixels=17
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/reference/text-orientation-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1063] [WPT reftest] css/css-writing-modes/text-orientation-mixed-vlr-100.html
   triage: pending

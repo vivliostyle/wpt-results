@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T02:05:07.354Z",
+  "generatedAt": "2026-05-14T01:13:58.517Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -8645,7 +8645,7 @@
           "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
+            "message": "page.waitForFunction: Timeout 10000ms exceeded.",
             "timeout": true
           },
           "sideErrors": [
@@ -8653,7 +8653,7 @@
               "side": "canary",
               "error": {
                 "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
+                "message": "page.waitForFunction: Timeout 10000ms exceeded.",
                 "timeout": true
               }
             },

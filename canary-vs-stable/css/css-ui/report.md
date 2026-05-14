@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1225
-- Entries with differences: 637 (pending: 637, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
+- Entries with differences: 598 (improvement: 2, pending: 596, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 41
-- Outcome summary: {"pass":396,"known-fail":596,"unchanged":192,"changed":41}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":394,"known-fail":596,"improvement":2,"unchanged":233}
 
 ## Differences
 
@@ -139,6 +139,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-eol-004.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/caret-eol-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0063] [WPT reftest] css/css-ui/caret-shape-block-001-sideways-lr.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-001-sideways-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-001-sideways-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0068] [WPT reftest] css/css-ui/caret-shape-block-002.html
   triage: pending
@@ -903,6 +909,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00033752194488970307, diffPixels=283
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0158] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-checkbox-input-border-image-width-001.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-checkbox-input-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-checkbox-input-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0179] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-color-input-background-clip-001.html
   triage: pending
@@ -7768,290 +7780,14 @@
   stable page 1: diffRatio=0.0013560510648042135, diffPixels=1137
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1122] [WPT manual] css/css-ui/nav-dir-004.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.001626784214945424, diffPixels=1364
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-dir-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-dir-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+## Errors
 
-- [1128] [WPT manual] css/css-ui/nav-dir-target-001.html
+- [0063] [WPT reftest] css/css-ui/caret-shape-block-001-sideways-lr.html
   triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020513701244179834, diffPixels=172
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-dir-target-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-dir-target-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1129] [WPT manual] css/css-ui/nav-dir-target-002.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.000406696053736356, diffPixels=341
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-dir-target-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-dir-target-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1130] [WPT manual] css/css-ui/nav-dir-target-003.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020752232653995878, diffPixels=174
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-dir-target-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-dir-target-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1131] [WPT manual] css/css-ui/nav-dir-target-004.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00041862262422715825, diffPixels=351
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-dir-target-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-dir-target-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1132] [WPT manual] css/css-ui/nav-dir-target-005.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0006118330661781543, diffPixels=513
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-dir-target-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-dir-target-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1133] [WPT manual] css/css-ui/nav-dir-target-006.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020513701244179834, diffPixels=172
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-dir-target-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-dir-target-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1139] [WPT manual] css/css-ui/nav-down-005.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0011866937638348217, diffPixels=995
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-down-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-down-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1140] [WPT manual] css/css-ui/nav-down-006.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.001198620334325624, diffPixels=1005
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-down-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-down-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1143] [WPT manual] css/css-ui/nav-down-009.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020513701244179834, diffPixels=172
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-down-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-down-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1144] [WPT manual] css/css-ui/nav-down-010.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.000406696053736356, diffPixels=341
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-down-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-down-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1145] [WPT manual] css/css-ui/nav-down-011.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020752232653995878, diffPixels=174
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-down-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-down-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1146] [WPT manual] css/css-ui/nav-down-012.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0004090813678345164, diffPixels=343
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-down-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-down-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1147] [WPT manual] css/css-ui/nav-down-013.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0006142183802763148, diffPixels=515
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-down-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-down-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1148] [WPT manual] css/css-ui/nav-down-014.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020513701244179834, diffPixels=172
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-down-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-down-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1156] [WPT manual] css/css-ui/nav-left-005.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0011843084497366613, diffPixels=993
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-left-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-left-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1157] [WPT manual] css/css-ui/nav-left-006.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.001198620334325624, diffPixels=1005
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-left-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-left-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1160] [WPT manual] css/css-ui/nav-left-009.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020513701244179834, diffPixels=172
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-left-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-left-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1161] [WPT manual] css/css-ui/nav-left-010.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.000406696053736356, diffPixels=341
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-left-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-left-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1162] [WPT manual] css/css-ui/nav-left-011.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020752232653995878, diffPixels=174
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-left-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-left-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1163] [WPT manual] css/css-ui/nav-left-012.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00041862262422715825, diffPixels=351
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-left-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-left-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1164] [WPT manual] css/css-ui/nav-left-013.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0006118330661781543, diffPixels=513
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-left-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-left-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1165] [WPT manual] css/css-ui/nav-left-014.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020513701244179834, diffPixels=172
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-left-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-left-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1173] [WPT manual] css/css-ui/nav-right-005.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0011843084497366613, diffPixels=993
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-right-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-right-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1174] [WPT manual] css/css-ui/nav-right-006.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.001198620334325624, diffPixels=1005
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-right-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-right-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1177] [WPT manual] css/css-ui/nav-right-009.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020513701244179834, diffPixels=172
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-right-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-right-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1178] [WPT manual] css/css-ui/nav-right-010.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00040431073963819554, diffPixels=339
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-right-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-right-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1179] [WPT manual] css/css-ui/nav-right-011.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020752232653995878, diffPixels=174
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-right-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-right-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1180] [WPT manual] css/css-ui/nav-right-012.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0004007327684909549, diffPixels=336
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-right-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-right-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1181] [WPT manual] css/css-ui/nav-right-013.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0006118330661781543, diffPixels=513
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-right-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-right-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1182] [WPT manual] css/css-ui/nav-right-014.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020513701244179834, diffPixels=172
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-right-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-right-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1191] [WPT manual] css/css-ui/nav-up-006.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0011807304785894208, diffPixels=990
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-up-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-up-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1194] [WPT manual] css/css-ui/nav-up-009.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020513701244179834, diffPixels=172
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-up-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-up-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1195] [WPT manual] css/css-ui/nav-up-010.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.000406696053736356, diffPixels=341
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-up-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-up-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1196] [WPT manual] css/css-ui/nav-up-011.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020752232653995878, diffPixels=174
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-up-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-up-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1197] [WPT manual] css/css-ui/nav-up-012.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0004090813678345164, diffPixels=343
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-up-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-up-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1198] [WPT manual] css/css-ui/nav-up-013.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0006142183802763148, diffPixels=515
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-up-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-up-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1199] [WPT manual] css/css-ui/nav-up-014.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00020513701244179834, diffPixels=172
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-up-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-up-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1211] [WPT manual] css/css-ui/resize-010.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1212] [WPT manual] css/css-ui/resize-011.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.012239046637661247, diffPixels=10262
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1213] [WPT manual] css/css-ui/resize-012.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  side: stable-reference
+  reference: css/css-ui/caret-shape-block-001-sideways-lr-ref.html
+  timeout: false
+  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/caret-shape-block-001-sideways-lr-ref.html (429)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-001-sideways-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-001-sideways-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

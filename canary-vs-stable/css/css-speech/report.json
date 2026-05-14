@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T02:23:15.863Z",
+  "generatedAt": "2026-05-14T01:31:03.035Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -40,18 +40,16 @@
   "summary": {
     "totalEntries": 11,
     "entriesWithDifferences": 0,
-    "entriesWithErrors": 1,
-    "timeoutEntries": 1,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "unchanged": 10,
-        "known-fail": 1
+        "unchanged": 11
       },
       "statusPairs": {
-        "MANUAL->MANUAL": 10,
-        "ERROR->MANUAL": 1
+        "MANUAL->MANUAL": 11
       }
     },
     "triage": {
@@ -60,10 +58,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 1,
+        "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 1,
+      "pendingEntries": 0,
       "triagedEntries": 0
     }
   },
@@ -205,26 +203,12 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html",
       "actualStatus": "MANUAL",
-      "baselineStatus": "ERROR",
-      "changeType": "known-fail",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-speech/speak-as/speak-as-literal-punctuation-001-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": [],
-      "errors": [
-        {
-          "side": "stable",
-          "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
-          },
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
-        }
-      ]
+      "references": []
     },
     {
       "id": "0010",

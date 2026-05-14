@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T01:33:55.638Z",
+  "generatedAt": "2026-05-14T00:41:29.998Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,36 +39,33 @@
   },
   "summary": {
     "totalEntries": 96,
-    "entriesWithDifferences": 80,
+    "entriesWithDifferences": 78,
     "entriesWithErrors": 2,
     "timeoutEntries": 1,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 4,
+    "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 76,
+        "known-fail": 78,
         "error": 2,
-        "changed-fail": 3,
-        "pass": 14,
-        "improvement": 1
+        "pass": 16
       },
       "statusPairs": {
-        "FAIL->FAIL": 79,
+        "FAIL->FAIL": 78,
         "ERROR->ERROR": 2,
-        "PASS->PASS": 14,
-        "FAIL->PASS": 1
+        "PASS->PASS": 16
       }
     },
     "triage": {
       "differences": {
-        "pending": 79,
+        "pending": 78,
         "triaged": 0
       },
       "errors": {
         "pending": 2,
         "triaged": 0
       },
-      "pendingEntries": 81,
+      "pendingEntries": 80,
       "triagedEntries": 0
     }
   },
@@ -1923,8 +1920,8 @@
       "sourceUrl": "https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1936,7 +1933,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -1945,23 +1942,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 573,
-            "diffRatio": 0.0006833924891229677,
-            "exactDiffPixels": 1040,
-            "exactDiffRatio": 0.0012403633310434318,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0017-WPT_reftest-css-css-highlight-api-painting-custom-highlight-dynamic-container-metrics-001.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -2026,12 +2007,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 594,
-                "diffRatio": 0.0007084382871536523,
-                "exactDiffPixels": 2414,
-                "exactDiffRatio": 0.002879074116479658,
+                "diffPixels": 1332,
+                "diffRatio": 0.0015886191893748568,
+                "exactDiffPixels": 3158,
+                "exactDiffRatio": 0.003766410960995344,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 101,
+                "maxChannelDifference": 255,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0017-WPT_reftest-css-css-highlight-api-painting-custom-highlight-dynamic-container-metrics-001.html-r01-p0001.png"
               }
@@ -2826,8 +2807,8 @@
       "sourceUrl": "https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -2839,7 +2820,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -2848,23 +2829,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 497,
-            "diffRatio": 0.0005927505533928708,
-            "exactDiffPixels": 992,
-            "exactDiffRatio": 0.0011831157926875811,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0024-WPT_reftest-css-css-highlight-api-painting-custom-highlight-dynamic-viewport-metrics-001.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -2929,12 +2894,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 594,
-                "diffRatio": 0.0007084382871536523,
-                "exactDiffPixels": 2414,
-                "exactDiffRatio": 0.002879074116479658,
+                "diffPixels": 1306,
+                "diffRatio": 0.0015576101060987711,
+                "exactDiffPixels": 3126,
+                "exactDiffRatio": 0.0037282459354247765,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 101,
+                "maxChannelDifference": 255,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0024-WPT_reftest-css-css-highlight-api-painting-custom-highlight-dynamic-viewport-metrics-001.html-r01-p0001.png"
               }
@@ -2961,8 +2926,8 @@
       "sourceUrl": "https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -2974,7 +2939,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -2983,23 +2948,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 1104,
-            "diffRatio": 0.001316693382184566,
-            "exactDiffPixels": 2521,
-            "exactDiffRatio": 0.003006688420731242,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0025-WPT_reftest-css-css-highlight-api-painting-custom-highlight-dynamic-viewport-metrics-first-line-001.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -3064,12 +3013,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 594,
-                "diffRatio": 0.0007084382871536523,
-                "exactDiffPixels": 2414,
-                "exactDiffRatio": 0.002879074116479658,
+                "diffPixels": 959,
+                "diffRatio": 0.0011437581100679336,
+                "exactDiffPixels": 2798,
+                "exactDiffRatio": 0.0033370544233264636,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 101,
+                "maxChannelDifference": 255,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0025-WPT_reftest-css-css-highlight-api-painting-custom-highlight-dynamic-viewport-metrics-first-line-001.html-r01-p0001.png"
               }
@@ -3368,9 +3317,9 @@
         "css/css-highlight-api/painting/custom-highlight-font-metrics-003.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003.html",
-      "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
-      "changeType": "known-fail",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -3381,121 +3330,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "known-fail",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": {
-              "maxDifference": [
-                0,
-                120
-              ],
-              "totalPixels": [
-                0,
-                8
-              ]
-            },
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 4416,
-                "diffRatio": 0.005266773528738264,
-                "exactDiffPixels": 4416,
-                "exactDiffRatio": 0.005266773528738264,
-                "exceededDiffPixels": 4416,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0028-WPT_reftest-css-css-highlight-api-painting-custom-highlight-font-metrics-003.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": {
-              "maxDifference": [
-                0,
-                120
-              ],
-              "totalPixels": [
-                0,
-                8
-              ]
-            },
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 4416,
-                "diffRatio": 0.005266773528738264,
-                "exactDiffPixels": 4416,
-                "exactDiffRatio": 0.005266773528738264,
-                "exceededDiffPixels": 4416,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0028-WPT_reftest-css-css-highlight-api-painting-custom-highlight-font-metrics-003.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0029",
@@ -3513,10 +3348,10 @@
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
-          "referenceFile": "css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html",
+          "referenceFile": "css/css-highlight-api/painting/custom-highlight-font-metrics-004-ref.html",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -3533,8 +3368,8 @@
         "comparisons": [
           {
             "referenceIndex": 0,
-            "referenceFile": "css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceFile": "css/css-highlight-api/painting/custom-highlight-font-metrics-004-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -3577,12 +3412,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
-            "referenceFile": "css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceFile": "css/css-highlight-api/painting/custom-highlight-font-metrics-004-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -3625,7 +3460,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -7051,9 +6886,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-iframe-001.html",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-iframe-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-iframe-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -7063,80 +6898,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-iframe-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-iframe-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 308,
-            "diffRatio": 0.00036733837111670864,
-            "exactDiffPixels": 396,
-            "exactDiffRatio": 0.00047229219143576825,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0060-WPT_reftest-css-css-highlight-api-painting-custom-highlight-painting-iframe-001.html-p0001.png"
-          }
-        ],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-highlight-api/painting/custom-highlight-painting-iframe-001-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-iframe-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 308,
-                "diffRatio": 0.00036733837111670864,
-                "exactDiffPixels": 396,
-                "exactDiffRatio": 0.00047229219143576825,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0060-WPT_reftest-css-css-highlight-api-painting-custom-highlight-painting-iframe-001.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-iframe-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0061",
