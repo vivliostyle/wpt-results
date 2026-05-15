@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T23:34:50.816Z",
+  "generatedAt": "2026-05-15T19:04:33.171Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,32 +39,33 @@
   },
   "summary": {
     "totalEntries": 60,
-    "entriesWithDifferences": 11,
+    "entriesWithDifferences": 10,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 1,
+    "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 49,
-        "known-fail": 10,
-        "expected-change": 1
+        "pass": 50,
+        "known-fail": 9,
+        "regression": 1
       },
       "statusPairs": {
         "PASS->PASS": 50,
-        "FAIL->FAIL": 10
+        "FAIL->FAIL": 9,
+        "PASS->FAIL": 1
       }
     },
     "triage": {
       "differences": {
-        "pending": 11,
+        "pending": 10,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 11,
+      "pendingEntries": 10,
       "triagedEntries": 0
     }
   },
@@ -1210,8 +1211,8 @@
       "sourceUrl": "https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html",
       "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "expected-change",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1221,40 +1222,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-video-sibling-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-video-sibling-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "expected-change",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 152616,
-            "diffRatio": 0.1820185482024273,
-            "exactDiffPixels": 155710,
-            "exactDiffRatio": 0.1857086291122815,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0046-WPT_reftest-css-compositing-mix-blend-mode-mix-blend-mode-video-sibling.html-p0001.png"
-          }
-        ],
-        "comparisons": [],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0047",
@@ -1265,8 +1233,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video.html",
       "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
-      "changeType": "known-fail",
+      "baselineStatus": "PASS",
+      "changeType": "regression",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -1279,7 +1247,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "regression",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -1310,27 +1278,6 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-video-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/compositing/mix-blend-mode/reference/mix-blend-mode-video-notref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-video-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "!=",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [],
-            "unexpectedEquality": true,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-video-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
@@ -1429,12 +1376,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 246634,
-                "diffRatio": 0.2941497786428517,
-                "exactDiffPixels": 267857,
-                "exactDiffRatio": 0.31946153919548126,
-                "exceededDiffPixels": 267857,
-                "maxChannelDifference": 255,
+                "diffPixels": 251848,
+                "diffRatio": 0.30036829249675595,
+                "exactDiffPixels": 262573,
+                "exactDiffRatio": 0.31315953934814134,
+                "exceededDiffPixels": 262573,
+                "maxChannelDifference": 127,
                 "dimensionMismatch": false,
                 "diffImage": "actual-reference-diff/0049-WPT_reftest-css-compositing-root-element-background-image-transparency-001.html-r01-p0001.png"
               }
@@ -1477,12 +1424,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 246634,
-                "diffRatio": 0.2941497786428517,
-                "exactDiffPixels": 267857,
-                "exactDiffRatio": 0.31946153919548126,
-                "exceededDiffPixels": 267857,
-                "maxChannelDifference": 255,
+                "diffPixels": 251848,
+                "diffRatio": 0.30036829249675595,
+                "exactDiffPixels": 262573,
+                "exactDiffRatio": 0.31315953934814134,
+                "exceededDiffPixels": 262573,
+                "maxChannelDifference": 127,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0049-WPT_reftest-css-compositing-root-element-background-image-transparency-001.html-r01-p0001.png"
               }

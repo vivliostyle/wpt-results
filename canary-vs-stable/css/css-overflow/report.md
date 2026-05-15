@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 494
-- Entries with differences: 313 (improvement: 1, pending: 312, triaged: 0)
+- Entries with differences: 313 (pending: 313, triaged: 0)
 - Entries with errors: 3 (pending: 3, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 1
-- Outcome summary: {"known-fail":312,"pass":178,"error":3,"improvement":1}
+- Outcome summary: {"known-fail":312,"pass":178,"error":3,"changed-fail":1}
 
 ## Differences
 
@@ -2751,12 +2751,16 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-img-scroll-non-replaced-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0350] [WPT reftest] css/css-overflow/overflow-replaced-element-002.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/overflow-replaced-element-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000027431112128845128, diffPixels=23
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00015743073047858942, diffPixels=132
+  stable page 1: diffRatio=0.000023853140981604456, diffPixels=20
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0354] [WPT reftest] css/css-overflow/overflow-video-hidden.html

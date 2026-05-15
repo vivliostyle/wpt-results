@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 188
-- Entries with differences: 97 (improvement: 1, pending: 96, triaged: 0)
+- Entries with differences: 96 (pending: 96, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":91,"known-fail":96,"improvement":1}
+- Outcome summary: {"pass":92,"known-fail":96}
 
 ## Differences
 
@@ -602,12 +602,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 2: diffRatio=0.01877838523776811, diffPixels=15745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0093] [WPT reftest] css/css-anchor-position/anchored-transition-display-none-002.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchored-transition-display-none-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchored-transition-display-none-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0095] [WPT reftest] css/css-anchor-position/container-queries/anchored-fallback-color-change.html
   triage: pending

@@ -2646,7 +2646,7 @@
   reference: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-017-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010018319212273872, diffPixels=8400
+  canary page 1: diffRatio=0.010495382031905962, diffPixels=8800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2997,7 +2997,7 @@
   reference: css/css-gaps/grid/subgrid/subgrid-gap-decorations-023-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/subgrid/subgrid-gap-decorations-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009541256392641783, diffPixels=8000
+  canary page 1: diffRatio=0.00930272498282574, diffPixels=7800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/subgrid/subgrid-gap-decorations-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/subgrid-gap-decorations-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3010,7 +3010,7 @@
   reference: css/css-gaps/grid/subgrid/subgrid-gap-decorations-024-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/subgrid/subgrid-gap-decorations-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009660522097549805, diffPixels=8100
+  canary page 1: diffRatio=0.009541256392641783, diffPixels=8000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/subgrid/subgrid-gap-decorations-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/subgrid-gap-decorations-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

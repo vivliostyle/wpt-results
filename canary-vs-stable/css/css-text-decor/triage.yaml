@@ -237,6 +237,10 @@
       referenceFile: css/css-text-decor/reference/text-decoration-color-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-text-decor/reference/text-decoration-color-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0017"
   category: WPT reftest
   title: css/css-text-decor/text-decoration-dotted-001.html

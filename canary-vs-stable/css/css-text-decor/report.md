@@ -2,7 +2,7 @@
 
 - Compared entries: 362
 - Entries with differences: 164 (pending: 164, triaged: 0)
-- Entries with errors: 7 (pending: 7, triaged: 0)
+- Entries with errors: 6 (pending: 6, triaged: 0)
 - Timeout entries: 6
 - Page count changed: 0
 - Screenshot mismatches: 0
@@ -116,12 +116,16 @@
 
 - [0015] [WPT reftest] css/css-text-decor/text-decoration-color.html
   triage: pending
-  outcome: known-fail (baseline=ERROR, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text-decor/reference/text-decoration-color-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-decoration-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0006189890084726357, diffPixels=519
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-decoration-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0006189890084726357, diffPixels=519
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0017] [WPT reftest] css/css-text-decor/text-decoration-dotted-001.html
   triage: pending
@@ -2139,14 +2143,6 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-underline-position-auto-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
-
-- [0015] [WPT reftest] css/css-text-decor/text-decoration-color.html
-  triage: pending
-  side: stable
-  timeout: false
-  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-text-decor/text-decoration-color.html (500)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-decoration-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-decoration-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0217] [WPT reftest] css/css-text-decor/text-emphasis-style-property-010Cc.html
   triage: pending

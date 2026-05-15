@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":97,"known-fail":127,"unchanged":20}
+- Screenshot mismatches: 3
+- Outcome summary: {"pass":97,"known-fail":124,"changed-fail":3,"unchanged":20}
 
 ## Differences
 
@@ -930,11 +930,11 @@
 
 - [0103] [WPT print-reftest] css/css-page/page-background-001-print.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-page/page-background-001-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-background-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001514674452331883, diffPixels=1270
+  canary page 1: diffRatio=0.0025689832837188, diffPixels=2154
   canary page 2: diffRatio=0.0025689832837188, diffPixels=2154
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-background-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
@@ -1479,16 +1479,11 @@
 
 - [0201] [WPT print-reftest] css/css-page/page-size-007-print.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-page/page-size-007-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-size-007-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.875, diffPixels=28000
-  canary page 2: diffRatio=0.38265625, diffPixels=12245
-  canary page 3: diffRatio=0.8, diffPixels=12800
-  canary page 4: diffRatio=0.31125, diffPixels=4980
-  canary page 5: diffRatio=0.95, diffPixels=243200
-  canary page 6: diffRatio=0.45058984375, diffPixels=115351
+  canary selected pages: test=[1, 2, 3, 4, 5, 6], reference=[1, 2, 3, 4, 5, 6, 7]
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-size-007-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-size-007-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1502,16 +1497,11 @@
 
 - [0202] [WPT print-reftest] css/css-page/page-size-008-print.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-page/page-size-008-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-size-008-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.95, diffPixels=243200
-  canary page 2: diffRatio=0.45093359375, diffPixels=115439
-  canary page 3: diffRatio=0.875, diffPixels=28000
-  canary page 4: diffRatio=0.380625, diffPixels=12180
-  canary page 5: diffRatio=0.8, diffPixels=12800
-  canary page 6: diffRatio=0.3094375, diffPixels=4951
+  canary selected pages: test=[1, 2, 3, 4, 5, 6], reference=[1, 2, 3, 4, 5, 6, 7]
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-size-008-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-size-008-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T23:37:30.249Z",
+  "generatedAt": "2026-05-15T19:07:44.104Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,21 +39,19 @@
   },
   "summary": {
     "totalEntries": 188,
-    "entriesWithDifferences": 97,
+    "entriesWithDifferences": 96,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 91,
-        "known-fail": 96,
-        "improvement": 1
+        "pass": 92,
+        "known-fail": 96
       },
       "statusPairs": {
-        "PASS->PASS": 91,
-        "FAIL->FAIL": 96,
-        "ERROR->PASS": 1
+        "PASS->PASS": 92,
+        "FAIL->FAIL": 96
       }
     },
     "triage": {
@@ -6437,8 +6435,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-anchor-position/anchored-transition-display-none-002.html",
       "actualStatus": "PASS",
-      "baselineStatus": "ERROR",
-      "changeType": "improvement",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchored-transition-display-none-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchored-transition-display-none-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -6449,24 +6447,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchored-transition-display-none-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchored-transition-display-none-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": null
-        },
-        "pages": [],
-        "comparisons": [],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0094",

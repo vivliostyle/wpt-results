@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T01:51:31.413Z",
+  "generatedAt": "2026-05-15T21:34:29.750Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -40,7 +40,7 @@
   "summary": {
     "totalEntries": 362,
     "entriesWithDifferences": 164,
-    "entriesWithErrors": 7,
+    "entriesWithErrors": 6,
     "timeoutEntries": 6,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
@@ -53,8 +53,7 @@
       },
       "statusPairs": {
         "PASS->PASS": 126,
-        "FAIL->FAIL": 163,
-        "ERROR->FAIL": 1,
+        "FAIL->FAIL": 164,
         "ERROR->ERROR": 6,
         "MANUAL->MANUAL": 66
       }
@@ -65,10 +64,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 7,
+        "pending": 6,
         "triaged": 0
       },
-      "pendingEntries": 171,
+      "pendingEntries": 170,
       "triagedEntries": 0
     }
   },
@@ -1172,7 +1171,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-text-decor/text-decoration-color.html",
       "actualStatus": "FAIL",
-      "baselineStatus": "ERROR",
+      "baselineStatus": "FAIL",
       "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-decoration-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -1193,7 +1192,7 @@
           "totalPages": 1
         },
         "baseline": {
-          "totalPages": null
+          "totalPages": 1
         },
         "pages": [],
         "comparisons": [
@@ -1235,27 +1234,52 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-text-decor/reference/text-decoration-color-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 519,
+                "diffRatio": 0.0006189890084726357,
+                "exactDiffPixels": 749,
+                "exactDiffRatio": 0.0008933001297610869,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0015-WPT_reftest-css-css-text-decor-text-decoration-color.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      },
-      "errors": [
-        {
-          "side": "stable",
-          "error": {
-            "name": "Error",
-            "message": "Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-text-decor/text-decoration-color.html (500)",
-            "timeout": false
-          },
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
-        }
-      ]
+      }
     },
     {
       "id": "0016",

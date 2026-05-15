@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"known-fail":13,"pass":2}
+- Screenshot mismatches: 1
+- Outcome summary: {"known-fail":12,"pass":2,"changed-fail":1}
 
 ## Differences
 
@@ -142,7 +142,7 @@
 
 - [0012] [WPT reftest] css/css-forms/progress-base-appearance-rendering.tentative.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-forms/progress-base-appearance-rendering-ref.tentative.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

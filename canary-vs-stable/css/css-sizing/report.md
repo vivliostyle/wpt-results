@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 549
-- Entries with differences: 68 (pending: 68, triaged: 0)
-- Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 3
+- Entries with differences: 83 (improvement: 4, pending: 79, triaged: 0)
+- Entries with errors: 4 (pending: 4, triaged: 0)
+- Timeout entries: 4
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":478,"known-fail":68,"error":3}
+- Screenshot mismatches: 6
+- Outcome summary: {"pass":462,"known-fail":77,"improvement":4,"regression":2,"error":4}
 
 ## Differences
 
@@ -23,6 +23,33 @@
   stable page 1: diffRatio=0.01643839210747271, diffPixels=13783
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/fieldset-element-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0106] [WPT reftest] css/css-sizing/aspect-ratio/flex-aspect-ratio-016.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/flex-aspect-ratio-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.011864552324250058, diffPixels=9948
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0107] [WPT reftest] css/css-sizing/aspect-ratio/flex-aspect-ratio-017.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/flex-aspect-ratio-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00578080871689184, diffPixels=4847
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0117] [WPT reftest] css/css-sizing/aspect-ratio/flex-aspect-ratio-027.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/flex-aspect-ratio-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.011839506526219373, diffPixels=9927
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0128] [WPT reftest] css/css-sizing/aspect-ratio/flex-aspect-ratio-038.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -34,6 +61,115 @@
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/flex-aspect-ratio-038.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.014908213113502785, diffPixels=12500
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0149] [WPT reftest] css/css-sizing/aspect-ratio/grid-aspect-ratio-003.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01139703076101061, diffPixels=9556
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01139703076101061, diffPixels=9556
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0150] [WPT reftest] css/css-sizing/aspect-ratio/grid-aspect-ratio-004.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.011710699564918709, diffPixels=9819
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.011710699564918709, diffPixels=9819
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0151] [WPT reftest] css/css-sizing/aspect-ratio/grid-aspect-ratio-005.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.018667468132203647, diffPixels=15652
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.018667468132203647, diffPixels=15652
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0152] [WPT reftest] css/css-sizing/aspect-ratio/grid-aspect-ratio-006.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.004646591863216548, diffPixels=3896
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.004646591863216548, diffPixels=3896
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0197] [WPT reftest] css/css-sizing/aspect-ratio/intrinsic-size-009.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.011869322952446379, diffPixels=9952
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.011869322952446379, diffPixels=9952
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0205] [WPT reftest] css/css-sizing/aspect-ratio/intrinsic-size-017.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.011865744981299137, diffPixels=9949
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.011865744981299137, diffPixels=9949
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0206] [WPT reftest] css/css-sizing/aspect-ratio/intrinsic-size-018.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.011865744981299137, diffPixels=9949
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.011865744981299137, diffPixels=9949
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0207] [WPT reftest] css/css-sizing/aspect-ratio/intrinsic-size-019.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.011865744981299137, diffPixels=9949
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0230] [WPT reftest] css/css-sizing/aspect-ratio/replaced-element-012.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0262] [WPT reftest] css/css-sizing/aspect-ratio/replaced-element-dynamic-aspect-ratio.html
@@ -87,6 +223,45 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-table-1b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.008758873368445157, diffPixels=7344
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-table-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0299] [WPT reftest] css/css-sizing/box-sizing-replaced-001.xht
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-sizing/box-sizing-replaced-001-ref.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.008185205327837569, diffPixels=6863
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.008185205327837569, diffPixels=6863
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0300] [WPT reftest] css/css-sizing/box-sizing-replaced-002.xht
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-sizing/box-sizing-replaced-002-ref.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.04601032363941684, diffPixels=38578
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.04601032363941684, diffPixels=38578
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0301] [WPT reftest] css/css-sizing/box-sizing-replaced-003.xht
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-sizing/box-sizing-replaced-003-ref.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00840226891077017, diffPixels=7045
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00840226891077017, diffPixels=7045
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0308] [WPT reftest] css/css-sizing/clone-intrinsic-size.html
   triage: pending
@@ -700,13 +875,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0479] [WPT reftest] css/css-sizing/range-percent-intrinsic-size-1.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-sizing/range-percent-intrinsic-size-1-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004406867796351423, diffPixels=3695
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.004406867796351423, diffPixels=3695
@@ -895,6 +1066,14 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
+
+- [0326] [WPT reftest] css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-017.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0496] [WPT reftest] css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-no-match-element.sub.tentative.html
   triage: pending

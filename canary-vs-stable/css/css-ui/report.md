@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1225
-- Entries with differences: 598 (improvement: 2, pending: 596, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
+- Entries with differences: 596 (pending: 596, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":394,"known-fail":596,"improvement":2,"unchanged":233}
+- Outcome summary: {"pass":396,"known-fail":596,"unchanged":233}
 
 ## Differences
 
@@ -139,12 +139,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-eol-004.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/caret-eol-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0063] [WPT reftest] css/css-ui/caret-shape-block-001-sideways-lr.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-001-sideways-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-001-sideways-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0068] [WPT reftest] css/css-ui/caret-shape-block-002.html
   triage: pending
@@ -909,12 +903,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00033752194488970307, diffPixels=283
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0158] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-checkbox-input-border-image-width-001.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-checkbox-input-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-checkbox-input-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0179] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-color-input-background-clip-001.html
   triage: pending
@@ -7779,15 +7767,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0013560510648042135, diffPixels=1137
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0063] [WPT reftest] css/css-ui/caret-shape-block-001-sideways-lr.html
-  triage: pending
-  side: stable-reference
-  reference: css/css-ui/caret-shape-block-001-sideways-lr-ref.html
-  timeout: false
-  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/caret-shape-block-001-sideways-lr-ref.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-001-sideways-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-001-sideways-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

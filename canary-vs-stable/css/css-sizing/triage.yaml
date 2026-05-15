@@ -25,6 +25,29 @@
       referenceFile: css/css-sizing/aspect-ratio/fieldset-element-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/fieldset-element-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0107"
+  category: WPT reftest
+  title: css/css-sizing/aspect-ratio/flex-aspect-ratio-017.html
+  file: css/css-sizing/aspect-ratio/flex-aspect-ratio-017.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/flex-aspect-ratio-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/flex-aspect-ratio-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0128"
   category: WPT reftest
   title: css/css-sizing/aspect-ratio/flex-aspect-ratio-038.html
@@ -52,6 +75,218 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0149"
+  category: WPT reftest
+  title: css/css-sizing/aspect-ratio/grid-aspect-ratio-003.html
+  file: css/css-sizing/aspect-ratio/grid-aspect-ratio-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0150"
+  category: WPT reftest
+  title: css/css-sizing/aspect-ratio/grid-aspect-ratio-004.html
+  file: css/css-sizing/aspect-ratio/grid-aspect-ratio-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0151"
+  category: WPT reftest
+  title: css/css-sizing/aspect-ratio/grid-aspect-ratio-005.html
+  file: css/css-sizing/aspect-ratio/grid-aspect-ratio-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0152"
+  category: WPT reftest
+  title: css/css-sizing/aspect-ratio/grid-aspect-ratio-006.html
+  file: css/css-sizing/aspect-ratio/grid-aspect-ratio-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0197"
+  category: WPT reftest
+  title: css/css-sizing/aspect-ratio/intrinsic-size-009.html
+  file: css/css-sizing/aspect-ratio/intrinsic-size-009.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0205"
+  category: WPT reftest
+  title: css/css-sizing/aspect-ratio/intrinsic-size-017.html
+  file: css/css-sizing/aspect-ratio/intrinsic-size-017.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0206"
+  category: WPT reftest
+  title: css/css-sizing/aspect-ratio/intrinsic-size-018.html
+  file: css/css-sizing/aspect-ratio/intrinsic-size-018.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0207"
+  category: WPT reftest
+  title: css/css-sizing/aspect-ratio/intrinsic-size-019.html
+  file: css/css-sizing/aspect-ratio/intrinsic-size-019.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0262"
   category: WPT reftest
   title: css/css-sizing/aspect-ratio/replaced-element-dynamic-aspect-ratio.html
@@ -160,6 +395,87 @@
       referenceFile: css/css-sizing/block-size-with-min-or-max-content-table-1-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-table-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0299"
+  category: WPT reftest
+  title: css/css-sizing/box-sizing-replaced-001.xht
+  file: css/css-sizing/box-sizing-replaced-001.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-sizing/box-sizing-replaced-001-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-sizing/box-sizing-replaced-001-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-sizing/box-sizing-replaced-001-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-sizing/box-sizing-replaced-001-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0300"
+  category: WPT reftest
+  title: css/css-sizing/box-sizing-replaced-002.xht
+  file: css/css-sizing/box-sizing-replaced-002.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-sizing/box-sizing-replaced-002-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-sizing/box-sizing-replaced-002-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-sizing/box-sizing-replaced-002-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-sizing/box-sizing-replaced-002-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0301"
+  category: WPT reftest
+  title: css/css-sizing/box-sizing-replaced-003.xht
+  file: css/css-sizing/box-sizing-replaced-003.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-sizing/box-sizing-replaced-003-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-sizing/box-sizing-replaced-003-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-sizing/box-sizing-replaced-003-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-sizing/box-sizing-replaced-003-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0308"
   category: WPT reftest
   title: css/css-sizing/clone-intrinsic-size.html
@@ -1429,33 +1745,6 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0479"
-  category: WPT reftest
-  title: css/css-sizing/range-percent-intrinsic-size-1.html
-  file: css/css-sizing/range-percent-intrinsic-size-1.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-sizing/range-percent-intrinsic-size-1-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-sizing/range-percent-intrinsic-size-1-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-sizing/range-percent-intrinsic-size-1-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-sizing/range-percent-intrinsic-size-1-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0480"
   category: WPT reftest
   title: css/css-sizing/range-percent-intrinsic-size-2.html
@@ -1834,6 +2123,23 @@
       referenceFile: css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0326"
+  category: WPT reftest
+  title: css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-017.html
+  file: css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-017.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
 - id: "0496"
   category: WPT reftest
   title: css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-no-match-element.sub.tentative.html

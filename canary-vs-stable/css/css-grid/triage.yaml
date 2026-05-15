@@ -1,111 +1,3 @@
-- id: "0002"
-  category: WPT reftest
-  title: css/css-grid/abspos/descendant-static-position-001.html
-  file: css/css-grid/abspos/descendant-static-position-001.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/abspos/descendant-static-position-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-grid/abspos/descendant-static-position-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/abspos/descendant-static-position-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/abspos/descendant-static-position-001-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0003"
-  category: WPT reftest
-  title: css/css-grid/abspos/descendant-static-position-002.html
-  file: css/css-grid/abspos/descendant-static-position-002.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/abspos/descendant-static-position-002-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-grid/abspos/descendant-static-position-002-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/abspos/descendant-static-position-002-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/abspos/descendant-static-position-002-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0004"
-  category: WPT reftest
-  title: css/css-grid/abspos/descendant-static-position-003.html
-  file: css/css-grid/abspos/descendant-static-position-003.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/abspos/descendant-static-position-003-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-grid/abspos/descendant-static-position-003-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/abspos/descendant-static-position-003-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/abspos/descendant-static-position-003-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0005"
-  category: WPT reftest
-  title: css/css-grid/abspos/descendant-static-position-004.html
-  file: css/css-grid/abspos/descendant-static-position-004.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/abspos/descendant-static-position-004-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-grid/abspos/descendant-static-position-004-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/abspos/descendant-static-position-004-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/abspos/descendant-static-position-004-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0015"
   category: WPT reftest
   title: css/css-grid/abspos/grid-abspos-staticpos-align-self-002.html
@@ -1454,114 +1346,6 @@
       referenceFile: css/css-grid/alignment/grid-item-self-baseline-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-item-self-baseline-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0232"
-  category: WPT reftest
-  title: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001.html
-  file: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0233"
-  category: WPT reftest
-  title: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-002.html
-  file: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-002.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0234"
-  category: WPT reftest
-  title: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-003.html
-  file: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-003.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0235"
-  category: WPT reftest
-  title: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-004.html
-  file: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-004.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0246"
   category: WPT reftest
   title: css/css-grid/alignment/self-baseline/grid-self-baseline-001.html
@@ -13826,20 +13610,6 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-029-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0957"
-  category: WPT reftest
-  title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-033.html
-  file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-033.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-033.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-033.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0958"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-001.html
@@ -17205,33 +16975,6 @@
       referenceFile: css/reference/ref-filled-green-300px-square.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-300px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1187"
-  category: WPT reftest
-  title: css/css-grid/subgrid/baseline-001.html
-  file: css/css-grid/subgrid/baseline-001.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/baseline-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/baseline-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/subgrid/baseline-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-grid/subgrid/baseline-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/subgrid/baseline-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/baseline-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/subgrid/baseline-001-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/baseline-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1199"
   category: WPT reftest
   title: css/css-grid/subgrid/grid-gap-007.html
@@ -17286,87 +17029,22 @@
       referenceFile: css/css-grid/subgrid/independent-formatting-context-fieldset-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/independent-formatting-context-fieldset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1219"
+- id: "1218"
   category: WPT reftest
-  title: css/css-grid/subgrid/line-names-007.html
-  file: css/css-grid/subgrid/line-names-007.html
+  title: css/css-grid/subgrid/line-names-006.html
+  file: css/css-grid/subgrid/line-names-006.html
   type: difference
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/subgrid/line-names-007-ref.html
-  relation: "=="
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   diffPages:
-    - css/css-grid/subgrid/line-names-007-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/subgrid/line-names-007-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/subgrid/line-names-007-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1220"
-  category: WPT reftest
-  title: css/css-grid/subgrid/line-names-008.html
-  file: css/css-grid/subgrid/line-names-008.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/subgrid/line-names-008-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-grid/subgrid/line-names-008-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/subgrid/line-names-008-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/subgrid/line-names-008-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1224"
-  category: WPT reftest
-  title: css/css-grid/subgrid/line-names-012.html
-  file: css/css-grid/subgrid/line-names-012.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/subgrid/line-names-012-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-grid/subgrid/line-names-012-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/subgrid/line-names-012-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/subgrid/line-names-012-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - 1
 - id: "1230"
   category: WPT reftest
   title: css/css-grid/subgrid/orthogonal-writing-mode-003.html
@@ -17421,6 +17099,22 @@
       referenceFile: css/css-grid/subgrid/orthogonal-writing-mode-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/orthogonal-writing-mode-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "1236"
+  category: WPT reftest
+  title: css/css-grid/subgrid/parent-repeat-auto-fit-002.html
+  file: css/css-grid/subgrid/parent-repeat-auto-fit-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/parent-repeat-auto-fit-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/parent-repeat-auto-fit-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
 - id: "1258"
   category: WPT reftest
   title: css/css-grid/subgrid/sticky-subgrid-item.html
@@ -17507,33 +17201,6 @@
       referenceFile: css/css-grid/subgrid/subgrid-stretch-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/subgrid-stretch-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1270"
-  category: WPT reftest
-  title: css/css-grid/subgrid/writing-directions-001.html
-  file: css/css-grid/subgrid/writing-directions-001.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/writing-directions-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/writing-directions-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/subgrid/writing-directions-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-grid/subgrid/writing-directions-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/subgrid/writing-directions-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/writing-directions-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/subgrid/writing-directions-001-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/writing-directions-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1274"
   category: WPT reftest
   title: css/css-grid/table-grid-item-dynamic-002.html

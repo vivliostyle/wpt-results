@@ -3239,6 +3239,23 @@
     - css/css-page/page-size-007-print-ref.html#4
     - css/css-page/page-size-007-print-ref.html#5
     - css/css-page/page-size-007-print-ref.html#6
+  pageSelections:
+    - referenceFile: css/css-page/page-size-007-print-ref.html
+      actualPages:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+      baselinePages:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
   referenceViewerUrls:
     - side: canary
       referenceFile: css/css-page/page-size-007-print-ref.html
@@ -3271,6 +3288,23 @@
     - css/css-page/page-size-008-print-ref.html#4
     - css/css-page/page-size-008-print-ref.html#5
     - css/css-page/page-size-008-print-ref.html#6
+  pageSelections:
+    - referenceFile: css/css-page/page-size-008-print-ref.html
+      actualPages:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+      baselinePages:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
   referenceViewerUrls:
     - side: canary
       referenceFile: css/css-page/page-size-008-print-ref.html

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T02:10:36.444Z",
+  "generatedAt": "2026-05-15T21:54:07.090Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,23 +39,20 @@
   },
   "summary": {
     "totalEntries": 1225,
-    "entriesWithDifferences": 598,
-    "entriesWithErrors": 1,
+    "entriesWithDifferences": 596,
+    "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 394,
+        "pass": 396,
         "known-fail": 596,
-        "improvement": 2,
         "unchanged": 233
       },
       "statusPairs": {
-        "PASS->PASS": 394,
+        "PASS->PASS": 396,
         "FAIL->FAIL": 596,
-        "FAIL->PASS": 1,
-        "ERROR->PASS": 1,
         "MANUAL->MANUAL": 233
       }
     },
@@ -65,10 +62,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 1,
+        "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 597,
+      "pendingEntries": 596,
       "triagedEntries": 0
     }
   },
@@ -2360,8 +2357,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-ui/caret-shape-block-001-sideways-lr.html",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-001-sideways-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-001-sideways-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -2371,38 +2368,6 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-001-sideways-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-001-sideways-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      },
-      "errors": [
-        {
-          "side": "stable-reference",
-          "error": {
-            "name": "Error",
-            "message": "Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/caret-shape-block-001-sideways-lr-ref.html (429)",
-            "timeout": false
-          },
-          "referenceFile": "css/css-ui/caret-shape-block-001-sideways-lr-ref.html",
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
         }
       ]
     },
@@ -10259,8 +10224,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-checkbox-input-border-image-width-001.html",
       "actualStatus": "PASS",
-      "baselineStatus": "ERROR",
-      "changeType": "improvement",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-checkbox-input-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-checkbox-input-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -10271,24 +10236,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-checkbox-input-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-checkbox-input-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": null
-        },
-        "pages": [],
-        "comparisons": [],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0159",

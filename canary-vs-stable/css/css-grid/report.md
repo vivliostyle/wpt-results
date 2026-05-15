@@ -1,62 +1,46 @@
 # canary vs stable comparison report
 
 - Compared entries: 1278
-- Entries with differences: 626 (pending: 626, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with differences: 627 (improvement: 13, pending: 614, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":652,"known-fail":625,"regression":1}
+- Screenshot mismatches: 13
+- Outcome summary: {"pass":651,"improvement":13,"known-fail":612,"expected-change":2}
 
 ## Differences
 
 - [0002] [WPT reftest] css/css-grid/abspos/descendant-static-position-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/abspos/descendant-static-position-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003975125944584383, diffPixels=3333
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.003975125944584383, diffPixels=3333
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0003] [WPT reftest] css/css-grid/abspos/descendant-static-position-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/abspos/descendant-static-position-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0038236584993511947, diffPixels=3206
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0038236584993511947, diffPixels=3206
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0004] [WPT reftest] css/css-grid/abspos/descendant-static-position-003.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/abspos/descendant-static-position-003-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004136134646210213, diffPixels=3468
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.004136134646210213, diffPixels=3468
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0005] [WPT reftest] css/css-grid/abspos/descendant-static-position-004.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/abspos/descendant-static-position-004-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0038069613006640715, diffPixels=3192
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/descendant-static-position-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0038069613006640715, diffPixels=3192
@@ -732,52 +716,36 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-item-self-baseline-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0232] [WPT reftest] css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006392641783069994, diffPixels=536
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0006392641783069994, diffPixels=536
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0233] [WPT reftest] css/css-grid/alignment/grid-self-alignment-baseline-with-grid-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006392641783069994, diffPixels=536
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0006392641783069994, diffPixels=536
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0234] [WPT reftest] css/css-grid/alignment/grid-self-alignment-baseline-with-grid-003.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006392641783069994, diffPixels=536
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0006392641783069994, diffPixels=536
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0235] [WPT reftest] css/css-grid/alignment/grid-self-alignment-baseline-with-grid-004.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006392641783069994, diffPixels=536
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/alignment/grid-self-alignment-baseline-with-grid-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0006392641783069994, diffPixels=536
@@ -6486,12 +6454,6 @@
   stable page 1: diffRatio=0.3152431112128845, diffPixels=264320
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0957] [WPT reftest] css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-033.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-033.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-033.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0958] [WPT reftest] css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -8016,13 +7978,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-300px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1187] [WPT reftest] css/css-grid/subgrid/baseline-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/subgrid/baseline-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/baseline-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006392641783069994, diffPixels=536
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/baseline-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/baseline-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0006392641783069994, diffPixels=536
@@ -8054,40 +8012,35 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/independent-formatting-context-fieldset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1219] [WPT reftest] css/css-grid/subgrid/line-names-007.html
+- [1218] [WPT reftest] css/css-grid/subgrid/line-names-006.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.01423913250896878, diffPixels=11939
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1219] [WPT reftest] css/css-grid/subgrid/line-names-007.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/subgrid/line-names-007-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005053287916952904, diffPixels=4237
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.005053287916952904, diffPixels=4237
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1220] [WPT reftest] css/css-grid/subgrid/line-names-008.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/subgrid/line-names-008-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014960690023662316, diffPixels=12544
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.014960690023662316, diffPixels=12544
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1224] [WPT reftest] css/css-grid/subgrid/line-names-012.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/subgrid/line-names-012-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.015799127929165713, diffPixels=13247
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.015799127929165713, diffPixels=13247
@@ -8112,12 +8065,19 @@
   reference: css/css-grid/subgrid/orthogonal-writing-mode-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/orthogonal-writing-mode-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0026405427066636135, diffPixels=2214
+  canary page 1: diffRatio=0.0010733913441722007, diffPixels=900
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/orthogonal-writing-mode-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/orthogonal-writing-mode-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0026405427066636135, diffPixels=2214
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/orthogonal-writing-mode-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1236] [WPT reftest] css/css-grid/subgrid/parent-repeat-auto-fit-002.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.008408232196015572, diffPixels=7050
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/parent-repeat-auto-fit-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/parent-repeat-auto-fit-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1258] [WPT reftest] css/css-grid/subgrid/sticky-subgrid-item.html
   triage: pending
@@ -8159,13 +8119,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/subgrid-stretch-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1270] [WPT reftest] css/css-grid/subgrid/writing-directions-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/subgrid/writing-directions-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/writing-directions-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0035624666056026256, diffPixels=2987
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/writing-directions-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/writing-directions-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0035624666056026256, diffPixels=2987
@@ -8196,15 +8152,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/whitespace-reattach.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.011802534157697886, diffPixels=9896
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0957] [WPT reftest] css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-033.html
-  triage: pending
-  side: canary-reference
-  reference: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-030-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-033.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

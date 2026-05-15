@@ -52,33 +52,29 @@
       referenceFile: css/css-image-animation/image-animation-background-stopped.tentative-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-background-stopped.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0004"
+- id: "0003"
   category: WPT reftest
-  title: css/css-image-animation/image-animation-body-background-root-propagation-paused.html
-  file: css/css-image-animation/image-animation-body-background-root-propagation-paused.html
+  title: css/css-image-animation/image-animation-body-background-no-propagation-paused.html
+  file: css/css-image-animation/image-animation-body-background-no-propagation-paused.html
   type: difference
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html
   relation: "=="
   diffPages:
-    - css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html#1
+    - css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html#1
   referenceViewerUrls:
     - side: canary
-      referenceFile: css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html
+      referenceFile: css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0005"
   category: WPT reftest
   title: css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 429
-- Entries with differences: 132 (improvement: 2, pending: 130, triaged: 0)
-- Entries with errors: 8 (pending: 8, triaged: 0)
-- Timeout entries: 8
+- Entries with differences: 131 (improvement: 1, pending: 130, triaged: 0)
+- Entries with errors: 9 (pending: 9, triaged: 0)
+- Timeout entries: 9
 - Page count changed: 0
 - Screenshot mismatches: 1
-- Outcome summary: {"pass":289,"known-fail":129,"improvement":2,"error":8,"changed-fail":1}
+- Outcome summary: {"pass":289,"known-fail":129,"improvement":1,"error":9,"changed-fail":1}
 
 ## Differences
 
@@ -594,12 +594,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-size-flexbox-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000009541256392641783, diffPixels=8
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-size-flexbox-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0259] [WPT reftest] css/css-contain/contain-size-replaced-003a.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-size-replaced-003a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-size-replaced-003a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0260] [WPT reftest] css/css-contain/contain-size-replaced-003b.html
   triage: not-needed
@@ -1393,11 +1387,11 @@
   reference: css/css-contain/content-visibility/content-visibility-video-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04125162201358675, diffPixels=34588
+  canary page 1: diffRatio=0.041250429356537666, diffPixels=34587
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.041250429356537666, diffPixels=34587
+  stable page 1: diffRatio=0.039883644378291734, diffPixels=33441
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0394] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-001.html
@@ -1716,6 +1710,14 @@
 
 ## Errors
 
+- [0261] [WPT reftest] css/css-contain/contain-size-replaced-003c.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-size-replaced-003c.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-size-replaced-003c.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0336] [WPT reftest] css/css-contain/content-visibility/content-visibility-049.html
   triage: pending
   side: canary, stable
@@ -1740,7 +1742,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): navigating to page 1
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: false
   stable error: Error: page.addStyleTag: Execution context was destroyed, most likely because of a navigation
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-076.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

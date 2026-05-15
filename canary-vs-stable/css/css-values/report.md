@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 209
-- Entries with differences: 80 (pending: 80, triaged: 0)
+- Entries with differences: 81 (pending: 81, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":128,"known-fail":79,"changed-fail":1,"unchanged":1}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":127,"known-fail":80,"regression":1,"unchanged":1}
 
 ## Differences
 
@@ -386,6 +386,15 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/inline-cache-base-uri-cssom.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/inline-cache-base-uri-cssom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0127] [WPT reftest] css/css-values/inline-cache-base-uri.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-values/inline-cache-base-uri-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/inline-cache-base-uri.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.6283919166475842, diffPixels=526884
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/inline-cache-base-uri-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0132] [WPT reftest] css/css-values/max-20-arguments.html
   triage: pending
@@ -1013,15 +1022,15 @@
 
 - [0196] [WPT reftest] css/css-values/vh-update-and-transition-in-subframe.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-values/reference/vh-update-and-transition-in-subframe-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00014311884588962676, diffPixels=120
+  canary page 1: diffRatio=0.0007155942294481337, diffPixels=600
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002862376917792535, diffPixels=240
+  stable page 1: diffRatio=0.0007155942294481337, diffPixels=600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0199] [WPT reftest] css/css-values/viewport-units-scrollbars-auto-vhw-001.html

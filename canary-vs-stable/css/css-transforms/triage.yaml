@@ -4247,6 +4247,20 @@
       referenceFile: css/css-transforms/transform-fixed-bg-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-fixed-bg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0455"
+  category: WPT reftest
+  title: css/css-transforms/transform-iframe-001.html
+  file: css/css-transforms/transform-iframe-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-iframe-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-iframe-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0457"
   category: WPT reftest
   title: css/css-transforms/transform-iframe-scroll-position.html

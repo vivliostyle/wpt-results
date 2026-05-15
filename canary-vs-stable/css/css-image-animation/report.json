@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T00:41:47.919Z",
+  "generatedAt": "2026-05-15T20:20:43.921Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,20 +39,24 @@
   },
   "summary": {
     "totalEntries": 19,
-    "entriesWithDifferences": 17,
+    "entriesWithDifferences": 18,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 1,
+    "screenshotMismatches": 3,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 16,
-        "pass": 2,
-        "changed-fail": 1
+        "known-fail": 15,
+        "regression": 1,
+        "improvement": 1,
+        "changed-fail": 1,
+        "pass": 1
       },
       "statusPairs": {
-        "FAIL->FAIL": 17,
-        "PASS->PASS": 2
+        "FAIL->FAIL": 16,
+        "PASS->FAIL": 1,
+        "FAIL->PASS": 1,
+        "PASS->PASS": 1
       }
     },
     "triage": {
@@ -315,10 +319,10 @@
         "css/css-image-animation/image-animation-body-background-no-propagation-paused.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused.html",
-      "actualStatus": "PASS",
+      "actualStatus": "FAIL",
       "baselineStatus": "PASS",
-      "changeType": "pass",
-      "viewerChanged": false,
+      "changeType": "regression",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -328,32 +332,9 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
-    },
-    {
-      "id": "0004",
-      "category": "WPT reftest",
-      "title": "css/css-image-animation/image-animation-body-background-root-propagation-paused.html",
-      "file": [
-        "css/css-image-animation/image-animation-body-background-root-propagation-paused.html"
-      ],
-      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html",
-      "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": [
-        {
-          "referenceFile": "css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html",
-          "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "regression",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -362,12 +343,28 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 536784,
+            "diffRatio": 0.6401992214334784,
+            "exactDiffPixels": 536784,
+            "exactDiffRatio": 0.6401992214334784,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0003-WPT_reftest-css-css-image-animation-image-animation-body-background-no-propagation-paused.html-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
-            "referenceFile": "css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceFile": "css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -395,14 +392,71 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0004-WPT_reftest-css-css-image-animation-image-animation-body-background-root-propagation-paused.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0003-WPT_reftest-css-css-image-animation-image-animation-body-background-no-propagation-paused.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0004",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-body-background-root-propagation-paused.html",
+      "file": [
+        "css/css-image-animation/image-animation-body-background-root-propagation-paused.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "FAIL",
+      "changeType": "improvement",
+      "viewerChanged": true,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 536784,
+            "diffRatio": 0.6401992214334784,
+            "exactDiffPixels": 536784,
+            "exactDiffRatio": 0.6401992214334784,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0004-WPT_reftest-css-css-image-animation-image-animation-body-background-root-propagation-paused.html-p0001.png"
+          }
+        ],
+        "comparisons": [
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html",
@@ -444,7 +498,7 @@
           }
         ],
         "triage": {
-          "status": "pending",
+          "status": "not-needed",
           "decision": ""
         }
       }

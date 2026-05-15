@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1485
-- Entries with differences: 427 (pending: 427, triaged: 0)
+- Entries with differences: 426 (pending: 426, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":1056,"known-fail":427,"unchanged":2}
+- Outcome summary: {"pass":1057,"known-fail":426,"unchanged":2}
 
 ## Differences
 
@@ -2402,11 +2402,11 @@
   reference: css/css-text/text-fit/grow-per-line-all-line-height-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-fit/grow-per-line-all-line-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01674132699793909, diffPixels=14037
+  canary page 1: diffRatio=0.013299318754293566, diffPixels=11151
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-fit/grow-per-line-all-line-height-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-fit/grow-per-line-all-line-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01674132699793909, diffPixels=14037
+  stable page 1: diffRatio=0.013299318754293566, diffPixels=11151
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-fit/grow-per-line-all-line-height-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0739] [WPT reftest] css/css-text/text-fit/grow-per-line-all.html
@@ -2415,11 +2415,11 @@
   reference: css/css-text/text-fit/grow-per-line-all-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-fit/grow-per-line-all.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022234705366002597, diffPixels=18643
+  canary page 1: diffRatio=0.020083152049461872, diffPixels=16839
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-fit/grow-per-line-all-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-fit/grow-per-line-all.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022234705366002597, diffPixels=18643
+  stable page 1: diffRatio=0.020083152049461872, diffPixels=16839
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-fit/grow-per-line-all-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0740] [WPT reftest] css/css-text/text-fit/grow-per-line.html
@@ -2977,19 +2977,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-tailoring-001a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00040311808258911534, diffPixels=338
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-tailoring-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0872] [WPT reftest] css/css-text/text-transform/text-transform-uppercase-dynamic.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000015504541638042898, diffPixels=13
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000015504541638042898, diffPixels=13
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0887] [WPT reftest] css/css-text/text-transform/text-transform-upperlower-016.html
   triage: pending

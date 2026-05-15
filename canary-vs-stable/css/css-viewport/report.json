@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T02:18:53.240Z",
+  "generatedAt": "2026-05-15T22:02:27.429Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -696,12 +696,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 15,
-                "diffRatio": 0.000017889855736203345,
-                "exactDiffPixels": 998,
-                "exactDiffRatio": 0.0011902717349820625,
+                "diffPixels": 14511,
+                "diffRatio": 0.017306646439203113,
+                "exactDiffPixels": 22153,
+                "exactDiffRatio": 0.02642093160827418,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 89,
+                "maxChannelDifference": 255,
                 "dimensionMismatch": false,
                 "diffImage": "actual-reference-diff/0009-WPT_reftest-css-css-viewport-zoom-box-shadow.html-r01-p0001.png"
               }

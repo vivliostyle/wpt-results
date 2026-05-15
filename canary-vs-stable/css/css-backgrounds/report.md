@@ -2,11 +2,11 @@
 
 - Compared entries: 703
 - Entries with differences: 221 (pending: 221, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
-- Timeout entries: 2
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 3
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"known-fail":220,"pass":478,"error":2,"changed-fail":1,"unchanged":2}
+- Screenshot mismatches: 2
+- Outcome summary: {"known-fail":219,"pass":477,"error":3,"changed-fail":2,"unchanged":2}
 
 ## Differences
 
@@ -2447,11 +2447,11 @@
 
 - [0493] [WPT reftest] css/css-backgrounds/background-size-percentage-root.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size-percentage-root-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-percentage-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.23510848408518434, diffPixels=197130
+  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-percentage-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-percentage-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2893,19 +2893,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): navigating to page 1
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): navigating to page 1
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0147] [WPT reftest] css/css-backgrounds/background-color-root-propagation-002.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): navigating to page 1
-  stable timeout: true
-  stable error: TimeoutError: locator.fill: Timeout 10000ms exceeded.
+  canary error: TimeoutError: locator.fill: Timeout 10000ms exceeded.
 Call log:
   - waiting for locator('#vivliostyle-page-number')
     - locator resolved to <input type="text" autocomplete="off" inputmode="numeric" aria-keyshortcuts="G" title="Go to Page… (G)" aria-label="Page number" id="vivliostyle-page-number" data-bind="value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}"/>
@@ -2919,11 +2907,33 @@ Call log:
       - element is not visible
     - retrying fill action
       - waiting 100ms
-    17 × waiting for element to be visible, enabled and editable
+    20 × waiting for element to be visible, enabled and editable
        - element is not visible
      - retrying fill action
        - waiting 500ms
 
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): navigating to page 1
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0147] [WPT reftest] css/css-backgrounds/background-color-root-propagation-002.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): navigating to page 1
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): navigating to page 1
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0401] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-percent-height.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-percent-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-percent-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

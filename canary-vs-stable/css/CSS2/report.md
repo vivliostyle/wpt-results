@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 6849
-- Entries with differences: 1087 (improvement: 1, pending: 1086, triaged: 0)
+- Entries with differences: 1088 (improvement: 1, pending: 1087, triaged: 0)
 - Entries with errors: 3 (pending: 3, triaged: 0)
 - Timeout entries: 3
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":1086,"pass":5201,"improvement":1,"error":3,"unchanged":558}
+- Outcome summary: {"known-fail":1087,"pass":5200,"improvement":1,"error":3,"unchanged":558}
 
 ## Differences
 
@@ -328,11 +328,11 @@
   reference: css/CSS2/backgrounds/background-bg-pos-204-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-bg-pos-204.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00007155942294481338, diffPixels=60
+  canary page 1: diffRatio=0.000023853140981604456, diffPixels=20
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-bg-pos-204-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-bg-pos-204.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00007155942294481338, diffPixels=60
+  stable page 1: diffRatio=0.000023853140981604456, diffPixels=20
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-bg-pos-204-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0162] [WPT reftest] css/CSS2/backgrounds/background-bg-pos-206.xht
@@ -1491,6 +1491,19 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/box-display/containing-block-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.025547906648347454, diffPixels=21421
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/box-display/containing-block-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1018] [WPT reftest] css/CSS2/box-display/containing-block-023.xht
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/CSS2/box-display/containing-block-023-ref.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/box-display/containing-block-023.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.010991527364323335, diffPixels=9216
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/box-display/containing-block-023-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/box-display/containing-block-023.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.010991527364323335, diffPixels=9216
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/box-display/containing-block-023-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1024] [WPT reftest] css/CSS2/box-display/delete-block-in-inlines-beginning-001.xht
   triage: pending
@@ -5379,6 +5392,12 @@
   stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/margin-padding-clear/margin-em-inherit-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [2535] [WPT reftest] css/CSS2/margin-padding-clear/margin-left-030.xht
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/margin-padding-clear/margin-left-030.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/margin-padding-clear/margin-left-030.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [2561] [WPT reftest] css/CSS2/margin-padding-clear/margin-left-091.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -5534,12 +5553,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/margin-padding-clear/padding-left-084.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0002289901534234028, diffPixels=192
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/margin-padding-clear/margin-left-031-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [2979] [WPT reftest] css/CSS2/margin-padding-clear/padding-shorthand-002.xht
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/margin-padding-clear/padding-shorthand-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/margin-padding-clear/padding-shorthand-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [3031] [WPT reftest] css/CSS2/margin-padding-clear/padding-top-080.xht
   triage: pending
@@ -14197,7 +14210,7 @@
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
