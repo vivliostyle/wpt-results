@@ -2,11 +2,11 @@
 
 - Compared entries: 792
 - Entries with differences: 257 (pending: 257, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":534,"known-fail":256,"regression":1,"unchanged":1}
+- Outcome summary: {"pass":534,"known-fail":257,"unchanged":1}
 
 ## Differences
 
@@ -1882,6 +1882,19 @@
   stable page 1: diffRatio=0.016399034424853066, diffPixels=13750
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/cssbox-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0411] [WPT reftest] css/css-transforms/transform-box/fill-box-mutation-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-transforms/transform-box/reference/greensquare200x200.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0412] [WPT reftest] css/css-transforms/transform-box/stroke-box-mutation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -2050,12 +2063,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-fixed-bg-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.004412831081596825, diffPixels=3700
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-fixed-bg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0455] [WPT reftest] css/css-transforms/transform-iframe-001.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-iframe-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-iframe-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0457] [WPT reftest] css/css-transforms/transform-iframe-scroll-position.html
   triage: pending
@@ -3343,15 +3350,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/ttwf-reftest-rotate.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00942199068773376, diffPixels=7900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/reference/ttwf-reftest-rotate-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0455] [WPT reftest] css/css-transforms/transform-iframe-001.html
-  triage: pending
-  side: canary-reference
-  reference: css/css-transforms/transform-iframe-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-iframe-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

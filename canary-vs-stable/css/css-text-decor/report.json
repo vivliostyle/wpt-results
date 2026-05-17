@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T21:34:29.750Z",
+  "generatedAt": "2026-05-17T04:14:47.386Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -43,11 +43,12 @@
     "entriesWithErrors": 6,
     "timeoutEntries": 6,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 0,
+    "screenshotMismatches": 1,
     "outcomes": {
       "changeTypes": {
         "pass": 126,
-        "known-fail": 164,
+        "known-fail": 163,
+        "changed-fail": 1,
         "error": 6,
         "unchanged": 66
       },
@@ -8463,8 +8464,8 @@
       "sourceUrl": "https://wpt.live/css/css-text-decor/text-emphasis-line-height-001z.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "changed-fail",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-emphasis-line-height-001z.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-emphasis-line-height-001z.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -8476,7 +8477,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "changed-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -8485,7 +8486,23 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 2081,
+            "diffRatio": 0.0024819193191359438,
+            "exactDiffPixels": 4372,
+            "exactDiffRatio": 0.0052142966185787345,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0122-WPT_reftest-css-css-text-decor-text-emphasis-line-height-001z.html-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -8511,10 +8528,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 496,
-                "diffRatio": 0.0005915578963437906,
-                "exactDiffPixels": 2956,
-                "exactDiffRatio": 0.0035254942370811387,
+                "diffPixels": 2319,
+                "diffRatio": 0.002765771696817037,
+                "exactDiffPixels": 4726,
+                "exactDiffRatio": 0.005636497213953134,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -17670,7 +17687,7 @@
               "side": "stable",
               "error": {
                 "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
+                "message": "page.waitForFunction: Timeout 10000ms exceeded.",
                 "timeout": true
               }
             }

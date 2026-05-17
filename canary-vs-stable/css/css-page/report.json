@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T20:53:01.387Z",
+  "generatedAt": "2026-05-17T03:34:41.477Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -43,12 +43,12 @@
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 3,
+    "screenshotMismatches": 2,
     "outcomes": {
       "changeTypes": {
         "pass": 97,
-        "known-fail": 124,
-        "changed-fail": 3,
+        "known-fail": 125,
+        "changed-fail": 2,
         "unchanged": 20
       },
       "statusPairs": {
@@ -9195,8 +9195,8 @@
       "sourceUrl": "https://wpt.live/css/css-page/page-background-001-print.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-background-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-background-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -9208,7 +9208,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -9217,23 +9217,7 @@
         "baseline": {
           "totalPages": 2
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 2154,
-            "diffRatio": 0.0025689832837188,
-            "exactDiffPixels": 2154,
-            "exactDiffRatio": 0.0025689832837188,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0103-WPT_print-reftest-css-css-page-page-background-001-print.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -9261,10 +9245,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 2154,
-                "diffRatio": 0.0025689832837188,
-                "exactDiffPixels": 2154,
-                "exactDiffRatio": 0.0025689832837188,
+                "diffPixels": 1270,
+                "diffRatio": 0.001514674452331883,
+                "exactDiffPixels": 1270,
+                "exactDiffRatio": 0.001514674452331883,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,

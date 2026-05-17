@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T19:40:42.280Z",
+  "generatedAt": "2026-05-17T02:26:15.033Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -38,8 +38,8 @@
     "timeoutMs": 10000
   },
   "summary": {
-    "totalEntries": 62,
-    "entriesWithDifferences": 36,
+    "totalEntries": 63,
+    "entriesWithDifferences": 37,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
@@ -47,23 +47,23 @@
     "outcomes": {
       "changeTypes": {
         "pass": 26,
-        "known-fail": 36
+        "known-fail": 37
       },
       "statusPairs": {
         "PASS->PASS": 26,
-        "FAIL->FAIL": 36
+        "FAIL->FAIL": 37
       }
     },
     "triage": {
       "differences": {
-        "pending": 36,
+        "pending": 37,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 36,
+      "pendingEntries": 37,
       "triagedEntries": 0
     }
   },
@@ -212,6 +212,125 @@
     {
       "id": "0004",
       "category": "WPT reftest",
+      "title": "css/css-content/attr-case-sensitivity-004.html",
+      "file": [
+        "css/css-content/attr-case-sensitivity-004.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-content/attr-case-sensitivity-004.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/attr-case-sensitivity-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/attr-case-sensitivity-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-content/attr-case-sensitivity-ref-004.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/attr-case-sensitivity-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/attr-case-sensitivity-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-content/attr-case-sensitivity-ref-004.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/attr-case-sensitivity-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10000,
+                "diffRatio": 0.01192657049080223,
+                "exactDiffPixels": 10000,
+                "exactDiffRatio": 0.01192657049080223,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0004-WPT_reftest-css-css-content-attr-case-sensitivity-004.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/attr-case-sensitivity-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-content/attr-case-sensitivity-ref-004.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/attr-case-sensitivity-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10000,
+                "diffRatio": 0.01192657049080223,
+                "exactDiffPixels": 10000,
+                "exactDiffRatio": 0.01192657049080223,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0004-WPT_reftest-css-css-content-attr-case-sensitivity-004.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/attr-case-sensitivity-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0005",
+      "category": "WPT reftest",
       "title": "css/css-content/attr-chained-pseudo-001.html",
       "file": [
         "css/css-content/attr-chained-pseudo-001.html"
@@ -274,7 +393,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0004-WPT_reftest-css-css-content-attr-chained-pseudo-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0005-WPT_reftest-css-css-content-attr-chained-pseudo-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -313,7 +432,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0004-WPT_reftest-css-css-content-attr-chained-pseudo-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0005-WPT_reftest-css-css-content-attr-chained-pseudo-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -329,7 +448,7 @@
       }
     },
     {
-      "id": "0005",
+      "id": "0006",
       "category": "WPT reftest",
       "title": "css/css-content/content-none-select-1.html",
       "file": [
@@ -352,7 +471,7 @@
       ]
     },
     {
-      "id": "0006",
+      "id": "0007",
       "category": "WPT reftest",
       "title": "css/css-content/element-replacement-alt.html",
       "file": [
@@ -416,7 +535,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0006-WPT_reftest-css-css-content-element-replacement-alt.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0007-WPT_reftest-css-css-content-element-replacement-alt.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -455,7 +574,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0006-WPT_reftest-css-css-content-element-replacement-alt.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0007-WPT_reftest-css-css-content-element-replacement-alt.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -471,7 +590,7 @@
       }
     },
     {
-      "id": "0007",
+      "id": "0008",
       "category": "WPT reftest",
       "title": "css/css-content/element-replacement-display-contents.html",
       "file": [
@@ -494,7 +613,7 @@
       ]
     },
     {
-      "id": "0008",
+      "id": "0009",
       "category": "WPT reftest",
       "title": "css/css-content/element-replacement-display-none.html",
       "file": [
@@ -517,7 +636,7 @@
       ]
     },
     {
-      "id": "0009",
+      "id": "0010",
       "category": "WPT reftest",
       "title": "css/css-content/element-replacement-dynamic.html",
       "file": [
@@ -581,7 +700,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0009-WPT_reftest-css-css-content-element-replacement-dynamic.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0010-WPT_reftest-css-css-content-element-replacement-dynamic.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -620,7 +739,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0009-WPT_reftest-css-css-content-element-replacement-dynamic.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0010-WPT_reftest-css-css-content-element-replacement-dynamic.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -636,7 +755,7 @@
       }
     },
     {
-      "id": "0010",
+      "id": "0011",
       "category": "WPT reftest",
       "title": "css/css-content/element-replacement-gradient.html",
       "file": [
@@ -700,7 +819,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0010-WPT_reftest-css-css-content-element-replacement-gradient.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0011-WPT_reftest-css-css-content-element-replacement-gradient.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -739,7 +858,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0010-WPT_reftest-css-css-content-element-replacement-gradient.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0011-WPT_reftest-css-css-content-element-replacement-gradient.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -755,7 +874,7 @@
       }
     },
     {
-      "id": "0011",
+      "id": "0012",
       "category": "WPT reftest",
       "title": "css/css-content/element-replacement-image-alt.html",
       "file": [
@@ -819,7 +938,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0011-WPT_reftest-css-css-content-element-replacement-image-alt.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0012-WPT_reftest-css-css-content-element-replacement-image-alt.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -858,7 +977,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0011-WPT_reftest-css-css-content-element-replacement-image-alt.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0012-WPT_reftest-css-css-content-element-replacement-image-alt.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -874,7 +993,7 @@
       }
     },
     {
-      "id": "0012",
+      "id": "0013",
       "category": "WPT reftest",
       "title": "css/css-content/element-replacement-image-no-src.tentative.html",
       "file": [
@@ -938,7 +1057,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0012-WPT_reftest-css-css-content-element-replacement-image-no-src.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0013-WPT_reftest-css-css-content-element-replacement-image-no-src.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -977,7 +1096,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0012-WPT_reftest-css-css-content-element-replacement-image-no-src.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0013-WPT_reftest-css-css-content-element-replacement-image-no-src.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -993,7 +1112,7 @@
       }
     },
     {
-      "id": "0013",
+      "id": "0014",
       "category": "WPT reftest",
       "title": "css/css-content/element-replacement-image-src.tentative.html",
       "file": [
@@ -1057,7 +1176,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0013-WPT_reftest-css-css-content-element-replacement-image-src.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0014-WPT_reftest-css-css-content-element-replacement-image-src.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1096,7 +1215,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0013-WPT_reftest-css-css-content-element-replacement-image-src.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0014-WPT_reftest-css-css-content-element-replacement-image-src.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1112,7 +1231,7 @@
       }
     },
     {
-      "id": "0014",
+      "id": "0015",
       "category": "WPT reftest",
       "title": "css/css-content/element-replacement-on-replaced-element.tentative.html",
       "file": [
@@ -1135,7 +1254,7 @@
       ]
     },
     {
-      "id": "0015",
+      "id": "0016",
       "category": "WPT reftest",
       "title": "css/css-content/element-replacement-root-canvas-bg-from-body.html",
       "file": [
@@ -1199,7 +1318,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0015-WPT_reftest-css-css-content-element-replacement-root-canvas-bg-from-body.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0016-WPT_reftest-css-css-content-element-replacement-root-canvas-bg-from-body.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1238,7 +1357,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0015-WPT_reftest-css-css-content-element-replacement-root-canvas-bg-from-body.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0016-WPT_reftest-css-css-content-element-replacement-root-canvas-bg-from-body.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1254,7 +1373,7 @@
       }
     },
     {
-      "id": "0016",
+      "id": "0017",
       "category": "WPT reftest",
       "title": "css/css-content/element-replacement-root-canvas-bg.html",
       "file": [
@@ -1318,7 +1437,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0016-WPT_reftest-css-css-content-element-replacement-root-canvas-bg.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0017-WPT_reftest-css-css-content-element-replacement-root-canvas-bg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1357,7 +1476,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0016-WPT_reftest-css-css-content-element-replacement-root-canvas-bg.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0017-WPT_reftest-css-css-content-element-replacement-root-canvas-bg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1373,7 +1492,7 @@
       }
     },
     {
-      "id": "0017",
+      "id": "0018",
       "category": "WPT reftest",
       "title": "css/css-content/element-replacement-root.html",
       "file": [
@@ -1437,7 +1556,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0017-WPT_reftest-css-css-content-element-replacement-root.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0018-WPT_reftest-css-css-content-element-replacement-root.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1476,7 +1595,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0017-WPT_reftest-css-css-content-element-replacement-root.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0018-WPT_reftest-css-css-content-element-replacement-root.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1492,7 +1611,7 @@
       }
     },
     {
-      "id": "0018",
+      "id": "0019",
       "category": "WPT reftest",
       "title": "css/css-content/element-replacement.html",
       "file": [
@@ -1556,7 +1675,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0018-WPT_reftest-css-css-content-element-replacement.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0019-WPT_reftest-css-css-content-element-replacement.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1595,7 +1714,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0018-WPT_reftest-css-css-content-element-replacement.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0019-WPT_reftest-css-css-content-element-replacement.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1611,7 +1730,7 @@
       }
     },
     {
-      "id": "0019",
+      "id": "0020",
       "category": "WPT reftest",
       "title": "css/css-content/pseudo-element-inline-box.html",
       "file": [
@@ -1675,7 +1794,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0019-WPT_reftest-css-css-content-pseudo-element-inline-box.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0020-WPT_reftest-css-css-content-pseudo-element-inline-box.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1714,7 +1833,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0019-WPT_reftest-css-css-content-pseudo-element-inline-box.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0020-WPT_reftest-css-css-content-pseudo-element-inline-box.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1730,7 +1849,7 @@
       }
     },
     {
-      "id": "0020",
+      "id": "0021",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-001.html",
       "file": [
@@ -1753,7 +1872,7 @@
       ]
     },
     {
-      "id": "0021",
+      "id": "0022",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-002.html",
       "file": [
@@ -1817,7 +1936,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 72,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0021-WPT_reftest-css-css-content-quotes-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0022-WPT_reftest-css-css-content-quotes-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1856,7 +1975,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 72,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0021-WPT_reftest-css-css-content-quotes-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0022-WPT_reftest-css-css-content-quotes-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1872,7 +1991,7 @@
       }
     },
     {
-      "id": "0022",
+      "id": "0023",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-003.html",
       "file": [
@@ -1936,7 +2055,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 79,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0022-WPT_reftest-css-css-content-quotes-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0023-WPT_reftest-css-css-content-quotes-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1975,7 +2094,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 79,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0022-WPT_reftest-css-css-content-quotes-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0023-WPT_reftest-css-css-content-quotes-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1991,7 +2110,7 @@
       }
     },
     {
-      "id": "0023",
+      "id": "0024",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-004.html",
       "file": [
@@ -2055,7 +2174,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0023-WPT_reftest-css-css-content-quotes-004.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0024-WPT_reftest-css-css-content-quotes-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2094,7 +2213,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0023-WPT_reftest-css-css-content-quotes-004.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0024-WPT_reftest-css-css-content-quotes-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2110,7 +2229,7 @@
       }
     },
     {
-      "id": "0024",
+      "id": "0025",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-005.html",
       "file": [
@@ -2174,7 +2293,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0024-WPT_reftest-css-css-content-quotes-005.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0025-WPT_reftest-css-css-content-quotes-005.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2213,7 +2332,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0024-WPT_reftest-css-css-content-quotes-005.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0025-WPT_reftest-css-css-content-quotes-005.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2229,7 +2348,7 @@
       }
     },
     {
-      "id": "0025",
+      "id": "0026",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-006.html",
       "file": [
@@ -2252,7 +2371,7 @@
       ]
     },
     {
-      "id": "0026",
+      "id": "0027",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-007.html",
       "file": [
@@ -2275,7 +2394,7 @@
       ]
     },
     {
-      "id": "0027",
+      "id": "0028",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-008.html",
       "file": [
@@ -2339,7 +2458,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0027-WPT_reftest-css-css-content-quotes-008.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0028-WPT_reftest-css-css-content-quotes-008.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2378,7 +2497,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0027-WPT_reftest-css-css-content-quotes-008.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0028-WPT_reftest-css-css-content-quotes-008.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2394,7 +2513,7 @@
       }
     },
     {
-      "id": "0028",
+      "id": "0029",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-009.html",
       "file": [
@@ -2458,7 +2577,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0028-WPT_reftest-css-css-content-quotes-009.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0029-WPT_reftest-css-css-content-quotes-009.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2497,7 +2616,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0028-WPT_reftest-css-css-content-quotes-009.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0029-WPT_reftest-css-css-content-quotes-009.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2513,7 +2632,7 @@
       }
     },
     {
-      "id": "0029",
+      "id": "0030",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-010.html",
       "file": [
@@ -2577,7 +2696,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0029-WPT_reftest-css-css-content-quotes-010.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0030-WPT_reftest-css-css-content-quotes-010.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2616,7 +2735,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0029-WPT_reftest-css-css-content-quotes-010.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0030-WPT_reftest-css-css-content-quotes-010.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2632,7 +2751,7 @@
       }
     },
     {
-      "id": "0030",
+      "id": "0031",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-011.html",
       "file": [
@@ -2696,7 +2815,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0030-WPT_reftest-css-css-content-quotes-011.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0031-WPT_reftest-css-css-content-quotes-011.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2735,7 +2854,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0030-WPT_reftest-css-css-content-quotes-011.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0031-WPT_reftest-css-css-content-quotes-011.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2751,7 +2870,7 @@
       }
     },
     {
-      "id": "0031",
+      "id": "0032",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-012.html",
       "file": [
@@ -2774,7 +2893,7 @@
       ]
     },
     {
-      "id": "0032",
+      "id": "0033",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-013.html",
       "file": [
@@ -2838,7 +2957,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0032-WPT_reftest-css-css-content-quotes-013.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0033-WPT_reftest-css-css-content-quotes-013.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2877,7 +2996,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0032-WPT_reftest-css-css-content-quotes-013.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0033-WPT_reftest-css-css-content-quotes-013.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2893,7 +3012,7 @@
       }
     },
     {
-      "id": "0033",
+      "id": "0034",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-014.html",
       "file": [
@@ -2916,7 +3035,7 @@
       ]
     },
     {
-      "id": "0034",
+      "id": "0035",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-015.html",
       "file": [
@@ -2980,7 +3099,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0034-WPT_reftest-css-css-content-quotes-015.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0035-WPT_reftest-css-css-content-quotes-015.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3019,7 +3138,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0034-WPT_reftest-css-css-content-quotes-015.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0035-WPT_reftest-css-css-content-quotes-015.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3035,7 +3154,7 @@
       }
     },
     {
-      "id": "0035",
+      "id": "0036",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-016.html",
       "file": [
@@ -3099,7 +3218,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0035-WPT_reftest-css-css-content-quotes-016.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0036-WPT_reftest-css-css-content-quotes-016.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3138,7 +3257,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0035-WPT_reftest-css-css-content-quotes-016.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0036-WPT_reftest-css-css-content-quotes-016.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3154,7 +3273,7 @@
       }
     },
     {
-      "id": "0036",
+      "id": "0037",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-017.html",
       "file": [
@@ -3177,7 +3296,7 @@
       ]
     },
     {
-      "id": "0037",
+      "id": "0038",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-018.html",
       "file": [
@@ -3200,7 +3319,7 @@
       ]
     },
     {
-      "id": "0038",
+      "id": "0039",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-019.html",
       "file": [
@@ -3223,7 +3342,7 @@
       ]
     },
     {
-      "id": "0039",
+      "id": "0040",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-020.html",
       "file": [
@@ -3246,7 +3365,7 @@
       ]
     },
     {
-      "id": "0040",
+      "id": "0041",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-021.html",
       "file": [
@@ -3310,7 +3429,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0040-WPT_reftest-css-css-content-quotes-021.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0041-WPT_reftest-css-css-content-quotes-021.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3349,7 +3468,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0040-WPT_reftest-css-css-content-quotes-021.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0041-WPT_reftest-css-css-content-quotes-021.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3365,7 +3484,7 @@
       }
     },
     {
-      "id": "0041",
+      "id": "0042",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-022.html",
       "file": [
@@ -3388,7 +3507,7 @@
       ]
     },
     {
-      "id": "0042",
+      "id": "0043",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-023.html",
       "file": [
@@ -3411,7 +3530,7 @@
       ]
     },
     {
-      "id": "0043",
+      "id": "0044",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-024.html",
       "file": [
@@ -3434,7 +3553,7 @@
       ]
     },
     {
-      "id": "0044",
+      "id": "0045",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-025.html",
       "file": [
@@ -3457,7 +3576,7 @@
       ]
     },
     {
-      "id": "0045",
+      "id": "0046",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-026.html",
       "file": [
@@ -3530,7 +3649,7 @@
                 "exceededDiffPixels": 1391,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0045-WPT_reftest-css-css-content-quotes-026.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0046-WPT_reftest-css-css-content-quotes-026.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3578,7 +3697,7 @@
                 "exceededDiffPixels": 1391,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0045-WPT_reftest-css-css-content-quotes-026.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0046-WPT_reftest-css-css-content-quotes-026.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3594,7 +3713,7 @@
       }
     },
     {
-      "id": "0046",
+      "id": "0047",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-027.html",
       "file": [
@@ -3617,7 +3736,7 @@
       ]
     },
     {
-      "id": "0047",
+      "id": "0048",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-028.html",
       "file": [
@@ -3640,7 +3759,7 @@
       ]
     },
     {
-      "id": "0048",
+      "id": "0049",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-029.html",
       "file": [
@@ -3663,7 +3782,7 @@
       ]
     },
     {
-      "id": "0049",
+      "id": "0050",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-030.html",
       "file": [
@@ -3727,7 +3846,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0049-WPT_reftest-css-css-content-quotes-030.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0050-WPT_reftest-css-css-content-quotes-030.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3766,7 +3885,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0049-WPT_reftest-css-css-content-quotes-030.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0050-WPT_reftest-css-css-content-quotes-030.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3782,7 +3901,7 @@
       }
     },
     {
-      "id": "0050",
+      "id": "0051",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-031.html",
       "file": [
@@ -3805,7 +3924,7 @@
       ]
     },
     {
-      "id": "0051",
+      "id": "0052",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-032.html",
       "file": [
@@ -3828,7 +3947,7 @@
       ]
     },
     {
-      "id": "0052",
+      "id": "0053",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-033.html",
       "file": [
@@ -3892,7 +4011,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 77,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0052-WPT_reftest-css-css-content-quotes-033.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0053-WPT_reftest-css-css-content-quotes-033.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3931,7 +4050,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 77,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0052-WPT_reftest-css-css-content-quotes-033.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0053-WPT_reftest-css-css-content-quotes-033.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3947,7 +4066,7 @@
       }
     },
     {
-      "id": "0053",
+      "id": "0054",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-034.html",
       "file": [
@@ -4011,7 +4130,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0053-WPT_reftest-css-css-content-quotes-034.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0054-WPT_reftest-css-css-content-quotes-034.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4050,7 +4169,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0053-WPT_reftest-css-css-content-quotes-034.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0054-WPT_reftest-css-css-content-quotes-034.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4066,7 +4185,7 @@
       }
     },
     {
-      "id": "0054",
+      "id": "0055",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-035.html",
       "file": [
@@ -4089,7 +4208,7 @@
       ]
     },
     {
-      "id": "0055",
+      "id": "0056",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-first-letter-001.html",
       "file": [
@@ -4153,7 +4272,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0055-WPT_reftest-css-css-content-quotes-first-letter-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0056-WPT_reftest-css-css-content-quotes-first-letter-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4192,7 +4311,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0055-WPT_reftest-css-css-content-quotes-first-letter-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0056-WPT_reftest-css-css-content-quotes-first-letter-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4208,7 +4327,7 @@
       }
     },
     {
-      "id": "0056",
+      "id": "0057",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-first-letter-002.html",
       "file": [
@@ -4272,7 +4391,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 128,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0056-WPT_reftest-css-css-content-quotes-first-letter-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0057-WPT_reftest-css-css-content-quotes-first-letter-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4311,7 +4430,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 128,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0056-WPT_reftest-css-css-content-quotes-first-letter-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0057-WPT_reftest-css-css-content-quotes-first-letter-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4327,7 +4446,7 @@
       }
     },
     {
-      "id": "0057",
+      "id": "0058",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-first-letter-003.html",
       "file": [
@@ -4391,7 +4510,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0057-WPT_reftest-css-css-content-quotes-first-letter-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0058-WPT_reftest-css-css-content-quotes-first-letter-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4430,7 +4549,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0057-WPT_reftest-css-css-content-quotes-first-letter-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0058-WPT_reftest-css-css-content-quotes-first-letter-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4446,7 +4565,7 @@
       }
     },
     {
-      "id": "0058",
+      "id": "0059",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-first-letter-004.html",
       "file": [
@@ -4510,7 +4629,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 128,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0058-WPT_reftest-css-css-content-quotes-first-letter-004.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0059-WPT_reftest-css-css-content-quotes-first-letter-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4549,7 +4668,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 128,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0058-WPT_reftest-css-css-content-quotes-first-letter-004.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0059-WPT_reftest-css-css-content-quotes-first-letter-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4565,7 +4684,7 @@
       }
     },
     {
-      "id": "0059",
+      "id": "0060",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-first-letter-005.html",
       "file": [
@@ -4629,7 +4748,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 128,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0059-WPT_reftest-css-css-content-quotes-first-letter-005.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0060-WPT_reftest-css-css-content-quotes-first-letter-005.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4668,7 +4787,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 128,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0059-WPT_reftest-css-css-content-quotes-first-letter-005.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0060-WPT_reftest-css-css-content-quotes-first-letter-005.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4684,7 +4803,7 @@
       }
     },
     {
-      "id": "0060",
+      "id": "0061",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-first-line.html",
       "file": [
@@ -4707,7 +4826,7 @@
       ]
     },
     {
-      "id": "0061",
+      "id": "0062",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-lang-dynamic-001.html",
       "file": [
@@ -4771,7 +4890,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0061-WPT_reftest-css-css-content-quotes-lang-dynamic-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0062-WPT_reftest-css-css-content-quotes-lang-dynamic-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4810,7 +4929,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0061-WPT_reftest-css-css-content-quotes-lang-dynamic-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0062-WPT_reftest-css-css-content-quotes-lang-dynamic-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4826,7 +4945,7 @@
       }
     },
     {
-      "id": "0062",
+      "id": "0063",
       "category": "WPT reftest",
       "title": "css/css-content/quotes-slot-scoping.html",
       "file": [
@@ -4890,7 +5009,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0062-WPT_reftest-css-css-content-quotes-slot-scoping.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0063-WPT_reftest-css-css-content-quotes-slot-scoping.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4929,7 +5048,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0062-WPT_reftest-css-css-content-quotes-slot-scoping.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0063-WPT_reftest-css-css-content-quotes-slot-scoping.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,

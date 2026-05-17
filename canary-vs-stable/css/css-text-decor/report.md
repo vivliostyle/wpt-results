@@ -5,8 +5,8 @@
 - Entries with errors: 6 (pending: 6, triaged: 0)
 - Timeout entries: 6
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":126,"known-fail":164,"error":6,"unchanged":66}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":126,"known-fail":163,"changed-fail":1,"error":6,"unchanged":66}
 
 ## Differences
 
@@ -766,11 +766,11 @@
 
 - [0122] [WPT reftest] css/css-text-decor/text-emphasis-line-height-001z.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text-decor/text-emphasis-line-height-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-emphasis-line-height-001z.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005915578963437906, diffPixels=496
+  canary page 1: diffRatio=0.002765771696817037, diffPixels=2319
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-emphasis-line-height-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-emphasis-line-height-001z.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2180,7 +2180,7 @@
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-emphasis-style-property-010Zl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-emphasis-style-property-010Zl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

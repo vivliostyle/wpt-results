@@ -3107,19 +3107,6 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/background-size-vector-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
-  relation: "=="
-  diffPages:
-    - css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0279"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/background-size-vector-029.html
@@ -3134,19 +3121,6 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/background-size-vector-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
-  relation: "=="
-  diffPages:
-    - css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0282"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--auto--percent-width-nonpercent-height-viewbox.html
@@ -6025,7 +5999,7 @@
               - element is not visible
             - retrying fill action
               - waiting 100ms
-            20 × waiting for element to be visible, enabled and editable
+            19 × waiting for element to be visible, enabled and editable
                - element is not visible
              - retrying fill action
                - waiting 500ms
@@ -6051,20 +6025,3 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): navigating to page 1"
-- id: "0401"
-  category: WPT reftest
-  title: css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-percent-height.html
-  file: css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-percent-height.html
-  type: error
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-percent-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-percent-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  errorSide: canary, stable
-  errorName: TimeoutError
-  errorMessage: "Timeout (10000ms): waiting for viewer ready"

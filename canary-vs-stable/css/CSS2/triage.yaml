@@ -759,6 +759,276 @@
       referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0184"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-image-applies-to-001.xht
+  file: css/CSS2/backgrounds/background-image-applies-to-001.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/reference/ref-filled-black-96px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0185"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-image-applies-to-002.xht
+  file: css/CSS2/backgrounds/background-image-applies-to-002.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/reference/ref-filled-black-96px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0186"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-image-applies-to-003.xht
+  file: css/CSS2/backgrounds/background-image-applies-to-003.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/reference/ref-filled-black-96px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0187"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-image-applies-to-004.xht
+  file: css/CSS2/backgrounds/background-image-applies-to-004.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/reference/ref-filled-black-96px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0188"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-image-applies-to-005.xht
+  file: css/CSS2/backgrounds/background-image-applies-to-005.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/reference/ref-filled-black-96px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0189"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-image-applies-to-006.xht
+  file: css/CSS2/backgrounds/background-image-applies-to-006.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/reference/ref-filled-black-96px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0190"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-image-applies-to-007.xht
+  file: css/CSS2/backgrounds/background-image-applies-to-007.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/reference/ref-filled-black-96px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0191"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-image-applies-to-009.xht
+  file: css/CSS2/backgrounds/background-image-applies-to-009.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/reference/ref-filled-black-96px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0192"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-image-applies-to-012.xht
+  file: css/CSS2/backgrounds/background-image-applies-to-012.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/reference/ref-filled-black-96px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0193"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-image-applies-to-013.xht
+  file: css/CSS2/backgrounds/background-image-applies-to-013.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/reference/ref-filled-black-96px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0194"
   category: WPT reftest
   title: css/CSS2/backgrounds/background-image-applies-to-014.xht
@@ -786,6 +1056,276 @@
       referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0195"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-image-applies-to-015.xht
+  file: css/CSS2/backgrounds/background-image-applies-to-015.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-015.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-applies-to-015.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/reference/ref-filled-black-96px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/reference/ref-filled-black-96px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0196"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-image-cover-002.xht
+  file: css/CSS2/backgrounds/background-image-cover-002.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-cover-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-cover-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-image-cover-002-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-image-cover-002-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-image-cover-002-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-cover-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-image-cover-002-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-cover-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0197"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-image-cover-004.xht
+  file: css/CSS2/backgrounds/background-image-cover-004.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-cover-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-cover-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-image-cover-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-image-cover-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-image-cover-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-cover-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-image-cover-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-cover-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0198"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-image-cover-attachment-001.xht
+  file: css/CSS2/backgrounds/background-image-cover-attachment-001.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-cover-attachment-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-cover-attachment-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-image-cover-attachment-001-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-image-cover-attachment-001-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-image-cover-attachment-001-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-cover-attachment-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-image-cover-attachment-001-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-cover-attachment-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0199"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-image-transparency-001.xht
+  file: css/CSS2/backgrounds/background-image-transparency-001.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-image-transparency-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-image-transparency-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-001-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-001-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-001-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-001-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0200"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-intrinsic-001.xht
+  file: css/CSS2/backgrounds/background-intrinsic-001.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-intrinsic-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0201"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-intrinsic-002.xht
+  file: css/CSS2/backgrounds/background-intrinsic-002.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-intrinsic-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0202"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-intrinsic-003.xht
+  file: css/CSS2/backgrounds/background-intrinsic-003.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-intrinsic-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0203"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-intrinsic-004.xht
+  file: css/CSS2/backgrounds/background-intrinsic-004.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-intrinsic-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0204"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-intrinsic-005.xht
+  file: css/CSS2/backgrounds/background-intrinsic-005.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-intrinsic-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0205"
   category: WPT reftest
   title: css/CSS2/backgrounds/background-intrinsic-006.xht
@@ -800,6 +1340,60 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-intrinsic-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0206"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-intrinsic-007.xht
+  file: css/CSS2/backgrounds/background-intrinsic-007.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-intrinsic-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0207"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-intrinsic-008.xht
+  file: css/CSS2/backgrounds/background-intrinsic-008.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-intrinsic-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/CSS2/backgrounds/background-intrinsic-ref.xht
   relation: "=="
   diffPages:
@@ -867,6 +1461,557 @@
       referenceFile: css/CSS2/backgrounds/background-position-002-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0212"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-004.xht
+  file: css/CSS2/backgrounds/background-position-004.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0216"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-008.xht
+  file: css/CSS2/backgrounds/background-position-008.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-007-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-007-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-007-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-007-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0217"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-016.xht
+  file: css/CSS2/backgrounds/background-position-016.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-016.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-016.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0219"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-018.xht
+  file: css/CSS2/backgrounds/background-position-018.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0221"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-029.xht
+  file: css/CSS2/backgrounds/background-position-029.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0222"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-030.xht
+  file: css/CSS2/backgrounds/background-position-030.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-030.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-030.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0223"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-040.xht
+  file: css/CSS2/backgrounds/background-position-040.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-040.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-040.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0224"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-041.xht
+  file: css/CSS2/backgrounds/background-position-041.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-041.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-041.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0225"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-042.xht
+  file: css/CSS2/backgrounds/background-position-042.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-042.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-042.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0226"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-052.xht
+  file: css/CSS2/backgrounds/background-position-052.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-052.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-052.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0227"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-053.xht
+  file: css/CSS2/backgrounds/background-position-053.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-053.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-053.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0228"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-054.xht
+  file: css/CSS2/backgrounds/background-position-054.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-054.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-054.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0229"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-064.xht
+  file: css/CSS2/backgrounds/background-position-064.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-064.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-064.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0230"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-065.xht
+  file: css/CSS2/backgrounds/background-position-065.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-065.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-065.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0231"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-066.xht
+  file: css/CSS2/backgrounds/background-position-066.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-066.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-066.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0232"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-076.xht
+  file: css/CSS2/backgrounds/background-position-076.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-076.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-076.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0233"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-077.xht
+  file: css/CSS2/backgrounds/background-position-077.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-077.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-077.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0234"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-078.xht
+  file: css/CSS2/backgrounds/background-position-078.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-078.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-078.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0235"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-088.xht
+  file: css/CSS2/backgrounds/background-position-088.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-088.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-088.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0236"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-089.xht
+  file: css/CSS2/backgrounds/background-position-089.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-089.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-089.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0238"
+  category: WPT reftest
+  title: css/CSS2/backgrounds/background-position-100.xht
+  file: css/CSS2/backgrounds/background-position-100.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-100.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-100.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+  relation: "=="
+  diffPages:
+    - css/CSS2/backgrounds/background-position-004-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/CSS2/backgrounds/background-position-004-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-position-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0286"
   category: WPT reftest
   title: css/CSS2/backgrounds/background-position-applies-to-001a.xht
@@ -3081,33 +4226,6 @@
       referenceFile: css/CSS2/box-display/containing-block-008-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/box-display/containing-block-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1018"
-  category: WPT reftest
-  title: css/CSS2/box-display/containing-block-023.xht
-  file: css/CSS2/box-display/containing-block-023.xht
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/box-display/containing-block-023.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/box-display/containing-block-023.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/CSS2/box-display/containing-block-023-ref.xht
-  relation: "=="
-  diffPages:
-    - css/CSS2/box-display/containing-block-023-ref.xht#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/CSS2/box-display/containing-block-023-ref.xht
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/box-display/containing-block-023-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/CSS2/box-display/containing-block-023-ref.xht
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/box-display/containing-block-023-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1024"
   category: WPT reftest
   title: css/CSS2/box-display/delete-block-in-inlines-beginning-001.xht
@@ -29589,15 +30707,28 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
-    - side: stable
-      errorName: TimeoutError
-      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
-      timeout: true
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "3826"
+  category: WPT reftest
+  title: css/CSS2/normal-flow/width-082.xht
+  file: css/CSS2/normal-flow/width-082.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/width-082.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/width-082.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: Error
+  errorMessage: >-
+    Viewer error: Failed to load
+    https://raw.githack.com/web-platform-tests/wpt/master/css/CSS2/normal-flow/width-082.xht. The target resource is
+    invalid.
 - id: "6174"
   category: WPT reftest
   title: css/CSS2/visufx/overflow-propagation-001b.html

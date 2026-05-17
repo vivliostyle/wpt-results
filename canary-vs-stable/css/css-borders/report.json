@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T19:18:22.077Z",
+  "generatedAt": "2026-05-17T02:05:41.850Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,21 +39,19 @@
   },
   "summary": {
     "totalEntries": 65,
-    "entriesWithDifferences": 14,
-    "entriesWithErrors": 1,
-    "timeoutEntries": 1,
+    "entriesWithDifferences": 13,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 51,
-        "known-fail": 13,
-        "improvement": 1
+        "pass": 52,
+        "known-fail": 13
       },
       "statusPairs": {
-        "PASS->PASS": 51,
-        "FAIL->FAIL": 13,
-        "FAIL->PASS": 1
+        "PASS->PASS": 52,
+        "FAIL->FAIL": 13
       }
     },
     "triage": {
@@ -62,10 +60,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 1,
+        "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 14,
+      "pendingEntries": 13,
       "triagedEntries": 0
     }
   },
@@ -2669,8 +2667,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-borders/subpixel-borders-with-child.html",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/subpixel-borders-with-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/subpixel-borders-with-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -2680,38 +2678,6 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/subpixel-borders-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/subpixel-borders-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      },
-      "errors": [
-        {
-          "side": "stable-reference",
-          "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
-          },
-          "referenceFile": "css/css-borders/reference/subpixel-borders-with-child-ref.html",
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
         }
       ]
     },

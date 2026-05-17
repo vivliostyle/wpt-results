@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T20:00:49.556Z",
+  "generatedAt": "2026-05-17T02:45:03.998Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -43,12 +43,12 @@
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 1,
+    "screenshotMismatches": 3,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 12,
-        "pass": 2,
-        "changed-fail": 1
+        "known-fail": 10,
+        "changed-fail": 3,
+        "pass": 2
       },
       "statusPairs": {
         "FAIL->FAIL": 13,
@@ -198,8 +198,8 @@
       "sourceUrl": "https://wpt.live/css/css-forms/checkbox-checkmark-animation-002.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "changed-fail",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-forms/checkbox-checkmark-animation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/checkbox-checkmark-animation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -211,7 +211,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "changed-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -220,7 +220,23 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 114,
+            "diffRatio": 0.0001359629035951454,
+            "exactDiffPixels": 161,
+            "exactDiffRatio": 0.0001920177849019159,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0002-WPT_reftest-css-css-forms-checkbox-checkmark-animation-002.html-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -246,8 +262,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 9955,
-                "diffRatio": 0.011872900923593619,
+                "diffPixels": 10000,
+                "diffRatio": 0.01192657049080223,
                 "exactDiffPixels": 10000,
                 "exactDiffRatio": 0.01192657049080223,
                 "exceededDiffPixels": 0,
@@ -1321,10 +1337,10 @@
             "height": 1056,
             "actualWidth": 794,
             "actualHeight": 1056,
-            "diffPixels": 168,
-            "diffRatio": 0.00020036638424547745,
-            "exactDiffPixels": 264,
-            "exactDiffRatio": 0.00031486146095717883,
+            "diffPixels": 192,
+            "diffRatio": 0.0002289901534234028,
+            "exactDiffPixels": 296,
+            "exactDiffRatio": 0.000353026486527746,
             "exceededDiffPixels": 0,
             "maxChannelDifference": 239,
             "dimensionMismatch": false,
@@ -1427,8 +1443,8 @@
       "sourceUrl": "https://wpt.live/css/css-forms/radio-checkmark-animation-002.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "changed-fail",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-forms/radio-checkmark-animation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/radio-checkmark-animation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -1440,7 +1456,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "changed-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -1449,7 +1465,23 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 76,
+            "diffRatio": 0.00009064193573009694,
+            "exactDiffPixels": 133,
+            "exactDiffRatio": 0.00015862338752766964,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0013-WPT_reftest-css-css-forms-radio-checkmark-animation-002.html-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -1475,8 +1507,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 9943,
-                "diffRatio": 0.011858589039004656,
+                "diffPixels": 10000,
+                "diffRatio": 0.01192657049080223,
                 "exactDiffPixels": 10000,
                 "exactDiffRatio": 0.01192657049080223,
                 "exceededDiffPixels": 0,

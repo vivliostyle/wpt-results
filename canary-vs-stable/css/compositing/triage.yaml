@@ -48,6 +48,10 @@
       referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-video-notref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-video-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/compositing/mix-blend-mode/reference/mix-blend-mode-video-notref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-video-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0049"
   category: WPT reftest
   title: css/compositing/root-element-background-image-transparency-001.html

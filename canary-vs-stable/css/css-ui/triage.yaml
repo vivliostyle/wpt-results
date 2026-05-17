@@ -268,33 +268,6 @@
       referenceFile: css/css-ui/reference/caret-eol-001.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/caret-eol-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0068"
-  category: WPT reftest
-  title: css/css-ui/caret-shape-block-002.html
-  file: css/css-ui/caret-shape-block-002.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-ui/caret-shape-block-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-ui/caret-shape-block-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-ui/caret-shape-block-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-ui/caret-shape-block-001-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0069"
   category: WPT reftest
   title: css/css-ui/caret-shape-block-color-001.html
@@ -16201,3 +16174,19 @@
       referenceFile: css/css-ui/reference/text-overflow-string-007-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "1211"
+  category: WPT manual
+  title: css/css-ui/resize-010.html
+  file: css/css-ui/resize-010.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1225
-- Entries with differences: 596 (pending: 596, triaged: 0)
+- Entries with differences: 597 (improvement: 1, pending: 596, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":396,"known-fail":596,"unchanged":233}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":396,"known-fail":595,"improvement":1,"unchanged":232,"changed":1}
 
 ## Differences
 
@@ -141,13 +141,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/caret-eol-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0068] [WPT reftest] css/css-ui/caret-shape-block-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-ui/caret-shape-block-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000011926570490802228, diffPixels=10
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000011926570490802228, diffPixels=10
@@ -7767,4 +7763,11 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0013560510648042135, diffPixels=1137
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1211] [WPT manual] css/css-ui/resize-010.html
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

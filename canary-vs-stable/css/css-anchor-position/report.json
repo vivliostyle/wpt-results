@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T19:07:44.104Z",
+  "generatedAt": "2026-05-17T01:56:12.934Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -38,8 +38,8 @@
     "timeoutMs": 10000
   },
   "summary": {
-    "totalEntries": 188,
-    "entriesWithDifferences": 96,
+    "totalEntries": 189,
+    "entriesWithDifferences": 97,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
@@ -47,23 +47,23 @@
     "outcomes": {
       "changeTypes": {
         "pass": 92,
-        "known-fail": 96
+        "known-fail": 97
       },
       "statusPairs": {
         "PASS->PASS": 92,
-        "FAIL->FAIL": 96
+        "FAIL->FAIL": 97
       }
     },
     "triage": {
       "differences": {
-        "pending": 96,
+        "pending": 97,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 96,
+      "pendingEntries": 97,
       "triagedEntries": 0
     }
   },
@@ -7400,6 +7400,125 @@
     {
       "id": "0106",
       "category": "WPT reftest",
+      "title": "css/css-anchor-position/position-anchor-normal-001.html",
+      "file": [
+        "css/css-anchor-position/position-anchor-normal-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-anchor-position/position-anchor-normal-001.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/position-anchor-normal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-anchor-normal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 7000,
+                "diffRatio": 0.00834859934356156,
+                "exactDiffPixels": 7000,
+                "exactDiffRatio": 0.00834859934356156,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0106-WPT_reftest-css-css-anchor-position-position-anchor-normal-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 7000,
+                "diffRatio": 0.00834859934356156,
+                "exactDiffPixels": 7000,
+                "exactDiffRatio": 0.00834859934356156,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0106-WPT_reftest-css-css-anchor-position-position-anchor-normal-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0107",
+      "category": "WPT reftest",
       "title": "css/css-anchor-position/position-anchor-target-with-children.html",
       "file": [
         "css/css-anchor-position/position-anchor-target-with-children.html"
@@ -7462,7 +7581,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0106-WPT_reftest-css-css-anchor-position-position-anchor-target-with-children.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0107-WPT_reftest-css-css-anchor-position-position-anchor-target-with-children.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7501,7 +7620,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0106-WPT_reftest-css-css-anchor-position-position-anchor-target-with-children.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0107-WPT_reftest-css-css-anchor-position-position-anchor-target-with-children.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7517,7 +7636,7 @@
       }
     },
     {
-      "id": "0107",
+      "id": "0108",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-abs-inline-container.html",
       "file": [
@@ -7581,7 +7700,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0107-WPT_reftest-css-css-anchor-position-position-area-abs-inline-container.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0108-WPT_reftest-css-css-anchor-position-position-area-abs-inline-container.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7620,7 +7739,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0107-WPT_reftest-css-css-anchor-position-position-area-abs-inline-container.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0108-WPT_reftest-css-css-anchor-position-position-area-abs-inline-container.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7636,7 +7755,7 @@
       }
     },
     {
-      "id": "0108",
+      "id": "0109",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-alignment-inset-001.html",
       "file": [
@@ -7700,7 +7819,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0108-WPT_reftest-css-css-anchor-position-position-area-alignment-inset-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0109-WPT_reftest-css-css-anchor-position-position-area-alignment-inset-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7739,7 +7858,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0108-WPT_reftest-css-css-anchor-position-position-area-alignment-inset-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0109-WPT_reftest-css-css-anchor-position-position-area-alignment-inset-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7755,7 +7874,7 @@
       }
     },
     {
-      "id": "0109",
+      "id": "0110",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-anchor-001.html",
       "file": [
@@ -7778,7 +7897,7 @@
       ]
     },
     {
-      "id": "0110",
+      "id": "0111",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-anchor-002.html",
       "file": [
@@ -7842,7 +7961,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0110-WPT_reftest-css-css-anchor-position-position-area-anchor-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0111-WPT_reftest-css-css-anchor-position-position-area-anchor-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7881,7 +8000,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0110-WPT_reftest-css-css-anchor-position-position-area-anchor-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0111-WPT_reftest-css-css-anchor-position-position-area-anchor-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7897,7 +8016,7 @@
       }
     },
     {
-      "id": "0111",
+      "id": "0112",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-chain-pseudo-elements.html",
       "file": [
@@ -7920,7 +8039,7 @@
       ]
     },
     {
-      "id": "0112",
+      "id": "0113",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-change.html",
       "file": [
@@ -7943,7 +8062,7 @@
       ]
     },
     {
-      "id": "0113",
+      "id": "0114",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-inline-container.html",
       "file": [
@@ -7966,7 +8085,7 @@
       ]
     },
     {
-      "id": "0114",
+      "id": "0115",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-inset-one-side-auto.tentative.html",
       "file": [
@@ -8030,7 +8149,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 235,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0114-WPT_reftest-css-css-anchor-position-position-area-inset-one-side-auto.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0115-WPT_reftest-css-css-anchor-position-position-area-inset-one-side-auto.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8069,7 +8188,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 235,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0114-WPT_reftest-css-css-anchor-position-position-area-inset-one-side-auto.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0115-WPT_reftest-css-css-anchor-position-position-area-inset-one-side-auto.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8085,7 +8204,7 @@
       }
     },
     {
-      "id": "0115",
+      "id": "0116",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-justify-self-safe-001.html",
       "file": [
@@ -8108,7 +8227,7 @@
       ]
     },
     {
-      "id": "0116",
+      "id": "0117",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-no-default-anchor.html",
       "file": [
@@ -8172,7 +8291,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0116-WPT_reftest-css-css-anchor-position-position-area-no-default-anchor.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0117-WPT_reftest-css-css-anchor-position-position-area-no-default-anchor.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8211,7 +8330,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0116-WPT_reftest-css-css-anchor-position-position-area-no-default-anchor.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0117-WPT_reftest-css-css-anchor-position-position-area-no-default-anchor.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8227,7 +8346,7 @@
       }
     },
     {
-      "id": "0117",
+      "id": "0118",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-overflow-icb-001.html",
       "file": [
@@ -8250,7 +8369,7 @@
       ]
     },
     {
-      "id": "0118",
+      "id": "0119",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-overflow-icb-002.html",
       "file": [
@@ -8316,7 +8435,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0118-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0119-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-002.html-r01-p0001.png"
               },
               {
                 "page": 2,
@@ -8333,7 +8452,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0118-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-002.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0119-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-002.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8374,7 +8493,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0118-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0119-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-002.html-r01-p0001.png"
               },
               {
                 "page": 2,
@@ -8391,7 +8510,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0118-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-002.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0119-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-002.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8407,7 +8526,7 @@
       }
     },
     {
-      "id": "0119",
+      "id": "0120",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-overflow-icb-003.html",
       "file": [
@@ -8471,7 +8590,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0119-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0120-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8510,7 +8629,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0119-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0120-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8526,7 +8645,7 @@
       }
     },
     {
-      "id": "0120",
+      "id": "0121",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-overflow-icb-004.html",
       "file": [
@@ -8592,7 +8711,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0120-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-004.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0121-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-004.html-r01-p0001.png"
               },
               {
                 "page": 2,
@@ -8609,7 +8728,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0120-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-004.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0121-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-004.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8650,7 +8769,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0120-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-004.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0121-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-004.html-r01-p0001.png"
               },
               {
                 "page": 2,
@@ -8667,7 +8786,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0120-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-004.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0121-WPT_reftest-css-css-anchor-position-position-area-overflow-icb-004.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8683,7 +8802,7 @@
       }
     },
     {
-      "id": "0121",
+      "id": "0122",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-percents-001.html",
       "file": [
@@ -8747,7 +8866,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0121-WPT_reftest-css-css-anchor-position-position-area-percents-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0122-WPT_reftest-css-css-anchor-position-position-area-percents-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8786,7 +8905,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0121-WPT_reftest-css-css-anchor-position-position-area-percents-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0122-WPT_reftest-css-css-anchor-position-position-area-percents-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8802,7 +8921,7 @@
       }
     },
     {
-      "id": "0122",
+      "id": "0123",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-pseudo-element-implicit-anchor-dynamic.html",
       "file": [
@@ -8866,7 +8985,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0122-WPT_reftest-css-css-anchor-position-position-area-pseudo-element-implicit-anchor-dynamic.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0123-WPT_reftest-css-css-anchor-position-position-area-pseudo-element-implicit-anchor-dynamic.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8905,7 +9024,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0122-WPT_reftest-css-css-anchor-position-position-area-pseudo-element-implicit-anchor-dynamic.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0123-WPT_reftest-css-css-anchor-position-position-area-pseudo-element-implicit-anchor-dynamic.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8921,7 +9040,7 @@
       }
     },
     {
-      "id": "0123",
+      "id": "0124",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-pseudo-element-implicit-anchor.html",
       "file": [
@@ -8985,7 +9104,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0123-WPT_reftest-css-css-anchor-position-position-area-pseudo-element-implicit-anchor.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0124-WPT_reftest-css-css-anchor-position-position-area-pseudo-element-implicit-anchor.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9024,7 +9143,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0123-WPT_reftest-css-css-anchor-position-position-area-pseudo-element-implicit-anchor.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0124-WPT_reftest-css-css-anchor-position-position-area-pseudo-element-implicit-anchor.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9040,7 +9159,7 @@
       }
     },
     {
-      "id": "0124",
+      "id": "0125",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-scroll-adjust.html",
       "file": [
@@ -9063,7 +9182,7 @@
       ]
     },
     {
-      "id": "0125",
+      "id": "0126",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-scrolling-004.tentative.html",
       "file": [
@@ -9148,7 +9267,7 @@
       }
     },
     {
-      "id": "0126",
+      "id": "0127",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-area-visibility-change.html",
       "file": [
@@ -9212,7 +9331,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0126-WPT_reftest-css-css-anchor-position-position-area-visibility-change.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0127-WPT_reftest-css-css-anchor-position-position-area-visibility-change.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9251,7 +9370,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0126-WPT_reftest-css-css-anchor-position-position-area-visibility-change.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0127-WPT_reftest-css-css-anchor-position-position-area-visibility-change.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9267,7 +9386,7 @@
       }
     },
     {
-      "id": "0127",
+      "id": "0128",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-try-005.html",
       "file": [
@@ -9290,7 +9409,7 @@
       ]
     },
     {
-      "id": "0128",
+      "id": "0129",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-try-fallbacks-001.html",
       "file": [
@@ -9313,7 +9432,7 @@
       ]
     },
     {
-      "id": "0129",
+      "id": "0130",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-try-fallbacks-002.html",
       "file": [
@@ -9336,7 +9455,7 @@
       ]
     },
     {
-      "id": "0130",
+      "id": "0131",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-try-fallbacks-004.html",
       "file": [
@@ -9400,7 +9519,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0130-WPT_reftest-css-css-anchor-position-position-try-fallbacks-004.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0131-WPT_reftest-css-css-anchor-position-position-try-fallbacks-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9439,7 +9558,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0130-WPT_reftest-css-css-anchor-position-position-try-fallbacks-004.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0131-WPT_reftest-css-css-anchor-position-position-try-fallbacks-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9455,7 +9574,7 @@
       }
     },
     {
-      "id": "0131",
+      "id": "0132",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-try-order-logical.html",
       "file": [
@@ -9519,7 +9638,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0131-WPT_reftest-css-css-anchor-position-position-try-order-logical.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0132-WPT_reftest-css-css-anchor-position-position-try-order-logical.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9558,7 +9677,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0131-WPT_reftest-css-css-anchor-position-position-try-order-logical.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0132-WPT_reftest-css-css-anchor-position-position-try-order-logical.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9574,7 +9693,7 @@
       }
     },
     {
-      "id": "0132",
+      "id": "0133",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-try-switch-from-fixed-anchor.html",
       "file": [
@@ -9640,7 +9759,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0132-WPT_reftest-css-css-anchor-position-position-try-switch-from-fixed-anchor.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0133-WPT_reftest-css-css-anchor-position-position-try-switch-from-fixed-anchor.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9681,7 +9800,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0132-WPT_reftest-css-css-anchor-position-position-try-switch-from-fixed-anchor.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0133-WPT_reftest-css-css-anchor-position-position-try-switch-from-fixed-anchor.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9697,7 +9816,7 @@
       }
     },
     {
-      "id": "0133",
+      "id": "0134",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-try-switch-to-fixed-anchor.html",
       "file": [
@@ -9763,7 +9882,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0133-WPT_reftest-css-css-anchor-position-position-try-switch-to-fixed-anchor.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0134-WPT_reftest-css-css-anchor-position-position-try-switch-to-fixed-anchor.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9804,7 +9923,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0133-WPT_reftest-css-css-anchor-position-position-try-switch-to-fixed-anchor.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0134-WPT_reftest-css-css-anchor-position-position-try-switch-to-fixed-anchor.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9820,7 +9939,7 @@
       }
     },
     {
-      "id": "0134",
+      "id": "0135",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-try-tree-scoped-pseudo.html",
       "file": [
@@ -9843,7 +9962,7 @@
       ]
     },
     {
-      "id": "0135",
+      "id": "0136",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-add-no-overflow.html",
       "file": [
@@ -9866,7 +9985,7 @@
       ]
     },
     {
-      "id": "0136",
+      "id": "0137",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-valid.tentative.html",
       "file": [
@@ -9930,7 +10049,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0136-WPT_reftest-css-css-anchor-position-position-visibility-anchors-valid.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0137-WPT_reftest-css-css-anchor-position-position-visibility-anchors-valid.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9969,7 +10088,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0136-WPT_reftest-css-css-anchor-position-position-visibility-anchors-valid.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0137-WPT_reftest-css-css-anchor-position-position-visibility-anchors-valid.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9985,7 +10104,7 @@
       }
     },
     {
-      "id": "0137",
+      "id": "0138",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-after-scroll-in-document.html",
       "file": [
@@ -10008,7 +10127,7 @@
       ]
     },
     {
-      "id": "0138",
+      "id": "0139",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-after-scroll-in.html",
       "file": [
@@ -10031,7 +10150,7 @@
       ]
     },
     {
-      "id": "0139",
+      "id": "0140",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out.html",
       "file": [
@@ -10095,7 +10214,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0139-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-after-scroll-out.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0140-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-after-scroll-out.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10134,7 +10253,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0139-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-after-scroll-out.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0140-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-after-scroll-out.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10150,7 +10269,7 @@
       }
     },
     {
-      "id": "0140",
+      "id": "0141",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-both-position-fixed.html",
       "file": [
@@ -10173,7 +10292,7 @@
       ]
     },
     {
-      "id": "0141",
+      "id": "0142",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-chained-001.html",
       "file": [
@@ -10237,7 +10356,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0141-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-chained-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0142-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-chained-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10276,7 +10395,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0141-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-chained-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0142-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-chained-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10292,7 +10411,7 @@
       }
     },
     {
-      "id": "0142",
+      "id": "0143",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-chained-002.html",
       "file": [
@@ -10356,7 +10475,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0142-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-chained-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0143-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-chained-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10395,7 +10514,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0142-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-chained-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0143-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-chained-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10411,7 +10530,7 @@
       }
     },
     {
-      "id": "0143",
+      "id": "0144",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-chained-003.html",
       "file": [
@@ -10475,7 +10594,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0143-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-chained-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0144-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-chained-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10514,7 +10633,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0143-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-chained-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0144-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-chained-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10530,7 +10649,7 @@
       }
     },
     {
-      "id": "0144",
+      "id": "0145",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-chained-004.html",
       "file": [
@@ -10553,7 +10672,7 @@
       ]
     },
     {
-      "id": "0145",
+      "id": "0146",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-change-anchor.html",
       "file": [
@@ -10617,7 +10736,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0145-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-change-anchor.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0146-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-change-anchor.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10656,7 +10775,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0145-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-change-anchor.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0146-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-change-anchor.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10672,7 +10791,7 @@
       }
     },
     {
-      "id": "0146",
+      "id": "0147",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility.html",
       "file": [
@@ -10736,7 +10855,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0146-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-change-css-visibility.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0147-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-change-css-visibility.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10775,7 +10894,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0146-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-change-css-visibility.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0147-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-change-css-visibility.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10791,7 +10910,7 @@
       }
     },
     {
-      "id": "0147",
+      "id": "0148",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-clip.html",
       "file": [
@@ -10814,7 +10933,7 @@
       ]
     },
     {
-      "id": "0148",
+      "id": "0149",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-css-visibility.html",
       "file": [
@@ -10837,7 +10956,7 @@
       ]
     },
     {
-      "id": "0149",
+      "id": "0150",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-dynamic-anchor-toggle.html",
       "file": [
@@ -10860,7 +10979,7 @@
       ]
     },
     {
-      "id": "0150",
+      "id": "0151",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-in-overflow.html",
       "file": [
@@ -10883,7 +11002,7 @@
       ]
     },
     {
-      "id": "0151",
+      "id": "0152",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container.html",
       "file": [
@@ -10947,7 +11066,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0151-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-non-intervening-container.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0152-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-non-intervening-container.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10986,7 +11105,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0151-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-non-intervening-container.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0152-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-non-intervening-container.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11002,7 +11121,7 @@
       }
     },
     {
-      "id": "0152",
+      "id": "0153",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-position-fixed.html",
       "file": [
@@ -11066,7 +11185,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0152-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-position-fixed.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0153-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-position-fixed.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11105,7 +11224,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0152-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-position-fixed.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0153-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-position-fixed.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11121,7 +11240,7 @@
       }
     },
     {
-      "id": "0153",
+      "id": "0154",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-stacked-child.html",
       "file": [
@@ -11185,7 +11304,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0153-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-stacked-child.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0154-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-stacked-child.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11224,7 +11343,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0153-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-stacked-child.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0154-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-stacked-child.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11240,7 +11359,7 @@
       }
     },
     {
-      "id": "0154",
+      "id": "0155",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-stacked-child.tentative.html",
       "file": [
@@ -11304,7 +11423,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0154-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-stacked-child.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0155-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-stacked-child.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11343,7 +11462,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0154-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-stacked-child.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0155-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-stacked-child.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11359,7 +11478,7 @@
       }
     },
     {
-      "id": "0155",
+      "id": "0156",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible-with-position.html",
       "file": [
@@ -11423,7 +11542,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0155-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-with-position.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0156-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-with-position.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11462,7 +11581,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0155-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-with-position.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0156-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible-with-position.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11478,7 +11597,7 @@
       }
     },
     {
-      "id": "0156",
+      "id": "0157",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-anchors-visible.html",
       "file": [
@@ -11542,7 +11661,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0156-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0157-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11581,7 +11700,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0156-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0157-WPT_reftest-css-css-anchor-position-position-visibility-anchors-visible.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11597,7 +11716,7 @@
       }
     },
     {
-      "id": "0157",
+      "id": "0158",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-initial.html",
       "file": [
@@ -11661,7 +11780,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0157-WPT_reftest-css-css-anchor-position-position-visibility-initial.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0158-WPT_reftest-css-css-anchor-position-position-visibility-initial.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11700,7 +11819,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0157-WPT_reftest-css-css-anchor-position-position-visibility-initial.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0158-WPT_reftest-css-css-anchor-position-position-visibility-initial.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11716,7 +11835,7 @@
       }
     },
     {
-      "id": "0158",
+      "id": "0159",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-no-overflow-nested.html",
       "file": [
@@ -11739,7 +11858,7 @@
       ]
     },
     {
-      "id": "0159",
+      "id": "0160",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-no-overflow-scroll-002.html",
       "file": [
@@ -11803,7 +11922,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0159-WPT_reftest-css-css-anchor-position-position-visibility-no-overflow-scroll-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0160-WPT_reftest-css-css-anchor-position-position-visibility-no-overflow-scroll-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11842,7 +11961,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0159-WPT_reftest-css-css-anchor-position-position-visibility-no-overflow-scroll-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0160-WPT_reftest-css-css-anchor-position-position-visibility-no-overflow-scroll-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11858,7 +11977,7 @@
       }
     },
     {
-      "id": "0160",
+      "id": "0161",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-no-overflow-scroll.html",
       "file": [
@@ -11922,7 +12041,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0160-WPT_reftest-css-css-anchor-position-position-visibility-no-overflow-scroll.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0161-WPT_reftest-css-css-anchor-position-position-visibility-no-overflow-scroll.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11961,7 +12080,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0160-WPT_reftest-css-css-anchor-position-position-visibility-no-overflow-scroll.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0161-WPT_reftest-css-css-anchor-position-position-visibility-no-overflow-scroll.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11977,7 +12096,7 @@
       }
     },
     {
-      "id": "0161",
+      "id": "0162",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-no-overflow-stacked-child.html",
       "file": [
@@ -12000,7 +12119,7 @@
       ]
     },
     {
-      "id": "0162",
+      "id": "0163",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-no-overflow-without-anchor.html",
       "file": [
@@ -12023,7 +12142,7 @@
       ]
     },
     {
-      "id": "0163",
+      "id": "0164",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-no-overflow.html",
       "file": [
@@ -12046,7 +12165,7 @@
       ]
     },
     {
-      "id": "0164",
+      "id": "0165",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-remove-anchors-visible.html",
       "file": [
@@ -12110,7 +12229,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0164-WPT_reftest-css-css-anchor-position-position-visibility-remove-anchors-visible.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0165-WPT_reftest-css-css-anchor-position-position-visibility-remove-anchors-visible.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12149,7 +12268,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0164-WPT_reftest-css-css-anchor-position-position-visibility-remove-anchors-visible.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0165-WPT_reftest-css-css-anchor-position-position-visibility-remove-anchors-visible.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12165,7 +12284,7 @@
       }
     },
     {
-      "id": "0165",
+      "id": "0166",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/position-visibility-remove-no-overflow.html",
       "file": [
@@ -12188,7 +12307,7 @@
       ]
     },
     {
-      "id": "0166",
+      "id": "0167",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/pseudo-element-implicit-anchor-center.html",
       "file": [
@@ -12252,7 +12371,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0166-WPT_reftest-css-css-anchor-position-pseudo-element-implicit-anchor-center.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0167-WPT_reftest-css-css-anchor-position-pseudo-element-implicit-anchor-center.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12291,7 +12410,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0166-WPT_reftest-css-css-anchor-position-pseudo-element-implicit-anchor-center.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0167-WPT_reftest-css-css-anchor-position-pseudo-element-implicit-anchor-center.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12307,7 +12426,7 @@
       }
     },
     {
-      "id": "0167",
+      "id": "0168",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/pseudo-element-implicit-anchor.html",
       "file": [
@@ -12371,7 +12490,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0167-WPT_reftest-css-css-anchor-position-pseudo-element-implicit-anchor.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0168-WPT_reftest-css-css-anchor-position-pseudo-element-implicit-anchor.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12410,7 +12529,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0167-WPT_reftest-css-css-anchor-position-pseudo-element-implicit-anchor.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0168-WPT_reftest-css-css-anchor-position-pseudo-element-implicit-anchor.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12426,7 +12545,7 @@
       }
     },
     {
-      "id": "0168",
+      "id": "0169",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/pseudo-element-with-slotted-anchor.html",
       "file": [
@@ -12490,7 +12609,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0168-WPT_reftest-css-css-anchor-position-pseudo-element-with-slotted-anchor.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0169-WPT_reftest-css-css-anchor-position-pseudo-element-with-slotted-anchor.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12529,7 +12648,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0168-WPT_reftest-css-css-anchor-position-pseudo-element-with-slotted-anchor.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0169-WPT_reftest-css-css-anchor-position-pseudo-element-with-slotted-anchor.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12545,7 +12664,7 @@
       }
     },
     {
-      "id": "0169",
+      "id": "0170",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/scroll-to-anchored-fixed-000.html",
       "file": [
@@ -12611,7 +12730,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 63,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0169-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-000.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0170-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-000.html-r01-p0001.png"
               },
               {
                 "page": 2,
@@ -12628,7 +12747,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0169-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-000.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0170-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-000.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12669,7 +12788,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 63,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0169-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-000.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0170-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-000.html-r01-p0001.png"
               },
               {
                 "page": 2,
@@ -12686,7 +12805,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0169-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-000.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0170-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-000.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12702,7 +12821,7 @@
       }
     },
     {
-      "id": "0170",
+      "id": "0171",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/scroll-to-anchored-fixed-001.html",
       "file": [
@@ -12725,7 +12844,7 @@
       ]
     },
     {
-      "id": "0171",
+      "id": "0172",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/scroll-to-anchored-fixed-002.html",
       "file": [
@@ -12748,7 +12867,7 @@
       ]
     },
     {
-      "id": "0172",
+      "id": "0173",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/scroll-to-anchored-fixed-003.html",
       "file": [
@@ -12814,7 +12933,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0172-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-003.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0173-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-003.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12855,7 +12974,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0172-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-003.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0173-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-003.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12871,7 +12990,7 @@
       }
     },
     {
-      "id": "0173",
+      "id": "0174",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/scroll-to-anchored-fixed-004.html",
       "file": [
@@ -12937,7 +13056,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0173-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-004.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0174-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-004.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12978,7 +13097,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0173-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-004.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0174-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-004.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12994,7 +13113,7 @@
       }
     },
     {
-      "id": "0174",
+      "id": "0175",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/scroll-to-anchored-fixed-005.html",
       "file": [
@@ -13060,7 +13179,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0174-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-005.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0175-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-005.html-r01-p0001.png"
               },
               {
                 "page": 2,
@@ -13077,7 +13196,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0174-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-005.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0175-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-005.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13118,7 +13237,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0174-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-005.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0175-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-005.html-r01-p0001.png"
               },
               {
                 "page": 2,
@@ -13135,7 +13254,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0174-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-005.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0175-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-005.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13151,7 +13270,7 @@
       }
     },
     {
-      "id": "0175",
+      "id": "0176",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/scroll-to-anchored-fixed-006.html",
       "file": [
@@ -13217,7 +13336,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0175-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-006.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0176-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-006.html-r01-p0001.png"
               },
               {
                 "page": 2,
@@ -13234,7 +13353,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0175-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-006.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0176-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-006.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13275,7 +13394,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0175-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-006.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0176-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-006.html-r01-p0001.png"
               },
               {
                 "page": 2,
@@ -13292,7 +13411,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0175-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-006.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0176-WPT_reftest-css-css-anchor-position-scroll-to-anchored-fixed-006.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13308,7 +13427,7 @@
       }
     },
     {
-      "id": "0176",
+      "id": "0177",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/sticky-anchor-position-invalid.html",
       "file": [
@@ -13331,7 +13450,7 @@
       ]
     },
     {
-      "id": "0177",
+      "id": "0178",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/transform-001.html",
       "file": [
@@ -13354,7 +13473,7 @@
       ]
     },
     {
-      "id": "0178",
+      "id": "0179",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/transform-002.html",
       "file": [
@@ -13377,7 +13496,7 @@
       ]
     },
     {
-      "id": "0179",
+      "id": "0180",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/transform-003.html",
       "file": [
@@ -13400,7 +13519,7 @@
       ]
     },
     {
-      "id": "0180",
+      "id": "0181",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/transform-004.html",
       "file": [
@@ -13423,7 +13542,7 @@
       ]
     },
     {
-      "id": "0181",
+      "id": "0182",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/transform-005.html",
       "file": [
@@ -13446,7 +13565,7 @@
       ]
     },
     {
-      "id": "0182",
+      "id": "0183",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/transform-006.html",
       "file": [
@@ -13469,7 +13588,7 @@
       ]
     },
     {
-      "id": "0183",
+      "id": "0184",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/transform-007.html",
       "file": [
@@ -13492,7 +13611,7 @@
       ]
     },
     {
-      "id": "0184",
+      "id": "0185",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/transform-008.html",
       "file": [
@@ -13515,7 +13634,7 @@
       ]
     },
     {
-      "id": "0185",
+      "id": "0186",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/transform-009.html",
       "file": [
@@ -13538,7 +13657,7 @@
       ]
     },
     {
-      "id": "0186",
+      "id": "0187",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/under-invalidation.html",
       "file": [
@@ -13602,7 +13721,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0186-WPT_reftest-css-css-anchor-position-under-invalidation.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0187-WPT_reftest-css-css-anchor-position-under-invalidation.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13641,7 +13760,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0186-WPT_reftest-css-css-anchor-position-under-invalidation.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0187-WPT_reftest-css-css-anchor-position-under-invalidation.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13657,7 +13776,7 @@
       }
     },
     {
-      "id": "0187",
+      "id": "0188",
       "category": "WPT reftest",
       "title": "css/css-anchor-position/vertical-aligned-table-cell.html",
       "file": [
@@ -13680,7 +13799,7 @@
       ]
     },
     {
-      "id": "0188",
+      "id": "0189",
       "category": "WPT print-reftest",
       "title": "css/css-anchor-position/anchor-position-005-print.html",
       "file": [

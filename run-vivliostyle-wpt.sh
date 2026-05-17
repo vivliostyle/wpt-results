@@ -81,6 +81,8 @@ mkdir -p ${actual_viewer}-vs-${baseline_viewer}
 echo "# Vivliostyle.js WPT Results: ${actual_viewer} vs ${baseline_viewer}" > ${actual_viewer}-vs-${baseline_viewer}/README.md
 echo "" >> ${actual_viewer}-vs-${baseline_viewer}/README.md
 
+node ../vivliostyle.js/scripts/download-wpt-manifest.mjs
+
 for path in "${wpt_path_list[@]}"; do
   node ../vivliostyle.js/scripts/layout-regression.mjs --mode reftest-diff --timeout 10 \
     --wpt-path-prefix "${path}/" \

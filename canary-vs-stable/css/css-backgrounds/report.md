@@ -2,11 +2,11 @@
 
 - Compared entries: 703
 - Entries with differences: 221 (pending: 221, triaged: 0)
-- Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 3
+- Entries with errors: 4 (pending: 4, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
-- Screenshot mismatches: 2
-- Outcome summary: {"known-fail":219,"pass":477,"error":3,"changed-fail":2,"unchanged":2}
+- Screenshot mismatches: 1
+- Outcome summary: {"known-fail":220,"pass":478,"error":2,"changed-fail":1,"unchanged":2}
 
 ## Differences
 
@@ -1499,28 +1499,14 @@
 - [0277] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-027.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/background-size-vector-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04762995191206778, diffPixels=39936
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/background-size-vector-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04762995191206778, diffPixels=39936
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/background-size-vector-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/background-size-vector-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0279] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-029.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/background-size-vector-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04762995191206778, diffPixels=39936
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/background-size-vector-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04762995191206778, diffPixels=39936
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/background-size-vector-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/background-size-vector-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0282] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto--percent-width-nonpercent-height-viewbox.html
   triage: pending
@@ -2447,11 +2433,11 @@
 
 - [0493] [WPT reftest] css/css-backgrounds/background-size-percentage-root.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size-percentage-root-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-percentage-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  canary page 1: diffRatio=0.23510848408518434, diffPixels=197130
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-percentage-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-percentage-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2907,7 +2893,7 @@ Call log:
       - element is not visible
     - retrying fill action
       - waiting 100ms
-    20 × waiting for element to be visible, enabled and editable
+    19 × waiting for element to be visible, enabled and editable
        - element is not visible
      - retrying fill action
        - waiting 500ms
@@ -2927,13 +2913,27 @@ Call log:
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0401] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-percent-height.html
+- [0277] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-027.html
   triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-percent-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-percent-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
+  canary-reference timeout: false
+  canary-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html (429)
+  stable-reference reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
+  stable-reference timeout: false
+  stable-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html (429)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/background-size-vector-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0279] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-029.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
+  canary-reference timeout: false
+  canary-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html (429)
+  stable-reference reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
+  stable-reference timeout: false
+  stable-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html (429)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/background-size-vector-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
