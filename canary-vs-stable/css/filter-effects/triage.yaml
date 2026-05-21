@@ -3805,7 +3805,7 @@
       referenceFile: css/filter-effects/reference/green-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0274"
+- id: "0275"
   category: WPT reftest
   title: css/filter-effects/tainting-feblend-001.html
   file: css/filter-effects/tainting-feblend-001.html
@@ -3832,7 +3832,7 @@
       referenceFile: css/filter-effects/reference/green-blue-stripe-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0276"
+- id: "0277"
   category: WPT reftest
   title: css/filter-effects/tainting-fecomponenttransfer-001.html
   file: css/filter-effects/tainting-fecomponenttransfer-001.html
@@ -3859,7 +3859,7 @@
       referenceFile: css/filter-effects/reference/green-blue-stripe-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0278"
+- id: "0279"
   category: WPT reftest
   title: css/filter-effects/tainting-fecomposite-001.html
   file: css/filter-effects/tainting-fecomposite-001.html
@@ -3886,7 +3886,7 @@
       referenceFile: css/filter-effects/reference/green-blue-stripe-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0280"
+- id: "0281"
   category: WPT reftest
   title: css/filter-effects/tainting-feconvolvematrix-001.html
   file: css/filter-effects/tainting-feconvolvematrix-001.html
@@ -3913,7 +3913,7 @@
       referenceFile: css/filter-effects/reference/green-blue-stripe-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0282"
+- id: "0283"
   category: WPT reftest
   title: css/filter-effects/tainting-fediffuselighting-001.html
   file: css/filter-effects/tainting-fediffuselighting-001.html
@@ -3940,7 +3940,7 @@
       referenceFile: css/filter-effects/reference/green-blue-stripe-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0286"
+- id: "0287"
   category: WPT reftest
   title: css/filter-effects/tainting-fedisplacementmap-001.html
   file: css/filter-effects/tainting-fedisplacementmap-001.html
@@ -3967,7 +3967,7 @@
       referenceFile: css/filter-effects/reference/green-blue-stripe-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0288"
+- id: "0289"
   category: WPT reftest
   title: css/filter-effects/tainting-fedropshadow-001.html
   file: css/filter-effects/tainting-fedropshadow-001.html
@@ -3994,7 +3994,7 @@
       referenceFile: css/filter-effects/reference/green-blue-stripe-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0291"
+- id: "0292"
   category: WPT reftest
   title: css/filter-effects/tainting-feflood-001.html
   file: css/filter-effects/tainting-feflood-001.html
@@ -4021,7 +4021,7 @@
       referenceFile: css/filter-effects/reference/green-blue-stripe-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0294"
+- id: "0295"
   category: WPT reftest
   title: css/filter-effects/tainting-fegaussianblur-001.html
   file: css/filter-effects/tainting-fegaussianblur-001.html
@@ -4048,7 +4048,7 @@
       referenceFile: css/filter-effects/reference/green-blue-stripe-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0296"
+- id: "0297"
   category: WPT reftest
   title: css/filter-effects/tainting-femorphology-001.html
   file: css/filter-effects/tainting-femorphology-001.html
@@ -4075,7 +4075,7 @@
       referenceFile: css/filter-effects/reference/green-blue-stripe-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0298"
+- id: "0299"
   category: WPT reftest
   title: css/filter-effects/tainting-feoffset-001.html
   file: css/filter-effects/tainting-feoffset-001.html
@@ -4102,7 +4102,7 @@
       referenceFile: css/filter-effects/reference/green-blue-stripe-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0300"
+- id: "0301"
   category: WPT reftest
   title: css/filter-effects/tainting-fespecularlighting-001.html
   file: css/filter-effects/tainting-fespecularlighting-001.html
@@ -4129,7 +4129,7 @@
       referenceFile: css/filter-effects/reference/green-blue-stripe-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0303"
+- id: "0304"
   category: WPT reftest
   title: css/filter-effects/tainting-fetile-001.html
   file: css/filter-effects/tainting-fetile-001.html
@@ -4156,7 +4156,7 @@
       referenceFile: css/filter-effects/reference/green-blue-stripe-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0305"
+- id: "0306"
   category: WPT reftest
   title: css/filter-effects/visibility-hidden-element-with-filter-001.html
   file: css/filter-effects/visibility-hidden-element-with-filter-001.html

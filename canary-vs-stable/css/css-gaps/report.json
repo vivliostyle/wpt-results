@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T02:48:32.115Z",
+  "generatedAt": "2026-05-21T04:27:25.532Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -38,32 +38,32 @@
     "timeoutMs": 10000
   },
   "summary": {
-    "totalEntries": 297,
-    "entriesWithDifferences": 268,
+    "totalEntries": 298,
+    "entriesWithDifferences": 272,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 29,
-        "known-fail": 268
+        "pass": 26,
+        "known-fail": 272
       },
       "statusPairs": {
-        "PASS->PASS": 29,
-        "FAIL->FAIL": 268
+        "PASS->PASS": 26,
+        "FAIL->FAIL": 272
       }
     },
     "triage": {
       "differences": {
-        "pending": 268,
+        "pending": 272,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 268,
+      "pendingEntries": 272,
       "triagedEntries": 0
     }
   },
@@ -2026,9 +2026,9 @@
         "css/css-gaps/flex/flex-gap-decorations-017.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017.html",
-      "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -2039,7 +2039,103 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-gaps/flex/flex-gap-decorations-017-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2000,
+                "diffRatio": 0.002385314098160446,
+                "exactDiffPixels": 2000,
+                "exactDiffRatio": 0.002385314098160446,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0019-WPT_reftest-css-css-gaps-flex-flex-gap-decorations-017.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-gaps/flex/flex-gap-decorations-017-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2000,
+                "diffRatio": 0.002385314098160446,
+                "exactDiffPixels": 2000,
+                "exactDiffRatio": 0.002385314098160446,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0019-WPT_reftest-css-css-gaps-flex-flex-gap-decorations-017.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0020",
@@ -2049,9 +2145,9 @@
         "css/css-gaps/flex/flex-gap-decorations-018.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018.html",
-      "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -2062,7 +2158,103 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-gaps/flex/flex-gap-decorations-018-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2000,
+                "diffRatio": 0.002385314098160446,
+                "exactDiffPixels": 2000,
+                "exactDiffRatio": 0.002385314098160446,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0020-WPT_reftest-css-css-gaps-flex-flex-gap-decorations-018.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-gaps/flex/flex-gap-decorations-018-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2000,
+                "diffRatio": 0.002385314098160446,
+                "exactDiffPixels": 2000,
+                "exactDiffRatio": 0.002385314098160446,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0020-WPT_reftest-css-css-gaps-flex-flex-gap-decorations-018.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0021",
@@ -15611,9 +15803,9 @@
         "css/css-gaps/grid/grid-gap-decorations-020.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020.html",
-      "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -15624,7 +15816,103 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-gaps/grid/grid-gap-decorations-020-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1460,
+                "diffRatio": 0.0017412792916571254,
+                "exactDiffPixels": 1628,
+                "exactDiffRatio": 0.0019416456759026029,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0142-WPT_reftest-css-css-gaps-grid-grid-gap-decorations-020.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-gaps/grid/grid-gap-decorations-020-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1460,
+                "diffRatio": 0.0017412792916571254,
+                "exactDiffPixels": 1628,
+                "exactDiffRatio": 0.0019416456759026029,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0142-WPT_reftest-css-css-gaps-grid-grid-gap-decorations-020.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0143",
@@ -15634,9 +15922,9 @@
         "css/css-gaps/grid/grid-gap-decorations-021.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021.html",
-      "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -15647,7 +15935,103 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-gaps/grid/grid-gap-decorations-021-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1460,
+                "diffRatio": 0.0017412792916571254,
+                "exactDiffPixels": 1628,
+                "exactDiffRatio": 0.0019416456759026029,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0143-WPT_reftest-css-css-gaps-grid-grid-gap-decorations-021.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-gaps/grid/grid-gap-decorations-021-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1460,
+                "diffRatio": 0.0017412792916571254,
+                "exactDiffPixels": 1628,
+                "exactDiffRatio": 0.0019416456759026029,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0143-WPT_reftest-css-css-gaps-grid-grid-gap-decorations-021.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0144",
@@ -32173,6 +32557,29 @@
     {
       "id": "0293",
       "category": "WPT reftest",
+      "title": "css/css-gaps/multicol/multicol-gap-decorations-040.html",
+      "file": [
+        "css/css-gaps/multicol/multicol-gap-decorations-040.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-040.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-040.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-040.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-gaps/multicol/multicol-gap-decorations-040-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-040-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-040-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0294",
+      "category": "WPT reftest",
       "title": "css/css-gaps/multicol/multicol-gap-decorations-direction-inset.html",
       "file": [
         "css/css-gaps/multicol/multicol-gap-decorations-direction-inset.html"
@@ -32235,7 +32642,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0293-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-direction-inset.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0294-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-direction-inset.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -32274,7 +32681,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0293-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-direction-inset.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0294-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-direction-inset.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -32290,7 +32697,7 @@
       }
     },
     {
-      "id": "0294",
+      "id": "0295",
       "category": "WPT reftest",
       "title": "css/css-gaps/multicol/multicol-gap-decorations-multi-value-direction.html",
       "file": [
@@ -32354,7 +32761,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0294-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-multi-value-direction.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0295-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-multi-value-direction.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -32393,7 +32800,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0294-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-multi-value-direction.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0295-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-multi-value-direction.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -32409,7 +32816,7 @@
       }
     },
     {
-      "id": "0295",
+      "id": "0296",
       "category": "WPT reftest",
       "title": "css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode.html",
       "file": [
@@ -32475,7 +32882,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0295-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-multi-value-writing-mode.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0296-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-multi-value-writing-mode.html-r01-p0001.png"
               },
               {
                 "page": 2,
@@ -32492,7 +32899,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0295-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-multi-value-writing-mode.html-r01-p0002.png"
+                "diffImage": "actual-reference-diff/0296-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-multi-value-writing-mode.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -32533,7 +32940,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0295-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-multi-value-writing-mode.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0296-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-multi-value-writing-mode.html-r01-p0001.png"
               },
               {
                 "page": 2,
@@ -32550,7 +32957,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0295-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-multi-value-writing-mode.html-r01-p0002.png"
+                "diffImage": "baseline-reference-diff/0296-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-multi-value-writing-mode.html-r01-p0002.png"
               }
             ],
             "unexpectedEquality": false,
@@ -32566,7 +32973,7 @@
       }
     },
     {
-      "id": "0296",
+      "id": "0297",
       "category": "WPT reftest",
       "title": "css/css-gaps/multicol/multicol-gap-decorations-repaint-on-content-resize.html",
       "file": [
@@ -32589,7 +32996,7 @@
       ]
     },
     {
-      "id": "0297",
+      "id": "0298",
       "category": "WPT reftest",
       "title": "css/css-gaps/multicol/multicol-gap-decorations-writing-mode.html",
       "file": [
@@ -32653,7 +33060,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0297-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-writing-mode.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0298-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-writing-mode.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -32692,7 +33099,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0297-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-writing-mode.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0298-WPT_reftest-css-css-gaps-multicol-multicol-gap-decorations-writing-mode.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,

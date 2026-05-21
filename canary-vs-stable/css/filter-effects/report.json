@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T04:59:18.294Z",
+  "generatedAt": "2026-05-21T06:41:45.330Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -38,8 +38,8 @@
     "timeoutMs": 10000
   },
   "summary": {
-    "totalEntries": 306,
-    "entriesWithDifferences": 155,
+    "totalEntries": 307,
+    "entriesWithDifferences": 156,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
@@ -47,11 +47,13 @@
     "outcomes": {
       "changeTypes": {
         "pass": 151,
-        "known-fail": 155
+        "known-fail": 155,
+        "improvement": 1
       },
       "statusPairs": {
         "PASS->PASS": 151,
-        "FAIL->FAIL": 155
+        "FAIL->FAIL": 155,
+        "FAIL->PASS": 1
       }
     },
     "triage": {
@@ -19466,8 +19468,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/filter-effects/svg-relative-urls-002.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "FAIL",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -19478,7 +19480,64 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/filter-effects/reference/svg-relative-urls-002-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 9800,
+                "diffRatio": 0.011688039080986184,
+                "exactDiffPixels": 12000,
+                "exactDiffRatio": 0.014311884588962674,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0264-WPT_reftest-css-filter-effects-svg-relative-urls-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0265",
@@ -20362,6 +20421,29 @@
     {
       "id": "0274",
       "category": "WPT reftest",
+      "title": "css/filter-effects/tainting-css-dropshadow-currentcolor.html",
+      "file": [
+        "css/filter-effects/tainting-css-dropshadow-currentcolor.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/filter-effects/tainting-css-dropshadow-currentcolor.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/tainting-css-dropshadow-currentcolor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/tainting-css-dropshadow-currentcolor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/filter-effects/reference/tainting-css-dropshadow-currentcolor-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/tainting-css-dropshadow-currentcolor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/tainting-css-dropshadow-currentcolor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0275",
+      "category": "WPT reftest",
       "title": "css/filter-effects/tainting-feblend-001.html",
       "file": [
         "css/filter-effects/tainting-feblend-001.html"
@@ -20424,7 +20506,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0274-WPT_reftest-css-filter-effects-tainting-feblend-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0275-WPT_reftest-css-filter-effects-tainting-feblend-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20463,7 +20545,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0274-WPT_reftest-css-filter-effects-tainting-feblend-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0275-WPT_reftest-css-filter-effects-tainting-feblend-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20479,7 +20561,7 @@
       }
     },
     {
-      "id": "0275",
+      "id": "0276",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-feblend-002.html",
       "file": [
@@ -20502,7 +20584,7 @@
       ]
     },
     {
-      "id": "0276",
+      "id": "0277",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fecomponenttransfer-001.html",
       "file": [
@@ -20566,7 +20648,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0276-WPT_reftest-css-filter-effects-tainting-fecomponenttransfer-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0277-WPT_reftest-css-filter-effects-tainting-fecomponenttransfer-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20605,7 +20687,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0276-WPT_reftest-css-filter-effects-tainting-fecomponenttransfer-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0277-WPT_reftest-css-filter-effects-tainting-fecomponenttransfer-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20621,7 +20703,7 @@
       }
     },
     {
-      "id": "0277",
+      "id": "0278",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fecomponenttransfer-002.html",
       "file": [
@@ -20644,7 +20726,7 @@
       ]
     },
     {
-      "id": "0278",
+      "id": "0279",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fecomposite-001.html",
       "file": [
@@ -20708,7 +20790,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0278-WPT_reftest-css-filter-effects-tainting-fecomposite-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0279-WPT_reftest-css-filter-effects-tainting-fecomposite-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20747,7 +20829,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0278-WPT_reftest-css-filter-effects-tainting-fecomposite-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0279-WPT_reftest-css-filter-effects-tainting-fecomposite-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20763,7 +20845,7 @@
       }
     },
     {
-      "id": "0279",
+      "id": "0280",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fecomposite-002.html",
       "file": [
@@ -20786,7 +20868,7 @@
       ]
     },
     {
-      "id": "0280",
+      "id": "0281",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-feconvolvematrix-001.html",
       "file": [
@@ -20850,7 +20932,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0280-WPT_reftest-css-filter-effects-tainting-feconvolvematrix-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0281-WPT_reftest-css-filter-effects-tainting-feconvolvematrix-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20889,7 +20971,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0280-WPT_reftest-css-filter-effects-tainting-feconvolvematrix-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0281-WPT_reftest-css-filter-effects-tainting-feconvolvematrix-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20905,7 +20987,7 @@
       }
     },
     {
-      "id": "0281",
+      "id": "0282",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-feconvolvematrix-002.html",
       "file": [
@@ -20928,7 +21010,7 @@
       ]
     },
     {
-      "id": "0282",
+      "id": "0283",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fediffuselighting-001.html",
       "file": [
@@ -20992,7 +21074,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0282-WPT_reftest-css-filter-effects-tainting-fediffuselighting-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0283-WPT_reftest-css-filter-effects-tainting-fediffuselighting-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21031,7 +21113,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0282-WPT_reftest-css-filter-effects-tainting-fediffuselighting-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0283-WPT_reftest-css-filter-effects-tainting-fediffuselighting-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21047,7 +21129,7 @@
       }
     },
     {
-      "id": "0283",
+      "id": "0284",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fediffuselighting-002.html",
       "file": [
@@ -21070,7 +21152,7 @@
       ]
     },
     {
-      "id": "0284",
+      "id": "0285",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fediffuselighting-003.html",
       "file": [
@@ -21093,7 +21175,7 @@
       ]
     },
     {
-      "id": "0285",
+      "id": "0286",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fediffuselighting-dynamic.html",
       "file": [
@@ -21116,7 +21198,7 @@
       ]
     },
     {
-      "id": "0286",
+      "id": "0287",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fedisplacementmap-001.html",
       "file": [
@@ -21180,7 +21262,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0286-WPT_reftest-css-filter-effects-tainting-fedisplacementmap-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0287-WPT_reftest-css-filter-effects-tainting-fedisplacementmap-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21219,7 +21301,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0286-WPT_reftest-css-filter-effects-tainting-fedisplacementmap-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0287-WPT_reftest-css-filter-effects-tainting-fedisplacementmap-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21235,7 +21317,7 @@
       }
     },
     {
-      "id": "0287",
+      "id": "0288",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fedisplacementmap-002.html",
       "file": [
@@ -21258,7 +21340,7 @@
       ]
     },
     {
-      "id": "0288",
+      "id": "0289",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fedropshadow-001.html",
       "file": [
@@ -21322,7 +21404,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0288-WPT_reftest-css-filter-effects-tainting-fedropshadow-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0289-WPT_reftest-css-filter-effects-tainting-fedropshadow-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21361,7 +21443,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0288-WPT_reftest-css-filter-effects-tainting-fedropshadow-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0289-WPT_reftest-css-filter-effects-tainting-fedropshadow-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21377,7 +21459,7 @@
       }
     },
     {
-      "id": "0289",
+      "id": "0290",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fedropshadow-002.html",
       "file": [
@@ -21400,7 +21482,7 @@
       ]
     },
     {
-      "id": "0290",
+      "id": "0291",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fedropshadow-003.html",
       "file": [
@@ -21423,7 +21505,7 @@
       ]
     },
     {
-      "id": "0291",
+      "id": "0292",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-feflood-001.html",
       "file": [
@@ -21487,7 +21569,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0291-WPT_reftest-css-filter-effects-tainting-feflood-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0292-WPT_reftest-css-filter-effects-tainting-feflood-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21526,7 +21608,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0291-WPT_reftest-css-filter-effects-tainting-feflood-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0292-WPT_reftest-css-filter-effects-tainting-feflood-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21542,7 +21624,7 @@
       }
     },
     {
-      "id": "0292",
+      "id": "0293",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-feflood-002.html",
       "file": [
@@ -21565,7 +21647,7 @@
       ]
     },
     {
-      "id": "0293",
+      "id": "0294",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-feflood-dynamic.html",
       "file": [
@@ -21588,7 +21670,7 @@
       ]
     },
     {
-      "id": "0294",
+      "id": "0295",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fegaussianblur-001.html",
       "file": [
@@ -21652,7 +21734,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0294-WPT_reftest-css-filter-effects-tainting-fegaussianblur-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0295-WPT_reftest-css-filter-effects-tainting-fegaussianblur-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21691,7 +21773,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0294-WPT_reftest-css-filter-effects-tainting-fegaussianblur-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0295-WPT_reftest-css-filter-effects-tainting-fegaussianblur-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21707,7 +21789,7 @@
       }
     },
     {
-      "id": "0295",
+      "id": "0296",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fegaussianblur-002.html",
       "file": [
@@ -21730,7 +21812,7 @@
       ]
     },
     {
-      "id": "0296",
+      "id": "0297",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-femorphology-001.html",
       "file": [
@@ -21794,7 +21876,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0296-WPT_reftest-css-filter-effects-tainting-femorphology-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0297-WPT_reftest-css-filter-effects-tainting-femorphology-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21833,7 +21915,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0296-WPT_reftest-css-filter-effects-tainting-femorphology-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0297-WPT_reftest-css-filter-effects-tainting-femorphology-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21849,7 +21931,7 @@
       }
     },
     {
-      "id": "0297",
+      "id": "0298",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-femorphology-002.html",
       "file": [
@@ -21872,7 +21954,7 @@
       ]
     },
     {
-      "id": "0298",
+      "id": "0299",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-feoffset-001.html",
       "file": [
@@ -21936,7 +22018,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0298-WPT_reftest-css-filter-effects-tainting-feoffset-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0299-WPT_reftest-css-filter-effects-tainting-feoffset-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21975,7 +22057,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0298-WPT_reftest-css-filter-effects-tainting-feoffset-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0299-WPT_reftest-css-filter-effects-tainting-feoffset-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21991,7 +22073,7 @@
       }
     },
     {
-      "id": "0299",
+      "id": "0300",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-feoffset-002.html",
       "file": [
@@ -22014,7 +22096,7 @@
       ]
     },
     {
-      "id": "0300",
+      "id": "0301",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fespecularlighting-001.html",
       "file": [
@@ -22078,7 +22160,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0300-WPT_reftest-css-filter-effects-tainting-fespecularlighting-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0301-WPT_reftest-css-filter-effects-tainting-fespecularlighting-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22117,7 +22199,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0300-WPT_reftest-css-filter-effects-tainting-fespecularlighting-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0301-WPT_reftest-css-filter-effects-tainting-fespecularlighting-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22133,7 +22215,7 @@
       }
     },
     {
-      "id": "0301",
+      "id": "0302",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fespecularlighting-002.html",
       "file": [
@@ -22156,7 +22238,7 @@
       ]
     },
     {
-      "id": "0302",
+      "id": "0303",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fespecularlighting-003.html",
       "file": [
@@ -22179,7 +22261,7 @@
       ]
     },
     {
-      "id": "0303",
+      "id": "0304",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fetile-001.html",
       "file": [
@@ -22243,7 +22325,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0303-WPT_reftest-css-filter-effects-tainting-fetile-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0304-WPT_reftest-css-filter-effects-tainting-fetile-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22282,7 +22364,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0303-WPT_reftest-css-filter-effects-tainting-fetile-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0304-WPT_reftest-css-filter-effects-tainting-fetile-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22298,7 +22380,7 @@
       }
     },
     {
-      "id": "0304",
+      "id": "0305",
       "category": "WPT reftest",
       "title": "css/filter-effects/tainting-fetile-002.html",
       "file": [
@@ -22321,7 +22403,7 @@
       ]
     },
     {
-      "id": "0305",
+      "id": "0306",
       "category": "WPT reftest",
       "title": "css/filter-effects/visibility-hidden-element-with-filter-001.html",
       "file": [
@@ -22385,7 +22467,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0305-WPT_reftest-css-filter-effects-visibility-hidden-element-with-filter-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0306-WPT_reftest-css-filter-effects-visibility-hidden-element-with-filter-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22424,7 +22506,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0305-WPT_reftest-css-filter-effects-visibility-hidden-element-with-filter-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0306-WPT_reftest-css-filter-effects-visibility-hidden-element-with-filter-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22440,7 +22522,7 @@
       }
     },
     {
-      "id": "0306",
+      "id": "0307",
       "category": "WPT reftest",
       "title": "css/filter-effects/will-change-blur-filter-under-clip.html",
       "file": [

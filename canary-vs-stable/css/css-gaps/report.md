@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 297
-- Entries with differences: 268 (pending: 268, triaged: 0)
+- Compared entries: 298
+- Entries with differences: 272 (pending: 272, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":29,"known-fail":268}
+- Outcome summary: {"pass":26,"known-fail":272}
 
 ## Differences
 
@@ -217,6 +217,32 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.006440348065033204, diffPixels=5400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0019] [WPT reftest] css/css-gaps/flex/flex-gap-decorations-017.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/flex/flex-gap-decorations-017-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0020] [WPT reftest] css/css-gaps/flex/flex-gap-decorations-018.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/flex/flex-gap-decorations-018-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0021] [WPT reftest] css/css-gaps/flex/flex-gap-decorations-019.html
   triage: pending
@@ -1675,6 +1701,32 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0424788661170903, diffPixels=35617
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0142] [WPT reftest] css/css-gaps/grid/grid-gap-decorations-020.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/grid/grid-gap-decorations-020-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0017412792916571254, diffPixels=1460
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0017412792916571254, diffPixels=1460
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0143] [WPT reftest] css/css-gaps/grid/grid-gap-decorations-021.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/grid/grid-gap-decorations-021-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0017412792916571254, diffPixels=1460
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0017412792916571254, diffPixels=1460
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0144] [WPT reftest] css/css-gaps/grid/grid-gap-decorations-022.html
   triage: pending
@@ -3446,7 +3498,7 @@
   stable page 1: diffRatio=0.008587130753377605, diffPixels=7200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-039-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0293] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-direction-inset.html
+- [0294] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-direction-inset.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/multicol/multicol-gap-decorations-direction-inset-ref.html (==)
@@ -3459,7 +3511,7 @@
   stable page 1: diffRatio=0.005009159606136936, diffPixels=4200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-direction-inset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0294] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-multi-value-direction.html
+- [0295] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-multi-value-direction.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/multicol/multicol-gap-decorations-multi-value-direction-ref.html (==)
@@ -3472,7 +3524,7 @@
   stable page 1: diffRatio=0.021706358293260057, diffPixels=18200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-multi-value-direction-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0295] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode.html
+- [0296] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode-ref.html (==)
@@ -3487,7 +3539,7 @@
   stable page 2: diffRatio=0.010853179146630029, diffPixels=9100
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0297] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-writing-mode.html
+- [0298] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-writing-mode.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/multicol/multicol-gap-decorations-writing-mode-ref.html (==)

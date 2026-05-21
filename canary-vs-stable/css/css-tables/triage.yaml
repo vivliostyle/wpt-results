@@ -160,7 +160,7 @@
       referenceFile: css/css-tables/col-definite-size-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/col-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0037"
+- id: "0039"
   category: WPT reftest
   title: css/css-tables/collapsed-border-partial-invalidation-003.html
   file: css/css-tables/collapsed-border-partial-invalidation-003.html
@@ -187,7 +187,7 @@
       referenceFile: css/css-tables/collapsed-border-partial-invalidation-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/collapsed-border-partial-invalidation-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0039"
+- id: "0041"
   category: WPT reftest
   title: css/css-tables/collapsed-border-remove-cell.html
   file: css/css-tables/collapsed-border-remove-cell.html
@@ -214,7 +214,7 @@
       referenceFile: css/css-tables/collapsed-border-remove-cell-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/collapsed-border-remove-cell-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0044"
+- id: "0046"
   category: WPT reftest
   title: css/css-tables/colspan-004.html
   file: css/css-tables/colspan-004.html
@@ -241,7 +241,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0054"
+- id: "0056"
   category: WPT reftest
   title: css/css-tables/height-distribution/percentage-sizing-of-table-cell-007.html
   file: css/css-tables/height-distribution/percentage-sizing-of-table-cell-007.html
@@ -268,7 +268,7 @@
       referenceFile: css/css-tables/height-distribution/percentage-sizing-of-table-cell-007-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0055"
+- id: "0057"
   category: WPT reftest
   title: css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002.html
   file: css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002.html
@@ -295,7 +295,7 @@
       referenceFile: css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0060"
+- id: "0062"
   category: WPT reftest
   title: css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001.html
   file: css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001.html
@@ -322,7 +322,7 @@
       referenceFile: css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0065"
+- id: "0067"
   category: WPT reftest
   title: css/css-tables/insert-after-col.html
   file: css/css-tables/insert-after-col.html
@@ -349,7 +349,7 @@
       referenceFile: css/css-tables/insert-after-col-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/insert-after-col-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0073"
+- id: "0075"
   category: WPT reftest
   title: css/css-tables/paint/col-change-span-bg-invalidation-001.html
   file: css/css-tables/paint/col-change-span-bg-invalidation-001.html
@@ -376,7 +376,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0074"
+- id: "0076"
   category: WPT reftest
   title: css/css-tables/paint/col-change-span-bg-invalidation-002.html
   file: css/css-tables/paint/col-change-span-bg-invalidation-002.html
@@ -403,7 +403,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0077"
+- id: "0079"
   category: WPT reftest
   title: css/css-tables/paint/row-background-paint-remove-last-cell.html
   file: css/css-tables/paint/row-background-paint-remove-last-cell.html
@@ -430,7 +430,7 @@
       referenceFile: css/css-tables/paint/row-background-paint-remove-last-cell-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/paint/row-background-paint-remove-last-cell-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0080"
+- id: "0082"
   category: WPT reftest
   title: css/css-tables/percent-height-replaced-in-percent-cell-002.html
   file: css/css-tables/percent-height-replaced-in-percent-cell-002.html
@@ -457,7 +457,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0081"
+- id: "0083"
   category: WPT reftest
   title: css/css-tables/percent-height-replaced-in-percent-cell-003.html
   file: css/css-tables/percent-height-replaced-in-percent-cell-003.html
@@ -484,7 +484,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0082"
+- id: "0084"
   category: WPT reftest
   title: css/css-tables/percent-height-replaced-in-percent-cell-004.html
   file: css/css-tables/percent-height-replaced-in-percent-cell-004.html
@@ -511,7 +511,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0087"
+- id: "0089"
   category: WPT reftest
   title: css/css-tables/percentages-grandchildren-quirks-mode-002.html
   file: css/css-tables/percentages-grandchildren-quirks-mode-002.html
@@ -538,7 +538,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0094"
+- id: "0096"
   category: WPT reftest
   title: css/css-tables/rules-groups.html
   file: css/css-tables/rules-groups.html
@@ -565,7 +565,7 @@
       referenceFile: css/css-tables/rules-groups-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/rules-groups-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0107"
+- id: "0109"
   category: WPT reftest
   title: css/css-tables/table-cell-child-overflow-measure.html
   file: css/css-tables/table-cell-child-overflow-measure.html
@@ -592,7 +592,7 @@
       referenceFile: css/css-tables/table-cell-child-overflow-measure-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/table-cell-child-overflow-measure-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0113"
+- id: "0115"
   category: WPT reftest
   title: css/css-tables/table-cell-width-0.html
   file: css/css-tables/table-cell-width-0.html
@@ -619,7 +619,7 @@
       referenceFile: css/css-tables/table-cell-width-0-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/table-cell-width-0-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0141"
+- id: "0143"
   category: WPT reftest
   title: css/css-tables/tentative/padding-percentage.html
   file: css/css-tables/tentative/padding-percentage.html
@@ -646,7 +646,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0147"
+- id: "0149"
   category: WPT reftest
   title: css/css-tables/tentative/paint/overflow-hidden-table.html
   file: css/css-tables/tentative/paint/overflow-hidden-table.html
@@ -673,7 +673,7 @@
       referenceFile: css/css-tables/tentative/paint/overflow-hidden-table-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/tentative/paint/overflow-hidden-table-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0150"
+- id: "0152"
   category: WPT reftest
   title: css/css-tables/th-text-align.html
   file: css/css-tables/th-text-align.html
@@ -700,7 +700,7 @@
       referenceFile: css/css-tables/th-text-align-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/th-text-align-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0151"
+- id: "0153"
   category: WPT reftest
   title: css/css-tables/toggle-row-display-property-001.html
   file: css/css-tables/toggle-row-display-property-001.html
@@ -727,7 +727,7 @@
       referenceFile: css/css-tables/toggle-row-display-property-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/toggle-row-display-property-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0154"
+- id: "0156"
   category: WPT reftest
   title: css/css-tables/visibility-collapse-colspan-003.html
   file: css/css-tables/visibility-collapse-colspan-003.html
@@ -754,7 +754,7 @@
       referenceFile: css/css-tables/visibility-collapse-colspan-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/visibility-collapse-colspan-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0155"
+- id: "0157"
   category: WPT reftest
   title: css/css-tables/visibility-collapse-rowspan-005.html
   file: css/css-tables/visibility-collapse-rowspan-005.html
@@ -781,7 +781,7 @@
       referenceFile: css/css-tables/visibility-collapse-rowspan-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/visibility-collapse-rowspan-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0157"
+- id: "0159"
   category: WPT reftest
   title: css/css-tables/whitespace-001.html
   file: css/css-tables/whitespace-001.html

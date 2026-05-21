@@ -3107,6 +3107,19 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/background-size-vector-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
+  relation: "=="
+  diffPages:
+    - css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0279"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/background-size-vector-029.html
@@ -3121,6 +3134,19 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/background-size-vector-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
+  relation: "=="
+  diffPages:
+    - css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0282"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--auto--percent-width-nonpercent-height-viewbox.html
@@ -6024,4 +6050,22 @@
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
   errorName: TimeoutError
-  errorMessage: "Timeout (10000ms): navigating to page 1"
+  errorMessage: |
+    locator.fill: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for locator('#vivliostyle-page-number')
+        - locator resolved to <input type="text" autocomplete="off" inputmode="numeric" aria-keyshortcuts="G" title="Go to Page… (G)" aria-label="Page number" id="vivliostyle-page-number" data-bind="value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}"/>
+        - fill("1")
+      - attempting fill action
+        2 × waiting for element to be visible, enabled and editable
+          - element is not visible
+        - retrying fill action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and editable
+          - element is not visible
+        - retrying fill action
+          - waiting 100ms
+        17 × waiting for element to be visible, enabled and editable
+           - element is not visible
+         - retrying fill action
+           - waiting 500ms

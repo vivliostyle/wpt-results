@@ -430,6 +430,60 @@
       referenceFile: css/css-gaps/flex/flex-gap-decorations-016-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0019"
+  category: WPT reftest
+  title: css/css-gaps/flex/flex-gap-decorations-017.html
+  file: css/css-gaps/flex/flex-gap-decorations-017.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-gaps/flex/flex-gap-decorations-017-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-gaps/flex/flex-gap-decorations-017-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-gaps/flex/flex-gap-decorations-017-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-gaps/flex/flex-gap-decorations-017-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0020"
+  category: WPT reftest
+  title: css/css-gaps/flex/flex-gap-decorations-018.html
+  file: css/css-gaps/flex/flex-gap-decorations-018.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-gaps/flex/flex-gap-decorations-018-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-gaps/flex/flex-gap-decorations-018-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-gaps/flex/flex-gap-decorations-018-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-gaps/flex/flex-gap-decorations-018-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0021"
   category: WPT reftest
   title: css/css-gaps/flex/flex-gap-decorations-019.html
@@ -3460,6 +3514,60 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-019-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0142"
+  category: WPT reftest
+  title: css/css-gaps/grid/grid-gap-decorations-020.html
+  file: css/css-gaps/grid/grid-gap-decorations-020.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-gaps/grid/grid-gap-decorations-020-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-gaps/grid/grid-gap-decorations-020-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-gaps/grid/grid-gap-decorations-020-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-gaps/grid/grid-gap-decorations-020-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0143"
+  category: WPT reftest
+  title: css/css-gaps/grid/grid-gap-decorations-021.html
+  file: css/css-gaps/grid/grid-gap-decorations-021.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-gaps/grid/grid-gap-decorations-021-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-gaps/grid/grid-gap-decorations-021-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-gaps/grid/grid-gap-decorations-021-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-gaps/grid/grid-gap-decorations-021-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0144"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-022.html
@@ -7133,7 +7241,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-039-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-039-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0293"
+- id: "0294"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-direction-inset.html
   file: css/css-gaps/multicol/multicol-gap-decorations-direction-inset.html
@@ -7160,7 +7268,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-direction-inset-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-direction-inset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0294"
+- id: "0295"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-multi-value-direction.html
   file: css/css-gaps/multicol/multicol-gap-decorations-multi-value-direction.html
@@ -7187,7 +7295,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-multi-value-direction-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-multi-value-direction-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0295"
+- id: "0296"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode.html
   file: css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode.html
@@ -7215,7 +7323,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0297"
+- id: "0298"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-writing-mode.html
   file: css/css-gaps/multicol/multicol-gap-decorations-writing-mode.html

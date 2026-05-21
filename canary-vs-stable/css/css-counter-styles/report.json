@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T02:28:53.577Z",
+  "generatedAt": "2026-05-21T04:04:13.481Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -1478,12 +1478,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 38,
-                "diffRatio": 0.00004532096786504847,
-                "exactDiffPixels": 284,
-                "exactDiffRatio": 0.0003387146019387833,
+                "diffPixels": 2776,
+                "diffRatio": 0.003310815968246699,
+                "exactDiffPixels": 4142,
+                "exactDiffRatio": 0.004939985497290283,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 204,
+                "maxChannelDifference": 255,
                 "dimensionMismatch": false,
                 "diffImage": "actual-reference-diff/0043-WPT_reftest-css-css-counter-styles-counter-style-at-rule-disclosure-styles.html-r01-p0001.png"
               }
@@ -1517,12 +1517,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 38,
-                "diffRatio": 0.00004532096786504847,
-                "exactDiffPixels": 284,
-                "exactDiffRatio": 0.0003387146019387833,
+                "diffPixels": 2776,
+                "diffRatio": 0.003310815968246699,
+                "exactDiffPixels": 4142,
+                "exactDiffRatio": 0.004939985497290283,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 204,
+                "maxChannelDifference": 255,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0043-WPT_reftest-css-css-counter-styles-counter-style-at-rule-disclosure-styles.html-r01-p0001.png"
               }

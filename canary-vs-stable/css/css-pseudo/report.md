@@ -3,7 +3,7 @@
 - Compared entries: 264
 - Entries with differences: 135 (pending: 135, triaged: 0)
 - Entries with errors: 23 (pending: 23, triaged: 0)
-- Timeout entries: 22
+- Timeout entries: 23
 - Page count changed: 0
 - Screenshot mismatches: 0
 - Outcome summary: {"known-fail":135,"pass":99,"error":23,"unchanged":7}
@@ -1801,7 +1801,7 @@
   triage: pending
   side: canary, canary-reference, stable, stable-reference
   canary timeout: true
-  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary-reference reference: css/css-pseudo/highlight-cascade/highlight-paired-cascade-004-notref.html
   canary-reference timeout: true
   canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
@@ -1887,7 +1887,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   stable timeout: false
   stable error: Error: page.addStyleTag: Execution context was destroyed, most likely because of a navigation
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/target-text-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2008,8 +2008,8 @@
 - [0254] [WPT reftest] css/css-pseudo/target-text-shadow-vertical.html
   triage: pending
   side: canary, stable
-  canary timeout: false
-  canary error: Error: page.addStyleTag: Execution context was destroyed, most likely because of a navigation
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: false
   stable error: Error: page.addStyleTag: Execution context was destroyed, most likely because of a navigation
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/target-text-shadow-vertical.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

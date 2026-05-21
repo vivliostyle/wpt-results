@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 2
-- Outcome summary: {"pass":97,"known-fail":125,"changed-fail":2,"unchanged":20}
+- Screenshot mismatches: 5
+- Outcome summary: {"pass":97,"known-fail":122,"changed-fail":5,"unchanged":20}
 
 ## Differences
 
@@ -403,14 +403,14 @@
 
 - [0044] [WPT print-reftest] css/css-page/margin-boxes/content-010-print.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-page/margin-boxes/content-010-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/content-010-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0000572475383558507, diffPixels=48
-  canary page 2: diffRatio=0.000031009083276085796, diffPixels=26
-  canary page 3: diffRatio=0.000022660483932524234, diffPixels=19
-  canary page 4: diffRatio=0.00004770628196320891, diffPixels=40
+  canary page 2: diffRatio=0.00003220174032516602, diffPixels=27
+  canary page 3: diffRatio=0.000026238455079764903, diffPixels=22
+  canary page 4: diffRatio=0.00003339439737424624, diffPixels=28
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/content-010-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/content-010-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -422,14 +422,14 @@
 
 - [0045] [WPT print-reftest] css/css-page/margin-boxes/content-011-print.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-page/margin-boxes/content-011-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/content-011-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0000989905350736585, diffPixels=83
-  canary page 2: diffRatio=0.0000727520799938936, diffPixels=61
-  canary page 3: diffRatio=0.00006440348065033204, diffPixels=54
-  canary page 4: diffRatio=0.00008944927868101672, diffPixels=75
+  canary page 2: diffRatio=0.00007155942294481338, diffPixels=60
+  canary page 3: diffRatio=0.0000727520799938936, diffPixels=61
+  canary page 4: diffRatio=0.0000727520799938936, diffPixels=61
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/content-011-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/content-011-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -441,14 +441,14 @@
 
 - [0046] [WPT print-reftest] css/css-page/margin-boxes/content-012-print.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-page/margin-boxes/content-012-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/content-012-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0001359629035951454, diffPixels=114
-  canary page 2: diffRatio=0.00020752232653995878, diffPixels=174
-  canary page 3: diffRatio=0.0008253186779635142, diffPixels=692
-  canary page 4: diffRatio=0.0005891725822456301, diffPixels=494
+  canary page 2: diffRatio=0.00022183421112892147, diffPixels=186
+  canary page 3: diffRatio=0.000867061674681322, diffPixels=727
+  canary page 4: diffRatio=0.0006094477520799939, diffPixels=511
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/content-012-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/content-012-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

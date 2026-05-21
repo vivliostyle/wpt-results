@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T04:37:09.407Z",
+  "generatedAt": "2026-05-21T06:18:54.789Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -38,7 +38,7 @@
     "timeoutMs": 10000
   },
   "summary": {
-    "totalEntries": 181,
+    "totalEntries": 182,
     "entriesWithDifferences": 16,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
@@ -46,12 +46,12 @@
     "screenshotMismatches": 15,
     "outcomes": {
       "changeTypes": {
-        "pass": 165,
+        "pass": 166,
         "improvement": 15,
         "known-fail": 1
       },
       "statusPairs": {
-        "PASS->PASS": 165,
+        "PASS->PASS": 166,
         "FAIL->PASS": 15,
         "FAIL->FAIL": 1
       }
@@ -119,6 +119,29 @@
     {
       "id": "0003",
       "category": "WPT reftest",
+      "title": "css/css-variables/registered-property-light-dark.html",
+      "file": [
+        "css/css-variables/registered-property-light-dark.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-variables/registered-property-light-dark.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-variables/registered-property-light-dark.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-variables/registered-property-light-dark.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0004",
+      "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-01.html",
       "file": [
         "css/css-variables/variable-declaration-01.html"
@@ -140,7 +163,7 @@
       ]
     },
     {
-      "id": "0004",
+      "id": "0005",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-02.html",
       "file": [
@@ -163,7 +186,7 @@
       ]
     },
     {
-      "id": "0005",
+      "id": "0006",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-03.html",
       "file": [
@@ -186,7 +209,7 @@
       ]
     },
     {
-      "id": "0006",
+      "id": "0007",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-04.html",
       "file": [
@@ -209,7 +232,7 @@
       ]
     },
     {
-      "id": "0007",
+      "id": "0008",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-05.html",
       "file": [
@@ -232,7 +255,7 @@
       ]
     },
     {
-      "id": "0008",
+      "id": "0009",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-06.html",
       "file": [
@@ -255,7 +278,7 @@
       ]
     },
     {
-      "id": "0009",
+      "id": "0010",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-07.html",
       "file": [
@@ -278,7 +301,7 @@
       ]
     },
     {
-      "id": "0010",
+      "id": "0011",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-08.html",
       "file": [
@@ -301,7 +324,7 @@
       ]
     },
     {
-      "id": "0011",
+      "id": "0012",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-09.html",
       "file": [
@@ -324,7 +347,7 @@
       ]
     },
     {
-      "id": "0012",
+      "id": "0013",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-10.html",
       "file": [
@@ -347,7 +370,7 @@
       ]
     },
     {
-      "id": "0013",
+      "id": "0014",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-11.html",
       "file": [
@@ -370,7 +393,7 @@
       ]
     },
     {
-      "id": "0014",
+      "id": "0015",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-12.html",
       "file": [
@@ -415,7 +438,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 220,
             "dimensionMismatch": false,
-            "diffImage": "diff/0014-WPT_reftest-css-css-variables-variable-declaration-12.html-p0001.png"
+            "diffImage": "diff/0015-WPT_reftest-css-css-variables-variable-declaration-12.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -450,7 +473,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 220,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0014-WPT_reftest-css-css-variables-variable-declaration-12.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0015-WPT_reftest-css-css-variables-variable-declaration-12.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -466,7 +489,7 @@
       }
     },
     {
-      "id": "0015",
+      "id": "0016",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-13.html",
       "file": [
@@ -489,7 +512,7 @@
       ]
     },
     {
-      "id": "0016",
+      "id": "0017",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-14.html",
       "file": [
@@ -512,7 +535,7 @@
       ]
     },
     {
-      "id": "0017",
+      "id": "0018",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-15.html",
       "file": [
@@ -535,7 +558,7 @@
       ]
     },
     {
-      "id": "0018",
+      "id": "0019",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-16.html",
       "file": [
@@ -558,7 +581,7 @@
       ]
     },
     {
-      "id": "0019",
+      "id": "0020",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-17.html",
       "file": [
@@ -581,7 +604,7 @@
       ]
     },
     {
-      "id": "0020",
+      "id": "0021",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-18.html",
       "file": [
@@ -604,7 +627,7 @@
       ]
     },
     {
-      "id": "0021",
+      "id": "0022",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-19.html",
       "file": [
@@ -627,7 +650,7 @@
       ]
     },
     {
-      "id": "0022",
+      "id": "0023",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-20.html",
       "file": [
@@ -650,7 +673,7 @@
       ]
     },
     {
-      "id": "0023",
+      "id": "0024",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-21.html",
       "file": [
@@ -673,7 +696,7 @@
       ]
     },
     {
-      "id": "0024",
+      "id": "0025",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-22.html",
       "file": [
@@ -696,7 +719,7 @@
       ]
     },
     {
-      "id": "0025",
+      "id": "0026",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-23.html",
       "file": [
@@ -719,7 +742,7 @@
       ]
     },
     {
-      "id": "0026",
+      "id": "0027",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-24.html",
       "file": [
@@ -742,7 +765,7 @@
       ]
     },
     {
-      "id": "0027",
+      "id": "0028",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-25.html",
       "file": [
@@ -765,7 +788,7 @@
       ]
     },
     {
-      "id": "0028",
+      "id": "0029",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-26.html",
       "file": [
@@ -788,7 +811,7 @@
       ]
     },
     {
-      "id": "0029",
+      "id": "0030",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-29.html",
       "file": [
@@ -811,7 +834,7 @@
       ]
     },
     {
-      "id": "0030",
+      "id": "0031",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-30.html",
       "file": [
@@ -856,7 +879,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 220,
             "dimensionMismatch": false,
-            "diffImage": "diff/0030-WPT_reftest-css-css-variables-variable-declaration-30.html-p0001.png"
+            "diffImage": "diff/0031-WPT_reftest-css-css-variables-variable-declaration-30.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -891,7 +914,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 220,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0030-WPT_reftest-css-css-variables-variable-declaration-30.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0031-WPT_reftest-css-css-variables-variable-declaration-30.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -907,7 +930,7 @@
       }
     },
     {
-      "id": "0031",
+      "id": "0032",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-31.html",
       "file": [
@@ -930,7 +953,7 @@
       ]
     },
     {
-      "id": "0032",
+      "id": "0033",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-32.html",
       "file": [
@@ -953,7 +976,7 @@
       ]
     },
     {
-      "id": "0033",
+      "id": "0034",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-33.html",
       "file": [
@@ -976,7 +999,7 @@
       ]
     },
     {
-      "id": "0034",
+      "id": "0035",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-34.html",
       "file": [
@@ -999,7 +1022,7 @@
       ]
     },
     {
-      "id": "0035",
+      "id": "0036",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-35.html",
       "file": [
@@ -1022,7 +1045,7 @@
       ]
     },
     {
-      "id": "0036",
+      "id": "0037",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-36.html",
       "file": [
@@ -1045,7 +1068,7 @@
       ]
     },
     {
-      "id": "0037",
+      "id": "0038",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-37.html",
       "file": [
@@ -1068,7 +1091,7 @@
       ]
     },
     {
-      "id": "0038",
+      "id": "0039",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-38.html",
       "file": [
@@ -1091,7 +1114,7 @@
       ]
     },
     {
-      "id": "0039",
+      "id": "0040",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-39.html",
       "file": [
@@ -1114,7 +1137,7 @@
       ]
     },
     {
-      "id": "0040",
+      "id": "0041",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-40.html",
       "file": [
@@ -1137,7 +1160,7 @@
       ]
     },
     {
-      "id": "0041",
+      "id": "0042",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-41.html",
       "file": [
@@ -1160,7 +1183,7 @@
       ]
     },
     {
-      "id": "0042",
+      "id": "0043",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-42.html",
       "file": [
@@ -1183,7 +1206,7 @@
       ]
     },
     {
-      "id": "0043",
+      "id": "0044",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-43.html",
       "file": [
@@ -1228,7 +1251,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 128,
             "dimensionMismatch": false,
-            "diffImage": "diff/0043-WPT_reftest-css-css-variables-variable-declaration-43.html-p0001.png"
+            "diffImage": "diff/0044-WPT_reftest-css-css-variables-variable-declaration-43.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -1263,7 +1286,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 128,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0043-WPT_reftest-css-css-variables-variable-declaration-43.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0044-WPT_reftest-css-css-variables-variable-declaration-43.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1279,7 +1302,7 @@
       }
     },
     {
-      "id": "0044",
+      "id": "0045",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-44.html",
       "file": [
@@ -1324,7 +1347,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 128,
             "dimensionMismatch": false,
-            "diffImage": "diff/0044-WPT_reftest-css-css-variables-variable-declaration-44.html-p0001.png"
+            "diffImage": "diff/0045-WPT_reftest-css-css-variables-variable-declaration-44.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -1359,7 +1382,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 128,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0044-WPT_reftest-css-css-variables-variable-declaration-44.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0045-WPT_reftest-css-css-variables-variable-declaration-44.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1375,7 +1398,7 @@
       }
     },
     {
-      "id": "0045",
+      "id": "0046",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-45.html",
       "file": [
@@ -1420,7 +1443,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 220,
             "dimensionMismatch": false,
-            "diffImage": "diff/0045-WPT_reftest-css-css-variables-variable-declaration-45.html-p0001.png"
+            "diffImage": "diff/0046-WPT_reftest-css-css-variables-variable-declaration-45.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -1455,7 +1478,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 220,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0045-WPT_reftest-css-css-variables-variable-declaration-45.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0046-WPT_reftest-css-css-variables-variable-declaration-45.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1471,7 +1494,7 @@
       }
     },
     {
-      "id": "0046",
+      "id": "0047",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-46.html",
       "file": [
@@ -1516,7 +1539,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 128,
             "dimensionMismatch": false,
-            "diffImage": "diff/0046-WPT_reftest-css-css-variables-variable-declaration-46.html-p0001.png"
+            "diffImage": "diff/0047-WPT_reftest-css-css-variables-variable-declaration-46.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -1551,7 +1574,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 128,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0046-WPT_reftest-css-css-variables-variable-declaration-46.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0047-WPT_reftest-css-css-variables-variable-declaration-46.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1567,7 +1590,7 @@
       }
     },
     {
-      "id": "0047",
+      "id": "0048",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-47.html",
       "file": [
@@ -1612,7 +1635,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 220,
             "dimensionMismatch": false,
-            "diffImage": "diff/0047-WPT_reftest-css-css-variables-variable-declaration-47.html-p0001.png"
+            "diffImage": "diff/0048-WPT_reftest-css-css-variables-variable-declaration-47.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -1647,7 +1670,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 220,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0047-WPT_reftest-css-css-variables-variable-declaration-47.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0048-WPT_reftest-css-css-variables-variable-declaration-47.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1663,7 +1686,7 @@
       }
     },
     {
-      "id": "0048",
+      "id": "0049",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-48.html",
       "file": [
@@ -1686,7 +1709,7 @@
       ]
     },
     {
-      "id": "0049",
+      "id": "0050",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-49.html",
       "file": [
@@ -1709,7 +1732,7 @@
       ]
     },
     {
-      "id": "0050",
+      "id": "0051",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-50.html",
       "file": [
@@ -1732,7 +1755,7 @@
       ]
     },
     {
-      "id": "0051",
+      "id": "0052",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-51.html",
       "file": [
@@ -1777,7 +1800,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 255,
             "dimensionMismatch": false,
-            "diffImage": "diff/0051-WPT_reftest-css-css-variables-variable-declaration-51.html-p0001.png"
+            "diffImage": "diff/0052-WPT_reftest-css-css-variables-variable-declaration-51.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -1812,7 +1835,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0051-WPT_reftest-css-css-variables-variable-declaration-51.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0052-WPT_reftest-css-css-variables-variable-declaration-51.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1828,7 +1851,7 @@
       }
     },
     {
-      "id": "0052",
+      "id": "0053",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-52.html",
       "file": [
@@ -1851,7 +1874,7 @@
       ]
     },
     {
-      "id": "0053",
+      "id": "0054",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-53.html",
       "file": [
@@ -1874,7 +1897,7 @@
       ]
     },
     {
-      "id": "0054",
+      "id": "0055",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-54.html",
       "file": [
@@ -1897,7 +1920,7 @@
       ]
     },
     {
-      "id": "0055",
+      "id": "0056",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-55.html",
       "file": [
@@ -1920,7 +1943,7 @@
       ]
     },
     {
-      "id": "0056",
+      "id": "0057",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-56.html",
       "file": [
@@ -1965,7 +1988,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 128,
             "dimensionMismatch": false,
-            "diffImage": "diff/0056-WPT_reftest-css-css-variables-variable-declaration-56.html-p0001.png"
+            "diffImage": "diff/0057-WPT_reftest-css-css-variables-variable-declaration-56.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -2000,7 +2023,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 128,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0056-WPT_reftest-css-css-variables-variable-declaration-56.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0057-WPT_reftest-css-css-variables-variable-declaration-56.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2016,7 +2039,7 @@
       }
     },
     {
-      "id": "0057",
+      "id": "0058",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-57.html",
       "file": [
@@ -2061,7 +2084,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 220,
             "dimensionMismatch": false,
-            "diffImage": "diff/0057-WPT_reftest-css-css-variables-variable-declaration-57.html-p0001.png"
+            "diffImage": "diff/0058-WPT_reftest-css-css-variables-variable-declaration-57.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -2096,7 +2119,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 220,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0057-WPT_reftest-css-css-variables-variable-declaration-57.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0058-WPT_reftest-css-css-variables-variable-declaration-57.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2112,7 +2135,7 @@
       }
     },
     {
-      "id": "0058",
+      "id": "0059",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-58.html",
       "file": [
@@ -2157,7 +2180,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 220,
             "dimensionMismatch": false,
-            "diffImage": "diff/0058-WPT_reftest-css-css-variables-variable-declaration-58.html-p0001.png"
+            "diffImage": "diff/0059-WPT_reftest-css-css-variables-variable-declaration-58.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -2192,7 +2215,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 220,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0058-WPT_reftest-css-css-variables-variable-declaration-58.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0059-WPT_reftest-css-css-variables-variable-declaration-58.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2208,7 +2231,7 @@
       }
     },
     {
-      "id": "0059",
+      "id": "0060",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-59.html",
       "file": [
@@ -2231,7 +2254,7 @@
       ]
     },
     {
-      "id": "0060",
+      "id": "0061",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-declaration-60.html",
       "file": [
@@ -2254,7 +2277,7 @@
       ]
     },
     {
-      "id": "0061",
+      "id": "0062",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-external-declaration-01.html",
       "file": [
@@ -2277,7 +2300,7 @@
       ]
     },
     {
-      "id": "0062",
+      "id": "0063",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-external-font-face-01.html",
       "file": [
@@ -2300,7 +2323,7 @@
       ]
     },
     {
-      "id": "0063",
+      "id": "0064",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-external-reference-01.html",
       "file": [
@@ -2323,7 +2346,7 @@
       ]
     },
     {
-      "id": "0064",
+      "id": "0065",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-external-supports-01.html",
       "file": [
@@ -2346,7 +2369,7 @@
       ]
     },
     {
-      "id": "0065",
+      "id": "0066",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-font-face-01.html",
       "file": [
@@ -2369,7 +2392,7 @@
       ]
     },
     {
-      "id": "0066",
+      "id": "0067",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-font-face-02.html",
       "file": [
@@ -2392,7 +2415,7 @@
       ]
     },
     {
-      "id": "0067",
+      "id": "0068",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-generated-content-dynamic-001.html",
       "file": [
@@ -2456,7 +2479,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0067-WPT_reftest-css-css-variables-variable-generated-content-dynamic-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0068-WPT_reftest-css-css-variables-variable-generated-content-dynamic-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2495,7 +2518,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0067-WPT_reftest-css-css-variables-variable-generated-content-dynamic-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0068-WPT_reftest-css-css-variables-variable-generated-content-dynamic-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2511,7 +2534,7 @@
       }
     },
     {
-      "id": "0068",
+      "id": "0069",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-invalid-recovery.html",
       "file": [
@@ -2534,7 +2557,7 @@
       ]
     },
     {
-      "id": "0069",
+      "id": "0070",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-01.html",
       "file": [
@@ -2557,7 +2580,7 @@
       ]
     },
     {
-      "id": "0070",
+      "id": "0071",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-02.html",
       "file": [
@@ -2580,7 +2603,7 @@
       ]
     },
     {
-      "id": "0071",
+      "id": "0072",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-03.html",
       "file": [
@@ -2603,7 +2626,7 @@
       ]
     },
     {
-      "id": "0072",
+      "id": "0073",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-04.html",
       "file": [
@@ -2626,7 +2649,7 @@
       ]
     },
     {
-      "id": "0073",
+      "id": "0074",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-05.html",
       "file": [
@@ -2649,7 +2672,7 @@
       ]
     },
     {
-      "id": "0074",
+      "id": "0075",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-06.html",
       "file": [
@@ -2672,7 +2695,7 @@
       ]
     },
     {
-      "id": "0075",
+      "id": "0076",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-07.html",
       "file": [
@@ -2717,7 +2740,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 220,
             "dimensionMismatch": false,
-            "diffImage": "diff/0075-WPT_reftest-css-css-variables-variable-reference-07.html-p0001.png"
+            "diffImage": "diff/0076-WPT_reftest-css-css-variables-variable-reference-07.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -2752,7 +2775,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 220,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0075-WPT_reftest-css-css-variables-variable-reference-07.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0076-WPT_reftest-css-css-variables-variable-reference-07.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2768,7 +2791,7 @@
       }
     },
     {
-      "id": "0076",
+      "id": "0077",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-08.html",
       "file": [
@@ -2791,7 +2814,7 @@
       ]
     },
     {
-      "id": "0077",
+      "id": "0078",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-09.html",
       "file": [
@@ -2814,7 +2837,7 @@
       ]
     },
     {
-      "id": "0078",
+      "id": "0079",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-10.html",
       "file": [
@@ -2837,7 +2860,7 @@
       ]
     },
     {
-      "id": "0079",
+      "id": "0080",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-11.html",
       "file": [
@@ -2860,7 +2883,7 @@
       ]
     },
     {
-      "id": "0080",
+      "id": "0081",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-12.html",
       "file": [
@@ -2883,7 +2906,7 @@
       ]
     },
     {
-      "id": "0081",
+      "id": "0082",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-13.html",
       "file": [
@@ -2906,7 +2929,7 @@
       ]
     },
     {
-      "id": "0082",
+      "id": "0083",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-14.html",
       "file": [
@@ -2929,7 +2952,7 @@
       ]
     },
     {
-      "id": "0083",
+      "id": "0084",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-15.html",
       "file": [
@@ -2952,7 +2975,7 @@
       ]
     },
     {
-      "id": "0084",
+      "id": "0085",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-16.html",
       "file": [
@@ -2975,7 +2998,7 @@
       ]
     },
     {
-      "id": "0085",
+      "id": "0086",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-17.html",
       "file": [
@@ -2998,7 +3021,7 @@
       ]
     },
     {
-      "id": "0086",
+      "id": "0087",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-18.html",
       "file": [
@@ -3021,7 +3044,7 @@
       ]
     },
     {
-      "id": "0087",
+      "id": "0088",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-19.html",
       "file": [
@@ -3044,7 +3067,7 @@
       ]
     },
     {
-      "id": "0088",
+      "id": "0089",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-20.html",
       "file": [
@@ -3067,7 +3090,7 @@
       ]
     },
     {
-      "id": "0089",
+      "id": "0090",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-21.html",
       "file": [
@@ -3090,7 +3113,7 @@
       ]
     },
     {
-      "id": "0090",
+      "id": "0091",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-22.html",
       "file": [
@@ -3113,7 +3136,7 @@
       ]
     },
     {
-      "id": "0091",
+      "id": "0092",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-23.html",
       "file": [
@@ -3136,7 +3159,7 @@
       ]
     },
     {
-      "id": "0092",
+      "id": "0093",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-24.html",
       "file": [
@@ -3159,7 +3182,7 @@
       ]
     },
     {
-      "id": "0093",
+      "id": "0094",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-25.html",
       "file": [
@@ -3182,7 +3205,7 @@
       ]
     },
     {
-      "id": "0094",
+      "id": "0095",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-26.html",
       "file": [
@@ -3205,7 +3228,7 @@
       ]
     },
     {
-      "id": "0095",
+      "id": "0096",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-27.html",
       "file": [
@@ -3228,7 +3251,7 @@
       ]
     },
     {
-      "id": "0096",
+      "id": "0097",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-28.html",
       "file": [
@@ -3251,7 +3274,7 @@
       ]
     },
     {
-      "id": "0097",
+      "id": "0098",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-29.html",
       "file": [
@@ -3274,7 +3297,7 @@
       ]
     },
     {
-      "id": "0098",
+      "id": "0099",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-30.html",
       "file": [
@@ -3297,7 +3320,7 @@
       ]
     },
     {
-      "id": "0099",
+      "id": "0100",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-31.html",
       "file": [
@@ -3320,7 +3343,7 @@
       ]
     },
     {
-      "id": "0100",
+      "id": "0101",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-32.html",
       "file": [
@@ -3343,7 +3366,7 @@
       ]
     },
     {
-      "id": "0101",
+      "id": "0102",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-33.html",
       "file": [
@@ -3366,7 +3389,7 @@
       ]
     },
     {
-      "id": "0102",
+      "id": "0103",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-34.html",
       "file": [
@@ -3389,7 +3412,7 @@
       ]
     },
     {
-      "id": "0103",
+      "id": "0104",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-35.html",
       "file": [
@@ -3412,7 +3435,7 @@
       ]
     },
     {
-      "id": "0104",
+      "id": "0105",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-36.html",
       "file": [
@@ -3435,7 +3458,7 @@
       ]
     },
     {
-      "id": "0105",
+      "id": "0106",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-37.html",
       "file": [
@@ -3458,7 +3481,7 @@
       ]
     },
     {
-      "id": "0106",
+      "id": "0107",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-38.html",
       "file": [
@@ -3481,7 +3504,7 @@
       ]
     },
     {
-      "id": "0107",
+      "id": "0108",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-39.html",
       "file": [
@@ -3504,7 +3527,7 @@
       ]
     },
     {
-      "id": "0108",
+      "id": "0109",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-40.html",
       "file": [
@@ -3527,7 +3550,7 @@
       ]
     },
     {
-      "id": "0109",
+      "id": "0110",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-visited.html",
       "file": [
@@ -3550,7 +3573,7 @@
       ]
     },
     {
-      "id": "0110",
+      "id": "0111",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-reference-without-whitespace.html",
       "file": [
@@ -3573,7 +3596,7 @@
       ]
     },
     {
-      "id": "0111",
+      "id": "0112",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-01.html",
       "file": [
@@ -3596,7 +3619,7 @@
       ]
     },
     {
-      "id": "0112",
+      "id": "0113",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-02.html",
       "file": [
@@ -3619,7 +3642,7 @@
       ]
     },
     {
-      "id": "0113",
+      "id": "0114",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-03.html",
       "file": [
@@ -3642,7 +3665,7 @@
       ]
     },
     {
-      "id": "0114",
+      "id": "0115",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-04.html",
       "file": [
@@ -3665,7 +3688,7 @@
       ]
     },
     {
-      "id": "0115",
+      "id": "0116",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-05.html",
       "file": [
@@ -3688,7 +3711,7 @@
       ]
     },
     {
-      "id": "0116",
+      "id": "0117",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-06.html",
       "file": [
@@ -3711,7 +3734,7 @@
       ]
     },
     {
-      "id": "0117",
+      "id": "0118",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-07.html",
       "file": [
@@ -3734,7 +3757,7 @@
       ]
     },
     {
-      "id": "0118",
+      "id": "0119",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-08.html",
       "file": [
@@ -3757,7 +3780,7 @@
       ]
     },
     {
-      "id": "0119",
+      "id": "0120",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-09.html",
       "file": [
@@ -3780,7 +3803,7 @@
       ]
     },
     {
-      "id": "0120",
+      "id": "0121",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-10.html",
       "file": [
@@ -3803,7 +3826,7 @@
       ]
     },
     {
-      "id": "0121",
+      "id": "0122",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-11.html",
       "file": [
@@ -3826,7 +3849,7 @@
       ]
     },
     {
-      "id": "0122",
+      "id": "0123",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-12.html",
       "file": [
@@ -3849,7 +3872,7 @@
       ]
     },
     {
-      "id": "0123",
+      "id": "0124",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-13.html",
       "file": [
@@ -3872,7 +3895,7 @@
       ]
     },
     {
-      "id": "0124",
+      "id": "0125",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-14.html",
       "file": [
@@ -3895,7 +3918,7 @@
       ]
     },
     {
-      "id": "0125",
+      "id": "0126",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-15.html",
       "file": [
@@ -3918,7 +3941,7 @@
       ]
     },
     {
-      "id": "0126",
+      "id": "0127",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-16.html",
       "file": [
@@ -3941,7 +3964,7 @@
       ]
     },
     {
-      "id": "0127",
+      "id": "0128",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-17.html",
       "file": [
@@ -3964,7 +3987,7 @@
       ]
     },
     {
-      "id": "0128",
+      "id": "0129",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-18.html",
       "file": [
@@ -3987,7 +4010,7 @@
       ]
     },
     {
-      "id": "0129",
+      "id": "0130",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-19.html",
       "file": [
@@ -4010,7 +4033,7 @@
       ]
     },
     {
-      "id": "0130",
+      "id": "0131",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-20.html",
       "file": [
@@ -4033,7 +4056,7 @@
       ]
     },
     {
-      "id": "0131",
+      "id": "0132",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-21.html",
       "file": [
@@ -4056,7 +4079,7 @@
       ]
     },
     {
-      "id": "0132",
+      "id": "0133",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-22.html",
       "file": [
@@ -4079,7 +4102,7 @@
       ]
     },
     {
-      "id": "0133",
+      "id": "0134",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-23.html",
       "file": [
@@ -4102,7 +4125,7 @@
       ]
     },
     {
-      "id": "0134",
+      "id": "0135",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-24.html",
       "file": [
@@ -4125,7 +4148,7 @@
       ]
     },
     {
-      "id": "0135",
+      "id": "0136",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-25.html",
       "file": [
@@ -4148,7 +4171,7 @@
       ]
     },
     {
-      "id": "0136",
+      "id": "0137",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-26.html",
       "file": [
@@ -4171,7 +4194,7 @@
       ]
     },
     {
-      "id": "0137",
+      "id": "0138",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-27.html",
       "file": [
@@ -4194,7 +4217,7 @@
       ]
     },
     {
-      "id": "0138",
+      "id": "0139",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-28.html",
       "file": [
@@ -4217,7 +4240,7 @@
       ]
     },
     {
-      "id": "0139",
+      "id": "0140",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-29.html",
       "file": [
@@ -4240,7 +4263,7 @@
       ]
     },
     {
-      "id": "0140",
+      "id": "0141",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-30.html",
       "file": [
@@ -4263,7 +4286,7 @@
       ]
     },
     {
-      "id": "0141",
+      "id": "0142",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-31.html",
       "file": [
@@ -4286,7 +4309,7 @@
       ]
     },
     {
-      "id": "0142",
+      "id": "0143",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-32.html",
       "file": [
@@ -4309,7 +4332,7 @@
       ]
     },
     {
-      "id": "0143",
+      "id": "0144",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-33.html",
       "file": [
@@ -4332,7 +4355,7 @@
       ]
     },
     {
-      "id": "0144",
+      "id": "0145",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-34.html",
       "file": [
@@ -4355,7 +4378,7 @@
       ]
     },
     {
-      "id": "0145",
+      "id": "0146",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-35.html",
       "file": [
@@ -4378,7 +4401,7 @@
       ]
     },
     {
-      "id": "0146",
+      "id": "0147",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-36.html",
       "file": [
@@ -4401,7 +4424,7 @@
       ]
     },
     {
-      "id": "0147",
+      "id": "0148",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-37.html",
       "file": [
@@ -4424,7 +4447,7 @@
       ]
     },
     {
-      "id": "0148",
+      "id": "0149",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-38.html",
       "file": [
@@ -4447,7 +4470,7 @@
       ]
     },
     {
-      "id": "0149",
+      "id": "0150",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-39.html",
       "file": [
@@ -4470,7 +4493,7 @@
       ]
     },
     {
-      "id": "0150",
+      "id": "0151",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-40.html",
       "file": [
@@ -4493,7 +4516,7 @@
       ]
     },
     {
-      "id": "0151",
+      "id": "0152",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-41.html",
       "file": [
@@ -4516,7 +4539,7 @@
       ]
     },
     {
-      "id": "0152",
+      "id": "0153",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-42.html",
       "file": [
@@ -4539,7 +4562,7 @@
       ]
     },
     {
-      "id": "0153",
+      "id": "0154",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-43.html",
       "file": [
@@ -4562,7 +4585,7 @@
       ]
     },
     {
-      "id": "0154",
+      "id": "0155",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-44.html",
       "file": [
@@ -4585,7 +4608,7 @@
       ]
     },
     {
-      "id": "0155",
+      "id": "0156",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-45.html",
       "file": [
@@ -4608,7 +4631,7 @@
       ]
     },
     {
-      "id": "0156",
+      "id": "0157",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-46.html",
       "file": [
@@ -4631,7 +4654,7 @@
       ]
     },
     {
-      "id": "0157",
+      "id": "0158",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-47.html",
       "file": [
@@ -4654,7 +4677,7 @@
       ]
     },
     {
-      "id": "0158",
+      "id": "0159",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-48.html",
       "file": [
@@ -4677,7 +4700,7 @@
       ]
     },
     {
-      "id": "0159",
+      "id": "0160",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-49.html",
       "file": [
@@ -4700,7 +4723,7 @@
       ]
     },
     {
-      "id": "0160",
+      "id": "0161",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-50.html",
       "file": [
@@ -4723,7 +4746,7 @@
       ]
     },
     {
-      "id": "0161",
+      "id": "0162",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-51.html",
       "file": [
@@ -4746,7 +4769,7 @@
       ]
     },
     {
-      "id": "0162",
+      "id": "0163",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-52.html",
       "file": [
@@ -4769,7 +4792,7 @@
       ]
     },
     {
-      "id": "0163",
+      "id": "0164",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-53.html",
       "file": [
@@ -4792,7 +4815,7 @@
       ]
     },
     {
-      "id": "0164",
+      "id": "0165",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-54.html",
       "file": [
@@ -4815,7 +4838,7 @@
       ]
     },
     {
-      "id": "0165",
+      "id": "0166",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-55.html",
       "file": [
@@ -4838,7 +4861,7 @@
       ]
     },
     {
-      "id": "0166",
+      "id": "0167",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-56.html",
       "file": [
@@ -4883,7 +4906,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 255,
             "dimensionMismatch": false,
-            "diffImage": "diff/0166-WPT_reftest-css-css-variables-variable-supports-56.html-p0001.png"
+            "diffImage": "diff/0167-WPT_reftest-css-css-variables-variable-supports-56.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -4918,7 +4941,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0166-WPT_reftest-css-css-variables-variable-supports-56.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0167-WPT_reftest-css-css-variables-variable-supports-56.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4934,7 +4957,7 @@
       }
     },
     {
-      "id": "0167",
+      "id": "0168",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-57.html",
       "file": [
@@ -4979,7 +5002,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 255,
             "dimensionMismatch": false,
-            "diffImage": "diff/0167-WPT_reftest-css-css-variables-variable-supports-57.html-p0001.png"
+            "diffImage": "diff/0168-WPT_reftest-css-css-variables-variable-supports-57.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -5014,7 +5037,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0167-WPT_reftest-css-css-variables-variable-supports-57.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0168-WPT_reftest-css-css-variables-variable-supports-57.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5030,7 +5053,7 @@
       }
     },
     {
-      "id": "0168",
+      "id": "0169",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-58.html",
       "file": [
@@ -5053,7 +5076,7 @@
       ]
     },
     {
-      "id": "0169",
+      "id": "0170",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-59.html",
       "file": [
@@ -5076,7 +5099,7 @@
       ]
     },
     {
-      "id": "0170",
+      "id": "0171",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-60.html",
       "file": [
@@ -5099,7 +5122,7 @@
       ]
     },
     {
-      "id": "0171",
+      "id": "0172",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-61.html",
       "file": [
@@ -5122,7 +5145,7 @@
       ]
     },
     {
-      "id": "0172",
+      "id": "0173",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-62.html",
       "file": [
@@ -5145,7 +5168,7 @@
       ]
     },
     {
-      "id": "0173",
+      "id": "0174",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-63.html",
       "file": [
@@ -5168,7 +5191,7 @@
       ]
     },
     {
-      "id": "0174",
+      "id": "0175",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-64.html",
       "file": [
@@ -5191,7 +5214,7 @@
       ]
     },
     {
-      "id": "0175",
+      "id": "0176",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-65.html",
       "file": [
@@ -5214,7 +5237,7 @@
       ]
     },
     {
-      "id": "0176",
+      "id": "0177",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-66.html",
       "file": [
@@ -5237,7 +5260,7 @@
       ]
     },
     {
-      "id": "0177",
+      "id": "0178",
       "category": "WPT reftest",
       "title": "css/css-variables/variable-supports-67.html",
       "file": [
@@ -5260,7 +5283,7 @@
       ]
     },
     {
-      "id": "0178",
+      "id": "0179",
       "category": "WPT reftest",
       "title": "css/css-variables/vars-background-shorthand-001.html",
       "file": [
@@ -5283,7 +5306,7 @@
       ]
     },
     {
-      "id": "0179",
+      "id": "0180",
       "category": "WPT reftest",
       "title": "css/css-variables/vars-font-shorthand-001.html",
       "file": [
@@ -5306,7 +5329,7 @@
       ]
     },
     {
-      "id": "0180",
+      "id": "0181",
       "category": "WPT reftest",
       "title": "css/css-variables/wide-keyword-fallback-001.html",
       "file": [
@@ -5329,7 +5352,7 @@
       ]
     },
     {
-      "id": "0181",
+      "id": "0182",
       "category": "WPT reftest",
       "title": "css/css-variables/wide-keyword-fallback-002.html",
       "file": [
@@ -5374,7 +5397,7 @@
             "exceededDiffPixels": 0,
             "maxChannelDifference": 128,
             "dimensionMismatch": false,
-            "diffImage": "diff/0181-WPT_reftest-css-css-variables-wide-keyword-fallback-002.html-p0001.png"
+            "diffImage": "diff/0182-WPT_reftest-css-css-variables-wide-keyword-fallback-002.html-p0001.png"
           }
         ],
         "comparisons": [
@@ -5409,7 +5432,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 128,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0181-WPT_reftest-css-css-variables-wide-keyword-fallback-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0182-WPT_reftest-css-css-variables-wide-keyword-fallback-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,

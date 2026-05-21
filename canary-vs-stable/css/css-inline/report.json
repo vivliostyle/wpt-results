@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T03:12:54.672Z",
+  "generatedAt": "2026-05-21T04:52:02.143Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -38,38 +38,798 @@
     "timeoutMs": 10000
   },
   "summary": {
-    "totalEntries": 150,
-    "entriesWithDifferences": 78,
+    "totalEntries": 159,
+    "entriesWithDifferences": 85,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 78,
-        "pass": 72
+        "pass": 74,
+        "known-fail": 85
       },
       "statusPairs": {
-        "FAIL->FAIL": 78,
-        "PASS->PASS": 72
+        "PASS->PASS": 74,
+        "FAIL->FAIL": 85
       }
     },
     "triage": {
       "differences": {
-        "pending": 78,
+        "pending": 85,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 78,
+      "pendingEntries": 85,
       "triagedEntries": 0
     }
   },
   "entries": [
     {
       "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/css-inline/alignment-baseline/alignment-baseline-horizontal-001.html",
+      "file": [
+        "css/css-inline/alignment-baseline/alignment-baseline-horizontal-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-horizontal-001-ref.html?class=alphabetic",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-001-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-001-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0002",
+      "category": "WPT reftest",
+      "title": "css/css-inline/alignment-baseline/alignment-baseline-horizontal-002.html",
+      "file": [
+        "css/css-inline/alignment-baseline/alignment-baseline-horizontal-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-002.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-horizontal-002-ref.html?class=alphabetic",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-002-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-002-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-horizontal-002-ref.html?class=alphabetic",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-002-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10880,
+                "diffRatio": 0.012976108693992825,
+                "exactDiffPixels": 16140,
+                "exactDiffRatio": 0.019249484772154796,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0002-WPT_reftest-css-css-inline-alignment-baseline-alignment-baseline-horizontal-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-002-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-horizontal-002-ref.html?class=alphabetic",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-002-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10880,
+                "diffRatio": 0.012976108693992825,
+                "exactDiffPixels": 16140,
+                "exactDiffRatio": 0.019249484772154796,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0002-WPT_reftest-css-css-inline-alignment-baseline-alignment-baseline-horizontal-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-002-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0003",
+      "category": "WPT reftest",
+      "title": "css/css-inline/alignment-baseline/alignment-baseline-horizontal-003.html",
+      "file": [
+        "css/css-inline/alignment-baseline/alignment-baseline-horizontal-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-003.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-horizontal-003-ref.html?class=alphabetic",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-003-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-003-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-horizontal-003-ref.html?class=alphabetic",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-003-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 14002,
+                "diffRatio": 0.01669958400122128,
+                "exactDiffPixels": 14120,
+                "exactDiffRatio": 0.016840317533012746,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0003-WPT_reftest-css-css-inline-alignment-baseline-alignment-baseline-horizontal-003.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-003-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-horizontal-003-ref.html?class=alphabetic",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-003-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 14002,
+                "diffRatio": 0.01669958400122128,
+                "exactDiffPixels": 14120,
+                "exactDiffRatio": 0.016840317533012746,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0003-WPT_reftest-css-css-inline-alignment-baseline-alignment-baseline-horizontal-003.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-003-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0004",
+      "category": "WPT reftest",
+      "title": "css/css-inline/alignment-baseline/alignment-baseline-nested-001.html",
+      "file": [
+        "css/css-inline/alignment-baseline/alignment-baseline-nested-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-001.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-nested-001-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-nested-001-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 5818,
+                "diffRatio": 0.0069388787115487365,
+                "exactDiffPixels": 13284,
+                "exactDiffRatio": 0.01584325623998168,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0004-WPT_reftest-css-css-inline-alignment-baseline-alignment-baseline-nested-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-nested-001-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 5818,
+                "diffRatio": 0.0069388787115487365,
+                "exactDiffPixels": 13284,
+                "exactDiffRatio": 0.01584325623998168,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0004-WPT_reftest-css-css-inline-alignment-baseline-alignment-baseline-nested-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0005",
+      "category": "WPT reftest",
+      "title": "css/css-inline/alignment-baseline/alignment-baseline-nested-002.html",
+      "file": [
+        "css/css-inline/alignment-baseline/alignment-baseline-nested-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-002.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-nested-002-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-nested-002-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 6540,
+                "diffRatio": 0.007799977100984658,
+                "exactDiffPixels": 14415,
+                "exactDiffRatio": 0.01719215136249141,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0005-WPT_reftest-css-css-inline-alignment-baseline-alignment-baseline-nested-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-nested-002-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 6540,
+                "diffRatio": 0.007799977100984658,
+                "exactDiffPixels": 14415,
+                "exactDiffRatio": 0.01719215136249141,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0005-WPT_reftest-css-css-inline-alignment-baseline-alignment-baseline-nested-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-nested-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0006",
+      "category": "WPT reftest",
+      "title": "css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-001.html",
+      "file": [
+        "css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-001-ref.html?class=alphabetic",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-001-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-001-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0007",
+      "category": "WPT reftest",
+      "title": "css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-002.html",
+      "file": [
+        "css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-002.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-002-ref.html?class=alphabetic",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-002-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-002-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-002-ref.html?class=alphabetic",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-002-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10780,
+                "diffRatio": 0.012856842989084802,
+                "exactDiffPixels": 14259,
+                "exactDiffRatio": 0.0170060968628349,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0007-WPT_reftest-css-css-inline-alignment-baseline-alignment-baseline-vertical-rl-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-002-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-002-ref.html?class=alphabetic",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-002-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10780,
+                "diffRatio": 0.012856842989084802,
+                "exactDiffPixels": 14259,
+                "exactDiffRatio": 0.0170060968628349,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0007-WPT_reftest-css-css-inline-alignment-baseline-alignment-baseline-vertical-rl-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-002-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0008",
+      "category": "WPT reftest",
+      "title": "css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-003.html",
+      "file": [
+        "css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-003.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-003-ref.html?class=alphabetic",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-003-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-003-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-003-ref.html?class=alphabetic",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-003-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 11972,
+                "diffRatio": 0.014278490191588429,
+                "exactDiffPixels": 12020,
+                "exactDiffRatio": 0.01433573772994428,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0008-WPT_reftest-css-css-inline-alignment-baseline-alignment-baseline-vertical-rl-003.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-003-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-003-ref.html?class=alphabetic",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-003-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 11972,
+                "diffRatio": 0.014278490191588429,
+                "exactDiffPixels": 12020,
+                "exactDiffRatio": 0.01433573772994428,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0008-WPT_reftest-css-css-inline-alignment-baseline-alignment-baseline-vertical-rl-003.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-vertical-rl-003-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0009",
       "category": "WPT reftest",
       "title": "css/css-inline/baseline-shift/baseline-shift-bottom-svg.html",
       "file": [
@@ -133,7 +893,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0001-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-bottom-svg.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0009-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-bottom-svg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -172,7 +932,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0001-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-bottom-svg.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0009-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-bottom-svg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -188,7 +948,7 @@
       }
     },
     {
-      "id": "0002",
+      "id": "0010",
       "category": "WPT reftest",
       "title": "css/css-inline/baseline-shift/baseline-shift-bottom.html",
       "file": [
@@ -252,7 +1012,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0002-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-bottom.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0010-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-bottom.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -291,7 +1051,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0002-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-bottom.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0010-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-bottom.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -307,7 +1067,7 @@
       }
     },
     {
-      "id": "0003",
+      "id": "0011",
       "category": "WPT reftest",
       "title": "css/css-inline/baseline-shift/baseline-shift-center-svg.html",
       "file": [
@@ -371,7 +1131,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0003-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-center-svg.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0011-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-center-svg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -410,7 +1170,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0003-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-center-svg.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0011-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-center-svg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -426,7 +1186,7 @@
       }
     },
     {
-      "id": "0004",
+      "id": "0012",
       "category": "WPT reftest",
       "title": "css/css-inline/baseline-shift/baseline-shift-center.html",
       "file": [
@@ -490,7 +1250,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0004-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-center.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0012-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-center.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -529,7 +1289,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0004-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-center.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0012-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-center.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -545,7 +1305,7 @@
       }
     },
     {
-      "id": "0005",
+      "id": "0013",
       "category": "WPT reftest",
       "title": "css/css-inline/baseline-shift/baseline-shift-length-percentage-svg.html",
       "file": [
@@ -609,7 +1369,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0005-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-length-percentage-svg.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0013-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-length-percentage-svg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -648,7 +1408,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0005-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-length-percentage-svg.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0013-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-length-percentage-svg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -664,7 +1424,7 @@
       }
     },
     {
-      "id": "0006",
+      "id": "0014",
       "category": "WPT reftest",
       "title": "css/css-inline/baseline-shift/baseline-shift-length-percentage.html",
       "file": [
@@ -728,7 +1488,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0006-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-length-percentage.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0014-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-length-percentage.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -767,7 +1527,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0006-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-length-percentage.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0014-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-length-percentage.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -783,7 +1543,7 @@
       }
     },
     {
-      "id": "0007",
+      "id": "0015",
       "category": "WPT reftest",
       "title": "css/css-inline/baseline-shift/baseline-shift-top-svg.html",
       "file": [
@@ -847,7 +1607,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0007-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-top-svg.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0015-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-top-svg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -886,7 +1646,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0007-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-top-svg.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0015-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-top-svg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -902,7 +1662,7 @@
       }
     },
     {
-      "id": "0008",
+      "id": "0016",
       "category": "WPT reftest",
       "title": "css/css-inline/baseline-shift/baseline-shift-top.html",
       "file": [
@@ -966,7 +1726,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0008-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-top.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0016-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-top.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1005,7 +1765,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0008-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-top.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0016-WPT_reftest-css-css-inline-baseline-shift-baseline-shift-top.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1021,7 +1781,7 @@
       }
     },
     {
-      "id": "0009",
+      "id": "0017",
       "category": "WPT reftest",
       "title": "css/css-inline/baseline-source/baseline-source-inline-box.html",
       "file": [
@@ -1044,7 +1804,7 @@
       ]
     },
     {
-      "id": "0010",
+      "id": "0018",
       "category": "WPT reftest",
       "title": "css/css-inline/dominant-baseline/dominant-baseline-alignment-baseline.html",
       "file": [
@@ -1067,7 +1827,7 @@
       ]
     },
     {
-      "id": "0011",
+      "id": "0019",
       "category": "WPT reftest",
       "title": "css/css-inline/dominant-baseline/dominant-baseline-auto.html",
       "file": [
@@ -1090,7 +1850,7 @@
       ]
     },
     {
-      "id": "0012",
+      "id": "0020",
       "category": "WPT reftest",
       "title": "css/css-inline/dominant-baseline/dominant-baseline-mixed-writing-modes-001.html",
       "file": [
@@ -1113,7 +1873,7 @@
       ]
     },
     {
-      "id": "0013",
+      "id": "0021",
       "category": "WPT reftest",
       "title": "css/css-inline/dominant-baseline/dominant-baseline-mixed-writing-modes-002.html",
       "file": [
@@ -1136,7 +1896,7 @@
       ]
     },
     {
-      "id": "0014",
+      "id": "0022",
       "category": "WPT reftest",
       "title": "css/css-inline/empty-span-height.html",
       "file": [
@@ -1159,7 +1919,7 @@
       ]
     },
     {
-      "id": "0015",
+      "id": "0023",
       "category": "WPT reftest",
       "title": "css/css-inline/empty-span-scroll.html",
       "file": [
@@ -1182,7 +1942,7 @@
       ]
     },
     {
-      "id": "0016",
+      "id": "0024",
       "category": "WPT reftest",
       "title": "css/css-inline/empty-span-size-001.html",
       "file": [
@@ -1246,7 +2006,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0016-WPT_reftest-css-css-inline-empty-span-size-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0024-WPT_reftest-css-css-inline-empty-span-size-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1285,7 +2045,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0016-WPT_reftest-css-css-inline-empty-span-size-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0024-WPT_reftest-css-css-inline-empty-span-size-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1301,7 +2061,7 @@
       }
     },
     {
-      "id": "0017",
+      "id": "0025",
       "category": "WPT reftest",
       "title": "css/css-inline/empty-span-size-002.html",
       "file": [
@@ -1324,7 +2084,7 @@
       ]
     },
     {
-      "id": "0018",
+      "id": "0026",
       "category": "WPT reftest",
       "title": "css/css-inline/empty-text-node-001.html",
       "file": [
@@ -1347,7 +2107,7 @@
       ]
     },
     {
-      "id": "0019",
+      "id": "0027",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/Initial-letter-breaking-rtl.html",
       "file": [
@@ -1411,7 +2171,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0019-WPT_reftest-css-css-inline-initial-letter-Initial-letter-breaking-rtl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0027-WPT_reftest-css-css-inline-initial-letter-Initial-letter-breaking-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1450,7 +2210,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0019-WPT_reftest-css-css-inline-initial-letter-Initial-letter-breaking-rtl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0027-WPT_reftest-css-css-inline-initial-letter-Initial-letter-breaking-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1466,7 +2226,7 @@
       }
     },
     {
-      "id": "0020",
+      "id": "0028",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/Initial-letter-breaking-vlr.html",
       "file": [
@@ -1530,7 +2290,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0020-WPT_reftest-css-css-inline-initial-letter-Initial-letter-breaking-vlr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0028-WPT_reftest-css-css-inline-initial-letter-Initial-letter-breaking-vlr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1569,7 +2329,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0020-WPT_reftest-css-css-inline-initial-letter-Initial-letter-breaking-vlr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0028-WPT_reftest-css-css-inline-initial-letter-Initial-letter-breaking-vlr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1585,7 +2345,7 @@
       }
     },
     {
-      "id": "0021",
+      "id": "0029",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/Initial-letter-breaking-vrl.html",
       "file": [
@@ -1649,7 +2409,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0021-WPT_reftest-css-css-inline-initial-letter-Initial-letter-breaking-vrl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0029-WPT_reftest-css-css-inline-initial-letter-Initial-letter-breaking-vrl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1688,7 +2448,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0021-WPT_reftest-css-css-inline-initial-letter-Initial-letter-breaking-vrl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0029-WPT_reftest-css-css-inline-initial-letter-Initial-letter-breaking-vrl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1704,7 +2464,7 @@
       }
     },
     {
-      "id": "0022",
+      "id": "0030",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/Initial-letter-breaking.html",
       "file": [
@@ -1768,7 +2528,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0022-WPT_reftest-css-css-inline-initial-letter-Initial-letter-breaking.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0030-WPT_reftest-css-css-inline-initial-letter-Initial-letter-breaking.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1807,7 +2567,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0022-WPT_reftest-css-css-inline-initial-letter-Initial-letter-breaking.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0030-WPT_reftest-css-css-inline-initial-letter-Initial-letter-breaking.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1823,7 +2583,7 @@
       }
     },
     {
-      "id": "0023",
+      "id": "0031",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-tall.html",
       "file": [
@@ -1887,7 +2647,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0023-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-drop-over-ruby-tall.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0031-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-drop-over-ruby-tall.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1926,7 +2686,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0023-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-drop-over-ruby-tall.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0031-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-drop-over-ruby-tall.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1942,7 +2702,7 @@
       }
     },
     {
-      "id": "0024",
+      "id": "0032",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html",
       "file": [
@@ -2006,7 +2766,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0024-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-drop-over-ruby.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0032-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-drop-over-ruby.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2045,7 +2805,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0024-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-drop-over-ruby.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0032-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-drop-over-ruby.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2061,7 +2821,7 @@
       }
     },
     {
-      "id": "0025",
+      "id": "0033",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby-tall.html",
       "file": [
@@ -2125,7 +2885,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0025-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-drop-under-ruby-tall.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0033-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-drop-under-ruby-tall.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2164,7 +2924,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0025-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-drop-under-ruby-tall.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0033-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-drop-under-ruby-tall.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2180,7 +2940,7 @@
       }
     },
     {
-      "id": "0026",
+      "id": "0034",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby.html",
       "file": [
@@ -2244,7 +3004,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0026-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-drop-under-ruby.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0034-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-drop-under-ruby.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2283,7 +3043,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0026-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-drop-under-ruby.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0034-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-drop-under-ruby.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2299,7 +3059,7 @@
       }
     },
     {
-      "id": "0027",
+      "id": "0035",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-block-position-margins-rtl.html",
       "file": [
@@ -2363,7 +3123,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0027-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-rtl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0035-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2402,7 +3162,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0027-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-rtl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0035-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2418,7 +3178,7 @@
       }
     },
     {
-      "id": "0028",
+      "id": "0036",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-block-position-margins-slr.html",
       "file": [
@@ -2482,7 +3242,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0028-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-slr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0036-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-slr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2521,7 +3281,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0028-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-slr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0036-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-slr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2537,7 +3297,7 @@
       }
     },
     {
-      "id": "0029",
+      "id": "0037",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-block-position-margins-srl.html",
       "file": [
@@ -2601,7 +3361,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0029-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-srl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0037-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-srl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2640,7 +3400,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0029-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-srl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0037-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-srl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2656,7 +3416,7 @@
       }
     },
     {
-      "id": "0030",
+      "id": "0038",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-block-position-margins-vlr.html",
       "file": [
@@ -2720,7 +3480,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0030-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-vlr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0038-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-vlr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2759,7 +3519,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0030-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-vlr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0038-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-vlr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2775,7 +3535,7 @@
       }
     },
     {
-      "id": "0031",
+      "id": "0039",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-block-position-margins-vrl.html",
       "file": [
@@ -2839,7 +3599,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0031-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-vrl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0039-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-vrl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2878,7 +3638,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0031-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-vrl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0039-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins-vrl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2894,7 +3654,7 @@
       }
     },
     {
-      "id": "0032",
+      "id": "0040",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-block-position-margins.html",
       "file": [
@@ -2958,7 +3718,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0032-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0040-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2997,7 +3757,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0032-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0040-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-margins.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3013,7 +3773,7 @@
       }
     },
     {
-      "id": "0033",
+      "id": "0041",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby-tall.html",
       "file": [
@@ -3077,7 +3837,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0033-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-raise-over-ruby-tall.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0041-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-raise-over-ruby-tall.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3116,7 +3876,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0033-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-raise-over-ruby-tall.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0041-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-raise-over-ruby-tall.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3132,7 +3892,7 @@
       }
     },
     {
-      "id": "0034",
+      "id": "0042",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby.html",
       "file": [
@@ -3196,7 +3956,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0034-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-raise-over-ruby.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0042-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-raise-over-ruby.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3235,7 +3995,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0034-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-raise-over-ruby.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0042-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-raise-over-ruby.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3251,7 +4011,7 @@
       }
     },
     {
-      "id": "0035",
+      "id": "0043",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby-tall.html",
       "file": [
@@ -3315,7 +4075,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0035-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-raise-under-ruby-tall.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0043-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-raise-under-ruby-tall.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3354,7 +4114,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0035-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-raise-under-ruby-tall.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0043-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-raise-under-ruby-tall.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3370,7 +4130,7 @@
       }
     },
     {
-      "id": "0036",
+      "id": "0044",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby.html",
       "file": [
@@ -3434,7 +4194,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0036-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-raise-under-ruby.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0044-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-raise-under-ruby.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3473,7 +4233,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0036-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-raise-under-ruby.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0044-WPT_reftest-css-css-inline-initial-letter-initial-letter-block-position-raise-under-ruby.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3489,7 +4249,7 @@
       }
     },
     {
-      "id": "0037",
+      "id": "0045",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-breaking-slr.html",
       "file": [
@@ -3553,7 +4313,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0037-WPT_reftest-css-css-inline-initial-letter-initial-letter-breaking-slr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0045-WPT_reftest-css-css-inline-initial-letter-initial-letter-breaking-slr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3592,7 +4352,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0037-WPT_reftest-css-css-inline-initial-letter-initial-letter-breaking-slr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0045-WPT_reftest-css-css-inline-initial-letter-initial-letter-breaking-slr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3608,7 +4368,7 @@
       }
     },
     {
-      "id": "0038",
+      "id": "0046",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-breaking-srl.html",
       "file": [
@@ -3672,7 +4432,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0038-WPT_reftest-css-css-inline-initial-letter-initial-letter-breaking-srl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0046-WPT_reftest-css-css-inline-initial-letter-initial-letter-breaking-srl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3711,7 +4471,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0038-WPT_reftest-css-css-inline-initial-letter-initial-letter-breaking-srl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0046-WPT_reftest-css-css-inline-initial-letter-initial-letter-breaking-srl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3727,7 +4487,7 @@
       }
     },
     {
-      "id": "0039",
+      "id": "0047",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-drop-initial-rtl.html",
       "file": [
@@ -3791,7 +4551,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0039-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-rtl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0047-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3830,7 +4590,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0039-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-rtl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0047-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3846,7 +4606,7 @@
       }
     },
     {
-      "id": "0040",
+      "id": "0048",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-drop-initial-slr.html",
       "file": [
@@ -3910,7 +4670,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0040-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-slr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0048-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-slr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3949,7 +4709,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0040-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-slr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0048-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-slr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3965,7 +4725,7 @@
       }
     },
     {
-      "id": "0041",
+      "id": "0049",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-drop-initial-srl.html",
       "file": [
@@ -4029,7 +4789,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0041-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-srl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0049-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-srl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4068,7 +4828,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0041-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-srl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0049-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-srl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4084,7 +4844,7 @@
       }
     },
     {
-      "id": "0042",
+      "id": "0050",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-drop-initial-vlr.html",
       "file": [
@@ -4148,7 +4908,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0042-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-vlr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0050-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-vlr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4187,7 +4947,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0042-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-vlr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0050-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-vlr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4203,7 +4963,7 @@
       }
     },
     {
-      "id": "0043",
+      "id": "0051",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-drop-initial-vrl.html",
       "file": [
@@ -4267,7 +5027,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0043-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-vrl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0051-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-vrl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4306,7 +5066,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0043-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-vrl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0051-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial-vrl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4322,7 +5082,7 @@
       }
     },
     {
-      "id": "0044",
+      "id": "0052",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-drop-initial.html",
       "file": [
@@ -4386,7 +5146,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0044-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0052-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4425,7 +5185,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0044-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0052-WPT_reftest-css-css-inline-initial-letter-initial-letter-drop-initial.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4441,7 +5201,7 @@
       }
     },
     {
-      "id": "0045",
+      "id": "0053",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-float-001-rtl.html",
       "file": [
@@ -4505,7 +5265,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0045-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-rtl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0053-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4544,7 +5304,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0045-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-rtl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0053-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4560,7 +5320,7 @@
       }
     },
     {
-      "id": "0046",
+      "id": "0054",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-float-001-slr.html",
       "file": [
@@ -4624,7 +5384,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0046-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-slr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0054-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-slr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4663,7 +5423,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0046-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-slr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0054-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-slr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4679,7 +5439,7 @@
       }
     },
     {
-      "id": "0047",
+      "id": "0055",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-float-001-srl.html",
       "file": [
@@ -4743,7 +5503,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0047-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-srl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0055-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-srl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4782,7 +5542,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0047-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-srl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0055-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-srl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4798,7 +5558,7 @@
       }
     },
     {
-      "id": "0048",
+      "id": "0056",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-float-001-vlr.html",
       "file": [
@@ -4862,7 +5622,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0048-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-vlr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0056-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-vlr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4901,7 +5661,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0048-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-vlr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0056-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-vlr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4917,7 +5677,7 @@
       }
     },
     {
-      "id": "0049",
+      "id": "0057",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-float-001-vrl.html",
       "file": [
@@ -4981,7 +5741,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0049-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-vrl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0057-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-vrl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5020,7 +5780,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0049-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-vrl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0057-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001-vrl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5036,7 +5796,7 @@
       }
     },
     {
-      "id": "0050",
+      "id": "0058",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-float-001.html",
       "file": [
@@ -5100,7 +5860,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0050-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0058-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5139,7 +5899,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0050-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0058-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5155,7 +5915,7 @@
       }
     },
     {
-      "id": "0051",
+      "id": "0059",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-float-002.html",
       "file": [
@@ -5219,7 +5979,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0051-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0059-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5258,7 +6018,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0051-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0059-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5274,7 +6034,7 @@
       }
     },
     {
-      "id": "0052",
+      "id": "0060",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-float-003.html",
       "file": [
@@ -5338,7 +6098,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0052-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0060-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5377,7 +6137,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0052-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0060-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5393,7 +6153,7 @@
       }
     },
     {
-      "id": "0053",
+      "id": "0061",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-float-004.html",
       "file": [
@@ -5457,7 +6217,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0053-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-004.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0061-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5496,7 +6256,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0053-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-004.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0061-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5512,7 +6272,7 @@
       }
     },
     {
-      "id": "0054",
+      "id": "0062",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-float-005.html",
       "file": [
@@ -5576,7 +6336,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0054-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-005.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0062-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-005.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5615,7 +6375,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0054-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-005.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0062-WPT_reftest-css-css-inline-initial-letter-initial-letter-float-005.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5631,7 +6391,7 @@
       }
     },
     {
-      "id": "0055",
+      "id": "0063",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-indentation-rtl.html",
       "file": [
@@ -5695,7 +6455,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0055-WPT_reftest-css-css-inline-initial-letter-initial-letter-indentation-rtl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0063-WPT_reftest-css-css-inline-initial-letter-initial-letter-indentation-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5734,7 +6494,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0055-WPT_reftest-css-css-inline-initial-letter-initial-letter-indentation-rtl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0063-WPT_reftest-css-css-inline-initial-letter-initial-letter-indentation-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5750,7 +6510,7 @@
       }
     },
     {
-      "id": "0056",
+      "id": "0064",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-indentation.html",
       "file": [
@@ -5814,7 +6574,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0056-WPT_reftest-css-css-inline-initial-letter-initial-letter-indentation.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0064-WPT_reftest-css-css-inline-initial-letter-initial-letter-indentation.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5853,7 +6613,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0056-WPT_reftest-css-css-inline-initial-letter-initial-letter-indentation.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0064-WPT_reftest-css-css-inline-initial-letter-initial-letter-indentation.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5869,7 +6629,7 @@
       }
     },
     {
-      "id": "0057",
+      "id": "0065",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline.html",
       "file": [
@@ -5933,7 +6693,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0057-WPT_reftest-css-css-inline-initial-letter-initial-letter-layout-text-decoration-underline.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0065-WPT_reftest-css-css-inline-initial-letter-initial-letter-layout-text-decoration-underline.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5972,7 +6732,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0057-WPT_reftest-css-css-inline-initial-letter-initial-letter-layout-text-decoration-underline.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0065-WPT_reftest-css-css-inline-initial-letter-initial-letter-layout-text-decoration-underline.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5988,7 +6748,7 @@
       }
     },
     {
-      "id": "0058",
+      "id": "0066",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-popover.html",
       "file": [
@@ -6011,7 +6771,7 @@
       ]
     },
     {
-      "id": "0059",
+      "id": "0067",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-raise-initial-slr.html",
       "file": [
@@ -6075,7 +6835,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0059-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial-slr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0067-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial-slr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6114,7 +6874,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0059-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial-slr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0067-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial-slr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6130,7 +6890,7 @@
       }
     },
     {
-      "id": "0060",
+      "id": "0068",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-raise-initial-srl.html",
       "file": [
@@ -6194,7 +6954,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0060-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial-srl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0068-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial-srl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6233,7 +6993,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0060-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial-srl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0068-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial-srl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6249,7 +7009,7 @@
       }
     },
     {
-      "id": "0061",
+      "id": "0069",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-raise-initial-vlr.html",
       "file": [
@@ -6313,7 +7073,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0061-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial-vlr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0069-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial-vlr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6352,7 +7112,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0061-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial-vlr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0069-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial-vlr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6368,7 +7128,7 @@
       }
     },
     {
-      "id": "0062",
+      "id": "0070",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-raise-initial-vrl.html",
       "file": [
@@ -6432,7 +7192,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0062-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial-vrl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0070-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial-vrl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6471,7 +7231,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0062-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial-vrl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0070-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial-vrl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6487,7 +7247,7 @@
       }
     },
     {
-      "id": "0063",
+      "id": "0071",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-raise-initial.html",
       "file": [
@@ -6551,7 +7311,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0063-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0071-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6590,7 +7350,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0063-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0071-WPT_reftest-css-css-inline-initial-letter-initial-letter-raise-initial.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6606,7 +7366,7 @@
       }
     },
     {
-      "id": "0064",
+      "id": "0072",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-raised-sunken-caps-raise.html",
       "file": [
@@ -6670,7 +7430,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0064-WPT_reftest-css-css-inline-initial-letter-initial-letter-raised-sunken-caps-raise.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0072-WPT_reftest-css-css-inline-initial-letter-initial-letter-raised-sunken-caps-raise.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6709,7 +7469,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0064-WPT_reftest-css-css-inline-initial-letter-initial-letter-raised-sunken-caps-raise.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0072-WPT_reftest-css-css-inline-initial-letter-initial-letter-raised-sunken-caps-raise.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6725,7 +7485,7 @@
       }
     },
     {
-      "id": "0065",
+      "id": "0073",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-raised-sunken-caps-sunken.html",
       "file": [
@@ -6789,7 +7549,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0065-WPT_reftest-css-css-inline-initial-letter-initial-letter-raised-sunken-caps-sunken.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0073-WPT_reftest-css-css-inline-initial-letter-initial-letter-raised-sunken-caps-sunken.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6828,7 +7588,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0065-WPT_reftest-css-css-inline-initial-letter-initial-letter-raised-sunken-caps-sunken.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0073-WPT_reftest-css-css-inline-initial-letter-initial-letter-raised-sunken-caps-sunken.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6844,7 +7604,7 @@
       }
     },
     {
-      "id": "0066",
+      "id": "0074",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-short-para-initial-letter-clears.html",
       "file": [
@@ -6908,7 +7668,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0066-WPT_reftest-css-css-inline-initial-letter-initial-letter-short-para-initial-letter-clears.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0074-WPT_reftest-css-css-inline-initial-letter-initial-letter-short-para-initial-letter-clears.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6947,7 +7707,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0066-WPT_reftest-css-css-inline-initial-letter-initial-letter-short-para-initial-letter-clears.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0074-WPT_reftest-css-css-inline-initial-letter-initial-letter-short-para-initial-letter-clears.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6963,7 +7723,7 @@
       }
     },
     {
-      "id": "0067",
+      "id": "0075",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-short-para-initial-letter-wraps.html",
       "file": [
@@ -7027,7 +7787,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0067-WPT_reftest-css-css-inline-initial-letter-initial-letter-short-para-initial-letter-wraps.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0075-WPT_reftest-css-css-inline-initial-letter-initial-letter-short-para-initial-letter-wraps.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7066,7 +7826,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0067-WPT_reftest-css-css-inline-initial-letter-initial-letter-short-para-initial-letter-wraps.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0075-WPT_reftest-css-css-inline-initial-letter-initial-letter-short-para-initial-letter-wraps.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7082,7 +7842,7 @@
       }
     },
     {
-      "id": "0068",
+      "id": "0076",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-sunk-initial-slr.html",
       "file": [
@@ -7146,7 +7906,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0068-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial-slr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0076-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial-slr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7185,7 +7945,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0068-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial-slr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0076-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial-slr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7201,7 +7961,7 @@
       }
     },
     {
-      "id": "0069",
+      "id": "0077",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-sunk-initial-srl.html",
       "file": [
@@ -7265,7 +8025,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0069-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial-srl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0077-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial-srl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7304,7 +8064,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0069-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial-srl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0077-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial-srl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7320,7 +8080,7 @@
       }
     },
     {
-      "id": "0070",
+      "id": "0078",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-sunk-initial-vlr.html",
       "file": [
@@ -7384,7 +8144,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0070-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial-vlr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0078-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial-vlr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7423,7 +8183,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0070-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial-vlr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0078-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial-vlr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7439,7 +8199,7 @@
       }
     },
     {
-      "id": "0071",
+      "id": "0079",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-sunk-initial-vrl.html",
       "file": [
@@ -7503,7 +8263,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0071-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial-vrl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0079-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial-vrl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7542,7 +8302,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0071-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial-vrl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0079-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial-vrl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7558,7 +8318,7 @@
       }
     },
     {
-      "id": "0072",
+      "id": "0080",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-sunk-initial.html",
       "file": [
@@ -7622,7 +8382,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0072-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0080-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7661,7 +8421,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0072-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0080-WPT_reftest-css-css-inline-initial-letter-initial-letter-sunk-initial.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7677,7 +8437,7 @@
       }
     },
     {
-      "id": "0073",
+      "id": "0081",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-with-first-line.html",
       "file": [
@@ -7741,7 +8501,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0073-WPT_reftest-css-css-inline-initial-letter-initial-letter-with-first-line.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0081-WPT_reftest-css-css-inline-initial-letter-initial-letter-with-first-line.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7780,7 +8540,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0073-WPT_reftest-css-css-inline-initial-letter-initial-letter-with-first-line.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0081-WPT_reftest-css-css-inline-initial-letter-initial-letter-with-first-line.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7796,7 +8556,7 @@
       }
     },
     {
-      "id": "0074",
+      "id": "0082",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-with-tab-rtl.html",
       "file": [
@@ -7860,7 +8620,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0074-WPT_reftest-css-css-inline-initial-letter-initial-letter-with-tab-rtl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0082-WPT_reftest-css-css-inline-initial-letter-initial-letter-with-tab-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7899,7 +8659,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0074-WPT_reftest-css-css-inline-initial-letter-initial-letter-with-tab-rtl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0082-WPT_reftest-css-css-inline-initial-letter-initial-letter-with-tab-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7915,7 +8675,7 @@
       }
     },
     {
-      "id": "0075",
+      "id": "0083",
       "category": "WPT reftest",
       "title": "css/css-inline/initial-letter/initial-letter-with-tab.html",
       "file": [
@@ -7979,7 +8739,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0075-WPT_reftest-css-css-inline-initial-letter-initial-letter-with-tab.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0083-WPT_reftest-css-css-inline-initial-letter-initial-letter-with-tab.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8018,7 +8778,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0075-WPT_reftest-css-css-inline-initial-letter-initial-letter-with-tab.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0083-WPT_reftest-css-css-inline-initial-letter-initial-letter-with-tab.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8034,7 +8794,7 @@
       }
     },
     {
-      "id": "0076",
+      "id": "0084",
       "category": "WPT reftest",
       "title": "css/css-inline/model/phantom-line-boxes-001.html",
       "file": [
@@ -8057,7 +8817,7 @@
       ]
     },
     {
-      "id": "0077",
+      "id": "0085",
       "category": "WPT reftest",
       "title": "css/css-inline/model/phantom-line-boxes-002.html",
       "file": [
@@ -8080,7 +8840,7 @@
       ]
     },
     {
-      "id": "0078",
+      "id": "0086",
       "category": "WPT reftest",
       "title": "css/css-inline/model/phantom-line-boxes-003.html",
       "file": [
@@ -8103,7 +8863,7 @@
       ]
     },
     {
-      "id": "0079",
+      "id": "0087",
       "category": "WPT reftest",
       "title": "css/css-inline/model/phantom-line-boxes-004.html",
       "file": [
@@ -8126,7 +8886,7 @@
       ]
     },
     {
-      "id": "0080",
+      "id": "0088",
       "category": "WPT reftest",
       "title": "css/css-inline/model/phantom-line-boxes-005.html",
       "file": [
@@ -8149,7 +8909,7 @@
       ]
     },
     {
-      "id": "0081",
+      "id": "0089",
       "category": "WPT reftest",
       "title": "css/css-inline/model/phantom-line-boxes-006.html",
       "file": [
@@ -8172,7 +8932,7 @@
       ]
     },
     {
-      "id": "0082",
+      "id": "0090",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/border-padding-001.html",
       "file": [
@@ -8195,7 +8955,7 @@
       ]
     },
     {
-      "id": "0083",
+      "id": "0091",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/border-padding-002.html",
       "file": [
@@ -8218,7 +8978,7 @@
       ]
     },
     {
-      "id": "0084",
+      "id": "0092",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/border-padding-003.html",
       "file": [
@@ -8241,7 +9001,7 @@
       ]
     },
     {
-      "id": "0085",
+      "id": "0093",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/border-padding-004.html",
       "file": [
@@ -8264,7 +9024,7 @@
       ]
     },
     {
-      "id": "0086",
+      "id": "0094",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/new-fc-001.html",
       "file": [
@@ -8287,7 +9047,7 @@
       ]
     },
     {
-      "id": "0087",
+      "id": "0095",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/out-of-flow-001.html",
       "file": [
@@ -8310,7 +9070,7 @@
       ]
     },
     {
-      "id": "0088",
+      "id": "0096",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/out-of-flow-002.html",
       "file": [
@@ -8333,7 +9093,7 @@
       ]
     },
     {
-      "id": "0089",
+      "id": "0097",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-accumulation-001.html",
       "file": [
@@ -8356,7 +9116,7 @@
       ]
     },
     {
-      "id": "0090",
+      "id": "0098",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-accumulation-002.html",
       "file": [
@@ -8379,7 +9139,7 @@
       ]
     },
     {
-      "id": "0091",
+      "id": "0099",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-accumulation-003.html",
       "file": [
@@ -8402,7 +9162,7 @@
       ]
     },
     {
-      "id": "0092",
+      "id": "0100",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-accumulation-004.html",
       "file": [
@@ -8425,7 +9185,7 @@
       ]
     },
     {
-      "id": "0093",
+      "id": "0101",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-atomic-inline-001.html",
       "file": [
@@ -8448,7 +9208,7 @@
       ]
     },
     {
-      "id": "0094",
+      "id": "0102",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-block-in-inline-end-001.html",
       "file": [
@@ -8471,7 +9231,7 @@
       ]
     },
     {
-      "id": "0095",
+      "id": "0103",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-block-in-inline-end-002.html",
       "file": [
@@ -8494,7 +9254,7 @@
       ]
     },
     {
-      "id": "0096",
+      "id": "0104",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-block-in-inline-end-003.html",
       "file": [
@@ -8517,7 +9277,7 @@
       ]
     },
     {
-      "id": "0097",
+      "id": "0105",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-block-in-inline-end-004.html",
       "file": [
@@ -8540,7 +9300,7 @@
       ]
     },
     {
-      "id": "0098",
+      "id": "0106",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-block-in-inline-start-001.html",
       "file": [
@@ -8563,7 +9323,7 @@
       ]
     },
     {
-      "id": "0099",
+      "id": "0107",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-block-in-inline-start-002.html",
       "file": [
@@ -8586,7 +9346,7 @@
       ]
     },
     {
-      "id": "0100",
+      "id": "0108",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-block-in-inline-start-003.html",
       "file": [
@@ -8609,7 +9369,7 @@
       ]
     },
     {
-      "id": "0101",
+      "id": "0109",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-dynamic-001.html",
       "file": [
@@ -8673,7 +9433,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0101-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-dynamic-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0109-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-dynamic-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8712,7 +9472,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0101-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-dynamic-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0109-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-dynamic-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8728,7 +9488,7 @@
       }
     },
     {
-      "id": "0102",
+      "id": "0110",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-dynamic-002.html",
       "file": [
@@ -8792,7 +9552,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0102-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-dynamic-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0110-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-dynamic-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8831,7 +9591,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0102-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-dynamic-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0110-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-dynamic-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8847,7 +9607,7 @@
       }
     },
     {
-      "id": "0103",
+      "id": "0111",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-end-001.html",
       "file": [
@@ -8911,7 +9671,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 44,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0103-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-end-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0111-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-end-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8950,7 +9710,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 44,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0103-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-end-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0111-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-end-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8966,7 +9726,7 @@
       }
     },
     {
-      "id": "0104",
+      "id": "0112",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-end-empty-line-001.html",
       "file": [
@@ -8989,7 +9749,7 @@
       ]
     },
     {
-      "id": "0105",
+      "id": "0113",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-float-clear-br-001.html",
       "file": [
@@ -9012,7 +9772,7 @@
       ]
     },
     {
-      "id": "0106",
+      "id": "0114",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-float-clear-br-002.html",
       "file": [
@@ -9076,7 +9836,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 206,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0106-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-float-clear-br-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0114-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-float-clear-br-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9115,7 +9875,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 206,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0106-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-float-clear-br-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0114-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-float-clear-br-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9131,7 +9891,7 @@
       }
     },
     {
-      "id": "0107",
+      "id": "0115",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-float-clear-br-003.html",
       "file": [
@@ -9195,7 +9955,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 44,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0107-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-float-clear-br-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0115-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-float-clear-br-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9234,7 +9994,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 44,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0107-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-float-clear-br-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0115-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-float-clear-br-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9250,7 +10010,7 @@
       }
     },
     {
-      "id": "0108",
+      "id": "0116",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-float-start-001.html",
       "file": [
@@ -9273,7 +10033,7 @@
       ]
     },
     {
-      "id": "0109",
+      "id": "0117",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-half-leading-block-box-001.html",
       "file": [
@@ -9296,7 +10056,7 @@
       ]
     },
     {
-      "id": "0110",
+      "id": "0118",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-half-leading-block-box-002.html",
       "file": [
@@ -9319,7 +10079,7 @@
       ]
     },
     {
-      "id": "0111",
+      "id": "0119",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-half-leading-block-box-003.html",
       "file": [
@@ -9342,7 +10102,7 @@
       ]
     },
     {
-      "id": "0112",
+      "id": "0120",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-half-leading-block-box-004.html",
       "file": [
@@ -9365,7 +10125,7 @@
       ]
     },
     {
-      "id": "0113",
+      "id": "0121",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-half-leading-block-box-005.html",
       "file": [
@@ -9388,7 +10148,7 @@
       ]
     },
     {
-      "id": "0114",
+      "id": "0122",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-half-leading-block-box-006.html",
       "file": [
@@ -9411,7 +10171,7 @@
       ]
     },
     {
-      "id": "0115",
+      "id": "0123",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-height-001.html",
       "file": [
@@ -9434,7 +10194,7 @@
       ]
     },
     {
-      "id": "0116",
+      "id": "0124",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-height-002.html",
       "file": [
@@ -9457,7 +10217,7 @@
       ]
     },
     {
-      "id": "0117",
+      "id": "0125",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-initial-letter-end-001.html",
       "file": [
@@ -9480,7 +10240,7 @@
       ]
     },
     {
-      "id": "0118",
+      "id": "0126",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-initial-letter-start-001.html",
       "file": [
@@ -9503,7 +10263,7 @@
       ]
     },
     {
-      "id": "0119",
+      "id": "0127",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-line-clamp-001.html",
       "file": [
@@ -9526,7 +10286,7 @@
       ]
     },
     {
-      "id": "0120",
+      "id": "0128",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-line-clamp-002.html",
       "file": [
@@ -9549,7 +10309,7 @@
       ]
     },
     {
-      "id": "0121",
+      "id": "0129",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001.html",
       "file": [
@@ -9613,7 +10373,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0121-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-line-clamp-auto-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0129-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-line-clamp-auto-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9652,7 +10412,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0121-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-line-clamp-auto-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0129-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-line-clamp-auto-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9668,7 +10428,7 @@
       }
     },
     {
-      "id": "0122",
+      "id": "0130",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-002.html",
       "file": [
@@ -9732,7 +10492,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0122-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-line-clamp-auto-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0130-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-line-clamp-auto-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9771,7 +10531,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0122-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-line-clamp-auto-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0130-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-line-clamp-auto-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9787,7 +10547,7 @@
       }
     },
     {
-      "id": "0123",
+      "id": "0131",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-block-in-inline-001.html",
       "file": [
@@ -9851,7 +10611,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0123-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-line-clamp-auto-block-in-inline-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0131-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-line-clamp-auto-block-in-inline-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9890,7 +10650,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0123-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-line-clamp-auto-block-in-inline-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0131-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-line-clamp-auto-block-in-inline-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9906,7 +10666,7 @@
       }
     },
     {
-      "id": "0124",
+      "id": "0132",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-block-in-inline-002.html",
       "file": [
@@ -9970,7 +10730,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0124-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-line-clamp-auto-block-in-inline-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0132-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-line-clamp-auto-block-in-inline-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10009,7 +10769,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0124-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-line-clamp-auto-block-in-inline-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0132-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-line-clamp-auto-block-in-inline-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10025,7 +10785,126 @@
       }
     },
     {
-      "id": "0125",
+      "id": "0133",
+      "category": "WPT reftest",
+      "title": "css/css-inline/text-box-trim/text-box-trim-list-001.html",
+      "file": [
+        "css/css-inline/text-box-trim/text-box-trim-list-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-inline/text-box-trim/text-box-trim-list-001.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-list-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-list-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-inline/text-box-trim/text-box-trim-list-001-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-list-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-list-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-inline/text-box-trim/text-box-trim-list-001-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-list-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 14600,
+                "diffRatio": 0.017412792916571253,
+                "exactDiffPixels": 15338,
+                "exactDiffRatio": 0.018292973818792458,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0133-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-list-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-list-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-inline/text-box-trim/text-box-trim-list-001-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-list-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 14600,
+                "diffRatio": 0.017412792916571253,
+                "exactDiffPixels": 15338,
+                "exactDiffRatio": 0.018292973818792458,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0133-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-list-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-list-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0134",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-multicol-001.html",
       "file": [
@@ -10048,7 +10927,7 @@
       ]
     },
     {
-      "id": "0126",
+      "id": "0135",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-multicol-002.html",
       "file": [
@@ -10071,7 +10950,7 @@
       ]
     },
     {
-      "id": "0127",
+      "id": "0136",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-multicol-003.html",
       "file": [
@@ -10094,7 +10973,7 @@
       ]
     },
     {
-      "id": "0128",
+      "id": "0137",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-multicol-004.html",
       "file": [
@@ -10117,7 +10996,7 @@
       ]
     },
     {
-      "id": "0129",
+      "id": "0138",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-multicol-005.html",
       "file": [
@@ -10140,7 +11019,7 @@
       ]
     },
     {
-      "id": "0130",
+      "id": "0139",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-multicol-006.html",
       "file": [
@@ -10163,7 +11042,7 @@
       ]
     },
     {
-      "id": "0131",
+      "id": "0140",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-multicol-007.html",
       "file": [
@@ -10186,7 +11065,7 @@
       ]
     },
     {
-      "id": "0132",
+      "id": "0141",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-multicol-008.html",
       "file": [
@@ -10209,7 +11088,7 @@
       ]
     },
     {
-      "id": "0133",
+      "id": "0142",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-multicol-009.html",
       "file": [
@@ -10232,7 +11111,7 @@
       ]
     },
     {
-      "id": "0134",
+      "id": "0143",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-multicol-010.html",
       "file": [
@@ -10255,7 +11134,7 @@
       ]
     },
     {
-      "id": "0135",
+      "id": "0144",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-multicol-011.html",
       "file": [
@@ -10278,7 +11157,7 @@
       ]
     },
     {
-      "id": "0136",
+      "id": "0145",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-multicol-012.html",
       "file": [
@@ -10301,7 +11180,7 @@
       ]
     },
     {
-      "id": "0137",
+      "id": "0146",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-not-ignore-nested-text-box-edge.html",
       "file": [
@@ -10324,7 +11203,7 @@
       ]
     },
     {
-      "id": "0138",
+      "id": "0147",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-on-button.html",
       "file": [
@@ -10347,7 +11226,7 @@
       ]
     },
     {
-      "id": "0139",
+      "id": "0148",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-pseudo-before-after-001.html",
       "file": [
@@ -10370,7 +11249,7 @@
       ]
     },
     {
-      "id": "0140",
+      "id": "0149",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-pseudo-before-after-002.html",
       "file": [
@@ -10393,7 +11272,7 @@
       ]
     },
     {
-      "id": "0141",
+      "id": "0150",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-ruby-end-001.html",
       "file": [
@@ -10416,7 +11295,7 @@
       ]
     },
     {
-      "id": "0142",
+      "id": "0151",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-ruby-start-001.html",
       "file": [
@@ -10439,7 +11318,7 @@
       ]
     },
     {
-      "id": "0143",
+      "id": "0152",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-ruby-start-002.html",
       "file": [
@@ -10462,7 +11341,7 @@
       ]
     },
     {
-      "id": "0144",
+      "id": "0153",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-set-dynamically.html",
       "file": [
@@ -10485,7 +11364,7 @@
       ]
     },
     {
-      "id": "0145",
+      "id": "0154",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-start-001.html",
       "file": [
@@ -10549,7 +11428,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0145-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-start-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0154-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-start-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10588,7 +11467,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0145-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-start-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0154-WPT_reftest-css-css-inline-text-box-trim-text-box-trim-start-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10604,7 +11483,7 @@
       }
     },
     {
-      "id": "0146",
+      "id": "0155",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-tall-line-001.html",
       "file": [
@@ -10627,7 +11506,7 @@
       ]
     },
     {
-      "id": "0147",
+      "id": "0156",
       "category": "WPT reftest",
       "title": "css/css-inline/text-box-trim/text-box-trim-text-emphasis-001.html",
       "file": [
@@ -10650,7 +11529,7 @@
       ]
     },
     {
-      "id": "0148",
+      "id": "0157",
       "category": "WPT print-reftest",
       "title": "css/css-inline/text-box-trim/not-at-page-edges-001-print.html",
       "file": [
@@ -10718,7 +11597,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0148-WPT_print-reftest-css-css-inline-text-box-trim-not-at-page-edges-001-print.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0157-WPT_print-reftest-css-css-inline-text-box-trim-not-at-page-edges-001-print.html-r01-p0001.png"
               },
               {
                 "page": 3,
@@ -10735,7 +11614,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0148-WPT_print-reftest-css-css-inline-text-box-trim-not-at-page-edges-001-print.html-r01-p0003.png"
+                "diffImage": "actual-reference-diff/0157-WPT_print-reftest-css-css-inline-text-box-trim-not-at-page-edges-001-print.html-r01-p0003.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10778,7 +11657,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0148-WPT_print-reftest-css-css-inline-text-box-trim-not-at-page-edges-001-print.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0157-WPT_print-reftest-css-css-inline-text-box-trim-not-at-page-edges-001-print.html-r01-p0001.png"
               },
               {
                 "page": 3,
@@ -10795,7 +11674,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0148-WPT_print-reftest-css-css-inline-text-box-trim-not-at-page-edges-001-print.html-r01-p0003.png"
+                "diffImage": "baseline-reference-diff/0157-WPT_print-reftest-css-css-inline-text-box-trim-not-at-page-edges-001-print.html-r01-p0003.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10811,7 +11690,7 @@
       }
     },
     {
-      "id": "0149",
+      "id": "0158",
       "category": "WPT print-reftest",
       "title": "css/css-inline/text-box-trim/not-at-page-edges-002-print.html",
       "file": [
@@ -10879,7 +11758,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0149-WPT_print-reftest-css-css-inline-text-box-trim-not-at-page-edges-002-print.html-r01-p0003.png"
+                "diffImage": "actual-reference-diff/0158-WPT_print-reftest-css-css-inline-text-box-trim-not-at-page-edges-002-print.html-r01-p0003.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10922,7 +11801,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0149-WPT_print-reftest-css-css-inline-text-box-trim-not-at-page-edges-002-print.html-r01-p0003.png"
+                "diffImage": "baseline-reference-diff/0158-WPT_print-reftest-css-css-inline-text-box-trim-not-at-page-edges-002-print.html-r01-p0003.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10938,7 +11817,7 @@
       }
     },
     {
-      "id": "0150",
+      "id": "0159",
       "category": "WPT print-reftest",
       "title": "css/css-inline/text-box-trim/not-at-page-edges-003-print.html",
       "file": [
@@ -11006,7 +11885,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0150-WPT_print-reftest-css-css-inline-text-box-trim-not-at-page-edges-003-print.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0159-WPT_print-reftest-css-css-inline-text-box-trim-not-at-page-edges-003-print.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11049,7 +11928,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0150-WPT_print-reftest-css-css-inline-text-box-trim-not-at-page-edges-003-print.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0159-WPT_print-reftest-css-css-inline-text-box-trim-not-at-page-edges-003-print.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,

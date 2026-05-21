@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T02:05:00.309Z",
+  "generatedAt": "2026-05-21T03:39:46.807Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -40,7 +40,7 @@
   "summary": {
     "totalEntries": 703,
     "entriesWithDifferences": 221,
-    "entriesWithErrors": 4,
+    "entriesWithErrors": 2,
     "timeoutEntries": 2,
     "pageCountMismatches": 0,
     "screenshotMismatches": 1,
@@ -65,10 +65,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 4,
+        "pending": 2,
         "triaged": 0
       },
-      "pendingEntries": 225,
+      "pendingEntries": 223,
       "triagedEntries": 0
     }
   },
@@ -5249,9 +5249,9 @@
                 "actualHeight": 1056,
                 "diffPixels": 36836,
                 "diffRatio": 0.04393271505991909,
-                "exactDiffPixels": 40249,
-                "exactDiffRatio": 0.04800325356842989,
-                "exceededDiffPixels": 39684,
+                "exactDiffPixels": 40159,
+                "exactDiffRatio": 0.04789591443401267,
+                "exceededDiffPixels": 39683,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
                 "diffImage": "actual-reference-diff/0060-WPT_reftest-css-css-backgrounds-background-attachment-local-attachment-local-clipping-image-5.html-r01-p0001.png"
@@ -10852,7 +10852,7 @@
           "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
-            "message": "Timeout (10000ms): navigating to page 1",
+            "message": "locator.fill: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('#vivliostyle-page-number')\n    - locator resolved to <input type=\"text\" autocomplete=\"off\" inputmode=\"numeric\" aria-keyshortcuts=\"G\" title=\"Go to Page… (G)\" aria-label=\"Page number\" id=\"vivliostyle-page-number\" data-bind=\"value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}\"/>\n    - fill(\"1\")\n  - attempting fill action\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    17 × waiting for element to be visible, enabled and editable\n       - element is not visible\n     - retrying fill action\n       - waiting 500ms\n",
             "timeout": true
           },
           "sideErrors": [
@@ -10860,7 +10860,7 @@
               "side": "canary",
               "error": {
                 "name": "TimeoutError",
-                "message": "Timeout (10000ms): navigating to page 1",
+                "message": "locator.fill: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('#vivliostyle-page-number')\n    - locator resolved to <input type=\"text\" autocomplete=\"off\" inputmode=\"numeric\" aria-keyshortcuts=\"G\" title=\"Go to Page… (G)\" aria-label=\"Page number\" id=\"vivliostyle-page-number\" data-bind=\"value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}\"/>\n    - fill(\"1\")\n  - attempting fill action\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    17 × waiting for element to be visible, enabled and editable\n       - element is not visible\n     - retrying fill action\n       - waiting 500ms\n",
                 "timeout": true
               }
             },
@@ -10868,7 +10868,7 @@
               "side": "stable",
               "error": {
                 "name": "TimeoutError",
-                "message": "Timeout (10000ms): navigating to page 1",
+                "message": "locator.fill: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('#vivliostyle-page-number')\n    - locator resolved to <input type=\"text\" autocomplete=\"off\" inputmode=\"numeric\" aria-keyshortcuts=\"G\" title=\"Go to Page… (G)\" aria-label=\"Page number\" id=\"vivliostyle-page-number\" data-bind=\"value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}\"/>\n    - fill(\"1\")\n  - attempting fill action\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    17 × waiting for element to be visible, enabled and editable\n       - element is not visible\n     - retrying fill action\n       - waiting 500ms\n",
                 "timeout": true
               }
             }
@@ -17748,46 +17748,91 @@
           "totalPages": 1
         },
         "pages": [],
-        "comparisons": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 39936,
+                "diffRatio": 0.04762995191206778,
+                "exactDiffPixels": 39936,
+                "exactDiffRatio": 0.04762995191206778,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0277-WPT_reftest-css-css-backgrounds-background-size-vector-background-size-vector-027.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 39936,
+                "diffRatio": 0.04762995191206778,
+                "exactDiffPixels": 39936,
+                "exactDiffRatio": 0.04762995191206778,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0277-WPT_reftest-css-css-backgrounds-background-size-vector-background-size-vector-027.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      },
-      "errors": [
-        {
-          "side": "canary-reference, stable-reference",
-          "error": {
-            "name": "Error",
-            "message": "Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html (429)",
-            "timeout": false
-          },
-          "sideErrors": [
-            {
-              "side": "canary-reference",
-              "error": {
-                "name": "Error",
-                "message": "Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html (429)",
-                "timeout": false
-              },
-              "referenceFile": "css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html"
-            },
-            {
-              "side": "stable-reference",
-              "error": {
-                "name": "Error",
-                "message": "Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html (429)",
-                "timeout": false
-              },
-              "referenceFile": "css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html"
-            }
-          ],
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
-        }
-      ]
+      }
     },
     {
       "id": "0278",
@@ -17845,46 +17890,91 @@
           "totalPages": 1
         },
         "pages": [],
-        "comparisons": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 39936,
+                "diffRatio": 0.04762995191206778,
+                "exactDiffPixels": 39936,
+                "exactDiffRatio": 0.04762995191206778,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0279-WPT_reftest-css-css-backgrounds-background-size-vector-background-size-vector-029.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 39936,
+                "diffRatio": 0.04762995191206778,
+                "exactDiffPixels": 39936,
+                "exactDiffRatio": 0.04762995191206778,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0279-WPT_reftest-css-css-backgrounds-background-size-vector-background-size-vector-029.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      },
-      "errors": [
-        {
-          "side": "canary-reference, stable-reference",
-          "error": {
-            "name": "Error",
-            "message": "Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html (429)",
-            "timeout": false
-          },
-          "sideErrors": [
-            {
-              "side": "canary-reference",
-              "error": {
-                "name": "Error",
-                "message": "Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html (429)",
-                "timeout": false
-              },
-              "referenceFile": "css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html"
-            },
-            {
-              "side": "stable-reference",
-              "error": {
-                "name": "Error",
-                "message": "Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html (429)",
-                "timeout": false
-              },
-              "referenceFile": "css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html"
-            }
-          ],
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
-        }
-      ]
+      }
     },
     {
       "id": "0280",

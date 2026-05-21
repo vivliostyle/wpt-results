@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 65
-- Entries with differences: 13 (pending: 13, triaged: 0)
+- Compared entries: 66
+- Entries with differences: 14 (pending: 14, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":52,"known-fail":13}
+- Outcome summary: {"pass":52,"known-fail":14}
 
 ## Differences
 
@@ -88,7 +88,20 @@
   stable page 1: diffRatio=0.0027741202961605984, diffPixels=2326
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0033] [WPT reftest] css/css-borders/border-shape/border-shape-shadow-blur.html
+- [0033] [WPT reftest] css/css-borders/border-shape/border-shape-polygon-miter-limit.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0013286199526753683, diffPixels=1114
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0013286199526753683, diffPixels=1114
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0034] [WPT reftest] css/css-borders/border-shape/border-shape-shadow-blur.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/border-shape/border-shape-shadow-blur-ref.html (==)
@@ -101,7 +114,7 @@
   stable page 1: diffRatio=0.0065846595679719105, diffPixels=5521
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0034] [WPT reftest] css/css-borders/border-shape/border-shape-shadow-circle.html
+- [0035] [WPT reftest] css/css-borders/border-shape/border-shape-shadow-circle.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/border-shape/border-shape-shadow-circle-ref.html (==)
@@ -114,7 +127,7 @@
   stable page 1: diffRatio=0.006601356766659034, diffPixels=5535
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0035] [WPT reftest] css/css-borders/border-shape/border-shape-shadow-inset-blur.html
+- [0036] [WPT reftest] css/css-borders/border-shape/border-shape-shadow-inset-blur.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html (==)
@@ -127,7 +140,7 @@
   stable page 1: diffRatio=0.003952465460651858, diffPixels=3314
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0040] [WPT reftest] css/css-borders/border-shape/border-shape-stroke-from-border.html
+- [0041] [WPT reftest] css/css-borders/border-shape/border-shape-stroke-from-border.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/border-shape/border-shape-stroke-from-border-ref.html (==)
@@ -140,7 +153,7 @@
   stable page 1: diffRatio=0.03935291199145104, diffPixels=32996
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0042] [WPT reftest] css/css-borders/border-shape/border-shape-two-shapes-shadow.html
+- [0043] [WPT reftest] css/css-borders/border-shape/border-shape-two-shapes-shadow.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html (==)
@@ -153,7 +166,7 @@
   stable page 1: diffRatio=0.0016196282726509427, diffPixels=1358
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0064] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
+- [0065] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/reference/border-radius-side-shorthands-ref.html (==)
@@ -166,7 +179,7 @@
   stable page 1: diffRatio=0.0058762212808182585, diffPixels=4927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0065] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html
+- [0066] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/reference/border-radius-side-shorthands-ref.html (==)

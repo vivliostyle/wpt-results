@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T03:42:59.066Z",
+  "generatedAt": "2026-05-21T05:22:13.732Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -41,7 +41,7 @@
     "totalEntries": 264,
     "entriesWithDifferences": 135,
     "entriesWithErrors": 23,
-    "timeoutEntries": 22,
+    "timeoutEntries": 23,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
@@ -9490,7 +9490,7 @@
           "side": "canary, canary-reference, stable, stable-reference",
           "error": {
             "name": "TimeoutError",
-            "message": "page.waitForFunction: Timeout 10000ms exceeded.",
+            "message": "Timeout (10000ms): waiting for viewer ready",
             "timeout": true
           },
           "sideErrors": [
@@ -9498,7 +9498,7 @@
               "side": "canary",
               "error": {
                 "name": "TimeoutError",
-                "message": "page.waitForFunction: Timeout 10000ms exceeded.",
+                "message": "Timeout (10000ms): waiting for viewer ready",
                 "timeout": true
               }
             },
@@ -19191,7 +19191,7 @@
           "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
+            "message": "page.waitForFunction: Timeout 10000ms exceeded.",
             "timeout": true
           },
           "sideErrors": [
@@ -19199,7 +19199,7 @@
               "side": "canary",
               "error": {
                 "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
+                "message": "page.waitForFunction: Timeout 10000ms exceeded.",
                 "timeout": true
               }
             },
@@ -19831,17 +19831,17 @@
         {
           "side": "canary, stable",
           "error": {
-            "name": "Error",
-            "message": "page.addStyleTag: Execution context was destroyed, most likely because of a navigation",
-            "timeout": false
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
           },
           "sideErrors": [
             {
               "side": "canary",
               "error": {
-                "name": "Error",
-                "message": "page.addStyleTag: Execution context was destroyed, most likely because of a navigation",
-                "timeout": false
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
               }
             },
             {
