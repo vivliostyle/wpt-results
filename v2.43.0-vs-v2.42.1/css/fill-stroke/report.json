@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-05-22T13:22:12.298Z",
+  "labels": {
+    "actual": "v2.43.0",
+    "baseline": "v2.42.1"
+  },
+  "options": {
+    "categories": [],
+    "titleIncludes": [],
+    "files": [],
+    "limit": null,
+    "mode": "reftest-diff",
+    "browser": "chromium",
+    "outDir": "v2.43.0-vs-v2.42.1/css/fill-stroke",
+    "timeoutSec": 10,
+    "maxDiffRatio": 0.00002,
+    "pixelThreshold": 0.1,
+    "viewportWidth": 1800,
+    "viewportHeight": 1800,
+    "skipScreenshots": false,
+    "concurrency": 8,
+    "exportHtml": false,
+    "exportHtmlDiff": false,
+    "actualViewer": "https://vivliostyle.github.io/viewer/v2.43.0/",
+    "baselineViewer": "https://vivliostyle.github.io/viewer/v2.42.1/",
+    "actualLabel": "v2.43.0",
+    "baselineLabel": "v2.42.1",
+    "extraViewerParams": "",
+    "actualViewerParams": "",
+    "baselineViewerParams": "",
+    "testUrls": [],
+    "refUrls": [],
+    "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
+    "wptBaseUrl": "https://wpt.live/",
+    "wptPathPrefixes": [
+      "css/fill-stroke/"
+    ],
+    "timeoutMs": 10000
+  },
+  "summary": {
+    "totalEntries": 1,
+    "entriesWithDifferences": 0,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
+    "pageCountMismatches": 0,
+    "screenshotMismatches": 0,
+    "outcomes": {
+      "changeTypes": {
+        "pass": 1
+      },
+      "statusPairs": {
+        "PASS->PASS": 1
+      }
+    },
+    "triage": {
+      "differences": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "errors": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "pendingEntries": 0,
+      "triagedEntries": 0
+    }
+  },
+  "entries": [
+    {
+      "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/fill-stroke/paint-order-001.html",
+      "file": [
+        "css/fill-stroke/paint-order-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/fill-stroke/paint-order-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/fill-stroke/paint-order-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/fill-stroke/paint-order-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/fill-stroke/reference/paint-order-001-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/fill-stroke/reference/paint-order-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/fill-stroke/reference/paint-order-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    }
+  ]
+}

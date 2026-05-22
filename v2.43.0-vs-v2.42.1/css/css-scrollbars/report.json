@@ -1,0 +1,1979 @@
+{
+  "generatedAt": "2026-05-22T12:10:34.857Z",
+  "labels": {
+    "actual": "v2.43.0",
+    "baseline": "v2.42.1"
+  },
+  "options": {
+    "categories": [],
+    "titleIncludes": [],
+    "files": [],
+    "limit": null,
+    "mode": "reftest-diff",
+    "browser": "chromium",
+    "outDir": "v2.43.0-vs-v2.42.1/css/css-scrollbars",
+    "timeoutSec": 10,
+    "maxDiffRatio": 0.00002,
+    "pixelThreshold": 0.1,
+    "viewportWidth": 1800,
+    "viewportHeight": 1800,
+    "skipScreenshots": false,
+    "concurrency": 8,
+    "exportHtml": false,
+    "exportHtmlDiff": false,
+    "actualViewer": "https://vivliostyle.github.io/viewer/v2.43.0/",
+    "baselineViewer": "https://vivliostyle.github.io/viewer/v2.42.1/",
+    "actualLabel": "v2.43.0",
+    "baselineLabel": "v2.42.1",
+    "extraViewerParams": "",
+    "actualViewerParams": "",
+    "baselineViewerParams": "",
+    "testUrls": [],
+    "refUrls": [],
+    "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
+    "wptBaseUrl": "https://wpt.live/",
+    "wptPathPrefixes": [
+      "css/css-scrollbars/"
+    ],
+    "timeoutMs": 10000
+  },
+  "summary": {
+    "totalEntries": 31,
+    "entriesWithDifferences": 18,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
+    "pageCountMismatches": 0,
+    "screenshotMismatches": 0,
+    "outcomes": {
+      "changeTypes": {
+        "pass": 13,
+        "known-fail": 18
+      },
+      "statusPairs": {
+        "PASS->PASS": 13,
+        "FAIL->FAIL": 18
+      }
+    },
+    "triage": {
+      "differences": {
+        "pending": 18,
+        "triaged": 0
+      },
+      "errors": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "pendingEntries": 18,
+      "triagedEntries": 0
+    }
+  },
+  "entries": [
+    {
+      "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/input-scrollbar-color.html",
+      "file": [
+        "css/css-scrollbars/input-scrollbar-color.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/input-scrollbar-color.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/input-scrollbar-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/input-scrollbar-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/input-scrollbar-color-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/input-scrollbar-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/input-scrollbar-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0002",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-after-remove-resize.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-after-remove-resize.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-after-remove-resize.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-after-remove-resize.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-after-remove-resize.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-after-remove-resize-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-after-remove-resize-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-after-remove-resize-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0003",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-006.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-006.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-006.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-006-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-006-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-006-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-006-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0004",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-007.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-007.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-007.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-007-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-007-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-007-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-007-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0005",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-008.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-008.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-008.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-008-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-008-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-008-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-008-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0006",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-009.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-009.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-009.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-009-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-009-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-009-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-009-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0007",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-010.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-010.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-010.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-010-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-010-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-010-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-010-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0008",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-011.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-011.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-011.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-011-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-011-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-011-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-011-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0009",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-012.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-012.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-012.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-012-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0010",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-dynamic-1.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-dynamic-1.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-1-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0011",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-dynamic-2.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-dynamic-2.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-2-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0012",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-dynamic-3.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-dynamic-3.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-3-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0013",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-dynamic-4.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-dynamic-4.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-4-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0014",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-dynamic-5.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-dynamic-5.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-5-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0015",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-dynamic-6.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-dynamic-6.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-6-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0016",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-dynamic-7.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-dynamic-7.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-7-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0017",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-dynamic-8.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-dynamic-8.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-8.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-8.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-8.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-dynamic-8-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-8-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-8-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0018",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-scheme-dynamic-1.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-scheme-dynamic-1.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-1.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-scheme-dynamic-1-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0019",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-scheme-dynamic-2.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-scheme-dynamic-2.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-2.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-scheme-dynamic-2-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0020",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-scheme-dynamic-3.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-scheme-dynamic-3.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-3.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-scheme-dynamic-3-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0021",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-color-scheme-dynamic-4.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-color-scheme-dynamic-4.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-4.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-color-scheme-dynamic-4-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-scheme-dynamic-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0022",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-width-paint-001.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-width-paint-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-width-paint-001-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0023",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-width-paint-002.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-width-paint-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-width-paint-002.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-width-paint-002-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-width-paint-002-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-002-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-002-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0024",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-width-paint-003.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-width-paint-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-width-paint-003.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-width-paint-003-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0025",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-width-paint-004.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-width-paint-004.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-width-paint-004-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0026",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-width-paint-005.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-width-paint-005.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-width-paint-005.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-width-paint-005-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0027",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/scrollbar-width-paint-006.html",
+      "file": [
+        "css/css-scrollbars/scrollbar-width-paint-006.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-width-paint-006-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0028",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/textarea-scrollbar-width-none.html",
+      "file": [
+        "css/css-scrollbars/textarea-scrollbar-width-none.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/textarea-scrollbar-width-none.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/textarea-scrollbar-width-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/textarea-scrollbar-width-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/textarea-scrollbar-width-none-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/textarea-scrollbar-width-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/textarea-scrollbar-width-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0029",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/transparent-on-root.html",
+      "file": [
+        "css/css-scrollbars/transparent-on-root.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/transparent-on-root.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/transparent-on-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/transparent-on-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/transparent-on-root-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/transparent-on-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/transparent-on-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0030",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/viewport-scrollbar-body.html",
+      "file": [
+        "css/css-scrollbars/viewport-scrollbar-body.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/viewport-scrollbar-body.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/viewport-scrollbar-body-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/viewport-scrollbar-body-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/viewport-scrollbar-body-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/viewport-scrollbar-body-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0031",
+      "category": "WPT reftest",
+      "title": "css/css-scrollbars/viewport-scrollbar.html",
+      "file": [
+        "css/css-scrollbars/viewport-scrollbar.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scrollbars/viewport-scrollbar.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scrollbars/viewport-scrollbar-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        },
+        {
+          "referenceFile": "css/css-scrollbars/viewport-scrollbar-mis-ref.html",
+          "relation": "!=",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/viewport-scrollbar-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.43.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 1,
+            "referenceFile": "css/css-scrollbars/viewport-scrollbar-mis-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "!=",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [],
+            "unexpectedEquality": true,
+            "pass": false,
+            "side": "v2.42.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.42.1/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    }
+  ]
+}
