@@ -322,7 +322,34 @@
       referenceFile: css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0065"
+- id: "0061"
+  category: WPT reftest
+  title: css/css-borders/corner-shape/corner-shorthand-rendering.html
+  file: css/css-borders/corner-shape/corner-shorthand-rendering.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/corner-shape/corner-shorthand-rendering-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-borders/corner-shape/corner-shorthand-rendering-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-borders/corner-shape/corner-shorthand-rendering-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-borders/corner-shape/corner-shorthand-rendering-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0066"
   category: WPT reftest
   title: css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
   file: css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
@@ -349,7 +376,7 @@
       referenceFile: css/css-borders/reference/border-radius-side-shorthands-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0066"
+- id: "0067"
   category: WPT reftest
   title: css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html
   file: css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html

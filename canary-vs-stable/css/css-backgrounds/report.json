@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T03:39:46.807Z",
+  "generatedAt": "2026-05-23T07:49:27.081Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -10298,7 +10298,7 @@
           "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
-            "message": "locator.fill: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('#vivliostyle-page-number')\n    - locator resolved to <input type=\"text\" autocomplete=\"off\" inputmode=\"numeric\" aria-keyshortcuts=\"G\" title=\"Go to Page… (G)\" aria-label=\"Page number\" id=\"vivliostyle-page-number\" data-bind=\"value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}\"/>\n    - fill(\"1\")\n  - attempting fill action\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    19 × waiting for element to be visible, enabled and editable\n       - element is not visible\n     - retrying fill action\n       - waiting 500ms\n",
+            "message": "Timeout (10000ms): navigating to page 1",
             "timeout": true
           },
           "sideErrors": [
@@ -10306,7 +10306,7 @@
               "side": "canary",
               "error": {
                 "name": "TimeoutError",
-                "message": "locator.fill: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('#vivliostyle-page-number')\n    - locator resolved to <input type=\"text\" autocomplete=\"off\" inputmode=\"numeric\" aria-keyshortcuts=\"G\" title=\"Go to Page… (G)\" aria-label=\"Page number\" id=\"vivliostyle-page-number\" data-bind=\"value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}\"/>\n    - fill(\"1\")\n  - attempting fill action\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    19 × waiting for element to be visible, enabled and editable\n       - element is not visible\n     - retrying fill action\n       - waiting 500ms\n",
+                "message": "Timeout (10000ms): navigating to page 1",
                 "timeout": true
               }
             },
@@ -10852,7 +10852,7 @@
           "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
-            "message": "locator.fill: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('#vivliostyle-page-number')\n    - locator resolved to <input type=\"text\" autocomplete=\"off\" inputmode=\"numeric\" aria-keyshortcuts=\"G\" title=\"Go to Page… (G)\" aria-label=\"Page number\" id=\"vivliostyle-page-number\" data-bind=\"value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}\"/>\n    - fill(\"1\")\n  - attempting fill action\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    17 × waiting for element to be visible, enabled and editable\n       - element is not visible\n     - retrying fill action\n       - waiting 500ms\n",
+            "message": "Timeout (10000ms): navigating to page 1",
             "timeout": true
           },
           "sideErrors": [
@@ -10860,7 +10860,7 @@
               "side": "canary",
               "error": {
                 "name": "TimeoutError",
-                "message": "locator.fill: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('#vivliostyle-page-number')\n    - locator resolved to <input type=\"text\" autocomplete=\"off\" inputmode=\"numeric\" aria-keyshortcuts=\"G\" title=\"Go to Page… (G)\" aria-label=\"Page number\" id=\"vivliostyle-page-number\" data-bind=\"value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}\"/>\n    - fill(\"1\")\n  - attempting fill action\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    17 × waiting for element to be visible, enabled and editable\n       - element is not visible\n     - retrying fill action\n       - waiting 500ms\n",
+                "message": "Timeout (10000ms): navigating to page 1",
                 "timeout": true
               }
             },
@@ -10868,7 +10868,7 @@
               "side": "stable",
               "error": {
                 "name": "TimeoutError",
-                "message": "locator.fill: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('#vivliostyle-page-number')\n    - locator resolved to <input type=\"text\" autocomplete=\"off\" inputmode=\"numeric\" aria-keyshortcuts=\"G\" title=\"Go to Page… (G)\" aria-label=\"Page number\" id=\"vivliostyle-page-number\" data-bind=\"value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}\"/>\n    - fill(\"1\")\n  - attempting fill action\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    17 × waiting for element to be visible, enabled and editable\n       - element is not visible\n     - retrying fill action\n       - waiting 500ms\n",
+                "message": "Timeout (10000ms): navigating to page 1",
                 "timeout": true
               }
             }

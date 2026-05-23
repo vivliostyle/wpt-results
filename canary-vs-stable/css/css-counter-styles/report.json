@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T04:04:13.481Z",
+  "generatedAt": "2026-05-23T08:11:39.530Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,33 +39,33 @@
   },
   "summary": {
     "totalEntries": 236,
-    "entriesWithDifferences": 55,
+    "entriesWithDifferences": 54,
     "entriesWithErrors": 2,
     "timeoutEntries": 2,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 180,
-        "known-fail": 55,
+        "pass": 181,
+        "known-fail": 54,
         "unchanged": 1
       },
       "statusPairs": {
-        "PASS->PASS": 180,
-        "FAIL->FAIL": 55,
+        "PASS->PASS": 181,
+        "FAIL->FAIL": 54,
         "MANUAL->MANUAL": 1
       }
     },
     "triage": {
       "differences": {
-        "pending": 55,
+        "pending": 54,
         "triaged": 0
       },
       "errors": {
         "pending": 2,
         "triaged": 0
       },
-      "pendingEntries": 57,
+      "pendingEntries": 56,
       "triagedEntries": 0
     }
   },
@@ -1125,9 +1125,9 @@
         "css/css-counter-styles/counter-style-at-rule/descriptor-pad.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-pad.html",
-      "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
-      "changeType": "known-fail",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-pad.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-pad.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -1138,103 +1138,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-pad-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-pad-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "known-fail",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-counter-styles/counter-style-at-rule/descriptor-pad-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-pad-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 349,
-                "diffRatio": 0.0004162373101289978,
-                "exactDiffPixels": 688,
-                "exactDiffRatio": 0.0008205480497671933,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0034-WPT_reftest-css-css-counter-styles-counter-style-at-rule-descriptor-pad.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-pad-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-counter-styles/counter-style-at-rule/descriptor-pad-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-pad-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 349,
-                "diffRatio": 0.0004162373101289978,
-                "exactDiffPixels": 688,
-                "exactDiffRatio": 0.0008205480497671933,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0034-WPT_reftest-css-css-counter-styles-counter-style-at-rule-descriptor-pad.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-pad-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0035",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T06:43:48.592Z",
+  "generatedAt": "2026-05-23T10:32:53.914Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -41,7 +41,7 @@
     "totalEntries": 26,
     "entriesWithDifferences": 6,
     "entriesWithErrors": 1,
-    "timeoutEntries": 1,
+    "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
@@ -1211,25 +1211,25 @@
         {
           "side": "canary, stable",
           "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
+            "name": "Error",
+            "message": "Viewer error: Error: Negative or zero page area size",
+            "timeout": false
           },
           "sideErrors": [
             {
               "side": "canary",
               "error": {
-                "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
-                "timeout": true
+                "name": "Error",
+                "message": "Viewer error: Error: Negative or zero page area size",
+                "timeout": false
               }
             },
             {
               "side": "stable",
               "error": {
-                "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
-                "timeout": true
+                "name": "Error",
+                "message": "Viewer error: Error: Negative or zero page area size",
+                "timeout": false
               }
             }
           ],

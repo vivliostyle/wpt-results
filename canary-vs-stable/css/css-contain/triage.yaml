@@ -2661,33 +2661,6 @@
       referenceFile: css/css-contain/content-visibility/content-visibility-animation-becomes-visible-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-animation-becomes-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0369"
-  category: WPT reftest
-  title: css/css-contain/content-visibility/content-visibility-auto-img-001.html
-  file: css/css-contain/content-visibility/content-visibility-auto-img-001.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-auto-img-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-auto-img-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-contain/content-visibility/content-visibility-auto-img-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-contain/content-visibility/content-visibility-auto-img-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-contain/content-visibility/content-visibility-auto-img-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-auto-img-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-contain/content-visibility/content-visibility-auto-img-001-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-auto-img-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0374"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-auto-svg-image.html
@@ -3630,9 +3603,9 @@
       errorMessage: "Timeout (10000ms): waiting for viewer ready"
       timeout: true
     - side: stable
-      errorName: Error
-      errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
-      timeout: false
+      errorName: TimeoutError
+      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
+      timeout: true
 - id: "0339"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-055.html
@@ -3648,15 +3621,8 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-055.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
-      timeout: true
-    - side: stable
-      errorName: Error
-      errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
-      timeout: false
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
 - id: "0354"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-076.html
@@ -3672,15 +3638,8 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-076.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
-    - side: stable
-      errorName: Error
-      errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
-      timeout: false
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
 - id: "0358"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-083.html
@@ -3702,9 +3661,9 @@
       errorMessage: "Timeout (10000ms): waiting for viewer ready"
       timeout: true
     - side: stable
-      errorName: Error
-      errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
-      timeout: false
+      errorName: TimeoutError
+      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
+      timeout: true
 - id: "0359"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-084.html
@@ -3720,15 +3679,8 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-084.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
-    - side: stable
-      errorName: Error
-      errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
-      timeout: false
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
 - id: "0405"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-top-layer-004.html

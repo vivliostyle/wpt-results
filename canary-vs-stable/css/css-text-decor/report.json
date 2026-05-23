@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T05:55:02.884Z",
+  "generatedAt": "2026-05-23T09:49:15.856Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -43,12 +43,11 @@
     "entriesWithErrors": 6,
     "timeoutEntries": 6,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 1,
+    "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
         "pass": 126,
-        "known-fail": 163,
-        "changed-fail": 1,
+        "known-fail": 164,
         "error": 6,
         "unchanged": 66
       },
@@ -8464,8 +8463,8 @@
       "sourceUrl": "https://wpt.live/css/css-text-decor/text-emphasis-line-height-001z.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-emphasis-line-height-001z.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-emphasis-line-height-001z.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -8477,7 +8476,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -8486,23 +8485,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 2081,
-            "diffRatio": 0.0024819193191359438,
-            "exactDiffPixels": 4372,
-            "exactDiffRatio": 0.0052142966185787345,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0122-WPT_reftest-css-css-text-decor-text-emphasis-line-height-001z.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -8567,10 +8550,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 496,
-                "diffRatio": 0.0005915578963437906,
-                "exactDiffPixels": 2956,
-                "exactDiffRatio": 0.0035254942370811387,
+                "diffPixels": 2319,
+                "diffRatio": 0.002765771696817037,
+                "exactDiffPixels": 4726,
+                "exactDiffRatio": 0.005636497213953134,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,

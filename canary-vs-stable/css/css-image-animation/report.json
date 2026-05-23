@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T04:42:56.897Z",
+  "generatedAt": "2026-05-23T08:43:01.132Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -43,12 +43,11 @@
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 1,
+    "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 16,
-        "pass": 2,
-        "changed-fail": 1
+        "known-fail": 17,
+        "pass": 2
       },
       "statusPairs": {
         "FAIL->FAIL": 17,
@@ -697,8 +696,8 @@
       "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -710,7 +709,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -719,23 +718,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 132,
-            "diffRatio": 0.00015743073047858942,
-            "exactDiffPixels": 222,
-            "exactDiffRatio": 0.00026476986489580947,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 199,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0007-WPT_reftest-css-css-image-animation-image-animation-img-running-to-normal.tentative.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -800,8 +783,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
+                "diffPixels": 9927,
+                "diffRatio": 0.011839506526219373,
                 "exactDiffPixels": 10000,
                 "exactDiffRatio": 0.01192657049080223,
                 "exceededDiffPixels": 0,

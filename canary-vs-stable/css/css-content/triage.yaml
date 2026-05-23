@@ -39,19 +39,19 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/attr-case-sensitivity-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-content/attr-case-sensitivity-ref-004.html
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
-    - css/css-content/attr-case-sensitivity-ref-004.html#1
+    - css/reference/ref-filled-green-100px-square.xht#1
   referenceViewerUrls:
     - side: canary
-      referenceFile: css/css-content/attr-case-sensitivity-ref-004.html
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/attr-case-sensitivity-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
-      referenceFile: css/css-content/attr-case-sensitivity-ref-004.html
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/attr-case-sensitivity-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0005"
   category: WPT reftest
   title: css/css-content/attr-chained-pseudo-001.html

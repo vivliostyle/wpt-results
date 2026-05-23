@@ -5539,3 +5539,20 @@
       referenceFile: css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0109"
+  category: WPT reftest
+  title: css/css-masking/clip-path/clip-path-circle-003.html
+  file: css/css-masking/clip-path/clip-path-circle-003.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary, stable
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

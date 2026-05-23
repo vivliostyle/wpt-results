@@ -3130,7 +3130,7 @@
       referenceFile: css/css-images/object-fit-scale-down-svg-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0387"
+- id: "0388"
   category: WPT reftest
   title: css/css-images/object-position-png-001c.html
   file: css/css-images/object-position-png-001c.html
@@ -3157,7 +3157,7 @@
       referenceFile: css/css-images/object-position-png-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0392"
+- id: "0393"
   category: WPT reftest
   title: css/css-images/object-position-png-002c.html
   file: css/css-images/object-position-png-002c.html
@@ -3184,7 +3184,7 @@
       referenceFile: css/css-images/object-position-png-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0397"
+- id: "0398"
   category: WPT reftest
   title: css/css-images/object-position-svg-001e.html
   file: css/css-images/object-position-svg-001e.html
@@ -3211,7 +3211,7 @@
       referenceFile: css/css-images/object-position-svg-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0399"
+- id: "0400"
   category: WPT reftest
   title: css/css-images/object-position-svg-001o.html
   file: css/css-images/object-position-svg-001o.html
@@ -3238,7 +3238,7 @@
       referenceFile: css/css-images/object-position-svg-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0401"
+- id: "0402"
   category: WPT reftest
   title: css/css-images/object-position-svg-002e.html
   file: css/css-images/object-position-svg-002e.html
@@ -3265,7 +3265,7 @@
       referenceFile: css/css-images/object-position-svg-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0402"
+- id: "0403"
   category: WPT reftest
   title: css/css-images/object-position-svg-002i.html
   file: css/css-images/object-position-svg-002i.html
@@ -3292,7 +3292,7 @@
       referenceFile: css/css-images/object-position-svg-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0403"
+- id: "0404"
   category: WPT reftest
   title: css/css-images/object-position-svg-002o.html
   file: css/css-images/object-position-svg-002o.html
@@ -3319,7 +3319,7 @@
       referenceFile: css/css-images/object-position-svg-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0404"
+- id: "0405"
   category: WPT reftest
   title: css/css-images/object-position-svg-002p.html
   file: css/css-images/object-position-svg-002p.html
@@ -3346,7 +3346,7 @@
       referenceFile: css/css-images/object-position-svg-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0408"
+- id: "0409"
   category: WPT reftest
   title: css/css-images/object-view-box-fit-contain-img.html
   file: css/css-images/object-view-box-fit-contain-img.html
@@ -3373,7 +3373,7 @@
       referenceFile: css/css-images/object-view-box-fit-contain-img-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-contain-img-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0409"
+- id: "0410"
   category: WPT reftest
   title: css/css-images/object-view-box-fit-contain-svg.html
   file: css/css-images/object-view-box-fit-contain-svg.html
@@ -3400,7 +3400,7 @@
       referenceFile: css/css-images/object-view-box-fit-contain-svg-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-contain-svg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0412"
+- id: "0413"
   category: WPT reftest
   title: css/css-images/object-view-box-fit-cover-img.html
   file: css/css-images/object-view-box-fit-cover-img.html
@@ -3427,7 +3427,7 @@
       referenceFile: css/css-images/object-view-box-fit-cover-img-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-cover-img-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0413"
+- id: "0414"
   category: WPT reftest
   title: css/css-images/object-view-box-fit-cover-svg.html
   file: css/css-images/object-view-box-fit-cover-svg.html
@@ -3454,7 +3454,7 @@
       referenceFile: css/css-images/object-view-box-fit-cover-svg-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-cover-svg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0415"
+- id: "0416"
   category: WPT reftest
   title: css/css-images/object-view-box-fit-fill-canvas.html
   file: css/css-images/object-view-box-fit-fill-canvas.html
@@ -3481,7 +3481,7 @@
       referenceFile: css/css-images/object-view-box-fit-fill-canvas-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-fill-canvas-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0416"
+- id: "0417"
   category: WPT reftest
   title: css/css-images/object-view-box-fit-fill-img.html
   file: css/css-images/object-view-box-fit-fill-img.html
@@ -3508,7 +3508,7 @@
       referenceFile: css/css-images/object-view-box-fit-fill-img-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-fill-img-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0417"
+- id: "0418"
   category: WPT reftest
   title: css/css-images/object-view-box-fit-fill-svg.html
   file: css/css-images/object-view-box-fit-fill-svg.html
@@ -3535,7 +3535,7 @@
       referenceFile: css/css-images/object-view-box-fit-fill-svg-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-fill-svg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0418"
+- id: "0419"
   category: WPT reftest
   title: css/css-images/object-view-box-fit-fill-video.html
   file: css/css-images/object-view-box-fit-fill-video.html
@@ -3562,7 +3562,7 @@
       referenceFile: css/css-images/object-view-box-fit-fill-video-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-fill-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0420"
+- id: "0421"
   category: WPT reftest
   title: css/css-images/object-view-box-fit-none-img.html
   file: css/css-images/object-view-box-fit-none-img.html
@@ -3589,7 +3589,7 @@
       referenceFile: css/css-images/object-view-box-fit-none-img-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-none-img-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0421"
+- id: "0422"
   category: WPT reftest
   title: css/css-images/object-view-box-fit-none-svg.html
   file: css/css-images/object-view-box-fit-none-svg.html
@@ -3616,7 +3616,7 @@
       referenceFile: css/css-images/object-view-box-fit-none-svg-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-none-svg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0425"
+- id: "0426"
   category: WPT reftest
   title: css/css-images/object-view-box-property-changed.html
   file: css/css-images/object-view-box-property-changed.html
@@ -3643,7 +3643,7 @@
       referenceFile: css/css-images/object-view-box-property-changed-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-property-changed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0432"
+- id: "0433"
   category: WPT reftest
   title: css/css-images/object-view-box-writing-mode-canvas.html
   file: css/css-images/object-view-box-writing-mode-canvas.html
@@ -3670,7 +3670,7 @@
       referenceFile: css/css-images/object-view-box-writing-mode-canvas-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-writing-mode-canvas-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0435"
+- id: "0436"
   category: WPT reftest
   title: css/css-images/object-view-box-writing-mode-video.html
   file: css/css-images/object-view-box-writing-mode-video.html

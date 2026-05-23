@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T04:50:15.014Z",
+  "generatedAt": "2026-05-23T08:49:58.087Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -38,7 +38,7 @@
     "timeoutMs": 10000
   },
   "summary": {
-    "totalEntries": 452,
+    "totalEntries": 453,
     "entriesWithDifferences": 137,
     "entriesWithErrors": 1,
     "timeoutEntries": 1,
@@ -46,12 +46,12 @@
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 314,
+        "pass": 315,
         "known-fail": 137,
         "error": 1
       },
       "statusPairs": {
-        "PASS->PASS": 314,
+        "PASS->PASS": 315,
         "FAIL->FAIL": 137,
         "ERROR->ERROR": 1
       }
@@ -20281,6 +20281,29 @@
     {
       "id": "0387",
       "category": "WPT reftest",
+      "title": "css/css-images/object-fit-stale-image-while-revalidating.html",
+      "file": [
+        "css/css-images/object-fit-stale-image-while-revalidating.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-images/object-fit-stale-image-while-revalidating.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-stale-image-while-revalidating.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-stale-image-while-revalidating.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0388",
+      "category": "WPT reftest",
       "title": "css/css-images/object-position-png-001c.html",
       "file": [
         "css/css-images/object-position-png-001c.html"
@@ -20343,7 +20366,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 211,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0387-WPT_reftest-css-css-images-object-position-png-001c.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0388-WPT_reftest-css-css-images-object-position-png-001c.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20382,7 +20405,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 211,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0387-WPT_reftest-css-css-images-object-position-png-001c.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0388-WPT_reftest-css-css-images-object-position-png-001c.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20398,7 +20421,7 @@
       }
     },
     {
-      "id": "0388",
+      "id": "0389",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-png-001e.html",
       "file": [
@@ -20421,7 +20444,7 @@
       ]
     },
     {
-      "id": "0389",
+      "id": "0390",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-png-001i.html",
       "file": [
@@ -20444,7 +20467,7 @@
       ]
     },
     {
-      "id": "0390",
+      "id": "0391",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-png-001o.html",
       "file": [
@@ -20467,7 +20490,7 @@
       ]
     },
     {
-      "id": "0391",
+      "id": "0392",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-png-001p.html",
       "file": [
@@ -20490,7 +20513,7 @@
       ]
     },
     {
-      "id": "0392",
+      "id": "0393",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-png-002c.html",
       "file": [
@@ -20554,7 +20577,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 211,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0392-WPT_reftest-css-css-images-object-position-png-002c.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0393-WPT_reftest-css-css-images-object-position-png-002c.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20593,7 +20616,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 211,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0392-WPT_reftest-css-css-images-object-position-png-002c.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0393-WPT_reftest-css-css-images-object-position-png-002c.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20609,7 +20632,7 @@
       }
     },
     {
-      "id": "0393",
+      "id": "0394",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-png-002e.html",
       "file": [
@@ -20632,7 +20655,7 @@
       ]
     },
     {
-      "id": "0394",
+      "id": "0395",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-png-002i.html",
       "file": [
@@ -20655,7 +20678,7 @@
       ]
     },
     {
-      "id": "0395",
+      "id": "0396",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-png-002o.html",
       "file": [
@@ -20678,7 +20701,7 @@
       ]
     },
     {
-      "id": "0396",
+      "id": "0397",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-png-002p.html",
       "file": [
@@ -20701,7 +20724,7 @@
       ]
     },
     {
-      "id": "0397",
+      "id": "0398",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-svg-001e.html",
       "file": [
@@ -20765,7 +20788,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0397-WPT_reftest-css-css-images-object-position-svg-001e.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0398-WPT_reftest-css-css-images-object-position-svg-001e.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20804,7 +20827,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0397-WPT_reftest-css-css-images-object-position-svg-001e.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0398-WPT_reftest-css-css-images-object-position-svg-001e.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20820,7 +20843,7 @@
       }
     },
     {
-      "id": "0398",
+      "id": "0399",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-svg-001i.html",
       "file": [
@@ -20843,7 +20866,7 @@
       ]
     },
     {
-      "id": "0399",
+      "id": "0400",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-svg-001o.html",
       "file": [
@@ -20907,7 +20930,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0399-WPT_reftest-css-css-images-object-position-svg-001o.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0400-WPT_reftest-css-css-images-object-position-svg-001o.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20946,7 +20969,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0399-WPT_reftest-css-css-images-object-position-svg-001o.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0400-WPT_reftest-css-css-images-object-position-svg-001o.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -20962,7 +20985,7 @@
       }
     },
     {
-      "id": "0400",
+      "id": "0401",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-svg-001p.html",
       "file": [
@@ -20985,7 +21008,7 @@
       ]
     },
     {
-      "id": "0401",
+      "id": "0402",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-svg-002e.html",
       "file": [
@@ -21049,7 +21072,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0401-WPT_reftest-css-css-images-object-position-svg-002e.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0402-WPT_reftest-css-css-images-object-position-svg-002e.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21088,7 +21111,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0401-WPT_reftest-css-css-images-object-position-svg-002e.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0402-WPT_reftest-css-css-images-object-position-svg-002e.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21104,7 +21127,7 @@
       }
     },
     {
-      "id": "0402",
+      "id": "0403",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-svg-002i.html",
       "file": [
@@ -21168,7 +21191,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 36,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0402-WPT_reftest-css-css-images-object-position-svg-002i.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0403-WPT_reftest-css-css-images-object-position-svg-002i.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21207,7 +21230,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 36,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0402-WPT_reftest-css-css-images-object-position-svg-002i.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0403-WPT_reftest-css-css-images-object-position-svg-002i.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21223,7 +21246,7 @@
       }
     },
     {
-      "id": "0403",
+      "id": "0404",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-svg-002o.html",
       "file": [
@@ -21287,7 +21310,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0403-WPT_reftest-css-css-images-object-position-svg-002o.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0404-WPT_reftest-css-css-images-object-position-svg-002o.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21326,7 +21349,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0403-WPT_reftest-css-css-images-object-position-svg-002o.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0404-WPT_reftest-css-css-images-object-position-svg-002o.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21342,7 +21365,7 @@
       }
     },
     {
-      "id": "0404",
+      "id": "0405",
       "category": "WPT reftest",
       "title": "css/css-images/object-position-svg-002p.html",
       "file": [
@@ -21406,7 +21429,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 36,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0404-WPT_reftest-css-css-images-object-position-svg-002p.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0405-WPT_reftest-css-css-images-object-position-svg-002p.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21445,7 +21468,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 36,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0404-WPT_reftest-css-css-images-object-position-svg-002p.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0405-WPT_reftest-css-css-images-object-position-svg-002p.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21461,7 +21484,7 @@
       }
     },
     {
-      "id": "0405",
+      "id": "0406",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-contain-intrinsic-size.html",
       "file": [
@@ -21484,7 +21507,7 @@
       ]
     },
     {
-      "id": "0406",
+      "id": "0407",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-empty-bounds.html",
       "file": [
@@ -21507,7 +21530,7 @@
       ]
     },
     {
-      "id": "0407",
+      "id": "0408",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-fit-contain-canvas.html",
       "file": [
@@ -21530,7 +21553,7 @@
       ]
     },
     {
-      "id": "0408",
+      "id": "0409",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-fit-contain-img.html",
       "file": [
@@ -21594,7 +21617,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 64,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0408-WPT_reftest-css-css-images-object-view-box-fit-contain-img.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0409-WPT_reftest-css-css-images-object-view-box-fit-contain-img.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21633,7 +21656,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 64,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0408-WPT_reftest-css-css-images-object-view-box-fit-contain-img.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0409-WPT_reftest-css-css-images-object-view-box-fit-contain-img.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21649,7 +21672,7 @@
       }
     },
     {
-      "id": "0409",
+      "id": "0410",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-fit-contain-svg.html",
       "file": [
@@ -21713,7 +21736,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 64,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0409-WPT_reftest-css-css-images-object-view-box-fit-contain-svg.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0410-WPT_reftest-css-css-images-object-view-box-fit-contain-svg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21752,7 +21775,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 64,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0409-WPT_reftest-css-css-images-object-view-box-fit-contain-svg.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0410-WPT_reftest-css-css-images-object-view-box-fit-contain-svg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21768,7 +21791,7 @@
       }
     },
     {
-      "id": "0410",
+      "id": "0411",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-fit-contain-video.html",
       "file": [
@@ -21791,7 +21814,7 @@
       ]
     },
     {
-      "id": "0411",
+      "id": "0412",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-fit-cover-canvas.html",
       "file": [
@@ -21814,7 +21837,7 @@
       ]
     },
     {
-      "id": "0412",
+      "id": "0413",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-fit-cover-img.html",
       "file": [
@@ -21878,7 +21901,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 63,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0412-WPT_reftest-css-css-images-object-view-box-fit-cover-img.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0413-WPT_reftest-css-css-images-object-view-box-fit-cover-img.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21917,7 +21940,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 63,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0412-WPT_reftest-css-css-images-object-view-box-fit-cover-img.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0413-WPT_reftest-css-css-images-object-view-box-fit-cover-img.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -21933,7 +21956,7 @@
       }
     },
     {
-      "id": "0413",
+      "id": "0414",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-fit-cover-svg.html",
       "file": [
@@ -21997,7 +22020,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 63,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0413-WPT_reftest-css-css-images-object-view-box-fit-cover-svg.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0414-WPT_reftest-css-css-images-object-view-box-fit-cover-svg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22036,7 +22059,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 63,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0413-WPT_reftest-css-css-images-object-view-box-fit-cover-svg.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0414-WPT_reftest-css-css-images-object-view-box-fit-cover-svg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22052,7 +22075,7 @@
       }
     },
     {
-      "id": "0414",
+      "id": "0415",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-fit-cover-video.html",
       "file": [
@@ -22075,7 +22098,7 @@
       ]
     },
     {
-      "id": "0415",
+      "id": "0416",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-fit-fill-canvas.html",
       "file": [
@@ -22139,7 +22162,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 127,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0415-WPT_reftest-css-css-images-object-view-box-fit-fill-canvas.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0416-WPT_reftest-css-css-images-object-view-box-fit-fill-canvas.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22178,7 +22201,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 127,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0415-WPT_reftest-css-css-images-object-view-box-fit-fill-canvas.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0416-WPT_reftest-css-css-images-object-view-box-fit-fill-canvas.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22194,7 +22217,7 @@
       }
     },
     {
-      "id": "0416",
+      "id": "0417",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-fit-fill-img.html",
       "file": [
@@ -22258,7 +22281,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 127,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0416-WPT_reftest-css-css-images-object-view-box-fit-fill-img.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0417-WPT_reftest-css-css-images-object-view-box-fit-fill-img.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22297,7 +22320,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 127,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0416-WPT_reftest-css-css-images-object-view-box-fit-fill-img.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0417-WPT_reftest-css-css-images-object-view-box-fit-fill-img.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22313,7 +22336,7 @@
       }
     },
     {
-      "id": "0417",
+      "id": "0418",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-fit-fill-svg.html",
       "file": [
@@ -22377,7 +22400,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 127,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0417-WPT_reftest-css-css-images-object-view-box-fit-fill-svg.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0418-WPT_reftest-css-css-images-object-view-box-fit-fill-svg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22416,7 +22439,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 127,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0417-WPT_reftest-css-css-images-object-view-box-fit-fill-svg.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0418-WPT_reftest-css-css-images-object-view-box-fit-fill-svg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22432,7 +22455,7 @@
       }
     },
     {
-      "id": "0418",
+      "id": "0419",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-fit-fill-video.html",
       "file": [
@@ -22496,7 +22519,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 127,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0418-WPT_reftest-css-css-images-object-view-box-fit-fill-video.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0419-WPT_reftest-css-css-images-object-view-box-fit-fill-video.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22535,7 +22558,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 127,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0418-WPT_reftest-css-css-images-object-view-box-fit-fill-video.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0419-WPT_reftest-css-css-images-object-view-box-fit-fill-video.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22551,7 +22574,7 @@
       }
     },
     {
-      "id": "0419",
+      "id": "0420",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-fit-none-canvas.html",
       "file": [
@@ -22574,7 +22597,7 @@
       ]
     },
     {
-      "id": "0420",
+      "id": "0421",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-fit-none-img.html",
       "file": [
@@ -22638,7 +22661,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 64,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0420-WPT_reftest-css-css-images-object-view-box-fit-none-img.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0421-WPT_reftest-css-css-images-object-view-box-fit-none-img.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22677,7 +22700,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 64,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0420-WPT_reftest-css-css-images-object-view-box-fit-none-img.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0421-WPT_reftest-css-css-images-object-view-box-fit-none-img.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22693,7 +22716,7 @@
       }
     },
     {
-      "id": "0421",
+      "id": "0422",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-fit-none-svg.html",
       "file": [
@@ -22757,7 +22780,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 64,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0421-WPT_reftest-css-css-images-object-view-box-fit-none-svg.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0422-WPT_reftest-css-css-images-object-view-box-fit-none-svg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22796,7 +22819,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 64,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0421-WPT_reftest-css-css-images-object-view-box-fit-none-svg.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0422-WPT_reftest-css-css-images-object-view-box-fit-none-svg.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22812,7 +22835,7 @@
       }
     },
     {
-      "id": "0422",
+      "id": "0423",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-fit-none-video.html",
       "file": [
@@ -22835,7 +22858,7 @@
       ]
     },
     {
-      "id": "0423",
+      "id": "0424",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-iframe.html",
       "file": [
@@ -22858,7 +22881,7 @@
       ]
     },
     {
-      "id": "0424",
+      "id": "0425",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-negative-bounds.html",
       "file": [
@@ -22881,7 +22904,7 @@
       ]
     },
     {
-      "id": "0425",
+      "id": "0426",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-property-changed.html",
       "file": [
@@ -22945,7 +22968,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0425-WPT_reftest-css-css-images-object-view-box-property-changed.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0426-WPT_reftest-css-css-images-object-view-box-property-changed.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -22984,7 +23007,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0425-WPT_reftest-css-css-images-object-view-box-property-changed.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0426-WPT_reftest-css-css-images-object-view-box-property-changed.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -23000,7 +23023,7 @@
       }
     },
     {
-      "id": "0426",
+      "id": "0427",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-rect-auto.html",
       "file": [
@@ -23023,7 +23046,7 @@
       ]
     },
     {
-      "id": "0427",
+      "id": "0428",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-rect-percentage.html",
       "file": [
@@ -23046,7 +23069,7 @@
       ]
     },
     {
-      "id": "0428",
+      "id": "0429",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-rect.html",
       "file": [
@@ -23069,7 +23092,7 @@
       ]
     },
     {
-      "id": "0429",
+      "id": "0430",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-same-size.html",
       "file": [
@@ -23092,7 +23115,7 @@
       ]
     },
     {
-      "id": "0430",
+      "id": "0431",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-size-containment.html",
       "file": [
@@ -23115,7 +23138,7 @@
       ]
     },
     {
-      "id": "0431",
+      "id": "0432",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-svg-img-no-size.html",
       "file": [
@@ -23138,7 +23161,7 @@
       ]
     },
     {
-      "id": "0432",
+      "id": "0433",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-writing-mode-canvas.html",
       "file": [
@@ -23202,7 +23225,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0432-WPT_reftest-css-css-images-object-view-box-writing-mode-canvas.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0433-WPT_reftest-css-css-images-object-view-box-writing-mode-canvas.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -23241,7 +23264,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0432-WPT_reftest-css-css-images-object-view-box-writing-mode-canvas.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0433-WPT_reftest-css-css-images-object-view-box-writing-mode-canvas.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -23257,7 +23280,7 @@
       }
     },
     {
-      "id": "0433",
+      "id": "0434",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-writing-mode-img.html",
       "file": [
@@ -23280,7 +23303,7 @@
       ]
     },
     {
-      "id": "0434",
+      "id": "0435",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-writing-mode-svg.html",
       "file": [
@@ -23303,7 +23326,7 @@
       ]
     },
     {
-      "id": "0435",
+      "id": "0436",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-writing-mode-video.html",
       "file": [
@@ -23367,7 +23390,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0435-WPT_reftest-css-css-images-object-view-box-writing-mode-video.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0436-WPT_reftest-css-css-images-object-view-box-writing-mode-video.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -23406,7 +23429,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0435-WPT_reftest-css-css-images-object-view-box-writing-mode-video.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0436-WPT_reftest-css-css-images-object-view-box-writing-mode-video.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -23422,7 +23445,7 @@
       }
     },
     {
-      "id": "0436",
+      "id": "0437",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-xywh-percentage.html",
       "file": [
@@ -23445,7 +23468,7 @@
       ]
     },
     {
-      "id": "0437",
+      "id": "0438",
       "category": "WPT reftest",
       "title": "css/css-images/object-view-box-xywh.html",
       "file": [
@@ -23468,7 +23491,7 @@
       ]
     },
     {
-      "id": "0438",
+      "id": "0439",
       "category": "WPT reftest",
       "title": "css/css-images/out-of-range-color-stop-conic.html",
       "file": [
@@ -23491,7 +23514,7 @@
       ]
     },
     {
-      "id": "0439",
+      "id": "0440",
       "category": "WPT reftest",
       "title": "css/css-images/radial-gradient-container-relative-units-001.html",
       "file": [
@@ -23514,7 +23537,7 @@
       ]
     },
     {
-      "id": "0440",
+      "id": "0441",
       "category": "WPT reftest",
       "title": "css/css-images/radial-gradient-container-relative-units-002.html",
       "file": [
@@ -23537,7 +23560,7 @@
       ]
     },
     {
-      "id": "0441",
+      "id": "0442",
       "category": "WPT reftest",
       "title": "css/css-images/radial-gradient-container-relative-units-003.html",
       "file": [
@@ -23560,7 +23583,7 @@
       ]
     },
     {
-      "id": "0442",
+      "id": "0443",
       "category": "WPT reftest",
       "title": "css/css-images/radial-gradient-container-relative-units-004.html",
       "file": [
@@ -23583,7 +23606,7 @@
       ]
     },
     {
-      "id": "0443",
+      "id": "0444",
       "category": "WPT reftest",
       "title": "css/css-images/radial-gradient-line-height-relative-units-001.html",
       "file": [
@@ -23606,7 +23629,7 @@
       ]
     },
     {
-      "id": "0444",
+      "id": "0445",
       "category": "WPT reftest",
       "title": "css/css-images/radial-gradient-line-height-relative-units-002.html",
       "file": [
@@ -23629,7 +23652,7 @@
       ]
     },
     {
-      "id": "0445",
+      "id": "0446",
       "category": "WPT reftest",
       "title": "css/css-images/radial-gradient-line-height-relative-units-003.html",
       "file": [
@@ -23652,7 +23675,7 @@
       ]
     },
     {
-      "id": "0446",
+      "id": "0447",
       "category": "WPT reftest",
       "title": "css/css-images/radial-gradient-line-height-relative-units-004.html",
       "file": [
@@ -23675,7 +23698,7 @@
       ]
     },
     {
-      "id": "0447",
+      "id": "0448",
       "category": "WPT reftest",
       "title": "css/css-images/repeating-conic-gradient.html",
       "file": [
@@ -23698,7 +23721,7 @@
       ]
     },
     {
-      "id": "0448",
+      "id": "0449",
       "category": "WPT reftest",
       "title": "css/css-images/svg-images-are-ignored.html",
       "file": [
@@ -23721,7 +23744,7 @@
       ]
     },
     {
-      "id": "0449",
+      "id": "0450",
       "category": "WPT reftest",
       "title": "css/css-images/svg-script-is-ignored.html",
       "file": [
@@ -23744,7 +23767,7 @@
       ]
     },
     {
-      "id": "0450",
+      "id": "0451",
       "category": "WPT reftest",
       "title": "css/css-images/tiled-conic-gradients.html",
       "file": [
@@ -23767,7 +23790,7 @@
       ]
     },
     {
-      "id": "0451",
+      "id": "0452",
       "category": "WPT reftest",
       "title": "css/css-images/tiled-gradients.html",
       "file": [
@@ -23790,7 +23813,7 @@
       ]
     },
     {
-      "id": "0452",
+      "id": "0453",
       "category": "WPT reftest",
       "title": "css/css-images/tiled-radial-gradients.html",
       "file": [

@@ -175,5 +175,5 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/zero-size-003-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  errorName: TimeoutError
-  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+  errorName: Error
+  errorMessage: "Viewer error: Error: Negative or zero page area size"

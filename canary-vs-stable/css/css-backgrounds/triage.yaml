@@ -6007,33 +6007,8 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: |
-        locator.fill: Timeout 10000ms exceeded.
-        Call log:
-          - waiting for locator('#vivliostyle-page-number')
-            - locator resolved to <input type="text" autocomplete="off" inputmode="numeric" aria-keyshortcuts="G" title="Go to Page… (G)" aria-label="Page number" id="vivliostyle-page-number" data-bind="value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}"/>
-            - fill("1")
-          - attempting fill action
-            2 × waiting for element to be visible, enabled and editable
-              - element is not visible
-            - retrying fill action
-            - waiting 20ms
-            2 × waiting for element to be visible, enabled and editable
-              - element is not visible
-            - retrying fill action
-              - waiting 100ms
-            19 × waiting for element to be visible, enabled and editable
-               - element is not visible
-             - retrying fill action
-               - waiting 500ms
-      timeout: true
-    - side: stable
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): navigating to page 1"
-      timeout: true
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): navigating to page 1"
 - id: "0147"
   category: WPT reftest
   title: css/css-backgrounds/background-color-root-propagation-002.html
@@ -6050,22 +6025,4 @@
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
   errorName: TimeoutError
-  errorMessage: |
-    locator.fill: Timeout 10000ms exceeded.
-    Call log:
-      - waiting for locator('#vivliostyle-page-number')
-        - locator resolved to <input type="text" autocomplete="off" inputmode="numeric" aria-keyshortcuts="G" title="Go to Page… (G)" aria-label="Page number" id="vivliostyle-page-number" data-bind="value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}"/>
-        - fill("1")
-      - attempting fill action
-        2 × waiting for element to be visible, enabled and editable
-          - element is not visible
-        - retrying fill action
-        - waiting 20ms
-        2 × waiting for element to be visible, enabled and editable
-          - element is not visible
-        - retrying fill action
-          - waiting 100ms
-        17 × waiting for element to be visible, enabled and editable
-           - element is not visible
-         - retrying fill action
-           - waiting 500ms
+  errorMessage: "Timeout (10000ms): navigating to page 1"

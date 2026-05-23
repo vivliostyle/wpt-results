@@ -3232,13 +3232,6 @@
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-size-007-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-page/page-size-007-print-ref.html
   relation: "=="
-  diffPages:
-    - css/css-page/page-size-007-print-ref.html#1
-    - css/css-page/page-size-007-print-ref.html#2
-    - css/css-page/page-size-007-print-ref.html#3
-    - css/css-page/page-size-007-print-ref.html#4
-    - css/css-page/page-size-007-print-ref.html#5
-    - css/css-page/page-size-007-print-ref.html#6
   pageSelections:
     - referenceFile: css/css-page/page-size-007-print-ref.html
       actualPages:
@@ -3281,13 +3274,6 @@
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-size-008-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-page/page-size-008-print-ref.html
   relation: "=="
-  diffPages:
-    - css/css-page/page-size-008-print-ref.html#1
-    - css/css-page/page-size-008-print-ref.html#2
-    - css/css-page/page-size-008-print-ref.html#3
-    - css/css-page/page-size-008-print-ref.html#4
-    - css/css-page/page-size-008-print-ref.html#5
-    - css/css-page/page-size-008-print-ref.html#6
   pageSelections:
     - referenceFile: css/css-page/page-size-008-print-ref.html
       actualPages:

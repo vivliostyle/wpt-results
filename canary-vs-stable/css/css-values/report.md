@@ -1,32 +1,14 @@
 # canary vs stable comparison report
 
-- Compared entries: 211
-- Entries with differences: 81 (improvement: 11, pending: 70, triaged: 0)
+- Compared entries: 212
+- Entries with differences: 71 (improvement: 1, pending: 70, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 12
-- Outcome summary: {"pass":129,"improvement":11,"known-fail":69,"changed-fail":1,"unchanged":1}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":140,"known-fail":70,"improvement":1,"unchanged":1}
 
 ## Differences
-
-- [0006] [WPT reftest] css/css-values/attr-color-invalid-cast.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-values/reference/200-200-green.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-color-invalid-cast.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/200-200-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0007] [WPT reftest] css/css-values/attr-color-valid.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-values/reference/200-200-green.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-color-valid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/200-200-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0008] [WPT reftest] css/css-values/attr-dynamic-marker-content.html
   triage: pending
@@ -51,42 +33,6 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/reference/200-200-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-in-max.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.10376116326997939, diffPixels=87000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/200-200-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0011] [WPT reftest] css/css-values/attr-length-invalid-cast.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-values/reference/200-200-green.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-length-invalid-cast.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.10376116326997939, diffPixels=87000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/200-200-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0012] [WPT reftest] css/css-values/attr-length-valid-zero-nofallback.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-values/reference/200-200-green.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-length-valid-zero-nofallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/200-200-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0013] [WPT reftest] css/css-values/attr-length-valid-zero.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-values/reference/200-200-green.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-length-valid-zero.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/200-200-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0014] [WPT reftest] css/css-values/attr-length-valid.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-values/reference/200-200-green.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-length-valid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.10376116326997939, diffPixels=87000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/200-200-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -129,15 +75,6 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0019] [WPT reftest] css/css-values/attr-notype-fallback.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-values/attr-notype-fallback-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-notype-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007418326845278987, diffPixels=622
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-notype-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0020] [WPT reftest] css/css-values/attr-pseudo-element-marker.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -150,33 +87,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-pseudo-element-marker.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000010733913441722006, diffPixels=9
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-pseudo-element-marker-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0022] [WPT reftest] css/css-values/attr-style-sharing-1.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-values/attr-style-sharing-1-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-style-sharing-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005533928707732234, diffPixels=464
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-style-sharing-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0023] [WPT reftest] css/css-values/attr-style-sharing-2.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-values/attr-style-sharing-2-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-style-sharing-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005533928707732234, diffPixels=464
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-style-sharing-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0024] [WPT reftest] css/css-values/attr-style-sharing-3.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-values/attr-style-sharing-2-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-style-sharing-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005533928707732234, diffPixels=464
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-style-sharing-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0035] [WPT reftest] css/css-values/calc-in-calc.html
   triage: pending
@@ -281,15 +191,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/calc-rem-lang.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0005533928707732234, diffPixels=464
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/calc-rem-lang-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0114] [WPT reftest] css/css-values/html-attr-case-insensitivity.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-values/html-attr-case-insensitivity-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/html-attr-case-insensitivity.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0027800835814059993, diffPixels=2331
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/html-attr-case-insensitivity-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0116] [WPT reftest] css/css-values/ic-unit-002.html
   triage: pending
@@ -434,7 +335,20 @@
   stable page 1: diffRatio=0.001562380734295092, diffPixels=1310
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0147] [WPT reftest] css/css-values/urls/cross-origin/url-image-cross-origin-anonymous.sub.html
+- [0146] [WPT reftest] css/css-values/svg-attr-case-sensitivity.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-values/svg-attr-case-sensitivity-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/svg-attr-case-sensitivity.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/svg-attr-case-sensitivity-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/svg-attr-case-sensitivity.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/svg-attr-case-sensitivity-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0148] [WPT reftest] css/css-values/urls/cross-origin/url-image-cross-origin-anonymous.sub.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -447,7 +361,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0149] [WPT reftest] css/css-values/urls/cross-origin/url-image-cross-origin-use-credentials.sub.html
+- [0150] [WPT reftest] css/css-values/urls/cross-origin/url-image-cross-origin-use-credentials.sub.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -460,7 +374,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0151] [WPT reftest] css/css-values/urls/cross-origin/url-image-set-cross-origin-anonymous.sub.html
+- [0152] [WPT reftest] css/css-values/urls/cross-origin/url-image-set-cross-origin-anonymous.sub.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -473,7 +387,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0153] [WPT reftest] css/css-values/urls/cross-origin/url-import-cross-origin-anonymous.sub.html
+- [0154] [WPT reftest] css/css-values/urls/cross-origin/url-import-cross-origin-anonymous.sub.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -486,7 +400,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0155] [WPT reftest] css/css-values/urls/cross-origin/url-import-cross-origin-use-credentials.sub.html
+- [0156] [WPT reftest] css/css-values/urls/cross-origin/url-import-cross-origin-use-credentials.sub.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -499,7 +413,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0157] [WPT reftest] css/css-values/urls/cross-origin/url-svg-filter-cross-origin-anonymous.sub.html
+- [0158] [WPT reftest] css/css-values/urls/cross-origin/url-svg-filter-cross-origin-anonymous.sub.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -512,7 +426,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0159] [WPT reftest] css/css-values/urls/cross-origin/url-svg-filter-cross-origin-use-credentials.sub.html
+- [0160] [WPT reftest] css/css-values/urls/cross-origin/url-svg-filter-cross-origin-use-credentials.sub.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -525,7 +439,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0161] [WPT reftest] css/css-values/urls/integrity/url-image-integrity.sub.html
+- [0162] [WPT reftest] css/css-values/urls/integrity/url-image-integrity.sub.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -538,7 +452,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0163] [WPT reftest] css/css-values/urls/integrity/url-import-integrity.sub.html
+- [0164] [WPT reftest] css/css-values/urls/integrity/url-import-integrity.sub.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -551,7 +465,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0165] [WPT reftest] css/css-values/urls/integrity/url-svg-filter-integrity.sub.html
+- [0166] [WPT reftest] css/css-values/urls/integrity/url-svg-filter-integrity.sub.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -564,7 +478,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0166] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer/url-image-referrer-policy-cross-origin.html
+- [0167] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer/url-image-referrer-policy-cross-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -577,7 +491,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0167] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer/url-image-referrer-policy-external-stylesheet.html
+- [0168] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer/url-image-referrer-policy-external-stylesheet.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -590,7 +504,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0168] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer/url-image-referrer-policy-same-origin.html
+- [0169] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer/url-image-referrer-policy-same-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -603,7 +517,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0169] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer/url-image-set-referrer-policy.sub.html
+- [0170] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer/url-image-set-referrer-policy.sub.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -616,7 +530,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0170] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer/url-svg-filter-referrer-policy.sub.html
+- [0171] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer/url-svg-filter-referrer-policy.sub.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -629,7 +543,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0171] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer-when-downgrade/url-image-referrer-policy-cross-origin.html
+- [0172] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer-when-downgrade/url-image-referrer-policy-cross-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -642,7 +556,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0172] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer-when-downgrade/url-image-referrer-policy-same-origin.html
+- [0173] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer-when-downgrade/url-image-referrer-policy-same-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -655,7 +569,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0173] [WPT reftest] css/css-values/urls/referrer-policy/origin/url-image-referrer-policy-cross-origin.html
+- [0174] [WPT reftest] css/css-values/urls/referrer-policy/origin/url-image-referrer-policy-cross-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -668,7 +582,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0174] [WPT reftest] css/css-values/urls/referrer-policy/origin/url-image-referrer-policy-external-stylesheet.html
+- [0175] [WPT reftest] css/css-values/urls/referrer-policy/origin/url-image-referrer-policy-external-stylesheet.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -681,7 +595,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0175] [WPT reftest] css/css-values/urls/referrer-policy/origin/url-image-referrer-policy-same-origin.html
+- [0176] [WPT reftest] css/css-values/urls/referrer-policy/origin/url-image-referrer-policy-same-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -694,7 +608,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0176] [WPT reftest] css/css-values/urls/referrer-policy/origin-when-cross-origin/url-image-referrer-policy-cross-origin.html
+- [0177] [WPT reftest] css/css-values/urls/referrer-policy/origin-when-cross-origin/url-image-referrer-policy-cross-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -707,7 +621,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0177] [WPT reftest] css/css-values/urls/referrer-policy/origin-when-cross-origin/url-image-referrer-policy-same-origin.html
+- [0178] [WPT reftest] css/css-values/urls/referrer-policy/origin-when-cross-origin/url-image-referrer-policy-same-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -720,7 +634,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0178] [WPT reftest] css/css-values/urls/referrer-policy/same-origin/url-image-referrer-policy-cross-origin.html
+- [0179] [WPT reftest] css/css-values/urls/referrer-policy/same-origin/url-image-referrer-policy-cross-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -733,7 +647,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0179] [WPT reftest] css/css-values/urls/referrer-policy/same-origin/url-image-referrer-policy-same-origin.html
+- [0180] [WPT reftest] css/css-values/urls/referrer-policy/same-origin/url-image-referrer-policy-same-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -746,7 +660,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0180] [WPT reftest] css/css-values/urls/referrer-policy/strict-origin/url-image-referrer-policy-cross-origin.html
+- [0181] [WPT reftest] css/css-values/urls/referrer-policy/strict-origin/url-image-referrer-policy-cross-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -759,7 +673,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0181] [WPT reftest] css/css-values/urls/referrer-policy/strict-origin/url-image-referrer-policy-same-origin.html
+- [0182] [WPT reftest] css/css-values/urls/referrer-policy/strict-origin/url-image-referrer-policy-same-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -772,7 +686,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0182] [WPT reftest] css/css-values/urls/referrer-policy/strict-origin-when-cross-origin/url-image-referrer-policy-cross-origin.html
+- [0183] [WPT reftest] css/css-values/urls/referrer-policy/strict-origin-when-cross-origin/url-image-referrer-policy-cross-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -785,7 +699,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0183] [WPT reftest] css/css-values/urls/referrer-policy/strict-origin-when-cross-origin/url-image-referrer-policy-same-origin.html
+- [0184] [WPT reftest] css/css-values/urls/referrer-policy/strict-origin-when-cross-origin/url-image-referrer-policy-same-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -798,7 +712,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0184] [WPT reftest] css/css-values/urls/referrer-policy/unsafe-url/url-image-referrer-policy-cross-origin.html
+- [0185] [WPT reftest] css/css-values/urls/referrer-policy/unsafe-url/url-image-referrer-policy-cross-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -811,7 +725,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0185] [WPT reftest] css/css-values/urls/referrer-policy/unsafe-url/url-image-referrer-policy-external-stylesheet.html
+- [0186] [WPT reftest] css/css-values/urls/referrer-policy/unsafe-url/url-image-referrer-policy-external-stylesheet.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -824,7 +738,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0186] [WPT reftest] css/css-values/urls/referrer-policy/unsafe-url/url-image-referrer-policy-same-origin.html
+- [0187] [WPT reftest] css/css-values/urls/referrer-policy/unsafe-url/url-image-referrer-policy-same-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -837,7 +751,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0187] [WPT reftest] css/css-values/vh-calc-support-pct.html
+- [0188] [WPT reftest] css/css-values/vh-calc-support-pct.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-values/reference/all-green.html (==)
@@ -850,7 +764,7 @@
   stable page 1: diffRatio=0.16978665750706054, diffPixels=142360
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0188] [WPT reftest] css/css-values/vh-calc-support.html
+- [0189] [WPT reftest] css/css-values/vh-calc-support.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-values/reference/all-green.html (==)
@@ -863,7 +777,7 @@
   stable page 1: diffRatio=0.09199560148080299, diffPixels=77135
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0189] [WPT reftest] css/css-values/vh-em-inherit.html
+- [0190] [WPT reftest] css/css-values/vh-em-inherit.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-values/reference/all-green.html (==)
@@ -876,7 +790,7 @@
   stable page 1: diffRatio=0.0803743511945653, diffPixels=67391
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0190] [WPT reftest] css/css-values/vh-inherit.html
+- [0191] [WPT reftest] css/css-values/vh-inherit.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-values/reference/all-green.html (==)
@@ -889,7 +803,7 @@
   stable page 1: diffRatio=0.0007573372261659415, diffPixels=635
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0191] [WPT reftest] css/css-values/vh-interpolate-pct.html
+- [0192] [WPT reftest] css/css-values/vh-interpolate-pct.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-values/reference/all-green.html (==)
@@ -902,7 +816,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0192] [WPT reftest] css/css-values/vh-interpolate-px.html
+- [0193] [WPT reftest] css/css-values/vh-interpolate-px.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-values/reference/all-green.html (==)
@@ -915,7 +829,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0193] [WPT reftest] css/css-values/vh-interpolate-vh.html
+- [0194] [WPT reftest] css/css-values/vh-interpolate-vh.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-values/reference/all-green.html (==)
@@ -928,7 +842,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0194] [WPT reftest] css/css-values/vh-support-margin.html
+- [0195] [WPT reftest] css/css-values/vh-support-margin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-values/reference/all-green.html (==)
@@ -941,7 +855,7 @@
   stable page 1: diffRatio=0.009893090222120449, diffPixels=8295
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0195] [WPT reftest] css/css-values/vh-support-transform-origin.html
+- [0196] [WPT reftest] css/css-values/vh-support-transform-origin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-values/reference/all-green.html (==)
@@ -954,7 +868,7 @@
   stable page 1: diffRatio=0.00047706281963208914, diffPixels=400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0196] [WPT reftest] css/css-values/vh-support-transform-translate.html
+- [0197] [WPT reftest] css/css-values/vh-support-transform-translate.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-values/reference/all-green.html (==)
@@ -967,7 +881,7 @@
   stable page 1: diffRatio=0.00047706281963208914, diffPixels=400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0197] [WPT reftest] css/css-values/vh-support.html
+- [0198] [WPT reftest] css/css-values/vh-support.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-values/reference/all-green.html (==)
@@ -980,20 +894,16 @@
   stable page 1: diffRatio=0.0017639397755896495, diffPixels=1479
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0198] [WPT reftest] css/css-values/vh-update-and-transition-in-subframe.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+- [0199] [WPT reftest] css/css-values/vh-update-and-transition-in-subframe.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-values/reference/vh-update-and-transition-in-subframe-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002862376917792535, diffPixels=240
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0004293565376688802, diffPixels=360
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0201] [WPT reftest] css/css-values/viewport-units-scrollbars-auto-vhw-001.html
+- [0202] [WPT reftest] css/css-values/viewport-units-scrollbars-auto-vhw-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-values/viewport-units-scrollbars-auto-ltr-001-ref.html (==)
@@ -1006,7 +916,7 @@
   stable page 1: diffRatio=0.007041447217769636, diffPixels=5904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/viewport-units-scrollbars-auto-ltr-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0208] [WPT reftest] css/css-values/viewport-units-writing-mode-font-size.html
+- [0209] [WPT reftest] css/css-values/viewport-units-writing-mode-font-size.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-values/viewport-units-writing-mode-font-size-ref.html (==)

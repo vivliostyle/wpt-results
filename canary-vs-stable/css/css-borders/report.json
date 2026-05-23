@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T03:40:34.585Z",
+  "generatedAt": "2026-05-23T07:50:05.290Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -38,8 +38,8 @@
     "timeoutMs": 10000
   },
   "summary": {
-    "totalEntries": 66,
-    "entriesWithDifferences": 14,
+    "totalEntries": 67,
+    "entriesWithDifferences": 15,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
@@ -47,23 +47,23 @@
     "outcomes": {
       "changeTypes": {
         "pass": 52,
-        "known-fail": 14
+        "known-fail": 15
       },
       "statusPairs": {
         "PASS->PASS": 52,
-        "FAIL->FAIL": 14
+        "FAIL->FAIL": 15
       }
     },
     "triage": {
       "differences": {
-        "pending": 14,
+        "pending": 15,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 14,
+      "pendingEntries": 15,
       "triagedEntries": 0
     }
   },
@@ -2711,6 +2711,125 @@
     {
       "id": "0061",
       "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shorthand-rendering.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shorthand-rendering.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shorthand-rendering-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/corner-shape/corner-shorthand-rendering-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2119,
+                "diffRatio": 0.0025272402870009925,
+                "exactDiffPixels": 2271,
+                "exactDiffRatio": 0.0027085241584611864,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0061-WPT_reftest-css-css-borders-corner-shape-corner-shorthand-rendering.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/corner-shape/corner-shorthand-rendering-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2119,
+                "diffRatio": 0.0025272402870009925,
+                "exactDiffPixels": 2271,
+                "exactDiffRatio": 0.0027085241584611864,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0061-WPT_reftest-css-css-borders-corner-shape-corner-shorthand-rendering.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0062",
+      "category": "WPT reftest",
       "title": "css/css-borders/corner-shape/render-corner-shape.html",
       "file": [
         "css/css-borders/corner-shape/render-corner-shape.html"
@@ -2732,7 +2851,7 @@
       ]
     },
     {
-      "id": "0062",
+      "id": "0063",
       "category": "WPT reftest",
       "title": "css/css-borders/subpixel-border-width.tentative.html",
       "file": [
@@ -2755,7 +2874,7 @@
       ]
     },
     {
-      "id": "0063",
+      "id": "0064",
       "category": "WPT reftest",
       "title": "css/css-borders/subpixel-borders-with-child-border-box-sizing.html",
       "file": [
@@ -2778,7 +2897,7 @@
       ]
     },
     {
-      "id": "0064",
+      "id": "0065",
       "category": "WPT reftest",
       "title": "css/css-borders/subpixel-borders-with-child.html",
       "file": [
@@ -2801,7 +2920,7 @@
       ]
     },
     {
-      "id": "0065",
+      "id": "0066",
       "category": "WPT reftest",
       "title": "css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html",
       "file": [
@@ -2865,7 +2984,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0065-WPT_reftest-css-css-borders-tentative-border-radius-side-shorthands-border-radius-side-shorthands-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0066-WPT_reftest-css-css-borders-tentative-border-radius-side-shorthands-border-radius-side-shorthands-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2904,7 +3023,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0065-WPT_reftest-css-css-borders-tentative-border-radius-side-shorthands-border-radius-side-shorthands-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0066-WPT_reftest-css-css-borders-tentative-border-radius-side-shorthands-border-radius-side-shorthands-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2920,7 +3039,7 @@
       }
     },
     {
-      "id": "0066",
+      "id": "0067",
       "category": "WPT reftest",
       "title": "css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html",
       "file": [
@@ -2984,7 +3103,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0066-WPT_reftest-css-css-borders-tentative-border-radius-side-shorthands-border-radius-side-shorthands-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0067-WPT_reftest-css-css-borders-tentative-border-radius-side-shorthands-border-radius-side-shorthands-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3023,7 +3142,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0066-WPT_reftest-css-css-borders-tentative-border-radius-side-shorthands-border-radius-side-shorthands-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0067-WPT_reftest-css-css-borders-tentative-border-radius-side-shorthands-border-radius-side-shorthands-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,

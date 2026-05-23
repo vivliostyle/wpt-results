@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T05:00:26.633Z",
+  "generatedAt": "2026-05-23T08:59:16.514Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -40,20 +40,22 @@
   "summary": {
     "totalEntries": 473,
     "entriesWithDifferences": 205,
-    "entriesWithErrors": 0,
-    "timeoutEntries": 0,
+    "entriesWithErrors": 1,
+    "timeoutEntries": 1,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 3,
+    "screenshotMismatches": 2,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 202,
-        "pass": 268,
+        "known-fail": 203,
+        "pass": 267,
+        "error": 1,
         "regression": 1,
-        "changed-fail": 2
+        "changed-fail": 1
       },
       "statusPairs": {
         "FAIL->FAIL": 204,
-        "PASS->PASS": 268,
+        "PASS->PASS": 267,
+        "ERROR->ERROR": 1,
         "PASS->FAIL": 1
       }
     },
@@ -63,10 +65,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 0,
+        "pending": 1,
         "triaged": 0
       },
-      "pendingEntries": 205,
+      "pendingEntries": 206,
       "triagedEntries": 0
     }
   },
@@ -7029,9 +7031,9 @@
         "css/css-masking/clip-path/clip-path-circle-003.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-masking/clip-path/clip-path-circle-003.html",
-      "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "actualStatus": "ERROR",
+      "baselineStatus": "ERROR",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -7041,6 +7043,38 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-circle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-circle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "errors": [
+        {
+          "side": "canary, stable",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "sideErrors": [
+            {
+              "side": "canary",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            },
+            {
+              "side": "stable",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            }
+          ],
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
         }
       ]
     },
@@ -7203,7 +7237,7 @@
             "fuzzy": {
               "maxDifference": [
                 0,
-                80
+                60
               ],
               "totalPixels": [
                 0,
@@ -7230,7 +7264,7 @@
                 "diffRatio": 0.08732873444775208,
                 "exactDiffPixels": 75045,
                 "exactDiffRatio": 0.08950294824822533,
-                "exceededDiffPixels": 74349,
+                "exceededDiffPixels": 74492,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
                 "diffImage": "actual-reference-diff/0115-WPT_reftest-css-css-masking-clip-path-clip-path-circle-closest-corner.html-r01-p0001.png"
@@ -7251,7 +7285,7 @@
             "fuzzy": {
               "maxDifference": [
                 0,
-                80
+                60
               ],
               "totalPixels": [
                 0,
@@ -7278,7 +7312,7 @@
                 "diffRatio": 0.08732873444775208,
                 "exactDiffPixels": 75045,
                 "exactDiffRatio": 0.08950294824822533,
-                "exceededDiffPixels": 74349,
+                "exceededDiffPixels": 74492,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0115-WPT_reftest-css-css-masking-clip-path-clip-path-circle-closest-corner.html-r01-p0001.png"
@@ -7340,7 +7374,7 @@
             "fuzzy": {
               "maxDifference": [
                 0,
-                40
+                60
               ],
               "totalPixels": [
                 0,
@@ -7367,7 +7401,7 @@
                 "diffRatio": 0.13694326768948936,
                 "exactDiffPixels": 116645,
                 "exactDiffRatio": 0.13911748148996259,
-                "exceededDiffPixels": 116236,
+                "exceededDiffPixels": 116092,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
                 "diffImage": "actual-reference-diff/0116-WPT_reftest-css-css-masking-clip-path-clip-path-circle-farthest-corner.html-r01-p0001.png"
@@ -7388,7 +7422,7 @@
             "fuzzy": {
               "maxDifference": [
                 0,
-                40
+                60
               ],
               "totalPixels": [
                 0,
@@ -7415,7 +7449,7 @@
                 "diffRatio": 0.13694326768948936,
                 "exactDiffPixels": 116645,
                 "exactDiffRatio": 0.13911748148996259,
-                "exceededDiffPixels": 116236,
+                "exceededDiffPixels": 116092,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0116-WPT_reftest-css-css-masking-clip-path-clip-path-circle-farthest-corner.html-r01-p0001.png"
@@ -8961,11 +8995,11 @@
             "fuzzy": {
               "maxDifference": [
                 0,
-                80
+                120
               ],
               "totalPixels": [
                 0,
-                400
+                1500
               ]
             },
             "actualPageNumbers": [
@@ -8988,7 +9022,7 @@
                 "diffRatio": 0.1588798087932219,
                 "exactDiffPixels": 134569,
                 "exactDiffRatio": 0.16049466643767651,
-                "exceededDiffPixels": 134077,
+                "exceededDiffPixels": 133906,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
                 "diffImage": "actual-reference-diff/0139-WPT_reftest-css-css-masking-clip-path-clip-path-ellipse-closest-farthest-corner.html-r01-p0001.png"
@@ -9009,11 +9043,11 @@
             "fuzzy": {
               "maxDifference": [
                 0,
-                80
+                120
               ],
               "totalPixels": [
                 0,
-                400
+                1500
               ]
             },
             "actualPageNumbers": [
@@ -9036,7 +9070,7 @@
                 "diffRatio": 0.1588798087932219,
                 "exactDiffPixels": 134569,
                 "exactDiffRatio": 0.16049466643767651,
-                "exceededDiffPixels": 134077,
+                "exceededDiffPixels": 133906,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0139-WPT_reftest-css-css-masking-clip-path-clip-path-ellipse-closest-farthest-corner.html-r01-p0001.png"
@@ -19117,8 +19151,8 @@
       "sourceUrl": "https://wpt.live/css/css-masking/clip-path-svg-content/clip-path-on-g-002.svg",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path-svg-content/clip-path-on-g-002.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/clip-path-on-g-002.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -19130,7 +19164,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -19139,23 +19173,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 30000,
-            "diffRatio": 0.03577971147240669,
-            "exactDiffPixels": 30000,
-            "exactDiffRatio": 0.03577971147240669,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0294-WPT_reftest-css-css-masking-clip-path-svg-content-clip-path-on-g-002.svg-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -19220,10 +19238,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
+                "diffPixels": 20000,
+                "diffRatio": 0.02385314098160446,
+                "exactDiffPixels": 20000,
+                "exactDiffRatio": 0.02385314098160446,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,

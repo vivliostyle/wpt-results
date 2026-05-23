@@ -26,15 +26,15 @@
 - [0004] [WPT reftest] css/css-content/attr-case-sensitivity-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-content/attr-case-sensitivity-ref-004.html (==)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/attr-case-sensitivity-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/attr-case-sensitivity-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/attr-case-sensitivity-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/attr-case-sensitivity-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0005] [WPT reftest] css/css-content/attr-chained-pseudo-001.html
   triage: pending

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T04:01:34.155Z",
+  "generatedAt": "2026-05-23T08:09:15.939Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -225,10 +225,10 @@
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/attr-case-sensitivity-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
         {
-          "referenceFile": "css/css-content/attr-case-sensitivity-ref-004.html",
+          "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
           "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/attr-case-sensitivity-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/attr-case-sensitivity-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
       "difference": {
@@ -245,8 +245,8 @@
         "comparisons": [
           {
             "referenceIndex": 0,
-            "referenceFile": "css/css-content/attr-case-sensitivity-ref-004.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/attr-case-sensitivity-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -280,12 +280,12 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/attr-case-sensitivity-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
           {
             "referenceIndex": 0,
-            "referenceFile": "css/css-content/attr-case-sensitivity-ref-004.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/attr-case-sensitivity-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -319,7 +319,7 @@
             "unexpectedEquality": false,
             "pass": false,
             "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/attr-case-sensitivity-ref-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {

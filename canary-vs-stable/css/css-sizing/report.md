@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 550
-- Entries with differences: 68 (improvement: 1, pending: 67, triaged: 0)
+- Entries with differences: 67 (pending: 67, triaged: 0)
 - Entries with errors: 3 (pending: 3, triaged: 0)
 - Timeout entries: 3
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":479,"known-fail":67,"improvement":1,"error":3}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":480,"known-fail":67,"error":3}
 
 ## Differences
 
@@ -699,15 +699,6 @@
   stable page 1: diffRatio=0.08885295015647661, diffPixels=74500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0479] [WPT reftest] css/css-sizing/range-percent-intrinsic-size-1.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-sizing/range-percent-intrinsic-size-1-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004406867796351423, diffPixels=3695
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0480] [WPT reftest] css/css-sizing/range-percent-intrinsic-size-2.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -906,7 +897,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-not-embedded-sized.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 3
-- Outcome summary: {"known-fail":10,"changed-fail":3,"pass":2}
+- Screenshot mismatches: 0
+- Outcome summary: {"known-fail":13,"pass":2}
 
 ## Differences
 
@@ -25,7 +25,7 @@
 
 - [0002] [WPT reftest] css/css-forms/checkbox-checkmark-animation-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-forms/checkbox-checkmark-animation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -33,7 +33,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/checkbox-checkmark-animation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011872900923593619, diffPixels=9955
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0004] [WPT reftest] css/css-forms/input-button-base-appearance-rendering.html
@@ -142,11 +142,11 @@
 
 - [0012] [WPT reftest] css/css-forms/progress-base-appearance-rendering.tentative.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-forms/progress-base-appearance-rendering-ref.tentative.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00968795320967865, diffPixels=8123
+  canary page 1: diffRatio=0.009678411953286009, diffPixels=8115
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -155,7 +155,7 @@
 
 - [0013] [WPT reftest] css/css-forms/radio-checkmark-animation-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-forms/radio-checkmark-animation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -163,7 +163,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/radio-checkmark-animation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011858589039004656, diffPixels=9943
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0014] [WPT reftest] css/css-forms/textarea-base-appearance-rendering.tentative.html

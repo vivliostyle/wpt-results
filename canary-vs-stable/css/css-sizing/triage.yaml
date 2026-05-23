@@ -1839,8 +1839,15 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-not-embedded-sized.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  errorName: TimeoutError
-  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+  sideErrors:
+    - side: canary
+      errorName: TimeoutError
+      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
+      timeout: true
+    - side: stable
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true
 - id: "0498"
   category: WPT reftest
   title: css/css-sizing/responsive-iframe/responsive-iframe-cross-origin.sub.html

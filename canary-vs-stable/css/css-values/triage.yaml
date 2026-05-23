@@ -673,7 +673,34 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0147"
+- id: "0146"
+  category: WPT reftest
+  title: css/css-values/svg-attr-case-sensitivity.html
+  file: css/css-values/svg-attr-case-sensitivity.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/svg-attr-case-sensitivity.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/svg-attr-case-sensitivity.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-values/svg-attr-case-sensitivity-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-values/svg-attr-case-sensitivity-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-values/svg-attr-case-sensitivity-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/svg-attr-case-sensitivity-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-values/svg-attr-case-sensitivity-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/svg-attr-case-sensitivity-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0148"
   category: WPT reftest
   title: css/css-values/urls/cross-origin/url-image-cross-origin-anonymous.sub.html
   file: css/css-values/urls/cross-origin/url-image-cross-origin-anonymous.sub.html
@@ -700,7 +727,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0149"
+- id: "0150"
   category: WPT reftest
   title: css/css-values/urls/cross-origin/url-image-cross-origin-use-credentials.sub.html
   file: css/css-values/urls/cross-origin/url-image-cross-origin-use-credentials.sub.html
@@ -727,7 +754,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0151"
+- id: "0152"
   category: WPT reftest
   title: css/css-values/urls/cross-origin/url-image-set-cross-origin-anonymous.sub.html
   file: css/css-values/urls/cross-origin/url-image-set-cross-origin-anonymous.sub.html
@@ -754,7 +781,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0153"
+- id: "0154"
   category: WPT reftest
   title: css/css-values/urls/cross-origin/url-import-cross-origin-anonymous.sub.html
   file: css/css-values/urls/cross-origin/url-import-cross-origin-anonymous.sub.html
@@ -781,7 +808,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0155"
+- id: "0156"
   category: WPT reftest
   title: css/css-values/urls/cross-origin/url-import-cross-origin-use-credentials.sub.html
   file: css/css-values/urls/cross-origin/url-import-cross-origin-use-credentials.sub.html
@@ -808,7 +835,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0157"
+- id: "0158"
   category: WPT reftest
   title: css/css-values/urls/cross-origin/url-svg-filter-cross-origin-anonymous.sub.html
   file: css/css-values/urls/cross-origin/url-svg-filter-cross-origin-anonymous.sub.html
@@ -835,7 +862,7 @@
       referenceFile: css/filter-effects/reference/green-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0159"
+- id: "0160"
   category: WPT reftest
   title: css/css-values/urls/cross-origin/url-svg-filter-cross-origin-use-credentials.sub.html
   file: css/css-values/urls/cross-origin/url-svg-filter-cross-origin-use-credentials.sub.html
@@ -862,7 +889,7 @@
       referenceFile: css/filter-effects/reference/green-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0161"
+- id: "0162"
   category: WPT reftest
   title: css/css-values/urls/integrity/url-image-integrity.sub.html
   file: css/css-values/urls/integrity/url-image-integrity.sub.html
@@ -889,7 +916,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0163"
+- id: "0164"
   category: WPT reftest
   title: css/css-values/urls/integrity/url-import-integrity.sub.html
   file: css/css-values/urls/integrity/url-import-integrity.sub.html
@@ -916,7 +943,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0165"
+- id: "0166"
   category: WPT reftest
   title: css/css-values/urls/integrity/url-svg-filter-integrity.sub.html
   file: css/css-values/urls/integrity/url-svg-filter-integrity.sub.html
@@ -943,7 +970,7 @@
       referenceFile: css/filter-effects/reference/green-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0166"
+- id: "0167"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/no-referrer/url-image-referrer-policy-cross-origin.html
   file: css/css-values/urls/referrer-policy/no-referrer/url-image-referrer-policy-cross-origin.html
@@ -970,7 +997,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0167"
+- id: "0168"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/no-referrer/url-image-referrer-policy-external-stylesheet.html
   file: css/css-values/urls/referrer-policy/no-referrer/url-image-referrer-policy-external-stylesheet.html
@@ -997,7 +1024,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0168"
+- id: "0169"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/no-referrer/url-image-referrer-policy-same-origin.html
   file: css/css-values/urls/referrer-policy/no-referrer/url-image-referrer-policy-same-origin.html
@@ -1024,7 +1051,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0169"
+- id: "0170"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/no-referrer/url-image-set-referrer-policy.sub.html
   file: css/css-values/urls/referrer-policy/no-referrer/url-image-set-referrer-policy.sub.html
@@ -1051,7 +1078,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0170"
+- id: "0171"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/no-referrer/url-svg-filter-referrer-policy.sub.html
   file: css/css-values/urls/referrer-policy/no-referrer/url-svg-filter-referrer-policy.sub.html
@@ -1078,7 +1105,7 @@
       referenceFile: css/filter-effects/reference/green-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0171"
+- id: "0172"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/no-referrer-when-downgrade/url-image-referrer-policy-cross-origin.html
   file: css/css-values/urls/referrer-policy/no-referrer-when-downgrade/url-image-referrer-policy-cross-origin.html
@@ -1105,7 +1132,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0172"
+- id: "0173"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/no-referrer-when-downgrade/url-image-referrer-policy-same-origin.html
   file: css/css-values/urls/referrer-policy/no-referrer-when-downgrade/url-image-referrer-policy-same-origin.html
@@ -1132,7 +1159,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0173"
+- id: "0174"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/origin/url-image-referrer-policy-cross-origin.html
   file: css/css-values/urls/referrer-policy/origin/url-image-referrer-policy-cross-origin.html
@@ -1159,7 +1186,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0174"
+- id: "0175"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/origin/url-image-referrer-policy-external-stylesheet.html
   file: css/css-values/urls/referrer-policy/origin/url-image-referrer-policy-external-stylesheet.html
@@ -1186,7 +1213,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0175"
+- id: "0176"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/origin/url-image-referrer-policy-same-origin.html
   file: css/css-values/urls/referrer-policy/origin/url-image-referrer-policy-same-origin.html
@@ -1213,7 +1240,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0176"
+- id: "0177"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/origin-when-cross-origin/url-image-referrer-policy-cross-origin.html
   file: css/css-values/urls/referrer-policy/origin-when-cross-origin/url-image-referrer-policy-cross-origin.html
@@ -1240,7 +1267,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0177"
+- id: "0178"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/origin-when-cross-origin/url-image-referrer-policy-same-origin.html
   file: css/css-values/urls/referrer-policy/origin-when-cross-origin/url-image-referrer-policy-same-origin.html
@@ -1267,7 +1294,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0178"
+- id: "0179"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/same-origin/url-image-referrer-policy-cross-origin.html
   file: css/css-values/urls/referrer-policy/same-origin/url-image-referrer-policy-cross-origin.html
@@ -1294,7 +1321,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0179"
+- id: "0180"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/same-origin/url-image-referrer-policy-same-origin.html
   file: css/css-values/urls/referrer-policy/same-origin/url-image-referrer-policy-same-origin.html
@@ -1321,7 +1348,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0180"
+- id: "0181"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/strict-origin/url-image-referrer-policy-cross-origin.html
   file: css/css-values/urls/referrer-policy/strict-origin/url-image-referrer-policy-cross-origin.html
@@ -1348,7 +1375,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0181"
+- id: "0182"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/strict-origin/url-image-referrer-policy-same-origin.html
   file: css/css-values/urls/referrer-policy/strict-origin/url-image-referrer-policy-same-origin.html
@@ -1375,7 +1402,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0182"
+- id: "0183"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/strict-origin-when-cross-origin/url-image-referrer-policy-cross-origin.html
   file: css/css-values/urls/referrer-policy/strict-origin-when-cross-origin/url-image-referrer-policy-cross-origin.html
@@ -1402,7 +1429,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0183"
+- id: "0184"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/strict-origin-when-cross-origin/url-image-referrer-policy-same-origin.html
   file: css/css-values/urls/referrer-policy/strict-origin-when-cross-origin/url-image-referrer-policy-same-origin.html
@@ -1429,7 +1456,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0184"
+- id: "0185"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/unsafe-url/url-image-referrer-policy-cross-origin.html
   file: css/css-values/urls/referrer-policy/unsafe-url/url-image-referrer-policy-cross-origin.html
@@ -1456,7 +1483,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0185"
+- id: "0186"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/unsafe-url/url-image-referrer-policy-external-stylesheet.html
   file: css/css-values/urls/referrer-policy/unsafe-url/url-image-referrer-policy-external-stylesheet.html
@@ -1483,7 +1510,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0186"
+- id: "0187"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/unsafe-url/url-image-referrer-policy-same-origin.html
   file: css/css-values/urls/referrer-policy/unsafe-url/url-image-referrer-policy-same-origin.html
@@ -1510,7 +1537,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0187"
+- id: "0188"
   category: WPT reftest
   title: css/css-values/vh-calc-support-pct.html
   file: css/css-values/vh-calc-support-pct.html
@@ -1537,7 +1564,7 @@
       referenceFile: css/css-values/reference/all-green.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0188"
+- id: "0189"
   category: WPT reftest
   title: css/css-values/vh-calc-support.html
   file: css/css-values/vh-calc-support.html
@@ -1564,7 +1591,7 @@
       referenceFile: css/css-values/reference/all-green.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0189"
+- id: "0190"
   category: WPT reftest
   title: css/css-values/vh-em-inherit.html
   file: css/css-values/vh-em-inherit.html
@@ -1591,7 +1618,7 @@
       referenceFile: css/css-values/reference/all-green.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0190"
+- id: "0191"
   category: WPT reftest
   title: css/css-values/vh-inherit.html
   file: css/css-values/vh-inherit.html
@@ -1618,7 +1645,7 @@
       referenceFile: css/css-values/reference/all-green.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0191"
+- id: "0192"
   category: WPT reftest
   title: css/css-values/vh-interpolate-pct.html
   file: css/css-values/vh-interpolate-pct.html
@@ -1645,7 +1672,7 @@
       referenceFile: css/css-values/reference/all-green.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0192"
+- id: "0193"
   category: WPT reftest
   title: css/css-values/vh-interpolate-px.html
   file: css/css-values/vh-interpolate-px.html
@@ -1672,7 +1699,7 @@
       referenceFile: css/css-values/reference/all-green.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0193"
+- id: "0194"
   category: WPT reftest
   title: css/css-values/vh-interpolate-vh.html
   file: css/css-values/vh-interpolate-vh.html
@@ -1699,7 +1726,7 @@
       referenceFile: css/css-values/reference/all-green.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0194"
+- id: "0195"
   category: WPT reftest
   title: css/css-values/vh-support-margin.html
   file: css/css-values/vh-support-margin.html
@@ -1726,7 +1753,7 @@
       referenceFile: css/css-values/reference/all-green.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0195"
+- id: "0196"
   category: WPT reftest
   title: css/css-values/vh-support-transform-origin.html
   file: css/css-values/vh-support-transform-origin.html
@@ -1753,7 +1780,7 @@
       referenceFile: css/css-values/reference/all-green.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0196"
+- id: "0197"
   category: WPT reftest
   title: css/css-values/vh-support-transform-translate.html
   file: css/css-values/vh-support-transform-translate.html
@@ -1780,7 +1807,7 @@
       referenceFile: css/css-values/reference/all-green.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0197"
+- id: "0198"
   category: WPT reftest
   title: css/css-values/vh-support.html
   file: css/css-values/vh-support.html
@@ -1807,34 +1834,7 @@
       referenceFile: css/css-values/reference/all-green.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0198"
-  category: WPT reftest
-  title: css/css-values/vh-update-and-transition-in-subframe.html
-  file: css/css-values/vh-update-and-transition-in-subframe.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-values/reference/vh-update-and-transition-in-subframe-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-values/reference/vh-update-and-transition-in-subframe-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-values/reference/vh-update-and-transition-in-subframe-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-values/reference/vh-update-and-transition-in-subframe-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0201"
+- id: "0202"
   category: WPT reftest
   title: css/css-values/viewport-units-scrollbars-auto-vhw-001.html
   file: css/css-values/viewport-units-scrollbars-auto-vhw-001.html
@@ -1861,7 +1861,7 @@
       referenceFile: css/css-values/viewport-units-scrollbars-auto-ltr-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/viewport-units-scrollbars-auto-ltr-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0208"
+- id: "0209"
   category: WPT reftest
   title: css/css-values/viewport-units-writing-mode-font-size.html
   file: css/css-values/viewport-units-writing-mode-font-size.html

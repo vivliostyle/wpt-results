@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T04:21:49.830Z",
+  "generatedAt": "2026-05-23T08:25:32.777Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -43,16 +43,18 @@
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 1,
+    "screenshotMismatches": 2,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 97,
+        "known-fail": 96,
         "pass": 271,
-        "changed-fail": 1
+        "changed-fail": 1,
+        "regression": 1
       },
       "statusPairs": {
-        "FAIL->FAIL": 98,
-        "PASS->PASS": 271
+        "FAIL->FAIL": 97,
+        "PASS->PASS": 271,
+        "PASS->FAIL": 1
       }
     },
     "triage": {
@@ -250,10 +252,10 @@
             "height": 1056,
             "actualWidth": 794,
             "actualHeight": 1056,
-            "diffPixels": 2463,
-            "diffRatio": 0.002937514311884589,
-            "exactDiffPixels": 4975,
-            "exactDiffRatio": 0.005933468819174109,
+            "diffPixels": 2440,
+            "diffRatio": 0.002910083199755744,
+            "exactDiffPixels": 4962,
+            "exactDiffRatio": 0.005917964277536066,
             "exceededDiffPixels": 0,
             "maxChannelDifference": 255,
             "dimensionMismatch": false,
@@ -285,10 +287,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 1570,
-                "diffRatio": 0.0018724715670559498,
-                "exactDiffPixels": 3303,
-                "exactDiffRatio": 0.003939346233111977,
+                "diffPixels": 1547,
+                "diffRatio": 0.0018450404549271047,
+                "exactDiffPixels": 3290,
+                "exactDiffRatio": 0.003923841691473934,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -17127,9 +17129,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-fonts/downloadable-font-in-iframe-print.html",
       "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "baselineStatus": "PASS",
+      "changeType": "regression",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-in-iframe-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-in-iframe-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -17141,7 +17143,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "regression",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -17150,7 +17152,23 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 22,
+            "diffRatio": 0.000026238455079764903,
+            "exactDiffPixels": 62,
+            "exactDiffRatio": 0.00007394473704297382,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0368-WPT_print-reftest-css-css-fonts-downloadable-font-in-iframe-print.html-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -17190,45 +17208,6 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-in-iframe-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-fonts/downloadable-font-in-iframe-print-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-in-iframe-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 44,
-                "diffRatio": 0.000052476910159529805,
-                "exactDiffPixels": 94,
-                "exactDiffRatio": 0.00011210976261354095,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0368-WPT_print-reftest-css-css-fonts-downloadable-font-in-iframe-print.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-in-iframe-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {

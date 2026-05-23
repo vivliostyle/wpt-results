@@ -3,7 +3,7 @@
 - Compared entries: 26
 - Entries with differences: 6 (pending: 6, triaged: 0)
 - Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
 - Outcome summary: {"pass":19,"known-fail":6,"error":1}
@@ -93,10 +93,10 @@
 - [0026] [WPT print-reftest] css/printing/zero-size-003-print.tentative.html
   triage: pending
   side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary timeout: false
+  canary error: Error: Viewer error: Error: Negative or zero page area size
+  stable timeout: false
+  stable error: Error: Viewer error: Error: Negative or zero page area size
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/zero-size-003-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/zero-size-003-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

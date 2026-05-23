@@ -2,11 +2,11 @@
 
 - Compared entries: 1217
 - Entries with differences: 549 (pending: 549, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":591,"known-fail":549,"error":1,"unchanged":76}
+- Outcome summary: {"pass":592,"known-fail":549,"unchanged":76}
 
 ## Differences
 
@@ -7171,14 +7171,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/wm-propagation-svg-root-scrollbar.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0777] [WPT reftest] css/css-writing-modes/orthogonal-root-resize-icb-007.html
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

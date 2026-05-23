@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 236
-- Entries with differences: 55 (pending: 55, triaged: 0)
+- Entries with differences: 54 (pending: 54, triaged: 0)
 - Entries with errors: 2 (pending: 2, triaged: 0)
 - Timeout entries: 2
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":180,"known-fail":55,"unchanged":1}
+- Outcome summary: {"pass":181,"known-fail":54,"unchanged":1}
 
 ## Differences
 
@@ -48,19 +48,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-calc.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0025165063735592703, diffPixels=2110
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-calc-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0034] [WPT reftest] css/css-counter-styles/counter-style-at-rule/descriptor-pad.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-counter-styles/counter-style-at-rule/descriptor-pad-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-pad.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0004162373101289978, diffPixels=349
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-pad-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-pad.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004162373101289978, diffPixels=349
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-pad-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0043] [WPT reftest] css/css-counter-styles/counter-style-at-rule/disclosure-styles.html
   triage: pending

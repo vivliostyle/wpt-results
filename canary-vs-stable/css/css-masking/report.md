@@ -2,11 +2,11 @@
 
 - Compared entries: 473
 - Entries with differences: 205 (pending: 205, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 3
-- Outcome summary: {"known-fail":202,"pass":268,"regression":1,"changed-fail":2}
+- Screenshot mismatches: 2
+- Outcome summary: {"known-fail":203,"pass":267,"error":1,"regression":1,"changed-fail":1}
 
 ## Differences
 
@@ -1646,7 +1646,7 @@
 
 - [0294] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-g-002.svg
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path-svg-content/clip-path-on-g-002.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1654,7 +1654,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/clip-path-on-g-002.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0295] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-g-003.svg
@@ -2670,4 +2670,16 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/mask-with-rotation.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0109] [WPT reftest] css/css-masking/clip-path/clip-path-circle-003.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
