@@ -1,4 +1,4 @@
-- id: "0089"
+- id: "0091"
   category: WPT reftest
   title: css/css-sizing/aspect-ratio/fieldset-element-001.html
   file: css/css-sizing/aspect-ratio/fieldset-element-001.html
@@ -25,7 +25,7 @@
       referenceFile: css/css-sizing/aspect-ratio/fieldset-element-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/fieldset-element-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0128"
+- id: "0130"
   category: WPT reftest
   title: css/css-sizing/aspect-ratio/flex-aspect-ratio-038.html
   file: css/css-sizing/aspect-ratio/flex-aspect-ratio-038.html
@@ -52,7 +52,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0262"
+- id: "0264"
   category: WPT reftest
   title: css/css-sizing/aspect-ratio/replaced-element-dynamic-aspect-ratio.html
   file: css/css-sizing/aspect-ratio/replaced-element-dynamic-aspect-ratio.html
@@ -79,7 +79,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0280"
+- id: "0282"
   category: WPT reftest
   title: css/css-sizing/block-size-with-min-or-max-content-1b.html
   file: css/css-sizing/block-size-with-min-or-max-content-1b.html
@@ -106,7 +106,7 @@
       referenceFile: css/css-sizing/block-size-with-min-or-max-content-1-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0287"
+- id: "0289"
   category: WPT reftest
   title: css/css-sizing/block-size-with-min-or-max-content-table-1a.html
   file: css/css-sizing/block-size-with-min-or-max-content-table-1a.html
@@ -133,7 +133,7 @@
       referenceFile: css/css-sizing/block-size-with-min-or-max-content-table-1-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-table-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0288"
+- id: "0290"
   category: WPT reftest
   title: css/css-sizing/block-size-with-min-or-max-content-table-1b.html
   file: css/css-sizing/block-size-with-min-or-max-content-table-1b.html
@@ -160,7 +160,7 @@
       referenceFile: css/css-sizing/block-size-with-min-or-max-content-table-1-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-table-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0308"
+- id: "0311"
   category: WPT reftest
   title: css/css-sizing/clone-intrinsic-size.html
   file: css/css-sizing/clone-intrinsic-size.html
@@ -187,7 +187,7 @@
       referenceFile: css/css-sizing/clone-intrinsic-size-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/clone-intrinsic-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0322"
+- id: "0325"
   category: WPT reftest
   title: css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-013.html
   file: css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-013.html
@@ -214,7 +214,7 @@
       referenceFile: css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-013-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0368"
+- id: "0371"
   category: WPT reftest
   title: css/css-sizing/dynamic-change-inline-size-003.html
   file: css/css-sizing/dynamic-change-inline-size-003.html
@@ -241,7 +241,7 @@
       referenceFile: css/css-sizing/dynamic-change-inline-size-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/dynamic-change-inline-size-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0370"
+- id: "0373"
   category: WPT reftest
   title: css/css-sizing/fit-content-block-size-abspos.html
   file: css/css-sizing/fit-content-block-size-abspos.html
@@ -268,7 +268,7 @@
       referenceFile: css/css-sizing/fit-content-block-size-fixedpos-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/fit-content-block-size-fixedpos-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0373"
+- id: "0376"
   category: WPT reftest
   title: css/css-sizing/fit-content-length-percentage-001.html
   file: css/css-sizing/fit-content-length-percentage-001.html
@@ -295,7 +295,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0374"
+- id: "0377"
   category: WPT reftest
   title: css/css-sizing/fit-content-length-percentage-002.html
   file: css/css-sizing/fit-content-length-percentage-002.html
@@ -322,7 +322,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0375"
+- id: "0378"
   category: WPT reftest
   title: css/css-sizing/fit-content-length-percentage-003.html
   file: css/css-sizing/fit-content-length-percentage-003.html
@@ -349,7 +349,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0376"
+- id: "0379"
   category: WPT reftest
   title: css/css-sizing/fit-content-length-percentage-004.html
   file: css/css-sizing/fit-content-length-percentage-004.html
@@ -376,7 +376,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0377"
+- id: "0380"
   category: WPT reftest
   title: css/css-sizing/fit-content-length-percentage-005.html
   file: css/css-sizing/fit-content-length-percentage-005.html
@@ -403,7 +403,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0378"
+- id: "0381"
   category: WPT reftest
   title: css/css-sizing/fit-content-length-percentage-006.html
   file: css/css-sizing/fit-content-length-percentage-006.html
@@ -430,7 +430,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0379"
+- id: "0382"
   category: WPT reftest
   title: css/css-sizing/fit-content-length-percentage-007.html
   file: css/css-sizing/fit-content-length-percentage-007.html
@@ -457,7 +457,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0380"
+- id: "0383"
   category: WPT reftest
   title: css/css-sizing/fit-content-length-percentage-008.html
   file: css/css-sizing/fit-content-length-percentage-008.html
@@ -484,7 +484,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0381"
+- id: "0384"
   category: WPT reftest
   title: css/css-sizing/fit-content-length-percentage-009.html
   file: css/css-sizing/fit-content-length-percentage-009.html
@@ -511,7 +511,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0382"
+- id: "0385"
   category: WPT reftest
   title: css/css-sizing/fit-content-length-percentage-010.html
   file: css/css-sizing/fit-content-length-percentage-010.html
@@ -538,7 +538,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0383"
+- id: "0386"
   category: WPT reftest
   title: css/css-sizing/fit-content-length-percentage-011.html
   file: css/css-sizing/fit-content-length-percentage-011.html
@@ -565,7 +565,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0384"
+- id: "0387"
   category: WPT reftest
   title: css/css-sizing/fit-content-length-percentage-012.html
   file: css/css-sizing/fit-content-length-percentage-012.html
@@ -592,7 +592,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0385"
+- id: "0388"
   category: WPT reftest
   title: css/css-sizing/fit-content-length-percentage-013.html
   file: css/css-sizing/fit-content-length-percentage-013.html
@@ -619,7 +619,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0386"
+- id: "0389"
   category: WPT reftest
   title: css/css-sizing/fit-content-length-percentage-014.html
   file: css/css-sizing/fit-content-length-percentage-014.html
@@ -646,7 +646,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0387"
+- id: "0390"
   category: WPT reftest
   title: css/css-sizing/fit-content-length-percentage-015.html
   file: css/css-sizing/fit-content-length-percentage-015.html
@@ -673,7 +673,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0388"
+- id: "0391"
   category: WPT reftest
   title: css/css-sizing/fit-content-length-percentage-016.html
   file: css/css-sizing/fit-content-length-percentage-016.html
@@ -700,7 +700,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0401"
+- id: "0404"
   category: WPT reftest
   title: css/css-sizing/image-min-max-content-intrinsic-size-change-001.html
   file: css/css-sizing/image-min-max-content-intrinsic-size-change-001.html
@@ -727,7 +727,7 @@
       referenceFile: css/css-sizing/image-min-max-content-intrinsic-size-change-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0402"
+- id: "0405"
   category: WPT reftest
   title: css/css-sizing/image-min-max-content-intrinsic-size-change-002.html
   file: css/css-sizing/image-min-max-content-intrinsic-size-change-002.html
@@ -754,7 +754,7 @@
       referenceFile: css/css-sizing/image-min-max-content-intrinsic-size-change-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0403"
+- id: "0406"
   category: WPT reftest
   title: css/css-sizing/image-min-max-content-intrinsic-size-change-003.html
   file: css/css-sizing/image-min-max-content-intrinsic-size-change-003.html
@@ -781,7 +781,7 @@
       referenceFile: css/css-sizing/image-min-max-content-intrinsic-size-change-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0404"
+- id: "0407"
   category: WPT reftest
   title: css/css-sizing/image-min-max-content-intrinsic-size-change-004.html
   file: css/css-sizing/image-min-max-content-intrinsic-size-change-004.html
@@ -808,7 +808,7 @@
       referenceFile: css/css-sizing/image-min-max-content-intrinsic-size-change-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0405"
+- id: "0408"
   category: WPT reftest
   title: css/css-sizing/image-min-max-content-intrinsic-size-change-005.html
   file: css/css-sizing/image-min-max-content-intrinsic-size-change-005.html
@@ -835,7 +835,7 @@
       referenceFile: css/css-sizing/image-min-max-content-intrinsic-size-change-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0406"
+- id: "0409"
   category: WPT reftest
   title: css/css-sizing/image-min-max-content-intrinsic-size-change-006.html
   file: css/css-sizing/image-min-max-content-intrinsic-size-change-006.html
@@ -862,7 +862,7 @@
       referenceFile: css/css-sizing/image-min-max-content-intrinsic-size-change-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0407"
+- id: "0410"
   category: WPT reftest
   title: css/css-sizing/image-min-max-content-intrinsic-size-change-007.html
   file: css/css-sizing/image-min-max-content-intrinsic-size-change-007.html
@@ -889,7 +889,7 @@
       referenceFile: css/css-sizing/image-min-max-content-intrinsic-size-change-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0408"
+- id: "0411"
   category: WPT reftest
   title: css/css-sizing/image-min-max-content-intrinsic-size-change-008.html
   file: css/css-sizing/image-min-max-content-intrinsic-size-change-008.html
@@ -916,7 +916,7 @@
       referenceFile: css/css-sizing/image-min-max-content-intrinsic-size-change-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/image-min-max-content-intrinsic-size-change-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0417"
+- id: "0420"
   category: WPT reftest
   title: css/css-sizing/intrinsic-height-abspos-stretch-percentage-child.html
   file: css/css-sizing/intrinsic-height-abspos-stretch-percentage-child.html
@@ -943,7 +943,34 @@
       referenceFile: css/css-sizing/intrinsic-height-abspos-stretch-percentage-child-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/intrinsic-height-abspos-stretch-percentage-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0425"
+- id: "0428"
+  category: WPT reftest
+  title: css/css-sizing/intrinsic-percent-non-replaced-008.html
+  file: css/css-sizing/intrinsic-percent-non-replaced-008.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-sizing/intrinsic-percent-non-replaced-008-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/intrinsic-percent-non-replaced-008-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-sizing/intrinsic-percent-non-replaced-008-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-sizing/intrinsic-percent-non-replaced-008-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0430"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-002.html
   file: css/css-sizing/intrinsic-percent-replaced-002.html
@@ -970,7 +997,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0426"
+- id: "0431"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-003.html
   file: css/css-sizing/intrinsic-percent-replaced-003.html
@@ -997,7 +1024,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0427"
+- id: "0432"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-004.html
   file: css/css-sizing/intrinsic-percent-replaced-004.html
@@ -1024,7 +1051,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0429"
+- id: "0434"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-006.html
   file: css/css-sizing/intrinsic-percent-replaced-006.html
@@ -1051,7 +1078,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0441"
+- id: "0446"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-018.html
   file: css/css-sizing/intrinsic-percent-replaced-018.html
@@ -1078,7 +1105,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0445"
+- id: "0450"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-022.html
   file: css/css-sizing/intrinsic-percent-replaced-022.html
@@ -1105,7 +1132,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0446"
+- id: "0451"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-023.html
   file: css/css-sizing/intrinsic-percent-replaced-023.html
@@ -1132,7 +1159,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0453"
+- id: "0460"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-dynamic-001.html
   file: css/css-sizing/intrinsic-percent-replaced-dynamic-001.html
@@ -1159,7 +1186,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0454"
+- id: "0461"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-dynamic-002.html
   file: css/css-sizing/intrinsic-percent-replaced-dynamic-002.html
@@ -1186,7 +1213,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0455"
+- id: "0462"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-dynamic-003.html
   file: css/css-sizing/intrinsic-percent-replaced-dynamic-003.html
@@ -1213,7 +1240,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0456"
+- id: "0463"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-dynamic-004.html
   file: css/css-sizing/intrinsic-percent-replaced-dynamic-004.html
@@ -1240,7 +1267,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0458"
+- id: "0465"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-dynamic-006.html
   file: css/css-sizing/intrinsic-percent-replaced-dynamic-006.html
@@ -1267,7 +1294,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0461"
+- id: "0468"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-dynamic-009.html
   file: css/css-sizing/intrinsic-percent-replaced-dynamic-009.html
@@ -1294,7 +1321,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0462"
+- id: "0469"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-dynamic-010.html
   file: css/css-sizing/intrinsic-percent-replaced-dynamic-010.html
@@ -1321,7 +1348,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0463"
+- id: "0470"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-dynamic-011.html
   file: css/css-sizing/intrinsic-percent-replaced-dynamic-011.html
@@ -1348,7 +1375,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0464"
+- id: "0471"
   category: WPT reftest
   title: css/css-sizing/intrinsic-percent-replaced-dynamic-012.html
   file: css/css-sizing/intrinsic-percent-replaced-dynamic-012.html
@@ -1375,7 +1402,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0472"
+- id: "0479"
   category: WPT reftest
   title: css/css-sizing/max-content-input-001.html
   file: css/css-sizing/max-content-input-001.html
@@ -1402,7 +1429,7 @@
       referenceFile: css/css-sizing/max-content-input-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/max-content-input-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0477"
+- id: "0484"
   category: WPT reftest
   title: css/css-sizing/orthogonal-writing-mode-float-in-inline.html
   file: css/css-sizing/orthogonal-writing-mode-float-in-inline.html
@@ -1429,7 +1456,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0480"
+- id: "0487"
   category: WPT reftest
   title: css/css-sizing/range-percent-intrinsic-size-2.html
   file: css/css-sizing/range-percent-intrinsic-size-2.html
@@ -1456,7 +1483,7 @@
       referenceFile: css/css-sizing/range-percent-intrinsic-size-2-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0481"
+- id: "0488"
   category: WPT reftest
   title: css/css-sizing/range-percent-intrinsic-size-2a.html
   file: css/css-sizing/range-percent-intrinsic-size-2a.html
@@ -1483,34 +1510,7 @@
       referenceFile: css/css-sizing/range-percent-intrinsic-size-2a-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-2a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0501"
-  category: WPT reftest
-  title: css/css-sizing/responsive-iframe/responsive-iframe-dynamic-remove.html
-  file: css/css-sizing/responsive-iframe/responsive-iframe-dynamic-remove.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-dynamic-remove.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-dynamic-remove.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-sizing/responsive-iframe/responsive-iframe-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-sizing/responsive-iframe/responsive-iframe-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-sizing/responsive-iframe/responsive-iframe-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-sizing/responsive-iframe/responsive-iframe-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0503"
+- id: "0506"
   category: WPT reftest
   title: css/css-sizing/responsive-iframe/responsive-iframe-meta-after-head.html
   file: css/css-sizing/responsive-iframe/responsive-iframe-meta-after-head.html
@@ -1537,7 +1537,34 @@
       referenceFile: css/css-sizing/responsive-iframe/responsive-iframe-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0507"
+- id: "0509"
+  category: WPT reftest
+  title: css/css-sizing/responsive-iframe/responsive-iframe-meta-dynamic-remove.html
+  file: css/css-sizing/responsive-iframe/responsive-iframe-meta-dynamic-remove.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-meta-dynamic-remove.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-meta-dynamic-remove.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-sizing/responsive-iframe/responsive-iframe-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-sizing/responsive-iframe/responsive-iframe-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-sizing/responsive-iframe/responsive-iframe-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-sizing/responsive-iframe/responsive-iframe-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0514"
   category: WPT reftest
   title: css/css-sizing/responsive-iframe/responsive-iframe-request-resize.html
   file: css/css-sizing/responsive-iframe/responsive-iframe-request-resize.html
@@ -1564,7 +1591,7 @@
       referenceFile: css/css-sizing/responsive-iframe/responsive-iframe-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0508"
+- id: "0515"
   category: WPT reftest
   title: css/css-sizing/responsive-iframe/responsive-iframe.html
   file: css/css-sizing/responsive-iframe/responsive-iframe.html
@@ -1591,7 +1618,7 @@
       referenceFile: css/css-sizing/responsive-iframe/responsive-iframe-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0510"
+- id: "0517"
   category: WPT reftest
   title: css/css-sizing/slice-intrinsic-size.html
   file: css/css-sizing/slice-intrinsic-size.html
@@ -1618,7 +1645,7 @@
       referenceFile: css/css-sizing/slice-intrinsic-size-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/slice-intrinsic-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0515"
+- id: "0522"
   category: WPT reftest
   title: css/css-sizing/stretch/bfc-next-to-float-1.html
   file: css/css-sizing/stretch/bfc-next-to-float-1.html
@@ -1645,7 +1672,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0516"
+- id: "0523"
   category: WPT reftest
   title: css/css-sizing/stretch/bfc-next-to-float-2.html
   file: css/css-sizing/stretch/bfc-next-to-float-2.html
@@ -1672,7 +1699,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0535"
+- id: "0542"
   category: WPT reftest
   title: css/css-sizing/stretch/replaced-next-to-float-1.html
   file: css/css-sizing/stretch/replaced-next-to-float-1.html
@@ -1699,7 +1726,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0536"
+- id: "0543"
   category: WPT reftest
   title: css/css-sizing/stretch/replaced-next-to-float-2.html
   file: css/css-sizing/stretch/replaced-next-to-float-2.html
@@ -1726,7 +1753,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0539"
+- id: "0547"
   category: WPT reftest
   title: css/css-sizing/stretch/stretch-quirk-001.html
   file: css/css-sizing/stretch/stretch-quirk-001.html
@@ -1753,7 +1780,39 @@
       referenceFile: css/css-sizing/stretch/stretch-quirk-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/stretch/stretch-quirk-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0547"
+- id: "0548"
+  category: WPT reftest
+  title: css/css-sizing/stretch/stretch-quirk-002.html
+  file: css/css-sizing/stretch/stretch-quirk-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/stretch/stretch-quirk-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/stretch/stretch-quirk-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-sizing/stretch/stretch-quirk-002-ref.html
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/css-sizing/stretch/stretch-quirk-002-ref.html
+      actualPages:
+        - 1
+      baselinePages:
+        - 1
+        - 2
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-sizing/stretch/stretch-quirk-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/stretch/stretch-quirk-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-sizing/stretch/stretch-quirk-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/stretch/stretch-quirk-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0556"
   category: WPT reftest
   title: css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-1.html
   file: css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-1.html
@@ -1780,7 +1839,7 @@
       referenceFile: css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-1-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0549"
+- id: "0558"
   category: WPT reftest
   title: css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2b.html
   file: css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2b.html
@@ -1807,7 +1866,7 @@
       referenceFile: css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0496"
+- id: "0503"
   category: WPT reftest
   title: css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-no-match-element.sub.html
   file: css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-no-match-element.sub.html
@@ -1824,7 +1883,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0497"
+- id: "0504"
   category: WPT reftest
   title: css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-not-embedded-sized.sub.html
   file: css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-not-embedded-sized.sub.html
@@ -1839,16 +1898,9 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-not-embedded-sized.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
-      timeout: true
-    - side: stable
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
-- id: "0498"
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0505"
   category: WPT reftest
   title: css/css-sizing/responsive-iframe/responsive-iframe-cross-origin.sub.html
   file: css/css-sizing/responsive-iframe/responsive-iframe-cross-origin.sub.html

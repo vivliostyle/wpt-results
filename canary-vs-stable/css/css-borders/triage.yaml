@@ -135,32 +135,59 @@
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0024"
   category: WPT reftest
-  title: css/css-borders/border-shape/border-shape-outline-with-border.html
-  file: css/css-borders/border-shape/border-shape-outline-with-border.html
+  title: css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse.html
+  file: css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse.html
   type: difference
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-borders/border-shape/border-shape-outline-with-border-ref.html
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html
   relation: "=="
   diffPages:
-    - css/css-borders/border-shape/border-shape-outline-with-border-ref.html#1
+    - css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html#1
   referenceViewerUrls:
     - side: canary
-      referenceFile: css/css-borders/border-shape/border-shape-outline-with-border-ref.html
+      referenceFile: css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html
       url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
-      referenceFile: css/css-borders/border-shape/border-shape-outline-with-border-ref.html
+      referenceFile: css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html
       url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0033"
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0025"
+  category: WPT reftest
+  title: css/css-borders/border-shape/border-shape-outline-with-border-ellipse.html
+  file: css/css-borders/border-shape/border-shape-outline-with-border-ellipse.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0035"
   category: WPT reftest
   title: css/css-borders/border-shape/border-shape-polygon-miter-limit.html
   file: css/css-borders/border-shape/border-shape-polygon-miter-limit.html
@@ -187,7 +214,7 @@
       referenceFile: css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0034"
+- id: "0036"
   category: WPT reftest
   title: css/css-borders/border-shape/border-shape-shadow-blur.html
   file: css/css-borders/border-shape/border-shape-shadow-blur.html
@@ -214,7 +241,7 @@
       referenceFile: css/css-borders/border-shape/border-shape-shadow-blur-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0035"
+- id: "0037"
   category: WPT reftest
   title: css/css-borders/border-shape/border-shape-shadow-circle.html
   file: css/css-borders/border-shape/border-shape-shadow-circle.html
@@ -241,7 +268,7 @@
       referenceFile: css/css-borders/border-shape/border-shape-shadow-circle-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0036"
+- id: "0038"
   category: WPT reftest
   title: css/css-borders/border-shape/border-shape-shadow-inset-blur.html
   file: css/css-borders/border-shape/border-shape-shadow-inset-blur.html
@@ -268,7 +295,7 @@
       referenceFile: css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0041"
+- id: "0043"
   category: WPT reftest
   title: css/css-borders/border-shape/border-shape-stroke-from-border.html
   file: css/css-borders/border-shape/border-shape-stroke-from-border.html
@@ -295,7 +322,7 @@
       referenceFile: css/css-borders/border-shape/border-shape-stroke-from-border-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0043"
+- id: "0045"
   category: WPT reftest
   title: css/css-borders/border-shape/border-shape-two-shapes-shadow.html
   file: css/css-borders/border-shape/border-shape-two-shapes-shadow.html
@@ -322,7 +349,7 @@
       referenceFile: css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0061"
+- id: "0064"
   category: WPT reftest
   title: css/css-borders/corner-shape/corner-shorthand-rendering.html
   file: css/css-borders/corner-shape/corner-shorthand-rendering.html
@@ -349,7 +376,7 @@
       referenceFile: css/css-borders/corner-shape/corner-shorthand-rendering-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0066"
+- id: "0069"
   category: WPT reftest
   title: css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
   file: css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
@@ -376,7 +403,7 @@
       referenceFile: css/css-borders/reference/border-radius-side-shorthands-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0067"
+- id: "0070"
   category: WPT reftest
   title: css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html
   file: css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html

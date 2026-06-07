@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T09:16:13.130Z",
+  "generatedAt": "2026-06-07T17:29:26.849Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -38,34 +38,34 @@
     "timeoutMs": 10000
   },
   "summary": {
-    "totalEntries": 236,
-    "entriesWithDifferences": 97,
+    "totalEntries": 242,
+    "entriesWithDifferences": 98,
     "entriesWithErrors": 3,
     "timeoutEntries": 3,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 97,
-        "pass": 136,
+        "known-fail": 98,
+        "pass": 141,
         "error": 3
       },
       "statusPairs": {
-        "FAIL->FAIL": 97,
-        "PASS->PASS": 136,
+        "FAIL->FAIL": 98,
+        "PASS->PASS": 141,
         "ERROR->ERROR": 3
       }
     },
     "triage": {
       "differences": {
-        "pending": 97,
+        "pending": 98,
         "triaged": 0
       },
       "errors": {
         "pending": 3,
         "triaged": 0
       },
-      "pendingEntries": 100,
+      "pendingEntries": 101,
       "triagedEntries": 0
     }
   },
@@ -2840,6 +2840,52 @@
     {
       "id": "0030",
       "category": "WPT reftest",
+      "title": "css/css-position/nested-inline-abspos-child-with-siblings.html",
+      "file": [
+        "css/css-position/nested-inline-abspos-child-with-siblings.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-position/nested-inline-abspos-child-with-siblings.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/nested-inline-abspos-child-with-siblings.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/nested-inline-abspos-child-with-siblings.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0031",
+      "category": "WPT reftest",
+      "title": "css/css-position/nested-inline-abspos-child.html",
+      "file": [
+        "css/css-position/nested-inline-abspos-child.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-position/nested-inline-abspos-child.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/nested-inline-abspos-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/nested-inline-abspos-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0032",
+      "category": "WPT reftest",
       "title": "css/css-position/overlay/author-overlay-top-layer-removal.html",
       "file": [
         "css/css-position/overlay/author-overlay-top-layer-removal.html"
@@ -2861,7 +2907,7 @@
       ]
     },
     {
-      "id": "0031",
+      "id": "0033",
       "category": "WPT reftest",
       "title": "css/css-position/overlay/overlay-button-appearance.html",
       "file": [
@@ -2925,7 +2971,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0031-WPT_reftest-css-css-position-overlay-overlay-button-appearance.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0033-WPT_reftest-css-css-position-overlay-overlay-button-appearance.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2964,7 +3010,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0031-WPT_reftest-css-css-position-overlay-overlay-button-appearance.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0033-WPT_reftest-css-css-position-overlay-overlay-button-appearance.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2980,7 +3026,7 @@
       }
     },
     {
-      "id": "0032",
+      "id": "0034",
       "category": "WPT reftest",
       "title": "css/css-position/overlay/overlay-transition-backdrop-entry.html",
       "file": [
@@ -3003,7 +3049,7 @@
       ]
     },
     {
-      "id": "0033",
+      "id": "0035",
       "category": "WPT reftest",
       "title": "css/css-position/overlay/overlay-transition-backdrop.html",
       "file": [
@@ -3067,7 +3113,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0033-WPT_reftest-css-css-position-overlay-overlay-transition-backdrop.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0035-WPT_reftest-css-css-position-overlay-overlay-transition-backdrop.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3106,7 +3152,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0033-WPT_reftest-css-css-position-overlay-overlay-transition-backdrop.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0035-WPT_reftest-css-css-position-overlay-overlay-transition-backdrop.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3122,7 +3168,7 @@
       }
     },
     {
-      "id": "0034",
+      "id": "0036",
       "category": "WPT reftest",
       "title": "css/css-position/overlay/overlay-transition-dialog.html",
       "file": [
@@ -3145,7 +3191,7 @@
       ]
     },
     {
-      "id": "0035",
+      "id": "0037",
       "category": "WPT reftest",
       "title": "css/css-position/overlay/overlay-transition-finished.html",
       "file": [
@@ -3230,7 +3276,7 @@
       }
     },
     {
-      "id": "0036",
+      "id": "0038",
       "category": "WPT reftest",
       "title": "css/css-position/overlay/overlay-transition-in-rendering.html",
       "file": [
@@ -3315,7 +3361,7 @@
       }
     },
     {
-      "id": "0037",
+      "id": "0039",
       "category": "WPT reftest",
       "title": "css/css-position/overlay/overlay-transition-out-rendering.html",
       "file": [
@@ -3400,7 +3446,7 @@
       }
     },
     {
-      "id": "0038",
+      "id": "0040",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-center-001.html",
       "file": [
@@ -3423,7 +3469,7 @@
       ]
     },
     {
-      "id": "0039",
+      "id": "0041",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-center-002.html",
       "file": [
@@ -3487,7 +3533,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0039-WPT_reftest-css-css-position-position-absolute-center-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0041-WPT_reftest-css-css-position-position-absolute-center-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3526,7 +3572,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0039-WPT_reftest-css-css-position-position-absolute-center-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0041-WPT_reftest-css-css-position-position-absolute-center-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3542,7 +3588,7 @@
       }
     },
     {
-      "id": "0040",
+      "id": "0042",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-center-003.html",
       "file": [
@@ -3565,7 +3611,7 @@
       ]
     },
     {
-      "id": "0041",
+      "id": "0043",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-center-004.html",
       "file": [
@@ -3588,7 +3634,7 @@
       ]
     },
     {
-      "id": "0042",
+      "id": "0044",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-center-006.html",
       "file": [
@@ -3611,7 +3657,7 @@
       ]
     },
     {
-      "id": "0043",
+      "id": "0045",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-center-007.html",
       "file": [
@@ -3634,7 +3680,7 @@
       ]
     },
     {
-      "id": "0044",
+      "id": "0046",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-auto-overflow.html",
       "file": [
@@ -3657,7 +3703,7 @@
       ]
     },
     {
-      "id": "0045",
+      "id": "0047",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-list-marker.html",
       "file": [
@@ -3680,7 +3726,7 @@
       ]
     },
     {
-      "id": "0046",
+      "id": "0048",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-overflow-001.html",
       "file": [
@@ -3703,7 +3749,7 @@
       ]
     },
     {
-      "id": "0047",
+      "id": "0049",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-overflow-002.html",
       "file": [
@@ -3726,7 +3772,7 @@
       ]
     },
     {
-      "id": "0048",
+      "id": "0050",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-relayout-001.html",
       "file": [
@@ -3749,7 +3795,7 @@
       ]
     },
     {
-      "id": "0049",
+      "id": "0051",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-relayout-002.html",
       "file": [
@@ -3772,7 +3818,7 @@
       ]
     },
     {
-      "id": "0050",
+      "id": "0052",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-relayout-003.html",
       "file": [
@@ -3795,7 +3841,7 @@
       ]
     },
     {
-      "id": "0051",
+      "id": "0053",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-relayout-004.html",
       "file": [
@@ -3859,7 +3905,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0051-WPT_reftest-css-css-position-position-absolute-dynamic-relayout-004.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0053-WPT_reftest-css-css-position-position-absolute-dynamic-relayout-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3898,7 +3944,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0051-WPT_reftest-css-css-position-position-absolute-dynamic-relayout-004.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0053-WPT_reftest-css-css-position-position-absolute-dynamic-relayout-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -3914,7 +3960,149 @@
       }
     },
     {
-      "id": "0052",
+      "id": "0054",
+      "category": "WPT reftest",
+      "title": "css/css-position/position-absolute-dynamic-relayout-005.html",
+      "file": [
+        "css/css-position/position-absolute-dynamic-relayout-005.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-position/position-absolute-dynamic-relayout-005.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-dynamic-relayout-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-dynamic-relayout-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0055",
+      "category": "WPT reftest",
+      "title": "css/css-position/position-absolute-dynamic-relayout-006.html",
+      "file": [
+        "css/css-position/position-absolute-dynamic-relayout-006.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-position/position-absolute-dynamic-relayout-006.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-dynamic-relayout-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-dynamic-relayout-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10000,
+                "diffRatio": 0.01192657049080223,
+                "exactDiffPixels": 10000,
+                "exactDiffRatio": 0.01192657049080223,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0055-WPT_reftest-css-css-position-position-absolute-dynamic-relayout-006.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 10000,
+                "diffRatio": 0.01192657049080223,
+                "exactDiffPixels": 10000,
+                "exactDiffRatio": 0.01192657049080223,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0055-WPT_reftest-css-css-position-position-absolute-dynamic-relayout-006.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0056",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-static-position-flex.html",
       "file": [
@@ -3937,7 +4125,7 @@
       ]
     },
     {
-      "id": "0053",
+      "id": "0057",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-static-position-floats-001.html",
       "file": [
@@ -4001,7 +4189,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0053-WPT_reftest-css-css-position-position-absolute-dynamic-static-position-floats-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0057-WPT_reftest-css-css-position-position-absolute-dynamic-static-position-floats-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4040,7 +4228,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0053-WPT_reftest-css-css-position-position-absolute-dynamic-static-position-floats-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0057-WPT_reftest-css-css-position-position-absolute-dynamic-static-position-floats-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4056,7 +4244,7 @@
       }
     },
     {
-      "id": "0054",
+      "id": "0058",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-static-position-floats-002.html",
       "file": [
@@ -4120,7 +4308,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0054-WPT_reftest-css-css-position-position-absolute-dynamic-static-position-floats-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0058-WPT_reftest-css-css-position-position-absolute-dynamic-static-position-floats-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4159,7 +4347,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0054-WPT_reftest-css-css-position-position-absolute-dynamic-static-position-floats-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0058-WPT_reftest-css-css-position-position-absolute-dynamic-static-position-floats-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4175,7 +4363,7 @@
       }
     },
     {
-      "id": "0055",
+      "id": "0059",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-static-position-floats-003.html",
       "file": [
@@ -4239,7 +4427,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0055-WPT_reftest-css-css-position-position-absolute-dynamic-static-position-floats-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0059-WPT_reftest-css-css-position-position-absolute-dynamic-static-position-floats-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4278,7 +4466,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0055-WPT_reftest-css-css-position-position-absolute-dynamic-static-position-floats-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0059-WPT_reftest-css-css-position-position-absolute-dynamic-static-position-floats-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4294,7 +4482,7 @@
       }
     },
     {
-      "id": "0056",
+      "id": "0060",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-static-position-floats-004.html",
       "file": [
@@ -4358,7 +4546,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0056-WPT_reftest-css-css-position-position-absolute-dynamic-static-position-floats-004.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0060-WPT_reftest-css-css-position-position-absolute-dynamic-static-position-floats-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4397,7 +4585,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0056-WPT_reftest-css-css-position-position-absolute-dynamic-static-position-floats-004.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0060-WPT_reftest-css-css-position-position-absolute-dynamic-static-position-floats-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -4413,7 +4601,7 @@
       }
     },
     {
-      "id": "0057",
+      "id": "0061",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-static-position-inline.html",
       "file": [
@@ -4436,7 +4624,7 @@
       ]
     },
     {
-      "id": "0058",
+      "id": "0062",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-static-position-margin-001.html",
       "file": [
@@ -4459,7 +4647,7 @@
       ]
     },
     {
-      "id": "0059",
+      "id": "0063",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-static-position-margin-002.html",
       "file": [
@@ -4482,7 +4670,7 @@
       ]
     },
     {
-      "id": "0060",
+      "id": "0064",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-static-position-table-cell.html",
       "file": [
@@ -4505,7 +4693,7 @@
       ]
     },
     {
-      "id": "0061",
+      "id": "0065",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-dynamic-static-position.html",
       "file": [
@@ -4528,7 +4716,7 @@
       ]
     },
     {
-      "id": "0062",
+      "id": "0066",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-fieldset.html",
       "file": [
@@ -4551,7 +4739,7 @@
       ]
     },
     {
-      "id": "0063",
+      "id": "0067",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-fit-content.html",
       "file": [
@@ -4574,7 +4762,7 @@
       ]
     },
     {
-      "id": "0064",
+      "id": "0068",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-iframe-print-001.sub.html",
       "file": [
@@ -4629,7 +4817,7 @@
       ]
     },
     {
-      "id": "0065",
+      "id": "0069",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-iframe-print-002.sub.html",
       "file": [
@@ -4684,7 +4872,7 @@
       ]
     },
     {
-      "id": "0066",
+      "id": "0070",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-in-inline-003.html",
       "file": [
@@ -4707,7 +4895,7 @@
       ]
     },
     {
-      "id": "0067",
+      "id": "0071",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-in-inline-004.html",
       "file": [
@@ -4730,7 +4918,53 @@
       ]
     },
     {
-      "id": "0068",
+      "id": "0072",
+      "category": "WPT reftest",
+      "title": "css/css-position/position-absolute-in-inline-005.html",
+      "file": [
+        "css/css-position/position-absolute-in-inline-005.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-position/position-absolute-in-inline-005.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-in-inline-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-in-inline-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-position/position-absolute-in-inline-005-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-in-inline-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-in-inline-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0073",
+      "category": "WPT reftest",
+      "title": "css/css-position/position-absolute-in-inline-006.html",
+      "file": [
+        "css/css-position/position-absolute-in-inline-006.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-position/position-absolute-in-inline-006.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-in-inline-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-in-inline-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-position/position-absolute-in-inline-006-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-in-inline-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-in-inline-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0074",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-in-inline-margin-top.html",
       "file": [
@@ -4753,7 +4987,7 @@
       ]
     },
     {
-      "id": "0069",
+      "id": "0075",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-large-negative-inset.html",
       "file": [
@@ -4776,7 +5010,7 @@
       ]
     },
     {
-      "id": "0070",
+      "id": "0076",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-multicol-001.html",
       "file": [
@@ -4799,7 +5033,7 @@
       ]
     },
     {
-      "id": "0071",
+      "id": "0077",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-replaced-intrinsic-size.tentative.html",
       "file": [
@@ -4822,7 +5056,7 @@
       ]
     },
     {
-      "id": "0072",
+      "id": "0078",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-replaced-no-intrinsic-size.tentative.html",
       "file": [
@@ -4845,7 +5079,7 @@
       ]
     },
     {
-      "id": "0073",
+      "id": "0079",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-replaced-with-display-table.html",
       "file": [
@@ -4868,7 +5102,7 @@
       ]
     },
     {
-      "id": "0074",
+      "id": "0080",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-root-element-flex.html",
       "file": [
@@ -4891,7 +5125,7 @@
       ]
     },
     {
-      "id": "0075",
+      "id": "0081",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-root-element-grid.html",
       "file": [
@@ -4914,7 +5148,7 @@
       ]
     },
     {
-      "id": "0076",
+      "id": "0082",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-scrollable-overflow-zero.html",
       "file": [
@@ -4937,7 +5171,7 @@
       ]
     },
     {
-      "id": "0077",
+      "id": "0083",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-semi-replaced-stretch-button.html",
       "file": [
@@ -4960,7 +5194,7 @@
       ]
     },
     {
-      "id": "0078",
+      "id": "0084",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-semi-replaced-stretch-input.html",
       "file": [
@@ -4983,7 +5217,7 @@
       ]
     },
     {
-      "id": "0079",
+      "id": "0085",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-semi-replaced-stretch-other.html",
       "file": [
@@ -5006,7 +5240,7 @@
       ]
     },
     {
-      "id": "0080",
+      "id": "0086",
       "category": "WPT reftest",
       "title": "css/css-position/position-absolute-under-non-containing-stacking-context.html",
       "file": [
@@ -5029,7 +5263,7 @@
       ]
     },
     {
-      "id": "0081",
+      "id": "0087",
       "category": "WPT reftest",
       "title": "css/css-position/position-change.html",
       "file": [
@@ -5052,7 +5286,7 @@
       ]
     },
     {
-      "id": "0082",
+      "id": "0088",
       "category": "WPT reftest",
       "title": "css/css-position/position-fixed-dynamic-transformed-sibling.html",
       "file": [
@@ -5116,7 +5350,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0082-WPT_reftest-css-css-position-position-fixed-dynamic-transformed-sibling.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0088-WPT_reftest-css-css-position-position-fixed-dynamic-transformed-sibling.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5155,7 +5389,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0082-WPT_reftest-css-css-position-position-fixed-dynamic-transformed-sibling.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0088-WPT_reftest-css-css-position-position-fixed-dynamic-transformed-sibling.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5171,7 +5405,7 @@
       }
     },
     {
-      "id": "0083",
+      "id": "0089",
       "category": "WPT reftest",
       "title": "css/css-position/position-fixed-root-element-flex.html",
       "file": [
@@ -5194,7 +5428,7 @@
       ]
     },
     {
-      "id": "0084",
+      "id": "0090",
       "category": "WPT reftest",
       "title": "css/css-position/position-fixed-root-element-grid.html",
       "file": [
@@ -5217,7 +5451,7 @@
       ]
     },
     {
-      "id": "0085",
+      "id": "0091",
       "category": "WPT reftest",
       "title": "css/css-position/position-fixed-scroll-nested-fixed.html",
       "file": [
@@ -5283,7 +5517,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0085-WPT_reftest-css-css-position-position-fixed-scroll-nested-fixed.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0091-WPT_reftest-css-css-position-position-fixed-scroll-nested-fixed.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5324,7 +5558,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0085-WPT_reftest-css-css-position-position-fixed-scroll-nested-fixed.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0091-WPT_reftest-css-css-position-position-fixed-scroll-nested-fixed.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5340,7 +5574,7 @@
       }
     },
     {
-      "id": "0086",
+      "id": "0092",
       "category": "WPT reftest",
       "title": "css/css-position/position-fixed-scroll-overlap.html",
       "file": [
@@ -5425,7 +5659,7 @@
       }
     },
     {
-      "id": "0087",
+      "id": "0093",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-001.html",
       "file": [
@@ -5448,7 +5682,7 @@
       ]
     },
     {
-      "id": "0088",
+      "id": "0094",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-002.html",
       "file": [
@@ -5471,7 +5705,7 @@
       ]
     },
     {
-      "id": "0089",
+      "id": "0095",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-003.html",
       "file": [
@@ -5494,7 +5728,7 @@
       ]
     },
     {
-      "id": "0090",
+      "id": "0096",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-004.html",
       "file": [
@@ -5517,7 +5751,7 @@
       ]
     },
     {
-      "id": "0091",
+      "id": "0097",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-005.html",
       "file": [
@@ -5540,7 +5774,7 @@
       ]
     },
     {
-      "id": "0092",
+      "id": "0098",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-006.html",
       "file": [
@@ -5563,7 +5797,7 @@
       ]
     },
     {
-      "id": "0093",
+      "id": "0099",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-007.html",
       "file": [
@@ -5586,7 +5820,7 @@
       ]
     },
     {
-      "id": "0094",
+      "id": "0100",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-008.html",
       "file": [
@@ -5609,7 +5843,7 @@
       ]
     },
     {
-      "id": "0095",
+      "id": "0101",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-009.html",
       "file": [
@@ -5632,7 +5866,7 @@
       ]
     },
     {
-      "id": "0096",
+      "id": "0102",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-010.html",
       "file": [
@@ -5655,7 +5889,7 @@
       ]
     },
     {
-      "id": "0097",
+      "id": "0103",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-011.html",
       "file": [
@@ -5678,7 +5912,7 @@
       ]
     },
     {
-      "id": "0098",
+      "id": "0104",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-012.html",
       "file": [
@@ -5701,7 +5935,7 @@
       ]
     },
     {
-      "id": "0099",
+      "id": "0105",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-013.html",
       "file": [
@@ -5724,7 +5958,7 @@
       ]
     },
     {
-      "id": "0100",
+      "id": "0106",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-014.html",
       "file": [
@@ -5788,7 +6022,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0100-WPT_reftest-css-css-position-position-relative-014.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0106-WPT_reftest-css-css-position-position-relative-014.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5827,7 +6061,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0100-WPT_reftest-css-css-position-position-relative-014.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0106-WPT_reftest-css-css-position-position-relative-014.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5843,7 +6077,7 @@
       }
     },
     {
-      "id": "0101",
+      "id": "0107",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-caption.html",
       "file": [
@@ -5866,7 +6100,7 @@
       ]
     },
     {
-      "id": "0102",
+      "id": "0108",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-tbody-left-absolute-child.html",
       "file": [
@@ -5889,7 +6123,7 @@
       ]
     },
     {
-      "id": "0103",
+      "id": "0109",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-tbody-left.html",
       "file": [
@@ -5912,7 +6146,7 @@
       ]
     },
     {
-      "id": "0104",
+      "id": "0110",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-tbody-top-absolute-child.html",
       "file": [
@@ -5935,7 +6169,7 @@
       ]
     },
     {
-      "id": "0105",
+      "id": "0111",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-tbody-top.html",
       "file": [
@@ -5958,7 +6192,7 @@
       ]
     },
     {
-      "id": "0106",
+      "id": "0112",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-td-left.html",
       "file": [
@@ -5981,7 +6215,7 @@
       ]
     },
     {
-      "id": "0107",
+      "id": "0113",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-td-top.html",
       "file": [
@@ -6004,7 +6238,7 @@
       ]
     },
     {
-      "id": "0108",
+      "id": "0114",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-tfoot-left-absolute-child.html",
       "file": [
@@ -6027,7 +6261,7 @@
       ]
     },
     {
-      "id": "0109",
+      "id": "0115",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-tfoot-left.html",
       "file": [
@@ -6050,7 +6284,7 @@
       ]
     },
     {
-      "id": "0110",
+      "id": "0116",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-tfoot-top-absolute-child.html",
       "file": [
@@ -6073,7 +6307,7 @@
       ]
     },
     {
-      "id": "0111",
+      "id": "0117",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-tfoot-top.html",
       "file": [
@@ -6096,7 +6330,7 @@
       ]
     },
     {
-      "id": "0112",
+      "id": "0118",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-thead-left-absolute-child.html",
       "file": [
@@ -6119,7 +6353,7 @@
       ]
     },
     {
-      "id": "0113",
+      "id": "0119",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-thead-left.html",
       "file": [
@@ -6142,7 +6376,7 @@
       ]
     },
     {
-      "id": "0114",
+      "id": "0120",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-thead-top-absolute-child.html",
       "file": [
@@ -6165,7 +6399,7 @@
       ]
     },
     {
-      "id": "0115",
+      "id": "0121",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-thead-top.html",
       "file": [
@@ -6188,7 +6422,7 @@
       ]
     },
     {
-      "id": "0116",
+      "id": "0122",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-tr-left-absolute-child.html",
       "file": [
@@ -6211,7 +6445,7 @@
       ]
     },
     {
-      "id": "0117",
+      "id": "0123",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-tr-left.html",
       "file": [
@@ -6234,7 +6468,7 @@
       ]
     },
     {
-      "id": "0118",
+      "id": "0124",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-tr-top-absolute-child.html",
       "file": [
@@ -6257,7 +6491,7 @@
       ]
     },
     {
-      "id": "0119",
+      "id": "0125",
       "category": "WPT reftest",
       "title": "css/css-position/position-relative-table-tr-top.html",
       "file": [
@@ -6280,7 +6514,7 @@
       ]
     },
     {
-      "id": "0120",
+      "id": "0126",
       "category": "WPT reftest",
       "title": "css/css-position/position-static-001.html",
       "file": [
@@ -6303,7 +6537,7 @@
       ]
     },
     {
-      "id": "0121",
+      "id": "0127",
       "category": "WPT reftest",
       "title": "css/css-position/replaced-object-backdrop.html",
       "file": [
@@ -6367,7 +6601,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0121-WPT_reftest-css-css-position-replaced-object-backdrop.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0127-WPT_reftest-css-css-position-replaced-object-backdrop.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6406,7 +6640,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0121-WPT_reftest-css-css-position-replaced-object-backdrop.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0127-WPT_reftest-css-css-position-replaced-object-backdrop.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6422,7 +6656,7 @@
       }
     },
     {
-      "id": "0122",
+      "id": "0128",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/htb-ltr-ltr.html",
       "file": [
@@ -6486,7 +6720,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0122-WPT_reftest-css-css-position-static-position-htb-ltr-ltr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0128-WPT_reftest-css-css-position-static-position-htb-ltr-ltr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6525,7 +6759,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0122-WPT_reftest-css-css-position-static-position-htb-ltr-ltr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0128-WPT_reftest-css-css-position-static-position-htb-ltr-ltr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6541,7 +6775,7 @@
       }
     },
     {
-      "id": "0123",
+      "id": "0129",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/htb-ltr-rtl.tentative.html",
       "file": [
@@ -6605,7 +6839,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0123-WPT_reftest-css-css-position-static-position-htb-ltr-rtl.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0129-WPT_reftest-css-css-position-static-position-htb-ltr-rtl.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6644,7 +6878,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0123-WPT_reftest-css-css-position-static-position-htb-ltr-rtl.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0129-WPT_reftest-css-css-position-static-position-htb-ltr-rtl.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6660,7 +6894,7 @@
       }
     },
     {
-      "id": "0124",
+      "id": "0130",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/htb-rtl-ltr.tentative.html",
       "file": [
@@ -6724,7 +6958,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0124-WPT_reftest-css-css-position-static-position-htb-rtl-ltr.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0130-WPT_reftest-css-css-position-static-position-htb-rtl-ltr.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6763,7 +6997,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0124-WPT_reftest-css-css-position-static-position-htb-rtl-ltr.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0130-WPT_reftest-css-css-position-static-position-htb-rtl-ltr.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6779,7 +7013,7 @@
       }
     },
     {
-      "id": "0125",
+      "id": "0131",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/htb-rtl-rtl.html",
       "file": [
@@ -6843,7 +7077,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0125-WPT_reftest-css-css-position-static-position-htb-rtl-rtl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0131-WPT_reftest-css-css-position-static-position-htb-rtl-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6882,7 +7116,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0125-WPT_reftest-css-css-position-static-position-htb-rtl-rtl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0131-WPT_reftest-css-css-position-static-position-htb-rtl-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6898,7 +7132,7 @@
       }
     },
     {
-      "id": "0126",
+      "id": "0132",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/inline-level-absolute-in-block-level-context-001.html",
       "file": [
@@ -6962,7 +7196,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0126-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0132-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7001,7 +7235,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0126-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0132-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7017,7 +7251,7 @@
       }
     },
     {
-      "id": "0127",
+      "id": "0133",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/inline-level-absolute-in-block-level-context-002.html",
       "file": [
@@ -7081,7 +7315,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0127-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0133-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7120,7 +7354,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0127-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0133-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7136,7 +7370,7 @@
       }
     },
     {
-      "id": "0128",
+      "id": "0134",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/inline-level-absolute-in-block-level-context-003.html",
       "file": [
@@ -7200,7 +7434,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0128-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0134-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7239,7 +7473,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0128-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0134-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7255,7 +7489,7 @@
       }
     },
     {
-      "id": "0129",
+      "id": "0135",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/inline-level-absolute-in-block-level-context-004.html",
       "file": [
@@ -7278,7 +7512,7 @@
       ]
     },
     {
-      "id": "0130",
+      "id": "0136",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/inline-level-absolute-in-block-level-context-005.html",
       "file": [
@@ -7342,7 +7576,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0130-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-005.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0136-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-005.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7381,7 +7615,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0130-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-005.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0136-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-005.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7397,7 +7631,7 @@
       }
     },
     {
-      "id": "0131",
+      "id": "0137",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/inline-level-absolute-in-block-level-context-006.html",
       "file": [
@@ -7461,7 +7695,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0131-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-006.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0137-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-006.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7500,7 +7734,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0131-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-006.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0137-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-006.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7516,7 +7750,7 @@
       }
     },
     {
-      "id": "0132",
+      "id": "0138",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/inline-level-absolute-in-block-level-context-007.html",
       "file": [
@@ -7539,7 +7773,7 @@
       ]
     },
     {
-      "id": "0133",
+      "id": "0139",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/inline-level-absolute-in-block-level-context-008.html",
       "file": [
@@ -7603,7 +7837,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0133-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-008.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0139-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-008.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7642,7 +7876,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0133-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-008.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0139-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-008.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7658,7 +7892,7 @@
       }
     },
     {
-      "id": "0134",
+      "id": "0140",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/inline-level-absolute-in-block-level-context-009.html",
       "file": [
@@ -7722,7 +7956,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0134-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-009.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0140-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-009.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7761,7 +7995,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0134-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-009.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0140-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-009.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7777,7 +8011,7 @@
       }
     },
     {
-      "id": "0135",
+      "id": "0141",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/inline-level-absolute-in-block-level-context-010.html",
       "file": [
@@ -7841,7 +8075,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0135-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-010.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0141-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-010.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7880,7 +8114,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0135-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-010.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0141-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-010.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7896,7 +8130,7 @@
       }
     },
     {
-      "id": "0136",
+      "id": "0142",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/inline-level-absolute-in-block-level-context-011.html",
       "file": [
@@ -7960,7 +8194,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0136-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-011.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0142-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-011.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7999,7 +8233,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0136-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-011.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0142-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-011.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8015,7 +8249,7 @@
       }
     },
     {
-      "id": "0137",
+      "id": "0143",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/inline-level-absolute-in-block-level-context-012.html",
       "file": [
@@ -8079,7 +8313,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0137-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-012.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0143-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-012.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8118,7 +8352,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0137-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-012.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0143-WPT_reftest-css-css-position-static-position-inline-level-absolute-in-block-level-context-012.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8134,7 +8368,7 @@
       }
     },
     {
-      "id": "0138",
+      "id": "0144",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/inline-level-absolute-in-block-level-context-013.html",
       "file": [
@@ -8157,7 +8391,7 @@
       ]
     },
     {
-      "id": "0139",
+      "id": "0145",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/inline-level-absolute-in-block-level-context-014.html",
       "file": [
@@ -8180,7 +8414,7 @@
       ]
     },
     {
-      "id": "0140",
+      "id": "0146",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/top-layer-box-uses-icb-htb-ltr.html",
       "file": [
@@ -8244,7 +8478,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0140-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-htb-ltr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0146-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-htb-ltr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8283,7 +8517,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0140-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-htb-ltr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0146-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-htb-ltr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8299,7 +8533,7 @@
       }
     },
     {
-      "id": "0141",
+      "id": "0147",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/top-layer-box-uses-icb-htb-rtl.html",
       "file": [
@@ -8363,7 +8597,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0141-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-htb-rtl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0147-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-htb-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8402,7 +8636,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0141-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-htb-rtl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0147-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-htb-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8418,7 +8652,7 @@
       }
     },
     {
-      "id": "0142",
+      "id": "0148",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/top-layer-box-uses-icb-slr-ltr.html",
       "file": [
@@ -8482,7 +8716,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0142-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-slr-ltr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0148-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-slr-ltr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8521,7 +8755,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0142-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-slr-ltr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0148-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-slr-ltr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8537,7 +8771,7 @@
       }
     },
     {
-      "id": "0143",
+      "id": "0149",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/top-layer-box-uses-icb-slr-rtl.html",
       "file": [
@@ -8601,7 +8835,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0143-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-slr-rtl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0149-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-slr-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8640,7 +8874,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0143-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-slr-rtl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0149-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-slr-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8656,7 +8890,7 @@
       }
     },
     {
-      "id": "0144",
+      "id": "0150",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/top-layer-box-uses-icb-srl-ltr.html",
       "file": [
@@ -8720,7 +8954,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0144-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-srl-ltr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0150-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-srl-ltr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8759,7 +8993,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0144-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-srl-ltr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0150-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-srl-ltr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8775,7 +9009,7 @@
       }
     },
     {
-      "id": "0145",
+      "id": "0151",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/top-layer-box-uses-icb-srl-rtl.html",
       "file": [
@@ -8839,7 +9073,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0145-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-srl-rtl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0151-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-srl-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8878,7 +9112,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0145-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-srl-rtl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0151-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-srl-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8894,7 +9128,7 @@
       }
     },
     {
-      "id": "0146",
+      "id": "0152",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/top-layer-box-uses-icb-vlr-ltr.html",
       "file": [
@@ -8958,7 +9192,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0146-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-vlr-ltr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0152-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-vlr-ltr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -8997,7 +9231,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0146-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-vlr-ltr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0152-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-vlr-ltr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9013,7 +9247,7 @@
       }
     },
     {
-      "id": "0147",
+      "id": "0153",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/top-layer-box-uses-icb-vlr-rtl.html",
       "file": [
@@ -9077,7 +9311,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0147-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-vlr-rtl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0153-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-vlr-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9116,7 +9350,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0147-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-vlr-rtl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0153-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-vlr-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9132,7 +9366,7 @@
       }
     },
     {
-      "id": "0148",
+      "id": "0154",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/top-layer-box-uses-icb-vrl-ltr.html",
       "file": [
@@ -9196,7 +9430,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0148-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-vrl-ltr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0154-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-vrl-ltr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9235,7 +9469,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0148-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-vrl-ltr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0154-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-vrl-ltr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9251,7 +9485,7 @@
       }
     },
     {
-      "id": "0149",
+      "id": "0155",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/top-layer-box-uses-icb-vrl-rtl.html",
       "file": [
@@ -9315,7 +9549,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0149-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-vrl-rtl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0155-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-vrl-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9354,7 +9588,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0149-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-vrl-rtl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0155-WPT_reftest-css-css-position-static-position-top-layer-box-uses-icb-vrl-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9370,7 +9604,7 @@
       }
     },
     {
-      "id": "0150",
+      "id": "0156",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/vlr-ltr-ltr.html",
       "file": [
@@ -9434,7 +9668,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0150-WPT_reftest-css-css-position-static-position-vlr-ltr-ltr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0156-WPT_reftest-css-css-position-static-position-vlr-ltr-ltr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9473,7 +9707,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0150-WPT_reftest-css-css-position-static-position-vlr-ltr-ltr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0156-WPT_reftest-css-css-position-static-position-vlr-ltr-ltr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9489,7 +9723,7 @@
       }
     },
     {
-      "id": "0151",
+      "id": "0157",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/vlr-ltr-rtl.tentative.html",
       "file": [
@@ -9553,7 +9787,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0151-WPT_reftest-css-css-position-static-position-vlr-ltr-rtl.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0157-WPT_reftest-css-css-position-static-position-vlr-ltr-rtl.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9592,7 +9826,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0151-WPT_reftest-css-css-position-static-position-vlr-ltr-rtl.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0157-WPT_reftest-css-css-position-static-position-vlr-ltr-rtl.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9608,7 +9842,7 @@
       }
     },
     {
-      "id": "0152",
+      "id": "0158",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/vlr-rtl-ltr.tentative.html",
       "file": [
@@ -9672,7 +9906,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0152-WPT_reftest-css-css-position-static-position-vlr-rtl-ltr.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0158-WPT_reftest-css-css-position-static-position-vlr-rtl-ltr.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9711,7 +9945,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0152-WPT_reftest-css-css-position-static-position-vlr-rtl-ltr.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0158-WPT_reftest-css-css-position-static-position-vlr-rtl-ltr.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9727,7 +9961,7 @@
       }
     },
     {
-      "id": "0153",
+      "id": "0159",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/vlr-rtl-rtl.html",
       "file": [
@@ -9791,7 +10025,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0153-WPT_reftest-css-css-position-static-position-vlr-rtl-rtl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0159-WPT_reftest-css-css-position-static-position-vlr-rtl-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9830,7 +10064,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0153-WPT_reftest-css-css-position-static-position-vlr-rtl-rtl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0159-WPT_reftest-css-css-position-static-position-vlr-rtl-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9846,7 +10080,7 @@
       }
     },
     {
-      "id": "0154",
+      "id": "0160",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/vrl-ltr-ltr.html",
       "file": [
@@ -9910,7 +10144,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0154-WPT_reftest-css-css-position-static-position-vrl-ltr-ltr.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0160-WPT_reftest-css-css-position-static-position-vrl-ltr-ltr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9949,7 +10183,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0154-WPT_reftest-css-css-position-static-position-vrl-ltr-ltr.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0160-WPT_reftest-css-css-position-static-position-vrl-ltr-ltr.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -9965,7 +10199,7 @@
       }
     },
     {
-      "id": "0155",
+      "id": "0161",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/vrl-ltr-rtl.tentative.html",
       "file": [
@@ -10029,7 +10263,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0155-WPT_reftest-css-css-position-static-position-vrl-ltr-rtl.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0161-WPT_reftest-css-css-position-static-position-vrl-ltr-rtl.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10068,7 +10302,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0155-WPT_reftest-css-css-position-static-position-vrl-ltr-rtl.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0161-WPT_reftest-css-css-position-static-position-vrl-ltr-rtl.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10084,7 +10318,7 @@
       }
     },
     {
-      "id": "0156",
+      "id": "0162",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/vrl-rtl-ltr.tentative.html",
       "file": [
@@ -10148,7 +10382,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0156-WPT_reftest-css-css-position-static-position-vrl-rtl-ltr.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0162-WPT_reftest-css-css-position-static-position-vrl-rtl-ltr.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10187,7 +10421,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0156-WPT_reftest-css-css-position-static-position-vrl-rtl-ltr.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0162-WPT_reftest-css-css-position-static-position-vrl-rtl-ltr.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10203,7 +10437,7 @@
       }
     },
     {
-      "id": "0157",
+      "id": "0163",
       "category": "WPT reftest",
       "title": "css/css-position/static-position/vrl-rtl-rtl.html",
       "file": [
@@ -10267,7 +10501,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0157-WPT_reftest-css-css-position-static-position-vrl-rtl-rtl.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0163-WPT_reftest-css-css-position-static-position-vrl-rtl-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10306,7 +10540,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0157-WPT_reftest-css-css-position-static-position-vrl-rtl-rtl.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0163-WPT_reftest-css-css-position-static-position-vrl-rtl-rtl.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10322,7 +10556,7 @@
       }
     },
     {
-      "id": "0158",
+      "id": "0164",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-bottom-002.html",
       "file": [
@@ -10386,7 +10620,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0158-WPT_reftest-css-css-position-sticky-position-sticky-bottom-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0164-WPT_reftest-css-css-position-sticky-position-sticky-bottom-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10425,7 +10659,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0158-WPT_reftest-css-css-position-sticky-position-sticky-bottom-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0164-WPT_reftest-css-css-position-sticky-position-sticky-bottom-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10441,7 +10675,7 @@
       }
     },
     {
-      "id": "0159",
+      "id": "0165",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-bottom-003.html",
       "file": [
@@ -10505,7 +10739,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0159-WPT_reftest-css-css-position-sticky-position-sticky-bottom-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0165-WPT_reftest-css-css-position-sticky-position-sticky-bottom-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10544,7 +10778,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0159-WPT_reftest-css-css-position-sticky-position-sticky-bottom-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0165-WPT_reftest-css-css-position-sticky-position-sticky-bottom-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10560,7 +10794,7 @@
       }
     },
     {
-      "id": "0160",
+      "id": "0166",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-bottom-004.html",
       "file": [
@@ -10583,7 +10817,7 @@
       ]
     },
     {
-      "id": "0161",
+      "id": "0167",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-bottom-005.html",
       "file": [
@@ -10606,7 +10840,7 @@
       ]
     },
     {
-      "id": "0162",
+      "id": "0168",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-bottom-006.html",
       "file": [
@@ -10629,7 +10863,7 @@
       ]
     },
     {
-      "id": "0163",
+      "id": "0169",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-bottom-007.html",
       "file": [
@@ -10652,7 +10886,7 @@
       ]
     },
     {
-      "id": "0164",
+      "id": "0170",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-change-top.html",
       "file": [
@@ -10718,7 +10952,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0164-WPT_reftest-css-css-position-sticky-position-sticky-change-top.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0170-WPT_reftest-css-css-position-sticky-position-sticky-change-top.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10759,7 +10993,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0164-WPT_reftest-css-css-position-sticky-position-sticky-change-top.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0170-WPT_reftest-css-css-position-sticky-position-sticky-change-top.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10775,7 +11009,7 @@
       }
     },
     {
-      "id": "0165",
+      "id": "0171",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-child-multicolumn.html",
       "file": [
@@ -10798,7 +11032,7 @@
       ]
     },
     {
-      "id": "0166",
+      "id": "0172",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-column-reverse-flex.html",
       "file": [
@@ -10821,7 +11055,7 @@
       ]
     },
     {
-      "id": "0167",
+      "id": "0173",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-contained-by-display-table.html",
       "file": [
@@ -10889,7 +11123,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0167-WPT_reftest-css-css-position-sticky-position-sticky-contained-by-display-table.html-r01-p0003.png"
+                "diffImage": "actual-reference-diff/0173-WPT_reftest-css-css-position-sticky-position-sticky-contained-by-display-table.html-r01-p0003.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10932,7 +11166,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0167-WPT_reftest-css-css-position-sticky-position-sticky-contained-by-display-table.html-r01-p0003.png"
+                "diffImage": "baseline-reference-diff/0173-WPT_reftest-css-css-position-sticky-position-sticky-contained-by-display-table.html-r01-p0003.png"
               }
             ],
             "unexpectedEquality": false,
@@ -10948,7 +11182,7 @@
       }
     },
     {
-      "id": "0168",
+      "id": "0174",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-escape-scroller-001.html",
       "file": [
@@ -11033,7 +11267,7 @@
       }
     },
     {
-      "id": "0169",
+      "id": "0175",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-escape-scroller-002.html",
       "file": [
@@ -11118,7 +11352,7 @@
       }
     },
     {
-      "id": "0170",
+      "id": "0176",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-escape-scroller-003.html",
       "file": [
@@ -11203,7 +11437,7 @@
       }
     },
     {
-      "id": "0171",
+      "id": "0177",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-escape-scroller-004.html",
       "file": [
@@ -11288,7 +11522,7 @@
       }
     },
     {
-      "id": "0172",
+      "id": "0178",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-fixed-ancestor-002.html",
       "file": [
@@ -11352,7 +11586,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0172-WPT_reftest-css-css-position-sticky-position-sticky-fixed-ancestor-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0178-WPT_reftest-css-css-position-sticky-position-sticky-fixed-ancestor-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11391,7 +11625,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0172-WPT_reftest-css-css-position-sticky-position-sticky-fixed-ancestor-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0178-WPT_reftest-css-css-position-sticky-position-sticky-fixed-ancestor-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11407,7 +11641,7 @@
       }
     },
     {
-      "id": "0173",
+      "id": "0179",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-fixed-ancestor-003.html",
       "file": [
@@ -11471,7 +11705,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0173-WPT_reftest-css-css-position-sticky-position-sticky-fixed-ancestor-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0179-WPT_reftest-css-css-position-sticky-position-sticky-fixed-ancestor-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11510,7 +11744,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0173-WPT_reftest-css-css-position-sticky-position-sticky-fixed-ancestor-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0179-WPT_reftest-css-css-position-sticky-position-sticky-fixed-ancestor-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11526,7 +11760,7 @@
       }
     },
     {
-      "id": "0174",
+      "id": "0180",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-fixed-ancestor-iframe.html",
       "file": [
@@ -11581,7 +11815,7 @@
       ]
     },
     {
-      "id": "0175",
+      "id": "0181",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-fixed-ancestor.html",
       "file": [
@@ -11649,7 +11883,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0175-WPT_reftest-css-css-position-sticky-position-sticky-fixed-ancestor.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0181-WPT_reftest-css-css-position-sticky-position-sticky-fixed-ancestor.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11692,7 +11926,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0175-WPT_reftest-css-css-position-sticky-position-sticky-fixed-ancestor.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0181-WPT_reftest-css-css-position-sticky-position-sticky-fixed-ancestor.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11708,7 +11942,7 @@
       }
     },
     {
-      "id": "0176",
+      "id": "0182",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-flex-item-001.html",
       "file": [
@@ -11772,7 +12006,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0176-WPT_reftest-css-css-position-sticky-position-sticky-flex-item-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0182-WPT_reftest-css-css-position-sticky-position-sticky-flex-item-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11811,7 +12045,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0176-WPT_reftest-css-css-position-sticky-position-sticky-flex-item-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0182-WPT_reftest-css-css-position-sticky-position-sticky-flex-item-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11827,7 +12061,7 @@
       }
     },
     {
-      "id": "0177",
+      "id": "0183",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-flex-item-002.html",
       "file": [
@@ -11891,7 +12125,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0177-WPT_reftest-css-css-position-sticky-position-sticky-flex-item-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0183-WPT_reftest-css-css-position-sticky-position-sticky-flex-item-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11930,7 +12164,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0177-WPT_reftest-css-css-position-sticky-position-sticky-flex-item-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0183-WPT_reftest-css-css-position-sticky-position-sticky-flex-item-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -11946,7 +12180,7 @@
       }
     },
     {
-      "id": "0178",
+      "id": "0184",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-flex-item-003.html",
       "file": [
@@ -12010,7 +12244,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0178-WPT_reftest-css-css-position-sticky-position-sticky-flex-item-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0184-WPT_reftest-css-css-position-sticky-position-sticky-flex-item-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12049,7 +12283,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0178-WPT_reftest-css-css-position-sticky-position-sticky-flex-item-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0184-WPT_reftest-css-css-position-sticky-position-sticky-flex-item-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12065,7 +12299,7 @@
       }
     },
     {
-      "id": "0179",
+      "id": "0185",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-flex-item-004.html",
       "file": [
@@ -12129,7 +12363,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0179-WPT_reftest-css-css-position-sticky-position-sticky-flex-item-004.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0185-WPT_reftest-css-css-position-sticky-position-sticky-flex-item-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12168,7 +12402,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0179-WPT_reftest-css-css-position-sticky-position-sticky-flex-item-004.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0185-WPT_reftest-css-css-position-sticky-position-sticky-flex-item-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12184,7 +12418,7 @@
       }
     },
     {
-      "id": "0180",
+      "id": "0186",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-flexbox.html",
       "file": [
@@ -12207,7 +12441,7 @@
       ]
     },
     {
-      "id": "0181",
+      "id": "0187",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-fractional-offset.html",
       "file": [
@@ -12230,7 +12464,7 @@
       ]
     },
     {
-      "id": "0182",
+      "id": "0188",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-grid.html",
       "file": [
@@ -12253,7 +12487,7 @@
       ]
     },
     {
-      "id": "0183",
+      "id": "0189",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-hyperlink.html",
       "file": [
@@ -12326,7 +12560,7 @@
                 "exceededDiffPixels": 220,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0183-WPT_reftest-css-css-position-sticky-position-sticky-hyperlink.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0189-WPT_reftest-css-css-position-sticky-position-sticky-hyperlink.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12374,7 +12608,7 @@
                 "exceededDiffPixels": 220,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0183-WPT_reftest-css-css-position-sticky-position-sticky-hyperlink.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0189-WPT_reftest-css-css-position-sticky-position-sticky-hyperlink.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12390,7 +12624,7 @@
       }
     },
     {
-      "id": "0184",
+      "id": "0190",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-in-fixed-container.html",
       "file": [
@@ -12413,7 +12647,7 @@
       ]
     },
     {
-      "id": "0185",
+      "id": "0191",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-inline.html",
       "file": [
@@ -12436,7 +12670,7 @@
       ]
     },
     {
-      "id": "0186",
+      "id": "0192",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-large-top-2.tentative.html",
       "file": [
@@ -12459,7 +12693,7 @@
       ]
     },
     {
-      "id": "0187",
+      "id": "0193",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-large-top.tentative.html",
       "file": [
@@ -12482,7 +12716,7 @@
       ]
     },
     {
-      "id": "0188",
+      "id": "0194",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-left-002.html",
       "file": [
@@ -12546,7 +12780,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0188-WPT_reftest-css-css-position-sticky-position-sticky-left-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0194-WPT_reftest-css-css-position-sticky-position-sticky-left-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12585,7 +12819,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0188-WPT_reftest-css-css-position-sticky-position-sticky-left-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0194-WPT_reftest-css-css-position-sticky-position-sticky-left-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12601,7 +12835,7 @@
       }
     },
     {
-      "id": "0189",
+      "id": "0195",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-left-003.html",
       "file": [
@@ -12665,7 +12899,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0189-WPT_reftest-css-css-position-sticky-position-sticky-left-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0195-WPT_reftest-css-css-position-sticky-position-sticky-left-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12704,7 +12938,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0189-WPT_reftest-css-css-position-sticky-position-sticky-left-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0195-WPT_reftest-css-css-position-sticky-position-sticky-left-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -12720,7 +12954,7 @@
       }
     },
     {
-      "id": "0190",
+      "id": "0196",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-left-004.html",
       "file": [
@@ -12743,7 +12977,7 @@
       ]
     },
     {
-      "id": "0191",
+      "id": "0197",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-left-005.html",
       "file": [
@@ -12766,7 +13000,7 @@
       ]
     },
     {
-      "id": "0192",
+      "id": "0198",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-left-006.html",
       "file": [
@@ -12789,7 +13023,7 @@
       ]
     },
     {
-      "id": "0193",
+      "id": "0199",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-margins-002.html",
       "file": [
@@ -12812,7 +13046,7 @@
       ]
     },
     {
-      "id": "0194",
+      "id": "0200",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-margins-003.html",
       "file": [
@@ -12835,7 +13069,7 @@
       ]
     },
     {
-      "id": "0195",
+      "id": "0201",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-nested-inline.html",
       "file": [
@@ -12858,7 +13092,7 @@
       ]
     },
     {
-      "id": "0196",
+      "id": "0202",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-nested-table.html",
       "file": [
@@ -12881,7 +13115,7 @@
       ]
     },
     {
-      "id": "0197",
+      "id": "0203",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-nested-thead-th.html",
       "file": [
@@ -12904,7 +13138,7 @@
       ]
     },
     {
-      "id": "0198",
+      "id": "0204",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-on-minimum-scale.html",
       "file": [
@@ -12968,7 +13202,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0198-WPT_reftest-css-css-position-sticky-position-sticky-on-minimum-scale.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0204-WPT_reftest-css-css-position-sticky-position-sticky-on-minimum-scale.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13007,7 +13241,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0198-WPT_reftest-css-css-position-sticky-position-sticky-on-minimum-scale.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0204-WPT_reftest-css-css-position-sticky-position-sticky-on-minimum-scale.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13023,7 +13257,7 @@
       }
     },
     {
-      "id": "0199",
+      "id": "0205",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-overflow-clip-container.html",
       "file": [
@@ -13046,7 +13280,7 @@
       ]
     },
     {
-      "id": "0200",
+      "id": "0206",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-padding-001.html",
       "file": [
@@ -13069,7 +13303,7 @@
       ]
     },
     {
-      "id": "0201",
+      "id": "0207",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-padding-002.html",
       "file": [
@@ -13092,7 +13326,7 @@
       ]
     },
     {
-      "id": "0202",
+      "id": "0208",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-rendering.html",
       "file": [
@@ -13115,7 +13349,7 @@
       ]
     },
     {
-      "id": "0203",
+      "id": "0209",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-right-002.html",
       "file": [
@@ -13179,7 +13413,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0203-WPT_reftest-css-css-position-sticky-position-sticky-right-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0209-WPT_reftest-css-css-position-sticky-position-sticky-right-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13218,7 +13452,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0203-WPT_reftest-css-css-position-sticky-position-sticky-right-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0209-WPT_reftest-css-css-position-sticky-position-sticky-right-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13234,7 +13468,7 @@
       }
     },
     {
-      "id": "0204",
+      "id": "0210",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-right-003.html",
       "file": [
@@ -13298,7 +13532,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0204-WPT_reftest-css-css-position-sticky-position-sticky-right-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0210-WPT_reftest-css-css-position-sticky-position-sticky-right-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13337,7 +13571,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0204-WPT_reftest-css-css-position-sticky-position-sticky-right-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0210-WPT_reftest-css-css-position-sticky-position-sticky-right-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13353,7 +13587,7 @@
       }
     },
     {
-      "id": "0205",
+      "id": "0211",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-rtl.html",
       "file": [
@@ -13376,7 +13610,7 @@
       ]
     },
     {
-      "id": "0206",
+      "id": "0212",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-scroll-reposition.html",
       "file": [
@@ -13399,7 +13633,7 @@
       ]
     },
     {
-      "id": "0207",
+      "id": "0213",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-scroll-with-clip-and-abspos.html",
       "file": [
@@ -13465,7 +13699,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0207-WPT_reftest-css-css-position-sticky-position-sticky-scroll-with-clip-and-abspos.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0213-WPT_reftest-css-css-position-sticky-position-sticky-scroll-with-clip-and-abspos.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13506,7 +13740,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0207-WPT_reftest-css-css-position-sticky-position-sticky-scroll-with-clip-and-abspos.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0213-WPT_reftest-css-css-position-sticky-position-sticky-scroll-with-clip-and-abspos.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13522,7 +13756,7 @@
       }
     },
     {
-      "id": "0208",
+      "id": "0214",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-scrolled-remove-sibling-002.html",
       "file": [
@@ -13545,7 +13779,7 @@
       ]
     },
     {
-      "id": "0209",
+      "id": "0215",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-stacking-context-002.html",
       "file": [
@@ -13568,7 +13802,7 @@
       ]
     },
     {
-      "id": "0210",
+      "id": "0216",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-stacking-context.html",
       "file": [
@@ -13591,7 +13825,7 @@
       ]
     },
     {
-      "id": "0211",
+      "id": "0217",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-table-parts.html",
       "file": [
@@ -13614,7 +13848,7 @@
       ]
     },
     {
-      "id": "0212",
+      "id": "0218",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-table-pixel-rounding.html",
       "file": [
@@ -13678,7 +13912,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 59,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0212-WPT_reftest-css-css-position-sticky-position-sticky-table-pixel-rounding.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0218-WPT_reftest-css-css-position-sticky-position-sticky-table-pixel-rounding.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13717,7 +13951,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 59,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0212-WPT_reftest-css-css-position-sticky-position-sticky-table-pixel-rounding.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0218-WPT_reftest-css-css-position-sticky-position-sticky-table-pixel-rounding.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -13733,7 +13967,7 @@
       }
     },
     {
-      "id": "0213",
+      "id": "0219",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-table-td-bottom.html",
       "file": [
@@ -13756,7 +13990,7 @@
       ]
     },
     {
-      "id": "0214",
+      "id": "0220",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-table-td-left.html",
       "file": [
@@ -13779,7 +14013,7 @@
       ]
     },
     {
-      "id": "0215",
+      "id": "0221",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-table-td-right.html",
       "file": [
@@ -13802,7 +14036,7 @@
       ]
     },
     {
-      "id": "0216",
+      "id": "0222",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-table-td-subpixel-zoom.html",
       "file": [
@@ -13825,7 +14059,7 @@
       ]
     },
     {
-      "id": "0217",
+      "id": "0223",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-table-td-top.html",
       "file": [
@@ -13848,7 +14082,7 @@
       ]
     },
     {
-      "id": "0218",
+      "id": "0224",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-table-tfoot-bottom.html",
       "file": [
@@ -13871,7 +14105,7 @@
       ]
     },
     {
-      "id": "0219",
+      "id": "0225",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-table-th-bottom.html",
       "file": [
@@ -13894,7 +14128,7 @@
       ]
     },
     {
-      "id": "0220",
+      "id": "0226",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-table-th-left.html",
       "file": [
@@ -13917,7 +14151,7 @@
       ]
     },
     {
-      "id": "0221",
+      "id": "0227",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-table-th-right.html",
       "file": [
@@ -13940,7 +14174,7 @@
       ]
     },
     {
-      "id": "0222",
+      "id": "0228",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-table-th-top.html",
       "file": [
@@ -13963,7 +14197,7 @@
       ]
     },
     {
-      "id": "0223",
+      "id": "0229",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-table-thead-top.html",
       "file": [
@@ -13986,7 +14220,7 @@
       ]
     },
     {
-      "id": "0224",
+      "id": "0230",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-table-tr-bottom.html",
       "file": [
@@ -14009,7 +14243,7 @@
       ]
     },
     {
-      "id": "0225",
+      "id": "0231",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-table-tr-top.html",
       "file": [
@@ -14032,7 +14266,7 @@
       ]
     },
     {
-      "id": "0226",
+      "id": "0232",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-top-002.html",
       "file": [
@@ -14096,7 +14330,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0226-WPT_reftest-css-css-position-sticky-position-sticky-top-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0232-WPT_reftest-css-css-position-sticky-position-sticky-top-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14135,7 +14369,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0226-WPT_reftest-css-css-position-sticky-position-sticky-top-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0232-WPT_reftest-css-css-position-sticky-position-sticky-top-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14151,7 +14385,7 @@
       }
     },
     {
-      "id": "0227",
+      "id": "0233",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-top-003.html",
       "file": [
@@ -14215,7 +14449,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0227-WPT_reftest-css-css-position-sticky-position-sticky-top-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0233-WPT_reftest-css-css-position-sticky-position-sticky-top-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14254,7 +14488,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0227-WPT_reftest-css-css-position-sticky-position-sticky-top-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0233-WPT_reftest-css-css-position-sticky-position-sticky-top-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14270,7 +14504,7 @@
       }
     },
     {
-      "id": "0228",
+      "id": "0234",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-top-004.html",
       "file": [
@@ -14293,7 +14527,7 @@
       ]
     },
     {
-      "id": "0229",
+      "id": "0235",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-top-005.html",
       "file": [
@@ -14316,7 +14550,7 @@
       ]
     },
     {
-      "id": "0230",
+      "id": "0236",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-top-006.html",
       "file": [
@@ -14339,7 +14573,7 @@
       ]
     },
     {
-      "id": "0231",
+      "id": "0237",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-top-and-bottom-003.html",
       "file": [
@@ -14403,7 +14637,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0231-WPT_reftest-css-css-position-sticky-position-sticky-top-and-bottom-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0237-WPT_reftest-css-css-position-sticky-position-sticky-top-and-bottom-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14442,7 +14676,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0231-WPT_reftest-css-css-position-sticky-position-sticky-top-and-bottom-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0237-WPT_reftest-css-css-position-sticky-position-sticky-top-and-bottom-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14458,7 +14692,7 @@
       }
     },
     {
-      "id": "0232",
+      "id": "0238",
       "category": "WPT reftest",
       "title": "css/css-position/sticky/position-sticky-writing-modes.html",
       "file": [
@@ -14481,7 +14715,7 @@
       ]
     },
     {
-      "id": "0233",
+      "id": "0239",
       "category": "WPT reftest",
       "title": "css/css-position/z-index-blend-will-change-overlapping-layers.html",
       "file": [
@@ -14547,7 +14781,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0233-WPT_reftest-css-css-position-z-index-blend-will-change-overlapping-layers.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0239-WPT_reftest-css-css-position-z-index-blend-will-change-overlapping-layers.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14588,7 +14822,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0233-WPT_reftest-css-css-position-z-index-blend-will-change-overlapping-layers.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0239-WPT_reftest-css-css-position-z-index-blend-will-change-overlapping-layers.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14604,7 +14838,7 @@
       }
     },
     {
-      "id": "0234",
+      "id": "0240",
       "category": "WPT print-reftest",
       "title": "css/css-position/position-fixed-overflow-print.html",
       "file": [
@@ -14668,7 +14902,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0234-WPT_print-reftest-css-css-position-position-fixed-overflow-print.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0240-WPT_print-reftest-css-css-position-position-fixed-overflow-print.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14707,7 +14941,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0234-WPT_print-reftest-css-css-position-position-fixed-overflow-print.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0240-WPT_print-reftest-css-css-position-position-fixed-overflow-print.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -14723,7 +14957,7 @@
       }
     },
     {
-      "id": "0235",
+      "id": "0241",
       "category": "WPT print-reftest",
       "title": "css/css-position/position-fixed-video-controls-print.html",
       "file": [
@@ -14746,7 +14980,7 @@
       ]
     },
     {
-      "id": "0236",
+      "id": "0242",
       "category": "WPT print-reftest",
       "title": "css/css-position/sticky/position-sticky-offset-print.html",
       "file": [

@@ -3003,6 +3003,60 @@
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0123"
   category: WPT reftest
+  title: css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-036.html
+  file: css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-036.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-036.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-036.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-036-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-036-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-036-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-036-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-036-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-036-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0124"
+  category: WPT reftest
+  title: css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-037.html
+  file: css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-037.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-037.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-037.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-037-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-037-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-037-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-037-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-037-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-037-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0125"
+  category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-001.html
   file: css/css-gaps/grid/grid-gap-decorations-001.html
   type: difference
@@ -3028,7 +3082,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0124"
+- id: "0126"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-002.html
   file: css/css-gaps/grid/grid-gap-decorations-002.html
@@ -3055,7 +3109,7 @@
       referenceFile: css/css-gaps/agnostic/gap-decorations-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/agnostic/gap-decorations-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0125"
+- id: "0127"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-003.html
   file: css/css-gaps/grid/grid-gap-decorations-003.html
@@ -3082,7 +3136,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0126"
+- id: "0128"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-004.html
   file: css/css-gaps/grid/grid-gap-decorations-004.html
@@ -3109,7 +3163,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0127"
+- id: "0129"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-005.html
   file: css/css-gaps/grid/grid-gap-decorations-005.html
@@ -3136,7 +3190,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0128"
+- id: "0130"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-006.html
   file: css/css-gaps/grid/grid-gap-decorations-006.html
@@ -3163,7 +3217,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0129"
+- id: "0131"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-007.html
   file: css/css-gaps/grid/grid-gap-decorations-007.html
@@ -3190,7 +3244,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-007-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0130"
+- id: "0132"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-008.html
   file: css/css-gaps/grid/grid-gap-decorations-008.html
@@ -3217,7 +3271,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-008-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0131"
+- id: "0133"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-009.html
   file: css/css-gaps/grid/grid-gap-decorations-009.html
@@ -3244,7 +3298,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-009-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0132"
+- id: "0134"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-010.html
   file: css/css-gaps/grid/grid-gap-decorations-010.html
@@ -3271,7 +3325,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0133"
+- id: "0135"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-011.html
   file: css/css-gaps/grid/grid-gap-decorations-011.html
@@ -3298,7 +3352,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0134"
+- id: "0136"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-012.html
   file: css/css-gaps/grid/grid-gap-decorations-012.html
@@ -3325,7 +3379,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0135"
+- id: "0137"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-013.html
   file: css/css-gaps/grid/grid-gap-decorations-013.html
@@ -3352,7 +3406,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-013-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0136"
+- id: "0138"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-014.html
   file: css/css-gaps/grid/grid-gap-decorations-014.html
@@ -3379,7 +3433,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-014-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0137"
+- id: "0139"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-015.html
   file: css/css-gaps/grid/grid-gap-decorations-015.html
@@ -3406,7 +3460,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-015-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0138"
+- id: "0140"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-016.html
   file: css/css-gaps/grid/grid-gap-decorations-016.html
@@ -3433,7 +3487,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-016-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0139"
+- id: "0141"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-017.html
   file: css/css-gaps/grid/grid-gap-decorations-017.html
@@ -3460,7 +3514,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-017-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0140"
+- id: "0142"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-018.html
   file: css/css-gaps/grid/grid-gap-decorations-018.html
@@ -3487,7 +3541,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-018-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0141"
+- id: "0143"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-019.html
   file: css/css-gaps/grid/grid-gap-decorations-019.html
@@ -3514,7 +3568,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-019-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0142"
+- id: "0144"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-020.html
   file: css/css-gaps/grid/grid-gap-decorations-020.html
@@ -3541,7 +3595,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-020-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0143"
+- id: "0145"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-021.html
   file: css/css-gaps/grid/grid-gap-decorations-021.html
@@ -3568,7 +3622,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-021-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0144"
+- id: "0146"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-022.html
   file: css/css-gaps/grid/grid-gap-decorations-022.html
@@ -3595,7 +3649,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0145"
+- id: "0147"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-023.html
   file: css/css-gaps/grid/grid-gap-decorations-023.html
@@ -3622,7 +3676,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-023-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0146"
+- id: "0148"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-024.html
   file: css/css-gaps/grid/grid-gap-decorations-024.html
@@ -3649,7 +3703,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-024-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0147"
+- id: "0149"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-025.html
   file: css/css-gaps/grid/grid-gap-decorations-025.html
@@ -3676,7 +3730,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-025-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0148"
+- id: "0150"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-026.html
   file: css/css-gaps/grid/grid-gap-decorations-026.html
@@ -3703,7 +3757,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-026-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0149"
+- id: "0151"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-027.html
   file: css/css-gaps/grid/grid-gap-decorations-027.html
@@ -3730,7 +3784,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-027-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0150"
+- id: "0152"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-029.html
   file: css/css-gaps/grid/grid-gap-decorations-029.html
@@ -3757,7 +3811,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-029-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0151"
+- id: "0153"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-030.html
   file: css/css-gaps/grid/grid-gap-decorations-030.html
@@ -3784,7 +3838,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-030-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0152"
+- id: "0154"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-031.html
   file: css/css-gaps/grid/grid-gap-decorations-031.html
@@ -3811,7 +3865,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-031-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-031-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0153"
+- id: "0155"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-032.html
   file: css/css-gaps/grid/grid-gap-decorations-032.html
@@ -3838,7 +3892,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-032-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-032-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0154"
+- id: "0156"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-033.html
   file: css/css-gaps/grid/grid-gap-decorations-033.html
@@ -3865,7 +3919,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-033-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-033-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0155"
+- id: "0157"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-034.html
   file: css/css-gaps/grid/grid-gap-decorations-034.html
@@ -3892,7 +3946,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-034-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-034-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0156"
+- id: "0158"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-035.html
   file: css/css-gaps/grid/grid-gap-decorations-035.html
@@ -3919,7 +3973,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-035-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-035-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0157"
+- id: "0159"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-036.html
   file: css/css-gaps/grid/grid-gap-decorations-036.html
@@ -3946,7 +4000,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-036-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-036-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0158"
+- id: "0160"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-037.html
   file: css/css-gaps/grid/grid-gap-decorations-037.html
@@ -3973,7 +4027,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-037-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-037-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0159"
+- id: "0161"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-038.html
   file: css/css-gaps/grid/grid-gap-decorations-038.html
@@ -4000,7 +4054,7 @@
       referenceFile: css/css-gaps/agnostic/gap-decorations-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/agnostic/gap-decorations-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0160"
+- id: "0162"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-039.html
   file: css/css-gaps/grid/grid-gap-decorations-039.html
@@ -4027,7 +4081,7 @@
       referenceFile: css/css-gaps/agnostic/gap-decorations-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/agnostic/gap-decorations-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0161"
+- id: "0163"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-040.html
   file: css/css-gaps/grid/grid-gap-decorations-040.html
@@ -4054,7 +4108,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-040-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-040-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0162"
+- id: "0164"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-042.html
   file: css/css-gaps/grid/grid-gap-decorations-042.html
@@ -4081,7 +4135,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-042-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-042-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0164"
+- id: "0166"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-046.html
   file: css/css-gaps/grid/grid-gap-decorations-046.html
@@ -4108,7 +4162,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0165"
+- id: "0167"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-047.html
   file: css/css-gaps/grid/grid-gap-decorations-047.html
@@ -4135,7 +4189,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0166"
+- id: "0168"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-048.html
   file: css/css-gaps/grid/grid-gap-decorations-048.html
@@ -4162,7 +4216,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-048-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-048-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0167"
+- id: "0169"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-049.html
   file: css/css-gaps/grid/grid-gap-decorations-049.html
@@ -4189,7 +4243,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-049-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-049-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0168"
+- id: "0170"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-050.html
   file: css/css-gaps/grid/grid-gap-decorations-050.html
@@ -4216,7 +4270,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-050-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-050-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0169"
+- id: "0171"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-051.html
   file: css/css-gaps/grid/grid-gap-decorations-051.html
@@ -4243,7 +4297,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-051-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-051-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0170"
+- id: "0172"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-052.html
   file: css/css-gaps/grid/grid-gap-decorations-052.html
@@ -4270,7 +4324,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-052-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-052-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0171"
+- id: "0173"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-053.html
   file: css/css-gaps/grid/grid-gap-decorations-053.html
@@ -4297,7 +4351,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-053-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-053-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0172"
+- id: "0174"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-054.html
   file: css/css-gaps/grid/grid-gap-decorations-054.html
@@ -4324,7 +4378,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-054-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-054-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0173"
+- id: "0175"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-055.html
   file: css/css-gaps/grid/grid-gap-decorations-055.html
@@ -4351,7 +4405,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-055-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-055-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0174"
+- id: "0176"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-056.html
   file: css/css-gaps/grid/grid-gap-decorations-056.html
@@ -4378,7 +4432,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-056-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-056-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0175"
+- id: "0177"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-057.html
   file: css/css-gaps/grid/grid-gap-decorations-057.html
@@ -4405,7 +4459,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-057-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-057-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0176"
+- id: "0178"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-061.html
   file: css/css-gaps/grid/grid-gap-decorations-061.html
@@ -4432,7 +4486,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-061-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-061-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0177"
+- id: "0179"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-062.html
   file: css/css-gaps/grid/grid-gap-decorations-062.html
@@ -4459,7 +4513,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-062-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-062-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0178"
+- id: "0180"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-063.html
   file: css/css-gaps/grid/grid-gap-decorations-063.html
@@ -4486,7 +4540,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-063-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-063-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0179"
+- id: "0181"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-064.html
   file: css/css-gaps/grid/grid-gap-decorations-064.html
@@ -4513,7 +4567,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-064-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-064-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0180"
+- id: "0182"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-065.html
   file: css/css-gaps/grid/grid-gap-decorations-065.html
@@ -4540,7 +4594,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-065-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-065-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0181"
+- id: "0183"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-066.html
   file: css/css-gaps/grid/grid-gap-decorations-066.html
@@ -4567,7 +4621,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-066-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-066-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0182"
+- id: "0184"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-067.html
   file: css/css-gaps/grid/grid-gap-decorations-067.html
@@ -4594,7 +4648,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-067-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-067-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0183"
+- id: "0185"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-068.html
   file: css/css-gaps/grid/grid-gap-decorations-068.html
@@ -4621,7 +4675,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-068-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-068-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0184"
+- id: "0186"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-069.html
   file: css/css-gaps/grid/grid-gap-decorations-069.html
@@ -4648,7 +4702,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-069-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-069-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0185"
+- id: "0187"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-070.html
   file: css/css-gaps/grid/grid-gap-decorations-070.html
@@ -4675,7 +4729,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-070-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-070-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0186"
+- id: "0188"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-071.html
   file: css/css-gaps/grid/grid-gap-decorations-071.html
@@ -4702,7 +4756,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-071-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-071-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0187"
+- id: "0189"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-072.html
   file: css/css-gaps/grid/grid-gap-decorations-072.html
@@ -4729,7 +4783,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-072-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-072-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0188"
+- id: "0190"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-073.html
   file: css/css-gaps/grid/grid-gap-decorations-073.html
@@ -4756,7 +4810,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-073-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-073-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0189"
+- id: "0191"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-074.html
   file: css/css-gaps/grid/grid-gap-decorations-074.html
@@ -4783,7 +4837,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-074-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-074-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0190"
+- id: "0192"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-075.html
   file: css/css-gaps/grid/grid-gap-decorations-075.html
@@ -4810,7 +4864,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-075-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-075-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0191"
+- id: "0193"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-076.html
   file: css/css-gaps/grid/grid-gap-decorations-076.html
@@ -4837,7 +4891,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-076-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-076-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0192"
+- id: "0194"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-077.html
   file: css/css-gaps/grid/grid-gap-decorations-077.html
@@ -4864,7 +4918,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-077-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-077-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0193"
+- id: "0195"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-078.html
   file: css/css-gaps/grid/grid-gap-decorations-078.html
@@ -4891,7 +4945,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-078-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-078-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0194"
+- id: "0196"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-079.html
   file: css/css-gaps/grid/grid-gap-decorations-079.html
@@ -4918,7 +4972,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-079-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-079-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0195"
+- id: "0197"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-080.html
   file: css/css-gaps/grid/grid-gap-decorations-080.html
@@ -4945,7 +4999,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-080-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-080-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0196"
+- id: "0198"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-081.html
   file: css/css-gaps/grid/grid-gap-decorations-081.html
@@ -4972,7 +5026,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-081-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-081-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0197"
+- id: "0199"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-082.html
   file: css/css-gaps/grid/grid-gap-decorations-082.html
@@ -4999,7 +5053,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-082-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-082-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0198"
+- id: "0200"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-090.html
   file: css/css-gaps/grid/grid-gap-decorations-090.html
@@ -5026,7 +5080,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-090-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-090-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0199"
+- id: "0201"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-091.html
   file: css/css-gaps/grid/grid-gap-decorations-091.html
@@ -5053,7 +5107,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-091-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-091-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0200"
+- id: "0202"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-092.html
   file: css/css-gaps/grid/grid-gap-decorations-092.html
@@ -5080,7 +5134,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-092-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-092-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0208"
+- id: "0210"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-direction-inset.html
   file: css/css-gaps/grid/grid-gap-decorations-direction-inset.html
@@ -5107,7 +5161,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-direction-inset-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-direction-inset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0209"
+- id: "0211"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-multi-value-direction.html
   file: css/css-gaps/grid/grid-gap-decorations-multi-value-direction.html
@@ -5134,7 +5188,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-multi-value-direction-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-multi-value-direction-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0210"
+- id: "0212"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-multi-value-writing-mode.html
   file: css/css-gaps/grid/grid-gap-decorations-multi-value-writing-mode.html
@@ -5162,7 +5216,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-multi-value-writing-mode-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-multi-value-writing-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0215"
+- id: "0217"
   category: WPT reftest
   title: css/css-gaps/grid/grid-gap-decorations-writing-mode.html
   file: css/css-gaps/grid/grid-gap-decorations-writing-mode.html
@@ -5189,7 +5243,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-writing-mode-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-writing-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0217"
+- id: "0219"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-002.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-002.html
@@ -5216,7 +5270,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0218"
+- id: "0220"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-003.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-003.html
@@ -5243,7 +5297,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0220"
+- id: "0222"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-005.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-005.html
@@ -5270,7 +5324,7 @@
       referenceFile: css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-009-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0221"
+- id: "0223"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-006.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-006.html
@@ -5297,7 +5351,7 @@
       referenceFile: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0222"
+- id: "0224"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-007.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-007.html
@@ -5324,7 +5378,7 @@
       referenceFile: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-007-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0223"
+- id: "0225"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-008.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-008.html
@@ -5351,7 +5405,7 @@
       referenceFile: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-008-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0224"
+- id: "0226"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-009.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-009.html
@@ -5378,7 +5432,7 @@
       referenceFile: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-009-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0225"
+- id: "0227"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-010.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-010.html
@@ -5405,7 +5459,7 @@
       referenceFile: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0226"
+- id: "0228"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-011.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-011.html
@@ -5432,7 +5486,7 @@
       referenceFile: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0227"
+- id: "0229"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-012.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-012.html
@@ -5459,7 +5513,7 @@
       referenceFile: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0228"
+- id: "0230"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-013.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-013.html
@@ -5486,7 +5540,7 @@
       referenceFile: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-013-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0229"
+- id: "0231"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-014.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-014.html
@@ -5513,7 +5567,7 @@
       referenceFile: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-014-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0230"
+- id: "0232"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-015.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-015.html
@@ -5540,7 +5594,7 @@
       referenceFile: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-015-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0231"
+- id: "0233"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-016.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-016.html
@@ -5567,7 +5621,7 @@
       referenceFile: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-016-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0232"
+- id: "0234"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-017.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-017.html
@@ -5594,7 +5648,7 @@
       referenceFile: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-017-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0233"
+- id: "0235"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-018.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-018.html
@@ -5621,7 +5675,7 @@
       referenceFile: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-018-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0234"
+- id: "0236"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-019.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-019.html
@@ -5648,7 +5702,7 @@
       referenceFile: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-019-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0235"
+- id: "0237"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-020.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-020.html
@@ -5675,7 +5729,7 @@
       referenceFile: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-020-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0236"
+- id: "0238"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-021.html
   file: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-021.html
@@ -5702,7 +5756,7 @@
       referenceFile: css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-021-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/fragmentation/subgrid-gap-decorations-fragmentation-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0237"
+- id: "0239"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-001.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-001.html
@@ -5729,7 +5783,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0238"
+- id: "0240"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-002.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-002.html
@@ -5756,7 +5810,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0239"
+- id: "0241"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-003.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-003.html
@@ -5783,7 +5837,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0240"
+- id: "0242"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-004.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-004.html
@@ -5810,7 +5864,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0241"
+- id: "0243"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-005.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-005.html
@@ -5837,7 +5891,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-007-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0242"
+- id: "0244"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-006.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-006.html
@@ -5864,7 +5918,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-008-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0243"
+- id: "0245"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-007.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-007.html
@@ -5891,7 +5945,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0244"
+- id: "0246"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-008.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-008.html
@@ -5918,7 +5972,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0245"
+- id: "0247"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-009.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-009.html
@@ -5945,7 +5999,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0246"
+- id: "0248"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-010.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-010.html
@@ -5972,7 +6026,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0247"
+- id: "0249"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-011.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-011.html
@@ -5999,7 +6053,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0248"
+- id: "0250"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-012.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-012.html
@@ -6026,7 +6080,7 @@
       referenceFile: css/css-gaps/grid/subgrid/subgrid-gap-decorations-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/subgrid-gap-decorations-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0249"
+- id: "0251"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-013.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-013.html
@@ -6053,7 +6107,7 @@
       referenceFile: css/css-gaps/grid/subgrid/subgrid-gap-decorations-013-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/subgrid-gap-decorations-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0250"
+- id: "0252"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-014.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-014.html
@@ -6080,7 +6134,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0251"
+- id: "0253"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-015.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-015.html
@@ -6107,7 +6161,7 @@
       referenceFile: css/css-gaps/grid/subgrid/subgrid-gap-decorations-015-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/subgrid-gap-decorations-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0252"
+- id: "0254"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-016.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-016.html
@@ -6134,7 +6188,7 @@
       referenceFile: css/css-gaps/grid/subgrid/subgrid-gap-decorations-016-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/subgrid-gap-decorations-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0253"
+- id: "0255"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-017.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-017.html
@@ -6161,7 +6215,7 @@
       referenceFile: css/css-gaps/grid/subgrid/subgrid-gap-decorations-017-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/subgrid-gap-decorations-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0254"
+- id: "0256"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-018.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-018.html
@@ -6188,7 +6242,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0255"
+- id: "0257"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-019.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-019.html
@@ -6215,7 +6269,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-054-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-054-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0256"
+- id: "0258"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-020.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-020.html
@@ -6242,7 +6296,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-055-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-055-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0257"
+- id: "0259"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-021.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-021.html
@@ -6269,7 +6323,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-056-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-056-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0258"
+- id: "0260"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-022.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-022.html
@@ -6296,7 +6350,7 @@
       referenceFile: css/css-gaps/grid/grid-gap-decorations-056-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-056-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0259"
+- id: "0261"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-023.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-023.html
@@ -6323,7 +6377,7 @@
       referenceFile: css/css-gaps/grid/subgrid/subgrid-gap-decorations-023-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/subgrid-gap-decorations-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0260"
+- id: "0262"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-024.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-024.html
@@ -6350,7 +6404,7 @@
       referenceFile: css/css-gaps/grid/subgrid/subgrid-gap-decorations-024-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/subgrid-gap-decorations-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0261"
+- id: "0263"
   category: WPT reftest
   title: css/css-gaps/grid/subgrid/subgrid-gap-decorations-025.html
   file: css/css-gaps/grid/subgrid/subgrid-gap-decorations-025.html
@@ -6377,7 +6431,7 @@
       referenceFile: css/css-gaps/grid/subgrid/subgrid-gap-decorations-025-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/subgrid/subgrid-gap-decorations-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0262"
+- id: "0264"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-001.html
   file: css/css-gaps/multicol/multicol-gap-decorations-001.html
@@ -6404,7 +6458,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0263"
+- id: "0265"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-002.html
   file: css/css-gaps/multicol/multicol-gap-decorations-002.html
@@ -6431,7 +6485,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0265"
+- id: "0267"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-004.html
   file: css/css-gaps/multicol/multicol-gap-decorations-004.html
@@ -6458,7 +6512,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0266"
+- id: "0268"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-005.html
   file: css/css-gaps/multicol/multicol-gap-decorations-005.html
@@ -6485,7 +6539,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0268"
+- id: "0270"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-007.html
   file: css/css-gaps/multicol/multicol-gap-decorations-007.html
@@ -6512,7 +6566,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-007-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0269"
+- id: "0271"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-008.html
   file: css/css-gaps/multicol/multicol-gap-decorations-008.html
@@ -6539,7 +6593,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-008-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0270"
+- id: "0272"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-009.html
   file: css/css-gaps/multicol/multicol-gap-decorations-009.html
@@ -6566,7 +6620,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-009-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0271"
+- id: "0273"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-010.html
   file: css/css-gaps/multicol/multicol-gap-decorations-010.html
@@ -6593,7 +6647,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0272"
+- id: "0274"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-011.html
   file: css/css-gaps/multicol/multicol-gap-decorations-011.html
@@ -6620,7 +6674,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0273"
+- id: "0275"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-012.html
   file: css/css-gaps/multicol/multicol-gap-decorations-012.html
@@ -6647,7 +6701,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0274"
+- id: "0276"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-013.html
   file: css/css-gaps/multicol/multicol-gap-decorations-013.html
@@ -6674,7 +6728,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-013-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0275"
+- id: "0277"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-014.html
   file: css/css-gaps/multicol/multicol-gap-decorations-014.html
@@ -6701,7 +6755,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-014-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0278"
+- id: "0280"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-017.html
   file: css/css-gaps/multicol/multicol-gap-decorations-017.html
@@ -6728,7 +6782,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-017-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0279"
+- id: "0281"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-018.html
   file: css/css-gaps/multicol/multicol-gap-decorations-018.html
@@ -6755,7 +6809,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-018-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0281"
+- id: "0283"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-020.html
   file: css/css-gaps/multicol/multicol-gap-decorations-020.html
@@ -6782,7 +6836,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-020-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0282"
+- id: "0284"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-021.html
   file: css/css-gaps/multicol/multicol-gap-decorations-021.html
@@ -6809,7 +6863,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0283"
+- id: "0285"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-022.html
   file: css/css-gaps/multicol/multicol-gap-decorations-022.html
@@ -6836,7 +6890,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-022-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0284"
+- id: "0286"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-023.html
   file: css/css-gaps/multicol/multicol-gap-decorations-023.html
@@ -6863,7 +6917,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-023-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0285"
+- id: "0287"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-024.html
   file: css/css-gaps/multicol/multicol-gap-decorations-024.html
@@ -6890,7 +6944,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-024-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0286"
+- id: "0288"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-025.html
   file: css/css-gaps/multicol/multicol-gap-decorations-025.html
@@ -6917,7 +6971,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-025-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0287"
+- id: "0289"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-026.html
   file: css/css-gaps/multicol/multicol-gap-decorations-026.html
@@ -6944,7 +6998,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-026-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0288"
+- id: "0290"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-027.html
   file: css/css-gaps/multicol/multicol-gap-decorations-027.html
@@ -6971,7 +7025,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-027-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0289"
+- id: "0291"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-028.html
   file: css/css-gaps/multicol/multicol-gap-decorations-028.html
@@ -6998,7 +7052,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-028-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-028-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0290"
+- id: "0292"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-029.html
   file: css/css-gaps/multicol/multicol-gap-decorations-029.html
@@ -7025,7 +7079,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-029-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0293"
+- id: "0295"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-032.html
   file: css/css-gaps/multicol/multicol-gap-decorations-032.html
@@ -7052,7 +7106,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-032-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-032-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0294"
+- id: "0296"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-033.html
   file: css/css-gaps/multicol/multicol-gap-decorations-033.html
@@ -7079,7 +7133,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-033-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-033-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0295"
+- id: "0297"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-034.html
   file: css/css-gaps/multicol/multicol-gap-decorations-034.html
@@ -7106,7 +7160,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-034-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-034-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0296"
+- id: "0298"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-035.html
   file: css/css-gaps/multicol/multicol-gap-decorations-035.html
@@ -7133,7 +7187,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-035-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-035-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0297"
+- id: "0299"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-036.html
   file: css/css-gaps/multicol/multicol-gap-decorations-036.html
@@ -7160,7 +7214,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-036-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-036-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0298"
+- id: "0300"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-037.html
   file: css/css-gaps/multicol/multicol-gap-decorations-037.html
@@ -7187,7 +7241,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-037-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-037-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0299"
+- id: "0301"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-038.html
   file: css/css-gaps/multicol/multicol-gap-decorations-038.html
@@ -7214,7 +7268,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-038-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-038-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0300"
+- id: "0302"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-039.html
   file: css/css-gaps/multicol/multicol-gap-decorations-039.html
@@ -7241,7 +7295,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-039-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-039-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0302"
+- id: "0304"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-direction-inset.html
   file: css/css-gaps/multicol/multicol-gap-decorations-direction-inset.html
@@ -7268,7 +7322,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-direction-inset-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-direction-inset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0303"
+- id: "0305"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-multi-value-direction.html
   file: css/css-gaps/multicol/multicol-gap-decorations-multi-value-direction.html
@@ -7295,7 +7349,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-multi-value-direction-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-multi-value-direction-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0304"
+- id: "0306"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode.html
   file: css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode.html
@@ -7323,7 +7377,7 @@
       referenceFile: css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0306"
+- id: "0308"
   category: WPT reftest
   title: css/css-gaps/multicol/multicol-gap-decorations-writing-mode.html
   file: css/css-gaps/multicol/multicol-gap-decorations-writing-mode.html

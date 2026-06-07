@@ -431,6 +431,8 @@
       referenceFile: css/css-page/fixedpos-010-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/fixedpos-010-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  pageCountActual: 4
+  pageCountBaseline: 3
 - id: "0022"
   category: WPT print-reftest
   title: css/css-page/fixedpos-011-print.html
@@ -824,96 +826,6 @@
       referenceFile: css/css-page/margin-boxes/content-009-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/content-009-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0044"
-  category: WPT print-reftest
-  title: css/css-page/margin-boxes/content-010-print.html
-  file: css/css-page/margin-boxes/content-010-print.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/content-010-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/content-010-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-page/margin-boxes/content-010-print-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-page/margin-boxes/content-010-print-ref.html#1
-    - css/css-page/margin-boxes/content-010-print-ref.html#2
-    - css/css-page/margin-boxes/content-010-print-ref.html#3
-    - css/css-page/margin-boxes/content-010-print-ref.html#4
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-page/margin-boxes/content-010-print-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/content-010-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-page/margin-boxes/content-010-print-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/content-010-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0045"
-  category: WPT print-reftest
-  title: css/css-page/margin-boxes/content-011-print.html
-  file: css/css-page/margin-boxes/content-011-print.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/content-011-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/content-011-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-page/margin-boxes/content-011-print-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-page/margin-boxes/content-011-print-ref.html#1
-    - css/css-page/margin-boxes/content-011-print-ref.html#2
-    - css/css-page/margin-boxes/content-011-print-ref.html#3
-    - css/css-page/margin-boxes/content-011-print-ref.html#4
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-page/margin-boxes/content-011-print-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/content-011-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-page/margin-boxes/content-011-print-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/content-011-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0046"
-  category: WPT print-reftest
-  title: css/css-page/margin-boxes/content-012-print.html
-  file: css/css-page/margin-boxes/content-012-print.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/content-012-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/content-012-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-page/margin-boxes/content-012-print-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-page/margin-boxes/content-012-print-ref.html#1
-    - css/css-page/margin-boxes/content-012-print-ref.html#2
-    - css/css-page/margin-boxes/content-012-print-ref.html#3
-    - css/css-page/margin-boxes/content-012-print-ref.html#4
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-page/margin-boxes/content-012-print-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/content-012-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-page/margin-boxes/content-012-print-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/content-012-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0051"
   category: WPT print-reftest
   title: css/css-page/margin-boxes/dimensions-004-print.html
@@ -2167,6 +2079,20 @@
         - 4
         - 5
         - 6
+        - 7
+    - referenceFile: css/css-page/page-box-004-print-ref.html
+      actualPages:
+        - 1
+        - 2
+        - 3
+        - 4
+      baselinePages:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
   referenceViewerUrls:
     - side: canary
       referenceFile: css/css-page/page-box-004-print-ref.html
@@ -2176,6 +2102,8 @@
       referenceFile: css/css-page/page-box-004-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-box-004-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 4
 - id: "0114"
   category: WPT print-reftest
   title: css/css-page/page-box-005-print.html
@@ -2231,33 +2159,6 @@
       referenceFile: css/css-page/page-box-009-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-box-009-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0119"
-  category: WPT print-reftest
-  title: css/css-page/page-box-010-print.html
-  file: css/css-page/page-box-010-print.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-box-010-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-box-010-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-page/page-box-010-print-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-page/page-box-010-print-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-page/page-box-010-print-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-box-010-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-page/page-box-010-print-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-box-010-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0126"
   category: WPT print-reftest
   title: css/css-page/page-margin-004-print.html
@@ -2407,47 +2308,6 @@
       referenceFile: css/css-page/page-margin-negative-print-ref.tentative.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-margin-negative-print-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0136"
-  category: WPT print-reftest
-  title: css/css-page/page-name-002-print.html
-  file: css/css-page/page-name-002-print.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-002-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-002-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-page/page-name-002-print-ref.html
-  relation: "=="
-  pageSelections:
-    - referenceFile: css/css-page/page-name-002-print-ref.html
-      actualPages:
-        - 1
-        - 2
-        - 3
-        - 4
-      baselinePages:
-        - 1
-        - 2
-        - 3
-        - 4
-        - 5
-        - 6
-        - 7
-        - 8
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-page/page-name-002-print-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-002-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-page/page-name-002-print-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-002-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0137"
   category: WPT print-reftest
   title: css/css-page/page-name-003-print.html
@@ -2512,6 +2372,36 @@
       referenceFile: css/css-page/page-name-abspos-001-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-abspos-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0145"
+  category: WPT print-reftest
+  title: css/css-page/page-name-canvas-001-print.html
+  file: css/css-page/page-name-canvas-001-print.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-canvas-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-canvas-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-page/page-name-canvas-001-print-ref.html
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/css-page/page-name-canvas-001-print-ref.html
+      actualPages:
+        - 1
+      baselinePages:
+        - 1
+        - 2
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-page/page-name-canvas-001-print-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-canvas-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  pageCountActual: 1
+  pageCountBaseline: 2
 - id: "0146"
   category: WPT print-reftest
   title: css/css-page/page-name-canvas-002-print.html
@@ -2670,6 +2560,36 @@
       referenceFile: css/css-page/page-name-float-002-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-float-002-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0157"
+  category: WPT print-reftest
+  title: css/css-page/page-name-img-001-print.html
+  file: css/css-page/page-name-img-001-print.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-img-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-img-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-page/page-name-img-001-print-ref.html
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/css-page/page-name-img-001-print-ref.html
+      actualPages:
+        - 1
+      baselinePages:
+        - 1
+        - 2
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-page/page-name-img-001-print-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-img-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  pageCountActual: 1
+  pageCountBaseline: 2
 - id: "0158"
   category: WPT print-reftest
   title: css/css-page/page-name-img-002-print.html
@@ -2860,74 +2780,6 @@
       referenceFile: css/css-page/page-name-orthogonal-writing-003-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-orthogonal-writing-003-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0170"
-  category: WPT print-reftest
-  title: css/css-page/page-name-propagated-001-print.html
-  file: css/css-page/page-name-propagated-001-print.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-propagated-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-propagated-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-page/page-name-propagated-001-print-ref.html
-  relation: "=="
-  pageSelections:
-    - referenceFile: css/css-page/page-name-propagated-001-print-ref.html
-      actualPages:
-        - 1
-        - 2
-      baselinePages:
-        - 1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-page/page-name-propagated-001-print-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-propagated-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-page/page-name-propagated-001-print-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-propagated-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0171"
-  category: WPT print-reftest
-  title: css/css-page/page-name-propagated-002-print.html
-  file: css/css-page/page-name-propagated-002-print.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-propagated-002-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-propagated-002-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-page/page-name-propagated-002-print-ref.html
-  relation: "=="
-  pageSelections:
-    - referenceFile: css/css-page/page-name-propagated-002-print-ref.html
-      actualPages:
-        - 1
-        - 2
-        - 3
-        - 4
-      baselinePages:
-        - 1
-        - 2
-        - 3
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-page/page-name-propagated-002-print-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-propagated-002-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-page/page-name-propagated-002-print-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-propagated-002-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0172"
   category: WPT print-reftest
   title: css/css-page/page-name-propagated-003-print.html
@@ -3027,40 +2879,6 @@
       referenceFile: css/css-page/page-name-propagated-006-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-propagated-006-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0180"
-  category: WPT print-reftest
-  title: css/css-page/page-name-siblings-002-print.html
-  file: css/css-page/page-name-siblings-002-print.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-siblings-002-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-siblings-002-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-page/page-name-siblings-print-ref.html
-  relation: "=="
-  pageSelections:
-    - referenceFile: css/css-page/page-name-siblings-print-ref.html
-      actualPages:
-        - 1
-        - 2
-        - 3
-      baselinePages:
-        - 1
-        - 2
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-page/page-name-siblings-print-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-siblings-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-page/page-name-siblings-print-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-siblings-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0185"
   category: WPT print-reftest
   title: css/css-page/page-name-unnamed-trailing-001-print.html
@@ -3232,6 +3050,13 @@
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-size-007-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-page/page-size-007-print-ref.html
   relation: "=="
+  diffPages:
+    - css/css-page/page-size-007-print-ref.html#1
+    - css/css-page/page-size-007-print-ref.html#2
+    - css/css-page/page-size-007-print-ref.html#3
+    - css/css-page/page-size-007-print-ref.html#4
+    - css/css-page/page-size-007-print-ref.html#5
+    - css/css-page/page-size-007-print-ref.html#6
   pageSelections:
     - referenceFile: css/css-page/page-size-007-print-ref.html
       actualPages:
@@ -3274,6 +3099,13 @@
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-size-008-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-page/page-size-008-print-ref.html
   relation: "=="
+  diffPages:
+    - css/css-page/page-size-008-print-ref.html#1
+    - css/css-page/page-size-008-print-ref.html#2
+    - css/css-page/page-size-008-print-ref.html#3
+    - css/css-page/page-size-008-print-ref.html#4
+    - css/css-page/page-size-008-print-ref.html#5
+    - css/css-page/page-size-008-print-ref.html#6
   pageSelections:
     - referenceFile: css/css-page/page-size-008-print-ref.html
       actualPages:

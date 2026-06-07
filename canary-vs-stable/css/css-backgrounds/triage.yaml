@@ -1826,6 +1826,33 @@
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-relative-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0111"
   category: WPT reftest
+  title: css/css-backgrounds/background-clip/clip-text-stacking-context-child-002.html
+  file: css/css-backgrounds/background-clip/clip-text-stacking-context-child-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-stacking-context-child-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-stacking-context-child-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-backgrounds/background-clip/clip-text-stacking-context-child-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-backgrounds/background-clip/clip-text-stacking-context-child-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-backgrounds/background-clip/clip-text-stacking-context-child-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-stacking-context-child-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-backgrounds/background-clip/clip-text-stacking-context-child-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-stacking-context-child-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0112"
+  category: WPT reftest
   title: css/css-backgrounds/background-clip/clip-text-stacking-context-child.html
   file: css/css-backgrounds/background-clip/clip-text-stacking-context-child.html
   type: difference
@@ -1851,7 +1878,7 @@
       referenceFile: css/css-backgrounds/background-clip/clip-text-stacking-context-child-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-stacking-context-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0138"
+- id: "0139"
   category: WPT reftest
   title: css/css-backgrounds/background-color-body-propagation-003.html
   file: css/css-backgrounds/background-color-body-propagation-003.html
@@ -1878,7 +1905,7 @@
       referenceFile: css/css-backgrounds/background-color-body-propagation-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0139"
+- id: "0140"
   category: WPT reftest
   title: css/css-backgrounds/background-color-body-propagation-004.html
   file: css/css-backgrounds/background-color-body-propagation-004.html
@@ -1905,7 +1932,7 @@
       referenceFile: css/reference/blank.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0140"
+- id: "0141"
   category: WPT reftest
   title: css/css-backgrounds/background-color-body-propagation-005.html
   file: css/css-backgrounds/background-color-body-propagation-005.html
@@ -1932,7 +1959,7 @@
       referenceFile: css/reference/blank.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0142"
+- id: "0143"
   category: WPT reftest
   title: css/css-backgrounds/background-color-body-propagation-007.html
   file: css/css-backgrounds/background-color-body-propagation-007.html
@@ -1959,7 +1986,7 @@
       referenceFile: css/reference/blank.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0143"
+- id: "0144"
   category: WPT reftest
   title: css/css-backgrounds/background-color-body-propagation-008.html
   file: css/css-backgrounds/background-color-body-propagation-008.html
@@ -1986,7 +2013,7 @@
       referenceFile: css/css-backgrounds/background-color-no-body-propagation-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-no-body-propagation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0144"
+- id: "0145"
   category: WPT reftest
   title: css/css-backgrounds/background-color-body-propagation-009.html
   file: css/css-backgrounds/background-color-body-propagation-009.html
@@ -2013,7 +2040,7 @@
       referenceFile: css/css-backgrounds/background-color-no-body-propagation-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-no-body-propagation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0146"
+- id: "0147"
   category: WPT reftest
   title: css/css-backgrounds/background-color-root-propagation-001.html
   file: css/css-backgrounds/background-color-root-propagation-001.html
@@ -2040,7 +2067,7 @@
       referenceFile: css/reference/blank.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0167"
+- id: "0168"
   category: WPT reftest
   title: css/css-backgrounds/background-image-gradient-currentcolor-visited.html
   file: css/css-backgrounds/background-image-gradient-currentcolor-visited.html
@@ -2067,7 +2094,7 @@
       referenceFile: css/css-backgrounds/background-image-gradient-currentcolor-visited-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-image-gradient-currentcolor-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0169"
+- id: "0170"
   category: WPT reftest
   title: css/css-backgrounds/background-image-image-function.html
   file: css/css-backgrounds/background-image-image-function.html
@@ -2094,7 +2121,7 @@
       referenceFile: css/css-backgrounds/background-image-image-function-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-image-image-function-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0171"
+- id: "0172"
   category: WPT reftest
   title: css/css-backgrounds/background-image-none-gradient-repaint.html
   file: css/css-backgrounds/background-image-none-gradient-repaint.html
@@ -2121,7 +2148,7 @@
       referenceFile: css/css-backgrounds/background-clip-color-repaint-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip-color-repaint-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0172"
+- id: "0173"
   category: WPT reftest
   title: css/css-backgrounds/background-image-shared-stylesheet.html
   file: css/css-backgrounds/background-image-shared-stylesheet.html
@@ -2148,7 +2175,7 @@
       referenceFile: css/css-backgrounds/background-image-shared-stylesheet-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-image-shared-stylesheet-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0177"
+- id: "0178"
   category: WPT reftest
   title: css/css-backgrounds/background-margin-root.html
   file: css/css-backgrounds/background-margin-root.html
@@ -2175,7 +2202,7 @@
       referenceFile: css/css-backgrounds/background-margin-root-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-margin-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0178"
+- id: "0179"
   category: WPT reftest
   title: css/css-backgrounds/background-margin-transformed-root.html
   file: css/css-backgrounds/background-margin-transformed-root.html
@@ -2202,7 +2229,7 @@
       referenceFile: css/css-backgrounds/background-margin-transformed-root-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-margin-transformed-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0179"
+- id: "0180"
   category: WPT reftest
   title: css/css-backgrounds/background-margin-will-change-root.html
   file: css/css-backgrounds/background-margin-will-change-root.html
@@ -2229,7 +2256,7 @@
       referenceFile: css/css-backgrounds/background-margin-will-change-root-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-margin-will-change-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0182"
+- id: "0183"
   category: WPT reftest
   title: css/css-backgrounds/background-origin/origin-border-box.html
   file: css/css-backgrounds/background-origin/origin-border-box.html
@@ -2256,7 +2283,7 @@
       referenceFile: css/css-backgrounds/reference/origin-border-box-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-border-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0183"
+- id: "0184"
   category: WPT reftest
   title: css/css-backgrounds/background-origin/origin-border-box_with_position.html
   file: css/css-backgrounds/background-origin/origin-border-box_with_position.html
@@ -2283,7 +2310,7 @@
       referenceFile: css/css-backgrounds/reference/origin-border-box_with_position-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-border-box_with_position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0184"
+- id: "0185"
   category: WPT reftest
   title: css/css-backgrounds/background-origin/origin-border-box_with_radius.html
   file: css/css-backgrounds/background-origin/origin-border-box_with_radius.html
@@ -2310,7 +2337,7 @@
       referenceFile: css/css-backgrounds/reference/origin-border-box_with_radius-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-border-box_with_radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0185"
+- id: "0186"
   category: WPT reftest
   title: css/css-backgrounds/background-origin/origin-border-box_with_size.html
   file: css/css-backgrounds/background-origin/origin-border-box_with_size.html
@@ -2337,7 +2364,7 @@
       referenceFile: css/css-backgrounds/reference/origin-border-box_with_size-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-border-box_with_size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0186"
+- id: "0187"
   category: WPT reftest
   title: css/css-backgrounds/background-origin/origin-content-box.html
   file: css/css-backgrounds/background-origin/origin-content-box.html
@@ -2364,7 +2391,7 @@
       referenceFile: css/css-backgrounds/reference/origin-content-box-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-content-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0187"
+- id: "0188"
   category: WPT reftest
   title: css/css-backgrounds/background-origin/origin-content-box_with_position.html
   file: css/css-backgrounds/background-origin/origin-content-box_with_position.html
@@ -2391,7 +2418,7 @@
       referenceFile: css/css-backgrounds/reference/origin-content-box_with_position-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-content-box_with_position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0188"
+- id: "0189"
   category: WPT reftest
   title: css/css-backgrounds/background-origin/origin-content-box_with_radius.html
   file: css/css-backgrounds/background-origin/origin-content-box_with_radius.html
@@ -2418,7 +2445,7 @@
       referenceFile: css/css-backgrounds/reference/origin-content-box_with_radius-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-content-box_with_radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0189"
+- id: "0190"
   category: WPT reftest
   title: css/css-backgrounds/background-origin/origin-content-box_with_size.html
   file: css/css-backgrounds/background-origin/origin-content-box_with_size.html
@@ -2445,7 +2472,7 @@
       referenceFile: css/css-backgrounds/reference/origin-content-box_with_size-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-content-box_with_size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0190"
+- id: "0191"
   category: WPT reftest
   title: css/css-backgrounds/background-origin/origin-padding-box.html
   file: css/css-backgrounds/background-origin/origin-padding-box.html
@@ -2472,7 +2499,7 @@
       referenceFile: css/css-backgrounds/reference/origin-padding-box-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-padding-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0191"
+- id: "0192"
   category: WPT reftest
   title: css/css-backgrounds/background-origin/origin-padding-box_with_position.html
   file: css/css-backgrounds/background-origin/origin-padding-box_with_position.html
@@ -2499,7 +2526,7 @@
       referenceFile: css/css-backgrounds/reference/origin-padding-box_with_position-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-padding-box_with_position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0192"
+- id: "0193"
   category: WPT reftest
   title: css/css-backgrounds/background-origin/origin-padding-box_with_radius.html
   file: css/css-backgrounds/background-origin/origin-padding-box_with_radius.html
@@ -2526,7 +2553,7 @@
       referenceFile: css/css-backgrounds/reference/origin-padding-box_with_radius-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-padding-box_with_radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0193"
+- id: "0194"
   category: WPT reftest
   title: css/css-backgrounds/background-origin/origin-padding-box_with_size.html
   file: css/css-backgrounds/background-origin/origin-padding-box_with_size.html
@@ -2553,7 +2580,7 @@
       referenceFile: css/css-backgrounds/reference/origin-padding-box_with_size-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-padding-box_with_size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0198"
+- id: "0199"
   category: WPT reftest
   title: css/css-backgrounds/background-origin-006.html
   file: css/css-backgrounds/background-origin-006.html
@@ -2580,7 +2607,7 @@
       referenceFile: css/css-backgrounds/reference/background-origin-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-origin-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0203"
+- id: "0204"
   category: WPT reftest
   title: css/css-backgrounds/background-position/background-position-right-in-body.html
   file: css/css-backgrounds/background-position/background-position-right-in-body.html
@@ -2607,7 +2634,7 @@
       referenceFile: css/filter-effects/reference/green-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0206"
+- id: "0207"
   category: WPT reftest
   title: css/css-backgrounds/background-position-negative-percentage-comparison-002.html
   file: css/css-backgrounds/background-position-negative-percentage-comparison-002.html
@@ -2634,7 +2661,7 @@
       referenceFile: css/css-backgrounds/reference/background-position-negative-percentage-comparison-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-position-negative-percentage-comparison-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0215"
+- id: "0216"
   category: WPT reftest
   title: css/css-backgrounds/background-repeat/background-repeat-round.xht
   file: css/css-backgrounds/background-repeat/background-repeat-round.xht
@@ -2661,7 +2688,7 @@
       referenceFile: css/css-backgrounds/background-repeat/reference/background-repeat-round.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-repeat/reference/background-repeat-round.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0238"
+- id: "0239"
   category: WPT reftest
   title: css/css-backgrounds/background-rounded-image-clip-001.html
   file: css/css-backgrounds/background-rounded-image-clip-001.html
@@ -2688,7 +2715,7 @@
       referenceFile: css/css-backgrounds/reference/background-rounded-image-clip.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-rounded-image-clip.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0239"
+- id: "0240"
   category: WPT reftest
   title: css/css-backgrounds/background-rounded-image-clip-002.html
   file: css/css-backgrounds/background-rounded-image-clip-002.html
@@ -2715,7 +2742,7 @@
       referenceFile: css/reference/ref-filled-green-200px-square.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-200px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0241"
+- id: "0242"
   category: WPT reftest
   title: css/css-backgrounds/background-size/background-size-contain.xht
   file: css/css-backgrounds/background-size/background-size-contain.xht
@@ -2742,7 +2769,7 @@
       referenceFile: css/css-backgrounds/background-size/reference/background-size-contain.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/reference/background-size-contain.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0249"
+- id: "0250"
   category: WPT reftest
   title: css/css-backgrounds/background-size/background-size-near-zero-png.html
   file: css/css-backgrounds/background-size/background-size-near-zero-png.html
@@ -2769,7 +2796,7 @@
       referenceFile: css/css-backgrounds/background-size/reference/background-size-near-zero-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/reference/background-size-near-zero-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0250"
+- id: "0251"
   category: WPT reftest
   title: css/css-backgrounds/background-size/background-size-near-zero-svg.html
   file: css/css-backgrounds/background-size/background-size-near-zero-svg.html
@@ -2796,7 +2823,7 @@
       referenceFile: css/css-backgrounds/background-size/reference/background-size-near-zero-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/reference/background-size-near-zero-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0253"
+- id: "0254"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/background-size-vector-003.html
   file: css/css-backgrounds/background-size/vector/background-size-vector-003.html
@@ -2823,7 +2850,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0255"
+- id: "0256"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/background-size-vector-005.html
   file: css/css-backgrounds/background-size/vector/background-size-vector-005.html
@@ -2850,7 +2877,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0257"
+- id: "0258"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/background-size-vector-007.html
   file: css/css-backgrounds/background-size/vector/background-size-vector-007.html
@@ -2877,7 +2904,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0259"
+- id: "0260"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/background-size-vector-009.html
   file: css/css-backgrounds/background-size/vector/background-size-vector-009.html
@@ -2904,7 +2931,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0261"
+- id: "0262"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/background-size-vector-011.html
   file: css/css-backgrounds/background-size/vector/background-size-vector-011.html
@@ -2931,7 +2958,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0263"
+- id: "0264"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/background-size-vector-013.html
   file: css/css-backgrounds/background-size/vector/background-size-vector-013.html
@@ -2958,7 +2985,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0265"
+- id: "0266"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/background-size-vector-015.html
   file: css/css-backgrounds/background-size/vector/background-size-vector-015.html
@@ -2985,7 +3012,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0267"
+- id: "0268"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/background-size-vector-017.html
   file: css/css-backgrounds/background-size/vector/background-size-vector-017.html
@@ -3012,7 +3039,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0271"
+- id: "0272"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/background-size-vector-021.html
   file: css/css-backgrounds/background-size/vector/background-size-vector-021.html
@@ -3039,7 +3066,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/background-size-vector-021-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/background-size-vector-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0273"
+- id: "0274"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/background-size-vector-023.html
   file: css/css-backgrounds/background-size/vector/background-size-vector-023.html
@@ -3066,7 +3093,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/background-size-vector-021-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/background-size-vector-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0275"
+- id: "0276"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/background-size-vector-025.html
   file: css/css-backgrounds/background-size/vector/background-size-vector-025.html
@@ -3093,7 +3120,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0277"
+- id: "0278"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/background-size-vector-027.html
   file: css/css-backgrounds/background-size/vector/background-size-vector-027.html
@@ -3120,7 +3147,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0279"
+- id: "0280"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/background-size-vector-029.html
   file: css/css-backgrounds/background-size/vector/background-size-vector-029.html
@@ -3147,7 +3174,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0282"
+- id: "0283"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--auto--percent-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--auto--percent-width-nonpercent-height-viewbox.html
@@ -3174,7 +3201,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0284"
+- id: "0285"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--auto--percent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--auto--percent-width-omitted-height-viewbox.html
@@ -3201,7 +3228,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0286"
+- id: "0287"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--auto--percent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--auto--percent-width-percent-height-viewbox.html
@@ -3228,7 +3255,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0290"
+- id: "0291"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--auto-32px--nonpercent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--auto-32px--nonpercent-width-omitted-height-viewbox.html
@@ -3255,7 +3282,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0292"
+- id: "0293"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--auto-32px--nonpercent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--auto-32px--nonpercent-width-percent-height-viewbox.html
@@ -3282,7 +3309,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0294"
+- id: "0295"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--auto-32px--omitted-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--auto-32px--omitted-width-nonpercent-height-viewbox.html
@@ -3309,7 +3336,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0296"
+- id: "0297"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--auto-32px--omitted-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--auto-32px--omitted-width-omitted-height-viewbox.html
@@ -3336,7 +3363,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0298"
+- id: "0299"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--auto-32px--omitted-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--auto-32px--omitted-width-percent-height-viewbox.html
@@ -3363,7 +3390,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0300"
+- id: "0301"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--auto-32px--percent-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--auto-32px--percent-width-nonpercent-height-viewbox.html
@@ -3390,7 +3417,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0302"
+- id: "0303"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--auto-32px--percent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--auto-32px--percent-width-omitted-height-viewbox.html
@@ -3417,7 +3444,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0304"
+- id: "0305"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--auto-32px--percent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--auto-32px--percent-width-percent-height-viewbox.html
@@ -3444,7 +3471,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0306"
+- id: "0307"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--contain--height.html
   file: css/css-backgrounds/background-size/vector/tall--contain--height.html
@@ -3471,7 +3498,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-empty.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-empty.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0309"
+- id: "0310"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--contain--nonpercent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--contain--nonpercent-width-omitted-height-viewbox.html
@@ -3498,7 +3525,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0311"
+- id: "0312"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--contain--nonpercent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--contain--nonpercent-width-percent-height-viewbox.html
@@ -3525,7 +3552,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0313"
+- id: "0314"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--contain--omitted-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--contain--omitted-width-nonpercent-height-viewbox.html
@@ -3552,7 +3579,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0315"
+- id: "0316"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--contain--omitted-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--contain--omitted-width-omitted-height-viewbox.html
@@ -3579,7 +3606,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0317"
+- id: "0318"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--contain--omitted-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--contain--omitted-width-percent-height-viewbox.html
@@ -3606,7 +3633,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0319"
+- id: "0320"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--contain--percent-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--contain--percent-width-nonpercent-height-viewbox.html
@@ -3633,7 +3660,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0321"
+- id: "0322"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--contain--percent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--contain--percent-width-omitted-height-viewbox.html
@@ -3660,7 +3687,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0323"
+- id: "0324"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--contain--percent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--contain--percent-width-percent-height-viewbox.html
@@ -3687,7 +3714,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0325"
+- id: "0326"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--contain--width.html
   file: css/css-backgrounds/background-size/vector/tall--contain--width.html
@@ -3714,7 +3741,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-empty.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-empty.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0331"
+- id: "0332"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--cover--nonpercent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--cover--nonpercent-width-omitted-height-viewbox.html
@@ -3741,7 +3768,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0333"
+- id: "0334"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--cover--nonpercent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--cover--nonpercent-width-percent-height-viewbox.html
@@ -3768,7 +3795,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0335"
+- id: "0336"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--cover--omitted-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--cover--omitted-width-nonpercent-height-viewbox.html
@@ -3795,7 +3822,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0337"
+- id: "0338"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--cover--omitted-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--cover--omitted-width-omitted-height-viewbox.html
@@ -3822,7 +3849,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0339"
+- id: "0340"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--cover--omitted-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--cover--omitted-width-percent-height-viewbox.html
@@ -3849,7 +3876,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0341"
+- id: "0342"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--cover--percent-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--cover--percent-width-nonpercent-height-viewbox.html
@@ -3876,7 +3903,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0343"
+- id: "0344"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--cover--percent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--cover--percent-width-omitted-height-viewbox.html
@@ -3903,7 +3930,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0345"
+- id: "0346"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/tall--cover--percent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/tall--cover--percent-width-percent-height-viewbox.html
@@ -3930,7 +3957,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0350"
+- id: "0351"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--12px-auto--nonpercent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--12px-auto--nonpercent-width-omitted-height-viewbox.html
@@ -3957,7 +3984,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0352"
+- id: "0353"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--12px-auto--nonpercent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--12px-auto--nonpercent-width-percent-height-viewbox.html
@@ -3984,7 +4011,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0354"
+- id: "0355"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--12px-auto--omitted-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--12px-auto--omitted-width-nonpercent-height-viewbox.html
@@ -4011,7 +4038,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0356"
+- id: "0357"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--12px-auto--omitted-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--12px-auto--omitted-width-omitted-height-viewbox.html
@@ -4038,7 +4065,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0358"
+- id: "0359"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--12px-auto--omitted-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--12px-auto--omitted-width-percent-height-viewbox.html
@@ -4065,7 +4092,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0360"
+- id: "0361"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--12px-auto--percent-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--12px-auto--percent-width-nonpercent-height-viewbox.html
@@ -4092,7 +4119,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0362"
+- id: "0363"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--12px-auto--percent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--12px-auto--percent-width-omitted-height-viewbox.html
@@ -4119,7 +4146,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0364"
+- id: "0365"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--12px-auto--percent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--12px-auto--percent-width-percent-height-viewbox.html
@@ -4146,7 +4173,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0368"
+- id: "0369"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--auto--nonpercent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--auto--nonpercent-width-omitted-height-viewbox.html
@@ -4173,7 +4200,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime8x64-aqua8x64.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime8x64-aqua8x64.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0370"
+- id: "0371"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--auto--nonpercent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--auto--nonpercent-width-percent-height-viewbox.html
@@ -4200,7 +4227,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime8x64-aqua8x64.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime8x64-aqua8x64.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0372"
+- id: "0373"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--auto--omitted-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--auto--omitted-width-nonpercent-height-viewbox.html
@@ -4227,7 +4254,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0374"
+- id: "0375"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--auto--omitted-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--auto--omitted-width-omitted-height-viewbox.html
@@ -4254,7 +4281,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0376"
+- id: "0377"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--auto--omitted-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--auto--omitted-width-percent-height-viewbox.html
@@ -4281,7 +4308,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0378"
+- id: "0379"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--auto--percent-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--auto--percent-width-nonpercent-height-viewbox.html
@@ -4308,7 +4335,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0380"
+- id: "0381"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--auto--percent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--auto--percent-width-omitted-height-viewbox.html
@@ -4335,7 +4362,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0382"
+- id: "0383"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--auto--percent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--auto--percent-width-percent-height-viewbox.html
@@ -4362,7 +4389,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0386"
+- id: "0387"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--auto-32px--nonpercent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--auto-32px--nonpercent-width-omitted-height-viewbox.html
@@ -4389,7 +4416,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0388"
+- id: "0389"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--auto-32px--nonpercent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--auto-32px--nonpercent-width-percent-height-viewbox.html
@@ -4416,7 +4443,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0390"
+- id: "0391"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--auto-32px--omitted-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--auto-32px--omitted-width-nonpercent-height-viewbox.html
@@ -4443,7 +4470,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0392"
+- id: "0393"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--auto-32px--omitted-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--auto-32px--omitted-width-omitted-height-viewbox.html
@@ -4470,7 +4497,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0394"
+- id: "0395"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--auto-32px--omitted-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--auto-32px--omitted-width-percent-height-viewbox.html
@@ -4497,7 +4524,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0396"
+- id: "0397"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-nonpercent-height-viewbox.html
@@ -4524,7 +4551,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0398"
+- id: "0399"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-omitted-height-viewbox.html
@@ -4551,7 +4578,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0400"
+- id: "0401"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-percent-height-viewbox.html
@@ -4578,7 +4605,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0402"
+- id: "0403"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--contain--height.html
   file: css/css-backgrounds/background-size/vector/wide--contain--height.html
@@ -4605,7 +4632,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-empty.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-empty.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0405"
+- id: "0406"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--contain--nonpercent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--contain--nonpercent-width-omitted-height-viewbox.html
@@ -4632,7 +4659,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0407"
+- id: "0408"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--contain--nonpercent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--contain--nonpercent-width-percent-height-viewbox.html
@@ -4659,7 +4686,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0409"
+- id: "0410"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--contain--omitted-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--contain--omitted-width-nonpercent-height-viewbox.html
@@ -4686,7 +4713,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0411"
+- id: "0412"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--contain--omitted-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--contain--omitted-width-omitted-height-viewbox.html
@@ -4713,7 +4740,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0413"
+- id: "0414"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--contain--omitted-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--contain--omitted-width-percent-height-viewbox.html
@@ -4740,7 +4767,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0415"
+- id: "0416"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--contain--percent-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--contain--percent-width-nonpercent-height-viewbox.html
@@ -4767,7 +4794,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0417"
+- id: "0418"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--contain--percent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--contain--percent-width-omitted-height-viewbox.html
@@ -4794,7 +4821,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0419"
+- id: "0420"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--contain--percent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--contain--percent-width-percent-height-viewbox.html
@@ -4821,7 +4848,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0421"
+- id: "0422"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--contain--width.html
   file: css/css-backgrounds/background-size/vector/wide--contain--width.html
@@ -4848,7 +4875,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-empty.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-empty.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0425"
+- id: "0426"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--cover--nonpercent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--cover--nonpercent-width-omitted-height-viewbox.html
@@ -4875,7 +4902,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0427"
+- id: "0428"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--cover--nonpercent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--cover--nonpercent-width-percent-height-viewbox.html
@@ -4902,7 +4929,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0429"
+- id: "0430"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--cover--omitted-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--cover--omitted-width-nonpercent-height-viewbox.html
@@ -4929,7 +4956,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0431"
+- id: "0432"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--cover--omitted-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--cover--omitted-width-omitted-height-viewbox.html
@@ -4956,7 +4983,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0433"
+- id: "0434"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--cover--omitted-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--cover--omitted-width-percent-height-viewbox.html
@@ -4983,7 +5010,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0435"
+- id: "0436"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--cover--percent-width-nonpercent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--cover--percent-width-nonpercent-height-viewbox.html
@@ -5010,7 +5037,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0437"
+- id: "0438"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--cover--percent-width-omitted-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--cover--percent-width-omitted-height-viewbox.html
@@ -5037,7 +5064,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0439"
+- id: "0440"
   category: WPT reftest
   title: css/css-backgrounds/background-size/vector/wide--cover--percent-width-percent-height-viewbox.html
   file: css/css-backgrounds/background-size/vector/wide--cover--percent-width-percent-height-viewbox.html
@@ -5064,7 +5091,7 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0493"
+- id: "0494"
   category: WPT reftest
   title: css/css-backgrounds/background-size-percentage-root.html
   file: css/css-backgrounds/background-size-percentage-root.html
@@ -5091,7 +5118,7 @@
       referenceFile: css/css-backgrounds/background-size-percentage-root-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-percentage-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0538"
+- id: "0539"
   category: WPT reftest
   title: css/css-backgrounds/border-image-repeat-round-003.html
   file: css/css-backgrounds/border-image-repeat-round-003.html
@@ -5118,7 +5145,7 @@
       referenceFile: css/css-backgrounds/reference/border-image-repeat-round-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-round-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0541"
+- id: "0542"
   category: WPT reftest
   title: css/css-backgrounds/border-image-repeat-round-stretch-001.html
   file: css/css-backgrounds/border-image-repeat-round-stretch-001.html
@@ -5145,7 +5172,7 @@
       referenceFile: css/css-backgrounds/reference/border-image-repeat-round-stretch-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-round-stretch-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0556"
+- id: "0557"
   category: WPT reftest
   title: css/css-backgrounds/border-image-repeat-stretch-round-001.html
   file: css/css-backgrounds/border-image-repeat-stretch-round-001.html
@@ -5172,7 +5199,7 @@
       referenceFile: css/css-backgrounds/reference/border-image-repeat-stretch-round-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-stretch-round-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0560"
+- id: "0561"
   category: WPT reftest
   title: css/css-backgrounds/border-image-shorthand-003.htm
   file: css/css-backgrounds/border-image-shorthand-003.htm
@@ -5199,7 +5226,7 @@
       referenceFile: css/css-backgrounds/reference/border-image-shorthand-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-shorthand-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0578"
+- id: "0579"
   category: WPT reftest
   title: css/css-backgrounds/border-image-width-009.html
   file: css/css-backgrounds/border-image-width-009.html
@@ -5226,7 +5253,7 @@
       referenceFile: css/css-backgrounds/reference/border-image-width-009-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-width-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0580"
+- id: "0581"
   category: WPT reftest
   title: css/css-backgrounds/border-left-width-medium.html
   file: css/css-backgrounds/border-left-width-medium.html
@@ -5253,7 +5280,7 @@
       referenceFile: css/css-backgrounds/reference/border-right-width-3px-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-right-width-3px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0581"
+- id: "0582"
   category: WPT reftest
   title: css/css-backgrounds/border-left-width-thick.html
   file: css/css-backgrounds/border-left-width-thick.html
@@ -5280,7 +5307,7 @@
       referenceFile: css/css-backgrounds/reference/border-right-width-5px-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-right-width-5px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0582"
+- id: "0583"
   category: WPT reftest
   title: css/css-backgrounds/border-left-width-thin.html
   file: css/css-backgrounds/border-left-width-thin.html
@@ -5307,7 +5334,7 @@
       referenceFile: css/css-backgrounds/reference/border-right-width-1px-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-right-width-1px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0598"
+- id: "0599"
   category: WPT reftest
   title: css/css-backgrounds/border-radius-clipping-002.html
   file: css/css-backgrounds/border-radius-clipping-002.html
@@ -5339,7 +5366,7 @@
       referenceFile: css/reference/ref-nothing-below.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-nothing-below.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0600"
+- id: "0601"
   category: WPT reftest
   title: css/css-backgrounds/border-radius-dynamic-from-no-radius.html
   file: css/css-backgrounds/border-radius-dynamic-from-no-radius.html
@@ -5366,7 +5393,7 @@
       referenceFile: css/css-backgrounds/border-radius-dynamic-from-no-radius-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-radius-dynamic-from-no-radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0603"
+- id: "0604"
   category: WPT reftest
   title: css/css-backgrounds/border-right-width-medium.html
   file: css/css-backgrounds/border-right-width-medium.html
@@ -5393,7 +5420,7 @@
       referenceFile: css/css-backgrounds/reference/border-right-width-3px-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-right-width-3px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0604"
+- id: "0605"
   category: WPT reftest
   title: css/css-backgrounds/border-right-width-thick.html
   file: css/css-backgrounds/border-right-width-thick.html
@@ -5420,7 +5447,7 @@
       referenceFile: css/css-backgrounds/reference/border-right-width-5px-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-right-width-5px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0605"
+- id: "0606"
   category: WPT reftest
   title: css/css-backgrounds/border-right-width-thin.html
   file: css/css-backgrounds/border-right-width-thin.html
@@ -5447,7 +5474,7 @@
       referenceFile: css/css-backgrounds/reference/border-right-width-1px-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-right-width-1px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0641"
+- id: "0642"
   category: WPT reftest
   title: css/css-backgrounds/box-shadow-border-radius-001.html
   file: css/css-backgrounds/box-shadow-border-radius-001.html
@@ -5474,7 +5501,7 @@
       referenceFile: css/css-backgrounds/reference/box-shadow-border-radius-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/box-shadow-border-radius-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0646"
+- id: "0647"
   category: WPT reftest
   title: css/css-backgrounds/box-shadow-multiple-001.html
   file: css/css-backgrounds/box-shadow-multiple-001.html
@@ -5501,7 +5528,7 @@
       referenceFile: css/css-backgrounds/reference/box-shadow-multiple-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/box-shadow-multiple-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0658"
+- id: "0659"
   category: WPT reftest
   title: css/css-backgrounds/color-mix-currentcolor-background-repaint-parent.html
   file: css/css-backgrounds/color-mix-currentcolor-background-repaint-parent.html
@@ -5528,7 +5555,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0659"
+- id: "0660"
   category: WPT reftest
   title: css/css-backgrounds/color-mix-currentcolor-background-repaint.html
   file: css/css-backgrounds/color-mix-currentcolor-background-repaint.html
@@ -5555,7 +5582,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0660"
+- id: "0661"
   category: WPT reftest
   title: css/css-backgrounds/color-mix-currentcolor-border-repaint-parent.html
   file: css/css-backgrounds/color-mix-currentcolor-border-repaint-parent.html
@@ -5582,7 +5609,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0661"
+- id: "0662"
   category: WPT reftest
   title: css/css-backgrounds/color-mix-currentcolor-border-repaint.html
   file: css/css-backgrounds/color-mix-currentcolor-border-repaint.html
@@ -5609,7 +5636,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0662"
+- id: "0663"
   category: WPT reftest
   title: css/css-backgrounds/color-mix-currentcolor-outline-repaint-parent.html
   file: css/css-backgrounds/color-mix-currentcolor-outline-repaint-parent.html
@@ -5636,7 +5663,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0663"
+- id: "0664"
   category: WPT reftest
   title: css/css-backgrounds/color-mix-currentcolor-outline-repaint.html
   file: css/css-backgrounds/color-mix-currentcolor-outline-repaint.html
@@ -5663,7 +5690,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0680"
+- id: "0681"
   category: WPT reftest
   title: css/css-backgrounds/currentcolor-border-repaint-parent.html
   file: css/css-backgrounds/currentcolor-border-repaint-parent.html
@@ -5690,7 +5717,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0681"
+- id: "0682"
   category: WPT reftest
   title: css/css-backgrounds/document-canvas-remove-body.html
   file: css/css-backgrounds/document-canvas-remove-body.html
@@ -5717,7 +5744,7 @@
       referenceFile: css/css-backgrounds/document-canvas-remove-body-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/document-canvas-remove-body-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0683"
+- id: "0684"
   category: WPT reftest
   title: css/css-backgrounds/first-letter-space-not-selected.html
   file: css/css-backgrounds/first-letter-space-not-selected.html
@@ -5744,7 +5771,7 @@
       referenceFile: css/css-backgrounds/reference/first-letter-space-not-selected-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/first-letter-space-not-selected-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0690"
+- id: "0691"
   category: WPT reftest
   title: css/css-backgrounds/local-attachment-content-box-scroll.html
   file: css/css-backgrounds/local-attachment-content-box-scroll.html
@@ -5771,7 +5798,7 @@
       referenceFile: css/css-backgrounds/local-attachment-content-box-scroll-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/local-attachment-content-box-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0691"
+- id: "0692"
   category: WPT reftest
   title: css/css-backgrounds/local-attachment-flex-column-reverse-scroll.html
   file: css/css-backgrounds/local-attachment-flex-column-reverse-scroll.html
@@ -5798,7 +5825,7 @@
       referenceFile: css/css-backgrounds/local-attachment-flex-column-reverse-scroll-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/local-attachment-flex-column-reverse-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0692"
+- id: "0693"
   category: WPT reftest
   title: css/css-backgrounds/local-attachment-flex-row-reverse-scroll.html
   file: css/css-backgrounds/local-attachment-flex-row-reverse-scroll.html
@@ -5825,7 +5852,7 @@
       referenceFile: css/css-backgrounds/local-attachment-flex-row-reverse-scroll-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/local-attachment-flex-row-reverse-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0693"
+- id: "0694"
   category: WPT reftest
   title: css/css-backgrounds/local-attachment-rtl-and-flex-row-reverse-scroll.html
   file: css/css-backgrounds/local-attachment-rtl-and-flex-row-reverse-scroll.html
@@ -5852,7 +5879,7 @@
       referenceFile: css/css-backgrounds/local-attachment-rtl-and-flex-row-reverse-scroll-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/local-attachment-rtl-and-flex-row-reverse-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0694"
+- id: "0695"
   category: WPT reftest
   title: css/css-backgrounds/local-attachment-rtl-scroll.html
   file: css/css-backgrounds/local-attachment-rtl-scroll.html
@@ -5879,7 +5906,7 @@
       referenceFile: css/css-backgrounds/local-attachment-rtl-scroll-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/local-attachment-rtl-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0696"
+- id: "0697"
   category: WPT reftest
   title: css/css-backgrounds/scroll-positioned-multiple-background-images.html
   file: css/css-backgrounds/scroll-positioned-multiple-background-images.html
@@ -5906,7 +5933,7 @@
       referenceFile: css/css-backgrounds/reference/60x60-green-background.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/60x60-green-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0698"
+- id: "0699"
   category: WPT reftest
   title: css/css-backgrounds/table-cell-background-local-002.html
   file: css/css-backgrounds/table-cell-background-local-002.html
@@ -5933,7 +5960,7 @@
       referenceFile: css/css-backgrounds/reference/table-cell-background-local-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/table-cell-background-local-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0699"
+- id: "0700"
   category: WPT reftest
   title: css/css-backgrounds/table-cell-background-local-003.html
   file: css/css-backgrounds/table-cell-background-local-003.html
@@ -5960,7 +5987,7 @@
       referenceFile: css/css-backgrounds/reference/table-cell-background-local-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/table-cell-background-local-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0700"
+- id: "0701"
   category: WPT reftest
   title: css/css-backgrounds/table-cell-background-local.html
   file: css/css-backgrounds/table-cell-background-local.html
@@ -5992,7 +6019,7 @@
       referenceFile: css/css-backgrounds/table-cell-background-local-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/table-cell-background-local-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0141"
+- id: "0142"
   category: WPT reftest
   title: css/css-backgrounds/background-color-body-propagation-006.html
   file: css/css-backgrounds/background-color-body-propagation-006.html
@@ -6009,7 +6036,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): navigating to page 1"
-- id: "0147"
+- id: "0148"
   category: WPT reftest
   title: css/css-backgrounds/background-color-root-propagation-002.html
   file: css/css-backgrounds/background-color-root-propagation-002.html
@@ -6024,5 +6051,30 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  errorName: TimeoutError
-  errorMessage: "Timeout (10000ms): navigating to page 1"
+  sideErrors:
+    - side: canary
+      errorName: TimeoutError
+      errorMessage: |
+        locator.fill: Timeout 10000ms exceeded.
+        Call log:
+          - waiting for locator('#vivliostyle-page-number')
+            - locator resolved to <input type="text" autocomplete="off" inputmode="numeric" aria-keyshortcuts="G" title="Go to Page… (G)" aria-label="Page number" id="vivliostyle-page-number" data-bind="value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}"/>
+            - fill("1")
+          - attempting fill action
+            2 × waiting for element to be visible, enabled and editable
+              - element is not visible
+            - retrying fill action
+            - waiting 20ms
+            2 × waiting for element to be visible, enabled and editable
+              - element is not visible
+            - retrying fill action
+              - waiting 100ms
+            17 × waiting for element to be visible, enabled and editable
+               - element is not visible
+             - retrying fill action
+               - waiting 500ms
+      timeout: true
+    - side: stable
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): navigating to page 1"
+      timeout: true

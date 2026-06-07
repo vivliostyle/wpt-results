@@ -133,7 +133,7 @@
       referenceFile: css/css-forms/input-color-base-appearance-rendering-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/input-color-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0007"
+- id: "0008"
   category: WPT reftest
   title: css/css-forms/input-number-base-appearance-rendering.tentative.html
   file: css/css-forms/input-number-base-appearance-rendering.tentative.html
@@ -160,7 +160,7 @@
       referenceFile: css/css-forms/input-number-base-appearance-rendering-ref.tentative.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0008"
+- id: "0009"
   category: WPT reftest
   title: css/css-forms/input-search-base-appearance-rendering.tentative.html
   file: css/css-forms/input-search-base-appearance-rendering.tentative.html
@@ -187,7 +187,7 @@
       referenceFile: css/css-forms/input-search-base-appearance-rendering-ref.tentative.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/input-search-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0009"
+- id: "0010"
   category: WPT reftest
   title: css/css-forms/input-text-base-appearance-rendering.html
   file: css/css-forms/input-text-base-appearance-rendering.html
@@ -214,7 +214,7 @@
       referenceFile: css/css-forms/input-text-base-appearance-rendering-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/input-text-base-appearance-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0010"
+- id: "0011"
   category: WPT reftest
   title: css/css-forms/meter-base-appearance-custom-style-initial-rendering.tentative.html
   file: css/css-forms/meter-base-appearance-custom-style-initial-rendering.tentative.html
@@ -241,7 +241,7 @@
       referenceFile: css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-initial-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0011"
+- id: "0012"
   category: WPT reftest
   title: css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering.tentative.html
   file: css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering.tentative.html
@@ -268,7 +268,7 @@
       referenceFile: css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/meter-base-appearance-custom-style-value-dynamic-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0012"
+- id: "0013"
   category: WPT reftest
   title: css/css-forms/progress-base-appearance-rendering.tentative.html
   file: css/css-forms/progress-base-appearance-rendering.tentative.html
@@ -295,7 +295,7 @@
       referenceFile: css/css-forms/progress-base-appearance-rendering-ref.tentative.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0013"
+- id: "0014"
   category: WPT reftest
   title: css/css-forms/radio-checkmark-animation-002.html
   file: css/css-forms/radio-checkmark-animation-002.html
@@ -322,7 +322,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0014"
+- id: "0015"
   category: WPT reftest
   title: css/css-forms/textarea-base-appearance-rendering.tentative.html
   file: css/css-forms/textarea-base-appearance-rendering.tentative.html

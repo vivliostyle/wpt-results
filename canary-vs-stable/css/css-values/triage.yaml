@@ -511,6 +511,29 @@
       referenceFile: css/css-values/inline-cache-base-uri-cssom-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/inline-cache-base-uri-cssom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0129"
+  category: WPT reftest
+  title: css/css-values/inline-cache-base-uri.html
+  file: css/css-values/inline-cache-base-uri.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/inline-cache-base-uri.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/inline-cache-base-uri.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-values/inline-cache-base-uri-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-values/inline-cache-base-uri-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-values/inline-cache-base-uri-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/inline-cache-base-uri-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0134"
   category: WPT reftest
   title: css/css-values/max-20-arguments.html
@@ -1834,6 +1857,33 @@
       referenceFile: css/css-values/reference/all-green.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/all-green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0199"
+  category: WPT reftest
+  title: css/css-values/vh-update-and-transition-in-subframe.html
+  file: css/css-values/vh-update-and-transition-in-subframe.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-values/reference/vh-update-and-transition-in-subframe-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-values/reference/vh-update-and-transition-in-subframe-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-values/reference/vh-update-and-transition-in-subframe-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-values/reference/vh-update-and-transition-in-subframe-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0202"
   category: WPT reftest
   title: css/css-values/viewport-units-scrollbars-auto-vhw-001.html

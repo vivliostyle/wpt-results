@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 162
+- Compared entries: 165
 - Entries with differences: 30 (pending: 30, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":30,"pass":132}
+- Outcome summary: {"known-fail":30,"pass":135}
 
 ## Differences
 
@@ -127,7 +127,7 @@
   stable page 1: diffRatio=0.0018319212273872224, diffPixels=1536
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0056] [WPT reftest] css/css-tables/height-distribution/percentage-sizing-of-table-cell-007.html
+- [0059] [WPT reftest] css/css-tables/height-distribution/percentage-sizing-of-table-cell-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/height-distribution/percentage-sizing-of-table-cell-007-ref.html (==)
@@ -140,7 +140,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0057] [WPT reftest] css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002.html
+- [0060] [WPT reftest] css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002-ref.html (==)
@@ -153,7 +153,7 @@
   stable page 1: diffRatio=0.008230526295702619, diffPixels=6901
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0062] [WPT reftest] css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001.html
+- [0065] [WPT reftest] css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001-ref.html (==)
@@ -166,7 +166,7 @@
   stable page 1: diffRatio=0.007839334783604305, diffPixels=6573
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0067] [WPT reftest] css/css-tables/insert-after-col.html
+- [0070] [WPT reftest] css/css-tables/insert-after-col.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/insert-after-col-ref.html (==)
@@ -179,7 +179,7 @@
   stable page 1: diffRatio=0.07573372261659415, diffPixels=63500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/insert-after-col-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0075] [WPT reftest] css/css-tables/paint/col-change-span-bg-invalidation-001.html
+- [0078] [WPT reftest] css/css-tables/paint/col-change-span-bg-invalidation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -192,7 +192,7 @@
   stable page 1: diffRatio=0.003935768261964736, diffPixels=3300
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0076] [WPT reftest] css/css-tables/paint/col-change-span-bg-invalidation-002.html
+- [0079] [WPT reftest] css/css-tables/paint/col-change-span-bg-invalidation-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -205,7 +205,7 @@
   stable page 1: diffRatio=0.003935768261964736, diffPixels=3300
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0079] [WPT reftest] css/css-tables/paint/row-background-paint-remove-last-cell.html
+- [0082] [WPT reftest] css/css-tables/paint/row-background-paint-remove-last-cell.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/paint/row-background-paint-remove-last-cell-ref.html (==)
@@ -218,7 +218,7 @@
   stable page 1: diffRatio=0.0004329345088161209, diffPixels=363
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/paint/row-background-paint-remove-last-cell-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0082] [WPT reftest] css/css-tables/percent-height-replaced-in-percent-cell-002.html
+- [0085] [WPT reftest] css/css-tables/percent-height-replaced-in-percent-cell-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -231,7 +231,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0083] [WPT reftest] css/css-tables/percent-height-replaced-in-percent-cell-003.html
+- [0086] [WPT reftest] css/css-tables/percent-height-replaced-in-percent-cell-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -244,7 +244,7 @@
   stable page 1: diffRatio=0.011925377833753149, diffPixels=9999
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0084] [WPT reftest] css/css-tables/percent-height-replaced-in-percent-cell-004.html
+- [0087] [WPT reftest] css/css-tables/percent-height-replaced-in-percent-cell-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -257,7 +257,7 @@
   stable page 1: diffRatio=0.011925377833753149, diffPixels=9999
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0089] [WPT reftest] css/css-tables/percentages-grandchildren-quirks-mode-002.html
+- [0092] [WPT reftest] css/css-tables/percentages-grandchildren-quirks-mode-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -270,7 +270,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0096] [WPT reftest] css/css-tables/rules-groups.html
+- [0099] [WPT reftest] css/css-tables/rules-groups.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/rules-groups-ref.html (==)
@@ -283,7 +283,7 @@
   stable page 1: diffRatio=0.007025942676131593, diffPixels=5891
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/rules-groups-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0109] [WPT reftest] css/css-tables/table-cell-child-overflow-measure.html
+- [0112] [WPT reftest] css/css-tables/table-cell-child-overflow-measure.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/table-cell-child-overflow-measure-ref.html (==)
@@ -296,7 +296,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/table-cell-child-overflow-measure-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0115] [WPT reftest] css/css-tables/table-cell-width-0.html
+- [0118] [WPT reftest] css/css-tables/table-cell-width-0.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/table-cell-width-0-ref.html (==)
@@ -309,7 +309,7 @@
   stable page 1: diffRatio=0.0357427391038852, diffPixels=29969
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/table-cell-width-0-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0143] [WPT reftest] css/css-tables/tentative/padding-percentage.html
+- [0146] [WPT reftest] css/css-tables/tentative/padding-percentage.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -322,7 +322,7 @@
   stable page 1: diffRatio=0.004114666819326769, diffPixels=3450
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0149] [WPT reftest] css/css-tables/tentative/paint/overflow-hidden-table.html
+- [0152] [WPT reftest] css/css-tables/tentative/paint/overflow-hidden-table.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/tentative/paint/overflow-hidden-table-ref.html (==)
@@ -335,7 +335,7 @@
   stable page 1: diffRatio=0.002862376917792535, diffPixels=2400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/tentative/paint/overflow-hidden-table-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0152] [WPT reftest] css/css-tables/th-text-align.html
+- [0155] [WPT reftest] css/css-tables/th-text-align.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/th-text-align-ref.html (==)
@@ -348,7 +348,7 @@
   stable page 1: diffRatio=0.000054862224257690255, diffPixels=46
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/th-text-align-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0153] [WPT reftest] css/css-tables/toggle-row-display-property-001.html
+- [0156] [WPT reftest] css/css-tables/toggle-row-display-property-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/toggle-row-display-property-001-ref.html (==)
@@ -361,7 +361,7 @@
   stable page 1: diffRatio=0.005665120983131058, diffPixels=4750
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/toggle-row-display-property-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0156] [WPT reftest] css/css-tables/visibility-collapse-colspan-003.html
+- [0159] [WPT reftest] css/css-tables/visibility-collapse-colspan-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/visibility-collapse-colspan-003-ref.html (==)
@@ -374,7 +374,7 @@
   stable page 1: diffRatio=0.00032082474620257997, diffPixels=269
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/visibility-collapse-colspan-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0157] [WPT reftest] css/css-tables/visibility-collapse-rowspan-005.html
+- [0160] [WPT reftest] css/css-tables/visibility-collapse-rowspan-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/visibility-collapse-rowspan-005-ref.html (==)
@@ -387,7 +387,7 @@
   stable page 1: diffRatio=0.0005688974124112663, diffPixels=477
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/visibility-collapse-rowspan-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0159] [WPT reftest] css/css-tables/whitespace-001.html
+- [0162] [WPT reftest] css/css-tables/whitespace-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/whitespace-001-ref.html (==)
