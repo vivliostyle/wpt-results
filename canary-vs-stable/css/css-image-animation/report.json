@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T16:53:42.596Z",
+  "generatedAt": "2026-06-08T09:14:00.959Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -38,41 +38,157 @@
     "timeoutMs": 10000
   },
   "summary": {
-    "totalEntries": 19,
+    "totalEntries": 20,
     "entriesWithDifferences": 18,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 3,
+    "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "known-fail": 15,
-        "improvement": 2,
-        "changed-fail": 1,
-        "pass": 1
+        "known-fail": 18,
+        "pass": 2
       },
       "statusPairs": {
-        "FAIL->FAIL": 16,
-        "FAIL->PASS": 2,
-        "PASS->PASS": 1
+        "FAIL->FAIL": 18,
+        "PASS->PASS": 2
       }
     },
     "triage": {
       "differences": {
-        "pending": 16,
+        "pending": 18,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 16,
+      "pendingEntries": 18,
       "triagedEntries": 0
     }
   },
   "entries": [
     {
       "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-background-paused-rounded.html",
+      "file": [
+        "css/css-image-animation/image-animation-background-paused-rounded.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-background-paused-rounded.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused-rounded.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused-rounded.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-image-animation/image-animation-background-paused-rounded-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused-rounded-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused-rounded-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-image-animation/image-animation-background-paused-rounded-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused-rounded-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 172,
+                "diffRatio": 0.00020513701244179834,
+                "exactDiffPixels": 196,
+                "exactDiffRatio": 0.00023376078161972368,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0001-WPT_reftest-css-css-image-animation-image-animation-background-paused-rounded.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused-rounded-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-image-animation/image-animation-background-paused-rounded-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused-rounded-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 172,
+                "diffRatio": 0.00020513701244179834,
+                "exactDiffPixels": 196,
+                "exactDiffRatio": 0.00023376078161972368,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0001-WPT_reftest-css-css-image-animation-image-animation-background-paused-rounded.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused-rounded-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0002",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-background-paused.tentative.html",
       "file": [
@@ -136,7 +252,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0001-WPT_reftest-css-css-image-animation-image-animation-background-paused.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0002-WPT_reftest-css-css-image-animation-image-animation-background-paused.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -175,7 +291,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0001-WPT_reftest-css-css-image-animation-image-animation-background-paused.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0002-WPT_reftest-css-css-image-animation-image-animation-background-paused.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -191,7 +307,7 @@
       }
     },
     {
-      "id": "0002",
+      "id": "0003",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-background-stopped.tentative.html",
       "file": [
@@ -255,7 +371,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0002-WPT_reftest-css-css-image-animation-image-animation-background-stopped.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0003-WPT_reftest-css-css-image-animation-image-animation-background-stopped.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -294,7 +410,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0002-WPT_reftest-css-css-image-animation-image-animation-background-stopped.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0003-WPT_reftest-css-css-image-animation-image-animation-background-stopped.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -310,7 +426,7 @@
       }
     },
     {
-      "id": "0003",
+      "id": "0004",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-body-background-no-propagation-paused.html",
       "file": [
@@ -318,9 +434,9 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused.html",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -330,10 +446,33 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
+      ]
+    },
+    {
+      "id": "0005",
+      "category": "WPT reftest",
+      "title": "css/css-image-animation/image-animation-body-background-root-propagation-paused.html",
+      "file": [
+        "css/css-image-animation/image-animation-body-background-root-propagation-paused.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
       ],
       "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
+        "classification": "known-fail",
+        "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
           "totalPages": 1
@@ -341,28 +480,12 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 536784,
-            "diffRatio": 0.6401992214334784,
-            "exactDiffPixels": 536784,
-            "exactDiffRatio": 0.6401992214334784,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0003-WPT_reftest-css-css-image-animation-image-animation-body-background-no-propagation-paused.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
-            "referenceFile": "css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceFile": "css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
             "relation": "==",
@@ -390,71 +513,14 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0003-WPT_reftest-css-css-image-animation-image-animation-body-background-no-propagation-paused.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0005-WPT_reftest-css-css-image-animation-image-animation-body-background-root-propagation-paused.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
-    },
-    {
-      "id": "0004",
-      "category": "WPT reftest",
-      "title": "css/css-image-animation/image-animation-body-background-root-propagation-paused.html",
-      "file": [
-        "css/css-image-animation/image-animation-body-background-root-propagation-paused.html"
-      ],
-      "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html",
-      "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
-      "viewerChanged": true,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": [
-        {
-          "referenceFile": "css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html",
-          "relation": "==",
-          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 536784,
-            "diffRatio": 0.6401992214334784,
-            "exactDiffPixels": 536784,
-            "exactDiffRatio": 0.6401992214334784,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 255,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0004-WPT_reftest-css-css-image-animation-image-animation-body-background-root-propagation-paused.html-p0001.png"
-          }
-        ],
-        "comparisons": [
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html",
@@ -486,7 +552,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0004-WPT_reftest-css-css-image-animation-image-animation-body-background-root-propagation-paused.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0005-WPT_reftest-css-css-image-animation-image-animation-body-background-root-propagation-paused.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -496,13 +562,13 @@
           }
         ],
         "triage": {
-          "status": "not-needed",
+          "status": "pending",
           "decision": ""
         }
       }
     },
     {
-      "id": "0005",
+      "id": "0006",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html",
       "file": [
@@ -566,7 +632,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0005-WPT_reftest-css-css-image-animation-image-animation-img-paused-normal-mixed.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0006-WPT_reftest-css-css-image-animation-image-animation-img-paused-normal-mixed.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -605,7 +671,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0005-WPT_reftest-css-css-image-animation-image-animation-img-paused-normal-mixed.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0006-WPT_reftest-css-css-image-animation-image-animation-img-paused-normal-mixed.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -621,7 +687,7 @@
       }
     },
     {
-      "id": "0006",
+      "id": "0007",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-img-paused.tentative.html",
       "file": [
@@ -685,7 +751,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0006-WPT_reftest-css-css-image-animation-image-animation-img-paused.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0007-WPT_reftest-css-css-image-animation-image-animation-img-paused.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -724,7 +790,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0006-WPT_reftest-css-css-image-animation-image-animation-img-paused.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0007-WPT_reftest-css-css-image-animation-image-animation-img-paused.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -740,7 +806,7 @@
       }
     },
     {
-      "id": "0007",
+      "id": "0008",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-img-running-to-normal.tentative.html",
       "file": [
@@ -749,8 +815,8 @@
       "sourceUrl": "https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "changed-fail",
-      "viewerChanged": true,
+      "changeType": "known-fail",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -762,7 +828,7 @@
         }
       ],
       "difference": {
-        "classification": "changed-fail",
+        "classification": "known-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -771,23 +837,7 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [
-          {
-            "page": 1,
-            "width": 794,
-            "height": 1056,
-            "actualWidth": 794,
-            "actualHeight": 1056,
-            "diffPixels": 132,
-            "diffRatio": 0.00015743073047858942,
-            "exactDiffPixels": 222,
-            "exactDiffRatio": 0.00026476986489580947,
-            "exceededDiffPixels": 0,
-            "maxChannelDifference": 199,
-            "dimensionMismatch": false,
-            "diffImage": "diff/0007-WPT_reftest-css-css-image-animation-image-animation-img-running-to-normal.tentative.html-p0001.png"
-          }
-        ],
+        "pages": [],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -820,7 +870,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0007-WPT_reftest-css-css-image-animation-image-animation-img-running-to-normal.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0008-WPT_reftest-css-css-image-animation-image-animation-img-running-to-normal.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -852,14 +902,14 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
+                "diffPixels": 9927,
+                "diffRatio": 0.011839506526219373,
                 "exactDiffPixels": 10000,
                 "exactDiffRatio": 0.01192657049080223,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0007-WPT_reftest-css-css-image-animation-image-animation-img-running-to-normal.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0008-WPT_reftest-css-css-image-animation-image-animation-img-running-to-normal.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -875,7 +925,7 @@
       }
     },
     {
-      "id": "0008",
+      "id": "0009",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-img-running.tentative.html",
       "file": [
@@ -939,7 +989,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0008-WPT_reftest-css-css-image-animation-image-animation-img-running.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0009-WPT_reftest-css-css-image-animation-image-animation-img-running.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -978,7 +1028,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0008-WPT_reftest-css-css-image-animation-image-animation-img-running.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0009-WPT_reftest-css-css-image-animation-image-animation-img-running.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -994,7 +1044,7 @@
       }
     },
     {
-      "id": "0009",
+      "id": "0010",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-img-stopped.tentative.html",
       "file": [
@@ -1058,7 +1108,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0009-WPT_reftest-css-css-image-animation-image-animation-img-stopped.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0010-WPT_reftest-css-css-image-animation-image-animation-img-stopped.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1097,7 +1147,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0009-WPT_reftest-css-css-image-animation-image-animation-img-stopped.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0010-WPT_reftest-css-css-image-animation-image-animation-img-stopped.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1113,7 +1163,7 @@
       }
     },
     {
-      "id": "0010",
+      "id": "0011",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-paused-exact-frame.tentative.html",
       "file": [
@@ -1177,7 +1227,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0010-WPT_reftest-css-css-image-animation-image-animation-paused-exact-frame.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0011-WPT_reftest-css-css-image-animation-image-animation-paused-exact-frame.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1216,7 +1266,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0010-WPT_reftest-css-css-image-animation-image-animation-paused-exact-frame.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0011-WPT_reftest-css-css-image-animation-image-animation-paused-exact-frame.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1232,7 +1282,7 @@
       }
     },
     {
-      "id": "0011",
+      "id": "0012",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-pseudo-animated-image.tentative.html",
       "file": [
@@ -1296,7 +1346,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0011-WPT_reftest-css-css-image-animation-image-animation-pseudo-animated-image.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0012-WPT_reftest-css-css-image-animation-image-animation-pseudo-animated-image.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1335,7 +1385,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0011-WPT_reftest-css-css-image-animation-image-animation-pseudo-animated-image.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0012-WPT_reftest-css-css-image-animation-image-animation-pseudo-animated-image.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1351,7 +1401,7 @@
       }
     },
     {
-      "id": "0012",
+      "id": "0013",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-repeat-background-paused.html",
       "file": [
@@ -1415,7 +1465,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0012-WPT_reftest-css-css-image-animation-image-animation-repeat-background-paused.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0013-WPT_reftest-css-css-image-animation-image-animation-repeat-background-paused.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1454,7 +1504,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0012-WPT_reftest-css-css-image-animation-image-animation-repeat-background-paused.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0013-WPT_reftest-css-css-image-animation-image-animation-repeat-background-paused.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1470,7 +1520,7 @@
       }
     },
     {
-      "id": "0013",
+      "id": "0014",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-root-background-body-paused-no-propagation.html",
       "file": [
@@ -1493,7 +1543,7 @@
       ]
     },
     {
-      "id": "0014",
+      "id": "0015",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-root-background-paused.html",
       "file": [
@@ -1557,7 +1607,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0014-WPT_reftest-css-css-image-animation-image-animation-root-background-paused.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0015-WPT_reftest-css-css-image-animation-image-animation-root-background-paused.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1596,7 +1646,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0014-WPT_reftest-css-css-image-animation-image-animation-root-background-paused.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0015-WPT_reftest-css-css-image-animation-image-animation-root-background-paused.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1612,7 +1662,7 @@
       }
     },
     {
-      "id": "0015",
+      "id": "0016",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-stopped-reset-frame.tentative.html",
       "file": [
@@ -1676,7 +1726,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0015-WPT_reftest-css-css-image-animation-image-animation-stopped-reset-frame.tentative.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0016-WPT_reftest-css-css-image-animation-image-animation-stopped-reset-frame.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1715,7 +1765,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0015-WPT_reftest-css-css-image-animation-image-animation-stopped-reset-frame.tentative.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0016-WPT_reftest-css-css-image-animation-image-animation-stopped-reset-frame.tentative.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1731,7 +1781,7 @@
       }
     },
     {
-      "id": "0016",
+      "id": "0017",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html",
       "file": [
@@ -1795,7 +1845,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0016-WPT_reftest-css-css-image-animation-image-animation-video-poster-paused-normal-mixed.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0017-WPT_reftest-css-css-image-animation-image-animation-video-poster-paused-normal-mixed.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1834,7 +1884,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0016-WPT_reftest-css-css-image-animation-image-animation-video-poster-paused-normal-mixed.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0017-WPT_reftest-css-css-image-animation-image-animation-video-poster-paused-normal-mixed.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1850,7 +1900,7 @@
       }
     },
     {
-      "id": "0017",
+      "id": "0018",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-video-poster-paused.html",
       "file": [
@@ -1914,7 +1964,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0017-WPT_reftest-css-css-image-animation-image-animation-video-poster-paused.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0018-WPT_reftest-css-css-image-animation-image-animation-video-poster-paused.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1953,7 +2003,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0017-WPT_reftest-css-css-image-animation-image-animation-video-poster-paused.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0018-WPT_reftest-css-css-image-animation-image-animation-video-poster-paused.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -1969,7 +2019,7 @@
       }
     },
     {
-      "id": "0018",
+      "id": "0019",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-video-poster-running.html",
       "file": [
@@ -2033,7 +2083,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0018-WPT_reftest-css-css-image-animation-image-animation-video-poster-running.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0019-WPT_reftest-css-css-image-animation-image-animation-video-poster-running.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2072,7 +2122,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0018-WPT_reftest-css-css-image-animation-image-animation-video-poster-running.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0019-WPT_reftest-css-css-image-animation-image-animation-video-poster-running.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2088,7 +2138,7 @@
       }
     },
     {
-      "id": "0019",
+      "id": "0020",
       "category": "WPT reftest",
       "title": "css/css-image-animation/image-animation-video-poster-stopped.html",
       "file": [
@@ -2152,7 +2202,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0019-WPT_reftest-css-css-image-animation-image-animation-video-poster-stopped.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0020-WPT_reftest-css-css-image-animation-image-animation-video-poster-stopped.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -2191,7 +2241,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0019-WPT_reftest-css-css-image-animation-image-animation-video-poster-stopped.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0020-WPT_reftest-css-css-image-animation-image-animation-video-poster-stopped.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,

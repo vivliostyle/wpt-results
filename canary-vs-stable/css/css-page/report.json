@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T17:24:33.038Z",
+  "generatedAt": "2026-06-08T09:43:46.688Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,38 +39,36 @@
   },
   "summary": {
     "totalEntries": 244,
-    "entriesWithDifferences": 129,
+    "entriesWithDifferences": 127,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
-    "pageCountMismatches": 7,
+    "pageCountMismatches": 5,
     "screenshotMismatches": 9,
     "outcomes": {
       "changeTypes": {
-        "pass": 95,
+        "pass": 97,
         "known-fail": 115,
         "changed-fail": 4,
         "improvement": 8,
-        "regression": 2,
         "unchanged": 20
       },
       "statusPairs": {
-        "PASS->PASS": 95,
+        "PASS->PASS": 97,
         "FAIL->FAIL": 119,
         "FAIL->PASS": 8,
-        "PASS->FAIL": 2,
         "MANUAL->MANUAL": 20
       }
     },
     "triage": {
       "differences": {
-        "pending": 121,
+        "pending": 119,
         "triaged": 0
       },
       "errors": {
         "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 121,
+      "pendingEntries": 119,
       "triagedEntries": 0
     }
   },
@@ -12031,10 +12029,10 @@
         "css/css-page/page-name-canvas-001-print.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-page/page-name-canvas-001-print.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "regression",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-canvas-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-canvas-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -12044,47 +12042,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-canvas-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-canvas-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "regression",
-        "triageRequired": true,
-        "pageCountMismatch": true,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 2
-        },
-        "pages": [],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-page/page-name-canvas-001-print-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-canvas-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 2,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1,
-              2
-            ],
-            "pageCountMismatch": true,
-            "pages": [],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-canvas-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0146",
@@ -12733,10 +12691,10 @@
         "css/css-page/page-name-img-001-print.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-page/page-name-img-001-print.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "regression",
-      "viewerChanged": true,
+      "changeType": "pass",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-img-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-img-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -12746,47 +12704,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-img-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-img-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "regression",
-        "triageRequired": true,
-        "pageCountMismatch": true,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 2
-        },
-        "pages": [],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-page/page-name-img-001-print-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-img-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 2,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1,
-              2
-            ],
-            "pageCountMismatch": true,
-            "pages": [],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-img-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0158",

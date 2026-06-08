@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 792
-- Entries with differences: 257 (pending: 257, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with differences: 256 (pending: 256, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":534,"known-fail":256,"regression":1,"unchanged":1}
+- Outcome summary: {"pass":535,"known-fail":256,"unchanged":1}
 
 ## Differences
 
@@ -1804,12 +1804,6 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0265] [WPT reftest] css/css-transforms/overflow-perspective-002.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/overflow-perspective-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/overflow-perspective-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0268] [WPT reftest] css/css-transforms/patternTransform/svg-patternTransform-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -3343,15 +3337,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/ttwf-reftest-rotate.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00942199068773376, diffPixels=7900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/reference/ttwf-reftest-rotate-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0265] [WPT reftest] css/css-transforms/overflow-perspective-002.html
-  triage: pending
-  side: canary-reference
-  reference: css/css-transforms/overflow-perspective-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/overflow-perspective-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/overflow-perspective-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

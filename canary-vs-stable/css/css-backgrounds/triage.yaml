@@ -5091,6 +5091,488 @@
       referenceFile: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0458"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-002.html
+  file: css/css-backgrounds/background-size-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-backgrounds/reference/background-size-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-backgrounds/reference/background-size-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-backgrounds/reference/background-size-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-backgrounds/reference/background-size-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0459"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-005.html
+  file: css/css-backgrounds/background-size-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-backgrounds/reference/background-size-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-backgrounds/reference/background-size-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-backgrounds/reference/background-size-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-backgrounds/reference/background-size-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0460"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-006.html
+  file: css/css-backgrounds/background-size-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-backgrounds/reference/background-size-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-backgrounds/reference/background-size-006-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-backgrounds/reference/background-size-006-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-backgrounds/reference/background-size-006-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0462"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-008.html
+  file: css/css-backgrounds/background-size-008.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0463"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-009.html
+  file: css/css-backgrounds/background-size-009.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-backgrounds/reference/background-size-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-backgrounds/reference/background-size-006-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-backgrounds/reference/background-size-006-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-backgrounds/reference/background-size-006-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0465"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-011.html
+  file: css/css-backgrounds/background-size-011.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0466"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-012.html
+  file: css/css-backgrounds/background-size-012.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-backgrounds/reference/background-size-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-backgrounds/reference/background-size-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-backgrounds/reference/background-size-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-backgrounds/reference/background-size-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0467"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-013.html
+  file: css/css-backgrounds/background-size-013.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0468"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-014.html
+  file: css/css-backgrounds/background-size-014.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-backgrounds/reference/background-size-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-backgrounds/reference/background-size-006-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-backgrounds/reference/background-size-006-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-backgrounds/reference/background-size-006-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0469"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-015.html
+  file: css/css-backgrounds/background-size-015.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0470"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-016.html
+  file: css/css-backgrounds/background-size-016.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0471"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-017.html
+  file: css/css-backgrounds/background-size-017.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-backgrounds/reference/background-size-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-backgrounds/reference/background-size-006-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-backgrounds/reference/background-size-006-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-backgrounds/reference/background-size-006-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0472"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-018.html
+  file: css/css-backgrounds/background-size-018.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0473"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-019.html
+  file: css/css-backgrounds/background-size-019.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0474"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-020.html
+  file: css/css-backgrounds/background-size-020.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0475"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-021.html
+  file: css/css-backgrounds/background-size-021.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-backgrounds/reference/background-size-021-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-backgrounds/reference/background-size-021-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-backgrounds/reference/background-size-021-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-backgrounds/reference/background-size-021-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0476"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-025.html
+  file: css/css-backgrounds/background-size-025.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-backgrounds/reference/background-size-025-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-backgrounds/reference/background-size-025-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-backgrounds/reference/background-size-025-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-025-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-backgrounds/reference/background-size-025-ref.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-025-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0477"
+  category: WPT reftest
+  title: css/css-backgrounds/background-size-026.html
+  file: css/css-backgrounds/background-size-026.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-backgrounds/reference/background-size-026-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-backgrounds/reference/background-size-026-ref.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-backgrounds/reference/background-size-026-ref.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-026-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0494"
   category: WPT reftest
   title: css/css-backgrounds/background-size-percentage-root.html
@@ -6054,6 +6536,10 @@
   sideErrors:
     - side: canary
       errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): navigating to page 1"
+      timeout: true
+    - side: stable
+      errorName: TimeoutError
       errorMessage: |
         locator.fill: Timeout 10000ms exceeded.
         Call log:
@@ -6073,8 +6559,4 @@
                - element is not visible
              - retrying fill action
                - waiting 500ms
-      timeout: true
-    - side: stable
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): navigating to page 1"
       timeout: true

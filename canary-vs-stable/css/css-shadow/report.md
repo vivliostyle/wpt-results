@@ -2,8 +2,8 @@
 
 - Compared entries: 111
 - Entries with differences: 54 (pending: 54, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 0
 - Outcome summary: {"pass":57,"known-fail":54}
@@ -616,10 +616,6 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.00019321044195099612, diffPixels=162
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00019321044195099612, diffPixels=162
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0101] [WPT reftest] css/css-shadow/slotted-has-001.html
   triage: pending
@@ -711,4 +707,15 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/whitespace-crash-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0100] [WPT reftest] css/css-shadow/slotted-file-selector-button.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-shadow/slotted-file-selector-button-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

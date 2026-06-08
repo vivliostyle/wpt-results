@@ -5786,10 +5786,6 @@
       referenceFile: css/css-overflow/overflow-replaced-element-002-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-overflow/overflow-replaced-element-002-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0364"
   category: WPT reftest
   title: css/css-overflow/overflow-video-hidden.html

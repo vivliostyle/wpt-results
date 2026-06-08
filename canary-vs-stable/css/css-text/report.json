@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T18:02:03.653Z",
+  "generatedAt": "2026-06-08T10:19:45.357Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,35 +39,38 @@
   },
   "summary": {
     "totalEntries": 1496,
-    "entriesWithDifferences": 436,
-    "entriesWithErrors": 1,
-    "timeoutEntries": 1,
+    "entriesWithDifferences": 435,
+    "entriesWithErrors": 2,
+    "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
         "pass": 1058,
-        "known-fail": 435,
-        "regression": 1,
+        "known-fail": 434,
+        "error": 1,
+        "improvement": 1,
         "unchanged": 2
       },
       "statusPairs": {
         "PASS->PASS": 1058,
-        "FAIL->FAIL": 435,
-        "PASS->FAIL": 1,
+        "FAIL->FAIL": 433,
+        "FAIL->ERROR": 1,
+        "ERROR->FAIL": 1,
+        "ERROR->PASS": 1,
         "MANUAL->MANUAL": 2
       }
     },
     "triage": {
       "differences": {
-        "pending": 436,
+        "pending": 434,
         "triaged": 0
       },
       "errors": {
-        "pending": 1,
+        "pending": 2,
         "triaged": 0
       },
-      "pendingEntries": 437,
+      "pendingEntries": 436,
       "triagedEntries": 0
     }
   },
@@ -38079,9 +38082,9 @@
         "css/css-text/text-indent/below-float2.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-text/text-indent/below-float2.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "regression",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-indent/below-float2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-indent/below-float2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -38091,38 +38094,6 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "difference": {
-        "classification": "regression",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      },
-      "errors": [
-        {
-          "side": "canary-reference",
-          "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
-          },
-          "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
         }
       ]
     },
@@ -44160,10 +44131,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 1024,
-                "diffRatio": 0.0012212808182581482,
-                "exactDiffPixels": 4221,
-                "exactDiffRatio": 0.005034205404167621,
+                "diffPixels": 1014,
+                "diffRatio": 0.001209354247767346,
+                "exactDiffPixels": 4194,
+                "exactDiffRatio": 0.005002003663842455,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -44199,10 +44170,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 1014,
-                "diffRatio": 0.001209354247767346,
-                "exactDiffPixels": 4194,
-                "exactDiffRatio": 0.005002003663842455,
+                "diffPixels": 1024,
+                "diffRatio": 0.0012212808182581482,
+                "exactDiffPixels": 4221,
+                "exactDiffRatio": 0.005034205404167621,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -58514,9 +58485,9 @@
         "css/css-text/white-space/pre-wrap-leading-spaces-004.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-004.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "ERROR",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -58528,102 +58499,20 @@
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "difference": {
-        "classification": "known-fail",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-text/white-space/reference/white-space-break-spaces-005-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 797,
-                "diffRatio": 0.0009505476681169377,
-                "exactDiffPixels": 1162,
-                "exactDiffRatio": 0.001385867491031219,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/1139-WPT_reftest-css-css-text-white-space-pre-wrap-leading-spaces-004.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "Error",
+            "message": "Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-text/white-space/pre-wrap-leading-spaces-004.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).",
+            "timeout": false
           },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-text/white-space/reference/white-space-break-spaces-005-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 797,
-                "diffRatio": 0.0009505476681169377,
-                "exactDiffPixels": 1162,
-                "exactDiffRatio": 0.001385867491031219,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/1139-WPT_reftest-css-css-text-white-space-pre-wrap-leading-spaces-004.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "triage": {
+            "status": "pending",
+            "decision": ""
           }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
         }
-      }
+      ]
     },
     {
       "id": "1140",
@@ -58753,7 +58642,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-006.html",
       "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
+      "baselineStatus": "ERROR",
       "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -58774,7 +58663,7 @@
           "totalPages": 1
         },
         "baseline": {
-          "totalPages": 1
+          "totalPages": null
         },
         "pages": [],
         "comparisons": [
@@ -58816,52 +58705,27 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-text/white-space/reference/white-space-break-spaces-005-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 797,
-                "diffRatio": 0.0009505476681169377,
-                "exactDiffPixels": 1162,
-                "exactDiffRatio": 0.001385867491031219,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/1141-WPT_reftest-css-css-text-white-space-pre-wrap-leading-spaces-006.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      }
+      },
+      "errors": [
+        {
+          "side": "stable",
+          "error": {
+            "name": "Error",
+            "message": "Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-text/white-space/pre-wrap-leading-spaces-006.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).",
+            "timeout": false
+          },
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
+      ]
     },
     {
       "id": "1142",
@@ -60624,8 +60488,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-text/white-space/text-wrap-balance-005.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "ERROR",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/text-wrap-balance-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/text-wrap-balance-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -60642,7 +60506,24 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/text-wrap-balance-004-b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/text-wrap-balance-004-b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": null
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "1173",

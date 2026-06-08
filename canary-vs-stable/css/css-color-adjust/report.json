@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T16:08:41.017Z",
+  "generatedAt": "2026-06-08T08:31:08.302Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -588,7 +588,7 @@
               "side": "stable",
               "error": {
                 "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
+                "message": "page.waitForFunction: Timeout 10000ms exceeded.",
                 "timeout": true
               }
             }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T18:55:49.518Z",
+  "generatedAt": "2026-06-08T11:11:42.574Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,35 +39,35 @@
   },
   "summary": {
     "totalEntries": 356,
-    "entriesWithDifferences": 192,
-    "entriesWithErrors": 1,
-    "timeoutEntries": 1,
+    "entriesWithDifferences": 191,
+    "entriesWithErrors": 3,
+    "timeoutEntries": 3,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
         "pass": 142,
-        "known-fail": 192,
-        "error": 1,
+        "known-fail": 191,
+        "error": 2,
         "unchanged": 21
       },
       "statusPairs": {
         "PASS->PASS": 142,
-        "FAIL->FAIL": 192,
-        "ERROR->ERROR": 1,
+        "FAIL->FAIL": 191,
+        "ERROR->ERROR": 2,
         "MANUAL->MANUAL": 21
       }
     },
     "triage": {
       "differences": {
-        "pending": 192,
+        "pending": 191,
         "triaged": 0
       },
       "errors": {
-        "pending": 1,
+        "pending": 3,
         "triaged": 0
       },
-      "pendingEntries": 193,
+      "pendingEntries": 194,
       "triagedEntries": 0
     }
   },
@@ -15534,91 +15534,46 @@
           "totalPages": 1
         },
         "pages": [],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 14517,
-                "diffRatio": 0.017313802381497597,
-                "exactDiffPixels": 20329,
-                "exactDiffRatio": 0.024245525150751852,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0188-WPT_reftest-css-selectors-old-tests-css3-modsel-112.xml-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 14517,
-                "diffRatio": 0.017313802381497597,
-                "exactDiffPixels": 20329,
-                "exactDiffRatio": 0.024245525150751852,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0188-WPT_reftest-css-selectors-old-tests-css3-modsel-112.xml-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          }
-        ],
+        "comparisons": [],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      }
+      },
+      "errors": [
+        {
+          "side": "canary-reference, stable-reference",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "sideErrors": [
+            {
+              "side": "canary-reference",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              },
+              "referenceFile": "css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht"
+            },
+            {
+              "side": "stable-reference",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              },
+              "referenceFile": "css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht"
+            }
+          ],
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
+      ]
     },
     {
       "id": "0189",
@@ -15628,9 +15583,9 @@
         "css/selectors/old-tests/css3-modsel-112b.xml"
       ],
       "sourceUrl": "https://wpt.live/css/selectors/old-tests/css3-modsel-112b.xml",
-      "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
-      "changeType": "known-fail",
+      "actualStatus": "ERROR",
+      "baselineStatus": "ERROR",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112b.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112b.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -15642,102 +15597,56 @@
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "difference": {
-        "classification": "known-fail",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 14517,
-                "diffRatio": 0.017313802381497597,
-                "exactDiffPixels": 20329,
-                "exactDiffRatio": 0.024245525150751852,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0189-WPT_reftest-css-selectors-old-tests-css3-modsel-112b.xml-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+      "errors": [
+        {
+          "side": "canary, canary-reference, stable, stable-reference",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
           },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 14517,
-                "diffRatio": 0.017313802381497597,
-                "exactDiffPixels": 20329,
-                "exactDiffRatio": 0.024245525150751852,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0189-WPT_reftest-css-selectors-old-tests-css3-modsel-112b.xml-r01-p0001.png"
+          "sideErrors": [
+            {
+              "side": "canary",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
               }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+            },
+            {
+              "side": "canary-reference",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              },
+              "referenceFile": "css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht"
+            },
+            {
+              "side": "stable",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              }
+            },
+            {
+              "side": "stable-reference",
+              "error": {
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
+              },
+              "referenceFile": "css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht"
+            }
+          ],
+          "triage": {
+            "status": "pending",
+            "decision": ""
           }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
         }
-      }
+      ]
     },
     {
       "id": "0190",

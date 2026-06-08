@@ -160,3 +160,20 @@
       referenceFile: css/WOFF2/tabledata-glyf-origlength-003-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/WOFF2/tabledata-glyf-origlength-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0268"
+  category: WPT reftest
+  title: css/WOFF2/privatedata-noeffect-002.xht
+  file: css/WOFF2/privatedata-noeffect-002.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/WOFF2/privatedata-noeffect-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/WOFF2/privatedata-noeffect-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

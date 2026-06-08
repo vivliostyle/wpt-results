@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T16:15:04.416Z",
+  "generatedAt": "2026-06-08T08:37:17.619Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,21 +39,23 @@
   },
   "summary": {
     "totalEntries": 429,
-    "entriesWithDifferences": 130,
-    "entriesWithErrors": 9,
-    "timeoutEntries": 9,
+    "entriesWithDifferences": 132,
+    "entriesWithErrors": 8,
+    "timeoutEntries": 8,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 0,
+    "screenshotMismatches": 1,
     "outcomes": {
       "changeTypes": {
-        "pass": 290,
-        "known-fail": 130,
-        "error": 9
+        "pass": 289,
+        "known-fail": 129,
+        "improvement": 2,
+        "error": 8,
+        "changed-fail": 1
       },
       "statusPairs": {
-        "PASS->PASS": 290,
+        "PASS->PASS": 289,
         "FAIL->FAIL": 130,
-        "PASS->ERROR": 1,
+        "ERROR->PASS": 2,
         "ERROR->ERROR": 8
       }
     },
@@ -63,10 +65,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 9,
+        "pending": 8,
         "triaged": 0
       },
-      "pendingEntries": 139,
+      "pendingEntries": 138,
       "triagedEntries": 0
     }
   },
@@ -5951,8 +5953,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-contain/contain-layout-ignored-cases-no-principal-box-003.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "ERROR",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-layout-ignored-cases-no-principal-box-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-layout-ignored-cases-no-principal-box-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -5963,7 +5965,24 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-layout-ignored-cases-no-principal-box-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-layout-ignored-cases-no-principal-box-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": null
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0107",
@@ -10322,9 +10341,9 @@
         "css/css-contain/contain-size-replaced-003b.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-contain/contain-size-replaced-003b.html",
-      "actualStatus": "ERROR",
-      "baselineStatus": "PASS",
-      "changeType": "error",
+      "actualStatus": "PASS",
+      "baselineStatus": "ERROR",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-size-replaced-003b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-size-replaced-003b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -10336,20 +10355,23 @@
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-size-replaced-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "errors": [
-        {
-          "side": "canary",
-          "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
-          },
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": null
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
         }
-      ]
+      }
     },
     {
       "id": "0261",
@@ -15401,7 +15423,7 @@
               "side": "stable",
               "error": {
                 "name": "TimeoutError",
-                "message": "page.waitForFunction: Timeout 10000ms exceeded.",
+                "message": "Timeout (10000ms): waiting for viewer ready",
                 "timeout": true
               }
             }
@@ -15694,7 +15716,7 @@
               "side": "stable",
               "error": {
                 "name": "TimeoutError",
-                "message": "Timeout (10000ms): waiting for viewer ready",
+                "message": "page.waitForFunction: Timeout 10000ms exceeded.",
                 "timeout": true
               }
             }
@@ -17122,17 +17144,17 @@
         {
           "side": "canary, stable",
           "error": {
-            "name": "Error",
-            "message": "page.addStyleTag: Execution context was destroyed, most likely because of a navigation",
-            "timeout": false
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
           },
           "sideErrors": [
             {
               "side": "canary",
               "error": {
-                "name": "Error",
-                "message": "page.addStyleTag: Execution context was destroyed, most likely because of a navigation",
-                "timeout": false
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
               }
             },
             {
@@ -17343,7 +17365,7 @@
           "side": "canary, stable",
           "error": {
             "name": "TimeoutError",
-            "message": "page.waitForFunction: Timeout 10000ms exceeded.",
+            "message": "Timeout (10000ms): waiting for viewer ready",
             "timeout": true
           },
           "sideErrors": [
@@ -17351,7 +17373,7 @@
               "side": "canary",
               "error": {
                 "name": "TimeoutError",
-                "message": "page.waitForFunction: Timeout 10000ms exceeded.",
+                "message": "Timeout (10000ms): waiting for viewer ready",
                 "timeout": true
               }
             },
@@ -17413,9 +17435,9 @@
             {
               "side": "stable",
               "error": {
-                "name": "Error",
-                "message": "page.addStyleTag: Execution context was destroyed, most likely because of a navigation",
-                "timeout": false
+                "name": "TimeoutError",
+                "message": "Timeout (10000ms): waiting for viewer ready",
+                "timeout": true
               }
             }
           ],
@@ -19248,8 +19270,8 @@
       "sourceUrl": "https://wpt.live/css/css-contain/content-visibility/content-visibility-video.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "changed-fail",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -19261,7 +19283,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "changed-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -19270,7 +19292,23 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 1892,
+            "diffRatio": 0.002256507136859782,
+            "exactDiffPixels": 20392,
+            "exactDiffRatio": 0.024320662544843906,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 65,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0390-WPT_reftest-css-css-contain-content-visibility-content-visibility-video.html-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -19296,8 +19334,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 33963,
-                "diffRatio": 0.04050621135791161,
+                "diffPixels": 34588,
+                "diffRatio": 0.04125162201358675,
                 "exactDiffPixels": 35000,
                 "exactDiffRatio": 0.041742996717807804,
                 "exceededDiffPixels": 0,
@@ -19335,8 +19373,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 33950,
-                "diffRatio": 0.040490706816273564,
+                "diffPixels": 33815,
+                "diffRatio": 0.04032969811464774,
                 "exactDiffPixels": 35000,
                 "exactDiffRatio": 0.041742996717807804,
                 "exceededDiffPixels": 0,

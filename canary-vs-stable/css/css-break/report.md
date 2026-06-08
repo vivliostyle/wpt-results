@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1009
-- Entries with differences: 92 (improvement: 1, pending: 91, triaged: 0)
+- Entries with differences: 91 (pending: 91, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":917,"known-fail":91,"improvement":1}
+- Outcome summary: {"pass":918,"known-fail":91}
 
 ## Differences
 
@@ -555,12 +555,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/transform-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0928] [WPT reftest] css/css-break/widows-orphans-007.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/widows-orphans-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/widows-orphans-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0948] [WPT print-reftest] css/css-break/block-001-wm-vlr-print.html
   triage: pending

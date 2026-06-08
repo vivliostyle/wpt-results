@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T16:34:09.676Z",
+  "generatedAt": "2026-06-08T08:55:34.017Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -1344,10 +1344,10 @@
             "height": 1056,
             "actualWidth": 794,
             "actualHeight": 1056,
-            "diffPixels": 288,
-            "diffRatio": 0.0003434852301351042,
-            "exactDiffPixels": 420,
-            "exactDiffRatio": 0.0005009159606136936,
+            "diffPixels": 132,
+            "diffRatio": 0.00015743073047858942,
+            "exactDiffPixels": 216,
+            "exactDiffRatio": 0.00025761392260132814,
             "exceededDiffPixels": 0,
             "maxChannelDifference": 239,
             "dimensionMismatch": false,

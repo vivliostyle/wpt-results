@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1353
-- Entries with differences: 673 (pending: 673, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
+- Entries with differences: 676 (improvement: 3, pending: 673, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":680,"known-fail":673}
+- Outcome summary: {"pass":676,"known-fail":673,"improvement":3,"error":1}
 
 ## Differences
 
@@ -8748,6 +8748,18 @@
   stable page 1: diffRatio=0.0010733913441722007, diffPixels=900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/orthogonal-writing-mode-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [1329] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-006.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1332] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-009.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [1333] [WPT reftest] css/css-grid/subgrid/sticky-subgrid-item.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -8760,6 +8772,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/sticky-subgrid-item.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/sticky-subgrid-item-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1334] [WPT reftest] css/css-grid/subgrid/subgrid-baseline-001.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/subgrid-baseline-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/subgrid-baseline-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1341] [WPT reftest] css/css-grid/subgrid/subgrid-item-with-margin-left-auto.html
   triage: pending
@@ -8812,4 +8830,14 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/whitespace-reattach.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.011802534157697886, diffPixels=9896
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [1330] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-007.html
+  triage: pending
+  side: canary
+  timeout: false
+  error: Error: Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-grid/subgrid/standalone-axis-size-007.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

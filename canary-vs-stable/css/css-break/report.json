@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T16:04:38.449Z",
+  "generatedAt": "2026-06-08T08:27:20.661Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,21 +39,19 @@
   },
   "summary": {
     "totalEntries": 1009,
-    "entriesWithDifferences": 92,
+    "entriesWithDifferences": 91,
     "entriesWithErrors": 0,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 917,
-        "known-fail": 91,
-        "improvement": 1
+        "pass": 918,
+        "known-fail": 91
       },
       "statusPairs": {
-        "PASS->PASS": 917,
-        "FAIL->FAIL": 91,
-        "ERROR->PASS": 1
+        "PASS->PASS": 918,
+        "FAIL->FAIL": 91
       }
     },
     "triage": {
@@ -25230,8 +25228,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-break/widows-orphans-007.html",
       "actualStatus": "PASS",
-      "baselineStatus": "ERROR",
-      "changeType": "improvement",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/widows-orphans-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/widows-orphans-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -25242,24 +25240,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": null
-        },
-        "pages": [],
-        "comparisons": [],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0929",

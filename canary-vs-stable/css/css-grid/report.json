@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T16:52:16.618Z",
+  "generatedAt": "2026-06-08T09:12:38.707Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,19 +39,23 @@
   },
   "summary": {
     "totalEntries": 1353,
-    "entriesWithDifferences": 673,
-    "entriesWithErrors": 0,
+    "entriesWithDifferences": 676,
+    "entriesWithErrors": 1,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 680,
-        "known-fail": 673
+        "pass": 676,
+        "known-fail": 673,
+        "improvement": 3,
+        "error": 1
       },
       "statusPairs": {
-        "PASS->PASS": 680,
-        "FAIL->FAIL": 673
+        "PASS->PASS": 676,
+        "FAIL->FAIL": 673,
+        "ERROR->PASS": 3,
+        "PASS->ERROR": 1
       }
     },
     "triage": {
@@ -60,10 +64,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 0,
+        "pending": 1,
         "triaged": 0
       },
-      "pendingEntries": 673,
+      "pendingEntries": 674,
       "triagedEntries": 0
     }
   },
@@ -94055,8 +94059,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-grid/subgrid/standalone-axis-size-006.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "ERROR",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -94067,7 +94071,24 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": null
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "1330",
@@ -94077,9 +94098,9 @@
         "css/css-grid/subgrid/standalone-axis-size-007.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-grid/subgrid/standalone-axis-size-007.html",
-      "actualStatus": "PASS",
+      "actualStatus": "ERROR",
       "baselineStatus": "PASS",
-      "changeType": "pass",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -94089,6 +94110,20 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "Error",
+            "message": "Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-grid/subgrid/standalone-axis-size-007.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).",
+            "timeout": false
+          },
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
         }
       ]
     },
@@ -94124,8 +94159,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-grid/subgrid/standalone-axis-size-009.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "ERROR",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -94136,7 +94171,24 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": null
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "1333",
@@ -94232,8 +94284,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-grid/subgrid/subgrid-baseline-001.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "ERROR",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/subgrid-baseline-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/subgrid-baseline-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -94244,7 +94296,24 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/subgrid-baseline-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/subgrid-baseline-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": null
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "1335",

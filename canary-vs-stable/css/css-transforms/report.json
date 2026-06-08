@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T18:13:35.391Z",
+  "generatedAt": "2026-06-08T10:30:51.866Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,35 +39,33 @@
   },
   "summary": {
     "totalEntries": 792,
-    "entriesWithDifferences": 257,
-    "entriesWithErrors": 1,
-    "timeoutEntries": 1,
+    "entriesWithDifferences": 256,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 534,
+        "pass": 535,
         "known-fail": 256,
-        "regression": 1,
         "unchanged": 1
       },
       "statusPairs": {
-        "PASS->PASS": 534,
+        "PASS->PASS": 535,
         "FAIL->FAIL": 256,
-        "PASS->FAIL": 1,
         "MANUAL->MANUAL": 1
       }
     },
     "triage": {
       "differences": {
-        "pending": 257,
+        "pending": 256,
         "triaged": 0
       },
       "errors": {
-        "pending": 1,
+        "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 258,
+      "pendingEntries": 256,
       "triagedEntries": 0
     }
   },
@@ -19438,9 +19436,9 @@
         "css/css-transforms/overflow-perspective-002.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-transforms/overflow-perspective-002.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "PASS",
       "baselineStatus": "PASS",
-      "changeType": "regression",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/overflow-perspective-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/overflow-perspective-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -19450,38 +19448,6 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/overflow-perspective-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/overflow-perspective-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "difference": {
-        "classification": "regression",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [],
-        "triage": {
-          "status": "pending",
-          "decision": ""
-        }
-      },
-      "errors": [
-        {
-          "side": "canary-reference",
-          "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
-          },
-          "referenceFile": "css/css-transforms/overflow-perspective-ref.html",
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
         }
       ]
     },

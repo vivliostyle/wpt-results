@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 244
-- Entries with differences: 129 (improvement: 8, pending: 121, triaged: 0)
+- Entries with differences: 127 (improvement: 8, pending: 119, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
-- Page count changed: 7
+- Page count changed: 5
 - Screenshot mismatches: 9
-- Outcome summary: {"pass":95,"known-fail":115,"changed-fail":4,"improvement":8,"regression":2,"unchanged":20}
+- Outcome summary: {"pass":97,"known-fail":115,"changed-fail":4,"improvement":8,"unchanged":20}
 
 ## Differences
 
@@ -1158,15 +1158,6 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-abspos-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0145] [WPT print-reftest] css/css-page/page-name-canvas-001-print.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-page/page-name-canvas-001-print-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-canvas-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1], reference=[1, 2]
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-canvas-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0146] [WPT print-reftest] css/css-page/page-name-canvas-002-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -1233,15 +1224,6 @@
   stable page 1: diffRatio=0.000017889855736203345, diffPixels=15
   stable page 2: diffRatio=0.00002504579803068468, diffPixels=21
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-float-002-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0157] [WPT print-reftest] css/css-page/page-name-img-001-print.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-page/page-name-img-001-print-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-img-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1], reference=[1, 2]
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-img-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0158] [WPT print-reftest] css/css-page/page-name-img-002-print.html
   triage: pending

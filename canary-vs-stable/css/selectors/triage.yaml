@@ -3118,46 +3118,6 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
-  relation: "=="
-  diffPages:
-    - css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0189"
-  category: WPT reftest
-  title: css/selectors/old-tests/css3-modsel-112b.xml
-  file: css/selectors/old-tests/css3-modsel-112b.xml
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112b.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112b.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
-  relation: "=="
-  diffPages:
-    - css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0190"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-115.xml
@@ -5200,3 +5160,37 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0189"
+  category: WPT reftest
+  title: css/selectors/old-tests/css3-modsel-112b.xml
+  file: css/selectors/old-tests/css3-modsel-112b.xml
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112b.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112b.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary, canary-reference, stable, stable-reference
+  sideErrors:
+    - side: canary
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true
+    - side: canary-reference
+      referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true
+    - side: stable
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true
+    - side: stable-reference
+      referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true

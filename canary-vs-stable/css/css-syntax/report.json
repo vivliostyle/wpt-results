@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T17:45:13.098Z",
+  "generatedAt": "2026-06-08T10:03:44.919Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,17 +39,17 @@
   },
   "summary": {
     "totalEntries": 1,
-    "entriesWithDifferences": 1,
-    "entriesWithErrors": 1,
-    "timeoutEntries": 1,
+    "entriesWithDifferences": 0,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "improvement": 1
+        "pass": 1
       },
       "statusPairs": {
-        "FAIL->PASS": 1
+        "PASS->PASS": 1
       }
     },
     "triage": {
@@ -58,10 +58,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 1,
+        "pending": 0,
         "triaged": 0
       },
-      "pendingEntries": 1,
+      "pendingEntries": 0,
       "triagedEntries": 0
     }
   },
@@ -75,8 +75,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-syntax/missing-semicolon.html",
       "actualStatus": "PASS",
-      "baselineStatus": "FAIL",
-      "changeType": "improvement",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-syntax/missing-semicolon.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-syntax/missing-semicolon.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -86,38 +86,6 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-syntax/missing-semicolon-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-syntax/missing-semicolon-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-        }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      },
-      "errors": [
-        {
-          "side": "stable-reference",
-          "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): loading page",
-            "timeout": true
-          },
-          "referenceFile": "css/css-syntax/missing-semicolon-ref.html",
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
         }
       ]
     }

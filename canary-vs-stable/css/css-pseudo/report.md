@@ -2,8 +2,8 @@
 
 - Compared entries: 268
 - Entries with differences: 135 (pending: 135, triaged: 0)
-- Entries with errors: 23 (pending: 23, triaged: 0)
-- Timeout entries: 23
+- Entries with errors: 24 (pending: 24, triaged: 0)
+- Timeout entries: 24
 - Page count changed: 0
 - Screenshot mismatches: 0
 - Outcome summary: {"known-fail":135,"pass":103,"error":23,"unchanged":7}
@@ -1055,10 +1055,6 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0008420158766506374, diffPixels=706
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008420158766506374, diffPixels=706
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0128] [WPT reftest] css/css-pseudo/highlight-painting-currentcolor-002b.html
   triage: pending
@@ -1813,6 +1809,15 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-paired-cascade-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-paired-cascade-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0127] [WPT reftest] css/css-pseudo/highlight-painting-currentcolor-002a.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-pseudo/highlight-painting-currentcolor-002a-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0136] [WPT reftest] css/css-pseudo/highlight-painting-shadows-horizontal.html
   triage: pending
   side: canary, stable
@@ -1959,7 +1964,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/target-text-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2019,7 +2024,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/target-text-text-decoration-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

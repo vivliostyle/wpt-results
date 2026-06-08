@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 356
-- Entries with differences: 192 (pending: 192, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with differences: 191 (pending: 191, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 3
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":142,"known-fail":192,"error":1,"unchanged":21}
+- Outcome summary: {"pass":142,"known-fail":191,"error":2,"unchanged":21}
 
 ## Differences
 
@@ -1510,28 +1510,8 @@
 - [0188] [WPT reftest] css/selectors/old-tests/css3-modsel-112.xml
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.017313802381497597, diffPixels=14517
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.017313802381497597, diffPixels=14517
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0189] [WPT reftest] css/selectors/old-tests/css3-modsel-112b.xml
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112b.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.017313802381497597, diffPixels=14517
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112b.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.017313802381497597, diffPixels=14517
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0190] [WPT reftest] css/selectors/old-tests/css3-modsel-115.xml
   triage: pending
@@ -2519,4 +2499,32 @@
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/invalidation/lang-pseudo-class-in-has-multiple-document-elements.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/lang-pseudo-class-in-has-multiple-document-elements.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0188] [WPT reftest] css/selectors/old-tests/css3-modsel-112.xml
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0189] [WPT reftest] css/selectors/old-tests/css3-modsel-112b.xml
+  triage: pending
+  side: canary, canary-reference, stable, stable-reference
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary-reference reference: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112b.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112b.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
