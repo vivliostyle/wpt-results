@@ -1,0 +1,32 @@
+- id: "0008"
+  category: WPT manual
+  title: css/css-gcpm/string-set-005.html
+  file: css/css-gcpm/string-set-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/string-set-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/string-set-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1
+- id: "0012"
+  category: WPT manual
+  title: css/css-gcpm/string-set-009.html
+  file: css/css-gcpm/string-set-009.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/string-set-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/string-set-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  diffPages:
+    - 1

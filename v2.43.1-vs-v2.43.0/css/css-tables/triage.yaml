@@ -1,0 +1,827 @@
+- id: "0001"
+  category: WPT reftest
+  title: css/css-tables/absolute-tables-006.html
+  file: css/css-tables/absolute-tables-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/absolute-tables-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/absolute-tables-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0014"
+  category: WPT reftest
+  title: css/css-tables/anonymous-table-ws-001.html
+  file: css/css-tables/anonymous-table-ws-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/anonymous-table-ws-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/anonymous-table-ws-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/anonymous-table-ws-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/anonymous-table-ws-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/anonymous-table-ws-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/anonymous-table-ws-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/anonymous-table-ws-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/anonymous-table-ws-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0021"
+  category: WPT reftest
+  title: css/css-tables/border-collapse-dynamic-section.html
+  file: css/css-tables/border-collapse-dynamic-section.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/border-collapse-dynamic-section.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/border-collapse-dynamic-section.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0029"
+  category: WPT reftest
+  title: css/css-tables/col-definite-max-size-001.html
+  file: css/css-tables/col-definite-max-size-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/col-definite-max-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/col-definite-max-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/col-definite-max-size-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/col-definite-max-size-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/col-definite-max-size-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/col-definite-max-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/col-definite-max-size-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/col-definite-max-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0030"
+  category: WPT reftest
+  title: css/css-tables/col-definite-min-size-001.html
+  file: css/css-tables/col-definite-min-size-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/col-definite-min-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/col-definite-min-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/col-definite-size-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/col-definite-size-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/col-definite-size-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/col-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/col-definite-size-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/col-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0031"
+  category: WPT reftest
+  title: css/css-tables/col-definite-size-001.html
+  file: css/css-tables/col-definite-size-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/col-definite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/col-definite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/col-definite-size-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/col-definite-size-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/col-definite-size-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/col-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/col-definite-size-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/col-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0039"
+  category: WPT reftest
+  title: css/css-tables/collapsed-border-partial-invalidation-003.html
+  file: css/css-tables/collapsed-border-partial-invalidation-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/collapsed-border-partial-invalidation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/collapsed-border-partial-invalidation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/collapsed-border-partial-invalidation-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/collapsed-border-partial-invalidation-003-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/collapsed-border-partial-invalidation-003-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/collapsed-border-partial-invalidation-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/collapsed-border-partial-invalidation-003-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/collapsed-border-partial-invalidation-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0041"
+  category: WPT reftest
+  title: css/css-tables/collapsed-border-remove-cell.html
+  file: css/css-tables/collapsed-border-remove-cell.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/collapsed-border-remove-cell.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/collapsed-border-remove-cell.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/collapsed-border-remove-cell-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/collapsed-border-remove-cell-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/collapsed-border-remove-cell-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/collapsed-border-remove-cell-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/collapsed-border-remove-cell-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/collapsed-border-remove-cell-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0046"
+  category: WPT reftest
+  title: css/css-tables/colspan-004.html
+  file: css/css-tables/colspan-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/colspan-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/colspan-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0059"
+  category: WPT reftest
+  title: css/css-tables/height-distribution/percentage-sizing-of-table-cell-007.html
+  file: css/css-tables/height-distribution/percentage-sizing-of-table-cell-007.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/height-distribution/percentage-sizing-of-table-cell-007-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/height-distribution/percentage-sizing-of-table-cell-007-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/height-distribution/percentage-sizing-of-table-cell-007-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/height-distribution/percentage-sizing-of-table-cell-007-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0060"
+  category: WPT reftest
+  title: css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002.html
+  file: css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-children-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0065"
+  category: WPT reftest
+  title: css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001.html
+  file: css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/height-distribution/percentage-sizing-of-table-cell-replaced-children-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0070"
+  category: WPT reftest
+  title: css/css-tables/insert-after-col.html
+  file: css/css-tables/insert-after-col.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/insert-after-col.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/insert-after-col.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/insert-after-col-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/insert-after-col-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/insert-after-col-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/insert-after-col-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/insert-after-col-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/insert-after-col-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0078"
+  category: WPT reftest
+  title: css/css-tables/paint/col-change-span-bg-invalidation-001.html
+  file: css/css-tables/paint/col-change-span-bg-invalidation-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/paint/col-change-span-bg-invalidation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/paint/col-change-span-bg-invalidation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0079"
+  category: WPT reftest
+  title: css/css-tables/paint/col-change-span-bg-invalidation-002.html
+  file: css/css-tables/paint/col-change-span-bg-invalidation-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/paint/col-change-span-bg-invalidation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/paint/col-change-span-bg-invalidation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0082"
+  category: WPT reftest
+  title: css/css-tables/paint/row-background-paint-remove-last-cell.html
+  file: css/css-tables/paint/row-background-paint-remove-last-cell.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/paint/row-background-paint-remove-last-cell.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/paint/row-background-paint-remove-last-cell.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/paint/row-background-paint-remove-last-cell-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/paint/row-background-paint-remove-last-cell-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/paint/row-background-paint-remove-last-cell-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/paint/row-background-paint-remove-last-cell-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/paint/row-background-paint-remove-last-cell-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/paint/row-background-paint-remove-last-cell-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0085"
+  category: WPT reftest
+  title: css/css-tables/percent-height-replaced-in-percent-cell-002.html
+  file: css/css-tables/percent-height-replaced-in-percent-cell-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/percent-height-replaced-in-percent-cell-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/percent-height-replaced-in-percent-cell-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0086"
+  category: WPT reftest
+  title: css/css-tables/percent-height-replaced-in-percent-cell-003.html
+  file: css/css-tables/percent-height-replaced-in-percent-cell-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/percent-height-replaced-in-percent-cell-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/percent-height-replaced-in-percent-cell-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0087"
+  category: WPT reftest
+  title: css/css-tables/percent-height-replaced-in-percent-cell-004.html
+  file: css/css-tables/percent-height-replaced-in-percent-cell-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/percent-height-replaced-in-percent-cell-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/percent-height-replaced-in-percent-cell-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0092"
+  category: WPT reftest
+  title: css/css-tables/percentages-grandchildren-quirks-mode-002.html
+  file: css/css-tables/percentages-grandchildren-quirks-mode-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/percentages-grandchildren-quirks-mode-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/percentages-grandchildren-quirks-mode-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0099"
+  category: WPT reftest
+  title: css/css-tables/rules-groups.html
+  file: css/css-tables/rules-groups.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/rules-groups.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/rules-groups.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/rules-groups-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/rules-groups-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/rules-groups-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/rules-groups-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/rules-groups-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/rules-groups-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0112"
+  category: WPT reftest
+  title: css/css-tables/table-cell-child-overflow-measure.html
+  file: css/css-tables/table-cell-child-overflow-measure.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/table-cell-child-overflow-measure.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/table-cell-child-overflow-measure.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/table-cell-child-overflow-measure-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/table-cell-child-overflow-measure-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/table-cell-child-overflow-measure-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/table-cell-child-overflow-measure-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/table-cell-child-overflow-measure-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/table-cell-child-overflow-measure-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0118"
+  category: WPT reftest
+  title: css/css-tables/table-cell-width-0.html
+  file: css/css-tables/table-cell-width-0.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/table-cell-width-0.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/table-cell-width-0.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/table-cell-width-0-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/table-cell-width-0-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/table-cell-width-0-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/table-cell-width-0-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/table-cell-width-0-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/table-cell-width-0-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0146"
+  category: WPT reftest
+  title: css/css-tables/tentative/padding-percentage.html
+  file: css/css-tables/tentative/padding-percentage.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/tentative/padding-percentage.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/tentative/padding-percentage.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0152"
+  category: WPT reftest
+  title: css/css-tables/tentative/paint/overflow-hidden-table.html
+  file: css/css-tables/tentative/paint/overflow-hidden-table.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/tentative/paint/overflow-hidden-table.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/tentative/paint/overflow-hidden-table.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/tentative/paint/overflow-hidden-table-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/tentative/paint/overflow-hidden-table-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/tentative/paint/overflow-hidden-table-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/tentative/paint/overflow-hidden-table-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/tentative/paint/overflow-hidden-table-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/tentative/paint/overflow-hidden-table-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0155"
+  category: WPT reftest
+  title: css/css-tables/th-text-align.html
+  file: css/css-tables/th-text-align.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/th-text-align.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/th-text-align.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/th-text-align-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/th-text-align-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/th-text-align-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/th-text-align-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/th-text-align-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/th-text-align-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0156"
+  category: WPT reftest
+  title: css/css-tables/toggle-row-display-property-001.html
+  file: css/css-tables/toggle-row-display-property-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/toggle-row-display-property-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/toggle-row-display-property-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/toggle-row-display-property-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/toggle-row-display-property-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/toggle-row-display-property-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/toggle-row-display-property-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/toggle-row-display-property-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/toggle-row-display-property-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0159"
+  category: WPT reftest
+  title: css/css-tables/visibility-collapse-colspan-003.html
+  file: css/css-tables/visibility-collapse-colspan-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/visibility-collapse-colspan-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/visibility-collapse-colspan-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/visibility-collapse-colspan-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/visibility-collapse-colspan-003-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/visibility-collapse-colspan-003-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/visibility-collapse-colspan-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/visibility-collapse-colspan-003-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/visibility-collapse-colspan-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0160"
+  category: WPT reftest
+  title: css/css-tables/visibility-collapse-rowspan-005.html
+  file: css/css-tables/visibility-collapse-rowspan-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/visibility-collapse-rowspan-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/visibility-collapse-rowspan-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/visibility-collapse-rowspan-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/visibility-collapse-rowspan-005-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/visibility-collapse-rowspan-005-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/visibility-collapse-rowspan-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/visibility-collapse-rowspan-005-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/visibility-collapse-rowspan-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0162"
+  category: WPT reftest
+  title: css/css-tables/whitespace-001.html
+  file: css/css-tables/whitespace-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/whitespace-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/whitespace-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-tables/whitespace-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-tables/whitespace-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-tables/whitespace-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/whitespace-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-tables/whitespace-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/whitespace-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0114"
+  category: WPT reftest
+  title: css/css-tables/table-cell-overflow-auto-scrolled.html
+  file: css/css-tables/table-cell-overflow-auto-scrolled.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-tables/table-cell-overflow-auto-scrolled.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-tables/table-cell-overflow-auto-scrolled.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: v2.43.1
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

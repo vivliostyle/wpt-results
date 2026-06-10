@@ -1,0 +1,81 @@
+- id: "0001"
+  category: WPT reftest
+  title: css/css-font-loading/fontface-descriptor-updates.html
+  file: css/css-font-loading/fontface-descriptor-updates.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-font-loading/fontface-descriptor-updates.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-font-loading/fontface-descriptor-updates.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-font-loading/fontface-descriptor-updates-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-font-loading/fontface-descriptor-updates-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-font-loading/fontface-descriptor-updates-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-font-loading/fontface-descriptor-updates-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-font-loading/fontface-descriptor-updates-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-font-loading/fontface-descriptor-updates-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0003"
+  category: WPT reftest
+  title: css/css-font-loading/fontface-override-descriptors.html
+  file: css/css-font-loading/fontface-override-descriptors.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-font-loading/fontface-override-descriptors.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-font-loading/fontface-override-descriptors.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-font-loading/fontface-override-descriptors-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-font-loading/fontface-override-descriptors-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-font-loading/fontface-override-descriptors-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-font-loading/fontface-override-descriptors-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-font-loading/fontface-override-descriptors-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-font-loading/fontface-override-descriptors-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0004"
+  category: WPT reftest
+  title: css/css-font-loading/fontface-size-adjust-descriptor.html
+  file: css/css-font-loading/fontface-size-adjust-descriptor.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-font-loading/fontface-size-adjust-descriptor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-font-loading/fontface-size-adjust-descriptor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-font-loading/fontface-size-adjust-descriptor-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-font-loading/fontface-size-adjust-descriptor-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-font-loading/fontface-size-adjust-descriptor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-font-loading/fontface-size-adjust-descriptor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-font-loading/fontface-size-adjust-descriptor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-font-loading/fontface-size-adjust-descriptor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

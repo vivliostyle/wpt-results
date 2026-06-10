@@ -1,0 +1,3409 @@
+- id: "0001"
+  category: WPT reftest
+  title: css/css-layout-api/auto-block-size/absolute.https.html
+  file: css/css-layout-api/auto-block-size/absolute.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/auto-block-size/absolute.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/auto-block-size/absolute.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/auto-block-size/auto-block-size-absolute-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/auto-block-size/auto-block-size-absolute-ref.html#1
+    - css/css-layout-api/auto-block-size/auto-block-size-absolute-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/auto-block-size/auto-block-size-absolute-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/auto-block-size/auto-block-size-absolute-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/auto-block-size/auto-block-size-absolute-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/auto-block-size/auto-block-size-absolute-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0002"
+  category: WPT reftest
+  title: css/css-layout-api/auto-block-size/flex.https.html
+  file: css/css-layout-api/auto-block-size/flex.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/auto-block-size/flex.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/auto-block-size/flex.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/auto-block-size/flex-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/auto-block-size/flex-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/auto-block-size/flex-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/auto-block-size/flex-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/auto-block-size/flex-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/auto-block-size/flex-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0003"
+  category: WPT reftest
+  title: css/css-layout-api/auto-block-size/floats.https.html
+  file: css/css-layout-api/auto-block-size/floats.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/auto-block-size/floats.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/auto-block-size/floats.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/auto-block-size/auto-block-size-floats-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/auto-block-size/auto-block-size-floats-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/auto-block-size/auto-block-size-floats-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/auto-block-size/auto-block-size-floats-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/auto-block-size/auto-block-size-floats-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/auto-block-size/auto-block-size-floats-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0004"
+  category: WPT reftest
+  title: css/css-layout-api/auto-block-size/inflow.https.html
+  file: css/css-layout-api/auto-block-size/inflow.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/auto-block-size/inflow.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/auto-block-size/inflow.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/auto-block-size/inflow-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/auto-block-size/inflow-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/auto-block-size/inflow-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/auto-block-size/inflow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/auto-block-size/inflow-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/auto-block-size/inflow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0006"
+  category: WPT reftest
+  title: css/css-layout-api/baseline/child-baseline.https.html
+  file: css/css-layout-api/baseline/child-baseline.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/baseline/child-baseline.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/baseline/child-baseline.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0007"
+  category: WPT reftest
+  title: css/css-layout-api/baseline/flex-baseline.https.html
+  file: css/css-layout-api/baseline/flex-baseline.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/baseline/flex-baseline.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/baseline/flex-baseline.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0008"
+  category: WPT reftest
+  title: css/css-layout-api/baseline/no-baseline.https.html
+  file: css/css-layout-api/baseline/no-baseline.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/baseline/no-baseline.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/baseline/no-baseline.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0009"
+  category: WPT reftest
+  title: css/css-layout-api/baseline/orthogonal-baseline.https.html
+  file: css/css-layout-api/baseline/orthogonal-baseline.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/baseline/orthogonal-baseline.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/baseline/orthogonal-baseline.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0010"
+  category: WPT reftest
+  title: css/css-layout-api/box-tree-registered.https.html
+  file: css/css-layout-api/box-tree-registered.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/box-tree-registered.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/box-tree-registered.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/box-tree-registered-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/box-tree-registered-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/box-tree-registered-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/box-tree-registered-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/box-tree-registered-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/box-tree-registered-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0011"
+  category: WPT reftest
+  title: css/css-layout-api/box-tree-unregistered.https.html
+  file: css/css-layout-api/box-tree-unregistered.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/box-tree-unregistered.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/box-tree-unregistered.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/box-tree-unregistered-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/box-tree-unregistered-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/box-tree-unregistered-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/box-tree-unregistered-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/box-tree-unregistered-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/box-tree-unregistered-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0012"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/available-block-size-htb-vrl.https.html
+  file: css/css-layout-api/child-constraints/available-block-size-htb-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/available-block-size-htb-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/available-block-size-htb-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0013"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/available-block-size-invalid.https.html
+  file: css/css-layout-api/child-constraints/available-block-size-invalid.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/available-block-size-invalid.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/available-block-size-invalid.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0014"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/available-block-size-vrl-htb.https.html
+  file: css/css-layout-api/child-constraints/available-block-size-vrl-htb.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/available-block-size-vrl-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/available-block-size-vrl-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0015"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/available-inline-size-htb-htb.https.html
+  file: css/css-layout-api/child-constraints/available-inline-size-htb-htb.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/available-inline-size-htb-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/available-inline-size-htb-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0016"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/available-inline-size-invalid.https.html
+  file: css/css-layout-api/child-constraints/available-inline-size-invalid.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/available-inline-size-invalid.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/available-inline-size-invalid.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0017"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/available-inline-size-vrl-vrl.https.html
+  file: css/css-layout-api/child-constraints/available-inline-size-vrl-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/available-inline-size-vrl-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/available-inline-size-vrl-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0018"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/available-size-for-percentages-htb-htb.https.html
+  file: css/css-layout-api/child-constraints/available-size-for-percentages-htb-htb.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/available-size-for-percentages-htb-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/available-size-for-percentages-htb-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0019"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/available-size-for-percentages-htb-vrl.https.html
+  file: css/css-layout-api/child-constraints/available-size-for-percentages-htb-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/available-size-for-percentages-htb-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/available-size-for-percentages-htb-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/css-layout-api/green-square-ref.html
+      actualPages:
+        - 1
+        - 2
+        - 3
+      baselinePages:
+        - 1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0020"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/available-size-for-percentages-invalid.https.html
+  file: css/css-layout-api/child-constraints/available-size-for-percentages-invalid.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/available-size-for-percentages-invalid.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/available-size-for-percentages-invalid.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0021"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/available-size-for-percentages-vrl-htb.https.html
+  file: css/css-layout-api/child-constraints/available-size-for-percentages-vrl-htb.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/available-size-for-percentages-vrl-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/available-size-for-percentages-vrl-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0022"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/available-size-for-percentages-vrl-vrl.https.html
+  file: css/css-layout-api/child-constraints/available-size-for-percentages-vrl-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/available-size-for-percentages-vrl-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/available-size-for-percentages-vrl-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0023"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/fixed-block-size-vrl.https.html
+  file: css/css-layout-api/child-constraints/fixed-block-size-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/fixed-block-size-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/fixed-block-size-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0024"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/fixed-block-size.https.html
+  file: css/css-layout-api/child-constraints/fixed-block-size.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/fixed-block-size.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/fixed-block-size.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0025"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/fixed-inline-size-vrl.https.html
+  file: css/css-layout-api/child-constraints/fixed-inline-size-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/fixed-inline-size-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/fixed-inline-size-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0026"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/fixed-inline-size.https.html
+  file: css/css-layout-api/child-constraints/fixed-inline-size.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/fixed-inline-size.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/fixed-inline-size.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0027"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/percentage-size-htb-htb.https.html
+  file: css/css-layout-api/child-constraints/percentage-size-htb-htb.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-htb-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-htb-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0028"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/percentage-size-htb-vrl.https.html
+  file: css/css-layout-api/child-constraints/percentage-size-htb-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-htb-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-htb-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0029"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/percentage-size-invalid.https.html
+  file: css/css-layout-api/child-constraints/percentage-size-invalid.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-invalid.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-invalid.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0030"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/percentage-size-quirks-mode.https.html
+  file: css/css-layout-api/child-constraints/percentage-size-quirks-mode.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-quirks-mode.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-quirks-mode.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0031"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/percentage-size-vrl-htb.https.html
+  file: css/css-layout-api/child-constraints/percentage-size-vrl-htb.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-vrl-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-vrl-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0032"
+  category: WPT reftest
+  title: css/css-layout-api/child-constraints/percentage-size-vrl-vrl.https.html
+  file: css/css-layout-api/child-constraints/percentage-size-vrl-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-vrl-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-vrl-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0033"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-absolute-left-right-vrl.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-absolute-left-right-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-absolute-left-right-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-absolute-left-right-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0034"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-absolute-none.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-absolute-none.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-absolute-none.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-absolute-none.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0035"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-absolute-top-bottom.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-absolute-top-bottom.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-absolute-top-bottom.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-absolute-top-bottom.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0036"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-block-none-vrl.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-block-none-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-block-none-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-block-none-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0037"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-block-none.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-block-none.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-block-none.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-block-none.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0038"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-fixed-max.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-fixed-max.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-fixed-max.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-fixed-max.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0039"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-fixed-min.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-fixed-min.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-fixed-min.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-fixed-min.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0040"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-fixed-vrl.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-fixed-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-fixed-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-fixed-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0041"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-fixed.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-fixed.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-fixed.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-fixed.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0042"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-flex-basis-vrl.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-flex-basis-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-basis-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-basis-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0043"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-flex-column-basis.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-flex-column-basis.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-column-basis.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-column-basis.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0044"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-flex-column-grow.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-flex-column-grow.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-column-grow.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-column-grow.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0045"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-flex-column-none.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-flex-column-none.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-column-none.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-column-none.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0046"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-flex-column-stretch-vrl.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-flex-column-stretch-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-column-stretch-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-column-stretch-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0047"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-flex-grow-vrl.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-flex-grow-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-grow-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-grow-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0048"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-flex-none.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-flex-none.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-none.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-none.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0049"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-flex-percentage-indefinite.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-flex-percentage-indefinite.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-percentage-indefinite.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-percentage-indefinite.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0050"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-flex-stretch-max.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-flex-stretch-max.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-stretch-max.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-stretch-max.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0051"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-flex-stretch.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-flex-stretch.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-stretch.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-flex-stretch.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0052"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-grid-none.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-grid-none.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-grid-none.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-grid-none.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0053"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-grid-stretch-max.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-grid-stretch-max.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-grid-stretch-max.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-grid-stretch-max.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0054"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-grid-stretch.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-grid-stretch.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-grid-stretch.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-grid-stretch.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0055"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-grid-vrl.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-grid-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-grid-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-grid-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0056"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-percentage-indefinite.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-percentage-indefinite.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-percentage-indefinite.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-percentage-indefinite.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0057"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-percentage-quirks-mode.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-percentage-quirks-mode.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-percentage-quirks-mode.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-percentage-quirks-mode.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0058"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-percentage-vrl.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-percentage-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-percentage-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-percentage-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0059"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-percentage.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-percentage.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-percentage.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-percentage.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0060"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-block-size-quirky-body.https.html
+  file: css/css-layout-api/constraints/fixed-block-size-quirky-body.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-quirky-body.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-block-size-quirky-body.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0061"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-inline-size-absolute-left-right.https.html
+  file: css/css-layout-api/constraints/fixed-inline-size-absolute-left-right.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-absolute-left-right.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-absolute-left-right.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/constraints/fixed-inline-size-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0062"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-inline-size-absolute-top-bottom-vrl.https.html
+  file: css/css-layout-api/constraints/fixed-inline-size-absolute-top-bottom-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-absolute-top-bottom-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-absolute-top-bottom-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/constraints/fixed-inline-size-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0063"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-inline-size-block-auto-avoid-floats-vlr.https.html
+  file: css/css-layout-api/constraints/fixed-inline-size-block-auto-avoid-floats-vlr.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-block-auto-avoid-floats-vlr.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-block-auto-avoid-floats-vlr.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/constraints/fixed-inline-size-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0064"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-inline-size-block-auto-avoid-floats.https.html
+  file: css/css-layout-api/constraints/fixed-inline-size-block-auto-avoid-floats.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-block-auto-avoid-floats.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-block-auto-avoid-floats.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/constraints/fixed-inline-size-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0065"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-inline-size-block-auto-vlr.https.html
+  file: css/css-layout-api/constraints/fixed-inline-size-block-auto-vlr.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-block-auto-vlr.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-block-auto-vlr.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/constraints/fixed-inline-size-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0066"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-inline-size-block-auto.https.html
+  file: css/css-layout-api/constraints/fixed-inline-size-block-auto.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-block-auto.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-block-auto.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/constraints/fixed-inline-size-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0067"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-inline-size-fixed-vrl.https.html
+  file: css/css-layout-api/constraints/fixed-inline-size-fixed-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-fixed-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-fixed-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/constraints/fixed-inline-size-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0068"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-inline-size-fixed.https.html
+  file: css/css-layout-api/constraints/fixed-inline-size-fixed.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-fixed.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-fixed.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/constraints/fixed-inline-size-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0069"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-inline-size-flex-grow-column-vrl.https.html
+  file: css/css-layout-api/constraints/fixed-inline-size-flex-grow-column-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-flex-grow-column-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-flex-grow-column-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/constraints/fixed-inline-size-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0070"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-inline-size-flex-grow.https.html
+  file: css/css-layout-api/constraints/fixed-inline-size-flex-grow.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-flex-grow.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-flex-grow.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/constraints/fixed-inline-size-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0071"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-inline-size-grid.https.html
+  file: css/css-layout-api/constraints/fixed-inline-size-grid.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-grid.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-grid.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/constraints/fixed-inline-size-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0072"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-inline-size-percentage-vlr.https.html
+  file: css/css-layout-api/constraints/fixed-inline-size-percentage-vlr.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-percentage-vlr.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-percentage-vlr.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/constraints/fixed-inline-size-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0073"
+  category: WPT reftest
+  title: css/css-layout-api/constraints/fixed-inline-size-percentage.https.html
+  file: css/css-layout-api/constraints/fixed-inline-size-percentage.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-percentage.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-percentage.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/constraints/fixed-inline-size-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/constraints/fixed-inline-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints/fixed-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0074"
+  category: WPT reftest
+  title: css/css-layout-api/constraints-data-function-failure.https.html
+  file: css/css-layout-api/constraints-data-function-failure.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints-data-function-failure.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints-data-function-failure.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0075"
+  category: WPT reftest
+  title: css/css-layout-api/constraints-data-sab-failure.https.html
+  file: css/css-layout-api/constraints-data-sab-failure.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints-data-sab-failure.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints-data-sab-failure.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0076"
+  category: WPT reftest
+  title: css/css-layout-api/constraints-data.https.html
+  file: css/css-layout-api/constraints-data.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/constraints-data.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/constraints-data.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0077"
+  category: WPT reftest
+  title: css/css-layout-api/edges/all.https.html
+  file: css/css-layout-api/edges/all.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/edges/all.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/edges/all.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/edges/all-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/edges/all-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/edges/all-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/edges/all-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/edges/all-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/edges/all-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0078"
+  category: WPT reftest
+  title: css/css-layout-api/edges/border-htb-rtl.https.html
+  file: css/css-layout-api/edges/border-htb-rtl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/edges/border-htb-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/edges/border-htb-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0079"
+  category: WPT reftest
+  title: css/css-layout-api/edges/border-htb.https.html
+  file: css/css-layout-api/edges/border-htb.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/edges/border-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/edges/border-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0080"
+  category: WPT reftest
+  title: css/css-layout-api/edges/border-vlr-rtl.https.html
+  file: css/css-layout-api/edges/border-vlr-rtl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/edges/border-vlr-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/edges/border-vlr-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0081"
+  category: WPT reftest
+  title: css/css-layout-api/edges/border-vlr.https.html
+  file: css/css-layout-api/edges/border-vlr.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/edges/border-vlr.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/edges/border-vlr.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0082"
+  category: WPT reftest
+  title: css/css-layout-api/edges/border-vrl-rtl.https.html
+  file: css/css-layout-api/edges/border-vrl-rtl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/edges/border-vrl-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/edges/border-vrl-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0083"
+  category: WPT reftest
+  title: css/css-layout-api/edges/border-vrl.https.html
+  file: css/css-layout-api/edges/border-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/edges/border-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/edges/border-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0084"
+  category: WPT reftest
+  title: css/css-layout-api/edges/padding-htb-rtl.https.html
+  file: css/css-layout-api/edges/padding-htb-rtl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/edges/padding-htb-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/edges/padding-htb-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0085"
+  category: WPT reftest
+  title: css/css-layout-api/edges/padding-htb.https.html
+  file: css/css-layout-api/edges/padding-htb.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/edges/padding-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/edges/padding-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0086"
+  category: WPT reftest
+  title: css/css-layout-api/edges/padding-vlr-rtl.https.html
+  file: css/css-layout-api/edges/padding-vlr-rtl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/edges/padding-vlr-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/edges/padding-vlr-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0087"
+  category: WPT reftest
+  title: css/css-layout-api/edges/padding-vlr.https.html
+  file: css/css-layout-api/edges/padding-vlr.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/edges/padding-vlr.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/edges/padding-vlr.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0088"
+  category: WPT reftest
+  title: css/css-layout-api/edges/padding-vrl-rtl.https.html
+  file: css/css-layout-api/edges/padding-vrl-rtl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/edges/padding-vrl-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/edges/padding-vrl-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0089"
+  category: WPT reftest
+  title: css/css-layout-api/edges/padding-vrl.https.html
+  file: css/css-layout-api/edges/padding-vrl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/edges/padding-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/edges/padding-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0090"
+  category: WPT reftest
+  title: css/css-layout-api/edges/scrollbar.https.html
+  file: css/css-layout-api/edges/scrollbar.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/edges/scrollbar.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/edges/scrollbar.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/edges/scrollbar-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/edges/scrollbar-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/edges/scrollbar-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/edges/scrollbar-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/edges/scrollbar-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/edges/scrollbar-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0097"
+  category: WPT reftest
+  title: css/css-layout-api/fallback-layout/bad-return.https.html
+  file: css/css-layout-api/fallback-layout/bad-return.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fallback-layout/bad-return.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fallback-layout/bad-return.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0098"
+  category: WPT reftest
+  title: css/css-layout-api/fallback-layout/constructor-error.https.html
+  file: css/css-layout-api/fallback-layout/constructor-error.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fallback-layout/constructor-error.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fallback-layout/constructor-error.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0099"
+  category: WPT reftest
+  title: css/css-layout-api/fallback-layout/error.https.html
+  file: css/css-layout-api/fallback-layout/error.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fallback-layout/error.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fallback-layout/error.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0100"
+  category: WPT reftest
+  title: css/css-layout-api/fallback-layout/invalid-child.https.html
+  file: css/css-layout-api/fallback-layout/invalid-child.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fallback-layout/invalid-child.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fallback-layout/invalid-child.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0101"
+  category: WPT reftest
+  title: css/css-layout-api/fallback-layout/invalid-fragment.https.html
+  file: css/css-layout-api/fallback-layout/invalid-fragment.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fallback-layout/invalid-fragment.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fallback-layout/invalid-fragment.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0102"
+  category: WPT reftest
+  title: css/css-layout-api/fallback-layout/no-promise.https.html
+  file: css/css-layout-api/fallback-layout/no-promise.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fallback-layout/no-promise.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fallback-layout/no-promise.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0103"
+  category: WPT reftest
+  title: css/css-layout-api/fallback-layout/unresolved-promise.https.html
+  file: css/css-layout-api/fallback-layout/unresolved-promise.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fallback-layout/unresolved-promise.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fallback-layout/unresolved-promise.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fallback-layout/fallback-layout-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0104"
+  category: WPT reftest
+  title: css/css-layout-api/fragment-data-function-failure.https.html
+  file: css/css-layout-api/fragment-data-function-failure.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fragment-data-function-failure.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fragment-data-function-failure.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0105"
+  category: WPT reftest
+  title: css/css-layout-api/fragment-data-immutable.https.html
+  file: css/css-layout-api/fragment-data-immutable.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fragment-data-immutable.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fragment-data-immutable.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0106"
+  category: WPT reftest
+  title: css/css-layout-api/fragment-data-sab-failure.https.html
+  file: css/css-layout-api/fragment-data-sab-failure.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fragment-data-sab-failure.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fragment-data-sab-failure.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0107"
+  category: WPT reftest
+  title: css/css-layout-api/fragment-data.https.html
+  file: css/css-layout-api/fragment-data.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/fragment-data.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/fragment-data.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0108"
+  category: WPT reftest
+  title: css/css-layout-api/intrinsic-sizes/absolute.https.html
+  file: css/css-layout-api/intrinsic-sizes/absolute.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/absolute.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/absolute.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/intrinsic-sizes/absolute-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/intrinsic-sizes/absolute-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/intrinsic-sizes/absolute-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/absolute-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/intrinsic-sizes/absolute-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/absolute-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0109"
+  category: WPT reftest
+  title: css/css-layout-api/intrinsic-sizes/child-replaced-percentage-01.https.html
+  file: css/css-layout-api/intrinsic-sizes/child-replaced-percentage-01.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-replaced-percentage-01.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-replaced-percentage-01.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/intrinsic-sizes/child-replaced-percentage-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/intrinsic-sizes/child-replaced-percentage-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/intrinsic-sizes/child-replaced-percentage-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-replaced-percentage-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/intrinsic-sizes/child-replaced-percentage-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-replaced-percentage-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0110"
+  category: WPT reftest
+  title: css/css-layout-api/intrinsic-sizes/child-replaced-percentage-02.https.html
+  file: css/css-layout-api/intrinsic-sizes/child-replaced-percentage-02.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-replaced-percentage-02.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-replaced-percentage-02.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/intrinsic-sizes/child-replaced-percentage-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/intrinsic-sizes/child-replaced-percentage-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/intrinsic-sizes/child-replaced-percentage-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-replaced-percentage-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/intrinsic-sizes/child-replaced-percentage-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-replaced-percentage-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0111"
+  category: WPT reftest
+  title: css/css-layout-api/intrinsic-sizes/child-size-01.https.html
+  file: css/css-layout-api/intrinsic-sizes/child-size-01.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-size-01.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-size-01.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/intrinsic-sizes/child-size-01-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/intrinsic-sizes/child-size-01-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/intrinsic-sizes/child-size-01-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-size-01-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/intrinsic-sizes/child-size-01-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-size-01-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0112"
+  category: WPT reftest
+  title: css/css-layout-api/intrinsic-sizes/child-size-02.https.html
+  file: css/css-layout-api/intrinsic-sizes/child-size-02.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-size-02.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-size-02.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/intrinsic-sizes/child-size-02-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/intrinsic-sizes/child-size-02-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/intrinsic-sizes/child-size-02-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-size-02-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/intrinsic-sizes/child-size-02-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-size-02-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0113"
+  category: WPT reftest
+  title: css/css-layout-api/intrinsic-sizes/child-size-03.https.html
+  file: css/css-layout-api/intrinsic-sizes/child-size-03.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-size-03.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-size-03.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/intrinsic-sizes/child-size-02-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/intrinsic-sizes/child-size-02-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/intrinsic-sizes/child-size-02-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-size-02-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/intrinsic-sizes/child-size-02-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-size-02-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0114"
+  category: WPT reftest
+  title: css/css-layout-api/intrinsic-sizes/child-size-contribution.https.html
+  file: css/css-layout-api/intrinsic-sizes/child-size-contribution.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-size-contribution.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-size-contribution.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/intrinsic-sizes/child-size-01-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/intrinsic-sizes/child-size-01-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/intrinsic-sizes/child-size-01-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-size-01-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/intrinsic-sizes/child-size-01-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/child-size-01-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0115"
+  category: WPT reftest
+  title: css/css-layout-api/intrinsic-sizes/content-size.https.html
+  file: css/css-layout-api/intrinsic-sizes/content-size.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/content-size.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/content-size.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/intrinsic-sizes/content-size-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/intrinsic-sizes/content-size-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/intrinsic-sizes/content-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/content-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/intrinsic-sizes/content-size-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/content-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0116"
+  category: WPT reftest
+  title: css/css-layout-api/intrinsic-sizes/floats.https.html
+  file: css/css-layout-api/intrinsic-sizes/floats.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/floats.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/floats.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/intrinsic-sizes/floats-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/intrinsic-sizes/floats-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/intrinsic-sizes/floats-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/floats-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/intrinsic-sizes/floats-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/floats-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0117"
+  category: WPT reftest
+  title: css/css-layout-api/intrinsic-sizes/invalid-min-max.https.html
+  file: css/css-layout-api/intrinsic-sizes/invalid-min-max.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/invalid-min-max.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/invalid-min-max.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/intrinsic-sizes/invalid-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/intrinsic-sizes/invalid-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/intrinsic-sizes/invalid-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/intrinsic-sizes/invalid-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/intrinsic-sizes/invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0120"
+  category: WPT reftest
+  title: css/css-layout-api/layout-child/absolute.https.html
+  file: css/css-layout-api/layout-child/absolute.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/layout-child/absolute.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/layout-child/absolute.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0121"
+  category: WPT reftest
+  title: css/css-layout-api/layout-child/before-after.https.html
+  file: css/css-layout-api/layout-child/before-after.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/layout-child/before-after.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/layout-child/before-after.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0122"
+  category: WPT reftest
+  title: css/css-layout-api/layout-child/fixed.https.html
+  file: css/css-layout-api/layout-child/fixed.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/layout-child/fixed.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/layout-child/fixed.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0123"
+  category: WPT reftest
+  title: css/css-layout-api/layout-child/float.https.html
+  file: css/css-layout-api/layout-child/float.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/layout-child/float.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/layout-child/float.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0124"
+  category: WPT reftest
+  title: css/css-layout-api/layout-child/inflow.https.html
+  file: css/css-layout-api/layout-child/inflow.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/layout-child/inflow.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/layout-child/inflow.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0125"
+  category: WPT reftest
+  title: css/css-layout-api/layout-child/inlines.https.html
+  file: css/css-layout-api/layout-child/inlines.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/layout-child/inlines.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/layout-child/inlines.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0126"
+  category: WPT reftest
+  title: css/css-layout-api/layout-child/text-01.https.html
+  file: css/css-layout-api/layout-child/text-01.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/layout-child/text-01.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/layout-child/text-01.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0127"
+  category: WPT reftest
+  title: css/css-layout-api/layout-child/text-02.https.html
+  file: css/css-layout-api/layout-child/text-02.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/layout-child/text-02.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/layout-child/text-02.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/green-square-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/green-square-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/green-square-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0128"
+  category: WPT reftest
+  title: css/css-layout-api/position-fragment/htb-ltr.https.html
+  file: css/css-layout-api/position-fragment/htb-ltr.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/position-fragment/htb-ltr.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/position-fragment/htb-ltr.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/position-fragment/ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/position-fragment/ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/position-fragment/ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/position-fragment/ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/position-fragment/ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/position-fragment/ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0129"
+  category: WPT reftest
+  title: css/css-layout-api/position-fragment/htb-rtl.https.html
+  file: css/css-layout-api/position-fragment/htb-rtl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/position-fragment/htb-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/position-fragment/htb-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/position-fragment/ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/position-fragment/ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/position-fragment/ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/position-fragment/ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/position-fragment/ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/position-fragment/ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0130"
+  category: WPT reftest
+  title: css/css-layout-api/position-fragment/vlr-ltr.https.html
+  file: css/css-layout-api/position-fragment/vlr-ltr.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/position-fragment/vlr-ltr.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/position-fragment/vlr-ltr.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/position-fragment/ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/position-fragment/ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/position-fragment/ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/position-fragment/ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/position-fragment/ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/position-fragment/ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0131"
+  category: WPT reftest
+  title: css/css-layout-api/position-fragment/vlr-rtl.https.html
+  file: css/css-layout-api/position-fragment/vlr-rtl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/position-fragment/vlr-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/position-fragment/vlr-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/position-fragment/ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/position-fragment/ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/position-fragment/ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/position-fragment/ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/position-fragment/ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/position-fragment/ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0132"
+  category: WPT reftest
+  title: css/css-layout-api/position-fragment/vrl-ltr.https.html
+  file: css/css-layout-api/position-fragment/vrl-ltr.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/position-fragment/vrl-ltr.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/position-fragment/vrl-ltr.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/position-fragment/ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/position-fragment/ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/position-fragment/ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/position-fragment/ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/position-fragment/ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/position-fragment/ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0133"
+  category: WPT reftest
+  title: css/css-layout-api/position-fragment/vrl-rtl.https.html
+  file: css/css-layout-api/position-fragment/vrl-rtl.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/position-fragment/vrl-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/position-fragment/vrl-rtl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/position-fragment/ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/position-fragment/ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/position-fragment/ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/position-fragment/ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/position-fragment/ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/position-fragment/ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0134"
+  category: WPT reftest
+  title: css/css-layout-api/style-map-multi.https.html
+  file: css/css-layout-api/style-map-multi.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/style-map-multi.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/style-map-multi.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/style-map-multi-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/style-map-multi-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/style-map-multi-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/style-map-multi-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/style-map-multi-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/style-map-multi-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0135"
+  category: WPT reftest
+  title: css/css-layout-api/style-map.https.html
+  file: css/css-layout-api/style-map.https.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.1
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/style-map.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.0
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/style-map.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-layout-api/style-map-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-layout-api/style-map-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.1
+      referenceFile: css/css-layout-api/style-map-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-layout-api/style-map-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.0
+      referenceFile: css/css-layout-api/style-map-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-layout-api/style-map-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

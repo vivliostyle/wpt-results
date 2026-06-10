@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-06-10T04:26:36.899Z",
+  "labels": {
+    "actual": "v2.43.1",
+    "baseline": "v2.43.0"
+  },
+  "options": {
+    "categories": [],
+    "titleIncludes": [],
+    "files": [],
+    "limit": null,
+    "mode": "reftest-diff",
+    "browser": "chromium",
+    "outDir": "v2.43.1-vs-v2.43.0/css/css-logical",
+    "timeoutSec": 10,
+    "maxDiffRatio": 0.00002,
+    "pixelThreshold": 0.1,
+    "viewportWidth": 1800,
+    "viewportHeight": 1800,
+    "skipScreenshots": false,
+    "concurrency": 8,
+    "exportHtml": false,
+    "exportHtmlDiff": false,
+    "actualViewer": "https://vivliostyle.github.io/viewer/v2.43.1/",
+    "baselineViewer": "https://vivliostyle.github.io/viewer/v2.43.0/",
+    "actualLabel": "v2.43.1",
+    "baselineLabel": "v2.43.0",
+    "extraViewerParams": "",
+    "actualViewerParams": "",
+    "baselineViewerParams": "",
+    "testUrls": [],
+    "refUrls": [],
+    "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
+    "wptBaseUrl": "https://wpt.live/",
+    "wptPathPrefixes": [
+      "css/css-logical/"
+    ],
+    "timeoutMs": 10000
+  },
+  "summary": {
+    "totalEntries": 6,
+    "entriesWithDifferences": 0,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
+    "pageCountMismatches": 0,
+    "screenshotMismatches": 0,
+    "outcomes": {
+      "changeTypes": {
+        "pass": 6
+      },
+      "statusPairs": {
+        "PASS->PASS": 6
+      }
+    },
+    "triage": {
+      "differences": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "errors": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "pendingEntries": 0,
+      "triagedEntries": 0
+    }
+  },
+  "entries": [
+    {
+      "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/css-logical/cascading-001.html",
+      "file": [
+        "css/css-logical/cascading-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-logical/cascading-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/cascading-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/cascading-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-logical/cascading-001-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/cascading-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/cascading-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0002",
+      "category": "WPT reftest",
+      "title": "css/css-logical/logical-values-float-clear-1.html",
+      "file": [
+        "css/css-logical/logical-values-float-clear-1.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-logical/logical-values-float-clear-1.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/logical-values-float-clear-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/logical-values-float-clear-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-logical/reference/logical-values-float-clear-1-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0003",
+      "category": "WPT reftest",
+      "title": "css/css-logical/logical-values-float-clear-2.html",
+      "file": [
+        "css/css-logical/logical-values-float-clear-2.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-logical/logical-values-float-clear-2.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/logical-values-float-clear-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/logical-values-float-clear-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-logical/reference/logical-values-float-clear-2-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0004",
+      "category": "WPT reftest",
+      "title": "css/css-logical/logical-values-float-clear-3.html",
+      "file": [
+        "css/css-logical/logical-values-float-clear-3.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-logical/logical-values-float-clear-3.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/logical-values-float-clear-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/logical-values-float-clear-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-logical/reference/logical-values-float-clear-3-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0005",
+      "category": "WPT reftest",
+      "title": "css/css-logical/logical-values-float-clear-4.html",
+      "file": [
+        "css/css-logical/logical-values-float-clear-4.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-logical/logical-values-float-clear-4.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/logical-values-float-clear-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/logical-values-float-clear-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-logical/reference/logical-values-float-clear-4-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0006",
+      "category": "WPT reftest",
+      "title": "css/css-logical/logical-values-float-clear-reftest.html",
+      "file": [
+        "css/css-logical/logical-values-float-clear-reftest.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-logical/logical-values-float-clear-reftest.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/logical-values-float-clear-reftest.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/logical-values-float-clear-reftest.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-logical/reference/logical-values-float-clear-reftest-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-reftest-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-reftest-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    }
+  ]
+}

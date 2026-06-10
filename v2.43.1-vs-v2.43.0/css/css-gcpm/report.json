@@ -1,0 +1,457 @@
+{
+  "generatedAt": "2026-06-10T03:58:58.410Z",
+  "labels": {
+    "actual": "v2.43.1",
+    "baseline": "v2.43.0"
+  },
+  "options": {
+    "categories": [],
+    "titleIncludes": [],
+    "files": [],
+    "limit": null,
+    "mode": "reftest-diff",
+    "browser": "chromium",
+    "outDir": "v2.43.1-vs-v2.43.0/css/css-gcpm",
+    "timeoutSec": 10,
+    "maxDiffRatio": 0.00002,
+    "pixelThreshold": 0.1,
+    "viewportWidth": 1800,
+    "viewportHeight": 1800,
+    "skipScreenshots": false,
+    "concurrency": 8,
+    "exportHtml": false,
+    "exportHtmlDiff": false,
+    "actualViewer": "https://vivliostyle.github.io/viewer/v2.43.1/",
+    "baselineViewer": "https://vivliostyle.github.io/viewer/v2.43.0/",
+    "actualLabel": "v2.43.1",
+    "baselineLabel": "v2.43.0",
+    "extraViewerParams": "",
+    "actualViewerParams": "",
+    "baselineViewerParams": "",
+    "testUrls": [],
+    "refUrls": [],
+    "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
+    "wptBaseUrl": "https://wpt.live/",
+    "wptPathPrefixes": [
+      "css/css-gcpm/"
+    ],
+    "timeoutMs": 10000
+  },
+  "summary": {
+    "totalEntries": 20,
+    "entriesWithDifferences": 2,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
+    "pageCountMismatches": 0,
+    "screenshotMismatches": 2,
+    "outcomes": {
+      "changeTypes": {
+        "unchanged": 18,
+        "changed": 2
+      },
+      "statusPairs": {
+        "MANUAL->MANUAL": 20
+      }
+    },
+    "triage": {
+      "differences": {
+        "pending": 2,
+        "triaged": 0
+      },
+      "errors": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "pendingEntries": 2,
+      "triagedEntries": 0
+    }
+  },
+  "entries": [
+    {
+      "id": "0001",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/leader-001.html",
+      "file": [
+        "css/css-gcpm/leader-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/leader-001.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/leader-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/leader-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0002",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/leader-002.html",
+      "file": [
+        "css/css-gcpm/leader-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/leader-002.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/leader-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/leader-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0003",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/leader-003.html",
+      "file": [
+        "css/css-gcpm/leader-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/leader-003.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/leader-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/leader-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0004",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/string-set-001.html",
+      "file": [
+        "css/css-gcpm/string-set-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-001.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/string-set-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/string-set-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0005",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/string-set-002.html",
+      "file": [
+        "css/css-gcpm/string-set-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-002.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/string-set-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/string-set-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0006",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/string-set-003.html",
+      "file": [
+        "css/css-gcpm/string-set-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-003.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/string-set-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/string-set-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0007",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/string-set-004.html",
+      "file": [
+        "css/css-gcpm/string-set-004.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-004.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/string-set-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/string-set-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0008",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/string-set-005.html",
+      "file": [
+        "css/css-gcpm/string-set-005.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-005.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "changed",
+      "viewerChanged": true,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/string-set-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/string-set-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [],
+      "difference": {
+        "classification": "changed",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 35,
+            "diffRatio": 0.000041742996717807804,
+            "exactDiffPixels": 77,
+            "exactDiffRatio": 0.00009183459277917716,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0008-WPT_manual-css-css-gcpm-string-set-005.html-p0001.png"
+          }
+        ],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0009",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/string-set-006.html",
+      "file": [
+        "css/css-gcpm/string-set-006.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-006.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/string-set-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/string-set-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0010",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/string-set-007.html",
+      "file": [
+        "css/css-gcpm/string-set-007.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-007.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/string-set-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/string-set-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0011",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/string-set-008.html",
+      "file": [
+        "css/css-gcpm/string-set-008.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-008.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/string-set-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/string-set-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0012",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/string-set-009.html",
+      "file": [
+        "css/css-gcpm/string-set-009.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-009.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "changed",
+      "viewerChanged": true,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/string-set-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/string-set-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [],
+      "difference": {
+        "classification": "changed",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 83,
+            "diffRatio": 0.0000989905350736585,
+            "exactDiffPixels": 159,
+            "exactDiffRatio": 0.00018963247080375543,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 255,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0012-WPT_manual-css-css-gcpm-string-set-009.html-p0001.png"
+          }
+        ],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0013",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/string-set-010.html",
+      "file": [
+        "css/css-gcpm/string-set-010.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-010.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/string-set-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/string-set-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0014",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/string-set-011.html",
+      "file": [
+        "css/css-gcpm/string-set-011.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-011.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/string-set-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/string-set-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0015",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/string-set-012.html",
+      "file": [
+        "css/css-gcpm/string-set-012.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/string-set-012.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/string-set-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/string-set-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0016",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/using-strings-001.html",
+      "file": [
+        "css/css-gcpm/using-strings-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/using-strings-001.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/using-strings-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/using-strings-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0017",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/using-strings-002.html",
+      "file": [
+        "css/css-gcpm/using-strings-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/using-strings-002.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/using-strings-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/using-strings-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0018",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/using-strings-003.html",
+      "file": [
+        "css/css-gcpm/using-strings-003.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/using-strings-003.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/using-strings-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/using-strings-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0019",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/using-strings-004.html",
+      "file": [
+        "css/css-gcpm/using-strings-004.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/using-strings-004.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/using-strings-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/using-strings-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "0020",
+      "category": "WPT manual",
+      "title": "css/css-gcpm/using-strings-005.html",
+      "file": [
+        "css/css-gcpm/using-strings-005.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-gcpm/using-strings-005.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-gcpm/using-strings-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-gcpm/using-strings-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    }
+  ]
+}

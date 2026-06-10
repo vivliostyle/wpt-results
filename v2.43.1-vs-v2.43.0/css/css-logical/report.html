@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>v2.43.1 vs v2.43.0 report</title>
+  <style>
+    :root { color-scheme: light; --bg:#f6f4ef; --panel:#fffdf8; --ink:#222; --muted:#6b665c; --line:#ddd4c4; --pass:#1f7a4d; --fail:#b65f4f; --known-fail:#c07a6c; --regression:#8f1d14; --error:#8a2323; --improvement:#0b5d3b; --neutral:#7a6f5a; }
+    html, body { height:100%; }
+    body { margin:0; overflow:hidden; font:14px/1.4 ui-sans-serif, system-ui, sans-serif; color:var(--ink); background:linear-gradient(180deg,#f3efe6 0%,#f8f6f1 100%); }
+    main { box-sizing:border-box; max-width:1200px; height:100vh; margin:0 auto; padding:20px 16px 24px; display:flex; flex-direction:column; }
+    h1 { margin:0 0 4px; font-size:20px; }
+    p { margin:0; color:var(--muted); font-size:13px; }
+    .header-link { color:var(--muted); text-decoration:none; }
+    .header-link:hover { text-decoration:underline; }
+    .summary { display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:6px; margin:10px 0; }
+    .card { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:8px 10px; box-shadow:0 4px 12px rgba(0,0,0,.03); }
+    .summary-card { appearance:none; width:100%; text-align:left; font:inherit; color:inherit; }
+    .summary-card.is-filterable { cursor:pointer; transition:transform .16s ease, box-shadow .16s ease, border-color .16s ease; }
+    .summary-card.is-filterable:hover { transform:translateY(-1px); }
+    .summary-card.is-filterable.is-active { box-shadow:0 0 0 2px rgba(0,0,0,.08), 0 10px 24px rgba(0,0,0,.08); }
+    .summary-card.pass { border-color:color-mix(in srgb, var(--pass) 30%, var(--line)); background:color-mix(in srgb, var(--pass) 10%, var(--panel)); }
+    .summary-card.improvement { border-color:color-mix(in srgb, var(--improvement) 44%, var(--line)); background:color-mix(in srgb, var(--improvement) 18%, var(--panel)); }
+    .summary-card.fail { border-color:color-mix(in srgb, var(--fail) 30%, var(--line)); background:color-mix(in srgb, var(--fail) 10%, var(--panel)); }
+    .summary-card.known-fail { border-color:color-mix(in srgb, var(--known-fail) 30%, var(--line)); background:color-mix(in srgb, var(--known-fail) 10%, var(--panel)); }
+    .summary-card.regression { border-color:color-mix(in srgb, var(--regression) 46%, var(--line)); background:color-mix(in srgb, var(--regression) 18%, var(--panel)); }
+    .summary-card.error { border-color:color-mix(in srgb, var(--error) 46%, var(--line)); background:color-mix(in srgb, var(--error) 18%, var(--panel)); }
+    .summary-card.neutral { border-color:color-mix(in srgb, var(--neutral) 20%, var(--line)); background:var(--panel); }
+    .label { color:var(--muted); font-size:10px; text-transform:uppercase; letter-spacing:.07em; }
+    .value { font-size:18px; font-weight:700; margin-top:2px; }
+    .table-wrap { flex:1; min-height:0; background:var(--panel); border:1px solid var(--line); border-radius:18px; overflow:auto; box-shadow:0 8px 24px rgba(0,0,0,.04); }
+    table { width:100%; border-collapse:separate; border-spacing:0; background:var(--panel); }
+    th, td { padding:12px 14px; border-bottom:1px solid var(--line); vertical-align:top; text-align:left; background:var(--panel); }
+    th { position:sticky; top:0; z-index:2; font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); background:#f5f0e6; }
+    tr:last-child td { border-bottom:none; }
+    .badge { display:inline-block; padding:3px 9px; border-radius:999px; font-size:12px; font-weight:700; color:#fff; }
+    .badge.pass { background:var(--pass); }
+    .badge.fail { background:var(--fail); }
+    .badge.known-fail { background:var(--known-fail); }
+    .badge.regression { background:var(--regression); }
+    .badge.error { background:var(--error); }
+    .badge.improvement { background:var(--improvement); }
+    .badge.neutral { background:var(--neutral); }
+    .badge-link, .test-link { color:inherit; text-decoration:none; }
+    .badge-link:hover .badge { filter:brightness(.94); }
+    .test-link:hover { text-decoration:underline; }
+    .change-cell { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+    .status-cell { display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+    .diff-links { display:flex; gap:6px; flex-wrap:wrap; }
+    .diff-link { color:var(--muted); text-decoration:none; font-size:12px; border:1px solid var(--line); border-radius:999px; padding:2px 8px; background:#f5f0e6; }
+    .diff-link:hover { text-decoration:underline; }
+    .ref-viewer-link { color:var(--muted); text-decoration:none; font-size:12px; border:1px solid var(--line); border-radius:999px; padding:2px 8px; background:#f5f0e6; }
+    .ref-viewer-link:hover { text-decoration:underline; }
+    .toolbar { display:flex; align-items:center; gap:10px; margin:0 0 10px; color:var(--muted); }
+    .toolbar[hidden] { display:none; }
+    .filter-reset { border:1px solid var(--line); background:var(--panel); border-radius:999px; padding:4px 10px; cursor:pointer; }
+    .is-hidden { display:none; }
+    .test-path { font-family:ui-monospace, SFMono-Regular, monospace; }
+    .entry-id { color:var(--muted); font-weight:700; font-family:ui-monospace, SFMono-Regular, monospace; text-align:right; white-space:nowrap; }
+    .entry-category { color:var(--muted); font-size:12px; margin-bottom:1px; }
+    .entry-title { }
+    .entry-file { color:var(--muted); font-size:11px; font-family:ui-monospace, SFMono-Regular, monospace; margin-top:2px; word-break:break-all; }
+    .entry-ref { color:var(--muted); font-size:11px; font-family:ui-monospace, SFMono-Regular, monospace; margin-top:1px; word-break:break-all; }
+    .ref-link { color:var(--muted); text-decoration:none; }
+    .ref-link:hover { text-decoration:underline; }
+    .breakdown { font-size:12px; color:var(--muted); margin-top:6px; line-height:1.6; }
+    @media (max-height: 760px), (max-width: 760px) {
+      body { overflow:auto; }
+      main { height:auto; min-height:100vh; }
+      .table-wrap { flex:none; min-height:auto; overflow-x:auto; overflow-y:visible; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>v2.43.1 vs v2.43.0</h1>
+    <p>reftest-diff mode report generated at 2026-06-10T04:26:36.899Z · <a class="header-link" href="report.json">JSON</a> · <a class="header-link" href="report.md">Markdown</a> · <a class="header-link" href="triage.yaml">Triage</a></p>
+    <section class="summary">
+      <button type="button" class="card summary-card neutral is-filterable" data-filter-kind="clear" data-filter-value="" data-filter-label="Compared">
+        <div class="label">Compared</div>
+        <div class="value">6</div>
+      </button>
+<button type="button" class="card summary-card pass is-filterable" data-filter-kind="change-type" data-filter-value="pass" data-filter-label="PASS">
+        <div class="label">PASS</div>
+        <div class="value">6</div>
+      </button>
+<button type="button" class="card summary-card neutral is-filterable" data-filter-kind="page-count-mismatch" data-filter-value="1" data-filter-label="Page count changed">
+        <div class="label">Page count changed</div>
+        <div class="value">0</div>
+      </button>
+<button type="button" class="card summary-card neutral is-filterable" data-filter-kind="screenshot-mismatch" data-filter-value="1" data-filter-label="Screenshot mismatches">
+        <div class="label">Screenshot mismatches</div>
+        <div class="value">0</div>
+      </button>
+<button type="button" class="card summary-card neutral is-filterable" data-filter-kind="timeout" data-filter-value="1" data-filter-label="Timeout entries">
+        <div class="label">Timeout entries</div>
+        <div class="value">0</div>
+      </button>
+    </section>
+    <div class="toolbar" id="filter-toolbar" hidden>
+      <span>Filtered by: <strong id="filter-value"></strong></span>
+      <button type="button" class="filter-reset" id="filter-reset">Clear</button>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Test</th>
+            <th>v2.43.0</th>
+            <th>v2.43.1</th>
+            <th>Change</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+<tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
+          <td class="entry-id">0001</td>
+          <td class="test-path"><div class="entry-category">WPT reftest</div><div class="entry-title"><a class="test-link" href="https://wpt.live/css/css-logical/cascading-001.html" target="lr-source">css/css-logical/cascading-001.html</a></div><div class="entry-ref">== <a class="ref-link" href="https://wpt.live/css/css-logical/cascading-001-ref.html" target="lr-source">css/css-logical/cascading-001-ref.html</a></div></td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/cascading-001.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/cascading-001-ref.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">v2.43.0 ref</a></div></td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/cascading-001.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/cascading-001-ref.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">v2.43.1 ref</a></div></td>
+          <td><span class="badge pass">PASS</span></td>
+          <td>-</td>
+</tr>
+<tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
+          <td class="entry-id">0002</td>
+          <td class="test-path"><div class="entry-category">WPT reftest</div><div class="entry-title"><a class="test-link" href="https://wpt.live/css/css-logical/logical-values-float-clear-1.html" target="lr-source">css/css-logical/logical-values-float-clear-1.html</a></div><div class="entry-ref">== <a class="ref-link" href="https://wpt.live/css/css-logical/reference/logical-values-float-clear-1-ref.html" target="lr-source">css/css-logical/reference/logical-values-float-clear-1-ref.html</a></div></td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/logical-values-float-clear-1.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-1-ref.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">v2.43.0 ref</a></div></td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/logical-values-float-clear-1.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-1-ref.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">v2.43.1 ref</a></div></td>
+          <td><span class="badge pass">PASS</span></td>
+          <td>-</td>
+</tr>
+<tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
+          <td class="entry-id">0003</td>
+          <td class="test-path"><div class="entry-category">WPT reftest</div><div class="entry-title"><a class="test-link" href="https://wpt.live/css/css-logical/logical-values-float-clear-2.html" target="lr-source">css/css-logical/logical-values-float-clear-2.html</a></div><div class="entry-ref">== <a class="ref-link" href="https://wpt.live/css/css-logical/reference/logical-values-float-clear-2-ref.html" target="lr-source">css/css-logical/reference/logical-values-float-clear-2-ref.html</a></div></td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/logical-values-float-clear-2.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-2-ref.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">v2.43.0 ref</a></div></td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/logical-values-float-clear-2.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-2-ref.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">v2.43.1 ref</a></div></td>
+          <td><span class="badge pass">PASS</span></td>
+          <td>-</td>
+</tr>
+<tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
+          <td class="entry-id">0004</td>
+          <td class="test-path"><div class="entry-category">WPT reftest</div><div class="entry-title"><a class="test-link" href="https://wpt.live/css/css-logical/logical-values-float-clear-3.html" target="lr-source">css/css-logical/logical-values-float-clear-3.html</a></div><div class="entry-ref">== <a class="ref-link" href="https://wpt.live/css/css-logical/reference/logical-values-float-clear-3-ref.html" target="lr-source">css/css-logical/reference/logical-values-float-clear-3-ref.html</a></div></td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/logical-values-float-clear-3.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-3-ref.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">v2.43.0 ref</a></div></td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/logical-values-float-clear-3.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-3-ref.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">v2.43.1 ref</a></div></td>
+          <td><span class="badge pass">PASS</span></td>
+          <td>-</td>
+</tr>
+<tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
+          <td class="entry-id">0005</td>
+          <td class="test-path"><div class="entry-category">WPT reftest</div><div class="entry-title"><a class="test-link" href="https://wpt.live/css/css-logical/logical-values-float-clear-4.html" target="lr-source">css/css-logical/logical-values-float-clear-4.html</a></div><div class="entry-ref">== <a class="ref-link" href="https://wpt.live/css/css-logical/reference/logical-values-float-clear-4-ref.html" target="lr-source">css/css-logical/reference/logical-values-float-clear-4-ref.html</a></div></td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/logical-values-float-clear-4.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-4-ref.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">v2.43.0 ref</a></div></td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/logical-values-float-clear-4.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-4-ref.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">v2.43.1 ref</a></div></td>
+          <td><span class="badge pass">PASS</span></td>
+          <td>-</td>
+</tr>
+<tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
+          <td class="entry-id">0006</td>
+          <td class="test-path"><div class="entry-category">WPT reftest</div><div class="entry-title"><a class="test-link" href="https://wpt.live/css/css-logical/logical-values-float-clear-reftest.html" target="lr-source">css/css-logical/logical-values-float-clear-reftest.html</a></div><div class="entry-ref">== <a class="ref-link" href="https://wpt.live/css/css-logical/reference/logical-values-float-clear-reftest-ref.html" target="lr-source">css/css-logical/reference/logical-values-float-clear-reftest-ref.html</a></div></td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/logical-values-float-clear-reftest.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.github.io/viewer/v2.43.0/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-reftest-ref.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">v2.43.0 ref</a></div></td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/logical-values-float-clear-reftest.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-logical/reference/logical-values-float-clear-reftest-ref.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">v2.43.1 ref</a></div></td>
+          <td><span class="badge pass">PASS</span></td>
+          <td>-</td>
+</tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <script>
+    (() => {
+      const rows = Array.from(document.querySelectorAll("tbody tr"));
+      const summaryCards = Array.from(
+        document.querySelectorAll(".summary-card[data-filter-kind]"),
+      );
+      const toolbar = document.getElementById("filter-toolbar");
+      const filterValueEl = document.getElementById("filter-value");
+      const resetButton = document.getElementById("filter-reset");
+      let currentFilterKind = "clear";
+      let currentFilterValue = "";
+
+      const matchesFilter = (row, filterKind, expectedValue) => {
+        if (!filterKind || filterKind === "clear") {
+          return true;
+        }
+        return row.getAttribute("data-filter-" + filterKind) === expectedValue;
+      };
+
+      const applyFilter = (filterKind, filterValue, nextLabel) => {
+        currentFilterKind = filterKind || "clear";
+        currentFilterValue = filterValue || "";
+        rows.forEach((row) => {
+          row.classList.toggle(
+            "is-hidden",
+            !matchesFilter(row, currentFilterKind, currentFilterValue),
+          );
+        });
+        summaryCards.forEach((card) => {
+          card.classList.toggle(
+            "is-active",
+            (card.dataset.filterKind || "clear") === currentFilterKind &&
+              (card.dataset.filterValue || "") === currentFilterValue,
+          );
+        });
+        toolbar.hidden = currentFilterKind === "clear";
+        if (filterValueEl) {
+          filterValueEl.textContent = nextLabel || "Compared";
+        }
+      };
+
+      summaryCards.forEach((button) => {
+        button.addEventListener("click", () => {
+          const nextKind = button.dataset.filterKind || "clear";
+          const nextValue = button.dataset.filterValue || "";
+          const isSameFilter =
+            nextKind === currentFilterKind && nextValue === currentFilterValue;
+          if (nextKind === "clear" || isSameFilter) {
+            applyFilter("clear", "", "Compared");
+            return;
+          }
+          applyFilter(nextKind, nextValue, button.dataset.filterLabel || "Compared");
+        });
+      });
+      resetButton?.addEventListener("click", () =>
+        applyFilter("clear", "", "Compared"),
+      );
+      applyFilter("clear", "", "Compared");
+    })();
+  </script>
+</body>
+</html>
