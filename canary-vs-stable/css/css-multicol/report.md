@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 466
-- Entries with differences: 99 (pending: 99, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 100 (improvement: 1, pending: 99, triaged: 0)
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":366,"known-fail":99,"unchanged":1}
+- Outcome summary: {"pass":363,"known-fail":99,"improvement":1,"error":2,"unchanged":1}
 
 ## Differences
 
@@ -256,6 +256,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-wrap-no-constraints-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable selected pages: test=[1, 2, 3], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0074] [WPT reftest] css/css-multicol/columnfill-auto-max-height-001.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/columnfill-auto-max-height-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/columnfill-auto-max-height-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0086] [WPT reftest] css/css-multicol/fixedpos-static-pos-with-viewport-cb-003.html
   triage: pending
@@ -1296,4 +1302,22 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/with-custom-layout-on-same-element.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.006917410884665293, diffPixels=5800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0140] [WPT reftest] css/css-multicol/multicol-contained-absolute.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-contained-absolute.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-contained-absolute.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0231] [WPT reftest] css/css-multicol/multicol-nested-019.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

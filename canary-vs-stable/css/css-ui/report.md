@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 1225
-- Entries with differences: 595 (pending: 595, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Compared entries: 1226
+- Entries with differences: 597 (improvement: 1, pending: 596, triaged: 0)
+- Entries with errors: 8 (pending: 8, triaged: 0)
+- Timeout entries: 8
 - Page count changed: 0
 - Screenshot mismatches: 1
-- Outcome summary: {"pass":397,"known-fail":594,"error":1,"unchanged":232,"changed":1}
+- Outcome summary: {"pass":395,"known-fail":594,"error":4,"regression":1,"improvement":1,"unchanged":230,"changed":1}
 
 ## Differences
 
@@ -222,10 +222,6 @@
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-ui/caret-shape-block-fallback-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-fallback-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03566044576749866, diffPixels=29900
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-fallback-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-fallback-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.03566044576749866, diffPixels=29900
@@ -876,19 +872,6 @@
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0133] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-width-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00033752194488970307, diffPixels=283
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00033752194488970307, diffPixels=283
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0179] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-color-input-background-clip-001.html
@@ -4349,6 +4332,12 @@
   stable page 1: diffRatio=0.0005199984733989772, diffPixels=436
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0488] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-link-background-color-001.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-link-background-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-link-background-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0530] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-meter-background-attachment-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -5493,6 +5482,12 @@
   stable page 1: diffRatio=0.0030532020456453704, diffPixels=2560
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-progress-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0701] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-range-border-top-color-001.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-range-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-range-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0707] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-background-clip-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -5698,19 +5693,6 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0728] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-slice-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -6962,6 +6944,19 @@
   stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0837] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-width-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0014109132890619037, diffPixels=1183
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0014109132890619037, diffPixels=1183
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0839] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-background-clip-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -7003,16 +6998,12 @@
 
 - [0847] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-width-001.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0014359590870925885, diffPixels=1204
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014359590870925885, diffPixels=1204
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0848] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-start-color-001.html
   triage: pending
@@ -7460,10 +7451,6 @@
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-ui/compute-kind-widget-no-fallback-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-no-fallback-props-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009274101213647813, diffPixels=7776
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-no-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-no-fallback-props-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.009274101213647813, diffPixels=7776
@@ -7742,20 +7729,92 @@
   stable page 1: diffRatio=0.0013560510648042135, diffPixels=1137
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1211] [WPT manual] css/css-ui/resize-010.html
+- [0973] [WPT reftest] css/css-ui/text-overflow-string-008.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-008-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0010495382031905961, diffPixels=880
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0010495382031905961, diffPixels=880
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1216] [WPT manual] css/css-ui/resize-014.html
   triage: pending
   outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  page 1: diffRatio=0.00615172505915579, diffPixels=5158
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
 
-- [0837] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-width-001.html
+- [0075] [WPT reftest] css/css-ui/caret-shape-block-fallback-001.html
+  triage: pending
+  side: canary-reference
+  reference: css/css-ui/caret-shape-block-fallback-001-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-fallback-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-fallback-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0133] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-width-001.html
   triage: pending
   side: canary
   timeout: true
   error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0488] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-link-background-color-001.html
+  triage: pending
+  side: canary-reference
+  reference: css/css-ui/compute-kind-widget-fallback-link-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-link-background-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-link-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0728] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-slice-001.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0847] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-width-001.html
+  triage: pending
+  side: stable
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0882] [WPT reftest] css/css-ui/compute-kind-widget-no-fallback-props-001.html
+  triage: pending
+  side: canary-reference
+  reference: css/css-ui/compute-kind-widget-no-fallback-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-no-fallback-props-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-no-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1147] [WPT manual] css/css-ui/nav-down-012.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-down-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-down-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1182] [WPT manual] css/css-ui/nav-right-013.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-right-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-right-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

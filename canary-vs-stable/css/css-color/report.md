@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 306
-- Entries with differences: 20 (pending: 20, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 23 (improvement: 3, pending: 20, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 3
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":286,"known-fail":20}
+- Outcome summary: {"pass":283,"known-fail":20,"improvement":3}
 
 ## Differences
 
@@ -153,6 +153,12 @@
   stable page 1: diffRatio=0.026834783604305013, diffPixels=22500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/composited-filters-under-opacity-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0083] [WPT reftest] css/css-color/hex-003.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/hex-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/hex-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0108] [WPT reftest] css/css-color/inline-opacity-float-child.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -220,16 +226,12 @@
 
 - [0157] [WPT reftest] css/css-color/oklch-009.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-color/whitesquare-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/oklch-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.04396610945729334, diffPixels=36864
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/whitesquare-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/oklch-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04396610945729334, diffPixels=36864
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/whitesquare-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0158] [WPT reftest] css/css-color/oklch-010.html
   triage: pending
@@ -269,4 +271,44 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/system-color-hightlights-vs-getSelection-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.012657669261888405, diffPixels=10613
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/reference/system-color-hightlights-vs-getSelection-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0259] [WPT reftest] css/css-color/t423-transparent-1-a.xht
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/t423-transparent-1-a.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/t423-transparent-1-a.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0304] [WPT reftest] css/css-color/xyz-d65-003.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/xyz-d65-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/xyz-d65-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0083] [WPT reftest] css/css-color/hex-003.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-color/hex-003-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/hex-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/hex-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0157] [WPT reftest] css/css-color/oklch-009.html
+  triage: pending
+  side: stable
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/oklch-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/oklch-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0304] [WPT reftest] css/css-color/xyz-d65-003.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-color/xyz-d65-003-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/xyz-d65-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/xyz-d65-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

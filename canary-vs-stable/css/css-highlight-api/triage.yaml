@@ -210,10 +210,6 @@
       referenceFile: css/css-highlight-api/highlight-text-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/highlight-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-highlight-api/highlight-text-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/highlight-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0009"
   category: WPT reftest
   title: css/css-highlight-api/painting/css-highlight-painting-underline-offset-001.html

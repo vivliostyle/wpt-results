@@ -376,7 +376,7 @@
       referenceFile: css/css-inline/baseline-shift/baseline-shift-top-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/baseline-shift/baseline-shift-top-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0024"
+- id: "0026"
   category: WPT reftest
   title: css/css-inline/empty-span-size-001.html
   file: css/css-inline/empty-span-size-001.html
@@ -403,7 +403,7 @@
       referenceFile: css/css-inline/empty-span-size-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/empty-span-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0027"
+- id: "0029"
   category: WPT reftest
   title: css/css-inline/initial-letter/Initial-letter-breaking-rtl.html
   file: css/css-inline/initial-letter/Initial-letter-breaking-rtl.html
@@ -430,7 +430,7 @@
       referenceFile: css/css-inline/initial-letter/Initial-letter-breaking-rtl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0028"
+- id: "0030"
   category: WPT reftest
   title: css/css-inline/initial-letter/Initial-letter-breaking-vlr.html
   file: css/css-inline/initial-letter/Initial-letter-breaking-vlr.html
@@ -457,7 +457,7 @@
       referenceFile: css/css-inline/initial-letter/Initial-letter-breaking-vlr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0029"
+- id: "0031"
   category: WPT reftest
   title: css/css-inline/initial-letter/Initial-letter-breaking-vrl.html
   file: css/css-inline/initial-letter/Initial-letter-breaking-vrl.html
@@ -484,7 +484,7 @@
       referenceFile: css/css-inline/initial-letter/Initial-letter-breaking-vrl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0030"
+- id: "0032"
   category: WPT reftest
   title: css/css-inline/initial-letter/Initial-letter-breaking.html
   file: css/css-inline/initial-letter/Initial-letter-breaking.html
@@ -511,7 +511,7 @@
       referenceFile: css/css-inline/initial-letter/Initial-letter-breaking-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0031"
+- id: "0033"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-tall.html
   file: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-tall.html
@@ -538,7 +538,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-tall-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-tall-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0032"
+- id: "0034"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html
   file: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html
@@ -565,7 +565,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0033"
+- id: "0035"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby-tall.html
   file: css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby-tall.html
@@ -592,7 +592,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby-tall-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby-tall-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0034"
+- id: "0036"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby.html
   file: css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby.html
@@ -619,7 +619,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0035"
+- id: "0037"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-block-position-margins-rtl.html
   file: css/css-inline/initial-letter/initial-letter-block-position-margins-rtl.html
@@ -646,7 +646,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-block-position-margins-rtl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0036"
+- id: "0038"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-block-position-margins-slr.html
   file: css/css-inline/initial-letter/initial-letter-block-position-margins-slr.html
@@ -673,7 +673,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-block-position-margins-slr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-slr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0037"
+- id: "0039"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-block-position-margins-srl.html
   file: css/css-inline/initial-letter/initial-letter-block-position-margins-srl.html
@@ -700,7 +700,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-block-position-margins-srl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-srl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0038"
+- id: "0040"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-block-position-margins-vlr.html
   file: css/css-inline/initial-letter/initial-letter-block-position-margins-vlr.html
@@ -727,7 +727,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-block-position-margins-vlr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0039"
+- id: "0041"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-block-position-margins-vrl.html
   file: css/css-inline/initial-letter/initial-letter-block-position-margins-vrl.html
@@ -754,7 +754,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-block-position-margins-vrl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0040"
+- id: "0042"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-block-position-margins.html
   file: css/css-inline/initial-letter/initial-letter-block-position-margins.html
@@ -781,7 +781,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-block-position-margins-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0041"
+- id: "0043"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby-tall.html
   file: css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby-tall.html
@@ -808,7 +808,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby-tall-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby-tall-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0042"
+- id: "0044"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby.html
   file: css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby.html
@@ -835,7 +835,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0043"
+- id: "0045"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby-tall.html
   file: css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby-tall.html
@@ -862,7 +862,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby-tall-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby-tall-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0044"
+- id: "0046"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby.html
   file: css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby.html
@@ -889,7 +889,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0045"
+- id: "0047"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-breaking-slr.html
   file: css/css-inline/initial-letter/initial-letter-breaking-slr.html
@@ -916,7 +916,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-breaking-slr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-breaking-slr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0046"
+- id: "0048"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-breaking-srl.html
   file: css/css-inline/initial-letter/initial-letter-breaking-srl.html
@@ -943,7 +943,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-breaking-srl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-breaking-srl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0047"
+- id: "0049"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-drop-initial-rtl.html
   file: css/css-inline/initial-letter/initial-letter-drop-initial-rtl.html
@@ -970,7 +970,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-drop-initial-rtl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0048"
+- id: "0050"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-drop-initial-slr.html
   file: css/css-inline/initial-letter/initial-letter-drop-initial-slr.html
@@ -997,7 +997,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-drop-initial-slr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-slr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0049"
+- id: "0051"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-drop-initial-srl.html
   file: css/css-inline/initial-letter/initial-letter-drop-initial-srl.html
@@ -1024,7 +1024,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-drop-initial-srl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-srl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0050"
+- id: "0052"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-drop-initial-vlr.html
   file: css/css-inline/initial-letter/initial-letter-drop-initial-vlr.html
@@ -1051,7 +1051,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-drop-initial-vlr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0051"
+- id: "0053"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-drop-initial-vrl.html
   file: css/css-inline/initial-letter/initial-letter-drop-initial-vrl.html
@@ -1078,7 +1078,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-drop-initial-vrl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0052"
+- id: "0054"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-drop-initial.html
   file: css/css-inline/initial-letter/initial-letter-drop-initial.html
@@ -1105,7 +1105,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-drop-initial-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0053"
+- id: "0055"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-float-001-rtl.html
   file: css/css-inline/initial-letter/initial-letter-float-001-rtl.html
@@ -1132,7 +1132,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-float-001-rtl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0054"
+- id: "0056"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-float-001-slr.html
   file: css/css-inline/initial-letter/initial-letter-float-001-slr.html
@@ -1159,7 +1159,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-float-001-slr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-slr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0055"
+- id: "0057"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-float-001-srl.html
   file: css/css-inline/initial-letter/initial-letter-float-001-srl.html
@@ -1186,7 +1186,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-float-001-srl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-srl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0056"
+- id: "0058"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-float-001-vlr.html
   file: css/css-inline/initial-letter/initial-letter-float-001-vlr.html
@@ -1213,7 +1213,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-float-001-vlr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0057"
+- id: "0059"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-float-001-vrl.html
   file: css/css-inline/initial-letter/initial-letter-float-001-vrl.html
@@ -1240,7 +1240,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-float-001-vrl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0058"
+- id: "0060"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-float-001.html
   file: css/css-inline/initial-letter/initial-letter-float-001.html
@@ -1267,7 +1267,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-float-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0059"
+- id: "0061"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-float-002.html
   file: css/css-inline/initial-letter/initial-letter-float-002.html
@@ -1294,7 +1294,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-float-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0060"
+- id: "0062"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-float-003.html
   file: css/css-inline/initial-letter/initial-letter-float-003.html
@@ -1321,7 +1321,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-float-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0061"
+- id: "0063"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-float-004.html
   file: css/css-inline/initial-letter/initial-letter-float-004.html
@@ -1348,7 +1348,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-float-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0062"
+- id: "0064"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-float-005.html
   file: css/css-inline/initial-letter/initial-letter-float-005.html
@@ -1375,7 +1375,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-float-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0063"
+- id: "0065"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-indentation-rtl.html
   file: css/css-inline/initial-letter/initial-letter-indentation-rtl.html
@@ -1402,7 +1402,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-indentation-rtl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-indentation-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0064"
+- id: "0066"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-indentation.html
   file: css/css-inline/initial-letter/initial-letter-indentation.html
@@ -1429,7 +1429,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-indentation-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-indentation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0065"
+- id: "0067"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline.html
   file: css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline.html
@@ -1456,7 +1456,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0067"
+- id: "0069"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-raise-initial-slr.html
   file: css/css-inline/initial-letter/initial-letter-raise-initial-slr.html
@@ -1483,7 +1483,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-raise-initial-slr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-raise-initial-slr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0068"
+- id: "0070"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-raise-initial-srl.html
   file: css/css-inline/initial-letter/initial-letter-raise-initial-srl.html
@@ -1510,7 +1510,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-raise-initial-srl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-raise-initial-srl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0069"
+- id: "0071"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-raise-initial-vlr.html
   file: css/css-inline/initial-letter/initial-letter-raise-initial-vlr.html
@@ -1537,7 +1537,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-raise-initial-vlr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-raise-initial-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0070"
+- id: "0072"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-raise-initial-vrl.html
   file: css/css-inline/initial-letter/initial-letter-raise-initial-vrl.html
@@ -1564,7 +1564,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-raise-initial-vrl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-raise-initial-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0071"
+- id: "0073"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-raise-initial.html
   file: css/css-inline/initial-letter/initial-letter-raise-initial.html
@@ -1591,7 +1591,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-raise-initial-ref.html?class=
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-raise-initial-ref.html?class=&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0072"
+- id: "0074"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-raised-sunken-caps-raise.html
   file: css/css-inline/initial-letter/initial-letter-raised-sunken-caps-raise.html
@@ -1618,7 +1618,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-raised-sunken-caps-raise-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-raised-sunken-caps-raise-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0073"
+- id: "0075"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-raised-sunken-caps-sunken.html
   file: css/css-inline/initial-letter/initial-letter-raised-sunken-caps-sunken.html
@@ -1645,7 +1645,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-raised-sunken-caps-sunken-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-raised-sunken-caps-sunken-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0074"
+- id: "0076"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-short-para-initial-letter-clears.html
   file: css/css-inline/initial-letter/initial-letter-short-para-initial-letter-clears.html
@@ -1672,7 +1672,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-short-para-initial-letter-clears-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-short-para-initial-letter-clears-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0075"
+- id: "0077"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-short-para-initial-letter-wraps.html
   file: css/css-inline/initial-letter/initial-letter-short-para-initial-letter-wraps.html
@@ -1699,7 +1699,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-short-para-initial-letter-wraps-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-short-para-initial-letter-wraps-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0076"
+- id: "0078"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-sunk-initial-slr.html
   file: css/css-inline/initial-letter/initial-letter-sunk-initial-slr.html
@@ -1726,7 +1726,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-sunk-initial-slr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-sunk-initial-slr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0077"
+- id: "0079"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-sunk-initial-srl.html
   file: css/css-inline/initial-letter/initial-letter-sunk-initial-srl.html
@@ -1753,7 +1753,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-sunk-initial-srl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-sunk-initial-srl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0078"
+- id: "0080"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-sunk-initial-vlr.html
   file: css/css-inline/initial-letter/initial-letter-sunk-initial-vlr.html
@@ -1780,7 +1780,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-sunk-initial-vlr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-sunk-initial-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0079"
+- id: "0081"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-sunk-initial-vrl.html
   file: css/css-inline/initial-letter/initial-letter-sunk-initial-vrl.html
@@ -1807,7 +1807,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-sunk-initial-vrl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-sunk-initial-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0080"
+- id: "0082"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-sunk-initial.html
   file: css/css-inline/initial-letter/initial-letter-sunk-initial.html
@@ -1834,7 +1834,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-sunk-initial-ref.html?class=
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-sunk-initial-ref.html?class=&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0081"
+- id: "0083"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-with-first-line.html
   file: css/css-inline/initial-letter/initial-letter-with-first-line.html
@@ -1861,7 +1861,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-with-first-line-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0082"
+- id: "0084"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-with-tab-rtl.html
   file: css/css-inline/initial-letter/initial-letter-with-tab-rtl.html
@@ -1888,7 +1888,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-with-tab-rtl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-tab-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0083"
+- id: "0085"
   category: WPT reftest
   title: css/css-inline/initial-letter/initial-letter-with-tab.html
   file: css/css-inline/initial-letter/initial-letter-with-tab.html
@@ -1915,7 +1915,7 @@
       referenceFile: css/css-inline/initial-letter/initial-letter-with-tab-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-tab-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0109"
+- id: "0111"
   category: WPT reftest
   title: css/css-inline/text-box-trim/text-box-trim-dynamic-001.html
   file: css/css-inline/text-box-trim/text-box-trim-dynamic-001.html
@@ -1942,7 +1942,7 @@
       referenceFile: css/css-inline/text-box-trim/text-box-trim-dynamic-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0110"
+- id: "0112"
   category: WPT reftest
   title: css/css-inline/text-box-trim/text-box-trim-dynamic-002.html
   file: css/css-inline/text-box-trim/text-box-trim-dynamic-002.html
@@ -1965,11 +1965,7 @@
       referenceFile: css/css-inline/text-box-trim/text-box-trim-dynamic-001-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-inline/text-box-trim/text-box-trim-dynamic-001-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0111"
+- id: "0113"
   category: WPT reftest
   title: css/css-inline/text-box-trim/text-box-trim-end-001.html
   file: css/css-inline/text-box-trim/text-box-trim-end-001.html
@@ -1996,7 +1992,7 @@
       referenceFile: css/css-inline/text-box-trim/text-box-trim-end-001-ref.html?class=alphabetic
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-end-001-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0114"
+- id: "0116"
   category: WPT reftest
   title: css/css-inline/text-box-trim/text-box-trim-float-clear-br-002.html
   file: css/css-inline/text-box-trim/text-box-trim-float-clear-br-002.html
@@ -2023,7 +2019,7 @@
       referenceFile: css/css-inline/text-box-trim/text-box-trim-float-clear-br-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-float-clear-br-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0115"
+- id: "0117"
   category: WPT reftest
   title: css/css-inline/text-box-trim/text-box-trim-float-clear-br-003.html
   file: css/css-inline/text-box-trim/text-box-trim-float-clear-br-003.html
@@ -2050,7 +2046,7 @@
       referenceFile: css/css-inline/text-box-trim/text-box-trim-float-clear-br-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-float-clear-br-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0129"
+- id: "0131"
   category: WPT reftest
   title: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001.html
   file: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001.html
@@ -2077,7 +2073,7 @@
       referenceFile: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0130"
+- id: "0132"
   category: WPT reftest
   title: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-002.html
   file: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-002.html
@@ -2104,7 +2100,7 @@
       referenceFile: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0131"
+- id: "0133"
   category: WPT reftest
   title: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-block-in-inline-001.html
   file: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-block-in-inline-001.html
@@ -2131,7 +2127,7 @@
       referenceFile: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0132"
+- id: "0134"
   category: WPT reftest
   title: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-block-in-inline-002.html
   file: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-block-in-inline-002.html
@@ -2158,7 +2154,7 @@
       referenceFile: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0133"
+- id: "0135"
   category: WPT reftest
   title: css/css-inline/text-box-trim/text-box-trim-list-001.html
   file: css/css-inline/text-box-trim/text-box-trim-list-001.html
@@ -2185,7 +2181,7 @@
       referenceFile: css/css-inline/text-box-trim/text-box-trim-list-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-list-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0154"
+- id: "0156"
   category: WPT reftest
   title: css/css-inline/text-box-trim/text-box-trim-start-001.html
   file: css/css-inline/text-box-trim/text-box-trim-start-001.html
@@ -2212,7 +2208,7 @@
       referenceFile: css/css-inline/text-box-trim/text-box-trim-start-001-ref.html?class=auto
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-start-001-ref.html?class=auto&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0157"
+- id: "0159"
   category: WPT print-reftest
   title: css/css-inline/text-box-trim/not-at-page-edges-001-print.html
   file: css/css-inline/text-box-trim/not-at-page-edges-001-print.html
@@ -2240,7 +2236,7 @@
       referenceFile: css/css-inline/text-box-trim/not-at-page-edges-001-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/not-at-page-edges-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0158"
+- id: "0160"
   category: WPT print-reftest
   title: css/css-inline/text-box-trim/not-at-page-edges-002-print.html
   file: css/css-inline/text-box-trim/not-at-page-edges-002-print.html
@@ -2267,7 +2263,7 @@
       referenceFile: css/css-inline/text-box-trim/not-at-page-edges-002-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/not-at-page-edges-002-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0159"
+- id: "0161"
   category: WPT print-reftest
   title: css/css-inline/text-box-trim/not-at-page-edges-003-print.html
   file: css/css-inline/text-box-trim/not-at-page-edges-003-print.html

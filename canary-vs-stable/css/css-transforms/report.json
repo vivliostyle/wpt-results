@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T10:30:51.866Z",
+  "generatedAt": "2026-06-12T20:29:54.565Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,33 +39,40 @@
   },
   "summary": {
     "totalEntries": 792,
-    "entriesWithDifferences": 256,
-    "entriesWithErrors": 0,
-    "timeoutEntries": 0,
+    "entriesWithDifferences": 258,
+    "entriesWithErrors": 7,
+    "timeoutEntries": 7,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 535,
+        "pass": 532,
+        "improvement": 1,
         "known-fail": 256,
+        "regression": 1,
+        "error": 1,
         "unchanged": 1
       },
       "statusPairs": {
-        "PASS->PASS": 535,
-        "FAIL->FAIL": 256,
+        "PASS->PASS": 532,
+        "FAIL->PASS": 1,
+        "FAIL->FAIL": 253,
+        "PASS->FAIL": 1,
+        "PASS->ERROR": 1,
+        "ERROR->FAIL": 3,
         "MANUAL->MANUAL": 1
       }
     },
     "triage": {
       "differences": {
-        "pending": 256,
+        "pending": 257,
         "triaged": 0
       },
       "errors": {
-        "pending": 0,
+        "pending": 7,
         "triaged": 0
       },
-      "pendingEntries": 256,
+      "pendingEntries": 264,
       "triagedEntries": 0
     }
   },
@@ -102,8 +109,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-transforms/2d-rotate-notref.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "FAIL",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/2d-rotate-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/2d-rotate-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -113,6 +120,38 @@
           "relation": "!=",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/2d-rotate-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/2d-rotate-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      },
+      "errors": [
+        {
+          "side": "stable-reference",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): loading page",
+            "timeout": true
+          },
+          "referenceFile": "css/css-transforms/2d-rotate-ref.html",
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
         }
       ]
     },
@@ -2557,9 +2596,9 @@
         "css/css-transforms/backface-visibility-001.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-transforms/backface-visibility-001.html",
-      "actualStatus": "PASS",
+      "actualStatus": "FAIL",
       "baselineStatus": "PASS",
-      "changeType": "pass",
+      "changeType": "regression",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/backface-visibility-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/backface-visibility-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -2569,6 +2608,38 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/backface-visibility-001.ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/backface-visibility-001.ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "regression",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      },
+      "errors": [
+        {
+          "side": "canary-reference",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "referenceFile": "css/css-transforms/backface-visibility-001.ref.html",
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
         }
       ]
     },
@@ -3969,9 +4040,9 @@
         "css/css-transforms/css-transforms-transformlist.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-transforms/css-transforms-transformlist.html",
-      "actualStatus": "PASS",
+      "actualStatus": "ERROR",
       "baselineStatus": "PASS",
-      "changeType": "pass",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/css-transforms-transformlist.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/css-transforms-transformlist.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -3981,6 +4052,20 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/reference/css-transforms-transformlist-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/reference/css-transforms-transformlist-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
         }
       ]
     },
@@ -11656,7 +11741,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-transforms/matrix/svg-matrix-005.html",
       "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
+      "baselineStatus": "ERROR",
       "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -11677,7 +11762,7 @@
           "totalPages": 1
         },
         "baseline": {
-          "totalPages": 1
+          "totalPages": null
         },
         "pages": [],
         "comparisons": [
@@ -11719,52 +11804,27 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0198-WPT_reftest-css-css-transforms-matrix-svg-matrix-005.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      }
+      },
+      "errors": [
+        {
+          "side": "stable",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
+      ]
     },
     {
       "id": "0199",
@@ -11775,7 +11835,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-transforms/matrix/svg-matrix-006.html",
       "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
+      "baselineStatus": "ERROR",
       "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -11796,7 +11856,7 @@
           "totalPages": 1
         },
         "baseline": {
-          "totalPages": 1
+          "totalPages": null
         },
         "pages": [],
         "comparisons": [
@@ -11838,52 +11898,27 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0199-WPT_reftest-css-css-transforms-matrix-svg-matrix-006.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      }
+      },
+      "errors": [
+        {
+          "side": "stable",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
+      ]
     },
     {
       "id": "0200",
@@ -12489,7 +12524,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-transforms/matrix/svg-matrix-012.html",
       "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
+      "baselineStatus": "ERROR",
       "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -12510,7 +12545,7 @@
           "totalPages": 1
         },
         "baseline": {
-          "totalPages": 1
+          "totalPages": null
         },
         "pages": [],
         "comparisons": [
@@ -12552,52 +12587,27 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0205-WPT_reftest-css-css-transforms-matrix-svg-matrix-012.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      }
+      },
+      "errors": [
+        {
+          "side": "stable",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
+      ]
     },
     {
       "id": "0206",
@@ -16122,52 +16132,28 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-clipped-rect-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-transforms/matrix/reference/svg-matrix-clipped-rect-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-clipped-rect-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 1600,
-                "diffRatio": 0.0019082512785283565,
-                "exactDiffPixels": 1600,
-                "exactDiffRatio": 0.0019082512785283565,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0235-WPT_reftest-css-css-transforms-matrix-svg-matrix-042.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-clipped-rect-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      }
+      },
+      "errors": [
+        {
+          "side": "stable-reference",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "referenceFile": "css/css-transforms/matrix/reference/svg-matrix-clipped-rect-ref.html",
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
+      ]
     },
     {
       "id": "0236",

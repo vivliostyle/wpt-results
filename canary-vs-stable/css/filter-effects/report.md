@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 325
-- Entries with differences: 161 (improvement: 1, pending: 160, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 160 (improvement: 1, pending: 159, triaged: 0)
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":164,"known-fail":160,"improvement":1}
+- Outcome summary: {"pass":164,"known-fail":159,"improvement":1,"error":1}
 
 ## Differences
 
@@ -48,6 +48,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/backdrop-filter-boundary.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.06440944393557743, diffPixels=54005
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/backdrop-filter-boundary-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0026] [WPT reftest] css/filter-effects/backdrop-filter-corner-shape-change.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/backdrop-filter-corner-shape-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/backdrop-filter-corner-shape-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0027] [WPT reftest] css/filter-effects/backdrop-filter-edge-behavior.html
   triage: pending
@@ -161,10 +167,6 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/backdrop-filter-nested-border-radius-clip-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.00018605449965651476, diffPixels=156
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/backdrop-filter-nested-border-radius-clip-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/backdrop-filter-nested-border-radius-clip-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00018605449965651476, diffPixels=156
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/backdrop-filter-nested-border-radius-clip-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0043] [WPT reftest] css/filter-effects/backdrop-filter-nested-border-radius-clip.html
   triage: pending
@@ -256,19 +258,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/css-backdrop-filter-transform-clip.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.010520427829936646, diffPixels=8821
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/css-backdrop-filter-transform-clip-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0085] [WPT reftest] css/filter-effects/css-backdrop-filters-animation-blur.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/filter-effects/css-backdrop-filters-animation-blur-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/css-backdrop-filters-animation-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010762537210899932, diffPixels=9024
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/css-backdrop-filters-animation-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/css-backdrop-filters-animation-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010762537210899932, diffPixels=9024
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/css-backdrop-filters-animation-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0086] [WPT reftest] css/filter-effects/css-backdrop-filters-animation-brightness.html
   triage: pending
@@ -1765,15 +1754,6 @@
   stable page 1: diffRatio=0.02767202885275933, diffPixels=23202
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0269] [WPT reftest] css/filter-effects/svg-relative-urls-002.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/filter-effects/reference/svg-relative-urls-002-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011688039080986184, diffPixels=9800
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0272] [WPT reftest] css/filter-effects/svg-sourcegraphic-currentcolor-dynamic-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -2098,4 +2078,23 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/visibility-hidden-element-with-filter-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0042] [WPT reftest] css/filter-effects/backdrop-filter-nested-border-radius-clip-4.html
+  triage: pending
+  side: stable-reference
+  reference: css/filter-effects/backdrop-filter-nested-border-radius-clip-4-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/backdrop-filter-nested-border-radius-clip-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/backdrop-filter-nested-border-radius-clip-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0085] [WPT reftest] css/filter-effects/css-backdrop-filters-animation-blur.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/css-backdrop-filters-animation-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/css-backdrop-filters-animation-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

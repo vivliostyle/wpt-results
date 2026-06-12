@@ -2,8 +2,8 @@
 
 - Compared entries: 26
 - Entries with differences: 17 (pending: 17, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
 - Outcome summary: {"known-fail":17,"pass":9}
@@ -142,12 +142,16 @@
 
 - [0013] [WPT reftest] css/css-scroll-snap/scroll-target-margin-003.html
   triage: pending
-  outcome: known-fail (baseline=ERROR, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-scroll-snap/scroll-target-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.014955919395465995, diffPixels=12540
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.014955919395465995, diffPixels=12540
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0014] [WPT reftest] css/css-scroll-snap/scroll-target-margin-004.html
   triage: pending
@@ -226,14 +230,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.010496574688955042, diffPixels=8801
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/snap-after-initial-layout/scroll-snap-writing-mode-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0013] [WPT reftest] css/css-scroll-snap/scroll-target-margin-003.html
-  triage: pending
-  side: stable
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scroll-snap/scroll-target-margin-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

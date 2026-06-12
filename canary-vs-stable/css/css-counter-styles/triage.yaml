@@ -1012,14 +1012,6 @@
       referenceFile: css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0146"
   category: WPT reftest
   title: css/css-counter-styles/korean-hanja-formal/counter-korean-hanja-formal-extended.html
@@ -1211,33 +1203,6 @@
       referenceFile: css/css-counter-styles/simp-chinese-formal/counter-simp-chinese-formal-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/counter-simp-chinese-formal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0193"
-  category: WPT reftest
-  title: css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077.html
-  file: css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0194"
   category: WPT reftest
   title: css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078.html
@@ -1365,14 +1330,6 @@
       referenceFile: css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0215"
   category: WPT reftest
   title: css/css-counter-styles/trad-chinese-formal/counter-trad-chinese-formal.html
@@ -1563,3 +1520,37 @@
       referenceFile: css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-alt-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0106"
+  category: WPT reftest
+  title: css/css-counter-styles/hebrew/css3-counter-styles-017.html
+  file: css/css-counter-styles/hebrew/css3-counter-styles-017.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/hebrew/css3-counter-styles-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/hebrew/css3-counter-styles-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0193"
+  category: WPT reftest
+  title: css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077.html
+  file: css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

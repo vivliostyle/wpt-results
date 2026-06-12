@@ -1062,18 +1062,18 @@
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0059"
   category: WPT reftest
-  title: css/css-overflow/line-clamp/block-ellipsis-quirk-001.tentative.html
-  file: css/css-overflow/line-clamp/block-ellipsis-quirk-001.tentative.html
+  title: css/css-overflow/line-clamp/block-ellipsis-quirk-001.html
+  file: css/css-overflow/line-clamp/block-ellipsis-quirk-001.html
   type: difference
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-quirk-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-quirk-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-quirk-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-quirk-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/reference/ref-filled-green-100px-square.xht
   relation: "=="
   diffPages:
@@ -1871,10 +1871,6 @@
       referenceFile: css/css-overflow/line-clamp/reference/line-clamp-022-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-overflow/line-clamp/reference/line-clamp-022-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0093"
   category: WPT reftest
   title: css/css-overflow/line-clamp/line-clamp-025.tentative.html
@@ -5630,6 +5626,33 @@
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0331"
   category: WPT reftest
+  title: css/css-overflow/overflow-clip-margin-content-box-dynamic.html
+  file: css/css-overflow/overflow-clip-margin-content-box-dynamic.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-clip-margin-content-box-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-clip-margin-content-box-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0332"
+  category: WPT reftest
   title: css/css-overflow/overflow-clip-margin-invalidation.html
   file: css/css-overflow/overflow-clip-margin-invalidation.html
   type: difference
@@ -5655,7 +5678,7 @@
       referenceFile: css/css-overflow/overflow-clip-margin-invalidation-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-clip-margin-invalidation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0343"
+- id: "0344"
   category: WPT reftest
   title: css/css-overflow/overflow-clipped-transparent-border-clip.html
   file: css/css-overflow/overflow-clipped-transparent-border-clip.html
@@ -5682,7 +5705,7 @@
       referenceFile: css/css-overflow/overflow-clipped-transparent-border-clip-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-clipped-transparent-border-clip-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0345"
+- id: "0346"
   category: WPT reftest
   title: css/css-overflow/overflow-ellipsis-dynamic-001.html
   file: css/css-overflow/overflow-ellipsis-dynamic-001.html
@@ -5709,7 +5732,7 @@
       referenceFile: css/css-overflow/reference/overflow-ellipsis-dynamic-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/overflow-ellipsis-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0346"
+- id: "0347"
   category: WPT reftest
   title: css/css-overflow/overflow-hidden-resize-with-stacking-context-child.html
   file: css/css-overflow/overflow-hidden-resize-with-stacking-context-child.html
@@ -5736,7 +5759,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0350"
+- id: "0351"
   category: WPT reftest
   title: css/css-overflow/overflow-img-scroll-non-replaced.html
   file: css/css-overflow/overflow-img-scroll-non-replaced.html
@@ -5763,7 +5786,7 @@
       referenceFile: css/css-overflow/overflow-img-scroll-non-replaced-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-img-scroll-non-replaced-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0360"
+- id: "0361"
   category: WPT reftest
   title: css/css-overflow/overflow-replaced-element-002.html
   file: css/css-overflow/overflow-replaced-element-002.html
@@ -5786,7 +5809,11 @@
       referenceFile: css/css-overflow/overflow-replaced-element-002-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0364"
+    - side: stable
+      referenceFile: css/css-overflow/overflow-replaced-element-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0365"
   category: WPT reftest
   title: css/css-overflow/overflow-video-hidden.html
   file: css/css-overflow/overflow-video-hidden.html
@@ -5813,7 +5840,7 @@
       referenceFile: css/css-overflow/overflow-video-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0369"
+- id: "0370"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/column-scroll-marker-001.html
   file: css/css-overflow/scroll-markers/column-scroll-marker-001.html
@@ -5840,7 +5867,7 @@
       referenceFile: css/css-overflow/scroll-markers/column-scroll-marker-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0370"
+- id: "0371"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/column-scroll-marker-002.html
   file: css/css-overflow/scroll-markers/column-scroll-marker-002.html
@@ -5867,7 +5894,7 @@
       referenceFile: css/css-overflow/scroll-markers/column-scroll-marker-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0371"
+- id: "0372"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/column-scroll-marker-004.html
   file: css/css-overflow/scroll-markers/column-scroll-marker-004.html
@@ -5894,7 +5921,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0372"
+- id: "0373"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/column-scroll-marker-006.html
   file: css/css-overflow/scroll-markers/column-scroll-marker-006.html
@@ -5921,7 +5948,7 @@
       referenceFile: css/css-overflow/scroll-markers/column-scroll-marker-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0373"
+- id: "0374"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/column-scroll-marker-007.html
   file: css/css-overflow/scroll-markers/column-scroll-marker-007.html
@@ -5948,7 +5975,7 @@
       referenceFile: css/css-overflow/scroll-markers/column-scroll-marker-007-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0374"
+- id: "0375"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/column-scroll-marker-008.html
   file: css/css-overflow/scroll-markers/column-scroll-marker-008.html
@@ -5975,7 +6002,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0375"
+- id: "0376"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/column-scroll-marker-011.html
   file: css/css-overflow/scroll-markers/column-scroll-marker-011.html
@@ -6002,7 +6029,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0376"
+- id: "0377"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/column-scroll-marker-012.html
   file: css/css-overflow/scroll-markers/column-scroll-marker-012.html
@@ -6029,7 +6056,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0377"
+- id: "0378"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/column-scroll-marker-013.html
   file: css/css-overflow/scroll-markers/column-scroll-marker-013.html
@@ -6056,7 +6083,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0378"
+- id: "0379"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/column-scroll-marker-014.html
   file: css/css-overflow/scroll-markers/column-scroll-marker-014.html
@@ -6083,7 +6110,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0379"
+- id: "0380"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/column-scroll-marker-counters.html
   file: css/css-overflow/scroll-markers/column-scroll-marker-counters.html
@@ -6110,7 +6137,7 @@
       referenceFile: css/css-overflow/scroll-markers/column-scroll-marker-counters-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-counters-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0380"
+- id: "0381"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/column-scroll-marker-dynamic-style-update.html
   file: css/css-overflow/scroll-markers/column-scroll-marker-dynamic-style-update.html
@@ -6137,7 +6164,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0382"
+- id: "0383"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/column-scroll-marker-reattach-target-current.html
   file: css/css-overflow/scroll-markers/column-scroll-marker-reattach-target-current.html
@@ -6164,7 +6191,7 @@
       referenceFile: css/css-overflow/scroll-markers/column-scroll-marker-reattach-target-current-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-reattach-target-current-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0384"
+- id: "0385"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/root-scroll-button.html
   file: css/css-overflow/scroll-markers/root-scroll-button.html
@@ -6191,7 +6218,7 @@
       referenceFile: css/css-overflow/scroll-markers/root-scroll-button-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/root-scroll-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0385"
+- id: "0386"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/root-scroll-marker.html
   file: css/css-overflow/scroll-markers/root-scroll-marker.html
@@ -6218,7 +6245,7 @@
       referenceFile: css/css-overflow/scroll-markers/root-scroll-marker-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/root-scroll-marker-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0387"
+- id: "0388"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-buttons-001.html
   file: css/css-overflow/scroll-markers/scroll-buttons-001.html
@@ -6245,7 +6272,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-buttons-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0388"
+- id: "0389"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-buttons-002.html
   file: css/css-overflow/scroll-markers/scroll-buttons-002.html
@@ -6272,7 +6299,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-buttons-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0389"
+- id: "0390"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-buttons-003.html
   file: css/css-overflow/scroll-markers/scroll-buttons-003.html
@@ -6299,7 +6326,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-buttons-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0390"
+- id: "0391"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-buttons-004.html
   file: css/css-overflow/scroll-markers/scroll-buttons-004.html
@@ -6326,7 +6353,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-buttons-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0391"
+- id: "0392"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-buttons-appearance.html
   file: css/css-overflow/scroll-markers/scroll-buttons-appearance.html
@@ -6353,7 +6380,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-buttons-appearance-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-appearance-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0392"
+- id: "0393"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-buttons-disabled-rtl.html
   file: css/css-overflow/scroll-markers/scroll-buttons-disabled-rtl.html
@@ -6380,7 +6407,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-buttons-disabled-rtl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0393"
+- id: "0394"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-buttons-disabled-snapping.html
   file: css/css-overflow/scroll-markers/scroll-buttons-disabled-snapping.html
@@ -6407,7 +6434,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-buttons-disabled-snapping-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-snapping-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0394"
+- id: "0395"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-buttons-disabled-vertical-ltr.html
   file: css/css-overflow/scroll-markers/scroll-buttons-disabled-vertical-ltr.html
@@ -6434,7 +6461,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-buttons-disabled-vertical-ltr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-vertical-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0395"
+- id: "0396"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-buttons-disabled.html
   file: css/css-overflow/scroll-markers/scroll-buttons-disabled.html
@@ -6461,7 +6488,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-buttons-disabled-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0397"
+- id: "0398"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-buttons-enabled-rtl.html
   file: css/css-overflow/scroll-markers/scroll-buttons-enabled-rtl.html
@@ -6488,7 +6515,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-buttons-enabled-rtl-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-enabled-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0398"
+- id: "0399"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-buttons-enabled-vertical-ltr.html
   file: css/css-overflow/scroll-markers/scroll-buttons-enabled-vertical-ltr.html
@@ -6515,7 +6542,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-buttons-enabled-vertical-ltr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-enabled-vertical-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0399"
+- id: "0400"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-buttons-enabled.html
   file: css/css-overflow/scroll-markers/scroll-buttons-enabled.html
@@ -6542,7 +6569,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-buttons-enabled-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-enabled-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0400"
+- id: "0401"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-buttons-layout-parent.html
   file: css/css-overflow/scroll-markers/scroll-buttons-layout-parent.html
@@ -6569,7 +6596,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0401"
+- id: "0402"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-001.html
   file: css/css-overflow/scroll-markers/scroll-marker-001.html
@@ -6596,7 +6623,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0402"
+- id: "0403"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-002.html
   file: css/css-overflow/scroll-markers/scroll-marker-002.html
@@ -6623,7 +6650,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0403"
+- id: "0404"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-003.html
   file: css/css-overflow/scroll-markers/scroll-marker-003.html
@@ -6650,7 +6677,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0404"
+- id: "0405"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-004.html
   file: css/css-overflow/scroll-markers/scroll-marker-004.html
@@ -6677,7 +6704,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0405"
+- id: "0406"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-005.html
   file: css/css-overflow/scroll-markers/scroll-marker-005.html
@@ -6704,7 +6731,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0406"
+- id: "0407"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-006.html
   file: css/css-overflow/scroll-markers/scroll-marker-006.html
@@ -6731,7 +6758,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0407"
+- id: "0408"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-007.html
   file: css/css-overflow/scroll-markers/scroll-marker-007.html
@@ -6758,7 +6785,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0408"
+- id: "0409"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-008.html
   file: css/css-overflow/scroll-markers/scroll-marker-008.html
@@ -6785,7 +6812,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0409"
+- id: "0410"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-009.html
   file: css/css-overflow/scroll-markers/scroll-marker-009.html
@@ -6812,7 +6839,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0410"
+- id: "0411"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-010.html
   file: css/css-overflow/scroll-markers/scroll-marker-010.html
@@ -6839,7 +6866,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0411"
+- id: "0412"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-011.html
   file: css/css-overflow/scroll-markers/scroll-marker-011.html
@@ -6866,7 +6893,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0412"
+- id: "0413"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-012.html
   file: css/css-overflow/scroll-markers/scroll-marker-012.html
@@ -6893,7 +6920,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0413"
+- id: "0414"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-counters.html
   file: css/css-overflow/scroll-markers/scroll-marker-counters.html
@@ -6920,7 +6947,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-counters-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-counters-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0414"
+- id: "0415"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-dynamic.html
   file: css/css-overflow/scroll-markers/scroll-marker-dynamic.html
@@ -6947,7 +6974,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-dynamic-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0415"
+- id: "0416"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-001.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-001.html
@@ -6974,7 +7001,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-group-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0416"
+- id: "0417"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-002.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-002.html
@@ -7001,7 +7028,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-group-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0417"
+- id: "0418"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-005.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-005.html
@@ -7028,7 +7055,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-group-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0419"
+- id: "0420"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-007.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-007.html
@@ -7055,7 +7082,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-group-007-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0420"
+- id: "0421"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-008.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-008.html
@@ -7082,7 +7109,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-group-008-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0421"
+- id: "0422"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-009.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-009.html
@@ -7109,7 +7136,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-group-009-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0423"
+- id: "0424"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-011.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-011.html
@@ -7136,7 +7163,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-group-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0424"
+- id: "0425"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-013.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-013.html
@@ -7163,7 +7190,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-group-013-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0425"
+- id: "0426"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-015.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-015.html
@@ -7190,7 +7217,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0426"
+- id: "0427"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-016.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-016.html
@@ -7217,7 +7244,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0427"
+- id: "0428"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-017.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-017.html
@@ -7244,7 +7271,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0428"
+- id: "0429"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-018.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-018.html
@@ -7271,7 +7298,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0429"
+- id: "0430"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-019.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-019.html
@@ -7298,7 +7325,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0430"
+- id: "0431"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-020.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-020.html
@@ -7325,7 +7352,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0431"
+- id: "0432"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-001.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-001.html
@@ -7352,7 +7379,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0432"
+- id: "0433"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-002.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-002.html
@@ -7379,7 +7406,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0433"
+- id: "0434"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-003.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-003.html
@@ -7406,7 +7433,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0434"
+- id: "0435"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-004.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-004.html
@@ -7433,7 +7460,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0435"
+- id: "0436"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-keeps-active-in-view.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-keeps-active-in-view.html
@@ -7460,7 +7487,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-group-keeps-active-in-view-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-keeps-active-in-view-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0436"
+- id: "0437"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-layout-parent.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-layout-parent.html
@@ -7487,7 +7514,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0437"
+- id: "0438"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-group-snap-aligns-to-active.tentative.html
   file: css/css-overflow/scroll-markers/scroll-marker-group-snap-aligns-to-active.tentative.html
@@ -7514,7 +7541,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-group-snap-aligns-to-active-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-snap-aligns-to-active-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0439"
+- id: "0440"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-marker-selection-in-2d.html
   file: css/css-overflow/scroll-markers/scroll-marker-selection-in-2d.html
@@ -7541,7 +7568,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-marker-selection-in-2d-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-selection-in-2d-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0443"
+- id: "0444"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-target-group-001.html
   file: css/css-overflow/scroll-markers/scroll-target-group-001.html
@@ -7568,7 +7595,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-target-group-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0444"
+- id: "0445"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-target-group-002.html
   file: css/css-overflow/scroll-markers/scroll-target-group-002.html
@@ -7595,7 +7622,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-target-group-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0445"
+- id: "0446"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-target-group-003.html
   file: css/css-overflow/scroll-markers/scroll-target-group-003.html
@@ -7622,7 +7649,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-target-group-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0446"
+- id: "0447"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-target-group-004.html
   file: css/css-overflow/scroll-markers/scroll-target-group-004.html
@@ -7649,7 +7676,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-target-group-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0447"
+- id: "0448"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-target-group-005.html
   file: css/css-overflow/scroll-markers/scroll-target-group-005.html
@@ -7676,7 +7703,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-target-group-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0448"
+- id: "0449"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-target-group-006.html
   file: css/css-overflow/scroll-markers/scroll-target-group-006.html
@@ -7703,7 +7730,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-target-group-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0449"
+- id: "0450"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-target-group-007.html
   file: css/css-overflow/scroll-markers/scroll-target-group-007.html
@@ -7730,7 +7757,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-target-group-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0451"
+- id: "0452"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-target-group-009.html
   file: css/css-overflow/scroll-markers/scroll-target-group-009.html
@@ -7757,7 +7784,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-target-group-009-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0452"
+- id: "0453"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-target-group-010.html
   file: css/css-overflow/scroll-markers/scroll-target-group-010.html
@@ -7784,7 +7811,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-target-group-009-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0453"
+- id: "0454"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-target-group-011.html
   file: css/css-overflow/scroll-markers/scroll-target-group-011.html
@@ -7811,7 +7838,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-target-group-009-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0454"
+- id: "0455"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-target-group-012.html
   file: css/css-overflow/scroll-markers/scroll-target-group-012.html
@@ -7838,7 +7865,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-target-group-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0455"
+- id: "0456"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/scroll-target-group-inline-targets.html
   file: css/css-overflow/scroll-markers/scroll-target-group-inline-targets.html
@@ -7865,7 +7892,7 @@
       referenceFile: css/css-overflow/scroll-markers/scroll-target-group-inline-targets-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-inline-targets-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0456"
+- id: "0457"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001.html
   file: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001.html
@@ -7892,7 +7919,7 @@
       referenceFile: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0457"
+- id: "0458"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002.html
   file: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002.html
@@ -7919,7 +7946,7 @@
       referenceFile: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0458"
+- id: "0459"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003.html
   file: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003.html
@@ -7946,7 +7973,7 @@
       referenceFile: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0459"
+- id: "0460"
   category: WPT reftest
   title: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004.html
   file: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004.html
@@ -7973,7 +8000,7 @@
       referenceFile: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0466"
+- id: "0467"
   category: WPT reftest
   title: css/css-overflow/scrollbar-gutter-002.html
   file: css/css-overflow/scrollbar-gutter-002.html
@@ -8000,7 +8027,7 @@
       referenceFile: css/css-overflow/scrollbar-gutter-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0467"
+- id: "0468"
   category: WPT reftest
   title: css/css-overflow/scrollbar-gutter-003.html
   file: css/css-overflow/scrollbar-gutter-003.html
@@ -8027,7 +8054,7 @@
       referenceFile: css/css-overflow/scrollbar-gutter-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0473"
+- id: "0474"
   category: WPT reftest
   title: css/css-overflow/scrollbar-gutter-fixedpos-001.html
   file: css/css-overflow/scrollbar-gutter-fixedpos-001.html
@@ -8054,7 +8081,7 @@
       referenceFile: css/css-overflow/scrollbar-gutter-fixedpos-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-fixedpos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0474"
+- id: "0475"
   category: WPT reftest
   title: css/css-overflow/scrollbar-gutter-fixedpos-002.html
   file: css/css-overflow/scrollbar-gutter-fixedpos-002.html
@@ -8081,7 +8108,7 @@
       referenceFile: css/css-overflow/scrollbar-gutter-fixedpos-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-fixedpos-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0477"
+- id: "0478"
   category: WPT reftest
   title: css/css-overflow/scrollbar-gutter-root-both-edges.html
   file: css/css-overflow/scrollbar-gutter-root-both-edges.html
@@ -8108,7 +8135,7 @@
       referenceFile: css/css-overflow/scrollbar-gutter-root-both-edges-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-root-both-edges-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0478"
+- id: "0479"
   category: WPT reftest
   title: css/css-overflow/scrollbar-gutter-root.html
   file: css/css-overflow/scrollbar-gutter-root.html
@@ -8135,7 +8162,7 @@
       referenceFile: css/css-overflow/scrollbar-gutter-root-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0479"
+- id: "0480"
   category: WPT reftest
   title: css/css-overflow/scrollbar-gutter-rtl-002.html
   file: css/css-overflow/scrollbar-gutter-rtl-002.html
@@ -8162,7 +8189,7 @@
       referenceFile: css/css-overflow/scrollbar-gutter-rtl-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-rtl-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0480"
+- id: "0481"
   category: WPT reftest
   title: css/css-overflow/scrollbar-gutter-scroll-into-view.html
   file: css/css-overflow/scrollbar-gutter-scroll-into-view.html
@@ -8189,7 +8216,7 @@
       referenceFile: css/css-overflow/scrollbar-gutter-scroll-into-view-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-scroll-into-view-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0481"
+- id: "0482"
   category: WPT reftest
   title: css/css-overflow/scrollbar-gutter-vertical-lr-002.html
   file: css/css-overflow/scrollbar-gutter-vertical-lr-002.html
@@ -8216,7 +8243,7 @@
       referenceFile: css/css-overflow/scrollbar-gutter-vertical-lr-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-vertical-lr-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0482"
+- id: "0483"
   category: WPT reftest
   title: css/css-overflow/scrollbar-gutter-vertical-rl-002.html
   file: css/css-overflow/scrollbar-gutter-vertical-rl-002.html
@@ -8243,7 +8270,7 @@
       referenceFile: css/css-overflow/scrollbar-gutter-vertical-rl-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-vertical-rl-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0485"
+- id: "0486"
   category: WPT reftest
   title: css/css-overflow/scrollbars-chrome-bug-001.html
   file: css/css-overflow/scrollbars-chrome-bug-001.html
@@ -8270,7 +8297,7 @@
       referenceFile: css/css-overflow/scrollbars-chrome-bug-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbars-chrome-bug-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0488"
+- id: "0489"
   category: WPT reftest
   title: css/css-overflow/single-axis-overflow-scroll-to-clip.html
   file: css/css-overflow/single-axis-overflow-scroll-to-clip.html
@@ -8297,7 +8324,7 @@
       referenceFile: css/css-overflow/single-axis-overflow-scroll-to-clip-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/single-axis-overflow-scroll-to-clip-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0491"
+- id: "0492"
   category: WPT reftest
   title: css/css-overflow/text-overflow-ellipsis-002.html
   file: css/css-overflow/text-overflow-ellipsis-002.html
@@ -8324,7 +8351,7 @@
       referenceFile: css/css-overflow/reference/text-overflow-ellipsis-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-ellipsis-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0494"
+- id: "0495"
   category: WPT reftest
   title: css/css-overflow/text-overflow-ellipsis-editable-div-with-caret.html
   file: css/css-overflow/text-overflow-ellipsis-editable-div-with-caret.html
@@ -8351,7 +8378,7 @@
       referenceFile: css/css-overflow/reference/text-overflow-ellipsis-editable-div-with-caret-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-ellipsis-editable-div-with-caret-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0495"
+- id: "0496"
   category: WPT reftest
   title: css/css-overflow/text-overflow-ellipsis-editing-input.html
   file: css/css-overflow/text-overflow-ellipsis-editing-input.html
@@ -8378,7 +8405,7 @@
       referenceFile: css/css-overflow/text-overflow-ellipsis-editing-input-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-ellipsis-editing-input-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0500"
+- id: "0501"
   category: WPT reftest
   title: css/css-overflow/text-overflow-scroll-001.html
   file: css/css-overflow/text-overflow-scroll-001.html
@@ -8405,7 +8432,7 @@
       referenceFile: css/css-overflow/reference/text-overflow-scroll-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-scroll-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0501"
+- id: "0502"
   category: WPT reftest
   title: css/css-overflow/text-overflow-scroll-rtl-001.html
   file: css/css-overflow/text-overflow-scroll-rtl-001.html
@@ -8432,7 +8459,7 @@
       referenceFile: css/css-overflow/reference/text-overflow-scroll-rtl-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-scroll-rtl-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0502"
+- id: "0503"
   category: WPT reftest
   title: css/css-overflow/text-overflow-scroll-vertical-lr-001.html
   file: css/css-overflow/text-overflow-scroll-vertical-lr-001.html
@@ -8459,7 +8486,7 @@
       referenceFile: css/css-overflow/reference/text-overflow-scroll-vertical-lr-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-scroll-vertical-lr-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0503"
+- id: "0504"
   category: WPT reftest
   title: css/css-overflow/text-overflow-scroll-vertical-lr-rtl-001.html
   file: css/css-overflow/text-overflow-scroll-vertical-lr-rtl-001.html
@@ -8486,7 +8513,7 @@
       referenceFile: css/css-overflow/reference/text-overflow-scroll-vertical-lr-rtl-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-scroll-vertical-lr-rtl-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0504"
+- id: "0505"
   category: WPT reftest
   title: css/css-overflow/text-overflow-scroll-vertical-rl-001.html
   file: css/css-overflow/text-overflow-scroll-vertical-rl-001.html
@@ -8513,7 +8540,7 @@
       referenceFile: css/css-overflow/reference/text-overflow-scroll-vertical-lr-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-scroll-vertical-lr-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0505"
+- id: "0506"
   category: WPT reftest
   title: css/css-overflow/text-overflow-scroll-vertical-rl-rtl-001.html
   file: css/css-overflow/text-overflow-scroll-vertical-rl-rtl-001.html

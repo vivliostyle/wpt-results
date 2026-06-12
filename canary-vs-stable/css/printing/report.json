@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T11:08:10.013Z",
+  "generatedAt": "2026-06-12T21:11:31.600Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,22 +39,20 @@
   },
   "summary": {
     "totalEntries": 26,
-    "entriesWithDifferences": 7,
+    "entriesWithDifferences": 6,
     "entriesWithErrors": 1,
     "timeoutEntries": 0,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 18,
+        "pass": 19,
         "known-fail": 6,
-        "improvement": 1,
         "error": 1
       },
       "statusPairs": {
-        "PASS->PASS": 18,
+        "PASS->PASS": 19,
         "FAIL->FAIL": 6,
-        "ERROR->PASS": 1,
         "ERROR->ERROR": 1
       }
     },
@@ -553,8 +551,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html",
       "actualStatus": "PASS",
-      "baselineStatus": "ERROR",
-      "changeType": "improvement",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -565,24 +563,7 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ],
-      "difference": {
-        "classification": "improvement",
-        "triageRequired": false,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 2
-        },
-        "baseline": {
-          "totalPages": null
-        },
-        "pages": [],
-        "comparisons": [],
-        "triage": {
-          "status": "not-needed",
-          "decision": ""
-        }
-      }
+      ]
     },
     {
       "id": "0010",

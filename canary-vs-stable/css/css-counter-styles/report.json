@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T08:40:28.050Z",
+  "generatedAt": "2026-06-12T18:27:21.537Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,33 +39,39 @@
   },
   "summary": {
     "totalEntries": 236,
-    "entriesWithDifferences": 54,
-    "entriesWithErrors": 2,
-    "timeoutEntries": 2,
+    "entriesWithDifferences": 55,
+    "entriesWithErrors": 6,
+    "timeoutEntries": 6,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 181,
-        "known-fail": 54,
+        "pass": 178,
+        "known-fail": 53,
+        "improvement": 2,
+        "error": 2,
         "unchanged": 1
       },
       "statusPairs": {
-        "PASS->PASS": 181,
-        "FAIL->FAIL": 54,
+        "PASS->PASS": 178,
+        "FAIL->FAIL": 52,
+        "ERROR->PASS": 2,
+        "PASS->ERROR": 1,
+        "ERROR->FAIL": 1,
+        "FAIL->ERROR": 1,
         "MANUAL->MANUAL": 1
       }
     },
     "triage": {
       "differences": {
-        "pending": 54,
+        "pending": 53,
         "triaged": 0
       },
       "errors": {
-        "pending": 2,
+        "pending": 6,
         "triaged": 0
       },
-      "pendingEntries": 56,
+      "pendingEntries": 59,
       "triagedEntries": 0
     }
   },
@@ -5039,8 +5045,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-counter-styles/hebrew/css3-counter-styles-016a.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "ERROR",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/hebrew/css3-counter-styles-016a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/hebrew/css3-counter-styles-016a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -5057,7 +5063,24 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/hebrew/css3-counter-styles-016a-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/hebrew/css3-counter-styles-016a-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": null
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0106",
@@ -5067,9 +5090,9 @@
         "css/css-counter-styles/hebrew/css3-counter-styles-017.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-counter-styles/hebrew/css3-counter-styles-017.html",
-      "actualStatus": "PASS",
+      "actualStatus": "ERROR",
       "baselineStatus": "PASS",
-      "changeType": "pass",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/hebrew/css3-counter-styles-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/hebrew/css3-counter-styles-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -5079,6 +5102,20 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/hebrew/css3-counter-styles-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/hebrew/css3-counter-styles-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
         }
       ]
     },
@@ -6651,8 +6688,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-counter-styles/katakana-iroha/css3-counter-styles-041.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "ERROR",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/katakana-iroha/css3-counter-styles-041.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/katakana-iroha/css3-counter-styles-041.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -6663,7 +6700,24 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/katakana-iroha/css3-counter-styles-041-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/katakana-iroha/css3-counter-styles-041-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": null
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0136",
@@ -6969,7 +7023,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054.html",
       "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
+      "baselineStatus": "ERROR",
       "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -6996,7 +7050,7 @@
           "totalPages": 1
         },
         "baseline": {
-          "totalPages": 1
+          "totalPages": null
         },
         "pages": [],
         "comparisons": [
@@ -7077,91 +7131,27 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 1476,
-                "diffRatio": 0.001760361804442409,
-                "exactDiffPixels": 4204,
-                "exactDiffRatio": 0.0050139302343332574,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0143-WPT_reftest-css-css-counter-styles-korean-hangul-formal-css3-counter-styles-054.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 1,
-            "referenceFile": "css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 1495,
-                "diffRatio": 0.0017830222883749333,
-                "exactDiffPixels": 4290,
-                "exactDiffRatio": 0.005116498740554156,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0143-WPT_reftest-css-css-counter-styles-korean-hangul-formal-css3-counter-styles-054.html-r02-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      }
+      },
+      "errors": [
+        {
+          "side": "stable",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
+      ]
     },
     {
       "id": "0144",
@@ -9156,9 +9146,9 @@
         "css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "ERROR",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -9170,102 +9160,20 @@
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "difference": {
-        "classification": "known-fail",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 208,
-                "diffRatio": 0.00024807266620868637,
-                "exactDiffPixels": 1749,
-                "exactDiffRatio": 0.0020859571788413096,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 81,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0193-WPT_reftest-css-css-counter-styles-simp-chinese-formal-css3-counter-styles-077.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
           },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 208,
-                "diffRatio": 0.00024807266620868637,
-                "exactDiffPixels": 1749,
-                "exactDiffRatio": 0.0020859571788413096,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 81,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0193-WPT_reftest-css-css-counter-styles-simp-chinese-formal-css3-counter-styles-077.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "triage": {
+            "status": "pending",
+            "decision": ""
           }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
         }
-      }
+      ]
     },
     {
       "id": "0194",
@@ -9932,91 +9840,28 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 14,
-                "diffRatio": 0.00001669719868712312,
-                "exactDiffPixels": 232,
-                "exactDiffRatio": 0.0002766964353866117,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 83,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0200-WPT_reftest-css-css-counter-styles-simp-chinese-informal-css3-counter-styles-073.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 1,
-            "referenceFile": "css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 979,
-                "diffRatio": 0.0011676112510495382,
-                "exactDiffPixels": 3429,
-                "exactDiffRatio": 0.004089621021296085,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0200-WPT_reftest-css-css-counter-styles-simp-chinese-informal-css3-counter-styles-073.html-r02-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      }
+      },
+      "errors": [
+        {
+          "side": "stable-reference",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "referenceFile": "css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html",
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
+      ]
     },
     {
       "id": "0201",

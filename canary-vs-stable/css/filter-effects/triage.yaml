@@ -318,10 +318,6 @@
       referenceFile: css/filter-effects/backdrop-filter-nested-border-radius-clip-4-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/backdrop-filter-nested-border-radius-clip-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/filter-effects/backdrop-filter-nested-border-radius-clip-4-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/backdrop-filter-nested-border-radius-clip-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0043"
   category: WPT reftest
   title: css/filter-effects/backdrop-filter-nested-border-radius-clip.html
@@ -511,33 +507,6 @@
       referenceFile: css/filter-effects/css-backdrop-filter-transform-clip-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/css-backdrop-filter-transform-clip-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0085"
-  category: WPT reftest
-  title: css/filter-effects/css-backdrop-filters-animation-blur.html
-  file: css/filter-effects/css-backdrop-filters-animation-blur.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/css-backdrop-filters-animation-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/css-backdrop-filters-animation-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/filter-effects/css-backdrop-filters-animation-blur-ref.html
-  relation: "=="
-  diffPages:
-    - css/filter-effects/css-backdrop-filters-animation-blur-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/filter-effects/css-backdrop-filters-animation-blur-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/css-backdrop-filters-animation-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/filter-effects/css-backdrop-filters-animation-blur-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/css-backdrop-filters-animation-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0086"
   category: WPT reftest
   title: css/filter-effects/css-backdrop-filters-animation-brightness.html
@@ -4318,3 +4287,20 @@
       referenceFile: css/filter-effects/reference/green-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0085"
+  category: WPT reftest
+  title: css/filter-effects/css-backdrop-filters-animation-blur.html
+  file: css/filter-effects/css-backdrop-filters-animation-blur.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/css-backdrop-filters-animation-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/css-backdrop-filters-animation-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

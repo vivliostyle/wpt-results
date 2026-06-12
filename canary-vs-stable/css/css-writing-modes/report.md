@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1217
-- Entries with differences: 549 (pending: 549, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 548 (pending: 548, triaged: 0)
+- Entries with errors: 5 (pending: 5, triaged: 0)
+- Timeout entries: 5
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":592,"known-fail":549,"unchanged":76}
+- Outcome summary: {"pass":590,"known-fail":548,"error":4,"unchanged":75}
 
 ## Differences
 
@@ -2011,19 +2011,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-084.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.018182056713228, diffPixels=15245
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-012-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0190] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-vrl-086.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-086.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014736470498435234, diffPixels=12356
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-086.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014736470498435234, diffPixels=12356
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0191] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-vrl-088.xht
   triage: pending
@@ -4139,10 +4126,6 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-rgt-orthog-htb-in-vlr-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.01626307152125792, diffPixels=13636
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-rgt-orthog-htb-in-vlr-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-rgt-orthog-htb-in-vlr-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01626307152125792, diffPixels=13636
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-rgt-orthog-htb-in-vlr-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0558] [WPT reftest] css/css-writing-modes/float-rgt-orthog-htb-in-vrl-003.xht
   triage: pending
@@ -7171,4 +7154,47 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/wm-propagation-svg-root-scrollbar.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0190] [WPT reftest] css/css-writing-modes/abs-pos-non-replaced-vrl-086.xht
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-086.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-086.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0374] [WPT reftest] css/css-writing-modes/bidi-plaintext-br-001.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/bidi-plaintext-br-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/bidi-plaintext-br-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0557] [WPT reftest] css/css-writing-modes/float-rgt-orthog-htb-in-vlr-003.xht
+  triage: pending
+  side: stable-reference
+  reference: css/css-writing-modes/float-rgt-orthog-htb-in-vlr-003-ref.xht
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-rgt-orthog-htb-in-vlr-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-rgt-orthog-htb-in-vlr-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0688] [WPT reftest] css/css-writing-modes/line-box-direction-srl-046.xht
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/line-box-direction-srl-046.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/line-box-direction-srl-046.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1209] [WPT manual] css/css-writing-modes/writing-mode-vrl-015-manual.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/writing-mode-vrl-015-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/writing-mode-vrl-015-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

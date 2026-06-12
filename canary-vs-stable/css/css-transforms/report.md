@@ -1,14 +1,20 @@
 # canary vs stable comparison report
 
 - Compared entries: 792
-- Entries with differences: 256 (pending: 256, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 258 (improvement: 1, pending: 257, triaged: 0)
+- Entries with errors: 7 (pending: 7, triaged: 0)
+- Timeout entries: 7
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":535,"known-fail":256,"unchanged":1}
+- Outcome summary: {"pass":532,"improvement":1,"known-fail":256,"regression":1,"error":1,"unchanged":1}
 
 ## Differences
+
+- [0002] [WPT reftest] css/css-transforms/2d-rotate-notref.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/2d-rotate-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/2d-rotate-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0014] [WPT reftest] css/css-transforms/add-child-in-empty-layer.html
   triage: pending
@@ -217,6 +223,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/animation/translate-percent-with-width-and-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.04758701625830089, diffPixels=39900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/animation/translate-percent-with-width-and-height-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0042] [WPT reftest] css/css-transforms/backface-visibility-001.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/backface-visibility-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/backface-visibility-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0045] [WPT reftest] css/css-transforms/backface-visibility-hidden-003.html
   triage: pending
@@ -961,29 +973,21 @@
 
 - [0198] [WPT reftest] css/css-transforms/matrix/svg-matrix-005.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0199] [WPT reftest] css/css-transforms/matrix/svg-matrix-006.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0200] [WPT reftest] css/css-transforms/matrix/svg-matrix-007.html
   triage: pending
@@ -1052,16 +1056,12 @@
 
 - [0205] [WPT reftest] css/css-transforms/matrix/svg-matrix-012.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0206] [WPT reftest] css/css-transforms/matrix/svg-matrix-013.html
   triage: pending
@@ -1448,10 +1448,6 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-042.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0019082512785283565, diffPixels=1600
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-clipped-rect-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-042.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0019082512785283565, diffPixels=1600
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-clipped-rect-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0236] [WPT reftest] css/css-transforms/matrix/svg-matrix-043.html
   triage: pending
@@ -3337,4 +3333,65 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/ttwf-reftest-rotate.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00942199068773376, diffPixels=7900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/reference/ttwf-reftest-rotate-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0002] [WPT reftest] css/css-transforms/2d-rotate-notref.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-transforms/2d-rotate-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): loading page
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/2d-rotate-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/2d-rotate-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0042] [WPT reftest] css/css-transforms/backface-visibility-001.html
+  triage: pending
+  side: canary-reference
+  reference: css/css-transforms/backface-visibility-001.ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/backface-visibility-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/backface-visibility-001.ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0084] [WPT reftest] css/css-transforms/css-transforms-transformlist.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/css-transforms-transformlist.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/css-transforms-transformlist.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0198] [WPT reftest] css/css-transforms/matrix/svg-matrix-005.html
+  triage: pending
+  side: stable
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0199] [WPT reftest] css/css-transforms/matrix/svg-matrix-006.html
+  triage: pending
+  side: stable
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0205] [WPT reftest] css/css-transforms/matrix/svg-matrix-012.html
+  triage: pending
+  side: stable
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0235] [WPT reftest] css/css-transforms/matrix/svg-matrix-042.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-transforms/matrix/reference/svg-matrix-clipped-rect-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/svg-matrix-042.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-clipped-rect-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

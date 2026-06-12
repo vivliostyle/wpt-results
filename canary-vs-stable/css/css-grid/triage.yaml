@@ -241,33 +241,6 @@
       referenceFile: css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0045"
-  category: WPT reftest
-  title: css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-004.html
-  file: css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-004.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-004-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-004-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-004-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-004-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0048"
   category: WPT reftest
   title: css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-last-baseline-003.html
@@ -584,10 +557,6 @@
   diffPages:
     - css/css-grid/abspos/grid-abspos-staticpos-justify-self-vertWM-004-ref.html#1
   referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/abspos/grid-abspos-staticpos-justify-self-vertWM-004-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/grid-abspos-staticpos-justify-self-vertWM-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-grid/abspos/grid-abspos-staticpos-justify-self-vertWM-004-ref.html
       url: >-
@@ -2636,9 +2605,6 @@
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/abspos/column-grid-lanes-out-of-flow-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-grid/grid-lanes/abspos/column-grid-lanes-out-of-flow-001-ref.html
   relation: "=="
-  diffPages:
-    - css/css-grid/grid-lanes/abspos/column-grid-lanes-out-of-flow-001-ref.html#1
-    - css/css-grid/grid-lanes/abspos/column-grid-lanes-out-of-flow-001-ref.html#2
   pageSelections:
     - referenceFile: css/css-grid/grid-lanes/abspos/column-grid-lanes-out-of-flow-001-ref.html
       actualPages:
@@ -5030,33 +4996,6 @@
       referenceFile: css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-006c-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-006c-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0600"
-  category: WPT reftest
-  title: css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-007a.html
-  file: css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-007a.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-007a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-007a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-007a-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-007a-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-007a-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-007a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-007a-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-007a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0601"
   category: WPT reftest
   title: css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-007b.html
@@ -9430,33 +9369,6 @@
       referenceFile: css/css-grid/grid-lanes/item-placement/row-auto-placement-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/row-auto-placement-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0785"
-  category: WPT reftest
-  title: css/css-grid/grid-lanes/item-placement/row-auto-placement-002.html
-  file: css/css-grid/grid-lanes/item-placement/row-auto-placement-002.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/row-auto-placement-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/row-auto-placement-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/grid-lanes/item-placement/row-auto-placement-002-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-grid/grid-lanes/item-placement/row-auto-placement-002-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/grid-lanes/item-placement/row-auto-placement-002-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/row-auto-placement-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/grid-lanes/item-placement/row-auto-placement-002-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/row-auto-placement-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0786"
   category: WPT reftest
   title: css/css-grid/grid-lanes/item-placement/row-auto-placement-max-content.html
@@ -11402,6 +11314,33 @@
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0861"
   category: WPT reftest
+  title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-015.html
+  file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-015.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-015-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-015-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-015-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-015-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0862"
+  category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-larger-001.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-larger-001.html
   type: difference
@@ -11427,7 +11366,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-larger-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-larger-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0862"
+- id: "0863"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-larger-002.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-larger-002.html
@@ -11454,7 +11393,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-larger-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-larger-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0863"
+- id: "0864"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-normal-001.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-normal-001.html
@@ -11481,7 +11420,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-normal-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-normal-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0864"
+- id: "0865"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-smaller-001.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-smaller-001.html
@@ -11508,7 +11447,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-smaller-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/column-subgrid-grid-gap-smaller-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0865"
+- id: "0866"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-001.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-001.html
@@ -11540,7 +11479,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0866"
+- id: "0867"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-002.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-002.html
@@ -11567,7 +11506,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0867"
+- id: "0868"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-003.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-003.html
@@ -11594,7 +11533,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0868"
+- id: "0869"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-004.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-004.html
@@ -11621,7 +11560,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0869"
+- id: "0870"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-005.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-005.html
@@ -11648,7 +11587,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0870"
+- id: "0871"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-006.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-006.html
@@ -11675,7 +11614,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0871"
+- id: "0872"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-007.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-007.html
@@ -11702,7 +11641,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-007-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0872"
+- id: "0873"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-008.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-008.html
@@ -11729,7 +11668,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-008-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0873"
+- id: "0874"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-009.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-009.html
@@ -11756,7 +11695,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-009-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0874"
+- id: "0875"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-010.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-010.html
@@ -11783,7 +11722,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0875"
+- id: "0876"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-011.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-011.html
@@ -11810,7 +11749,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0876"
+- id: "0877"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-012.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-012.html
@@ -11837,7 +11776,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0877"
+- id: "0878"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-013.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-013.html
@@ -11864,7 +11803,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-013-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0878"
+- id: "0879"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-014.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-014.html
@@ -11891,7 +11830,34 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-014-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0879"
+- id: "0880"
+  category: WPT reftest
+  title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-015.html
+  file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-015.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-015-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-015-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-015-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-015-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0881"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-larger-001.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-larger-001.html
@@ -11918,7 +11884,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-larger-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-larger-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0880"
+- id: "0882"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-larger-002.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-larger-002.html
@@ -11945,7 +11911,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-larger-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-larger-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0881"
+- id: "0883"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-normal-001.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-normal-001.html
@@ -11972,7 +11938,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-normal-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-normal-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0882"
+- id: "0884"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-smaller-001.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-smaller-001.html
@@ -11999,7 +11965,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-smaller-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/gap/row-subgrid-grid-gap-smaller-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0883"
+- id: "0885"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-001a.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-001a.html
@@ -12026,7 +11992,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-001a-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-001a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0884"
+- id: "0886"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-001b.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-001b.html
@@ -12053,7 +12019,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-001b-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-001b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0885"
+- id: "0887"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-001c.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-001c.html
@@ -12080,7 +12046,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-001c-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-001c-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0886"
+- id: "0888"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-001d.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-001d.html
@@ -12107,7 +12073,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-001d-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-001d-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0887"
+- id: "0889"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002a.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002a.html
@@ -12134,7 +12100,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002a-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0888"
+- id: "0890"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002b.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002b.html
@@ -12161,7 +12127,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002b-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0889"
+- id: "0891"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002c.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002c.html
@@ -12188,7 +12154,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002c-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002c-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0890"
+- id: "0892"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002d.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002d.html
@@ -12207,15 +12173,11 @@
   diffPages:
     - css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002d-ref.html#1
   referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002d-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002d-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002d-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002d-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0891"
+- id: "0893"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002e.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002e.html
@@ -12242,7 +12204,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002e-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row/grid-lanes-subgrid-002e-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0892"
+- id: "0894"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row-subgrid-ignores-height-001.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row-subgrid-ignores-height-001.html
@@ -12269,7 +12231,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0893"
+- id: "0895"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row-subgrid-standalone-column-axis-size-001.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/row-subgrid-standalone-column-axis-size-001.html
@@ -12296,7 +12258,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0894"
+- id: "0896"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/auto-track-sizing-001.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/auto-track-sizing-001.html
@@ -12323,7 +12285,7 @@
       referenceFile: css/css-grid/subgrid/auto-track-sizing-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/auto-track-sizing-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0897"
+- id: "0899"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-auto-track-sizing-002.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-auto-track-sizing-002.html
@@ -12350,7 +12312,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0898"
+- id: "0900"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-001.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-001.html
@@ -12380,7 +12342,7 @@
         css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0899"
+- id: "0901"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-002.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-002.html
@@ -12410,7 +12372,7 @@
         css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0900"
+- id: "0902"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-003.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-003.html
@@ -12435,12 +12397,7 @@
         css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-003-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: >-
-        css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-003-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0901"
+- id: "0903"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-004.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-004.html
@@ -12470,7 +12427,37 @@
         css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0903"
+- id: "0904"
+  category: WPT reftest
+  title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-005.html
+  file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-005-ref.html
+  relation: "=="
+  diffPages:
+    - >-
+      css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-005-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: >-
+        css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-005-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: >-
+        css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-005-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0905"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-006.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-006.html
@@ -12500,7 +12487,7 @@
         css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0904"
+- id: "0906"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-007.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-007.html
@@ -12530,7 +12517,7 @@
         css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0906"
+- id: "0908"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-009.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-009.html
@@ -12560,7 +12547,7 @@
         css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-009-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-extra-margin-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0912"
+- id: "0914"
   category: WPT reftest
   title: >-
     css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-with-row-standalone-axis-size-006.html
@@ -12589,7 +12576,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0913"
+- id: "0915"
   category: WPT reftest
   title: >-
     css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-with-row-standalone-axis-size-007.html
@@ -12618,7 +12605,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0914"
+- id: "0916"
   category: WPT reftest
   title: >-
     css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-with-row-standalone-axis-size-008.html
@@ -12647,7 +12634,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0915"
+- id: "0917"
   category: WPT reftest
   title: >-
     css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/column-subgrid-with-row-standalone-axis-size-009.html
@@ -12676,7 +12663,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0916"
+- id: "0918"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/grid-lanes-subgrid-flex.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/grid-lanes-subgrid-flex.html
@@ -12703,7 +12690,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/grid-lanes-subgrid-flex-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/grid-lanes-subgrid-flex-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0917"
+- id: "0919"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/grid-lanes-subgrid-intrinsic-sizing.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/grid-lanes-subgrid-intrinsic-sizing.html
@@ -12734,7 +12721,7 @@
         css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/grid-lanes-subgrid-intrinsic-sizing-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/grid-lanes-subgrid-intrinsic-sizing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0918"
+- id: "0920"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/grid-lanes-subgrid.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/grid-lanes-subgrid.html
@@ -12761,7 +12748,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/grid-lanes-subgrid-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/grid-lanes-subgrid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0920"
+- id: "0922"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-auto-track-sizing-002.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-auto-track-sizing-002.html
@@ -12788,7 +12775,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0921"
+- id: "0923"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-001.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-001.html
@@ -12815,7 +12802,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0922"
+- id: "0924"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-002.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-002.html
@@ -12842,7 +12829,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0923"
+- id: "0925"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-003.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-003.html
@@ -12869,7 +12856,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0924"
+- id: "0926"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-004.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-004.html
@@ -12896,7 +12883,34 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0926"
+- id: "0927"
+  category: WPT reftest
+  title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-005.html
+  file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-005-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-005-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-005-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0928"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-006.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-006.html
@@ -12923,7 +12937,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0927"
+- id: "0929"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-007.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-007.html
@@ -12950,7 +12964,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0928"
+- id: "0930"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-008.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-008.html
@@ -12977,7 +12991,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0929"
+- id: "0931"
   category: WPT reftest
   title: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-009.html
   file: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-009.html
@@ -13004,7 +13018,7 @@
       referenceFile: css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-009-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/subgrid/grid-subgridded-to-grid-lanes/track-sizing/row-subgrid-extra-margin-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0939"
+- id: "0941"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-001.html
   file: css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-001.html
@@ -13034,7 +13048,7 @@
         css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0940"
+- id: "0942"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-002.html
   file: css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-002.html
@@ -13064,7 +13078,7 @@
         css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0941"
+- id: "0943"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-003.html
   file: css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-003.html
@@ -13094,7 +13108,7 @@
         css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0942"
+- id: "0944"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-004.html
   file: css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-004.html
@@ -13124,7 +13138,7 @@
         css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0943"
+- id: "0945"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-005.html
   file: css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-005.html
@@ -13154,7 +13168,7 @@
         css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0944"
+- id: "0946"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-008.html
   file: css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-008.html
@@ -13184,7 +13198,7 @@
         css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-008-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0945"
+- id: "0947"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-010.html
   file: css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-010.html
@@ -13214,7 +13228,7 @@
         css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/intrinsic-sizing/grid-lanes-baseline-alignment-affects-intrinsic-size-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0946"
+- id: "0948"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-001.html
@@ -13241,7 +13255,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0947"
+- id: "0949"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-002.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-002.html
@@ -13268,7 +13282,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0948"
+- id: "0950"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-indefinite-size-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-indefinite-size-001.html
@@ -13295,7 +13309,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-indefinite-size-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-indefinite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0949"
+- id: "0951"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-orthogonal-container-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-orthogonal-container-001.html
@@ -13322,7 +13336,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-orthogonal-container-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-orthogonal-container-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0950"
+- id: "0952"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-orthogonal-container-002.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-orthogonal-container-002.html
@@ -13349,7 +13363,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-orthogonal-container-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-orthogonal-container-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0951"
+- id: "0953"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-out-of-flow-definite-size-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-out-of-flow-definite-size-001.html
@@ -13376,7 +13390,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-out-of-flow-definite-size-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-out-of-flow-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0952"
+- id: "0954"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-out-of-flow-indefinite-size-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-out-of-flow-indefinite-size-001.html
@@ -13403,7 +13417,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-out-of-flow-indefinite-size-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-out-of-flow-indefinite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0953"
+- id: "0955"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-definite-size-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-definite-size-001.html
@@ -13430,7 +13444,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-definite-size-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0954"
+- id: "0956"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-indefinite-size-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-indefinite-size-001.html
@@ -13457,7 +13471,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-indefinite-size-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-indefinite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0955"
+- id: "0957"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-001.html
@@ -13484,7 +13498,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-reverse-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0956"
+- id: "0958"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-002.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-002.html
@@ -13511,7 +13525,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-reverse-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0957"
+- id: "0959"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-003.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-003.html
@@ -13538,7 +13552,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-reverse-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0958"
+- id: "0960"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-001.html
@@ -13565,7 +13579,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0959"
+- id: "0961"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-001.html
@@ -13592,7 +13606,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0960"
+- id: "0962"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-002.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-002.html
@@ -13619,7 +13633,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0961"
+- id: "0963"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-003.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-003.html
@@ -13646,7 +13660,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0962"
+- id: "0964"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-004.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-004.html
@@ -13673,7 +13687,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0963"
+- id: "0965"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-005.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-005.html
@@ -13700,7 +13714,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0964"
+- id: "0966"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-006.html
   file: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-006.html
@@ -13727,7 +13741,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-reverse-dense-packing-multi-span-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0965"
+- id: "0967"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-definite-size-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-definite-size-001.html
@@ -13754,7 +13768,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-definite-size-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0966"
+- id: "0968"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-definite-size-002.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-definite-size-002.html
@@ -13781,7 +13795,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-definite-size-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-definite-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0967"
+- id: "0969"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-indefinite-size-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-indefinite-size-001.html
@@ -13808,7 +13822,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-indefinite-size-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-indefinite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0968"
+- id: "0970"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-orthogonal-container-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-orthogonal-container-001.html
@@ -13835,7 +13849,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-orthogonal-container-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-orthogonal-container-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0969"
+- id: "0971"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-orthogonal-container-002.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-orthogonal-container-002.html
@@ -13862,7 +13876,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-orthogonal-container-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-orthogonal-container-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0970"
+- id: "0972"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-out-of-flow-definite-size-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-out-of-flow-definite-size-001.html
@@ -13889,7 +13903,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-out-of-flow-definite-size-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-out-of-flow-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0971"
+- id: "0973"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-out-of-flow-indefinite-size-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-out-of-flow-indefinite-size-001.html
@@ -13916,7 +13930,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-out-of-flow-indefinite-size-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-out-of-flow-indefinite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0972"
+- id: "0974"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-track-reverse-definite-size-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-track-reverse-definite-size-001.html
@@ -13943,7 +13957,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-track-reverse-definite-size-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-track-reverse-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0973"
+- id: "0975"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-track-reverse-indefinite-size-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-track-reverse-indefinite-size-001.html
@@ -13970,7 +13984,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-track-reverse-indefinite-size-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-fill-reverse-track-reverse-indefinite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0974"
+- id: "0976"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-001.html
@@ -13997,7 +14011,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-reverse-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0975"
+- id: "0977"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-002.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-002.html
@@ -14024,7 +14038,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-reverse-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0976"
+- id: "0978"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-003.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-003.html
@@ -14051,7 +14065,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-reverse-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0977"
+- id: "0979"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-001.html
@@ -14078,7 +14092,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0978"
+- id: "0980"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-002.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-002.html
@@ -14105,7 +14119,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0979"
+- id: "0981"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-001.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-001.html
@@ -14132,7 +14146,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0980"
+- id: "0982"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-002.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-002.html
@@ -14159,7 +14173,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0981"
+- id: "0983"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-003.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-003.html
@@ -14186,7 +14200,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0982"
+- id: "0984"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-004.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-004.html
@@ -14213,7 +14227,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0983"
+- id: "0985"
   category: WPT reftest
   title: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-005.html
   file: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-005.html
@@ -14240,7 +14254,7 @@
       referenceFile: css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/row-reverse-dense-packing-multi-span-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0984"
+- id: "0986"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-001.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-001.html
@@ -14267,7 +14281,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0985"
+- id: "0987"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-002.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-002.html
@@ -14294,7 +14308,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0986"
+- id: "0988"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-003.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-003.html
@@ -14321,7 +14335,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0987"
+- id: "0989"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-004.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-004.html
@@ -14348,7 +14362,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0988"
+- id: "0990"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-005.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-005.html
@@ -14375,7 +14389,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0991"
+- id: "0993"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-013.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-013.html
@@ -14402,7 +14416,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-013-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0992"
+- id: "0994"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-014.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-014.html
@@ -14429,7 +14443,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-014-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0993"
+- id: "0995"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-015.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-015.html
@@ -14461,7 +14475,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-015-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0994"
+- id: "0996"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-016.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-016.html
@@ -14488,7 +14502,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-016-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0995"
+- id: "0997"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-017.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-017.html
@@ -14515,7 +14529,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-017-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0996"
+- id: "0998"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-018.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-018.html
@@ -14542,7 +14556,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-018-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0997"
+- id: "0999"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-021.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-021.html
@@ -14569,7 +14583,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-021-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0998"
+- id: "1000"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-022.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-022.html
@@ -14596,7 +14610,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-021-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0999"
+- id: "1001"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-023.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-023.html
@@ -14623,7 +14637,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-023-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1000"
+- id: "1002"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-026.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-026.html
@@ -14650,7 +14664,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-026-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1001"
+- id: "1003"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-027.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-027.html
@@ -14686,7 +14700,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-027-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1002"
+- id: "1004"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-028.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-028.html
@@ -14713,7 +14727,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1003"
+- id: "1005"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-029.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-029.html
@@ -14740,7 +14754,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1004"
+- id: "1006"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-030.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-030.html
@@ -14767,7 +14781,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1005"
+- id: "1007"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-001.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-001.html
@@ -14794,7 +14808,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1006"
+- id: "1008"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-002.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-002.html
@@ -14821,7 +14835,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1007"
+- id: "1009"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-003.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-003.html
@@ -14848,7 +14862,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1008"
+- id: "1010"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-004.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-004.html
@@ -14875,7 +14889,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1009"
+- id: "1011"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-005.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-005.html
@@ -14902,7 +14916,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1010"
+- id: "1012"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-006.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-006.html
@@ -14929,7 +14943,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1011"
+- id: "1013"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-007.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-007.html
@@ -14956,7 +14970,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1013"
+- id: "1015"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-011.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-011.html
@@ -14983,7 +14997,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1014"
+- id: "1016"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-012.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-012.html
@@ -15010,7 +15024,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1015"
+- id: "1017"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-013.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-013.html
@@ -15037,7 +15051,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1016"
+- id: "1018"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-014.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-014.html
@@ -15064,7 +15078,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-014-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1019"
+- id: "1021"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-019.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-019.html
@@ -15091,7 +15105,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-023-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1020"
+- id: "1022"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-022.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-022.html
@@ -15118,7 +15132,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-022-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1021"
+- id: "1023"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-023.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-023.html
@@ -15154,7 +15168,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-023-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1022"
+- id: "1024"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-024.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-024.html
@@ -15190,7 +15204,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-023-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1023"
+- id: "1025"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-025.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-025.html
@@ -15217,7 +15231,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-025-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1024"
+- id: "1026"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-026.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-026.html
@@ -15244,7 +15258,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-026-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1025"
+- id: "1027"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-028.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-028.html
@@ -15271,7 +15285,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-028-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-028-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1026"
+- id: "1028"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-029.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-029.html
@@ -15298,7 +15312,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-029-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1031"
+- id: "1033"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-001.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-001.html
@@ -15328,7 +15342,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1032"
+- id: "1034"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-002.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-002.html
@@ -15358,7 +15372,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1033"
+- id: "1035"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-003.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-003.html
@@ -15388,7 +15402,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1034"
+- id: "1036"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-004.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-004.html
@@ -15418,7 +15432,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1035"
+- id: "1037"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-005.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-005.html
@@ -15448,7 +15462,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1036"
+- id: "1038"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-max-content-001.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-max-content-001.html
@@ -15478,7 +15492,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-max-content-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-max-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1037"
+- id: "1039"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-max-content-002.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-max-content-002.html
@@ -15508,7 +15522,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-max-content-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-max-content-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1038"
+- id: "1040"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-max-content-003.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-max-content-003.html
@@ -15538,7 +15552,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1039"
+- id: "1041"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-max-content-004.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-max-content-004.html
@@ -15568,7 +15582,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-max-content-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-max-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1041"
+- id: "1043"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-001.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-001.html
@@ -15598,7 +15612,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1042"
+- id: "1044"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-002.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-002.html
@@ -15628,7 +15642,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1043"
+- id: "1045"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-003.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-003.html
@@ -15658,7 +15672,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-fit-content-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1044"
+- id: "1046"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-004.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-004.html
@@ -15688,7 +15702,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1045"
+- id: "1047"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-005.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-005.html
@@ -15718,7 +15732,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1046"
+- id: "1048"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-minmax-001.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-minmax-001.html
@@ -15745,7 +15759,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/column-auto-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1047"
+- id: "1049"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-minmax-002.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-minmax-002.html
@@ -15775,7 +15789,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-max-content-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-max-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1048"
+- id: "1050"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-minmax-003.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-minmax-003.html
@@ -15805,7 +15819,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-min-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1049"
+- id: "1051"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-minmax-004.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-minmax-004.html
@@ -15836,7 +15850,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1050"
+- id: "1052"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-minmax-005.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-minmax-005.html
@@ -15863,7 +15877,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-auto-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1051"
+- id: "1053"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-001.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-001.html
@@ -15894,7 +15908,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1052"
+- id: "1054"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-002.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-002.html
@@ -15930,7 +15944,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1053"
+- id: "1055"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-003.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-003.html
@@ -15961,7 +15975,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1054"
+- id: "1056"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-004.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-004.html
@@ -15992,7 +16006,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/column-auto-repeat-mixed-intrinsic-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1055"
+- id: "1057"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-001.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-001.html
@@ -16019,7 +16033,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1056"
+- id: "1058"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-002.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-002.html
@@ -16046,7 +16060,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1057"
+- id: "1059"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-003.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-003.html
@@ -16078,7 +16092,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1058"
+- id: "1060"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-004.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-004.html
@@ -16110,7 +16124,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1059"
+- id: "1061"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-005.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-005.html
@@ -16137,7 +16151,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1060"
+- id: "1062"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-006.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-006.html
@@ -16164,7 +16178,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1062"
+- id: "1064"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-008.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-008.html
@@ -16191,7 +16205,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1063"
+- id: "1065"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-011.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-011.html
@@ -16218,7 +16232,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1064"
+- id: "1066"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-012.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-012.html
@@ -16245,7 +16259,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1065"
+- id: "1067"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-013.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-013.html
@@ -16272,7 +16286,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1066"
+- id: "1068"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-014.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-014.html
@@ -16299,7 +16313,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-014-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1069"
+- id: "1071"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-019.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-019.html
@@ -16326,7 +16340,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-021-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1070"
+- id: "1072"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-022.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-022.html
@@ -16353,7 +16367,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-022-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1071"
+- id: "1073"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-023.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-023.html
@@ -16385,7 +16399,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-023-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1072"
+- id: "1074"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-024.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-024.html
@@ -16417,7 +16431,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-023-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1073"
+- id: "1075"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-025.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-025.html
@@ -16444,7 +16458,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-025-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1074"
+- id: "1076"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-026.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-026.html
@@ -16471,7 +16485,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-026-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1075"
+- id: "1077"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-027.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-027.html
@@ -16503,7 +16517,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-027-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1077"
+- id: "1079"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-029.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-029.html
@@ -16530,7 +16544,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-029-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1078"
+- id: "1080"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-030.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-030.html
@@ -16546,9 +16560,6 @@
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-030.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-030-ref.html
   relation: "=="
-  diffPages:
-    - css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-030-ref.html#1
-    - css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-030-ref.html#2
   pageSelections:
     - referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-030-ref.html
       actualPages:
@@ -16565,7 +16576,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-030-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1080"
+- id: "1082"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-032.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-032.html
@@ -16592,7 +16603,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-029-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1081"
+- id: "1083"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-001.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-001.html
@@ -16619,7 +16630,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1082"
+- id: "1084"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-002.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-002.html
@@ -16646,7 +16657,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1083"
+- id: "1085"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-003.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-003.html
@@ -16673,7 +16684,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1084"
+- id: "1086"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-004.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-004.html
@@ -16700,7 +16711,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1085"
+- id: "1087"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-005.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-005.html
@@ -16727,7 +16738,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1086"
+- id: "1088"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-001.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-001.html
@@ -16754,7 +16765,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1087"
+- id: "1089"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-002.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-002.html
@@ -16781,7 +16792,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1088"
+- id: "1090"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-003.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-003.html
@@ -16808,7 +16819,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1089"
+- id: "1091"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-004.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-004.html
@@ -16835,7 +16846,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1090"
+- id: "1092"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-005.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-005.html
@@ -16862,7 +16873,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1091"
+- id: "1093"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-001.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-001.html
@@ -16889,7 +16900,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1092"
+- id: "1094"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-002.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-002.html
@@ -16916,7 +16927,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1093"
+- id: "1095"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-003.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-003.html
@@ -16943,7 +16954,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-fit-content-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1094"
+- id: "1096"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-004.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-004.html
@@ -16970,7 +16981,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1095"
+- id: "1097"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-005.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-005.html
@@ -16997,7 +17008,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1096"
+- id: "1098"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-minmax-001.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-minmax-001.html
@@ -17024,7 +17035,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1097"
+- id: "1099"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-minmax-002.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-minmax-002.html
@@ -17051,7 +17062,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-max-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1098"
+- id: "1100"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-minmax-003.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-minmax-003.html
@@ -17078,7 +17089,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-min-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1099"
+- id: "1101"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-minmax-004.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-minmax-004.html
@@ -17108,7 +17119,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-mixed-intrinsic-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-mixed-intrinsic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1100"
+- id: "1102"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-minmax-005.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-minmax-005.html
@@ -17135,7 +17146,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-auto-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1101"
+- id: "1103"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-mixed-intrinsic-001.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-mixed-intrinsic-001.html
@@ -17165,7 +17176,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-mixed-intrinsic-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-mixed-intrinsic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1102"
+- id: "1104"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-mixed-intrinsic-002.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-mixed-intrinsic-002.html
@@ -17195,7 +17206,7 @@
         css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-mixed-intrinsic-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/intrinsic-auto-repeat/row-auto-repeat-mixed-intrinsic-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1103"
+- id: "1105"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-001.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-001.html
@@ -17227,7 +17238,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1104"
+- id: "1106"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-002.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-002.html
@@ -17259,7 +17270,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1105"
+- id: "1107"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-003.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-003.html
@@ -17286,7 +17297,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1107"
+- id: "1109"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-005.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-005.html
@@ -17313,7 +17324,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1109"
+- id: "1111"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-012.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-012.html
@@ -17345,7 +17356,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1110"
+- id: "1112"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-013.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-013.html
@@ -17380,7 +17391,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-013-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1111"
+- id: "1113"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-014.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-014.html
@@ -17416,7 +17427,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-014-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1112"
+- id: "1114"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-015.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-015.html
@@ -17448,7 +17459,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-015-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1113"
+- id: "1115"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-016.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-016.html
@@ -17480,7 +17491,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-016-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1114"
+- id: "1116"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-019.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-019.html
@@ -17512,7 +17523,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-019-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1115"
+- id: "1117"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-020.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-020.html
@@ -17544,7 +17555,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-019-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1116"
+- id: "1118"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-021.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-021.html
@@ -17576,7 +17587,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-021-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1117"
+- id: "1119"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-024.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-024.html
@@ -17608,7 +17619,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-024-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1118"
+- id: "1120"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-025.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-025.html
@@ -17641,7 +17652,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-025-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1119"
+- id: "1121"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-026.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-026.html
@@ -17673,7 +17684,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1120"
+- id: "1122"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-027.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-027.html
@@ -17705,7 +17716,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1121"
+- id: "1123"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-028.html
   file: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-028.html
@@ -17737,7 +17748,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/auto-repeat/row-auto-repeat-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1122"
+- id: "1124"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/column-track-sizing-001.html
   file: css/css-grid/grid-lanes/track-sizing/column-track-sizing-001.html
@@ -17769,7 +17780,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/column-track-sizing-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/column-track-sizing-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1123"
+- id: "1125"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/column-track-sizing-002.html
   file: css/css-grid/grid-lanes/track-sizing/column-track-sizing-002.html
@@ -17796,7 +17807,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/column-track-sizing-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/column-track-sizing-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1124"
+- id: "1126"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/column-track-sizing-003.html
   file: css/css-grid/grid-lanes/track-sizing/column-track-sizing-003.html
@@ -17823,7 +17834,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/column-track-sizing-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/column-track-sizing-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1125"
+- id: "1127"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/column-track-sizing-004.html
   file: css/css-grid/grid-lanes/track-sizing/column-track-sizing-004.html
@@ -17850,7 +17861,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/column-track-sizing-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/column-track-sizing-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1126"
+- id: "1128"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/column-track-sizing-005.html
   file: css/css-grid/grid-lanes/track-sizing/column-track-sizing-005.html
@@ -17882,7 +17893,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/column-track-sizing-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/column-track-sizing-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1127"
+- id: "1129"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/grid-lanes-flex-sizing-rows-min-max-height-001.html
   file: css/css-grid/grid-lanes/track-sizing/grid-lanes-flex-sizing-rows-min-max-height-001.html
@@ -17909,7 +17920,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/grid-lanes-flex-sizing-rows-min-max-height-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/grid-lanes-flex-sizing-rows-min-max-height-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1128"
+- id: "1130"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/grid-lanes-fr-rows-indefinite-001.html
   file: css/css-grid/grid-lanes/track-sizing/grid-lanes-fr-rows-indefinite-001.html
@@ -17936,7 +17947,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1129"
+- id: "1131"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-001.html
   file: css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-001.html
@@ -17963,7 +17974,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1130"
+- id: "1132"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-002.html
   file: css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-002.html
@@ -17990,34 +18001,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1131"
-  category: WPT reftest
-  title: css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-003.html
-  file: css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-003.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-003-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-003-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-003-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-003-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1132"
+- id: "1134"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-004.html
   file: css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-004.html
@@ -18044,7 +18028,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1133"
+- id: "1135"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-check-grid-height-on-resize.html
   file: css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-check-grid-height-on-resize.html
@@ -18071,7 +18055,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-check-grid-height-on-resize-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-check-grid-height-on-resize-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1134"
+- id: "1136"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-explicit-block.html
   file: css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-explicit-block.html
@@ -18098,7 +18082,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-explicit-block-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-explicit-block-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1135"
+- id: "1137"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-overflow-left-side.html
   file: css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-overflow-left-side.html
@@ -18125,7 +18109,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-overflow-left-side-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-overflow-left-side-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1136"
+- id: "1138"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-overflow-right-side.html
   file: css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-overflow-right-side.html
@@ -18152,7 +18136,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-overflow-right-side-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-overflow-right-side-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1137"
+- id: "1139"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-span-row.html
   file: css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-span-row.html
@@ -18179,7 +18163,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-span-row-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/grid-lanes-track-sizing-span-row-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1138"
+- id: "1140"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/grid-lanes-within-flexbox-indefinite-001.html
   file: css/css-grid/grid-lanes/track-sizing/grid-lanes-within-flexbox-indefinite-001.html
@@ -18206,7 +18190,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1139"
+- id: "1141"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/row-track-sizing-001.html
   file: css/css-grid/grid-lanes/track-sizing/row-track-sizing-001.html
@@ -18238,7 +18222,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/row-track-sizing-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/row-track-sizing-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1140"
+- id: "1142"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/row-track-sizing-002.html
   file: css/css-grid/grid-lanes/track-sizing/row-track-sizing-002.html
@@ -18265,7 +18249,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/row-track-sizing-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/row-track-sizing-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1141"
+- id: "1143"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/row-track-sizing-003.html
   file: css/css-grid/grid-lanes/track-sizing/row-track-sizing-003.html
@@ -18292,7 +18276,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/row-track-sizing-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/row-track-sizing-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1142"
+- id: "1144"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/row-track-sizing-004.html
   file: css/css-grid/grid-lanes/track-sizing/row-track-sizing-004.html
@@ -18319,7 +18303,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/row-track-sizing-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/row-track-sizing-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1143"
+- id: "1145"
   category: WPT reftest
   title: css/css-grid/grid-lanes/track-sizing/row-track-sizing-005.html
   file: css/css-grid/grid-lanes/track-sizing/row-track-sizing-005.html
@@ -18346,7 +18330,7 @@
       referenceFile: css/css-grid/grid-lanes/track-sizing/row-track-sizing-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/row-track-sizing-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1156"
+- id: "1158"
   category: WPT reftest
   title: css/css-grid/grid-model/grid-container-ignores-first-letter-002.html
   file: css/css-grid/grid-model/grid-container-ignores-first-letter-002.html
@@ -18373,7 +18357,7 @@
       referenceFile: css/css-grid/grid-model/grid-container-ignores-first-letter-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-model/grid-container-ignores-first-letter-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1179"
+- id: "1181"
   category: WPT reftest
   title: css/css-grid/grid-model/grid-inline-float-001.html
   file: css/css-grid/grid-model/grid-inline-float-001.html
@@ -18400,7 +18384,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1195"
+- id: "1197"
   category: WPT reftest
   title: css/css-grid/grid-with-content-dynamic-display-001.html
   file: css/css-grid/grid-with-content-dynamic-display-001.html
@@ -18427,7 +18411,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1196"
+- id: "1198"
   category: WPT reftest
   title: css/css-grid/grid-with-content-dynamic-display-002.html
   file: css/css-grid/grid-with-content-dynamic-display-002.html
@@ -18454,7 +18438,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1198"
+- id: "1200"
   category: WPT reftest
   title: css/css-grid/grid-with-orthogonal-child-within-flexbox.html
   file: css/css-grid/grid-with-orthogonal-child-within-flexbox.html
@@ -18481,7 +18465,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1201"
+- id: "1203"
   category: WPT reftest
   title: css/css-grid/img-src-changes.html
   file: css/css-grid/img-src-changes.html
@@ -18508,7 +18492,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1204"
+- id: "1206"
   category: WPT reftest
   title: css/css-grid/implicit-grids/grid-support-grid-auto-columns-rows-003.html
   file: css/css-grid/implicit-grids/grid-support-grid-auto-columns-rows-003.html
@@ -18537,6 +18521,33 @@
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/reference/grid-support-grid-auto-columns-rows-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1222"
   category: WPT reftest
+  title: css/css-grid/layout-algorithm/grid-float-intrinsic-width-percent-height-aspect-ratio-001.html
+  file: css/css-grid/layout-algorithm/grid-float-intrinsic-width-percent-height-aspect-ratio-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-float-intrinsic-width-percent-height-aspect-ratio-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-float-intrinsic-width-percent-height-aspect-ratio-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "1229"
+  category: WPT reftest
   title: css/css-grid/layout-algorithm/grid-percent-cols-filled-shrinkwrap-001.html
   file: css/css-grid/layout-algorithm/grid-percent-cols-filled-shrinkwrap-001.html
   type: difference
@@ -18562,7 +18573,7 @@
       referenceFile: css/css-grid/layout-algorithm/references/grid-percent-cols-filled-shrinkwrap-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/references/grid-percent-cols-filled-shrinkwrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1223"
+- id: "1230"
   category: WPT reftest
   title: css/css-grid/layout-algorithm/grid-percent-cols-spanned-shrinkwrap-001.html
   file: css/css-grid/layout-algorithm/grid-percent-cols-spanned-shrinkwrap-001.html
@@ -18589,7 +18600,7 @@
       referenceFile: css/css-grid/layout-algorithm/references/grid-percent-cols-spanned-shrinkwrap-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/references/grid-percent-cols-spanned-shrinkwrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1224"
+- id: "1231"
   category: WPT reftest
   title: css/css-grid/layout-algorithm/grid-percent-rows-filled-shrinkwrap-001.html
   file: css/css-grid/layout-algorithm/grid-percent-rows-filled-shrinkwrap-001.html
@@ -18616,7 +18627,7 @@
       referenceFile: css/css-grid/layout-algorithm/references/grid-percent-rows-filled-shrinkwrap-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/references/grid-percent-rows-filled-shrinkwrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1225"
+- id: "1232"
   category: WPT reftest
   title: css/css-grid/layout-algorithm/grid-percent-rows-spanned-shrinkwrap-001.html
   file: css/css-grid/layout-algorithm/grid-percent-rows-spanned-shrinkwrap-001.html
@@ -18643,7 +18654,7 @@
       referenceFile: css/css-grid/layout-algorithm/references/grid-percent-rows-spanned-shrinkwrap-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/references/grid-percent-rows-spanned-shrinkwrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1244"
+- id: "1251"
   category: WPT reftest
   title: css/css-grid/placement/grid-placement-using-named-grid-lines-007.html
   file: css/css-grid/placement/grid-placement-using-named-grid-lines-007.html
@@ -18670,7 +18681,7 @@
       referenceFile: css/reference/ref-filled-green-300px-square.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-300px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1274"
+- id: "1281"
   category: WPT reftest
   title: css/css-grid/subgrid/grid-gap-007.html
   file: css/css-grid/subgrid/grid-gap-007.html
@@ -18697,7 +18708,7 @@
       referenceFile: css/css-grid/subgrid/grid-gap-007-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/grid-gap-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1284"
+- id: "1291"
   category: WPT reftest
   title: css/css-grid/subgrid/independent-formatting-context-fieldset.html
   file: css/css-grid/subgrid/independent-formatting-context-fieldset.html
@@ -18724,7 +18735,7 @@
       referenceFile: css/css-grid/subgrid/independent-formatting-context-fieldset-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/independent-formatting-context-fieldset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1305"
+- id: "1312"
   category: WPT reftest
   title: css/css-grid/subgrid/orthogonal-writing-mode-003.html
   file: css/css-grid/subgrid/orthogonal-writing-mode-003.html
@@ -18751,7 +18762,7 @@
       referenceFile: css/css-grid/subgrid/orthogonal-writing-mode-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/orthogonal-writing-mode-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1306"
+- id: "1313"
   category: WPT reftest
   title: css/css-grid/subgrid/orthogonal-writing-mode-004.html
   file: css/css-grid/subgrid/orthogonal-writing-mode-004.html
@@ -18778,7 +18789,7 @@
       referenceFile: css/css-grid/subgrid/orthogonal-writing-mode-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/orthogonal-writing-mode-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1333"
+- id: "1340"
   category: WPT reftest
   title: css/css-grid/subgrid/sticky-subgrid-item.html
   file: css/css-grid/subgrid/sticky-subgrid-item.html
@@ -18810,7 +18821,7 @@
       referenceFile: css/css-grid/subgrid/sticky-subgrid-item-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/sticky-subgrid-item-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1341"
+- id: "1348"
   category: WPT reftest
   title: css/css-grid/subgrid/subgrid-item-with-margin-left-auto.html
   file: css/css-grid/subgrid/subgrid-item-with-margin-left-auto.html
@@ -18837,7 +18848,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1344"
+- id: "1352"
   category: WPT reftest
   title: css/css-grid/subgrid/subgrid-stretch.html
   file: css/css-grid/subgrid/subgrid-stretch.html
@@ -18864,7 +18875,7 @@
       referenceFile: css/css-grid/subgrid/subgrid-stretch-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/subgrid-stretch-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1349"
+- id: "1357"
   category: WPT reftest
   title: css/css-grid/table-grid-item-dynamic-002.html
   file: css/css-grid/table-grid-item-dynamic-002.html
@@ -18891,7 +18902,7 @@
       referenceFile: css/css-grid/table-grid-item-dynamic-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/table-grid-item-dynamic-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1352"
+- id: "1360"
   category: WPT reftest
   title: css/css-grid/whitespace-reattach.html
   file: css/css-grid/whitespace-reattach.html
@@ -18918,23 +18929,88 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1330"
+- id: "0045"
   category: WPT reftest
-  title: css/css-grid/subgrid/standalone-axis-size-007.html
-  file: css/css-grid/subgrid/standalone-axis-size-007.html
+  title: css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-004.html
+  file: css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-004.html
   type: error
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/abspos/grid-abspos-staticpos-align-self-vertWM-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary
-  errorName: Error
-  errorMessage: >-
-    Viewer error: Failed to load
-    https://raw.githack.com/web-platform-tests/wpt/master/css/css-grid/subgrid/standalone-axis-size-007.html. This may
-    be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0391"
+  category: WPT reftest
+  title: css/css-grid/grid-items/grid-item-minmax-img-001.html
+  file: css/css-grid/grid-items/grid-item-minmax-img-001.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-items/grid-item-minmax-img-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-items/grid-item-minmax-img-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0600"
+  category: WPT reftest
+  title: css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-007a.html
+  file: css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-007a.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-007a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/baseline/column-grid-lanes-container-baseline-007a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0785"
+  category: WPT reftest
+  title: css/css-grid/grid-lanes/item-placement/row-auto-placement-002.html
+  file: css/css-grid/grid-lanes/item-placement/row-auto-placement-002.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/row-auto-placement-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/row-auto-placement-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "1133"
+  category: WPT reftest
+  title: css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-003.html
+  file: css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-003.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/track-sizing/grid-lanes-percentage-rows-indefinite-height-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 559
-- Entries with differences: 69 (pending: 69, triaged: 0)
-- Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 3
+- Entries with differences: 70 (pending: 70, triaged: 0)
+- Entries with errors: 4 (pending: 4, triaged: 0)
+- Timeout entries: 4
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":487,"known-fail":69,"error":3}
+- Outcome summary: {"pass":486,"known-fail":69,"regression":1,"error":3}
 
 ## Differences
 
@@ -113,6 +113,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000395962140294634, diffPixels=332
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0355] [WPT reftest] css/css-sizing/div-max-content-orthogonal-auto-margin-right.tentative.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/div-max-content-orthogonal-auto-margin-right.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/div-max-content-orthogonal-auto-margin-right.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0371] [WPT reftest] css/css-sizing/dynamic-change-inline-size-003.html
   triage: pending
@@ -908,6 +914,15 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
+
+- [0355] [WPT reftest] css/css-sizing/div-max-content-orthogonal-auto-margin-right.tentative.html
+  triage: pending
+  side: canary-reference
+  reference: css/css-sizing/div-orthogonal-auto-margin-right-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/div-max-content-orthogonal-auto-margin-right.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/div-orthogonal-auto-margin-right-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0503] [WPT reftest] css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-no-match-element.sub.html
   triage: pending

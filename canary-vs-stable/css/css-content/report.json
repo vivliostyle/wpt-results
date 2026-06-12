@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T08:37:58.270Z",
+  "generatedAt": "2026-06-12T18:24:19.693Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -40,8 +40,8 @@
   "summary": {
     "totalEntries": 63,
     "entriesWithDifferences": 37,
-    "entriesWithErrors": 0,
-    "timeoutEntries": 0,
+    "entriesWithErrors": 1,
+    "timeoutEntries": 1,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
@@ -60,10 +60,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 0,
+        "pending": 1,
         "triaged": 0
       },
-      "pendingEntries": 37,
+      "pendingEntries": 38,
       "triagedEntries": 0
     }
   },
@@ -2584,52 +2584,28 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-content/reference/quotes-009-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 396,
-                "diffRatio": 0.00047229219143576825,
-                "exactDiffPixels": 1313,
-                "exactDiffRatio": 0.0015659587054423327,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0029-WPT_reftest-css-css-content-quotes-009.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      }
+      },
+      "errors": [
+        {
+          "side": "stable-reference",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "referenceFile": "css/css-content/reference/quotes-009-ref.html",
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
+      ]
     },
     {
       "id": "0030",

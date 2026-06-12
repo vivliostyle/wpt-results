@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T10:49:01.036Z",
+  "generatedAt": "2026-06-12T20:49:56.267Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -40,35 +40,38 @@
   "summary": {
     "totalEntries": 307,
     "entriesWithDifferences": 230,
-    "entriesWithErrors": 1,
-    "timeoutEntries": 1,
+    "entriesWithErrors": 3,
+    "timeoutEntries": 3,
     "pageCountMismatches": 0,
-    "screenshotMismatches": 2,
+    "screenshotMismatches": 3,
     "outcomes": {
       "changeTypes": {
-        "pass": 75,
-        "known-fail": 228,
-        "error": 1,
-        "changed-fail": 2,
+        "pass": 74,
+        "known-fail": 226,
+        "error": 2,
+        "changed-fail": 3,
+        "improvement": 1,
         "unchanged": 1
       },
       "statusPairs": {
-        "PASS->PASS": 75,
-        "FAIL->FAIL": 230,
+        "PASS->PASS": 74,
+        "FAIL->FAIL": 229,
         "ERROR->ERROR": 1,
+        "ERROR->PASS": 1,
+        "FAIL->ERROR": 1,
         "MANUAL->MANUAL": 1
       }
     },
     "triage": {
       "differences": {
-        "pending": 230,
+        "pending": 229,
         "triaged": 0
       },
       "errors": {
-        "pending": 1,
+        "pending": 3,
         "triaged": 0
       },
-      "pendingEntries": 231,
+      "pendingEntries": 232,
       "triagedEntries": 0
     }
   },
@@ -6561,10 +6564,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 461884,
-                "diffRatio": 0.5508692084573696,
-                "exactDiffPixels": 838464,
-                "exactDiffRatio": 1,
+                "diffPixels": 462189,
+                "diffRatio": 0.5512329688573392,
+                "exactDiffPixels": 462739,
+                "exactDiffRatio": 0.5518889302343333,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -12798,10 +12801,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 514284,
-                "diffRatio": 0.6133644378291734,
-                "exactDiffPixels": 514284,
-                "exactDiffRatio": 0.6133644378291734,
+                "diffPixels": 496784,
+                "diffRatio": 0.5924929394702695,
+                "exactDiffPixels": 496784,
+                "exactDiffRatio": 0.5924929394702695,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
@@ -12837,12 +12840,12 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 514284,
-                "diffRatio": 0.6133644378291734,
-                "exactDiffPixels": 514284,
-                "exactDiffRatio": 0.6133644378291734,
+                "diffPixels": 496784,
+                "diffRatio": 0.5924929394702695,
+                "exactDiffPixels": 536784,
+                "exactDiffRatio": 0.6401992214334784,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
+                "maxChannelDifference": 254,
                 "dimensionMismatch": false,
                 "diffImage": "baseline-reference-diff/0138-WPT_reftest-css-css-view-transitions-new-content-ancestor-clipped-2.html-r01-p0001.png"
               }
@@ -13329,52 +13332,28 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/new-content-captures-positioned-spans-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-view-transitions/new-content-captures-positioned-spans-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/new-content-captures-positioned-spans-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 538031,
-                "diffRatio": 0.6416864647736814,
-                "exactDiffPixels": 538453,
-                "exactDiffRatio": 0.6421897660483933,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 86,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0143-WPT_reftest-css-css-view-transitions-new-content-captures-positioned-spans.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/new-content-captures-positioned-spans-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      }
+      },
+      "errors": [
+        {
+          "side": "stable-reference",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "referenceFile": "css/css-view-transitions/new-content-captures-positioned-spans-ref.html",
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
+      ]
     },
     {
       "id": "0144",
@@ -13692,8 +13671,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 526884,
                 "diffRatio": 0.6283919166475842,
-                "exactDiffPixels": 536884,
-                "exactDiffRatio": 0.6403184871383863,
+                "exactDiffPixels": 526884,
+                "exactDiffRatio": 0.6283919166475842,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 63,
                 "dimensionMismatch": false,
@@ -13731,8 +13710,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 526884,
                 "diffRatio": 0.6283919166475842,
-                "exactDiffPixels": 526884,
-                "exactDiffRatio": 0.6283919166475842,
+                "exactDiffPixels": 536884,
+                "exactDiffRatio": 0.6403184871383863,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 63,
                 "dimensionMismatch": false,
@@ -14166,10 +14145,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 527098,
-                "diffRatio": 0.6286471452560873,
-                "exactDiffPixels": 527200,
-                "exactDiffRatio": 0.6287687962750935,
+                "diffPixels": 526884,
+                "diffRatio": 0.6283919166475842,
+                "exactDiffPixels": 830964,
+                "exactDiffRatio": 0.9910550721318984,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 204,
                 "dimensionMismatch": false,
@@ -14205,10 +14184,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 527098,
-                "diffRatio": 0.6286471452560873,
-                "exactDiffPixels": 527200,
-                "exactDiffRatio": 0.6287687962750935,
+                "diffPixels": 526085,
+                "diffRatio": 0.6274389836653691,
+                "exactDiffPixels": 828464,
+                "exactDiffRatio": 0.9880734295091977,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 204,
                 "dimensionMismatch": false,
@@ -14680,10 +14659,10 @@
                 "actualHeight": 1056,
                 "diffPixels": 537117,
                 "diffRatio": 0.6405963762308221,
-                "exactDiffPixels": 537131,
-                "exactDiffRatio": 0.6406130734295092,
+                "exactDiffPixels": 838464,
+                "exactDiffRatio": 1,
                 "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
+                "maxChannelDifference": 254,
                 "dimensionMismatch": false,
                 "diffImage": "actual-reference-diff/0154-WPT_reftest-css-css-view-transitions-new-content-inline-with-offset-from-containing-block-clipped.html-r01-p0001.png"
               }
@@ -15016,10 +14995,10 @@
             "height": 1056,
             "actualWidth": 794,
             "actualHeight": 1056,
-            "diffPixels": 414,
-            "diffRatio": 0.0004937600183192122,
-            "exactDiffPixels": 1068,
-            "exactDiffRatio": 0.001273757728417678,
+            "diffPixels": 561,
+            "diffRatio": 0.0006690806045340051,
+            "exactDiffPixels": 1356,
+            "exactDiffRatio": 0.0016172429585527821,
             "exceededDiffPixels": 0,
             "maxChannelDifference": 42,
             "dimensionMismatch": false,
@@ -15090,8 +15069,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 783853,
-                "diffRatio": 0.9348678058926799,
+                "diffPixels": 783731,
+                "diffRatio": 0.9347223017326921,
                 "exactDiffPixels": 786257,
                 "exactDiffRatio": 0.9377349534386688,
                 "exceededDiffPixels": 0,
@@ -18453,8 +18432,8 @@
             "actualHeight": 1056,
             "diffPixels": 214,
             "diffRatio": 0.0002552286085031677,
-            "exactDiffPixels": 834638,
-            "exactDiffRatio": 0.9954368941302191,
+            "exactDiffPixels": 316,
+            "exactDiffRatio": 0.0003768796275093504,
             "exceededDiffPixels": 0,
             "maxChannelDifference": 82,
             "dimensionMismatch": false,
@@ -18488,8 +18467,8 @@
                 "actualHeight": 1056,
                 "diffPixels": 526884,
                 "diffRatio": 0.6283919166475842,
-                "exactDiffPixels": 835964,
-                "exactDiffRatio": 0.9970183573772995,
+                "exactDiffPixels": 526884,
+                "exactDiffRatio": 0.6283919166475842,
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 204,
                 "dimensionMismatch": false,
@@ -19051,8 +19030,8 @@
       "sourceUrl": "https://wpt.live/css/css-view-transitions/old-content-is-inline.html",
       "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
-      "viewerChanged": false,
+      "changeType": "changed-fail",
+      "viewerChanged": true,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/old-content-is-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/old-content-is-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [
@@ -19064,7 +19043,7 @@
         }
       ],
       "difference": {
-        "classification": "known-fail",
+        "classification": "changed-fail",
         "triageRequired": true,
         "pageCountMismatch": false,
         "actual": {
@@ -19073,7 +19052,23 @@
         "baseline": {
           "totalPages": 1
         },
-        "pages": [],
+        "pages": [
+          {
+            "page": 1,
+            "width": 794,
+            "height": 1056,
+            "actualWidth": 794,
+            "actualHeight": 1056,
+            "diffPixels": 666,
+            "diffRatio": 0.0007943095946874284,
+            "exactDiffPixels": 1477,
+            "exactDiffRatio": 0.0017615544614914891,
+            "exceededDiffPixels": 0,
+            "maxChannelDifference": 43,
+            "dimensionMismatch": false,
+            "diffImage": "diff/0193-WPT_reftest-css-css-view-transitions-old-content-is-inline.html-p0001.png"
+          }
+        ],
         "comparisons": [
           {
             "referenceIndex": 0,
@@ -19099,8 +19094,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 783522,
-                "diffRatio": 0.9344730364094344,
+                "diffPixels": 783357,
+                "diffRatio": 0.9342762479963361,
                 "exactDiffPixels": 785917,
                 "exactDiffRatio": 0.9373294500419815,
                 "exceededDiffPixels": 0,
@@ -19138,8 +19133,8 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 783513,
-                "diffRatio": 0.9344623024959927,
+                "diffPixels": 783444,
+                "diffRatio": 0.9343800091596062,
                 "exactDiffPixels": 785917,
                 "exactDiffRatio": 0.9373294500419815,
                 "exceededDiffPixels": 0,
@@ -23454,8 +23449,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-view-transitions/rotated-cat-off-top-edge.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "ERROR",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/rotated-cat-off-top-edge.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/rotated-cat-off-top-edge.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -23466,7 +23461,24 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/rotated-cat-off-top-edge-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/rotated-cat-off-top-edge-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": null
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0232",
@@ -25741,9 +25753,9 @@
         "css/css-view-transitions/scoped/shadow-dom.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-view-transitions/scoped/shadow-dom.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "ERROR",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/scoped/shadow-dom.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/shadow-dom.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -25755,102 +25767,20 @@
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/shadow-dom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "difference": {
-        "classification": "known-fail",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-view-transitions/scoped/shadow-dom-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/scoped/shadow-dom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 7500,
-                "diffRatio": 0.008944927868101672,
-                "exactDiffPixels": 7500,
-                "exactDiffRatio": 0.008944927868101672,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 211,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0259-WPT_reftest-css-css-view-transitions-scoped-shadow-dom.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/scoped/shadow-dom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
           },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-view-transitions/scoped/shadow-dom-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/shadow-dom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 7500,
-                "diffRatio": 0.008944927868101672,
-                "exactDiffPixels": 7500,
-                "exactDiffRatio": 0.008944927868101672,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 211,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0259-WPT_reftest-css-css-view-transitions-scoped-shadow-dom.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/shadow-dom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "triage": {
+            "status": "pending",
+            "decision": ""
           }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
         }
-      }
+      ]
     },
     {
       "id": "0260",
@@ -28565,10 +28495,10 @@
                 "height": 1056,
                 "actualWidth": 794,
                 "actualHeight": 1056,
-                "diffPixels": 536134,
-                "diffRatio": 0.6394239943515763,
-                "exactDiffPixels": 536664,
-                "exactDiffRatio": 0.6400561025875887,
+                "diffPixels": 536139,
+                "diffRatio": 0.6394299576368216,
+                "exactDiffPixels": 838464,
+                "exactDiffRatio": 1,
                 "exceededDiffPixels": 536664,
                 "maxChannelDifference": 63,
                 "dimensionMismatch": false,

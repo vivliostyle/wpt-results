@@ -431,8 +431,6 @@
       referenceFile: css/css-page/fixedpos-010-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/fixedpos-010-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  pageCountActual: 4
-  pageCountBaseline: 3
 - id: "0022"
   category: WPT print-reftest
   title: css/css-page/fixedpos-011-print.html
@@ -2080,19 +2078,6 @@
         - 5
         - 6
         - 7
-    - referenceFile: css/css-page/page-box-004-print-ref.html
-      actualPages:
-        - 1
-        - 2
-        - 3
-        - 4
-      baselinePages:
-        - 1
-        - 2
-        - 3
-        - 4
-        - 5
-        - 6
   referenceViewerUrls:
     - side: canary
       referenceFile: css/css-page/page-box-004-print-ref.html
@@ -2102,8 +2087,6 @@
       referenceFile: css/css-page/page-box-004-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-box-004-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 4
 - id: "0114"
   category: WPT print-reftest
   title: css/css-page/page-box-005-print.html
@@ -2997,23 +2980,6 @@
     - css/css-page/page-size-007-print-ref.html#4
     - css/css-page/page-size-007-print-ref.html#5
     - css/css-page/page-size-007-print-ref.html#6
-  pageSelections:
-    - referenceFile: css/css-page/page-size-007-print-ref.html
-      actualPages:
-        - 1
-        - 2
-        - 3
-        - 4
-        - 5
-        - 6
-      baselinePages:
-        - 1
-        - 2
-        - 3
-        - 4
-        - 5
-        - 6
-        - 7
   referenceViewerUrls:
     - side: canary
       referenceFile: css/css-page/page-size-007-print-ref.html
@@ -3046,23 +3012,6 @@
     - css/css-page/page-size-008-print-ref.html#4
     - css/css-page/page-size-008-print-ref.html#5
     - css/css-page/page-size-008-print-ref.html#6
-  pageSelections:
-    - referenceFile: css/css-page/page-size-008-print-ref.html
-      actualPages:
-        - 1
-        - 2
-        - 3
-        - 4
-        - 5
-        - 6
-      baselinePages:
-        - 1
-        - 2
-        - 3
-        - 4
-        - 5
-        - 6
-        - 7
   referenceViewerUrls:
     - side: canary
       referenceFile: css/css-page/page-size-008-print-ref.html

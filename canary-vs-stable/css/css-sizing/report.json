@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T10:03:28.347Z",
+  "generatedAt": "2026-06-12T19:59:45.522Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,33 +39,35 @@
   },
   "summary": {
     "totalEntries": 559,
-    "entriesWithDifferences": 69,
-    "entriesWithErrors": 3,
-    "timeoutEntries": 3,
+    "entriesWithDifferences": 70,
+    "entriesWithErrors": 4,
+    "timeoutEntries": 4,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 487,
+        "pass": 486,
         "known-fail": 69,
+        "regression": 1,
         "error": 3
       },
       "statusPairs": {
-        "PASS->PASS": 487,
+        "PASS->PASS": 486,
         "FAIL->FAIL": 69,
+        "PASS->FAIL": 1,
         "ERROR->ERROR": 3
       }
     },
     "triage": {
       "differences": {
-        "pending": 69,
+        "pending": 70,
         "triaged": 0
       },
       "errors": {
-        "pending": 3,
+        "pending": 4,
         "triaged": 0
       },
-      "pendingEntries": 72,
+      "pendingEntries": 74,
       "triagedEntries": 0
     }
   },
@@ -8988,9 +8990,9 @@
         "css/css-sizing/div-max-content-orthogonal-auto-margin-right.tentative.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-sizing/div-max-content-orthogonal-auto-margin-right.tentative.html",
-      "actualStatus": "PASS",
+      "actualStatus": "FAIL",
       "baselineStatus": "PASS",
-      "changeType": "pass",
+      "changeType": "regression",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/div-max-content-orthogonal-auto-margin-right.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/div-max-content-orthogonal-auto-margin-right.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -9000,6 +9002,38 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/div-orthogonal-auto-margin-right-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/div-orthogonal-auto-margin-right-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "regression",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      },
+      "errors": [
+        {
+          "side": "canary-reference",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "referenceFile": "css/css-sizing/div-orthogonal-auto-margin-right-ref.html",
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
         }
       ]
     },

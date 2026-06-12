@@ -3484,6 +3484,20 @@
       referenceFile: css/css-contain/reference/quote-scoping-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/quote-scoping-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0423"
+  category: WPT reftest
+  title: css/css-contain/quote-scoping-004.html
+  file: css/css-contain/quote-scoping-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/quote-scoping-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/quote-scoping-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0425"
   category: WPT reftest
   title: css/css-contain/quote-scoping-invalidation-001.html
@@ -3600,12 +3614,12 @@
   sideErrors:
     - side: canary
       errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
-    - side: stable
-      errorName: TimeoutError
       errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
       timeout: true
+    - side: stable
+      errorName: Error
+      errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
+      timeout: false
 - id: "0354"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-076.html
@@ -3621,8 +3635,15 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-076.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  errorName: TimeoutError
-  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+  sideErrors:
+    - side: canary
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true
+    - side: stable
+      errorName: Error
+      errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
+      timeout: false
 - id: "0358"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-083.html
@@ -3638,8 +3659,15 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-083.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  errorName: TimeoutError
-  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+  sideErrors:
+    - side: canary
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true
+    - side: stable
+      errorName: Error
+      errorMessage: "page.addStyleTag: Execution context was destroyed, most likely because of a navigation"
+      timeout: false
 - id: "0359"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-084.html
@@ -3655,8 +3683,19 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-084.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  errorName: TimeoutError
-  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+  sideErrors:
+    - side: canary
+      errorName: Error
+      errorMessage: |-
+        page.evaluate: Error: Could not detect total pages (no spread container found).
+            at eval (eval at evaluate (:302:30), <anonymous>:10:11)
+            at UtilityScript.evaluate (<anonymous>:304:16)
+            at UtilityScript.<anonymous> (<anonymous>:1:44)
+      timeout: false
+    - side: stable
+      errorName: TimeoutError
+      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
+      timeout: true
 - id: "0405"
   category: WPT reftest
   title: css/css-contain/content-visibility/content-visibility-with-top-layer-004.html

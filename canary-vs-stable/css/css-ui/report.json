@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T10:41:56.346Z",
+  "generatedAt": "2026-06-12T20:41:55.425Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -38,37 +38,43 @@
     "timeoutMs": 10000
   },
   "summary": {
-    "totalEntries": 1225,
-    "entriesWithDifferences": 595,
-    "entriesWithErrors": 1,
-    "timeoutEntries": 1,
+    "totalEntries": 1226,
+    "entriesWithDifferences": 597,
+    "entriesWithErrors": 8,
+    "timeoutEntries": 8,
     "pageCountMismatches": 0,
     "screenshotMismatches": 1,
     "outcomes": {
       "changeTypes": {
-        "pass": 397,
+        "pass": 395,
         "known-fail": 594,
-        "error": 1,
-        "unchanged": 232,
+        "error": 4,
+        "regression": 1,
+        "improvement": 1,
+        "unchanged": 230,
         "changed": 1
       },
       "statusPairs": {
-        "PASS->PASS": 397,
-        "FAIL->FAIL": 594,
-        "FAIL->ERROR": 1,
-        "MANUAL->MANUAL": 233
+        "PASS->PASS": 395,
+        "FAIL->FAIL": 593,
+        "FAIL->ERROR": 2,
+        "PASS->FAIL": 1,
+        "ERROR->PASS": 1,
+        "ERROR->FAIL": 1,
+        "MANUAL->MANUAL": 231,
+        "MANUAL->ERROR": 2
       }
     },
     "triage": {
       "differences": {
-        "pending": 595,
+        "pending": 596,
         "triaged": 0
       },
       "errors": {
-        "pending": 1,
+        "pending": 8,
         "triaged": 0
       },
-      "pendingEntries": 596,
+      "pendingEntries": 604,
       "triagedEntries": 0
     }
   },
@@ -3294,45 +3300,6 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-ui/caret-shape-block-fallback-001-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-fallback-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 29900,
-                "diffRatio": 0.03566044576749866,
-                "exactDiffPixels": 30202,
-                "exactDiffRatio": 0.03602062819632089,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0075-WPT_reftest-css-css-ui-caret-shape-block-fallback-001.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-fallback-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-ui/caret-shape-block-fallback-001-ref.html",
             "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-fallback-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
@@ -3374,7 +3341,22 @@
           "status": "pending",
           "decision": ""
         }
-      }
+      },
+      "errors": [
+        {
+          "side": "canary-reference",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "referenceFile": "css/css-ui/caret-shape-block-fallback-001-ref.html",
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
+      ]
     },
     {
       "id": "0076",
@@ -9459,9 +9441,9 @@
         "css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-width-001.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-width-001.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "ERROR",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -9473,102 +9455,20 @@
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "difference": {
-        "classification": "known-fail",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-ui/compute-kind-widget-fallback-button-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 283,
-                "diffRatio": 0.00033752194488970307,
-                "exactDiffPixels": 442,
-                "exactDiffRatio": 0.0005271544156934586,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0133-WPT_reftest-css-css-ui-compute-kind-widget-generated-kind-of-widget-fallback-button-border-top-width-001.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
           },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-ui/compute-kind-widget-fallback-button-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 283,
-                "diffRatio": 0.00033752194488970307,
-                "exactDiffPixels": 442,
-                "exactDiffRatio": 0.0005271544156934586,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0133-WPT_reftest-css-css-ui-compute-kind-widget-generated-kind-of-widget-fallback-button-border-top-width-001.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "triage": {
+            "status": "pending",
+            "decision": ""
           }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
         }
-      }
+      ]
     },
     {
       "id": "0134",
@@ -43256,9 +43156,9 @@
         "css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-link-background-color-001.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-link-background-color-001.html",
-      "actualStatus": "PASS",
+      "actualStatus": "FAIL",
       "baselineStatus": "PASS",
-      "changeType": "pass",
+      "changeType": "regression",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-link-background-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-link-background-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -43268,6 +43168,38 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-link-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-link-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "regression",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      },
+      "errors": [
+        {
+          "side": "canary-reference",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "referenceFile": "css/css-ui/compute-kind-widget-fallback-link-ref.html",
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
         }
       ]
     },
@@ -56604,8 +56536,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-range-border-top-color-001.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "ERROR",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-range-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-range-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -56616,7 +56548,24 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-range-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-range-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": null
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0702",
@@ -58760,9 +58709,9 @@
         "css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-slice-001.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-slice-001.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "ERROR",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -58774,102 +58723,20 @@
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "difference": {
-        "classification": "known-fail",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 1705,
-                "diffRatio": 0.0020334802686817802,
-                "exactDiffPixels": 2118,
-                "exactDiffRatio": 0.0025260476299519123,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0728-WPT_reftest-css-css-ui-compute-kind-widget-generated-kind-of-widget-fallback-select-dropdown-box-border-image-slice-001.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
           },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 1705,
-                "diffRatio": 0.0020334802686817802,
-                "exactDiffPixels": 2118,
-                "exactDiffRatio": 0.0025260476299519123,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0728-WPT_reftest-css-css-ui-compute-kind-widget-generated-kind-of-widget-fallback-select-dropdown-box-border-image-slice-001.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "triage": {
+            "status": "pending",
+            "decision": ""
           }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
         }
-      }
+      ]
     },
     {
       "id": "0729",
@@ -70579,9 +70446,9 @@
         "css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-width-001.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-width-001.html",
-      "actualStatus": "ERROR",
+      "actualStatus": "FAIL",
       "baselineStatus": "FAIL",
-      "changeType": "error",
+      "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -70593,20 +70460,102 @@
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "errors": [
-        {
-          "side": "canary",
-          "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1183,
+                "diffRatio": 0.0014109132890619037,
+                "exactDiffPixels": 1588,
+                "exactDiffRatio": 0.001893939393939394,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0837-WPT_reftest-css-css-ui-compute-kind-widget-generated-kind-of-widget-fallback-select-menulist-button-border-top-width-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           },
-          "triage": {
-            "status": "pending",
-            "decision": ""
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1183,
+                "diffRatio": 0.0014109132890619037,
+                "exactDiffPixels": 1588,
+                "exactDiffRatio": 0.001893939393939394,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0837-WPT_reftest-css-css-ui-compute-kind-widget-generated-kind-of-widget-fallback-select-menulist-button-border-top-width-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
         }
-      ]
+      }
     },
     {
       "id": "0838",
@@ -71112,7 +71061,7 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-width-001.html",
       "actualStatus": "FAIL",
-      "baselineStatus": "FAIL",
+      "baselineStatus": "ERROR",
       "changeType": "known-fail",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -71133,7 +71082,7 @@
           "totalPages": 1
         },
         "baseline": {
-          "totalPages": 1
+          "totalPages": null
         },
         "pages": [],
         "comparisons": [
@@ -71175,52 +71124,27 @@
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-ui/compute-kind-widget-fallback-textarea-ref.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 1204,
-                "diffRatio": 0.0014359590870925885,
-                "exactDiffPixels": 1459,
-                "exactDiffRatio": 0.0017400866346080452,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0847-WPT_reftest-css-css-ui-compute-kind-widget-generated-kind-of-widget-fallback-textarea-border-block-end-width-001.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      }
+      },
+      "errors": [
+        {
+          "side": "stable",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
+      ]
     },
     {
       "id": "0848",
@@ -75305,54 +75229,6 @@
           {
             "referenceIndex": 0,
             "referenceFile": "css/css-ui/compute-kind-widget-no-fallback-ref.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-no-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": {
-              "maxDifference": [
-                0,
-                65
-              ],
-              "totalPixels": [
-                0,
-                100
-              ]
-            },
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 7776,
-                "diffRatio": 0.009274101213647813,
-                "exactDiffPixels": 17439,
-                "exactDiffRatio": 0.020798746278910006,
-                "exceededDiffPixels": 9426,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0882-WPT_reftest-css-css-ui-compute-kind-widget-no-fallback-props-001.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-no-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
-          },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/css-ui/compute-kind-widget-no-fallback-ref.html",
             "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-no-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
             "referenceTotalPages": 1,
             "testTotalPages": 1,
@@ -75403,7 +75279,22 @@
           "status": "pending",
           "decision": ""
         }
-      }
+      },
+      "errors": [
+        {
+          "side": "canary-reference",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "referenceFile": "css/css-ui/compute-kind-widget-no-fallback-ref.html",
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
+      ]
     },
     {
       "id": "0883",
@@ -79466,6 +79357,125 @@
     {
       "id": "0973",
       "category": "WPT reftest",
+      "title": "css/css-ui/text-overflow-string-008.html",
+      "file": [
+        "css/css-ui/text-overflow-string-008.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ui/text-overflow-string-008.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-ui/reference/text-overflow-string-008-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ui/reference/text-overflow-string-008-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 880,
+                "diffRatio": 0.0010495382031905961,
+                "exactDiffPixels": 1351,
+                "exactDiffRatio": 0.0016112796733073812,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0973-WPT_reftest-css-css-ui-text-overflow-string-008.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-ui/reference/text-overflow-string-008-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 880,
+                "diffRatio": 0.0010495382031905961,
+                "exactDiffPixels": 1351,
+                "exactDiffRatio": 0.0016112796733073812,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0973-WPT_reftest-css-css-ui-text-overflow-string-008.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0974",
+      "category": "WPT reftest",
       "title": "css/css-ui/text-overflow.html",
       "file": [
         "css/css-ui/text-overflow.html"
@@ -79487,7 +79497,7 @@
       ]
     },
     {
-      "id": "0974",
+      "id": "0975",
       "category": "WPT reftest",
       "title": "css/css-ui/translucent-outline.html",
       "file": [
@@ -79510,7 +79520,7 @@
       ]
     },
     {
-      "id": "0975",
+      "id": "0976",
       "category": "WPT reftest",
       "title": "css/css-ui/transparent-accent-color-001.html",
       "file": [
@@ -79533,7 +79543,7 @@
       ]
     },
     {
-      "id": "0976",
+      "id": "0977",
       "category": "WPT reftest",
       "title": "css/css-ui/transparent-accent-color-002.html",
       "file": [
@@ -79556,7 +79566,7 @@
       ]
     },
     {
-      "id": "0977",
+      "id": "0978",
       "category": "WPT reftest",
       "title": "css/css-ui/webkit-appearance-auto-001.html",
       "file": [
@@ -79579,7 +79589,7 @@
       ]
     },
     {
-      "id": "0978",
+      "id": "0979",
       "category": "WPT reftest",
       "title": "css/css-ui/webkit-appearance-auto-input-non-widget-001.html",
       "file": [
@@ -79602,7 +79612,7 @@
       ]
     },
     {
-      "id": "0979",
+      "id": "0980",
       "category": "WPT reftest",
       "title": "css/css-ui/webkit-appearance-auto-non-html-namespace-001.html",
       "file": [
@@ -79625,7 +79635,7 @@
       ]
     },
     {
-      "id": "0980",
+      "id": "0981",
       "category": "WPT reftest",
       "title": "css/css-ui/webkit-appearance-button-001.html",
       "file": [
@@ -79648,7 +79658,7 @@
       ]
     },
     {
-      "id": "0981",
+      "id": "0982",
       "category": "WPT reftest",
       "title": "css/css-ui/webkit-appearance-checkbox-001.html",
       "file": [
@@ -79671,7 +79681,7 @@
       ]
     },
     {
-      "id": "0982",
+      "id": "0983",
       "category": "WPT reftest",
       "title": "css/css-ui/webkit-appearance-listbox-001.html",
       "file": [
@@ -79694,7 +79704,7 @@
       ]
     },
     {
-      "id": "0983",
+      "id": "0984",
       "category": "WPT reftest",
       "title": "css/css-ui/webkit-appearance-menulist-001.html",
       "file": [
@@ -79717,7 +79727,7 @@
       ]
     },
     {
-      "id": "0984",
+      "id": "0985",
       "category": "WPT reftest",
       "title": "css/css-ui/webkit-appearance-menulist-button-001.html",
       "file": [
@@ -79740,7 +79750,7 @@
       ]
     },
     {
-      "id": "0985",
+      "id": "0986",
       "category": "WPT reftest",
       "title": "css/css-ui/webkit-appearance-menulist-button-002.tentative.html",
       "file": [
@@ -79763,7 +79773,7 @@
       ]
     },
     {
-      "id": "0986",
+      "id": "0987",
       "category": "WPT reftest",
       "title": "css/css-ui/webkit-appearance-meter-001.html",
       "file": [
@@ -79786,7 +79796,7 @@
       ]
     },
     {
-      "id": "0987",
+      "id": "0988",
       "category": "WPT reftest",
       "title": "css/css-ui/webkit-appearance-progress-bar-001.html",
       "file": [
@@ -79809,7 +79819,7 @@
       ]
     },
     {
-      "id": "0988",
+      "id": "0989",
       "category": "WPT reftest",
       "title": "css/css-ui/webkit-appearance-progress-bar-002.html",
       "file": [
@@ -79832,7 +79842,7 @@
       ]
     },
     {
-      "id": "0989",
+      "id": "0990",
       "category": "WPT reftest",
       "title": "css/css-ui/webkit-appearance-radio-001.html",
       "file": [
@@ -79855,7 +79865,7 @@
       ]
     },
     {
-      "id": "0990",
+      "id": "0991",
       "category": "WPT reftest",
       "title": "css/css-ui/webkit-appearance-searchfield-001.html",
       "file": [
@@ -79878,7 +79888,7 @@
       ]
     },
     {
-      "id": "0991",
+      "id": "0992",
       "category": "WPT reftest",
       "title": "css/css-ui/webkit-appearance-textarea-001.html",
       "file": [
@@ -79901,7 +79911,7 @@
       ]
     },
     {
-      "id": "0992",
+      "id": "0993",
       "category": "WPT reftest",
       "title": "css/css-ui/webkit-appearance-textfield-001.html",
       "file": [
@@ -79924,7 +79934,7 @@
       ]
     },
     {
-      "id": "0993",
+      "id": "0994",
       "category": "WPT manual",
       "title": "css/css-ui/canvas-cursor-001.html",
       "file": [
@@ -79940,7 +79950,7 @@
       "references": []
     },
     {
-      "id": "0994",
+      "id": "0995",
       "category": "WPT manual",
       "title": "css/css-ui/canvas-cursor-002.html",
       "file": [
@@ -79956,7 +79966,7 @@
       "references": []
     },
     {
-      "id": "0995",
+      "id": "0996",
       "category": "WPT manual",
       "title": "css/css-ui/caret-color-001.html",
       "file": [
@@ -79972,7 +79982,7 @@
       "references": []
     },
     {
-      "id": "0996",
+      "id": "0997",
       "category": "WPT manual",
       "title": "css/css-ui/caret-color-002.html",
       "file": [
@@ -79988,7 +79998,7 @@
       "references": []
     },
     {
-      "id": "0997",
+      "id": "0998",
       "category": "WPT manual",
       "title": "css/css-ui/caret-color-003.html",
       "file": [
@@ -80004,7 +80014,7 @@
       "references": []
     },
     {
-      "id": "0998",
+      "id": "0999",
       "category": "WPT manual",
       "title": "css/css-ui/caret-color-004.html",
       "file": [
@@ -80020,7 +80030,7 @@
       "references": []
     },
     {
-      "id": "0999",
+      "id": "1000",
       "category": "WPT manual",
       "title": "css/css-ui/caret-color-005.html",
       "file": [
@@ -80036,7 +80046,7 @@
       "references": []
     },
     {
-      "id": "1000",
+      "id": "1001",
       "category": "WPT manual",
       "title": "css/css-ui/caret-color-006.html",
       "file": [
@@ -80052,7 +80062,7 @@
       "references": []
     },
     {
-      "id": "1001",
+      "id": "1002",
       "category": "WPT manual",
       "title": "css/css-ui/caret-color-007.html",
       "file": [
@@ -80068,7 +80078,7 @@
       "references": []
     },
     {
-      "id": "1002",
+      "id": "1003",
       "category": "WPT manual",
       "title": "css/css-ui/caret-color-008.html",
       "file": [
@@ -80084,7 +80094,7 @@
       "references": []
     },
     {
-      "id": "1003",
+      "id": "1004",
       "category": "WPT manual",
       "title": "css/css-ui/caret-color-010.html",
       "file": [
@@ -80100,7 +80110,7 @@
       "references": []
     },
     {
-      "id": "1004",
+      "id": "1005",
       "category": "WPT manual",
       "title": "css/css-ui/caret-color-011.html",
       "file": [
@@ -80116,7 +80126,7 @@
       "references": []
     },
     {
-      "id": "1005",
+      "id": "1006",
       "category": "WPT manual",
       "title": "css/css-ui/caret-color-012.html",
       "file": [
@@ -80132,7 +80142,7 @@
       "references": []
     },
     {
-      "id": "1006",
+      "id": "1007",
       "category": "WPT manual",
       "title": "css/css-ui/caret-color-014.html",
       "file": [
@@ -80148,7 +80158,7 @@
       "references": []
     },
     {
-      "id": "1007",
+      "id": "1008",
       "category": "WPT manual",
       "title": "css/css-ui/caret-color-015.html",
       "file": [
@@ -80164,7 +80174,7 @@
       "references": []
     },
     {
-      "id": "1008",
+      "id": "1009",
       "category": "WPT manual",
       "title": "css/css-ui/caret-color-016.html",
       "file": [
@@ -80180,7 +80190,7 @@
       "references": []
     },
     {
-      "id": "1009",
+      "id": "1010",
       "category": "WPT manual",
       "title": "css/css-ui/caret-color-017.html",
       "file": [
@@ -80196,7 +80206,7 @@
       "references": []
     },
     {
-      "id": "1010",
+      "id": "1011",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-001-manual.html",
       "file": [
@@ -80212,7 +80222,7 @@
       "references": []
     },
     {
-      "id": "1011",
+      "id": "1012",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-002-manual.html",
       "file": [
@@ -80228,7 +80238,7 @@
       "references": []
     },
     {
-      "id": "1012",
+      "id": "1013",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-003-manual.html",
       "file": [
@@ -80244,7 +80254,7 @@
       "references": []
     },
     {
-      "id": "1013",
+      "id": "1014",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-004-manual.html",
       "file": [
@@ -80260,7 +80270,7 @@
       "references": []
     },
     {
-      "id": "1014",
+      "id": "1015",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-005-manual.html",
       "file": [
@@ -80276,7 +80286,7 @@
       "references": []
     },
     {
-      "id": "1015",
+      "id": "1016",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-006-manual.html",
       "file": [
@@ -80292,7 +80302,7 @@
       "references": []
     },
     {
-      "id": "1016",
+      "id": "1017",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-007-manual.html",
       "file": [
@@ -80308,7 +80318,7 @@
       "references": []
     },
     {
-      "id": "1017",
+      "id": "1018",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-008-manual.html",
       "file": [
@@ -80324,7 +80334,7 @@
       "references": []
     },
     {
-      "id": "1018",
+      "id": "1019",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-009-manual.html",
       "file": [
@@ -80340,7 +80350,7 @@
       "references": []
     },
     {
-      "id": "1019",
+      "id": "1020",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-010-manual.html",
       "file": [
@@ -80356,7 +80366,7 @@
       "references": []
     },
     {
-      "id": "1020",
+      "id": "1021",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-011-manual.html",
       "file": [
@@ -80372,7 +80382,7 @@
       "references": []
     },
     {
-      "id": "1021",
+      "id": "1022",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-012-manual.html",
       "file": [
@@ -80388,7 +80398,7 @@
       "references": []
     },
     {
-      "id": "1022",
+      "id": "1023",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-013-manual.html",
       "file": [
@@ -80404,7 +80414,7 @@
       "references": []
     },
     {
-      "id": "1023",
+      "id": "1024",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-014-manual.html",
       "file": [
@@ -80420,7 +80430,7 @@
       "references": []
     },
     {
-      "id": "1024",
+      "id": "1025",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-015-manual.html",
       "file": [
@@ -80436,7 +80446,7 @@
       "references": []
     },
     {
-      "id": "1025",
+      "id": "1026",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-016-manual.html",
       "file": [
@@ -80452,7 +80462,7 @@
       "references": []
     },
     {
-      "id": "1026",
+      "id": "1027",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-017-manual.html",
       "file": [
@@ -80468,7 +80478,7 @@
       "references": []
     },
     {
-      "id": "1027",
+      "id": "1028",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-018-manual.html",
       "file": [
@@ -80484,7 +80494,7 @@
       "references": []
     },
     {
-      "id": "1028",
+      "id": "1029",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-019-manual.html",
       "file": [
@@ -80500,7 +80510,7 @@
       "references": []
     },
     {
-      "id": "1029",
+      "id": "1030",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-020-manual.html",
       "file": [
@@ -80516,7 +80526,7 @@
       "references": []
     },
     {
-      "id": "1030",
+      "id": "1031",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-autg-003-manual.html",
       "file": [
@@ -80532,7 +80542,7 @@
       "references": []
     },
     {
-      "id": "1031",
+      "id": "1032",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-auto-001-manual.html",
       "file": [
@@ -80548,7 +80558,7 @@
       "references": []
     },
     {
-      "id": "1032",
+      "id": "1033",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-auto-002-manual.html",
       "file": [
@@ -80564,7 +80574,7 @@
       "references": []
     },
     {
-      "id": "1033",
+      "id": "1034",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-auto-004-manual.html",
       "file": [
@@ -80580,7 +80590,7 @@
       "references": []
     },
     {
-      "id": "1034",
+      "id": "1035",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-auto-005.html",
       "file": [
@@ -80596,7 +80606,7 @@
       "references": []
     },
     {
-      "id": "1035",
+      "id": "1036",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-auto-006-manual.html",
       "file": [
@@ -80612,7 +80622,7 @@
       "references": []
     },
     {
-      "id": "1036",
+      "id": "1037",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-auto-007.html",
       "file": [
@@ -80628,7 +80638,7 @@
       "references": []
     },
     {
-      "id": "1037",
+      "id": "1038",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-border-area.html",
       "file": [
@@ -80644,7 +80654,7 @@
       "references": []
     },
     {
-      "id": "1038",
+      "id": "1039",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-box-004.html",
       "file": [
@@ -80660,7 +80670,7 @@
       "references": []
     },
     {
-      "id": "1039",
+      "id": "1040",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-box-005.html",
       "file": [
@@ -80676,7 +80686,7 @@
       "references": []
     },
     {
-      "id": "1040",
+      "id": "1041",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-box-006.html",
       "file": [
@@ -80692,7 +80702,7 @@
       "references": []
     },
     {
-      "id": "1041",
+      "id": "1042",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-box-007-manual.html",
       "file": [
@@ -80708,7 +80718,7 @@
       "references": []
     },
     {
-      "id": "1042",
+      "id": "1043",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-content-area-manual.html",
       "file": [
@@ -80724,7 +80734,7 @@
       "references": []
     },
     {
-      "id": "1043",
+      "id": "1044",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-gover-003-manual.html",
       "file": [
@@ -80740,7 +80750,7 @@
       "references": []
     },
     {
-      "id": "1044",
+      "id": "1045",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-hover-001-manual.html",
       "file": [
@@ -80756,7 +80766,7 @@
       "references": []
     },
     {
-      "id": "1045",
+      "id": "1046",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-hover-002.html",
       "file": [
@@ -80772,7 +80782,7 @@
       "references": []
     },
     {
-      "id": "1046",
+      "id": "1047",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-001.html",
       "file": [
@@ -80788,7 +80798,7 @@
       "references": []
     },
     {
-      "id": "1047",
+      "id": "1048",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-002.html",
       "file": [
@@ -80804,7 +80814,7 @@
       "references": []
     },
     {
-      "id": "1048",
+      "id": "1049",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-003-manual.html",
       "file": [
@@ -80820,7 +80830,7 @@
       "references": []
     },
     {
-      "id": "1049",
+      "id": "1050",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-004-manual.html",
       "file": [
@@ -80836,7 +80846,7 @@
       "references": []
     },
     {
-      "id": "1050",
+      "id": "1051",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-005-manual.html",
       "file": [
@@ -80852,7 +80862,7 @@
       "references": []
     },
     {
-      "id": "1051",
+      "id": "1052",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-005-nfs-manual.html",
       "file": [
@@ -80868,7 +80878,7 @@
       "references": []
     },
     {
-      "id": "1052",
+      "id": "1053",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-006-manual.html",
       "file": [
@@ -80884,7 +80894,7 @@
       "references": []
     },
     {
-      "id": "1053",
+      "id": "1054",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-008-manual.html",
       "file": [
@@ -80900,7 +80910,7 @@
       "references": []
     },
     {
-      "id": "1054",
+      "id": "1055",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-009-manual.html",
       "file": [
@@ -80916,7 +80926,7 @@
       "references": []
     },
     {
-      "id": "1055",
+      "id": "1056",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-010-manual.html",
       "file": [
@@ -80932,7 +80942,7 @@
       "references": []
     },
     {
-      "id": "1056",
+      "id": "1057",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-011-manual.html",
       "file": [
@@ -80948,7 +80958,7 @@
       "references": []
     },
     {
-      "id": "1057",
+      "id": "1058",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-012-manual.html",
       "file": [
@@ -80964,7 +80974,7 @@
       "references": []
     },
     {
-      "id": "1058",
+      "id": "1059",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-013.html",
       "file": [
@@ -80980,7 +80990,7 @@
       "references": []
     },
     {
-      "id": "1059",
+      "id": "1060",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-014-manual.html",
       "file": [
@@ -80996,7 +81006,7 @@
       "references": []
     },
     {
-      "id": "1060",
+      "id": "1061",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-015-manual.html",
       "file": [
@@ -81012,7 +81022,7 @@
       "references": []
     },
     {
-      "id": "1061",
+      "id": "1062",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-016-manual.html",
       "file": [
@@ -81028,7 +81038,7 @@
       "references": []
     },
     {
-      "id": "1062",
+      "id": "1063",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-017-manual.html",
       "file": [
@@ -81044,7 +81054,7 @@
       "references": []
     },
     {
-      "id": "1063",
+      "id": "1064",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-018-manual.html",
       "file": [
@@ -81060,7 +81070,7 @@
       "references": []
     },
     {
-      "id": "1064",
+      "id": "1065",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-001-manual.html",
       "file": [
@@ -81076,7 +81086,7 @@
       "references": []
     },
     {
-      "id": "1065",
+      "id": "1066",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-002-manual.html",
       "file": [
@@ -81092,7 +81102,7 @@
       "references": []
     },
     {
-      "id": "1066",
+      "id": "1067",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-003-manual.html",
       "file": [
@@ -81108,7 +81118,7 @@
       "references": []
     },
     {
-      "id": "1067",
+      "id": "1068",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-004.html",
       "file": [
@@ -81124,7 +81134,7 @@
       "references": []
     },
     {
-      "id": "1068",
+      "id": "1069",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-005-manual.html",
       "file": [
@@ -81140,7 +81150,7 @@
       "references": []
     },
     {
-      "id": "1069",
+      "id": "1070",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-006-manual.html",
       "file": [
@@ -81156,7 +81166,7 @@
       "references": []
     },
     {
-      "id": "1070",
+      "id": "1071",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-007-manual.html",
       "file": [
@@ -81172,7 +81182,7 @@
       "references": []
     },
     {
-      "id": "1071",
+      "id": "1072",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-008-manual.html",
       "file": [
@@ -81188,7 +81198,7 @@
       "references": []
     },
     {
-      "id": "1072",
+      "id": "1073",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-009-manual.html",
       "file": [
@@ -81204,7 +81214,7 @@
       "references": []
     },
     {
-      "id": "1073",
+      "id": "1074",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-010-manual.html",
       "file": [
@@ -81220,7 +81230,7 @@
       "references": []
     },
     {
-      "id": "1074",
+      "id": "1075",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-011-manual.html",
       "file": [
@@ -81236,7 +81246,7 @@
       "references": []
     },
     {
-      "id": "1075",
+      "id": "1076",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-012-manual.html",
       "file": [
@@ -81252,7 +81262,7 @@
       "references": []
     },
     {
-      "id": "1076",
+      "id": "1077",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-013-manual.html",
       "file": [
@@ -81268,7 +81278,7 @@
       "references": []
     },
     {
-      "id": "1077",
+      "id": "1078",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-014-manual.html",
       "file": [
@@ -81284,7 +81294,7 @@
       "references": []
     },
     {
-      "id": "1078",
+      "id": "1079",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-016-manual.html",
       "file": [
@@ -81300,7 +81310,7 @@
       "references": []
     },
     {
-      "id": "1079",
+      "id": "1080",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-017-manual.html",
       "file": [
@@ -81316,7 +81326,7 @@
       "references": []
     },
     {
-      "id": "1080",
+      "id": "1081",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-018.html",
       "file": [
@@ -81332,7 +81342,7 @@
       "references": []
     },
     {
-      "id": "1081",
+      "id": "1082",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-019-manual.html",
       "file": [
@@ -81348,7 +81358,7 @@
       "references": []
     },
     {
-      "id": "1082",
+      "id": "1083",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-020-manual.html",
       "file": [
@@ -81364,7 +81374,7 @@
       "references": []
     },
     {
-      "id": "1083",
+      "id": "1084",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-021-manual.html",
       "file": [
@@ -81380,7 +81390,7 @@
       "references": []
     },
     {
-      "id": "1084",
+      "id": "1085",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-022.html",
       "file": [
@@ -81396,7 +81406,7 @@
       "references": []
     },
     {
-      "id": "1085",
+      "id": "1086",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-023-manual.html",
       "file": [
@@ -81412,7 +81422,7 @@
       "references": []
     },
     {
-      "id": "1086",
+      "id": "1087",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-024-manual.html",
       "file": [
@@ -81428,7 +81438,7 @@
       "references": []
     },
     {
-      "id": "1087",
+      "id": "1088",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-025-manual.html",
       "file": [
@@ -81444,7 +81454,7 @@
       "references": []
     },
     {
-      "id": "1088",
+      "id": "1089",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-026-manual.html",
       "file": [
@@ -81460,7 +81470,7 @@
       "references": []
     },
     {
-      "id": "1089",
+      "id": "1090",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-027-manual.html",
       "file": [
@@ -81476,7 +81486,7 @@
       "references": []
     },
     {
-      "id": "1090",
+      "id": "1091",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-028-manual.html",
       "file": [
@@ -81492,7 +81502,7 @@
       "references": []
     },
     {
-      "id": "1091",
+      "id": "1092",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-029-manual.html",
       "file": [
@@ -81508,7 +81518,7 @@
       "references": []
     },
     {
-      "id": "1092",
+      "id": "1093",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-030-manual.html",
       "file": [
@@ -81524,7 +81534,7 @@
       "references": []
     },
     {
-      "id": "1093",
+      "id": "1094",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-031.html",
       "file": [
@@ -81540,7 +81550,7 @@
       "references": []
     },
     {
-      "id": "1094",
+      "id": "1095",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-032.html",
       "file": [
@@ -81556,7 +81566,7 @@
       "references": []
     },
     {
-      "id": "1095",
+      "id": "1096",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-033.html",
       "file": [
@@ -81572,7 +81582,7 @@
       "references": []
     },
     {
-      "id": "1096",
+      "id": "1097",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-034-manual.html",
       "file": [
@@ -81588,7 +81598,7 @@
       "references": []
     },
     {
-      "id": "1097",
+      "id": "1098",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-035-manual.html",
       "file": [
@@ -81604,7 +81614,7 @@
       "references": []
     },
     {
-      "id": "1098",
+      "id": "1099",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-036-manual.html",
       "file": [
@@ -81620,7 +81630,7 @@
       "references": []
     },
     {
-      "id": "1099",
+      "id": "1100",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-037-manual.html",
       "file": [
@@ -81636,7 +81646,7 @@
       "references": []
     },
     {
-      "id": "1100",
+      "id": "1101",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-038-manual.html",
       "file": [
@@ -81652,7 +81662,7 @@
       "references": []
     },
     {
-      "id": "1101",
+      "id": "1102",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-039-manual.html",
       "file": [
@@ -81668,7 +81678,7 @@
       "references": []
     },
     {
-      "id": "1102",
+      "id": "1103",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-040-manual.html",
       "file": [
@@ -81684,7 +81694,7 @@
       "references": []
     },
     {
-      "id": "1103",
+      "id": "1104",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-041-manual.html",
       "file": [
@@ -81700,7 +81710,7 @@
       "references": []
     },
     {
-      "id": "1104",
+      "id": "1105",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-042-manual.html",
       "file": [
@@ -81716,7 +81726,7 @@
       "references": []
     },
     {
-      "id": "1105",
+      "id": "1106",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-image-png-043-manual.html",
       "file": [
@@ -81732,7 +81742,7 @@
       "references": []
     },
     {
-      "id": "1106",
+      "id": "1107",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-imgge-png-015-manual.html",
       "file": [
@@ -81748,7 +81758,7 @@
       "references": []
     },
     {
-      "id": "1107",
+      "id": "1108",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-imgie-007-manual.html",
       "file": [
@@ -81764,7 +81774,7 @@
       "references": []
     },
     {
-      "id": "1108",
+      "id": "1109",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-input-001-manual.html",
       "file": [
@@ -81780,7 +81790,7 @@
       "references": []
     },
     {
-      "id": "1109",
+      "id": "1110",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-outline-area-manual.html",
       "file": [
@@ -81796,7 +81806,7 @@
       "references": []
     },
     {
-      "id": "1110",
+      "id": "1111",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-padding-area-manual.html",
       "file": [
@@ -81812,7 +81822,7 @@
       "references": []
     },
     {
-      "id": "1111",
+      "id": "1112",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-pointer-links-001-manual.html",
       "file": [
@@ -81828,7 +81838,7 @@
       "references": []
     },
     {
-      "id": "1112",
+      "id": "1113",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-pointer-links-002-manual.html",
       "file": [
@@ -81844,7 +81854,7 @@
       "references": []
     },
     {
-      "id": "1113",
+      "id": "1114",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-pointer-links-003-manual.html",
       "file": [
@@ -81860,7 +81870,7 @@
       "references": []
     },
     {
-      "id": "1114",
+      "id": "1115",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-text-001-manual.html",
       "file": [
@@ -81876,7 +81886,7 @@
       "references": []
     },
     {
-      "id": "1115",
+      "id": "1116",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-text-002-manual.html",
       "file": [
@@ -81892,7 +81902,7 @@
       "references": []
     },
     {
-      "id": "1116",
+      "id": "1117",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-x-y-001-manual.html",
       "file": [
@@ -81908,7 +81918,7 @@
       "references": []
     },
     {
-      "id": "1117",
+      "id": "1118",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-x-y-002-manual.html",
       "file": [
@@ -81924,7 +81934,7 @@
       "references": []
     },
     {
-      "id": "1118",
+      "id": "1119",
       "category": "WPT manual",
       "title": "css/css-ui/cursor-x-y-003-manual.html",
       "file": [
@@ -81940,7 +81950,7 @@
       "references": []
     },
     {
-      "id": "1119",
+      "id": "1120",
       "category": "WPT manual",
       "title": "css/css-ui/nav-dir-001.html",
       "file": [
@@ -81956,7 +81966,7 @@
       "references": []
     },
     {
-      "id": "1120",
+      "id": "1121",
       "category": "WPT manual",
       "title": "css/css-ui/nav-dir-002.html",
       "file": [
@@ -81972,7 +81982,7 @@
       "references": []
     },
     {
-      "id": "1121",
+      "id": "1122",
       "category": "WPT manual",
       "title": "css/css-ui/nav-dir-003.html",
       "file": [
@@ -81988,7 +81998,7 @@
       "references": []
     },
     {
-      "id": "1122",
+      "id": "1123",
       "category": "WPT manual",
       "title": "css/css-ui/nav-dir-004.html",
       "file": [
@@ -82004,7 +82014,7 @@
       "references": []
     },
     {
-      "id": "1123",
+      "id": "1124",
       "category": "WPT manual",
       "title": "css/css-ui/nav-dir-005.html",
       "file": [
@@ -82020,7 +82030,7 @@
       "references": []
     },
     {
-      "id": "1124",
+      "id": "1125",
       "category": "WPT manual",
       "title": "css/css-ui/nav-dir-missing-1.html",
       "file": [
@@ -82036,7 +82046,7 @@
       "references": []
     },
     {
-      "id": "1125",
+      "id": "1126",
       "category": "WPT manual",
       "title": "css/css-ui/nav-dir-missing-2.html",
       "file": [
@@ -82052,7 +82062,7 @@
       "references": []
     },
     {
-      "id": "1126",
+      "id": "1127",
       "category": "WPT manual",
       "title": "css/css-ui/nav-dir-missing-3.html",
       "file": [
@@ -82068,7 +82078,7 @@
       "references": []
     },
     {
-      "id": "1127",
+      "id": "1128",
       "category": "WPT manual",
       "title": "css/css-ui/nav-dir-missing-4.html",
       "file": [
@@ -82084,7 +82094,7 @@
       "references": []
     },
     {
-      "id": "1128",
+      "id": "1129",
       "category": "WPT manual",
       "title": "css/css-ui/nav-dir-target-001.html",
       "file": [
@@ -82100,7 +82110,7 @@
       "references": []
     },
     {
-      "id": "1129",
+      "id": "1130",
       "category": "WPT manual",
       "title": "css/css-ui/nav-dir-target-002.html",
       "file": [
@@ -82116,7 +82126,7 @@
       "references": []
     },
     {
-      "id": "1130",
+      "id": "1131",
       "category": "WPT manual",
       "title": "css/css-ui/nav-dir-target-003.html",
       "file": [
@@ -82132,7 +82142,7 @@
       "references": []
     },
     {
-      "id": "1131",
+      "id": "1132",
       "category": "WPT manual",
       "title": "css/css-ui/nav-dir-target-004.html",
       "file": [
@@ -82148,7 +82158,7 @@
       "references": []
     },
     {
-      "id": "1132",
+      "id": "1133",
       "category": "WPT manual",
       "title": "css/css-ui/nav-dir-target-005.html",
       "file": [
@@ -82164,7 +82174,7 @@
       "references": []
     },
     {
-      "id": "1133",
+      "id": "1134",
       "category": "WPT manual",
       "title": "css/css-ui/nav-dir-target-006.html",
       "file": [
@@ -82180,7 +82190,7 @@
       "references": []
     },
     {
-      "id": "1134",
+      "id": "1135",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-000.html",
       "file": [
@@ -82196,7 +82206,7 @@
       "references": []
     },
     {
-      "id": "1135",
+      "id": "1136",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-001.html",
       "file": [
@@ -82212,7 +82222,7 @@
       "references": []
     },
     {
-      "id": "1136",
+      "id": "1137",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-002.html",
       "file": [
@@ -82228,7 +82238,7 @@
       "references": []
     },
     {
-      "id": "1137",
+      "id": "1138",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-003.html",
       "file": [
@@ -82244,7 +82254,7 @@
       "references": []
     },
     {
-      "id": "1138",
+      "id": "1139",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-004.html",
       "file": [
@@ -82260,7 +82270,7 @@
       "references": []
     },
     {
-      "id": "1139",
+      "id": "1140",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-005.html",
       "file": [
@@ -82276,7 +82286,7 @@
       "references": []
     },
     {
-      "id": "1140",
+      "id": "1141",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-006.html",
       "file": [
@@ -82292,7 +82302,7 @@
       "references": []
     },
     {
-      "id": "1141",
+      "id": "1142",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-007.html",
       "file": [
@@ -82308,7 +82318,7 @@
       "references": []
     },
     {
-      "id": "1142",
+      "id": "1143",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-008.html",
       "file": [
@@ -82324,7 +82334,7 @@
       "references": []
     },
     {
-      "id": "1143",
+      "id": "1144",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-009.html",
       "file": [
@@ -82340,7 +82350,7 @@
       "references": []
     },
     {
-      "id": "1144",
+      "id": "1145",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-010.html",
       "file": [
@@ -82356,7 +82366,7 @@
       "references": []
     },
     {
-      "id": "1145",
+      "id": "1146",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-011.html",
       "file": [
@@ -82372,23 +82382,37 @@
       "references": []
     },
     {
-      "id": "1146",
+      "id": "1147",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-012.html",
       "file": [
         "css/css-ui/nav-down-012.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-ui/nav-down-012.html",
-      "actualStatus": "MANUAL",
+      "actualStatus": "ERROR",
       "baselineStatus": "MANUAL",
-      "changeType": "unchanged",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-down-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-down-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": []
+      "references": [],
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
+      ]
     },
     {
-      "id": "1147",
+      "id": "1148",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-013.html",
       "file": [
@@ -82404,7 +82428,7 @@
       "references": []
     },
     {
-      "id": "1148",
+      "id": "1149",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-014.html",
       "file": [
@@ -82420,7 +82444,7 @@
       "references": []
     },
     {
-      "id": "1149",
+      "id": "1150",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-015.html",
       "file": [
@@ -82436,7 +82460,7 @@
       "references": []
     },
     {
-      "id": "1150",
+      "id": "1151",
       "category": "WPT manual",
       "title": "css/css-ui/nav-down-016.html",
       "file": [
@@ -82452,7 +82476,7 @@
       "references": []
     },
     {
-      "id": "1151",
+      "id": "1152",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-000.html",
       "file": [
@@ -82468,7 +82492,7 @@
       "references": []
     },
     {
-      "id": "1152",
+      "id": "1153",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-001.html",
       "file": [
@@ -82484,7 +82508,7 @@
       "references": []
     },
     {
-      "id": "1153",
+      "id": "1154",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-002.html",
       "file": [
@@ -82500,7 +82524,7 @@
       "references": []
     },
     {
-      "id": "1154",
+      "id": "1155",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-003.html",
       "file": [
@@ -82516,7 +82540,7 @@
       "references": []
     },
     {
-      "id": "1155",
+      "id": "1156",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-004.html",
       "file": [
@@ -82532,7 +82556,7 @@
       "references": []
     },
     {
-      "id": "1156",
+      "id": "1157",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-005.html",
       "file": [
@@ -82548,7 +82572,7 @@
       "references": []
     },
     {
-      "id": "1157",
+      "id": "1158",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-006.html",
       "file": [
@@ -82564,7 +82588,7 @@
       "references": []
     },
     {
-      "id": "1158",
+      "id": "1159",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-007.html",
       "file": [
@@ -82580,7 +82604,7 @@
       "references": []
     },
     {
-      "id": "1159",
+      "id": "1160",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-008.html",
       "file": [
@@ -82596,7 +82620,7 @@
       "references": []
     },
     {
-      "id": "1160",
+      "id": "1161",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-009.html",
       "file": [
@@ -82612,7 +82636,7 @@
       "references": []
     },
     {
-      "id": "1161",
+      "id": "1162",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-010.html",
       "file": [
@@ -82628,7 +82652,7 @@
       "references": []
     },
     {
-      "id": "1162",
+      "id": "1163",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-011.html",
       "file": [
@@ -82644,7 +82668,7 @@
       "references": []
     },
     {
-      "id": "1163",
+      "id": "1164",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-012.html",
       "file": [
@@ -82660,7 +82684,7 @@
       "references": []
     },
     {
-      "id": "1164",
+      "id": "1165",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-013.html",
       "file": [
@@ -82676,7 +82700,7 @@
       "references": []
     },
     {
-      "id": "1165",
+      "id": "1166",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-014.html",
       "file": [
@@ -82692,7 +82716,7 @@
       "references": []
     },
     {
-      "id": "1166",
+      "id": "1167",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-015.html",
       "file": [
@@ -82708,7 +82732,7 @@
       "references": []
     },
     {
-      "id": "1167",
+      "id": "1168",
       "category": "WPT manual",
       "title": "css/css-ui/nav-left-016.html",
       "file": [
@@ -82724,7 +82748,7 @@
       "references": []
     },
     {
-      "id": "1168",
+      "id": "1169",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-000.html",
       "file": [
@@ -82740,7 +82764,7 @@
       "references": []
     },
     {
-      "id": "1169",
+      "id": "1170",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-001.html",
       "file": [
@@ -82756,7 +82780,7 @@
       "references": []
     },
     {
-      "id": "1170",
+      "id": "1171",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-002.html",
       "file": [
@@ -82772,7 +82796,7 @@
       "references": []
     },
     {
-      "id": "1171",
+      "id": "1172",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-003.html",
       "file": [
@@ -82788,7 +82812,7 @@
       "references": []
     },
     {
-      "id": "1172",
+      "id": "1173",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-004.html",
       "file": [
@@ -82804,7 +82828,7 @@
       "references": []
     },
     {
-      "id": "1173",
+      "id": "1174",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-005.html",
       "file": [
@@ -82820,7 +82844,7 @@
       "references": []
     },
     {
-      "id": "1174",
+      "id": "1175",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-006.html",
       "file": [
@@ -82836,7 +82860,7 @@
       "references": []
     },
     {
-      "id": "1175",
+      "id": "1176",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-007.html",
       "file": [
@@ -82852,7 +82876,7 @@
       "references": []
     },
     {
-      "id": "1176",
+      "id": "1177",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-008.html",
       "file": [
@@ -82868,7 +82892,7 @@
       "references": []
     },
     {
-      "id": "1177",
+      "id": "1178",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-009.html",
       "file": [
@@ -82884,7 +82908,7 @@
       "references": []
     },
     {
-      "id": "1178",
+      "id": "1179",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-010.html",
       "file": [
@@ -82900,7 +82924,7 @@
       "references": []
     },
     {
-      "id": "1179",
+      "id": "1180",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-011.html",
       "file": [
@@ -82916,7 +82940,7 @@
       "references": []
     },
     {
-      "id": "1180",
+      "id": "1181",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-012.html",
       "file": [
@@ -82932,23 +82956,37 @@
       "references": []
     },
     {
-      "id": "1181",
+      "id": "1182",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-013.html",
       "file": [
         "css/css-ui/nav-right-013.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-ui/nav-right-013.html",
-      "actualStatus": "MANUAL",
+      "actualStatus": "ERROR",
       "baselineStatus": "MANUAL",
-      "changeType": "unchanged",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/nav-right-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/nav-right-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": []
+      "references": [],
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
+        }
+      ]
     },
     {
-      "id": "1182",
+      "id": "1183",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-014.html",
       "file": [
@@ -82964,7 +83002,7 @@
       "references": []
     },
     {
-      "id": "1183",
+      "id": "1184",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-015.html",
       "file": [
@@ -82980,7 +83018,7 @@
       "references": []
     },
     {
-      "id": "1184",
+      "id": "1185",
       "category": "WPT manual",
       "title": "css/css-ui/nav-right-016.html",
       "file": [
@@ -82996,7 +83034,7 @@
       "references": []
     },
     {
-      "id": "1185",
+      "id": "1186",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-000.html",
       "file": [
@@ -83012,7 +83050,7 @@
       "references": []
     },
     {
-      "id": "1186",
+      "id": "1187",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-001.html",
       "file": [
@@ -83028,7 +83066,7 @@
       "references": []
     },
     {
-      "id": "1187",
+      "id": "1188",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-002.html",
       "file": [
@@ -83044,7 +83082,7 @@
       "references": []
     },
     {
-      "id": "1188",
+      "id": "1189",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-003.html",
       "file": [
@@ -83060,7 +83098,7 @@
       "references": []
     },
     {
-      "id": "1189",
+      "id": "1190",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-004.html",
       "file": [
@@ -83076,7 +83114,7 @@
       "references": []
     },
     {
-      "id": "1190",
+      "id": "1191",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-005.html",
       "file": [
@@ -83092,7 +83130,7 @@
       "references": []
     },
     {
-      "id": "1191",
+      "id": "1192",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-006.html",
       "file": [
@@ -83108,7 +83146,7 @@
       "references": []
     },
     {
-      "id": "1192",
+      "id": "1193",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-007.html",
       "file": [
@@ -83124,7 +83162,7 @@
       "references": []
     },
     {
-      "id": "1193",
+      "id": "1194",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-008.html",
       "file": [
@@ -83140,7 +83178,7 @@
       "references": []
     },
     {
-      "id": "1194",
+      "id": "1195",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-009.html",
       "file": [
@@ -83156,7 +83194,7 @@
       "references": []
     },
     {
-      "id": "1195",
+      "id": "1196",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-010.html",
       "file": [
@@ -83172,7 +83210,7 @@
       "references": []
     },
     {
-      "id": "1196",
+      "id": "1197",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-011.html",
       "file": [
@@ -83188,7 +83226,7 @@
       "references": []
     },
     {
-      "id": "1197",
+      "id": "1198",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-012.html",
       "file": [
@@ -83204,7 +83242,7 @@
       "references": []
     },
     {
-      "id": "1198",
+      "id": "1199",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-013.html",
       "file": [
@@ -83220,7 +83258,7 @@
       "references": []
     },
     {
-      "id": "1199",
+      "id": "1200",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-014.html",
       "file": [
@@ -83236,7 +83274,7 @@
       "references": []
     },
     {
-      "id": "1200",
+      "id": "1201",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-015.html",
       "file": [
@@ -83252,7 +83290,7 @@
       "references": []
     },
     {
-      "id": "1201",
+      "id": "1202",
       "category": "WPT manual",
       "title": "css/css-ui/nav-up-016.html",
       "file": [
@@ -83268,7 +83306,7 @@
       "references": []
     },
     {
-      "id": "1202",
+      "id": "1203",
       "category": "WPT manual",
       "title": "css/css-ui/resize-001.html",
       "file": [
@@ -83284,7 +83322,7 @@
       "references": []
     },
     {
-      "id": "1203",
+      "id": "1204",
       "category": "WPT manual",
       "title": "css/css-ui/resize-002.html",
       "file": [
@@ -83300,7 +83338,7 @@
       "references": []
     },
     {
-      "id": "1204",
+      "id": "1205",
       "category": "WPT manual",
       "title": "css/css-ui/resize-003.html",
       "file": [
@@ -83316,7 +83354,7 @@
       "references": []
     },
     {
-      "id": "1205",
+      "id": "1206",
       "category": "WPT manual",
       "title": "css/css-ui/resize-004.html",
       "file": [
@@ -83332,7 +83370,7 @@
       "references": []
     },
     {
-      "id": "1206",
+      "id": "1207",
       "category": "WPT manual",
       "title": "css/css-ui/resize-005.html",
       "file": [
@@ -83348,7 +83386,7 @@
       "references": []
     },
     {
-      "id": "1207",
+      "id": "1208",
       "category": "WPT manual",
       "title": "css/css-ui/resize-006.html",
       "file": [
@@ -83364,7 +83402,7 @@
       "references": []
     },
     {
-      "id": "1208",
+      "id": "1209",
       "category": "WPT manual",
       "title": "css/css-ui/resize-007.html",
       "file": [
@@ -83380,7 +83418,7 @@
       "references": []
     },
     {
-      "id": "1209",
+      "id": "1210",
       "category": "WPT manual",
       "title": "css/css-ui/resize-008.html",
       "file": [
@@ -83396,7 +83434,7 @@
       "references": []
     },
     {
-      "id": "1210",
+      "id": "1211",
       "category": "WPT manual",
       "title": "css/css-ui/resize-009.html",
       "file": [
@@ -83412,7 +83450,7 @@
       "references": []
     },
     {
-      "id": "1211",
+      "id": "1212",
       "category": "WPT manual",
       "title": "css/css-ui/resize-010.html",
       "file": [
@@ -83421,10 +83459,74 @@
       "sourceUrl": "https://wpt.live/css/css-ui/resize-010.html",
       "actualStatus": "MANUAL",
       "baselineStatus": "MANUAL",
-      "changeType": "changed",
-      "viewerChanged": true,
+      "changeType": "unchanged",
+      "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "1213",
+      "category": "WPT manual",
+      "title": "css/css-ui/resize-011.html",
+      "file": [
+        "css/css-ui/resize-011.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ui/resize-011.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "1214",
+      "category": "WPT manual",
+      "title": "css/css-ui/resize-012.html",
+      "file": [
+        "css/css-ui/resize-012.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ui/resize-012.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "1215",
+      "category": "WPT manual",
+      "title": "css/css-ui/resize-013.html",
+      "file": [
+        "css/css-ui/resize-013.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ui/resize-013.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "unchanged",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": []
+    },
+    {
+      "id": "1216",
+      "category": "WPT manual",
+      "title": "css/css-ui/resize-014.html",
+      "file": [
+        "css/css-ui/resize-014.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-ui/resize-014.html",
+      "actualStatus": "MANUAL",
+      "baselineStatus": "MANUAL",
+      "changeType": "changed",
+      "viewerChanged": true,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "references": [],
       "difference": {
         "classification": "changed",
@@ -83443,14 +83545,14 @@
             "height": 1056,
             "actualWidth": 794,
             "actualHeight": 1056,
-            "diffPixels": 10000,
-            "diffRatio": 0.01192657049080223,
-            "exactDiffPixels": 10000,
-            "exactDiffRatio": 0.01192657049080223,
+            "diffPixels": 5158,
+            "diffRatio": 0.00615172505915579,
+            "exactDiffPixels": 7500,
+            "exactDiffRatio": 0.008944927868101672,
             "exceededDiffPixels": 0,
             "maxChannelDifference": 255,
             "dimensionMismatch": false,
-            "diffImage": "diff/1211-WPT_manual-css-css-ui-resize-010.html-p0001.png"
+            "diffImage": "diff/1216-WPT_manual-css-css-ui-resize-014.html-p0001.png"
           }
         ],
         "comparisons": [],
@@ -83461,71 +83563,7 @@
       }
     },
     {
-      "id": "1212",
-      "category": "WPT manual",
-      "title": "css/css-ui/resize-011.html",
-      "file": [
-        "css/css-ui/resize-011.html"
-      ],
-      "sourceUrl": "https://wpt.live/css/css-ui/resize-011.html",
-      "actualStatus": "MANUAL",
-      "baselineStatus": "MANUAL",
-      "changeType": "unchanged",
-      "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": []
-    },
-    {
-      "id": "1213",
-      "category": "WPT manual",
-      "title": "css/css-ui/resize-012.html",
-      "file": [
-        "css/css-ui/resize-012.html"
-      ],
-      "sourceUrl": "https://wpt.live/css/css-ui/resize-012.html",
-      "actualStatus": "MANUAL",
-      "baselineStatus": "MANUAL",
-      "changeType": "unchanged",
-      "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": []
-    },
-    {
-      "id": "1214",
-      "category": "WPT manual",
-      "title": "css/css-ui/resize-013.html",
-      "file": [
-        "css/css-ui/resize-013.html"
-      ],
-      "sourceUrl": "https://wpt.live/css/css-ui/resize-013.html",
-      "actualStatus": "MANUAL",
-      "baselineStatus": "MANUAL",
-      "changeType": "unchanged",
-      "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": []
-    },
-    {
-      "id": "1215",
-      "category": "WPT manual",
-      "title": "css/css-ui/resize-014.html",
-      "file": [
-        "css/css-ui/resize-014.html"
-      ],
-      "sourceUrl": "https://wpt.live/css/css-ui/resize-014.html",
-      "actualStatus": "MANUAL",
-      "baselineStatus": "MANUAL",
-      "changeType": "unchanged",
-      "viewerChanged": false,
-      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-      "references": []
-    },
-    {
-      "id": "1216",
+      "id": "1217",
       "category": "WPT manual",
       "title": "css/css-ui/resize-015.html",
       "file": [
@@ -83541,7 +83579,7 @@
       "references": []
     },
     {
-      "id": "1217",
+      "id": "1218",
       "category": "WPT manual",
       "title": "css/css-ui/resize-016.html",
       "file": [
@@ -83557,7 +83595,7 @@
       "references": []
     },
     {
-      "id": "1218",
+      "id": "1219",
       "category": "WPT manual",
       "title": "css/css-ui/resize-017.html",
       "file": [
@@ -83573,7 +83611,7 @@
       "references": []
     },
     {
-      "id": "1219",
+      "id": "1220",
       "category": "WPT manual",
       "title": "css/css-ui/resize-018.html",
       "file": [
@@ -83589,7 +83627,7 @@
       "references": []
     },
     {
-      "id": "1220",
+      "id": "1221",
       "category": "WPT manual",
       "title": "css/css-ui/resize-019.html",
       "file": [
@@ -83605,7 +83643,7 @@
       "references": []
     },
     {
-      "id": "1221",
+      "id": "1222",
       "category": "WPT manual",
       "title": "css/css-ui/resize-020.html",
       "file": [
@@ -83621,7 +83659,7 @@
       "references": []
     },
     {
-      "id": "1222",
+      "id": "1223",
       "category": "WPT manual",
       "title": "css/css-ui/resize-021.html",
       "file": [
@@ -83637,7 +83675,7 @@
       "references": []
     },
     {
-      "id": "1223",
+      "id": "1224",
       "category": "WPT manual",
       "title": "css/css-ui/select-cursor-001-manual.html",
       "file": [
@@ -83653,7 +83691,7 @@
       "references": []
     },
     {
-      "id": "1224",
+      "id": "1225",
       "category": "WPT manual",
       "title": "css/css-ui/text-overflow-018.html",
       "file": [
@@ -83669,7 +83707,7 @@
       "references": []
     },
     {
-      "id": "1225",
+      "id": "1226",
       "category": "WPT manual",
       "title": "css/css-ui/text-overflow-019.html",
       "file": [

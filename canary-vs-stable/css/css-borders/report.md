@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 70
-- Entries with differences: 16 (pending: 16, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 17 (pending: 17, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":54,"known-fail":16}
+- Outcome summary: {"pass":53,"known-fail":16,"regression":1}
 
 ## Differences
 
@@ -100,6 +100,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.010384464926341501, diffPixels=8707
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0030] [WPT reftest] css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0035] [WPT reftest] css/css-borders/border-shape/border-shape-polygon-miter-limit.html
   triage: pending
@@ -217,4 +223,15 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0058762212808182585, diffPixels=4927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0030] [WPT reftest] css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html
+  triage: pending
+  side: canary-reference
+  reference: css/css-borders/border-shape/border-shape-overflow-replaced-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

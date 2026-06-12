@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 68
-- Entries with differences: 30 (pending: 30, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
-- Timeout entries: 2
+- Compared entries: 71
+- Entries with differences: 31 (pending: 31, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 3
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":36,"known-fail":30,"error":2}
+- Outcome summary: {"pass":38,"known-fail":31,"error":2}
 
 ## Differences
 
@@ -283,7 +283,20 @@
   stable page 1: diffRatio=0.0000023853140981604458, diffPixels=2
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/reference/margin-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0049] [WPT reftest] css/css-viewport/zoom/relative-units-from-parent.html
+- [0049] [WPT reftest] css/css-viewport/zoom/matrix-zoom-anim.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-viewport/zoom/matrix-zoom-anim-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/matrix-zoom-anim.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/matrix-zoom-anim-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/matrix-zoom-anim.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/matrix-zoom-anim-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0052] [WPT reftest] css/css-viewport/zoom/relative-units-from-parent.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-viewport/zoom/relative-units-from-parent-ref.html (==)
@@ -296,20 +309,16 @@
   stable page 1: diffRatio=0.00007871536523929471, diffPixels=66
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/relative-units-from-parent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0053] [WPT reftest] css/css-viewport/zoom/svg-font-relative-units.html
+- [0056] [WPT reftest] css/css-viewport/zoom/svg-font-relative-units.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-viewport/zoom/svg-font-relative-units-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/svg-font-relative-units.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.00096366689565682, diffPixels=808
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/svg-font-relative-units-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/svg-font-relative-units.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00096366689565682, diffPixels=808
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/svg-font-relative-units-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0060] [WPT reftest] css/css-viewport/zoom/text-decoration-thickness.html
+- [0063] [WPT reftest] css/css-viewport/zoom/text-decoration-thickness.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-viewport/zoom/reference/text-decoration-thickness-ref.html (==)
@@ -322,7 +331,7 @@
   stable page 1: diffRatio=0.0023876994122586062, diffPixels=2002
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/reference/text-decoration-thickness-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0062] [WPT reftest] css/css-viewport/zoom/text-indent.html
+- [0065] [WPT reftest] css/css-viewport/zoom/text-indent.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-viewport/zoom/reference/text-indent-ref.html (==)
@@ -335,7 +344,7 @@
   stable page 1: diffRatio=0.0000047706281963208916, diffPixels=4
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/reference/text-indent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0063] [WPT reftest] css/css-viewport/zoom/text-shadow.html
+- [0066] [WPT reftest] css/css-viewport/zoom/text-shadow.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-viewport/zoom/reference/text-shadow-ref.html (==)
@@ -348,7 +357,7 @@
   stable page 1: diffRatio=0.000031009083276085796, diffPixels=26
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/reference/text-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0064] [WPT reftest] css/css-viewport/zoom/text-stroke-width.html
+- [0067] [WPT reftest] css/css-viewport/zoom/text-stroke-width.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-viewport/zoom/reference/text-stroke-width-ref.html (==)
@@ -361,7 +370,7 @@
   stable page 1: diffRatio=0.0010555014884359973, diffPixels=885
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/reference/text-stroke-width-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0065] [WPT reftest] css/css-viewport/zoom/text-underline-offset.html
+- [0068] [WPT reftest] css/css-viewport/zoom/text-underline-offset.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-viewport/zoom/reference/text-underline-offset-ref.html (==)
@@ -374,7 +383,7 @@
   stable page 1: diffRatio=0.0000047706281963208916, diffPixels=4
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/reference/text-underline-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0066] [WPT reftest] css/css-viewport/zoom/word-spacing.html
+- [0069] [WPT reftest] css/css-viewport/zoom/word-spacing.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-viewport/zoom/reference/word-spacing-ref.html (==)
@@ -387,7 +396,7 @@
   stable page 1: diffRatio=0.000005963285245401114, diffPixels=5
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/reference/word-spacing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0068] [WPT reftest] css/css-viewport/zoom/zoom-pseudo-image.html
+- [0071] [WPT reftest] css/css-viewport/zoom/zoom-pseudo-image.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-viewport/zoom/zoom-pseudo-image-ref.html (==)
@@ -427,4 +436,12 @@
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/iframe-zoom.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/iframe-zoom.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0056] [WPT reftest] css/css-viewport/zoom/svg-font-relative-units.html
+  triage: pending
+  side: stable
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/svg-font-relative-units.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/svg-font-relative-units.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

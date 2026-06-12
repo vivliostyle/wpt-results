@@ -1,5 +1,32 @@
 - id: "0001"
   category: WPT reftest
+  title: css/css-image-animation/image-animation-background-paused-late-add.html
+  file: css/css-image-animation/image-animation-background-paused-late-add.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused-late-add.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused-late-add.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-image-animation/image-animation-background-paused-late-add-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-image-animation/image-animation-background-paused-late-add-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-image-animation/image-animation-background-paused-late-add-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused-late-add-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-image-animation/image-animation-background-paused-late-add-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused-late-add-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0002"
+  category: WPT reftest
   title: css/css-image-animation/image-animation-background-paused-rounded.html
   file: css/css-image-animation/image-animation-background-paused-rounded.html
   type: difference
@@ -21,11 +48,7 @@
       referenceFile: css/css-image-animation/image-animation-background-paused-rounded-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused-rounded-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-image-animation/image-animation-background-paused-rounded-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused-rounded-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0002"
+- id: "0003"
   category: WPT reftest
   title: css/css-image-animation/image-animation-background-paused.tentative.html
   file: css/css-image-animation/image-animation-background-paused.tentative.html
@@ -52,7 +75,7 @@
       referenceFile: css/css-image-animation/image-animation-background-paused.tentative-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-background-paused.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0003"
+- id: "0004"
   category: WPT reftest
   title: css/css-image-animation/image-animation-background-stopped.tentative.html
   file: css/css-image-animation/image-animation-background-stopped.tentative.html
@@ -79,7 +102,7 @@
       referenceFile: css/css-image-animation/image-animation-background-stopped.tentative-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-background-stopped.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0005"
+- id: "0006"
   category: WPT reftest
   title: css/css-image-animation/image-animation-body-background-root-propagation-paused.html
   file: css/css-image-animation/image-animation-body-background-root-propagation-paused.html
@@ -106,7 +129,34 @@
       referenceFile: css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-root-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0006"
+- id: "0007"
+  category: WPT reftest
+  title: css/css-image-animation/image-animation-display-none-reset.tentative.html
+  file: css/css-image-animation/image-animation-display-none-reset.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-display-none-reset.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-display-none-reset.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-image-animation/image-animation-display-none-reset.tentative-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-image-animation/image-animation-display-none-reset.tentative-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-image-animation/image-animation-display-none-reset.tentative-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-display-none-reset.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-image-animation/image-animation-display-none-reset.tentative-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-display-none-reset.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0008"
   category: WPT reftest
   title: css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html
   file: css/css-image-animation/image-animation-img-paused-normal-mixed.tentative.html
@@ -133,7 +183,7 @@
       referenceFile: css/css-image-animation/image-animation-img-paused-normal-mixed.tentative-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused-normal-mixed.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0007"
+- id: "0009"
   category: WPT reftest
   title: css/css-image-animation/image-animation-img-paused.tentative.html
   file: css/css-image-animation/image-animation-img-paused.tentative.html
@@ -160,7 +210,7 @@
       referenceFile: css/css-image-animation/image-animation-img-paused.tentative-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-paused.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0008"
+- id: "0010"
   category: WPT reftest
   title: css/css-image-animation/image-animation-img-running-to-normal.tentative.html
   file: css/css-image-animation/image-animation-img-running-to-normal.tentative.html
@@ -187,7 +237,7 @@
       referenceFile: css/css-image-animation/image-animation-img-running-to-normal.tentative-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-to-normal.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0009"
+- id: "0011"
   category: WPT reftest
   title: css/css-image-animation/image-animation-img-running.tentative.html
   file: css/css-image-animation/image-animation-img-running.tentative.html
@@ -214,7 +264,7 @@
       referenceFile: css/css-image-animation/image-animation-img-running.tentative-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-running.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0010"
+- id: "0012"
   category: WPT reftest
   title: css/css-image-animation/image-animation-img-stopped.tentative.html
   file: css/css-image-animation/image-animation-img-stopped.tentative.html
@@ -241,7 +291,7 @@
       referenceFile: css/css-image-animation/image-animation-img-stopped.tentative-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0011"
+- id: "0013"
   category: WPT reftest
   title: css/css-image-animation/image-animation-paused-exact-frame.tentative.html
   file: css/css-image-animation/image-animation-paused-exact-frame.tentative.html
@@ -268,7 +318,7 @@
       referenceFile: css/css-image-animation/image-animation-paused-exact-frame.tentative-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0012"
+- id: "0014"
   category: WPT reftest
   title: css/css-image-animation/image-animation-pseudo-animated-image.tentative.html
   file: css/css-image-animation/image-animation-pseudo-animated-image.tentative.html
@@ -295,7 +345,7 @@
       referenceFile: css/css-image-animation/image-animation-pseudo-animated-image.tentative-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0013"
+- id: "0015"
   category: WPT reftest
   title: css/css-image-animation/image-animation-repeat-background-paused.html
   file: css/css-image-animation/image-animation-repeat-background-paused.html
@@ -322,7 +372,7 @@
       referenceFile: css/css-image-animation/image-animation-repeat-background-paused-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0015"
+- id: "0017"
   category: WPT reftest
   title: css/css-image-animation/image-animation-root-background-paused.html
   file: css/css-image-animation/image-animation-root-background-paused.html
@@ -349,7 +399,7 @@
       referenceFile: css/css-image-animation/image-animation-root-background-paused-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0016"
+- id: "0018"
   category: WPT reftest
   title: css/css-image-animation/image-animation-stopped-reset-frame.tentative.html
   file: css/css-image-animation/image-animation-stopped-reset-frame.tentative.html
@@ -376,7 +426,7 @@
       referenceFile: css/css-image-animation/image-animation-stopped-reset-frame.tentative-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0017"
+- id: "0019"
   category: WPT reftest
   title: css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html
   file: css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html
@@ -403,7 +453,7 @@
       referenceFile: css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0018"
+- id: "0020"
   category: WPT reftest
   title: css/css-image-animation/image-animation-video-poster-paused.html
   file: css/css-image-animation/image-animation-video-poster-paused.html
@@ -422,15 +472,11 @@
   diffPages:
     - css/css-image-animation/image-animation-video-poster-paused-ref.html#1
   referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-image-animation/image-animation-video-poster-paused-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/css-image-animation/image-animation-video-poster-paused-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0019"
+- id: "0021"
   category: WPT reftest
   title: css/css-image-animation/image-animation-video-poster-running.html
   file: css/css-image-animation/image-animation-video-poster-running.html
@@ -457,7 +503,7 @@
       referenceFile: css/css-image-animation/image-animation-video-poster-running-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0020"
+- id: "0022"
   category: WPT reftest
   title: css/css-image-animation/image-animation-video-poster-stopped.html
   file: css/css-image-animation/image-animation-video-poster-stopped.html

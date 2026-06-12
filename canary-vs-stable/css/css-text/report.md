@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1496
-- Entries with differences: 435 (improvement: 1, pending: 434, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 437 (pending: 437, triaged: 0)
+- Entries with errors: 4 (pending: 4, triaged: 0)
+- Timeout entries: 4
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":1058,"known-fail":434,"error":1,"improvement":1,"unchanged":2}
+- Outcome summary: {"pass":1056,"known-fail":435,"regression":2,"error":1,"unchanged":2}
 
 ## Differences
 
@@ -1980,6 +1980,12 @@
   stable page 1: diffRatio=0.00020990764063811922, diffPixels=176
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/tab-size/tab-size-spacing-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0623] [WPT reftest] css/css-text/text-align/text-align-end-010.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-align/text-align-end-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-align/text-align-end-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0646] [WPT reftest] css/css-text/text-align/text-align-justify-tabs-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -2131,10 +2137,6 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-align/text-align-match-parent-02.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0007537592550187008, diffPixels=632
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-align/text-align-match-parent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-align/text-align-match-parent-02.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007537592550187008, diffPixels=632
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-align/text-align-match-parent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0670] [WPT reftest] css/css-text/text-align/text-align-match-parent-03.html
   triage: pending
@@ -3092,7 +3094,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-tailoring-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-tailoring-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0012212808182581482, diffPixels=1024
+  stable page 1: diffRatio=0.001209354247767346, diffPixels=1014
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-tailoring-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0896] [WPT reftest] css/css-text/text-transform/text-transform-upperlower-016.html
@@ -4499,6 +4501,19 @@
   stable page 1: diffRatio=0.00011210976261354095, diffPixels=94
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [1139] [WPT reftest] css/css-text/white-space/pre-wrap-leading-spaces-004.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0009505476681169377, diffPixels=797
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0009505476681169377, diffPixels=797
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [1140] [WPT reftest] css/css-text/white-space/pre-wrap-leading-spaces-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -4514,12 +4529,16 @@
 
 - [1141] [WPT reftest] css/css-text/white-space/pre-wrap-leading-spaces-006.html
   triage: pending
-  outcome: known-fail (baseline=ERROR, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0009505476681169377, diffPixels=797
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0009505476681169377, diffPixels=797
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1142] [WPT reftest] css/css-text/white-space/pre-wrap-leading-spaces-007.html
   triage: pending
@@ -4663,12 +4682,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/text-wrap-balance-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0019309117624608809, diffPixels=1619
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/text-wrap-balance-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1172] [WPT reftest] css/css-text/white-space/text-wrap-balance-005.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/text-wrap-balance-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/text-wrap-balance-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1181] [WPT reftest] css/css-text/white-space/text-wrap-balance-float-005.html
   triage: pending
@@ -4876,6 +4889,12 @@
   stable reference render (css/css-text/white-space/reference/trailing-ideographic-space-011-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-ideographic-space-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1 (css/css-text/white-space/reference/trailing-ideographic-space-alt-011-ref.html): diffRatio=0.0032225593466147623, diffPixels=2702
   stable reference render (css/css-text/white-space/reference/trailing-ideographic-space-alt-011-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-ideographic-space-alt-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1225] [WPT reftest] css/css-text/white-space/trailing-ideographic-space-017.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/trailing-ideographic-space-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/trailing-ideographic-space-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1240] [WPT reftest] css/css-text/white-space/trailing-ideographic-space-break-spaces-007.html
   triage: pending
@@ -5783,19 +5802,38 @@
 
 ## Errors
 
-- [1139] [WPT reftest] css/css-text/white-space/pre-wrap-leading-spaces-004.html
+- [0623] [WPT reftest] css/css-text/text-align/text-align-end-010.html
+  triage: pending
+  side: canary-reference
+  reference: css/css-text/text-align/reference/text-align-end-ref-010.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-align/text-align-end-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-align/reference/text-align-end-ref-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0669] [WPT reftest] css/css-text/text-align/text-align-match-parent-02.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-text/text-align/text-align-match-parent-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-align/text-align-match-parent-02.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-align/text-align-match-parent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1225] [WPT reftest] css/css-text/white-space/trailing-ideographic-space-017.html
+  triage: pending
+  side: canary-reference
+  reference: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/trailing-ideographic-space-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1262] [WPT reftest] css/css-text/white-space/trailing-other-space-separators-break-spaces-014.html
   triage: pending
   side: canary
-  timeout: false
-  error: Error: Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-text/white-space/pre-wrap-leading-spaces-004.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1141] [WPT reftest] css/css-text/white-space/pre-wrap-leading-spaces-006.html
-  triage: pending
-  side: stable
-  timeout: false
-  error: Error: Viewer error: Failed to load https://raw.githack.com/web-platform-tests/wpt/master/css/css-text/white-space/pre-wrap-leading-spaces-006.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/trailing-other-space-separators-break-spaces-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/trailing-other-space-separators-break-spaces-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

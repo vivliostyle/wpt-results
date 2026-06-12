@@ -1,3 +1,17 @@
+- id: "0034"
+  category: WPT reftest
+  title: css/css-flexbox/align-content-001.htm
+  file: css/css-flexbox/align-content-001.htm
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/align-content-001.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/align-content-001.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0053"
   category: WPT reftest
   title: css/css-flexbox/align-items-006.html
@@ -673,33 +687,6 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0124"
-  category: WPT reftest
-  title: css/css-flexbox/balance/balance-line-count-intrinsic-007.html
-  file: css/css-flexbox/balance/balance-line-count-intrinsic-007.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/balance/balance-line-count-intrinsic-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/balance/balance-line-count-intrinsic-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/reference/ref-filled-green-100px-square.xht
-  relation: "=="
-  diffPages:
-    - css/reference/ref-filled-green-100px-square.xht#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/reference/ref-filled-green-100px-square.xht
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/reference/ref-filled-green-100px-square.xht
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0125"
   category: WPT reftest
   title: css/css-flexbox/balance/balance-min-line-count-001.html
@@ -1132,7 +1119,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0204"
+- id: "0205"
   category: WPT reftest
   title: css/css-flexbox/flex-aspect-ratio-img-column-010.html
   file: css/css-flexbox/flex-aspect-ratio-img-column-010.html
@@ -1159,7 +1146,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0244"
+- id: "0246"
   category: WPT reftest
   title: css/css-flexbox/flex-container-max-content-001.html
   file: css/css-flexbox/flex-container-max-content-001.html
@@ -1186,34 +1173,7 @@
       referenceFile: css/css-flexbox/flex-container-max-content-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-container-max-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0245"
-  category: WPT reftest
-  title: css/css-flexbox/flex-container-min-content-001.html
-  file: css/css-flexbox/flex-container-min-content-001.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-container-min-content-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-container-min-content-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-flexbox/flex-container-min-content-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-flexbox/flex-container-min-content-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-flexbox/flex-container-min-content-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-container-min-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-flexbox/flex-container-min-content-001-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-container-min-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0250"
+- id: "0252"
   category: WPT reftest
   title: css/css-flexbox/flex-direction-row-reverse.html
   file: css/css-flexbox/flex-direction-row-reverse.html
@@ -1240,7 +1200,7 @@
       referenceFile: css/css-flexbox/reference/flex-direction-row-reverse-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/reference/flex-direction-row-reverse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0252"
+- id: "0254"
   category: WPT reftest
   title: css/css-flexbox/flex-direction-with-element-insert.html
   file: css/css-flexbox/flex-direction-with-element-insert.html
@@ -1268,7 +1228,7 @@
       referenceFile: css/css-flexbox/reference/flex-direction-with-element-insert.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/reference/flex-direction-with-element-insert.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0282"
+- id: "0284"
   category: WPT reftest
   title: css/css-flexbox/flex-item-max-width-min-content.html
   file: css/css-flexbox/flex-item-max-width-min-content.html
@@ -1295,7 +1255,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0285"
+- id: "0287"
   category: WPT reftest
   title: css/css-flexbox/flex-item-min-width-min-content.html
   file: css/css-flexbox/flex-item-min-width-min-content.html
@@ -1322,7 +1282,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0359"
+- id: "0361"
   category: WPT reftest
   title: css/css-flexbox/flexbox-align-self-baseline-horiz-001a.xhtml
   file: css/css-flexbox/flexbox-align-self-baseline-horiz-001a.xhtml
@@ -1349,7 +1309,7 @@
       referenceFile: css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0360"
+- id: "0362"
   category: WPT reftest
   title: css/css-flexbox/flexbox-align-self-baseline-horiz-001b.xhtml
   file: css/css-flexbox/flexbox-align-self-baseline-horiz-001b.xhtml
@@ -1376,7 +1336,7 @@
       referenceFile: css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0367"
+- id: "0369"
   category: WPT reftest
   title: css/css-flexbox/flexbox-align-self-baseline-horiz-008.xhtml
   file: css/css-flexbox/flexbox-align-self-baseline-horiz-008.xhtml
@@ -1403,7 +1363,7 @@
       referenceFile: css/css-flexbox/flexbox-align-self-baseline-horiz-008-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-baseline-horiz-008-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0371"
+- id: "0373"
   category: WPT reftest
   title: css/css-flexbox/flexbox-align-self-horiz-003.xhtml
   file: css/css-flexbox/flexbox-align-self-horiz-003.xhtml
@@ -1430,7 +1390,7 @@
       referenceFile: css/css-flexbox/flexbox-align-self-horiz-003-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-horiz-003-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0377"
+- id: "0379"
   category: WPT reftest
   title: css/css-flexbox/flexbox-align-self-vert-002.xhtml
   file: css/css-flexbox/flexbox-align-self-vert-002.xhtml
@@ -1457,7 +1417,7 @@
       referenceFile: css/css-flexbox/flexbox-align-self-vert-002-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-002-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0378"
+- id: "0380"
   category: WPT reftest
   title: css/css-flexbox/flexbox-align-self-vert-003.xhtml
   file: css/css-flexbox/flexbox-align-self-vert-003.xhtml
@@ -1484,7 +1444,7 @@
       referenceFile: css/css-flexbox/flexbox-align-self-vert-003-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-003-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0379"
+- id: "0381"
   category: WPT reftest
   title: css/css-flexbox/flexbox-align-self-vert-004.xhtml
   file: css/css-flexbox/flexbox-align-self-vert-004.xhtml
@@ -1511,7 +1471,7 @@
       referenceFile: css/css-flexbox/flexbox-align-self-vert-004-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-004-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0381"
+- id: "0383"
   category: WPT reftest
   title: css/css-flexbox/flexbox-align-self-vert-rtl-002.xhtml
   file: css/css-flexbox/flexbox-align-self-vert-rtl-002.xhtml
@@ -1538,7 +1498,7 @@
       referenceFile: css/css-flexbox/flexbox-align-self-vert-rtl-002-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-rtl-002-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0383"
+- id: "0385"
   category: WPT reftest
   title: css/css-flexbox/flexbox-align-self-vert-rtl-004.xhtml
   file: css/css-flexbox/flexbox-align-self-vert-rtl-004.xhtml
@@ -1565,7 +1525,7 @@
       referenceFile: css/css-flexbox/flexbox-align-self-vert-rtl-004-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-rtl-004-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0384"
+- id: "0386"
   category: WPT reftest
   title: css/css-flexbox/flexbox-align-self-vert-rtl-005.xhtml
   file: css/css-flexbox/flexbox-align-self-vert-rtl-005.xhtml
@@ -1592,7 +1552,7 @@
       referenceFile: css/css-flexbox/flexbox-align-self-vert-rtl-005-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-rtl-005-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0409"
+- id: "0411"
   category: WPT reftest
   title: css/css-flexbox/flexbox-basic-canvas-vert-001.xhtml
   file: css/css-flexbox/flexbox-basic-canvas-vert-001.xhtml
@@ -1619,7 +1579,7 @@
       referenceFile: css/css-flexbox/flexbox-basic-canvas-vert-001-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-basic-canvas-vert-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0410"
+- id: "0412"
   category: WPT reftest
   title: css/css-flexbox/flexbox-basic-canvas-vert-001v.xhtml
   file: css/css-flexbox/flexbox-basic-canvas-vert-001v.xhtml
@@ -1646,7 +1606,7 @@
       referenceFile: css/css-flexbox/flexbox-basic-canvas-vert-001-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-basic-canvas-vert-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0414"
+- id: "0416"
   category: WPT reftest
   title: css/css-flexbox/flexbox-basic-iframe-vert-001.xhtml
   file: css/css-flexbox/flexbox-basic-iframe-vert-001.xhtml
@@ -1673,7 +1633,7 @@
       referenceFile: css/css-flexbox/flexbox-basic-iframe-vert-001-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-basic-iframe-vert-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0416"
+- id: "0418"
   category: WPT reftest
   title: css/css-flexbox/flexbox-basic-img-vert-001.xhtml
   file: css/css-flexbox/flexbox-basic-img-vert-001.xhtml
@@ -1700,7 +1660,7 @@
       referenceFile: css/css-flexbox/flexbox-basic-img-vert-001-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-basic-img-vert-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0418"
+- id: "0420"
   category: WPT reftest
   title: css/css-flexbox/flexbox-basic-textarea-vert-001.xhtml
   file: css/css-flexbox/flexbox-basic-textarea-vert-001.xhtml
@@ -1727,7 +1687,7 @@
       referenceFile: css/css-flexbox/flexbox-basic-textarea-vert-001-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-basic-textarea-vert-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0420"
+- id: "0422"
   category: WPT reftest
   title: css/css-flexbox/flexbox-basic-video-vert-001.xhtml
   file: css/css-flexbox/flexbox-basic-video-vert-001.xhtml
@@ -1754,7 +1714,7 @@
       referenceFile: css/css-flexbox/flexbox-basic-video-vert-001-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-basic-video-vert-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0429"
+- id: "0431"
   category: WPT reftest
   title: css/css-flexbox/flexbox-collapsed-item-baseline-001.html
   file: css/css-flexbox/flexbox-collapsed-item-baseline-001.html
@@ -1781,7 +1741,7 @@
       referenceFile: css/css-flexbox/flexbox-collapsed-item-baseline-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-collapsed-item-baseline-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0430"
+- id: "0432"
   category: WPT reftest
   title: css/css-flexbox/flexbox-collapsed-item-horiz-001.html
   file: css/css-flexbox/flexbox-collapsed-item-horiz-001.html
@@ -1808,7 +1768,7 @@
       referenceFile: css/css-flexbox/flexbox-collapsed-item-horiz-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-collapsed-item-horiz-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0431"
+- id: "0433"
   category: WPT reftest
   title: css/css-flexbox/flexbox-collapsed-item-horiz-002.html
   file: css/css-flexbox/flexbox-collapsed-item-horiz-002.html
@@ -1835,7 +1795,7 @@
       referenceFile: css/css-flexbox/flexbox-collapsed-item-horiz-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-collapsed-item-horiz-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0432"
+- id: "0434"
   category: WPT reftest
   title: css/css-flexbox/flexbox-collapsed-item-horiz-003.html
   file: css/css-flexbox/flexbox-collapsed-item-horiz-003.html
@@ -1862,7 +1822,7 @@
       referenceFile: css/css-flexbox/flexbox-collapsed-item-horiz-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-collapsed-item-horiz-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0444"
+- id: "0446"
   category: WPT reftest
   title: css/css-flexbox/flexbox-dyn-resize-001.html
   file: css/css-flexbox/flexbox-dyn-resize-001.html
@@ -1889,7 +1849,7 @@
       referenceFile: css/css-flexbox/flexbox-dyn-resize-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-dyn-resize-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0449"
+- id: "0451"
   category: WPT reftest
   title: css/css-flexbox/flexbox-flex-basis-content-003a.html
   file: css/css-flexbox/flexbox-flex-basis-content-003a.html
@@ -1916,7 +1876,7 @@
       referenceFile: css/css-flexbox/flexbox-flex-basis-content-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-flex-basis-content-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0450"
+- id: "0452"
   category: WPT reftest
   title: css/css-flexbox/flexbox-flex-basis-content-003b.html
   file: css/css-flexbox/flexbox-flex-basis-content-003b.html
@@ -1943,7 +1903,7 @@
       referenceFile: css/css-flexbox/flexbox-flex-basis-content-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-flex-basis-content-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0451"
+- id: "0453"
   category: WPT reftest
   title: css/css-flexbox/flexbox-flex-basis-content-004a.html
   file: css/css-flexbox/flexbox-flex-basis-content-004a.html
@@ -1970,7 +1930,7 @@
       referenceFile: css/css-flexbox/flexbox-flex-basis-content-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-flex-basis-content-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0452"
+- id: "0454"
   category: WPT reftest
   title: css/css-flexbox/flexbox-flex-basis-content-004b.html
   file: css/css-flexbox/flexbox-flex-basis-content-004b.html
@@ -1997,7 +1957,7 @@
       referenceFile: css/css-flexbox/flexbox-flex-basis-content-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-flex-basis-content-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0466"
+- id: "0468"
   category: WPT reftest
   title: css/css-flexbox/flexbox-flex-wrap-horiz-002.html
   file: css/css-flexbox/flexbox-flex-wrap-horiz-002.html
@@ -2024,7 +1984,7 @@
       referenceFile: css/css-flexbox/flexbox-flex-wrap-horiz-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-flex-wrap-horiz-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0469"
+- id: "0471"
   category: WPT reftest
   title: css/css-flexbox/flexbox-flex-wrap-vert-002.html
   file: css/css-flexbox/flexbox-flex-wrap-vert-002.html
@@ -2051,7 +2011,7 @@
       referenceFile: css/css-flexbox/flexbox-flex-wrap-vert-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-flex-wrap-vert-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0474"
+- id: "0476"
   category: WPT reftest
   title: css/css-flexbox/flexbox-items-as-stacking-contexts-001.xhtml
   file: css/css-flexbox/flexbox-items-as-stacking-contexts-001.xhtml
@@ -2078,7 +2038,7 @@
       referenceFile: css/css-flexbox/flexbox-items-as-stacking-contexts-001-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-items-as-stacking-contexts-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0478"
+- id: "0480"
   category: WPT reftest
   title: css/css-flexbox/flexbox-justify-content-horiz-001b.xhtml
   file: css/css-flexbox/flexbox-justify-content-horiz-001b.xhtml
@@ -2105,7 +2065,7 @@
       referenceFile: css/css-flexbox/flexbox-justify-content-horiz-001-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-justify-content-horiz-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0481"
+- id: "0483"
   category: WPT reftest
   title: css/css-flexbox/flexbox-justify-content-horiz-004.xhtml
   file: css/css-flexbox/flexbox-justify-content-horiz-004.xhtml
@@ -2132,7 +2092,7 @@
       referenceFile: css/css-flexbox/flexbox-justify-content-horiz-004-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-justify-content-horiz-004-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0488"
+- id: "0490"
   category: WPT reftest
   title: css/css-flexbox/flexbox-justify-content-vert-004.xhtml
   file: css/css-flexbox/flexbox-justify-content-vert-004.xhtml
@@ -2159,7 +2119,7 @@
       referenceFile: css/css-flexbox/flexbox-justify-content-vert-004-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-justify-content-vert-004-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0489"
+- id: "0491"
   category: WPT reftest
   title: css/css-flexbox/flexbox-justify-content-vert-005.xhtml
   file: css/css-flexbox/flexbox-justify-content-vert-005.xhtml
@@ -2186,7 +2146,7 @@
       referenceFile: css/css-flexbox/flexbox-justify-content-vert-005-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-justify-content-vert-005-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0491"
+- id: "0493"
   category: WPT reftest
   title: css/css-flexbox/flexbox-justify-content-wmvert-001.xhtml
   file: css/css-flexbox/flexbox-justify-content-wmvert-001.xhtml
@@ -2213,7 +2173,21 @@
       referenceFile: css/css-flexbox/flexbox-justify-content-wmvert-001-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-justify-content-wmvert-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0517"
+- id: "0505"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-mbp-horiz-003v.xhtml
+  file: css/css-flexbox/flexbox-mbp-horiz-003v.xhtml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-mbp-horiz-003v.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-mbp-horiz-003v.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0519"
   category: WPT reftest
   title: css/css-flexbox/flexbox-order-only-flexitems.html
   file: css/css-flexbox/flexbox-order-only-flexitems.html
@@ -2240,7 +2214,7 @@
       referenceFile: css/css-flexbox/reference/flexbox-order-only-flexitems-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/reference/flexbox-order-only-flexitems-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0546"
+- id: "0548"
   category: WPT reftest
   title: css/css-flexbox/flexbox-sizing-vert-001.xhtml
   file: css/css-flexbox/flexbox-sizing-vert-001.xhtml
@@ -2267,7 +2241,7 @@
       referenceFile: css/css-flexbox/flexbox-sizing-vert-001-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-sizing-vert-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0566"
+- id: "0568"
   category: WPT reftest
   title: css/css-flexbox/flexbox-writing-mode-010.html
   file: css/css-flexbox/flexbox-writing-mode-010.html
@@ -2294,7 +2268,7 @@
       referenceFile: css/css-flexbox/flexbox-writing-mode-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-writing-mode-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0567"
+- id: "0569"
   category: WPT reftest
   title: css/css-flexbox/flexbox-writing-mode-011.html
   file: css/css-flexbox/flexbox-writing-mode-011.html
@@ -2321,7 +2295,7 @@
       referenceFile: css/css-flexbox/flexbox-writing-mode-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-writing-mode-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0568"
+- id: "0570"
   category: WPT reftest
   title: css/css-flexbox/flexbox-writing-mode-012.html
   file: css/css-flexbox/flexbox-writing-mode-012.html
@@ -2348,7 +2322,7 @@
       referenceFile: css/css-flexbox/flexbox-writing-mode-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-writing-mode-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0569"
+- id: "0571"
   category: WPT reftest
   title: css/css-flexbox/flexbox-writing-mode-013.html
   file: css/css-flexbox/flexbox-writing-mode-013.html
@@ -2375,7 +2349,35 @@
       referenceFile: css/css-flexbox/flexbox-writing-mode-013-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-writing-mode-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0755"
+- id: "0628"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox_flex-0-1-0-unitless.html
+  file: css/css-flexbox/flexbox_flex-0-1-0-unitless.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-0-unitless.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-0-unitless.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0712"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox_flex-natural-variable-zero-basis.html
+  file: css/css-flexbox/flexbox_flex-natural-variable-zero-basis.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-natural-variable-zero-basis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-natural-variable-zero-basis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0757"
   category: WPT reftest
   title: css/css-flexbox/flexbox_order-box.html
   file: css/css-flexbox/flexbox_order-box.html
@@ -2402,7 +2404,7 @@
       referenceFile: css/css-flexbox/flexbox_order-box-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_order-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0774"
+- id: "0776"
   category: WPT reftest
   title: css/css-flexbox/flexbox_stf-table-singleline-2.html
   file: css/css-flexbox/flexbox_stf-table-singleline-2.html
@@ -2429,7 +2431,7 @@
       referenceFile: css/css-flexbox/flexbox_stf-table-singleline-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_stf-table-singleline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0775"
+- id: "0777"
   category: WPT reftest
   title: css/css-flexbox/flexbox_stf-table-singleline.html
   file: css/css-flexbox/flexbox_stf-table-singleline.html
@@ -2456,7 +2458,7 @@
       referenceFile: css/css-flexbox/flexbox_stf-table-singleline-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_stf-table-singleline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0778"
+- id: "0780"
   category: WPT reftest
   title: css/css-flexbox/flexbox_visibility-collapse-line-wrapping.html
   file: css/css-flexbox/flexbox_visibility-collapse-line-wrapping.html
@@ -2483,7 +2485,7 @@
       referenceFile: css/css-flexbox/flexbox_visibility-collapse-line-wrapping-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_visibility-collapse-line-wrapping-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0779"
+- id: "0781"
   category: WPT reftest
   title: css/css-flexbox/flexbox_visibility-collapse.html
   file: css/css-flexbox/flexbox_visibility-collapse.html
@@ -2510,7 +2512,7 @@
       referenceFile: css/css-flexbox/flexbox_visibility-collapse-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_visibility-collapse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0788"
+- id: "0790"
   category: WPT reftest
   title: css/css-flexbox/gap-001-lr.html
   file: css/css-flexbox/gap-001-lr.html
@@ -2537,7 +2539,7 @@
       referenceFile: css/css-flexbox/gap-001-lr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/gap-001-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0792"
+- id: "0794"
   category: WPT reftest
   title: css/css-flexbox/gap-002-lr.html
   file: css/css-flexbox/gap-002-lr.html
@@ -2564,7 +2566,7 @@
       referenceFile: css/css-flexbox/gap-002-lr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/gap-002-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0796"
+- id: "0798"
   category: WPT reftest
   title: css/css-flexbox/gap-003-lr.html
   file: css/css-flexbox/gap-003-lr.html
@@ -2591,7 +2593,7 @@
       referenceFile: css/css-flexbox/gap-003-lr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/gap-003-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0800"
+- id: "0802"
   category: WPT reftest
   title: css/css-flexbox/gap-004-lr.html
   file: css/css-flexbox/gap-004-lr.html
@@ -2618,7 +2620,7 @@
       referenceFile: css/css-flexbox/gap-004-lr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/gap-004-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0804"
+- id: "0806"
   category: WPT reftest
   title: css/css-flexbox/gap-005-lr.html
   file: css/css-flexbox/gap-005-lr.html
@@ -2645,7 +2647,7 @@
       referenceFile: css/css-flexbox/gap-005-lr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/gap-005-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0812"
+- id: "0814"
   category: WPT reftest
   title: css/css-flexbox/gap-007-lr.html
   file: css/css-flexbox/gap-007-lr.html
@@ -2672,7 +2674,34 @@
       referenceFile: css/css-flexbox/gap-007-lr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/gap-007-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0857"
+- id: "0830"
+  category: WPT reftest
+  title: css/css-flexbox/gap-collapse.html
+  file: css/css-flexbox/gap-collapse.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/gap-collapse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/gap-collapse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-flexbox/gap-collapse-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-flexbox/gap-collapse-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-flexbox/gap-collapse-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/gap-collapse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-flexbox/gap-collapse-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/gap-collapse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0861"
   category: WPT reftest
   title: css/css-flexbox/intrinsic-size/row-002.html
   file: css/css-flexbox/intrinsic-size/row-002.html
@@ -2699,7 +2728,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0858"
+- id: "0862"
   category: WPT reftest
   title: css/css-flexbox/intrinsic-size/row-003.html
   file: css/css-flexbox/intrinsic-size/row-003.html
@@ -2726,7 +2755,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0859"
+- id: "0863"
   category: WPT reftest
   title: css/css-flexbox/intrinsic-size/row-004.html
   file: css/css-flexbox/intrinsic-size/row-004.html
@@ -2753,7 +2782,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0877"
+- id: "0881"
   category: WPT reftest
   title: css/css-flexbox/multiline-shrink-to-fit.html
   file: css/css-flexbox/multiline-shrink-to-fit.html
@@ -2780,7 +2809,7 @@
       referenceFile: css/css-flexbox/reference/multiline-shrink-to-fit-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/reference/multiline-shrink-to-fit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0924"
+- id: "0928"
   category: WPT reftest
   title: css/css-flexbox/percentage-size-subitems-001.html
   file: css/css-flexbox/percentage-size-subitems-001.html
@@ -2823,7 +2852,7 @@
       referenceFile: css/css-flexbox/reference/percentage-size-subitems-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/reference/percentage-size-subitems-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0926"
+- id: "0930"
   category: WPT reftest
   title: css/css-flexbox/position-absolute-scrollbar-freeze.html
   file: css/css-flexbox/position-absolute-scrollbar-freeze.html
@@ -2850,7 +2879,7 @@
       referenceFile: css/css-flexbox/position-absolute-scrollbar-freeze-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/position-absolute-scrollbar-freeze-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0931"
+- id: "0935"
   category: WPT reftest
   title: css/css-flexbox/remove-wrapped-001.html
   file: css/css-flexbox/remove-wrapped-001.html
@@ -2877,7 +2906,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0937"
+- id: "0941"
   category: WPT reftest
   title: css/css-flexbox/select-element-zero-height-001.html
   file: css/css-flexbox/select-element-zero-height-001.html
@@ -2904,7 +2933,7 @@
       referenceFile: css/css-flexbox/select-element-zero-height-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/select-element-zero-height-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0993"
+- id: "0997"
   category: WPT print-reftest
   title: css/css-flexbox/inline-flexbox-vertical-rl-image-flexitem-crash-print.html
   file: css/css-flexbox/inline-flexbox-vertical-rl-image-flexitem-crash-print.html
@@ -2931,7 +2960,109 @@
       referenceFile: common/blank.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/common/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0891"
+- id: "0055"
+  category: WPT reftest
+  title: css/css-flexbox/align-items-008.html
+  file: css/css-flexbox/align-items-008.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/align-items-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/align-items-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0078"
+  category: WPT reftest
+  title: css/css-flexbox/anonymous-flex-item-004.html
+  file: css/css-flexbox/anonymous-flex-item-004.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/anonymous-flex-item-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/anonymous-flex-item-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0124"
+  category: WPT reftest
+  title: css/css-flexbox/balance/balance-line-count-intrinsic-007.html
+  file: css/css-flexbox/balance/balance-line-count-intrinsic-007.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/balance/balance-line-count-intrinsic-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/balance/balance-line-count-intrinsic-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0247"
+  category: WPT reftest
+  title: css/css-flexbox/flex-container-min-content-001.html
+  file: css/css-flexbox/flex-container-min-content-001.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-container-min-content-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-container-min-content-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0297"
+  category: WPT reftest
+  title: css/css-flexbox/flex-lines/multi-line-wrap-with-row-reverse.html
+  file: css/css-flexbox/flex-lines/multi-line-wrap-with-row-reverse.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-lines/multi-line-wrap-with-row-reverse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-lines/multi-line-wrap-with-row-reverse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0566"
+  category: WPT reftest
+  title: css/css-flexbox/flexbox-writing-mode-008.html
+  file: css/css-flexbox/flexbox-writing-mode-008.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-writing-mode-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-writing-mode-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0895"
   category: WPT reftest
   title: css/css-flexbox/overflow-auto-005.html
   file: css/css-flexbox/overflow-auto-005.html

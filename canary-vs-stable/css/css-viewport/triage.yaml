@@ -567,6 +567,33 @@
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/reference/margin-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0049"
   category: WPT reftest
+  title: css/css-viewport/zoom/matrix-zoom-anim.html
+  file: css/css-viewport/zoom/matrix-zoom-anim.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/matrix-zoom-anim.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/matrix-zoom-anim.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-viewport/zoom/matrix-zoom-anim-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-viewport/zoom/matrix-zoom-anim-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-viewport/zoom/matrix-zoom-anim-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/matrix-zoom-anim-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-viewport/zoom/matrix-zoom-anim-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/matrix-zoom-anim-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0052"
+  category: WPT reftest
   title: css/css-viewport/zoom/relative-units-from-parent.html
   file: css/css-viewport/zoom/relative-units-from-parent.html
   type: difference
@@ -592,7 +619,7 @@
       referenceFile: css/css-viewport/zoom/relative-units-from-parent-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/relative-units-from-parent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0053"
+- id: "0056"
   category: WPT reftest
   title: css/css-viewport/zoom/svg-font-relative-units.html
   file: css/css-viewport/zoom/svg-font-relative-units.html
@@ -615,11 +642,7 @@
       referenceFile: css/css-viewport/zoom/svg-font-relative-units-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-viewport/zoom/svg-font-relative-units-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-viewport/zoom/svg-font-relative-units-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/svg-font-relative-units-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0060"
+- id: "0063"
   category: WPT reftest
   title: css/css-viewport/zoom/text-decoration-thickness.html
   file: css/css-viewport/zoom/text-decoration-thickness.html
@@ -646,7 +669,7 @@
       referenceFile: css/css-viewport/zoom/reference/text-decoration-thickness-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/reference/text-decoration-thickness-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0062"
+- id: "0065"
   category: WPT reftest
   title: css/css-viewport/zoom/text-indent.html
   file: css/css-viewport/zoom/text-indent.html
@@ -673,7 +696,7 @@
       referenceFile: css/css-viewport/zoom/reference/text-indent-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/reference/text-indent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0063"
+- id: "0066"
   category: WPT reftest
   title: css/css-viewport/zoom/text-shadow.html
   file: css/css-viewport/zoom/text-shadow.html
@@ -700,7 +723,7 @@
       referenceFile: css/css-viewport/zoom/reference/text-shadow-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/reference/text-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0064"
+- id: "0067"
   category: WPT reftest
   title: css/css-viewport/zoom/text-stroke-width.html
   file: css/css-viewport/zoom/text-stroke-width.html
@@ -727,7 +750,7 @@
       referenceFile: css/css-viewport/zoom/reference/text-stroke-width-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/reference/text-stroke-width-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0065"
+- id: "0068"
   category: WPT reftest
   title: css/css-viewport/zoom/text-underline-offset.html
   file: css/css-viewport/zoom/text-underline-offset.html
@@ -754,7 +777,7 @@
       referenceFile: css/css-viewport/zoom/reference/text-underline-offset-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/reference/text-underline-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0066"
+- id: "0069"
   category: WPT reftest
   title: css/css-viewport/zoom/word-spacing.html
   file: css/css-viewport/zoom/word-spacing.html
@@ -781,7 +804,7 @@
       referenceFile: css/css-viewport/zoom/reference/word-spacing-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-viewport/zoom/reference/word-spacing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0068"
+- id: "0071"
   category: WPT reftest
   title: css/css-viewport/zoom/zoom-pseudo-image.html
   file: css/css-viewport/zoom/zoom-pseudo-image.html

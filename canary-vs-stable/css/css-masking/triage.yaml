@@ -1245,7 +1245,7 @@
       referenceFile: css/css-masking/clip-path/animations/two-clip-path-animation-diff-length3-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/two-clip-path-animation-diff-length3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0118"
+- id: "0119"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-circle-farthest-corner.html
   file: css/css-masking/clip-path/clip-path-circle-farthest-corner.html
@@ -1272,7 +1272,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-circle-4-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-circle-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0120"
+- id: "0121"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-columns-shape-002.html
   file: css/css-masking/clip-path/clip-path-columns-shape-002.html
@@ -1299,7 +1299,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-columns-shape-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-columns-shape-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0124"
+- id: "0125"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-contentBox-1d.html
   file: css/css-masking/clip-path/clip-path-contentBox-1d.html
@@ -1326,7 +1326,7 @@
       referenceFile: css/css-masking/clip-path/reference/green-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0125"
+- id: "0126"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-contentBox-1e.html
   file: css/css-masking/clip-path/clip-path-contentBox-1e.html
@@ -1353,7 +1353,7 @@
       referenceFile: css/css-masking/clip-path/reference/green-circle-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-circle-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0126"
+- id: "0127"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-descendant-text-mutated-001.html
   file: css/css-masking/clip-path/clip-path-descendant-text-mutated-001.html
@@ -1380,7 +1380,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-descendant-text-mutated-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-descendant-text-mutated-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0127"
+- id: "0128"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-document-element-will-change.html
   file: css/css-masking/clip-path/clip-path-document-element-will-change.html
@@ -1407,7 +1407,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-document-element-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-document-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0128"
+- id: "0129"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-document-element.html
   file: css/css-masking/clip-path/clip-path-document-element.html
@@ -1434,7 +1434,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-document-element-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-document-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0129"
+- id: "0130"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-element-userSpaceOnUse-001.html
   file: css/css-masking/clip-path/clip-path-element-userSpaceOnUse-001.html
@@ -1461,7 +1461,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-rectangle-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-rectangle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0130"
+- id: "0131"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-element-userSpaceOnUse-002.html
   file: css/css-masking/clip-path/clip-path-element-userSpaceOnUse-002.html
@@ -1488,7 +1488,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-rectangle-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-rectangle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0131"
+- id: "0132"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-element-userSpaceOnUse-003.html
   file: css/css-masking/clip-path/clip-path-element-userSpaceOnUse-003.html
@@ -1515,7 +1515,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-ref-right-green-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-ref-right-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0132"
+- id: "0133"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-element-userSpaceOnUse-004.html
   file: css/css-masking/clip-path/clip-path-element-userSpaceOnUse-004.html
@@ -1542,7 +1542,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-ref-bottom-green-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-ref-bottom-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0141"
+- id: "0142"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-ellipse-closest-farthest-corner.html
   file: css/css-masking/clip-path/clip-path-ellipse-closest-farthest-corner.html
@@ -1569,7 +1569,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-ellipse-2-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-ellipse-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0146"
+- id: "0147"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-fixed-nested.html
   file: css/css-masking/clip-path/clip-path-fixed-nested.html
@@ -1596,7 +1596,7 @@
       referenceFile: css/css-masking/clip-path/clip-path-fixed-nested-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-fixed-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0148"
+- id: "0149"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-foreignobject-non-zero-xy.html
   file: css/css-masking/clip-path/clip-path-foreignobject-non-zero-xy.html
@@ -1623,7 +1623,7 @@
       referenceFile: css/css-masking/clip-path/reference/green-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0167"
+- id: "0168"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-mix-blend-mode-1.html
   file: css/css-masking/clip-path/clip-path-mix-blend-mode-1.html
@@ -1650,7 +1650,7 @@
       referenceFile: css/css-masking/clip-path/clip-path-mix-blend-mode-1-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-mix-blend-mode-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0168"
+- id: "0169"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-on-fixed-position-scroll.html
   file: css/css-masking/clip-path/clip-path-on-fixed-position-scroll.html
@@ -1677,7 +1677,7 @@
       referenceFile: css/css-masking/clip-path/clip-path-on-fixed-position-scroll-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-on-fixed-position-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0172"
+- id: "0173"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-paddingBox-1d.html
   file: css/css-masking/clip-path/clip-path-paddingBox-1d.html
@@ -1704,7 +1704,7 @@
       referenceFile: css/css-masking/clip-path/reference/green-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0173"
+- id: "0174"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-paddingBox-1e.html
   file: css/css-masking/clip-path/clip-path-paddingBox-1e.html
@@ -1731,7 +1731,7 @@
       referenceFile: css/css-masking/clip-path/reference/green-circle-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-circle-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0174"
+- id: "0175"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-path-001.html
   file: css/css-masking/clip-path/clip-path-path-001.html
@@ -1758,7 +1758,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-path-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0175"
+- id: "0176"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-path-002.html
   file: css/css-masking/clip-path/clip-path-path-002.html
@@ -1785,7 +1785,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-path-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0191"
+- id: "0192"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-polygon-014.html
   file: css/css-masking/clip-path/clip-path-polygon-014.html
@@ -1812,7 +1812,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-polygon-014-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-polygon-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0200"
+- id: "0201"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-reference-restore.html
   file: css/css-masking/clip-path/clip-path-reference-restore.html
@@ -1839,7 +1839,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-reference-restore-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-reference-restore-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0204"
+- id: "0205"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-scroll.html
   file: css/css-masking/clip-path/clip-path-scroll.html
@@ -1871,7 +1871,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-scroll-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0205"
+- id: "0206"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-shape-001.html
   file: css/css-masking/clip-path/clip-path-shape-001.html
@@ -1898,7 +1898,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-path-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0206"
+- id: "0207"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-shape-002-units.html
   file: css/css-masking/clip-path/clip-path-shape-002-units.html
@@ -1925,7 +1925,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-path-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0207"
+- id: "0208"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-shape-002.html
   file: css/css-masking/clip-path/clip-path-shape-002.html
@@ -1952,7 +1952,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-path-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0210"
+- id: "0211"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-shape-005.html
   file: css/css-masking/clip-path/clip-path-shape-005.html
@@ -1979,7 +1979,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-path-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0211"
+- id: "0212"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-shape-006.html
   file: css/css-masking/clip-path/clip-path-shape-006.html
@@ -2006,7 +2006,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-path-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0212"
+- id: "0213"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-shape-007.html
   file: css/css-masking/clip-path/clip-path-shape-007.html
@@ -2033,7 +2033,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-shape-control-points-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-shape-control-points-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0213"
+- id: "0214"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-shape-008.html
   file: css/css-masking/clip-path/clip-path-shape-008.html
@@ -2060,7 +2060,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-shape-control-points-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-shape-control-points-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0214"
+- id: "0215"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-shape-009.html
   file: css/css-masking/clip-path/clip-path-shape-009.html
@@ -2087,7 +2087,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-shape-control-points-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-shape-control-points-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0215"
+- id: "0216"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-shape-010.html
   file: css/css-masking/clip-path/clip-path-shape-010.html
@@ -2114,7 +2114,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-shape-control-points-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-shape-control-points-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0219"
+- id: "0220"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-shape-winding.html
   file: css/css-masking/clip-path/clip-path-shape-winding.html
@@ -2141,7 +2141,7 @@
       referenceFile: css/css-masking/clip-path/reference/clip-path-path-winding-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-winding-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0225"
+- id: "0226"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-svg-text-backdrop-filter.html
   file: css/css-masking/clip-path/clip-path-svg-text-backdrop-filter.html
@@ -2168,7 +2168,7 @@
       referenceFile: css/css-masking/clip-path/clip-path-svg-text-backdrop-filter-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-svg-text-backdrop-filter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0227"
+- id: "0228"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-svg-text-font-loading.html
   file: css/css-masking/clip-path/clip-path-svg-text-font-loading.html
@@ -2195,7 +2195,7 @@
       referenceFile: css/css-masking/clip-path/reference/green-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0232"
+- id: "0233"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-url-reference-empty-while-loading.tentative.html
   file: css/css-masking/clip-path/clip-path-url-reference-empty-while-loading.tentative.html
@@ -2218,7 +2218,7 @@
       referenceFile: css/css-masking/clip-path/reference/green-100x100.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0234"
+- id: "0235"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-url-reference-svg-foreignobject-zoomed.html
   file: css/css-masking/clip-path/clip-path-url-reference-svg-foreignobject-zoomed.html
@@ -2245,7 +2245,7 @@
       referenceFile: css/css-masking/clip-path/reference/green-100x100.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0235"
+- id: "0236"
   category: WPT reftest
   title: css/css-masking/clip-path/clip-path-url-reference-text-clip-no-inherit-after-remove.html
   file: css/css-masking/clip-path/clip-path-url-reference-text-clip-no-inherit-after-remove.html
@@ -2272,7 +2272,7 @@
       referenceFile: css/css-masking/clip-path/clip-path-url-reference-text-clip-no-inherit-after-remove-ref.html?force-repaint
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-url-reference-text-clip-no-inherit-after-remove-ref.html?force-repaint&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0243"
+- id: "0244"
   category: WPT reftest
   title: css/css-masking/clip-path/reference-local-url-with-base-001.html
   file: css/css-masking/clip-path/reference-local-url-with-base-001.html
@@ -2299,7 +2299,7 @@
       referenceFile: css/css-masking/clip-path/reference/reference-local-url-with-base-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/reference-local-url-with-base-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0249"
+- id: "0250"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-clip-nested-twice.svg
   file: css/css-masking/clip-path-svg-content/clip-path-clip-nested-twice.svg
@@ -2326,7 +2326,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0250"
+- id: "0251"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-clip-rule-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-clip-rule-001.svg
@@ -2353,7 +2353,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-hole-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-hole-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0251"
+- id: "0252"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-clip-rule-002.svg
   file: css/css-masking/clip-path-svg-content/clip-path-clip-rule-002.svg
@@ -2380,7 +2380,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0252"
+- id: "0253"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-clip-rule-003.svg
   file: css/css-masking/clip-path-svg-content/clip-path-clip-rule-003.svg
@@ -2407,7 +2407,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-hole-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-hole-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0253"
+- id: "0254"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-clip-rule-004.svg
   file: css/css-masking/clip-path-svg-content/clip-path-clip-rule-004.svg
@@ -2434,7 +2434,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0254"
+- id: "0255"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-clip-rule-005.svg
   file: css/css-masking/clip-path-svg-content/clip-path-clip-rule-005.svg
@@ -2461,7 +2461,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0255"
+- id: "0256"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-clip-rule-006.svg
   file: css/css-masking/clip-path-svg-content/clip-path-clip-rule-006.svg
@@ -2488,7 +2488,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0256"
+- id: "0257"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-clip-rule-007.svg
   file: css/css-masking/clip-path-svg-content/clip-path-clip-rule-007.svg
@@ -2515,7 +2515,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-003-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0257"
+- id: "0258"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-clip-rule-008.svg
   file: css/css-masking/clip-path-svg-content/clip-path-clip-rule-008.svg
@@ -2542,7 +2542,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-004-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-004-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0258"
+- id: "0259"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-clip-rule-009.svg
   file: css/css-masking/clip-path-svg-content/clip-path-clip-rule-009.svg
@@ -2569,7 +2569,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0259"
+- id: "0260"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-clip-rule-010.svg
   file: css/css-masking/clip-path-svg-content/clip-path-clip-rule-010.svg
@@ -2596,7 +2596,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0260"
+- id: "0261"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-clip.svg
   file: css/css-masking/clip-path-svg-content/clip-path-clip.svg
@@ -2623,7 +2623,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0261"
+- id: "0262"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-content-clip-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-content-clip-001.svg
@@ -2650,7 +2650,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0262"
+- id: "0263"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-content-clip-002.svg
   file: css/css-masking/clip-path-svg-content/clip-path-content-clip-002.svg
@@ -2677,7 +2677,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0263"
+- id: "0264"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-content-clip-003.svg
   file: css/css-masking/clip-path-svg-content/clip-path-content-clip-003.svg
@@ -2704,7 +2704,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0264"
+- id: "0265"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-content-clip-004.svg
   file: css/css-masking/clip-path-svg-content/clip-path-content-clip-004.svg
@@ -2731,7 +2731,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-content-clip-004-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-content-clip-004-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0265"
+- id: "0266"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-content-invisible.svg
   file: css/css-masking/clip-path-svg-content/clip-path-content-invisible.svg
@@ -2758,7 +2758,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0266"
+- id: "0267"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-content-syling.svg
   file: css/css-masking/clip-path-svg-content/clip-path-content-syling.svg
@@ -2785,7 +2785,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0267"
+- id: "0268"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-content-use-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-content-use-001.svg
@@ -2812,7 +2812,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0268"
+- id: "0269"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-content-use-002.svg
   file: css/css-masking/clip-path-svg-content/clip-path-content-use-002.svg
@@ -2839,7 +2839,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0269"
+- id: "0270"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-content-use-003.svg
   file: css/css-masking/clip-path-svg-content/clip-path-content-use-003.svg
@@ -2866,7 +2866,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0270"
+- id: "0271"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-content-use-004.svg
   file: css/css-masking/clip-path-svg-content/clip-path-content-use-004.svg
@@ -2893,7 +2893,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0271"
+- id: "0272"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-content-use-005.svg
   file: css/css-masking/clip-path-svg-content/clip-path-content-use-005.svg
@@ -2920,7 +2920,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0272"
+- id: "0273"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-content-use-006.svg
   file: css/css-masking/clip-path-svg-content/clip-path-content-use-006.svg
@@ -2947,7 +2947,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0273"
+- id: "0274"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-content-use-007.svg
   file: css/css-masking/clip-path-svg-content/clip-path-content-use-007.svg
@@ -2974,7 +2974,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0274"
+- id: "0275"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-css-transform-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-css-transform-001.svg
@@ -3001,7 +3001,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0275"
+- id: "0276"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-css-transform-002.svg
   file: css/css-masking/clip-path-svg-content/clip-path-css-transform-002.svg
@@ -3028,7 +3028,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0276"
+- id: "0277"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-css-transform-003.svg
   file: css/css-masking/clip-path-svg-content/clip-path-css-transform-003.svg
@@ -3055,7 +3055,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0277"
+- id: "0278"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-css-transform-004.svg
   file: css/css-masking/clip-path-svg-content/clip-path-css-transform-004.svg
@@ -3082,7 +3082,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0278"
+- id: "0279"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-dom-child-changes.svg
   file: css/css-masking/clip-path-svg-content/clip-path-dom-child-changes.svg
@@ -3109,7 +3109,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0279"
+- id: "0280"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-dom-clippathunits.svg
   file: css/css-masking/clip-path-svg-content/clip-path-dom-clippathunits.svg
@@ -3136,7 +3136,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0281"
+- id: "0282"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-dom-id.svg
   file: css/css-masking/clip-path-svg-content/clip-path-dom-id.svg
@@ -3163,7 +3163,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0285"
+- id: "0286"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-invalid.svg
   file: css/css-masking/clip-path-svg-content/clip-path-invalid.svg
@@ -3190,7 +3190,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0286"
+- id: "0287"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-negative-scale.svg
   file: css/css-masking/clip-path-svg-content/clip-path-negative-scale.svg
@@ -3217,7 +3217,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-negative-scale-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-negative-scale-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0287"
+- id: "0288"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-no-content-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-no-content-001.svg
@@ -3244,7 +3244,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0288"
+- id: "0289"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-no-content-002.svg
   file: css/css-masking/clip-path-svg-content/clip-path-no-content-002.svg
@@ -3271,7 +3271,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0289"
+- id: "0290"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-no-content-003.svg
   file: css/css-masking/clip-path-svg-content/clip-path-no-content-003.svg
@@ -3298,7 +3298,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0290"
+- id: "0291"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-no-content-004.svg
   file: css/css-masking/clip-path-svg-content/clip-path-no-content-004.svg
@@ -3325,7 +3325,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0292"
+- id: "0293"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-objectboundingbox-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-objectboundingbox-001.svg
@@ -3352,7 +3352,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0293"
+- id: "0294"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-objectboundingbox-002.svg
   file: css/css-masking/clip-path-svg-content/clip-path-objectboundingbox-002.svg
@@ -3379,7 +3379,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0295"
+- id: "0296"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-objectboundingbox-004.svg
   file: css/css-masking/clip-path-svg-content/clip-path-objectboundingbox-004.svg
@@ -3406,7 +3406,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0296"
+- id: "0297"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-on-g-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-on-g-001.svg
@@ -3433,7 +3433,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0297"
+- id: "0298"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-on-g-002.svg
   file: css/css-masking/clip-path-svg-content/clip-path-on-g-002.svg
@@ -3460,7 +3460,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0298"
+- id: "0299"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-on-g-003.svg
   file: css/css-masking/clip-path-svg-content/clip-path-on-g-003.svg
@@ -3487,7 +3487,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0299"
+- id: "0300"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-on-g-004.svg
   file: css/css-masking/clip-path-svg-content/clip-path-on-g-004.svg
@@ -3514,7 +3514,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0300"
+- id: "0301"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-on-g-005.svg
   file: css/css-masking/clip-path-svg-content/clip-path-on-g-005.svg
@@ -3541,7 +3541,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0301"
+- id: "0302"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-on-marker-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-on-marker-001.svg
@@ -3568,7 +3568,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-on-marker-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-on-marker-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0302"
+- id: "0303"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-on-marker-002.svg
   file: css/css-masking/clip-path-svg-content/clip-path-on-marker-002.svg
@@ -3595,7 +3595,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-on-marker-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-on-marker-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0303"
+- id: "0304"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-on-marker-003.svg
   file: css/css-masking/clip-path-svg-content/clip-path-on-marker-003.svg
@@ -3622,7 +3622,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-on-marker-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-on-marker-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0304"
+- id: "0305"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-on-svg-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-on-svg-001.svg
@@ -3649,7 +3649,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0305"
+- id: "0306"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-on-svg-002.svg
   file: css/css-masking/clip-path-svg-content/clip-path-on-svg-002.svg
@@ -3676,7 +3676,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0306"
+- id: "0307"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-on-svg-003.svg
   file: css/css-masking/clip-path-svg-content/clip-path-on-svg-003.svg
@@ -3703,7 +3703,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0307"
+- id: "0308"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-on-svg-004.svg
   file: css/css-masking/clip-path-svg-content/clip-path-on-svg-004.svg
@@ -3730,7 +3730,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0308"
+- id: "0309"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-on-svg-005.svg
   file: css/css-masking/clip-path-svg-content/clip-path-on-svg-005.svg
@@ -3757,7 +3757,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0309"
+- id: "0310"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-on-use-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-on-use-001.svg
@@ -3784,7 +3784,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0310"
+- id: "0311"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-on-use-002.svg
   file: css/css-masking/clip-path-svg-content/clip-path-on-use-002.svg
@@ -3811,7 +3811,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0311"
+- id: "0312"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-precision-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-precision-001.svg
@@ -3838,7 +3838,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-precision-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-precision-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0312"
+- id: "0313"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-recursion-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-recursion-001.svg
@@ -3865,7 +3865,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0313"
+- id: "0314"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-recursion-002.svg
   file: css/css-masking/clip-path-svg-content/clip-path-recursion-002.svg
@@ -3892,7 +3892,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-recursion-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-recursion-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0314"
+- id: "0315"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-shape-circle-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-shape-circle-001.svg
@@ -3919,7 +3919,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0315"
+- id: "0316"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-shape-circle-002.svg
   file: css/css-masking/clip-path-svg-content/clip-path-shape-circle-002.svg
@@ -3946,7 +3946,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0316"
+- id: "0317"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-shape-circle-003.svg
   file: css/css-masking/clip-path-svg-content/clip-path-shape-circle-003.svg
@@ -3973,7 +3973,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0317"
+- id: "0318"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-shape-circle-004.svg
   file: css/css-masking/clip-path-svg-content/clip-path-shape-circle-004.svg
@@ -4000,7 +4000,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0318"
+- id: "0319"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-shape-circle-005.svg
   file: css/css-masking/clip-path-svg-content/clip-path-shape-circle-005.svg
@@ -4027,7 +4027,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0319"
+- id: "0320"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-shape-ellipse-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-shape-ellipse-001.svg
@@ -4054,7 +4054,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-ellipse-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-ellipse-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0320"
+- id: "0321"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-shape-ellipse-002.svg
   file: css/css-masking/clip-path-svg-content/clip-path-shape-ellipse-002.svg
@@ -4081,7 +4081,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-ellipse-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-ellipse-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0321"
+- id: "0322"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-shape-inset-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-shape-inset-001.svg
@@ -4108,7 +4108,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-shape-inset-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-shape-inset-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0322"
+- id: "0323"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-shape-inset-002.svg
   file: css/css-masking/clip-path-svg-content/clip-path-shape-inset-002.svg
@@ -4135,7 +4135,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-shape-inset-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-shape-inset-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0326"
+- id: "0327"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-text-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-text-001.svg
@@ -4162,7 +4162,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-text-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-text-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0327"
+- id: "0328"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-text-002.svg
   file: css/css-masking/clip-path-svg-content/clip-path-text-002.svg
@@ -4189,7 +4189,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-text-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-text-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0328"
+- id: "0329"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-text-003.svg
   file: css/css-masking/clip-path-svg-content/clip-path-text-003.svg
@@ -4216,7 +4216,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-text-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-text-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0329"
+- id: "0330"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-text-004.svg
   file: css/css-masking/clip-path-svg-content/clip-path-text-004.svg
@@ -4243,7 +4243,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-text-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-text-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0330"
+- id: "0331"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-text-005.svg
   file: css/css-masking/clip-path-svg-content/clip-path-text-005.svg
@@ -4270,7 +4270,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-text-003-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-text-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0331"
+- id: "0332"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-userspaceonuse-001.svg
   file: css/css-masking/clip-path-svg-content/clip-path-userspaceonuse-001.svg
@@ -4297,7 +4297,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0332"
+- id: "0333"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-with-opacity.svg
   file: css/css-masking/clip-path-svg-content/clip-path-with-opacity.svg
@@ -4324,7 +4324,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0333"
+- id: "0334"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/clip-path-with-transform.svg
   file: css/css-masking/clip-path-svg-content/clip-path-with-transform.svg
@@ -4351,7 +4351,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0334"
+- id: "0335"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/mask-and-nested-clip-path.svg
   file: css/css-masking/clip-path-svg-content/mask-and-nested-clip-path.svg
@@ -4378,7 +4378,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/mask-and-nested-clip-path-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-and-nested-clip-path-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0335"
+- id: "0336"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/mask-nested-clip-path-001.svg
   file: css/css-masking/clip-path-svg-content/mask-nested-clip-path-001.svg
@@ -4405,7 +4405,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0336"
+- id: "0337"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/mask-nested-clip-path-002.svg
   file: css/css-masking/clip-path-svg-content/mask-nested-clip-path-002.svg
@@ -4432,7 +4432,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0337"
+- id: "0338"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/mask-nested-clip-path-003.svg
   file: css/css-masking/clip-path-svg-content/mask-nested-clip-path-003.svg
@@ -4459,7 +4459,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0338"
+- id: "0339"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/mask-nested-clip-path-004.svg
   file: css/css-masking/clip-path-svg-content/mask-nested-clip-path-004.svg
@@ -4486,7 +4486,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0339"
+- id: "0340"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/mask-nested-clip-path-005.svg
   file: css/css-masking/clip-path-svg-content/mask-nested-clip-path-005.svg
@@ -4513,7 +4513,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0340"
+- id: "0341"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/mask-nested-clip-path-006.svg
   file: css/css-masking/clip-path-svg-content/mask-nested-clip-path-006.svg
@@ -4540,7 +4540,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0341"
+- id: "0342"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/mask-nested-clip-path-007.svg
   file: css/css-masking/clip-path-svg-content/mask-nested-clip-path-007.svg
@@ -4563,11 +4563,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0342"
+- id: "0343"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/mask-nested-clip-path-008.svg
   file: css/css-masking/clip-path-svg-content/mask-nested-clip-path-008.svg
@@ -4594,7 +4590,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0343"
+- id: "0344"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/mask-nested-clip-path-009.svg
   file: css/css-masking/clip-path-svg-content/mask-nested-clip-path-009.svg
@@ -4621,7 +4617,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-002-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0344"
+- id: "0345"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/mask-nested-clip-path-010.svg
   file: css/css-masking/clip-path-svg-content/mask-nested-clip-path-010.svg
@@ -4648,7 +4644,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-003-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0345"
+- id: "0346"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/mask-nested-clip-path-panning-001.svg
   file: css/css-masking/clip-path-svg-content/mask-nested-clip-path-panning-001.svg
@@ -4675,7 +4671,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0346"
+- id: "0347"
   category: WPT reftest
   title: css/css-masking/clip-path-svg-content/mask-nested-clip-path-panning-002.svg
   file: css/css-masking/clip-path-svg-content/mask-nested-clip-path-panning-002.svg
@@ -4702,7 +4698,7 @@
       referenceFile: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0351"
+- id: "0352"
   category: WPT reftest
   title: css/css-masking/clip-rule/clip-rule-001.html
   file: css/css-masking/clip-rule/clip-rule-001.html
@@ -4729,7 +4725,7 @@
       referenceFile: css/css-masking/clip-rule/reference/clip-rule-rectangle-border-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-rule/reference/clip-rule-rectangle-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0352"
+- id: "0353"
   category: WPT reftest
   title: css/css-masking/clip-rule/clip-rule-002.html
   file: css/css-masking/clip-rule/clip-rule-002.html
@@ -4756,7 +4752,7 @@
       referenceFile: css/css-masking/clip-rule/reference/clip-rule-rectangle-border-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-rule/reference/clip-rule-rectangle-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0364"
+- id: "0365"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-clip-5.html
   file: css/css-masking/mask-image/mask-clip-5.html
@@ -4783,7 +4779,7 @@
       referenceFile: css/css-masking/mask-image/mask-clip-2-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0365"
+- id: "0366"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-clip-6.html
   file: css/css-masking/mask-image/mask-clip-6.html
@@ -4810,7 +4806,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0370"
+- id: "0371"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-composite-1c.html
   file: css/css-masking/mask-image/mask-composite-1c.html
@@ -4837,7 +4833,7 @@
       referenceFile: css/css-masking/mask-image/mask-composite-1-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-composite-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0374"
+- id: "0375"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-composite-2c.html
   file: css/css-masking/mask-image/mask-composite-2c.html
@@ -4864,7 +4860,7 @@
       referenceFile: css/css-masking/mask-image/mask-composite-2-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-composite-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0378"
+- id: "0379"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-image-1c.html
   file: css/css-masking/mask-image/mask-image-1c.html
@@ -4891,7 +4887,7 @@
       referenceFile: css/css-masking/mask-image/mask-image-1-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0381"
+- id: "0382"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-image-3a.html
   file: css/css-masking/mask-image/mask-image-3a.html
@@ -4918,7 +4914,7 @@
       referenceFile: css/css-masking/mask-image/mask-image-3-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0382"
+- id: "0383"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-image-3b.html
   file: css/css-masking/mask-image/mask-image-3b.html
@@ -4945,7 +4941,7 @@
       referenceFile: css/css-masking/mask-image/mask-image-3-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0383"
+- id: "0384"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-image-3c.html
   file: css/css-masking/mask-image/mask-image-3c.html
@@ -4972,7 +4968,7 @@
       referenceFile: css/css-masking/mask-image/mask-image-3-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0384"
+- id: "0385"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-image-3d.html
   file: css/css-masking/mask-image/mask-image-3d.html
@@ -4999,7 +4995,7 @@
       referenceFile: css/css-masking/mask-image/mask-image-3-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0385"
+- id: "0386"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-image-3e.html
   file: css/css-masking/mask-image/mask-image-3e.html
@@ -5026,7 +5022,7 @@
       referenceFile: css/css-masking/mask-image/mask-image-3-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0386"
+- id: "0387"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-image-3f.html
   file: css/css-masking/mask-image/mask-image-3f.html
@@ -5053,7 +5049,7 @@
       referenceFile: css/css-masking/mask-image/mask-image-3-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0387"
+- id: "0388"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-image-3g.html
   file: css/css-masking/mask-image/mask-image-3g.html
@@ -5080,7 +5076,7 @@
       referenceFile: css/css-masking/mask-image/mask-image-3-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0388"
+- id: "0389"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-image-3h.html
   file: css/css-masking/mask-image/mask-image-3h.html
@@ -5107,7 +5103,7 @@
       referenceFile: css/css-masking/mask-image/mask-image-3-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0389"
+- id: "0390"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-image-3i.html
   file: css/css-masking/mask-image/mask-image-3i.html
@@ -5134,7 +5130,7 @@
       referenceFile: css/css-masking/mask-image/mask-image-3-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0397"
+- id: "0398"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-image-cors-001.sub.html
   file: css/css-masking/mask-image/mask-image-cors-001.sub.html
@@ -5161,7 +5157,7 @@
       referenceFile: css/css-masking/mask-image/mask-image-cors-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-cors-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0409"
+- id: "0410"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-image-url-local-mask.html
   file: css/css-masking/mask-image/mask-image-url-local-mask.html
@@ -5188,7 +5184,7 @@
       referenceFile: css/css-masking/mask-image/reference/mask-image-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/reference/mask-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0410"
+- id: "0411"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-image-url-remote-mask.html
   file: css/css-masking/mask-image/mask-image-url-remote-mask.html
@@ -5215,7 +5211,7 @@
       referenceFile: css/css-masking/mask-image/reference/mask-image-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/reference/mask-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0417"
+- id: "0418"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-mode-to-mask-type-svg.html
   file: css/css-masking/mask-image/mask-mode-to-mask-type-svg.html
@@ -5242,7 +5238,7 @@
       referenceFile: css/css-masking/mask-image/mask-mode-to-mask-type-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-mode-to-mask-type-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0418"
+- id: "0419"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-mode-to-mask-type.html
   file: css/css-masking/mask-image/mask-mode-to-mask-type.html
@@ -5269,7 +5265,7 @@
       referenceFile: css/css-masking/mask-image/mask-mode-to-mask-type-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-mode-to-mask-type-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0422"
+- id: "0423"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-opacity-1d.html
   file: css/css-masking/mask-image/mask-opacity-1d.html
@@ -5296,7 +5292,7 @@
       referenceFile: css/css-masking/mask-image/mask-opacity-1-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-opacity-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0437"
+- id: "0438"
   category: WPT reftest
   title: css/css-masking/mask-image/mask-position-4d.html
   file: css/css-masking/mask-image/mask-position-4d.html
@@ -5323,7 +5319,7 @@
       referenceFile: css/css-masking/mask-image/mask-position-4-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-position-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0467"
+- id: "0468"
   category: WPT reftest
   title: css/css-masking/mask-svg-content/mask-empty-container-with-filter.svg
   file: css/css-masking/mask-svg-content/mask-empty-container-with-filter.svg
@@ -5350,7 +5346,7 @@
       referenceFile: css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0469"
+- id: "0470"
   category: WPT reftest
   title: css/css-masking/mask-svg-content/mask-negative-scale.svg
   file: css/css-masking/mask-svg-content/mask-negative-scale.svg
@@ -5377,7 +5373,7 @@
       referenceFile: css/css-masking/mask-svg-content/reference/mask-negative-scale-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-negative-scale-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0470"
+- id: "0471"
   category: WPT reftest
   title: css/css-masking/mask-svg-content/mask-text-001.svg
   file: css/css-masking/mask-svg-content/mask-text-001.svg
@@ -5404,7 +5400,7 @@
       referenceFile: css/css-masking/mask-svg-content/reference/mask-text-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-text-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0471"
+- id: "0472"
   category: WPT reftest
   title: css/css-masking/mask-svg-content/mask-type-001.svg
   file: css/css-masking/mask-svg-content/mask-type-001.svg
@@ -5431,7 +5427,7 @@
       referenceFile: css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0472"
+- id: "0473"
   category: WPT reftest
   title: css/css-masking/mask-svg-content/mask-type-002.svg
   file: css/css-masking/mask-svg-content/mask-type-002.svg
@@ -5458,7 +5454,7 @@
       referenceFile: css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0473"
+- id: "0474"
   category: WPT reftest
   title: css/css-masking/mask-svg-content/mask-type-003.svg
   file: css/css-masking/mask-svg-content/mask-type-003.svg
@@ -5485,7 +5481,7 @@
       referenceFile: css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0474"
+- id: "0475"
   category: WPT reftest
   title: css/css-masking/mask-svg-content/mask-with-filter-clipped-to-region.svg
   file: css/css-masking/mask-svg-content/mask-with-filter-clipped-to-region.svg
@@ -5512,7 +5508,7 @@
       referenceFile: css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0475"
+- id: "0476"
   category: WPT reftest
   title: css/css-masking/mask-svg-content/mask-with-filter.svg
   file: css/css-masking/mask-svg-content/mask-with-filter.svg
@@ -5539,7 +5535,7 @@
       referenceFile: css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0476"
+- id: "0477"
   category: WPT reftest
   title: css/css-masking/mask-svg-content/mask-with-rotation.svg
   file: css/css-masking/mask-svg-content/mask-with-rotation.svg
@@ -5566,3 +5562,20 @@
       referenceFile: css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0428"
+  category: WPT reftest
+  title: css/css-masking/mask-image/mask-position-1a.html
+  file: css/css-masking/mask-image/mask-position-1a.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-position-1a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-position-1a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

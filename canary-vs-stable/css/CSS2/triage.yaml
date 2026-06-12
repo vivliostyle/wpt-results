@@ -9992,10 +9992,6 @@
       referenceFile: css/CSS2/generated-content/content-counter-013-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/generated-content/content-counter-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/CSS2/generated-content/content-counter-013-ref.xht
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/generated-content/content-counter-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "2026"
   category: WPT reftest
   title: css/CSS2/generated-content/content-counter-015.xht
@@ -10401,6 +10397,20 @@
       referenceFile: css/CSS2/linebox/line-height-applies-to-001-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/linebox/line-height-applies-to-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "2205"
+  category: WPT reftest
+  title: css/CSS2/linebox/vertical-align-080.xht
+  file: css/CSS2/linebox/vertical-align-080.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/linebox/vertical-align-080.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/linebox/vertical-align-080.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "2239"
   category: WPT reftest
   title: css/CSS2/linebox/vertical-align-baseline-004a.xht
@@ -10482,6 +10492,20 @@
       referenceFile: css/CSS2/lists/counter-increment-054-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/lists/counter-increment-054-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "2281"
+  category: WPT reftest
+  title: css/CSS2/lists/counter-increment-applies-to-005.xht
+  file: css/CSS2/lists/counter-increment-applies-to-005.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/counter-increment-applies-to-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/lists/counter-increment-applies-to-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "2288"
   category: WPT reftest
   title: css/CSS2/lists/counter-increment-applies-to-014.xht
@@ -11743,10 +11767,6 @@
   diffPages:
     - css/CSS2/reference/no-red-filler-text-ref.xht#1
   referenceViewerUrls:
-    - side: canary
-      referenceFile: css/CSS2/reference/no-red-filler-text-ref.xht
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/no-red-filler-text-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/CSS2/reference/no-red-filler-text-ref.xht
       url: >-
@@ -12476,10 +12496,6 @@
       referenceFile: css/CSS2/normal-flow/block-in-inline-insert-004-nosplit-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/block-in-inline-insert-004-nosplit-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/CSS2/normal-flow/block-in-inline-insert-004-nosplit-ref.xht
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/block-in-inline-insert-004-nosplit-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "3172"
   category: WPT reftest
   title: css/CSS2/normal-flow/block-in-inline-insert-006.xht
@@ -12993,6 +13009,34 @@
       referenceFile: css/CSS2/normal-flow/block-in-inline-remove-006-nosplit-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/block-in-inline-remove-006-nosplit-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "3255"
+  category: WPT reftest
+  title: css/CSS2/normal-flow/blocks-011.xht
+  file: css/CSS2/normal-flow/blocks-011.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/blocks-011.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/blocks-011.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "3265"
+  category: WPT reftest
+  title: css/CSS2/normal-flow/blocks-021.xht
+  file: css/CSS2/normal-flow/blocks-021.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/blocks-021.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/blocks-021.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "3267"
   category: WPT reftest
   title: css/CSS2/normal-flow/blocks-025.xht
@@ -13263,6 +13307,20 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "3559"
+  category: WPT reftest
+  title: css/CSS2/normal-flow/max-width-029.xht
+  file: css/CSS2/normal-flow/max-width-029.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "3608"
   category: WPT reftest
   title: css/CSS2/normal-flow/max-width-106.xht
@@ -13803,6 +13861,20 @@
       referenceFile: css/CSS2/positioning/absolute-non-replaced-width-021-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-021-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "4028"
+  category: WPT reftest
+  title: css/CSS2/positioning/abspos-001.xht
+  file: css/CSS2/positioning/abspos-001.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/abspos-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "4035"
   category: WPT reftest
   title: css/CSS2/positioning/abspos-013.xht
@@ -14164,33 +14236,6 @@
       referenceFile: css/CSS2/positioning/abspos-containing-block-001-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "4058"
-  category: WPT reftest
-  title: css/CSS2/positioning/abspos-containing-block-008.xht
-  file: css/CSS2/positioning/abspos-containing-block-008.xht
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/CSS2/positioning/abspos-containing-block-001-ref.xht
-  relation: "=="
-  diffPages:
-    - css/CSS2/positioning/abspos-containing-block-001-ref.xht#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/CSS2/positioning/abspos-containing-block-001-ref.xht
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/CSS2/positioning/abspos-containing-block-001-ref.xht
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "4059"
   category: WPT reftest
   title: css/CSS2/positioning/abspos-containing-block-009.xht
@@ -14434,6 +14479,20 @@
       referenceFile: css/CSS2/positioning/position-fixed-007-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/position-fixed-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "4261"
+  category: WPT reftest
+  title: css/CSS2/positioning/position-relative-029.xht
+  file: css/CSS2/positioning/position-relative-029.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/position-relative-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/position-relative-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "4263"
   category: WPT reftest
   title: css/CSS2/positioning/position-relative-031.xht
@@ -14488,6 +14547,20 @@
       referenceFile: css/CSS2/positioning/position-relative-035-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/position-relative-035-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "4349"
+  category: WPT reftest
+  title: css/CSS2/positioning/top-005.xht
+  file: css/CSS2/positioning/top-005.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/top-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/top-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "4433"
   category: WPT reftest
   title: css/CSS2/sec5/first-line-000.xht
@@ -14569,6 +14642,20 @@
       referenceFile: css/CSS2/selector/attribute-value-selector-010-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selector/attribute-value-selector-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "4449"
+  category: WPT reftest
+  title: css/CSS2/selectors/attribute-value-selector-003.xht
+  file: css/CSS2/selectors/attribute-value-selector-003.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/attribute-value-selector-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/attribute-value-selector-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "4489"
   category: WPT reftest
   title: css/CSS2/selectors/dynamic-sibling-combinator-001.xht
@@ -14866,6 +14953,20 @@
       referenceFile: css/CSS2/selectors/first-letter-nested-001-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-nested-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "4509"
+  category: WPT reftest
+  title: css/CSS2/selectors/first-letter-punctuation-003.xht
+  file: css/CSS2/selectors/first-letter-punctuation-003.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "4510"
   category: WPT reftest
   title: css/CSS2/selectors/first-letter-punctuation-004.xht
@@ -16694,10 +16795,6 @@
   diffPages:
     - css/CSS2/selectors/first-letter-punctuation-072-ref.xht#1
   referenceViewerUrls:
-    - side: canary
-      referenceFile: css/CSS2/selectors/first-letter-punctuation-072-ref.xht
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-072-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/CSS2/selectors/first-letter-punctuation-072-ref.xht
       url: >-
@@ -17080,6 +17177,20 @@
       referenceFile: css/CSS2/selectors/first-letter-punctuation-086-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-086-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "4765"
+  category: WPT reftest
+  title: css/CSS2/selectors/first-letter-punctuation-265.xht
+  file: css/CSS2/selectors/first-letter-punctuation-265.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-265.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-265.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "4783"
   category: WPT reftest
   title: css/CSS2/selectors/first-letter-punctuation-283.xht
@@ -19591,20 +19702,6 @@
       referenceFile: css/CSS2/selectors/first-letter-selector-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-selector-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "4953"
-  category: WPT reftest
-  title: css/CSS2/selectors/id-selector-002.xht
-  file: css/CSS2/selectors/id-selector-002.xht
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/id-selector-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/id-selector-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "4955"
   category: WPT reftest
   title: css/CSS2/selectors/id-selector-005.xht
@@ -29588,36 +29685,105 @@
       referenceFile: css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "6540"
-  category: WPT manual
-  title: css/CSS2/backgrounds/background-animated-001.xht
-  file: css/CSS2/backgrounds/background-animated-001.xht
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-animated-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-animated-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  diffPages:
-    - 1
-- id: "2319"
+- id: "0509"
   category: WPT reftest
-  title: css/CSS2/lists/counter-reset-applies-to-002.xht
-  file: css/CSS2/lists/counter-reset-applies-to-002.xht
+  title: css/CSS2/borders/border-bottom-applies-to-013.xht
+  file: css/CSS2/borders/border-bottom-applies-to-013.xht
   type: error
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/lists/counter-reset-applies-to-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/borders/border-bottom-applies-to-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/lists/counter-reset-applies-to-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/borders/border-bottom-applies-to-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "1287"
+  category: WPT reftest
+  title: css/CSS2/css1/c5509-padn-l-000.xht
+  file: css/CSS2/css1/c5509-padn-l-000.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/css1/c5509-padn-l-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/css1/c5509-padn-l-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "2204"
+  category: WPT reftest
+  title: css/CSS2/linebox/vertical-align-079.xht
+  file: css/CSS2/linebox/vertical-align-079.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/linebox/vertical-align-079.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/linebox/vertical-align-079.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "2760"
+  category: WPT reftest
+  title: css/CSS2/margin-padding-clear/padding-applies-to-005.xht
+  file: css/CSS2/margin-padding-clear/padding-applies-to-005.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/margin-padding-clear/padding-applies-to-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/margin-padding-clear/padding-applies-to-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "2845"
+  category: WPT reftest
+  title: css/CSS2/margin-padding-clear/padding-bottom-applies-to-013.xht
+  file: css/CSS2/margin-padding-clear/padding-bottom-applies-to-013.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/margin-padding-clear/padding-bottom-applies-to-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/margin-padding-clear/padding-bottom-applies-to-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "2889"
+  category: WPT reftest
+  title: css/CSS2/margin-padding-clear/padding-left-062.xht
+  file: css/CSS2/margin-padding-clear/padding-left-062.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/margin-padding-clear/padding-left-062.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/margin-padding-clear/padding-left-062.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -29638,20 +29804,139 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "5734"
+- id: "3740"
   category: WPT reftest
-  title: css/CSS2/text/text-indent-013.xht
-  file: css/CSS2/text/text-indent-013.xht
+  title: css/CSS2/normal-flow/min-width-046.xht
+  file: css/CSS2/normal-flow/min-width-046.xht
   type: error
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/text/text-indent-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/min-width-046.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/text-indent-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/min-width-046.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "4005"
+  category: WPT reftest
+  title: css/CSS2/positioning/absolute-replaced-width-032.xht
+  file: css/CSS2/positioning/absolute-replaced-width-032.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-032.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-032.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "4013"
+  category: WPT reftest
+  title: css/CSS2/positioning/absolute-replaced-width-048.xht
+  file: css/CSS2/positioning/absolute-replaced-width-048.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-048.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-048.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "4058"
+  category: WPT reftest
+  title: css/CSS2/positioning/abspos-containing-block-008.xht
+  file: css/CSS2/positioning/abspos-containing-block-008.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "4166"
+  category: WPT reftest
+  title: css/CSS2/positioning/left-029.xht
+  file: css/CSS2/positioning/left-029.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/left-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/left-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "4978"
+  category: WPT reftest
+  title: css/CSS2/selectors/universal-selector-001.xht
+  file: css/CSS2/selectors/universal-selector-001.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/universal-selector-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/universal-selector-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "5784"
+  category: WPT reftest
+  title: css/CSS2/text/text-indent-115-ref-block-margin.xht
+  file: css/CSS2/text/text-indent-115-ref-block-margin.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/text/text-indent-115-ref-block-margin.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/text-indent-115-ref-block-margin.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "5879"
+  category: WPT reftest
+  title: css/CSS2/text/white-space-applies-to-006.xht
+  file: css/CSS2/text/white-space-applies-to-006.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/text/white-space-applies-to-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/white-space-applies-to-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
@@ -29670,15 +29955,8 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visufx/overflow-propagation-001b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
-    - side: stable
-      errorName: TimeoutError
-      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
-      timeout: true
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
 - id: "6210"
   category: WPT reftest
   title: css/CSS2/visufx/overflow-propagation-001c.html
@@ -29694,5 +29972,56 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visufx/overflow-propagation-001c.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "6569"
+  category: WPT manual
+  title: css/CSS2/cascade/cascade-004.xht
+  file: css/CSS2/cascade/cascade-004.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/cascade/cascade-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/cascade/cascade-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: stable
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "6710"
+  category: WPT manual
+  title: css/CSS2/pagination/page-break-before-020.xht
+  file: css/CSS2/pagination/page-break-before-020.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/pagination/page-break-before-020.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/page-break-before-020.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "6787"
+  category: WPT manual
+  title: css/CSS2/text/text-decoration-021.xht
+  file: css/CSS2/text/text-decoration-021.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/text/text-decoration-021.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/text-decoration-021.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"

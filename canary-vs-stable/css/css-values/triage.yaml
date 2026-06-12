@@ -1047,10 +1047,6 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/reference/ref-filled-green-100px-square.xht
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0170"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/no-referrer/url-image-set-referrer-policy.sub.html
@@ -1344,6 +1340,10 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0181"
   category: WPT reftest
   title: css/css-values/urls/referrer-policy/strict-origin/url-image-referrer-policy-cross-origin.html
@@ -1853,6 +1853,10 @@
       referenceFile: css/css-values/reference/vh-update-and-transition-in-subframe-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-values/reference/vh-update-and-transition-in-subframe-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0202"
   category: WPT reftest
   title: css/css-values/viewport-units-scrollbars-auto-vhw-001.html
@@ -1907,3 +1911,37 @@
       referenceFile: css/css-values/viewport-units-writing-mode-font-size-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/viewport-units-writing-mode-font-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0012"
+  category: WPT reftest
+  title: css/css-values/attr-length-valid-zero-nofallback.html
+  file: css/css-values/attr-length-valid-zero-nofallback.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/attr-length-valid-zero-nofallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-length-valid-zero-nofallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0104"
+  category: WPT reftest
+  title: css/css-values/ch-unit-012.html
+  file: css/css-values/ch-unit-012.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/ch-unit-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/ch-unit-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary, stable
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

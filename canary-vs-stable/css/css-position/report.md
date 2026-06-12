@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 242
-- Entries with differences: 98 (pending: 98, triaged: 0)
-- Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 3
+- Entries with differences: 99 (improvement: 1, pending: 98, triaged: 0)
+- Entries with errors: 4 (pending: 4, triaged: 0)
+- Timeout entries: 4
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":98,"pass":141,"error":3}
+- Outcome summary: {"known-fail":98,"pass":140,"error":3,"improvement":1}
 
 ## Differences
 
@@ -498,6 +498,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-relative-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.010674280589267995, diffPixels=8950
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0121] [WPT reftest] css/css-position/position-relative-table-thead-top.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-relative-table-thead-top.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-relative-table-thead-top.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0127] [WPT reftest] css/css-position/replaced-object-backdrop.html
   triage: pending
@@ -1313,6 +1319,15 @@
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-iframe-print-002.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-iframe-print-002.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0121] [WPT reftest] css/css-position/position-relative-table-thead-top.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-position/position-relative-table-top-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-relative-table-thead-top.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-relative-table-top-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0180] [WPT reftest] css/css-position/sticky/position-sticky-fixed-ancestor-iframe.html
   triage: pending

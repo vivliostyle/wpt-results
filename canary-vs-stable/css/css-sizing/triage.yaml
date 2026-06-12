@@ -214,6 +214,20 @@
       referenceFile: css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-013-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0355"
+  category: WPT reftest
+  title: css/css-sizing/div-max-content-orthogonal-auto-margin-right.tentative.html
+  file: css/css-sizing/div-max-content-orthogonal-auto-margin-right.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/div-max-content-orthogonal-auto-margin-right.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/div-max-content-orthogonal-auto-margin-right.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0371"
   category: WPT reftest
   title: css/css-sizing/dynamic-change-inline-size-003.html

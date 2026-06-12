@@ -430,6 +430,20 @@
       referenceFile: css/css-transforms/animation/translate-percent-with-width-and-height-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/animation/translate-percent-with-width-and-height-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0042"
+  category: WPT reftest
+  title: css/css-transforms/backface-visibility-001.html
+  file: css/css-transforms/backface-visibility-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/backface-visibility-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/backface-visibility-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0045"
   category: WPT reftest
   title: css/css-transforms/backface-visibility-hidden-003.html
@@ -1997,10 +2011,6 @@
       referenceFile: css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0199"
   category: WPT reftest
   title: css/css-transforms/matrix/svg-matrix-006.html
@@ -2024,10 +2034,6 @@
       referenceFile: css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0200"
   category: WPT reftest
   title: css/css-transforms/matrix/svg-matrix-007.html
@@ -2186,10 +2192,6 @@
       referenceFile: css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-four-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0206"
   category: WPT reftest
   title: css/css-transforms/matrix/svg-matrix-013.html
@@ -2996,10 +2998,6 @@
       referenceFile: css/css-transforms/matrix/reference/svg-matrix-clipped-rect-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-clipped-rect-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-transforms/matrix/reference/svg-matrix-clipped-rect-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/matrix/reference/svg-matrix-clipped-rect-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0236"
   category: WPT reftest
   title: css/css-transforms/matrix/svg-matrix-043.html
@@ -6920,3 +6918,20 @@
       referenceFile: css/css-transforms/reference/ttwf-reftest-rotate-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/reference/ttwf-reftest-rotate-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0084"
+  category: WPT reftest
+  title: css/css-transforms/css-transforms-transformlist.html
+  file: css/css-transforms/css-transforms-transformlist.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/css-transforms-transformlist.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/css-transforms-transformlist.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

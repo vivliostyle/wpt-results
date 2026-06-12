@@ -268,33 +268,6 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0026"
-  category: WPT reftest
-  title: css/css-shadow/has-slotted-functional-001.tentative.html
-  file: css/css-shadow/has-slotted-functional-001.tentative.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/has-slotted-functional-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/has-slotted-functional-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/reference/ref-filled-green-100px-square-only.html
-  relation: "=="
-  diffPages:
-    - css/reference/ref-filled-green-100px-square-only.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/reference/ref-filled-green-100px-square-only.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/reference/ref-filled-green-100px-square-only.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0027"
   category: WPT reftest
   title: css/css-shadow/has-slotted-functional-002.tentative.html
@@ -1026,6 +999,33 @@
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/part/part-nested-pseudo-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0079"
   category: WPT reftest
+  title: css/css-shadow/same-rules-bug-2044746.html
+  file: css/css-shadow/same-rules-bug-2044746.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-shadow/same-rules-bug-2044746-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-shadow/same-rules-bug-2044746-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-shadow/same-rules-bug-2044746-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-shadow/same-rules-bug-2044746-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0080"
+  category: WPT reftest
   title: css/css-shadow/scoped-reference-animation-001.html
   file: css/css-shadow/scoped-reference-animation-001.html
   type: difference
@@ -1051,7 +1051,7 @@
       referenceFile: css/css-shadow/scoped-reference-animation-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/scoped-reference-animation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0081"
+- id: "0082"
   category: WPT reftest
   title: css/css-shadow/shadow-assign-dynamic-001.html
   file: css/css-shadow/shadow-assign-dynamic-001.html
@@ -1078,7 +1078,7 @@
       referenceFile: css/css-shadow/reference/green-box.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0082"
+- id: "0083"
   category: WPT reftest
   title: css/css-shadow/shadow-at-import.html
   file: css/css-shadow/shadow-at-import.html
@@ -1105,7 +1105,7 @@
       referenceFile: css/css-shadow/reference/green-box.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0085"
+- id: "0086"
   category: WPT reftest
   title: css/css-shadow/shadow-disabled-sheet-001.html
   file: css/css-shadow/shadow-disabled-sheet-001.html
@@ -1132,7 +1132,7 @@
       referenceFile: css/css-shadow/reference/green-box.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0086"
+- id: "0087"
   category: WPT reftest
   title: css/css-shadow/shadow-fallback-dynamic-001.html
   file: css/css-shadow/shadow-fallback-dynamic-001.html
@@ -1159,7 +1159,7 @@
       referenceFile: css/css-shadow/reference/green-box.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0087"
+- id: "0088"
   category: WPT reftest
   title: css/css-shadow/shadow-fallback-dynamic-002.html
   file: css/css-shadow/shadow-fallback-dynamic-002.html
@@ -1186,7 +1186,7 @@
       referenceFile: css/css-shadow/reference/green-box.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0093"
+- id: "0094"
   category: WPT reftest
   title: css/css-shadow/shadow-link-rel-stylesheet.html
   file: css/css-shadow/shadow-link-rel-stylesheet.html
@@ -1213,7 +1213,7 @@
       referenceFile: css/css-shadow/reference/green-box.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0098"
+- id: "0099"
   category: WPT reftest
   title: css/css-shadow/shadow-root-insert-into-document.html
   file: css/css-shadow/shadow-root-insert-into-document.html
@@ -1240,7 +1240,7 @@
       referenceFile: css/css-shadow/reference/green-box.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0100"
+- id: "0101"
   category: WPT reftest
   title: css/css-shadow/slotted-file-selector-button.html
   file: css/css-shadow/slotted-file-selector-button.html
@@ -1263,7 +1263,11 @@
       referenceFile: css/css-shadow/slotted-file-selector-button-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0101"
+    - side: stable
+      referenceFile: css/css-shadow/slotted-file-selector-button-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0102"
   category: WPT reftest
   title: css/css-shadow/slotted-has-001.html
   file: css/css-shadow/slotted-has-001.html
@@ -1290,7 +1294,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0102"
+- id: "0103"
   category: WPT reftest
   title: css/css-shadow/slotted-has-002.html
   file: css/css-shadow/slotted-has-002.html
@@ -1317,7 +1321,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0103"
+- id: "0104"
   category: WPT reftest
   title: css/css-shadow/slotted-has-003.html
   file: css/css-shadow/slotted-has-003.html
@@ -1344,7 +1348,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0104"
+- id: "0105"
   category: WPT reftest
   title: css/css-shadow/slotted-has-004.html
   file: css/css-shadow/slotted-has-004.html
@@ -1371,7 +1375,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0105"
+- id: "0106"
   category: WPT reftest
   title: css/css-shadow/slotted-placeholder.html
   file: css/css-shadow/slotted-placeholder.html
@@ -1398,7 +1402,7 @@
       referenceFile: css/css-shadow/slotted-placeholder-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/slotted-placeholder-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0108"
+- id: "0109"
   category: WPT reftest
   title: css/css-shadow/slotted-with-pseudo-element.html
   file: css/css-shadow/slotted-with-pseudo-element.html
@@ -1425,7 +1429,7 @@
       referenceFile: css/css-shadow/slotted-with-pseudo-element-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/slotted-with-pseudo-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0111"
+- id: "0112"
   category: WPT reftest
   title: css/css-shadow/whitespace-crash-001.html
   file: css/css-shadow/whitespace-crash-001.html
@@ -1452,3 +1456,20 @@
       referenceFile: css/css-shadow/reference/green-box.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0026"
+  category: WPT reftest
+  title: css/css-shadow/has-slotted-functional-001.tentative.html
+  file: css/css-shadow/has-slotted-functional-001.tentative.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/has-slotted-functional-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/has-slotted-functional-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

@@ -1,31 +1,18 @@
 - id: "0002"
   category: WPT reftest
-  title: css/selectors/case-insensitive-parent.html
-  file: css/selectors/case-insensitive-parent.html
+  title: css/selectors/child-indexed-no-parent.html
+  file: css/selectors/child-indexed-no-parent.html
   type: difference
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/case-insensitive-parent.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/child-indexed-no-parent.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/case-insensitive-parent.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/selectors/case-insensitive-parent-ref.html
-  relation: "=="
-  diffPages:
-    - css/selectors/case-insensitive-parent-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/selectors/case-insensitive-parent-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/case-insensitive-parent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/selectors/case-insensitive-parent-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/case-insensitive-parent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0005"
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/child-indexed-no-parent.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0004"
   category: WPT reftest
   title: css/selectors/dir-pseudo-update-document-element.html
   file: css/selectors/dir-pseudo-update-document-element.html
@@ -52,7 +39,7 @@
       referenceFile: css/selectors/dir-pseudo-update-document-element-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-pseudo-update-document-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0006"
+- id: "0005"
   category: WPT reftest
   title: css/selectors/dir-selector-auto-direction-change-001.html
   file: css/selectors/dir-selector-auto-direction-change-001.html
@@ -79,7 +66,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0007"
+- id: "0006"
   category: WPT reftest
   title: css/selectors/dir-selector-change-001.html
   file: css/selectors/dir-selector-change-001.html
@@ -106,7 +93,7 @@
       referenceFile: css/selectors/dir-selector-change-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-selector-change-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0008"
+- id: "0007"
   category: WPT reftest
   title: css/selectors/dir-selector-change-002.html
   file: css/selectors/dir-selector-change-002.html
@@ -133,7 +120,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0009"
+- id: "0008"
   category: WPT reftest
   title: css/selectors/dir-selector-change-003.html
   file: css/selectors/dir-selector-change-003.html
@@ -160,7 +147,7 @@
       referenceFile: css/selectors/dir-selector-change-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-selector-change-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0010"
+- id: "0009"
   category: WPT reftest
   title: css/selectors/dir-selector-change-004.html
   file: css/selectors/dir-selector-change-004.html
@@ -187,7 +174,7 @@
       referenceFile: css/selectors/dir-selector-change-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-selector-change-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0011"
+- id: "0010"
   category: WPT reftest
   title: css/selectors/dir-selector-ltr-001.html
   file: css/selectors/dir-selector-ltr-001.html
@@ -214,7 +201,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0014"
+- id: "0013"
   category: WPT reftest
   title: css/selectors/dir-selector-rtl-001.html
   file: css/selectors/dir-selector-rtl-001.html
@@ -241,7 +228,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0015"
+- id: "0014"
   category: WPT reftest
   title: css/selectors/dir-selector-white-space-001.html
   file: css/selectors/dir-selector-white-space-001.html
@@ -268,7 +255,7 @@
       referenceFile: css/selectors/dir-selector-white-space-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-selector-white-space-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0018"
+- id: "0017"
   category: WPT reftest
   title: css/selectors/dir-style-02a.html
   file: css/selectors/dir-style-02a.html
@@ -295,7 +282,7 @@
       referenceFile: css/selectors/dir-style-02-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-style-02-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0019"
+- id: "0018"
   category: WPT reftest
   title: css/selectors/dir-style-02b.html
   file: css/selectors/dir-style-02b.html
@@ -322,7 +309,7 @@
       referenceFile: css/selectors/dir-style-02-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-style-02-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0021"
+- id: "0020"
   category: WPT reftest
   title: css/selectors/dir-style-03b.html
   file: css/selectors/dir-style-03b.html
@@ -349,7 +336,7 @@
       referenceFile: css/selectors/dir-style-03-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-style-03-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0022"
+- id: "0021"
   category: WPT reftest
   title: css/selectors/dir-style-04.html
   file: css/selectors/dir-style-04.html
@@ -376,7 +363,7 @@
       referenceFile: css/selectors/dir-style-04-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-style-04-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0023"
+- id: "0022"
   category: WPT reftest
   title: css/selectors/featureless-001.html
   file: css/selectors/featureless-001.html
@@ -403,7 +390,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0024"
+- id: "0023"
   category: WPT reftest
   title: css/selectors/featureless-002.html
   file: css/selectors/featureless-002.html
@@ -430,7 +417,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0025"
+- id: "0024"
   category: WPT reftest
   title: css/selectors/featureless-003.html
   file: css/selectors/featureless-003.html
@@ -457,7 +444,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0026"
+- id: "0025"
   category: WPT reftest
   title: css/selectors/featureless-004.html
   file: css/selectors/featureless-004.html
@@ -484,7 +471,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0027"
+- id: "0026"
   category: WPT reftest
   title: css/selectors/featureless-005.html
   file: css/selectors/featureless-005.html
@@ -511,7 +498,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square-only.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0028"
+- id: "0027"
   category: WPT reftest
   title: css/selectors/first-letter-flag-001.html
   file: css/selectors/first-letter-flag-001.html
@@ -538,7 +525,7 @@
       referenceFile: css/selectors/first-letter-flag-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/first-letter-flag-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0029"
+- id: "0028"
   category: WPT reftest
   title: css/selectors/first-line-bidi-001.html
   file: css/selectors/first-line-bidi-001.html
@@ -565,7 +552,7 @@
       referenceFile: css/selectors/first-line-bidi-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/first-line-bidi-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0030"
+- id: "0029"
   category: WPT reftest
   title: css/selectors/first-line-bidi-002.html
   file: css/selectors/first-line-bidi-002.html
@@ -592,7 +579,7 @@
       referenceFile: css/selectors/first-line-bidi-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/first-line-bidi-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0033"
+- id: "0032"
   category: WPT reftest
   title: css/selectors/focus-within-001.html
   file: css/selectors/focus-within-001.html
@@ -619,7 +606,7 @@
       referenceFile: css/selectors/focus-within-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0034"
+- id: "0033"
   category: WPT reftest
   title: css/selectors/focus-within-002.html
   file: css/selectors/focus-within-002.html
@@ -646,7 +633,7 @@
       referenceFile: css/selectors/focus-within-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0035"
+- id: "0034"
   category: WPT reftest
   title: css/selectors/focus-within-003.html
   file: css/selectors/focus-within-003.html
@@ -673,7 +660,7 @@
       referenceFile: css/selectors/focus-within-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0036"
+- id: "0035"
   category: WPT reftest
   title: css/selectors/focus-within-004.html
   file: css/selectors/focus-within-004.html
@@ -692,15 +679,11 @@
   diffPages:
     - css/selectors/focus-within-001-ref.html#1
   referenceViewerUrls:
-    - side: canary
-      referenceFile: css/selectors/focus-within-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/focus-within-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
     - side: stable
       referenceFile: css/selectors/focus-within-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0037"
+- id: "0036"
   category: WPT reftest
   title: css/selectors/focus-within-005.html
   file: css/selectors/focus-within-005.html
@@ -727,7 +710,7 @@
       referenceFile: css/selectors/focus-within-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0038"
+- id: "0037"
   category: WPT reftest
   title: css/selectors/focus-within-006.html
   file: css/selectors/focus-within-006.html
@@ -754,7 +737,7 @@
       referenceFile: css/selectors/focus-within-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0039"
+- id: "0038"
   category: WPT reftest
   title: css/selectors/focus-within-007.html
   file: css/selectors/focus-within-007.html
@@ -781,7 +764,7 @@
       referenceFile: css/selectors/focus-within-007-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0040"
+- id: "0039"
   category: WPT reftest
   title: css/selectors/focus-within-008.html
   file: css/selectors/focus-within-008.html
@@ -808,7 +791,7 @@
       referenceFile: css/selectors/focus-within-007-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0041"
+- id: "0040"
   category: WPT reftest
   title: css/selectors/focus-within-010.html
   file: css/selectors/focus-within-010.html
@@ -835,7 +818,7 @@
       referenceFile: css/selectors/focus-within-shadow-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-shadow-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0042"
+- id: "0041"
   category: WPT reftest
   title: css/selectors/focus-within-011.html
   file: css/selectors/focus-within-011.html
@@ -862,7 +845,7 @@
       referenceFile: css/selectors/focus-within-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0045"
+- id: "0044"
   category: WPT reftest
   title: css/selectors/focus-within-shadow-001.html
   file: css/selectors/focus-within-shadow-001.html
@@ -889,7 +872,7 @@
       referenceFile: css/selectors/focus-within-shadow-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-shadow-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0046"
+- id: "0045"
   category: WPT reftest
   title: css/selectors/focus-within-shadow-002.html
   file: css/selectors/focus-within-shadow-002.html
@@ -916,7 +899,7 @@
       referenceFile: css/selectors/focus-within-shadow-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-shadow-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0047"
+- id: "0046"
   category: WPT reftest
   title: css/selectors/focus-within-shadow-003.html
   file: css/selectors/focus-within-shadow-003.html
@@ -943,7 +926,7 @@
       referenceFile: css/selectors/focus-within-shadow-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-shadow-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0048"
+- id: "0047"
   category: WPT reftest
   title: css/selectors/focus-within-shadow-004.html
   file: css/selectors/focus-within-shadow-004.html
@@ -970,7 +953,7 @@
       referenceFile: css/selectors/focus-within-shadow-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-shadow-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0049"
+- id: "0048"
   category: WPT reftest
   title: css/selectors/focus-within-shadow-005.html
   file: css/selectors/focus-within-shadow-005.html
@@ -997,7 +980,7 @@
       referenceFile: css/selectors/focus-within-shadow-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-shadow-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0050"
+- id: "0049"
   category: WPT reftest
   title: css/selectors/focus-within-shadow-006.html
   file: css/selectors/focus-within-shadow-006.html
@@ -1024,7 +1007,7 @@
       referenceFile: css/selectors/focus-within-shadow-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/focus-within-shadow-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0051"
+- id: "0050"
   category: WPT reftest
   title: css/selectors/has-display-none-checked.html
   file: css/selectors/has-display-none-checked.html
@@ -1051,7 +1034,7 @@
       referenceFile: css/selectors/has-display-none-checked-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/has-display-none-checked-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0071"
+- id: "0070"
   category: WPT reftest
   title: css/selectors/invalidation/class-id-attr.html
   file: css/selectors/invalidation/class-id-attr.html
@@ -1078,7 +1061,7 @@
       referenceFile: css/selectors/invalidation/class-id-attr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/class-id-attr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0072"
+- id: "0071"
   category: WPT reftest
   title: css/selectors/invalidation/dir-pseudo-class-in-has.html
   file: css/selectors/invalidation/dir-pseudo-class-in-has.html
@@ -1105,7 +1088,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0073"
+- id: "0072"
   category: WPT reftest
   title: css/selectors/invalidation/has-append-first-node.html
   file: css/selectors/invalidation/has-append-first-node.html
@@ -1132,7 +1115,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0074"
+- id: "0073"
   category: WPT reftest
   title: css/selectors/invalidation/has-pseudo-element.html
   file: css/selectors/invalidation/has-pseudo-element.html
@@ -1159,7 +1142,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0075"
+- id: "0074"
   category: WPT reftest
   title: css/selectors/invalidation/has-with-nth-child-sibling-remove.html
   file: css/selectors/invalidation/has-with-nth-child-sibling-remove.html
@@ -1186,7 +1169,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0076"
+- id: "0075"
   category: WPT reftest
   title: css/selectors/invalidation/lang-pseudo-class-in-has-document-element.html
   file: css/selectors/invalidation/lang-pseudo-class-in-has-document-element.html
@@ -1213,7 +1196,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0078"
+- id: "0077"
   category: WPT reftest
   title: css/selectors/invalidation/lang-pseudo-class-in-has-xhtml.xhtml
   file: css/selectors/invalidation/lang-pseudo-class-in-has-xhtml.xhtml
@@ -1240,7 +1223,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0079"
+- id: "0078"
   category: WPT reftest
   title: css/selectors/invalidation/lang-pseudo-class-in-has.html
   file: css/selectors/invalidation/lang-pseudo-class-in-has.html
@@ -1267,7 +1250,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0080"
+- id: "0079"
   category: WPT reftest
   title: css/selectors/invalidation/negated-always-matches-negated-first-of-type-when-ancestor-changes.html
   file: css/selectors/invalidation/negated-always-matches-negated-first-of-type-when-ancestor-changes.html
@@ -1294,7 +1277,7 @@
       referenceFile: css/selectors/invalidation/negated-always-matches-negated-first-of-type-when-ancestor-changes-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/negated-always-matches-negated-first-of-type-when-ancestor-changes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0081"
+- id: "0080"
   category: WPT reftest
   title: css/selectors/invalidation/negated-always-matches-negated-last-of-type-when-ancestor-changes.html
   file: css/selectors/invalidation/negated-always-matches-negated-last-of-type-when-ancestor-changes.html
@@ -1321,7 +1304,7 @@
       referenceFile: css/selectors/invalidation/negated-always-matches-negated-last-of-type-when-ancestor-changes-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/negated-always-matches-negated-last-of-type-when-ancestor-changes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0082"
+- id: "0081"
   category: WPT reftest
   title: css/selectors/invalidation/negated-first-of-type-in-nonsubject-position.html
   file: css/selectors/invalidation/negated-first-of-type-in-nonsubject-position.html
@@ -1348,7 +1331,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0083"
+- id: "0082"
   category: WPT reftest
   title: css/selectors/invalidation/negated-has-in-nonsubject-position.html
   file: css/selectors/invalidation/negated-has-in-nonsubject-position.html
@@ -1375,7 +1358,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0086"
+- id: "0085"
   category: WPT reftest
   title: css/selectors/invalidation/negated-is-never-matches-negated-first-of-type-when-ancestor-changes.html
   file: css/selectors/invalidation/negated-is-never-matches-negated-first-of-type-when-ancestor-changes.html
@@ -1402,7 +1385,7 @@
       referenceFile: css/selectors/invalidation/negated-is-never-matches-negated-first-of-type-when-ancestor-changes-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/negated-is-never-matches-negated-first-of-type-when-ancestor-changes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0087"
+- id: "0086"
   category: WPT reftest
   title: css/selectors/invalidation/negated-is-never-matches-negated-last-of-type-when-ancestor-changes.html
   file: css/selectors/invalidation/negated-is-never-matches-negated-last-of-type-when-ancestor-changes.html
@@ -1429,7 +1412,7 @@
       referenceFile: css/selectors/invalidation/negated-is-never-matches-negated-last-of-type-when-ancestor-changes-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/negated-is-never-matches-negated-last-of-type-when-ancestor-changes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0088"
+- id: "0087"
   category: WPT reftest
   title: css/selectors/invalidation/negated-last-of-type-invalidation.html
   file: css/selectors/invalidation/negated-last-of-type-invalidation.html
@@ -1456,7 +1439,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0089"
+- id: "0088"
   category: WPT reftest
   title: css/selectors/invalidation/negated-negated-first-of-type-when-ancestor-changes.html
   file: css/selectors/invalidation/negated-negated-first-of-type-when-ancestor-changes.html
@@ -1483,7 +1466,7 @@
       referenceFile: css/selectors/invalidation/negated-negated-first-of-type-when-ancestor-changes-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/negated-negated-first-of-type-when-ancestor-changes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0090"
+- id: "0089"
   category: WPT reftest
   title: css/selectors/invalidation/negated-negated-last-of-type-when-ancestor-changes.html
   file: css/selectors/invalidation/negated-negated-last-of-type-when-ancestor-changes.html
@@ -1510,7 +1493,7 @@
       referenceFile: css/selectors/invalidation/negated-negated-last-of-type-when-ancestor-changes-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/negated-negated-last-of-type-when-ancestor-changes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0091"
+- id: "0090"
   category: WPT reftest
   title: css/selectors/invalidation/negated-never-matches-negated-first-of-type-when-ancestor-changes.html
   file: css/selectors/invalidation/negated-never-matches-negated-first-of-type-when-ancestor-changes.html
@@ -1537,7 +1520,7 @@
       referenceFile: css/selectors/invalidation/negated-never-matches-negated-first-of-type-when-ancestor-changes-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/negated-never-matches-negated-first-of-type-when-ancestor-changes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0092"
+- id: "0091"
   category: WPT reftest
   title: css/selectors/invalidation/negated-never-matches-negated-last-of-type-when-ancestor-changes.html
   file: css/selectors/invalidation/negated-never-matches-negated-last-of-type-when-ancestor-changes.html
@@ -1564,7 +1547,7 @@
       referenceFile: css/selectors/invalidation/negated-never-matches-negated-last-of-type-when-ancestor-changes-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/negated-never-matches-negated-last-of-type-when-ancestor-changes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0093"
+- id: "0092"
   category: WPT reftest
   title: css/selectors/invalidation/negated-nth-child-when-ancestor-changes.html
   file: css/selectors/invalidation/negated-nth-child-when-ancestor-changes.html
@@ -1591,7 +1574,7 @@
       referenceFile: css/selectors/invalidation/negated-nth-child-when-ancestor-changes-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/negated-nth-child-when-ancestor-changes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0094"
+- id: "0093"
   category: WPT reftest
   title: css/selectors/invalidation/negated-nth-last-child-when-ancestor-changes.html
   file: css/selectors/invalidation/negated-nth-last-child-when-ancestor-changes.html
@@ -1618,7 +1601,7 @@
       referenceFile: css/selectors/invalidation/negated-nth-last-child-when-ancestor-changes-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/negated-nth-last-child-when-ancestor-changes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0095"
+- id: "0094"
   category: WPT reftest
   title: css/selectors/invalidation/nth-child-containing-ancestor.html
   file: css/selectors/invalidation/nth-child-containing-ancestor.html
@@ -1645,7 +1628,7 @@
       referenceFile: css/selectors/invalidation/nth-child-containing-ancestor-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-containing-ancestor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0096"
+- id: "0095"
   category: WPT reftest
   title: css/selectors/invalidation/nth-child-in-shadow-root.html
   file: css/selectors/invalidation/nth-child-in-shadow-root.html
@@ -1672,7 +1655,7 @@
       referenceFile: css/selectors/invalidation/nth-child-in-shadow-root-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-in-shadow-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0098"
+- id: "0097"
   category: WPT reftest
   title: css/selectors/invalidation/nth-child-of-attr.html
   file: css/selectors/invalidation/nth-child-of-attr.html
@@ -1699,7 +1682,7 @@
       referenceFile: css/selectors/invalidation/nth-child-of-attr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-attr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0099"
+- id: "0098"
   category: WPT reftest
   title: css/selectors/invalidation/nth-child-of-class-prefix.html
   file: css/selectors/invalidation/nth-child-of-class-prefix.html
@@ -1726,7 +1709,7 @@
       referenceFile: css/selectors/invalidation/nth-child-of-class-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0100"
+- id: "0099"
   category: WPT reftest
   title: css/selectors/invalidation/nth-child-of-class.html
   file: css/selectors/invalidation/nth-child-of-class.html
@@ -1753,7 +1736,7 @@
       referenceFile: css/selectors/invalidation/nth-child-of-class-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0101"
+- id: "0100"
   category: WPT reftest
   title: css/selectors/invalidation/nth-child-of-has.html
   file: css/selectors/invalidation/nth-child-of-has.html
@@ -1780,7 +1763,7 @@
       referenceFile: css/selectors/invalidation/nth-child-of-has-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-has-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0102"
+- id: "0101"
   category: WPT reftest
   title: css/selectors/invalidation/nth-child-of-id-prefix.html
   file: css/selectors/invalidation/nth-child-of-id-prefix.html
@@ -1807,7 +1790,7 @@
       referenceFile: css/selectors/invalidation/nth-child-of-class-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0103"
+- id: "0102"
   category: WPT reftest
   title: css/selectors/invalidation/nth-child-of-ids.html
   file: css/selectors/invalidation/nth-child-of-ids.html
@@ -1834,7 +1817,7 @@
       referenceFile: css/selectors/invalidation/nth-child-of-class-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0104"
+- id: "0103"
   category: WPT reftest
   title: css/selectors/invalidation/nth-child-of-in-ancestor.html
   file: css/selectors/invalidation/nth-child-of-in-ancestor.html
@@ -1861,7 +1844,7 @@
       referenceFile: css/selectors/invalidation/nth-child-of-in-ancestor-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-in-ancestor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0105"
+- id: "0104"
   category: WPT reftest
   title: css/selectors/invalidation/nth-child-of-in-is.html
   file: css/selectors/invalidation/nth-child-of-in-is.html
@@ -1888,7 +1871,7 @@
       referenceFile: css/selectors/invalidation/nth-child-of-class-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0106"
+- id: "0105"
   category: WPT reftest
   title: css/selectors/invalidation/nth-child-of-in-shadow-root.html
   file: css/selectors/invalidation/nth-child-of-in-shadow-root.html
@@ -1915,7 +1898,7 @@
       referenceFile: css/selectors/invalidation/nth-child-of-in-shadow-root-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-in-shadow-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0107"
+- id: "0106"
   category: WPT reftest
   title: css/selectors/invalidation/nth-child-of-is.html
   file: css/selectors/invalidation/nth-child-of-is.html
@@ -1942,7 +1925,7 @@
       referenceFile: css/selectors/invalidation/nth-child-of-class-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0108"
+- id: "0107"
   category: WPT reftest
   title: css/selectors/invalidation/nth-child-of-pseudo-class.html
   file: css/selectors/invalidation/nth-child-of-pseudo-class.html
@@ -1969,7 +1952,7 @@
       referenceFile: css/selectors/invalidation/nth-child-of-pseudo-class-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-pseudo-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0109"
+- id: "0108"
   category: WPT reftest
   title: css/selectors/invalidation/nth-child-of-sibling.html
   file: css/selectors/invalidation/nth-child-of-sibling.html
@@ -1996,7 +1979,7 @@
       referenceFile: css/selectors/invalidation/nth-child-of-sibling-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-sibling-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0110"
+- id: "0109"
   category: WPT reftest
   title: css/selectors/invalidation/nth-child-when-ancestor-changes.html
   file: css/selectors/invalidation/nth-child-when-ancestor-changes.html
@@ -2023,7 +2006,7 @@
       referenceFile: css/selectors/invalidation/nth-child-when-ancestor-changes-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-when-ancestor-changes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0111"
+- id: "0110"
   category: WPT reftest
   title: css/selectors/invalidation/nth-child-when-sibling-changes.html
   file: css/selectors/invalidation/nth-child-when-sibling-changes.html
@@ -2050,7 +2033,7 @@
       referenceFile: css/selectors/invalidation/nth-child-when-sibling-changes-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-when-sibling-changes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0112"
+- id: "0111"
   category: WPT reftest
   title: css/selectors/invalidation/nth-last-child-containing-ancestor.html
   file: css/selectors/invalidation/nth-last-child-containing-ancestor.html
@@ -2077,7 +2060,7 @@
       referenceFile: css/selectors/invalidation/nth-child-containing-ancestor-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-containing-ancestor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0113"
+- id: "0112"
   category: WPT reftest
   title: css/selectors/invalidation/nth-last-child-in-shadow-root.html
   file: css/selectors/invalidation/nth-last-child-in-shadow-root.html
@@ -2104,7 +2087,7 @@
       referenceFile: css/selectors/invalidation/nth-last-child-in-shadow-root-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-in-shadow-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0114"
+- id: "0113"
   category: WPT reftest
   title: css/selectors/invalidation/nth-last-child-of-attr.html
   file: css/selectors/invalidation/nth-last-child-of-attr.html
@@ -2131,7 +2114,7 @@
       referenceFile: css/selectors/invalidation/nth-last-child-of-attr-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-attr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0115"
+- id: "0114"
   category: WPT reftest
   title: css/selectors/invalidation/nth-last-child-of-class-prefix.html
   file: css/selectors/invalidation/nth-last-child-of-class-prefix.html
@@ -2158,7 +2141,7 @@
       referenceFile: css/selectors/invalidation/nth-last-child-of-class-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0116"
+- id: "0115"
   category: WPT reftest
   title: css/selectors/invalidation/nth-last-child-of-class.html
   file: css/selectors/invalidation/nth-last-child-of-class.html
@@ -2185,7 +2168,7 @@
       referenceFile: css/selectors/invalidation/nth-last-child-of-class-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0117"
+- id: "0116"
   category: WPT reftest
   title: css/selectors/invalidation/nth-last-child-of-has.html
   file: css/selectors/invalidation/nth-last-child-of-has.html
@@ -2212,7 +2195,7 @@
       referenceFile: css/selectors/invalidation/nth-last-child-of-has-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-has-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0118"
+- id: "0117"
   category: WPT reftest
   title: css/selectors/invalidation/nth-last-child-of-id-prefix.html
   file: css/selectors/invalidation/nth-last-child-of-id-prefix.html
@@ -2239,7 +2222,7 @@
       referenceFile: css/selectors/invalidation/nth-last-child-of-class-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0119"
+- id: "0118"
   category: WPT reftest
   title: css/selectors/invalidation/nth-last-child-of-ids.html
   file: css/selectors/invalidation/nth-last-child-of-ids.html
@@ -2266,7 +2249,7 @@
       referenceFile: css/selectors/invalidation/nth-last-child-of-class-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0120"
+- id: "0119"
   category: WPT reftest
   title: css/selectors/invalidation/nth-last-child-of-in-ancestor.html
   file: css/selectors/invalidation/nth-last-child-of-in-ancestor.html
@@ -2293,7 +2276,7 @@
       referenceFile: css/selectors/invalidation/nth-last-child-of-in-ancestor-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-in-ancestor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0121"
+- id: "0120"
   category: WPT reftest
   title: css/selectors/invalidation/nth-last-child-of-in-is.html
   file: css/selectors/invalidation/nth-last-child-of-in-is.html
@@ -2320,7 +2303,7 @@
       referenceFile: css/selectors/invalidation/nth-last-child-of-class-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0122"
+- id: "0121"
   category: WPT reftest
   title: css/selectors/invalidation/nth-last-child-of-in-shadow-root.html
   file: css/selectors/invalidation/nth-last-child-of-in-shadow-root.html
@@ -2347,7 +2330,7 @@
       referenceFile: css/selectors/invalidation/nth-last-child-of-in-shadow-root-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-in-shadow-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0123"
+- id: "0122"
   category: WPT reftest
   title: css/selectors/invalidation/nth-last-child-of-is.html
   file: css/selectors/invalidation/nth-last-child-of-is.html
@@ -2374,7 +2357,7 @@
       referenceFile: css/selectors/invalidation/nth-last-child-of-class-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0124"
+- id: "0123"
   category: WPT reftest
   title: css/selectors/invalidation/nth-last-child-of-pseudo-class.html
   file: css/selectors/invalidation/nth-last-child-of-pseudo-class.html
@@ -2401,7 +2384,7 @@
       referenceFile: css/selectors/invalidation/nth-last-child-of-pseudo-class-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-pseudo-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0125"
+- id: "0124"
   category: WPT reftest
   title: css/selectors/invalidation/nth-last-child-of-sibling.html
   file: css/selectors/invalidation/nth-last-child-of-sibling.html
@@ -2428,7 +2411,7 @@
       referenceFile: css/selectors/invalidation/nth-last-child-of-sibling-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-sibling-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0126"
+- id: "0125"
   category: WPT reftest
   title: css/selectors/invalidation/nth-last-child-when-ancestor-changes.html
   file: css/selectors/invalidation/nth-last-child-when-ancestor-changes.html
@@ -2455,7 +2438,7 @@
       referenceFile: css/selectors/invalidation/nth-last-child-when-ancestor-changes-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-when-ancestor-changes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0127"
+- id: "0126"
   category: WPT reftest
   title: css/selectors/invalidation/nth-last-child-when-sibling-changes.html
   file: css/selectors/invalidation/nth-last-child-when-sibling-changes.html
@@ -2482,7 +2465,7 @@
       referenceFile: css/selectors/invalidation/nth-last-child-when-sibling-changes-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-when-sibling-changes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0128"
+- id: "0127"
   category: WPT reftest
   title: css/selectors/invalidation/part-pseudo.html
   file: css/selectors/invalidation/part-pseudo.html
@@ -2509,7 +2492,7 @@
       referenceFile: css/selectors/invalidation/part-pseudo-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/part-pseudo-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0129"
+- id: "0128"
   category: WPT reftest
   title: css/selectors/invalidation/sheet-going-away-002.html
   file: css/selectors/invalidation/sheet-going-away-002.html
@@ -2536,7 +2519,7 @@
       referenceFile: css/selectors/invalidation/sheet-going-away-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/sheet-going-away-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0132"
+- id: "0131"
   category: WPT reftest
   title: css/selectors/is-default-ns-003.html
   file: css/selectors/is-default-ns-003.html
@@ -2563,7 +2546,7 @@
       referenceFile: css/reference/blank.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0134"
+- id: "0133"
   category: WPT reftest
   title: css/selectors/is-where-visited.html
   file: css/selectors/is-where-visited.html
@@ -2590,7 +2573,7 @@
       referenceFile: css/selectors/is-where-visited-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/is-where-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0137"
+- id: "0136"
   category: WPT reftest
   title: css/selectors/not-default-ns-003.html
   file: css/selectors/not-default-ns-003.html
@@ -2617,7 +2600,7 @@
       referenceFile: css/reference/blank.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0144"
+- id: "0143"
   category: WPT reftest
   title: css/selectors/nth-child-of-complex-selector-many-children.html
   file: css/selectors/nth-child-of-complex-selector-many-children.html
@@ -2645,7 +2628,7 @@
       referenceFile: css/selectors/nth-child-of-complex-selector-many-children-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/nth-child-of-complex-selector-many-children-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0145"
+- id: "0144"
   category: WPT reftest
   title: css/selectors/nth-child-of-complex-selector.html
   file: css/selectors/nth-child-of-complex-selector.html
@@ -2672,7 +2655,7 @@
       referenceFile: css/selectors/nth-child-of-complex-selector-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/nth-child-of-complex-selector-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0172"
+- id: "0171"
   category: WPT reftest
   title: css/selectors/of-type-selectors.xhtml
   file: css/selectors/of-type-selectors.xhtml
@@ -2699,7 +2682,7 @@
       referenceFile: css/selectors/of-type-selectors-ref.xhtml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/of-type-selectors-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0173"
+- id: "0172"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-101.xml
   file: css/selectors/old-tests/css3-modsel-101.xml
@@ -2726,7 +2709,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0174"
+- id: "0173"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-101b.xml
   file: css/selectors/old-tests/css3-modsel-101b.xml
@@ -2753,7 +2736,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0175"
+- id: "0174"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-102.xml
   file: css/selectors/old-tests/css3-modsel-102.xml
@@ -2780,7 +2763,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0176"
+- id: "0175"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-103.xml
   file: css/selectors/old-tests/css3-modsel-103.xml
@@ -2807,7 +2790,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0177"
+- id: "0176"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-103b.xml
   file: css/selectors/old-tests/css3-modsel-103b.xml
@@ -2834,7 +2817,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0178"
+- id: "0177"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-105.xml
   file: css/selectors/old-tests/css3-modsel-105.xml
@@ -2861,7 +2844,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-u-g-g.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-u-g-g.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0179"
+- id: "0178"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-105b.xml
   file: css/selectors/old-tests/css3-modsel-105b.xml
@@ -2888,7 +2871,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-u-g-g.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-u-g-g.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0180"
+- id: "0179"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-106.xml
   file: css/selectors/old-tests/css3-modsel-106.xml
@@ -2915,7 +2898,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-u-g-g.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-u-g-g.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0181"
+- id: "0180"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-106b.xml
   file: css/selectors/old-tests/css3-modsel-106b.xml
@@ -2942,7 +2925,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-u-g-g.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-u-g-g.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0182"
+- id: "0181"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-108.xml
   file: css/selectors/old-tests/css3-modsel-108.xml
@@ -2969,7 +2952,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-g-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-g-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0183"
+- id: "0182"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-108b.xml
   file: css/selectors/old-tests/css3-modsel-108b.xml
@@ -2996,7 +2979,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-g-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-g-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0184"
+- id: "0183"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-109.xml
   file: css/selectors/old-tests/css3-modsel-109.xml
@@ -3023,7 +3006,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-g-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-g-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0185"
+- id: "0184"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-109b.xml
   file: css/selectors/old-tests/css3-modsel-109b.xml
@@ -3050,7 +3033,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-g-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-g-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0186"
+- id: "0185"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-110.xml
   file: css/selectors/old-tests/css3-modsel-110.xml
@@ -3077,7 +3060,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-g-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-g-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0187"
+- id: "0186"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-110b.xml
   file: css/selectors/old-tests/css3-modsel-110b.xml
@@ -3104,7 +3087,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-g-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-g-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0188"
+- id: "0187"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-112.xml
   file: css/selectors/old-tests/css3-modsel-112.xml
@@ -3118,7 +3101,47 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0190"
+  referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
+  relation: "=="
+  diffPages:
+    - css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0188"
+  category: WPT reftest
+  title: css/selectors/old-tests/css3-modsel-112b.xml
+  file: css/selectors/old-tests/css3-modsel-112b.xml
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112b.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112b.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
+  relation: "=="
+  diffPages:
+    - css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0189"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-115.xml
   file: css/selectors/old-tests/css3-modsel-115.xml
@@ -3145,7 +3168,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0191"
+- id: "0190"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-115b.xml
   file: css/selectors/old-tests/css3-modsel-115b.xml
@@ -3172,7 +3195,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0192"
+- id: "0191"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-116.xml
   file: css/selectors/old-tests/css3-modsel-116.xml
@@ -3199,7 +3222,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0193"
+- id: "0192"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-116b.xml
   file: css/selectors/old-tests/css3-modsel-116b.xml
@@ -3226,7 +3249,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0194"
+- id: "0193"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-117.xml
   file: css/selectors/old-tests/css3-modsel-117.xml
@@ -3253,7 +3276,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0195"
+- id: "0194"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-117b.xml
   file: css/selectors/old-tests/css3-modsel-117b.xml
@@ -3280,7 +3303,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0196"
+- id: "0195"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-122.xml
   file: css/selectors/old-tests/css3-modsel-122.xml
@@ -3307,7 +3330,7 @@
       referenceFile: css/selectors/old-tests/reference/this-address-p-p-p-lime-background.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/this-address-p-p-p-lime-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0197"
+- id: "0196"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-125.xml
   file: css/selectors/old-tests/css3-modsel-125.xml
@@ -3334,7 +3357,7 @@
       referenceFile: css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0198"
+- id: "0197"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-125b.xml
   file: css/selectors/old-tests/css3-modsel-125b.xml
@@ -3361,7 +3384,7 @@
       referenceFile: css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0199"
+- id: "0198"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-126.xml
   file: css/selectors/old-tests/css3-modsel-126.xml
@@ -3388,7 +3411,7 @@
       referenceFile: css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0200"
+- id: "0199"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-126b.xml
   file: css/selectors/old-tests/css3-modsel-126b.xml
@@ -3415,7 +3438,7 @@
       referenceFile: css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0201"
+- id: "0200"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-127.xml
   file: css/selectors/old-tests/css3-modsel-127.xml
@@ -3442,7 +3465,7 @@
       referenceFile: css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0202"
+- id: "0201"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-127b.xml
   file: css/selectors/old-tests/css3-modsel-127b.xml
@@ -3469,7 +3492,7 @@
       referenceFile: css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0203"
+- id: "0202"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-128.xml
   file: css/selectors/old-tests/css3-modsel-128.xml
@@ -3496,7 +3519,7 @@
       referenceFile: css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0204"
+- id: "0203"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-128b.xml
   file: css/selectors/old-tests/css3-modsel-128b.xml
@@ -3523,7 +3546,7 @@
       referenceFile: css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0205"
+- id: "0204"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-129.xml
   file: css/selectors/old-tests/css3-modsel-129.xml
@@ -3550,7 +3573,7 @@
       referenceFile: css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0206"
+- id: "0205"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-129b.xml
   file: css/selectors/old-tests/css3-modsel-129b.xml
@@ -3577,7 +3600,7 @@
       referenceFile: css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/three-p-lime-background-except-middle.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0207"
+- id: "0206"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-134.xml
   file: css/selectors/old-tests/css3-modsel-134.xml
@@ -3604,7 +3627,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-u-g-g-u-u-g.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-u-g-g-u-u-g.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0208"
+- id: "0207"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-134b.xml
   file: css/selectors/old-tests/css3-modsel-134b.xml
@@ -3631,7 +3654,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-u-g-g-u-u-g.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-u-g-g-u-u-g.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0209"
+- id: "0208"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-135.xml
   file: css/selectors/old-tests/css3-modsel-135.xml
@@ -3658,7 +3681,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-u-g-g-u-u-g.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-u-g-g-u-u-g.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0210"
+- id: "0209"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-135b.xml
   file: css/selectors/old-tests/css3-modsel-135b.xml
@@ -3685,7 +3708,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-u-g-g-u-u-g.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-u-g-g-u-u-g.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0211"
+- id: "0210"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-136.xml
   file: css/selectors/old-tests/css3-modsel-136.xml
@@ -3712,7 +3735,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-u-g-g-u-u-g.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-u-g-g-u-u-g.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0212"
+- id: "0211"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-136b.xml
   file: css/selectors/old-tests/css3-modsel-136b.xml
@@ -3739,7 +3762,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-u-g-g-u-u-g.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-u-g-g-u-u-g.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0213"
+- id: "0212"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-141.xml
   file: css/selectors/old-tests/css3-modsel-141.xml
@@ -3766,7 +3789,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-u-g-u-g-g.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-u-g-u-g-g.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0214"
+- id: "0213"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-141b.xml
   file: css/selectors/old-tests/css3-modsel-141b.xml
@@ -3793,7 +3816,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-u-g-u-g-g.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-u-g-u-g-g.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0215"
+- id: "0214"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-142.xml
   file: css/selectors/old-tests/css3-modsel-142.xml
@@ -3820,7 +3843,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-u-g-u-g-g.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-u-g-u-g-g.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0216"
+- id: "0215"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-142b.xml
   file: css/selectors/old-tests/css3-modsel-142b.xml
@@ -3847,7 +3870,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-u-g-u-g-g.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-u-g-u-g-g.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0217"
+- id: "0216"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-143.xml
   file: css/selectors/old-tests/css3-modsel-143.xml
@@ -3874,7 +3897,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-u-g-u-g-g.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-u-g-u-g-g.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0218"
+- id: "0217"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-143b.xml
   file: css/selectors/old-tests/css3-modsel-143b.xml
@@ -3901,7 +3924,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-u-g-u-g-g.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-u-g-u-g-g.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0247"
+- id: "0246"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-172a.xml
   file: css/selectors/old-tests/css3-modsel-172a.xml
@@ -3928,7 +3951,7 @@
       referenceFile: css/selectors/old-tests/reference/seven-green-divs.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/seven-green-divs.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0248"
+- id: "0247"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-172b.xml
   file: css/selectors/old-tests/css3-modsel-172b.xml
@@ -3955,7 +3978,7 @@
       referenceFile: css/selectors/old-tests/reference/seven-green-divs.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/seven-green-divs.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0249"
+- id: "0248"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-173a.xml
   file: css/selectors/old-tests/css3-modsel-173a.xml
@@ -3982,7 +4005,7 @@
       referenceFile: css/selectors/old-tests/reference/seven-green-divs.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/seven-green-divs.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0250"
+- id: "0249"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-173b.xml
   file: css/selectors/old-tests/css3-modsel-173b.xml
@@ -4009,7 +4032,7 @@
       referenceFile: css/selectors/old-tests/reference/seven-green-divs.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/seven-green-divs.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0253"
+- id: "0252"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-175c.xml
   file: css/selectors/old-tests/css3-modsel-175c.xml
@@ -4036,7 +4059,7 @@
       referenceFile: css/selectors/old-tests/reference/this-line-green-color.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/this-line-green-color.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0264"
+- id: "0263"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-48.xml
   file: css/selectors/old-tests/css3-modsel-48.xml
@@ -4063,7 +4086,7 @@
       referenceFile: css/selectors/old-tests/reference/this-address-p-p-p-lime-background.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/this-address-p-p-p-lime-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0265"
+- id: "0264"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-49.xml
   file: css/selectors/old-tests/css3-modsel-49.xml
@@ -4090,7 +4113,7 @@
       referenceFile: css/selectors/old-tests/reference/this-address-p-p-p-lime-background.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/this-address-p-p-p-lime-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0277"
+- id: "0276"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-99.xml
   file: css/selectors/old-tests/css3-modsel-99.xml
@@ -4117,7 +4140,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0278"
+- id: "0277"
   category: WPT reftest
   title: css/selectors/old-tests/css3-modsel-99b.xml
   file: css/selectors/old-tests/css3-modsel-99b.xml
@@ -4144,7 +4167,7 @@
       referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0279"
+- id: "0278"
   category: WPT reftest
   title: css/selectors/popover-open-with-has-sibling-selector.html
   file: css/selectors/popover-open-with-has-sibling-selector.html
@@ -4171,7 +4194,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0280"
+- id: "0279"
   category: WPT reftest
   title: css/selectors/remove-hovered-element.html
   file: css/selectors/remove-hovered-element.html
@@ -4198,7 +4221,7 @@
       referenceFile: css/selectors/remove-hovered-element-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/remove-hovered-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0283"
+- id: "0282"
   category: WPT reftest
   title: css/selectors/selection-image-001.html
   file: css/selectors/selection-image-001.html
@@ -4225,7 +4248,7 @@
       referenceFile: css/selectors/selection-image-001-noref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selection-image-001-noref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0284"
+- id: "0283"
   category: WPT reftest
   title: css/selectors/selection-image-002.html
   file: css/selectors/selection-image-002.html
@@ -4252,7 +4275,7 @@
       referenceFile: css/selectors/selection-image-001-no-selection-noref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selection-image-001-no-selection-noref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0285"
+- id: "0284"
   category: WPT reftest
   title: css/selectors/selector-placeholder-shown-type-change-001.html
   file: css/selectors/selector-placeholder-shown-type-change-001.html
@@ -4279,7 +4302,7 @@
       referenceFile: css/selectors/selector-placeholder-shown-type-change-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selector-placeholder-shown-type-change-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0286"
+- id: "0285"
   category: WPT reftest
   title: css/selectors/selector-placeholder-shown-type-change-002.html
   file: css/selectors/selector-placeholder-shown-type-change-002.html
@@ -4306,7 +4329,7 @@
       referenceFile: css/selectors/selector-placeholder-shown-type-change-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selector-placeholder-shown-type-change-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0287"
+- id: "0286"
   category: WPT reftest
   title: css/selectors/selector-placeholder-shown-type-change-003.html
   file: css/selectors/selector-placeholder-shown-type-change-003.html
@@ -4333,7 +4356,7 @@
       referenceFile: css/selectors/selector-placeholder-shown-type-change-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selector-placeholder-shown-type-change-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0288"
+- id: "0287"
   category: WPT reftest
   title: css/selectors/selector-read-write-type-change-001.html
   file: css/selectors/selector-read-write-type-change-001.html
@@ -4360,7 +4383,7 @@
       referenceFile: css/selectors/selector-read-write-type-change-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selector-read-write-type-change-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0289"
+- id: "0288"
   category: WPT reftest
   title: css/selectors/selector-read-write-type-change-002.html
   file: css/selectors/selector-read-write-type-change-002.html
@@ -4387,7 +4410,7 @@
       referenceFile: css/selectors/selector-read-write-type-change-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selector-read-write-type-change-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0290"
+- id: "0289"
   category: WPT reftest
   title: css/selectors/selector-required-type-change-001.html
   file: css/selectors/selector-required-type-change-001.html
@@ -4414,7 +4437,7 @@
       referenceFile: css/selectors/selector-required-type-change-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selector-required-type-change-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0291"
+- id: "0290"
   category: WPT reftest
   title: css/selectors/selector-required-type-change-002.html
   file: css/selectors/selector-required-type-change-002.html
@@ -4441,7 +4464,7 @@
       referenceFile: css/selectors/selector-required-type-change-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selector-required-type-change-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0292"
+- id: "0291"
   category: WPT reftest
   title: css/selectors/selector-required.html
   file: css/selectors/selector-required.html
@@ -4468,7 +4491,7 @@
       referenceFile: css/selectors/selector-required-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selector-required-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0294"
+- id: "0293"
   category: WPT reftest
   title: css/selectors/selectors-4/details-open-pseudo-001.html
   file: css/selectors/selectors-4/details-open-pseudo-001.html
@@ -4495,7 +4518,7 @@
       referenceFile: css/selectors/selectors-4/details-open-pseudo-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/details-open-pseudo-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0295"
+- id: "0294"
   category: WPT reftest
   title: css/selectors/selectors-4/details-open-pseudo-002.html
   file: css/selectors/selectors-4/details-open-pseudo-002.html
@@ -4522,7 +4545,7 @@
       referenceFile: css/selectors/selectors-4/details-open-pseudo-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/details-open-pseudo-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0296"
+- id: "0295"
   category: WPT reftest
   title: css/selectors/selectors-4/details-open-pseudo-003.html
   file: css/selectors/selectors-4/details-open-pseudo-003.html
@@ -4549,7 +4572,7 @@
       referenceFile: css/selectors/selectors-4/details-open-pseudo-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/details-open-pseudo-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0299"
+- id: "0298"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-002.html
   file: css/selectors/selectors-4/lang-002.html
@@ -4576,7 +4599,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0300"
+- id: "0299"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-003.html
   file: css/selectors/selectors-4/lang-003.html
@@ -4603,7 +4626,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0301"
+- id: "0300"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-004.html
   file: css/selectors/selectors-4/lang-004.html
@@ -4630,7 +4653,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0304"
+- id: "0303"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-007.html
   file: css/selectors/selectors-4/lang-007.html
@@ -4657,7 +4680,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0305"
+- id: "0304"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-008.html
   file: css/selectors/selectors-4/lang-008.html
@@ -4684,7 +4707,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0306"
+- id: "0305"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-009.html
   file: css/selectors/selectors-4/lang-009.html
@@ -4711,7 +4734,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0307"
+- id: "0306"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-010.html
   file: css/selectors/selectors-4/lang-010.html
@@ -4738,7 +4761,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0308"
+- id: "0307"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-011.html
   file: css/selectors/selectors-4/lang-011.html
@@ -4765,7 +4788,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0309"
+- id: "0308"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-012.html
   file: css/selectors/selectors-4/lang-012.html
@@ -4792,7 +4815,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0312"
+- id: "0311"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-015.html
   file: css/selectors/selectors-4/lang-015.html
@@ -4819,7 +4842,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0314"
+- id: "0313"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-017.html
   file: css/selectors/selectors-4/lang-017.html
@@ -4846,7 +4869,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0315"
+- id: "0314"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-018.html
   file: css/selectors/selectors-4/lang-018.html
@@ -4873,7 +4896,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0317"
+- id: "0316"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-020.html
   file: css/selectors/selectors-4/lang-020.html
@@ -4900,7 +4923,7 @@
       referenceFile: css/selectors/selectors-4/lang-020-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0318"
+- id: "0317"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-021.html
   file: css/selectors/selectors-4/lang-021.html
@@ -4927,7 +4950,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0319"
+- id: "0318"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-022.html
   file: css/selectors/selectors-4/lang-022.html
@@ -4954,7 +4977,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0320"
+- id: "0319"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-023.html
   file: css/selectors/selectors-4/lang-023.html
@@ -4981,7 +5004,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0321"
+- id: "0320"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-024.html
   file: css/selectors/selectors-4/lang-024.html
@@ -5008,7 +5031,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0322"
+- id: "0321"
   category: WPT reftest
   title: css/selectors/selectors-4/lang-025.html
   file: css/selectors/selectors-4/lang-025.html
@@ -5035,7 +5058,7 @@
       referenceFile: css/selectors/selectors-4/lang-000-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-4/lang-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0324"
+- id: "0323"
   category: WPT reftest
   title: css/selectors/selectors-attr-white-space-001.html
   file: css/selectors/selectors-attr-white-space-001.html
@@ -5062,7 +5085,7 @@
       referenceFile: css/selectors/selectors-attr-white-space-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-attr-white-space-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0325"
+- id: "0324"
   category: WPT reftest
   title: css/selectors/selectors-empty-001.xml
   file: css/selectors/selectors-empty-001.xml
@@ -5089,7 +5112,7 @@
       referenceFile: css/selectors/selectors-empty-001-ref.xml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-empty-001-ref.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0326"
+- id: "0325"
   category: WPT reftest
   title: css/selectors/selectors-namespace-001.xml
   file: css/selectors/selectors-namespace-001.xml
@@ -5116,7 +5139,7 @@
       referenceFile: css/selectors/selectors-namespace-001-ref.xml
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/selectors-namespace-001-ref.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0331"
+- id: "0330"
   category: WPT reftest
   title: css/selectors/user-invalid-form-submission-invalidation.html
   file: css/selectors/user-invalid-form-submission-invalidation.html
@@ -5143,7 +5166,7 @@
       referenceFile: css/selectors/user-invalid-form-submission-invalidation-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/user-invalid-form-submission-invalidation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0077"
+- id: "0076"
   category: WPT reftest
   title: css/selectors/invalidation/lang-pseudo-class-in-has-multiple-document-elements.html
   file: css/selectors/invalidation/lang-pseudo-class-in-has-multiple-document-elements.html
@@ -5160,37 +5183,20 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0189"
+- id: "0268"
   category: WPT reftest
-  title: css/selectors/old-tests/css3-modsel-112b.xml
-  file: css/selectors/old-tests/css3-modsel-112b.xml
+  title: css/selectors/old-tests/css3-modsel-59.xml
+  file: css/selectors/old-tests/css3-modsel-59.xml
   type: error
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112b.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-59.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-112b.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  errorSide: canary, canary-reference, stable, stable-reference
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
-    - side: canary-reference
-      referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
-    - side: stable
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
-    - side: stable-reference
-      referenceFile: css/selectors/old-tests/reference/lime-bg-paras-g-u-g-u-u.xht
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-59.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T08:32:38.599Z",
+  "generatedAt": "2026-06-12T18:18:16.452Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,19 +39,23 @@
   },
   "summary": {
     "totalEntries": 165,
-    "entriesWithDifferences": 56,
-    "entriesWithErrors": 0,
-    "timeoutEntries": 0,
+    "entriesWithDifferences": 57,
+    "entriesWithErrors": 1,
+    "timeoutEntries": 1,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 109,
-        "known-fail": 56
+        "pass": 107,
+        "known-fail": 56,
+        "improvement": 1,
+        "error": 1
       },
       "statusPairs": {
-        "PASS->PASS": 109,
-        "FAIL->FAIL": 56
+        "PASS->PASS": 107,
+        "FAIL->FAIL": 56,
+        "ERROR->PASS": 1,
+        "PASS->ERROR": 1
       }
     },
     "triage": {
@@ -60,10 +64,10 @@
         "triaged": 0
       },
       "errors": {
-        "pending": 0,
+        "pending": 1,
         "triaged": 0
       },
-      "pendingEntries": 56,
+      "pendingEntries": 57,
       "triagedEntries": 0
     }
   },
@@ -1086,8 +1090,8 @@
       ],
       "sourceUrl": "https://wpt.live/css/css-conditional/at-supports-014.html",
       "actualStatus": "PASS",
-      "baselineStatus": "PASS",
-      "changeType": "pass",
+      "baselineStatus": "ERROR",
+      "changeType": "improvement",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -1098,7 +1102,24 @@
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
-      ]
+      ],
+      "difference": {
+        "classification": "improvement",
+        "triageRequired": false,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": null
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "not-needed",
+          "decision": ""
+        }
+      }
     },
     {
       "id": "0025",
@@ -5767,9 +5788,9 @@
         "css/css-conditional/container-queries/flex-basis-with-container-type.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-conditional/container-queries/flex-basis-with-container-type.html",
-      "actualStatus": "PASS",
+      "actualStatus": "ERROR",
       "baselineStatus": "PASS",
-      "changeType": "pass",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/flex-basis-with-container-type.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/flex-basis-with-container-type.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -5779,6 +5800,20 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
         }
       ]
     },

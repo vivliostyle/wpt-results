@@ -74,7 +74,7 @@
 <body>
   <main>
     <h1>canary vs stable</h1>
-    <p>reftest-diff mode report generated at 2026-06-08T08:27:20.661Z · <a class="header-link" href="report.json">JSON</a> · <a class="header-link" href="report.md">Markdown</a> · <a class="header-link" href="triage.yaml">Triage</a></p>
+    <p>reftest-diff mode report generated at 2026-06-12T18:12:15.128Z · <a class="header-link" href="report.json">JSON</a> · <a class="header-link" href="report.md">Markdown</a> · <a class="header-link" href="triage.yaml">Triage</a></p>
     <section class="summary">
       <button type="button" class="card summary-card neutral is-filterable" data-filter-kind="clear" data-filter-value="" data-filter-label="Compared">
         <div class="label">Compared</div>
@@ -82,11 +82,19 @@
       </button>
 <button type="button" class="card summary-card pass is-filterable" data-filter-kind="change-type" data-filter-value="pass" data-filter-label="PASS">
         <div class="label">PASS</div>
-        <div class="value">918</div>
+        <div class="value">912</div>
+      </button>
+<button type="button" class="card summary-card improvement is-filterable" data-filter-kind="change-type" data-filter-value="improvement" data-filter-label="improvement">
+        <div class="label">improvement</div>
+        <div class="value">2</div>
       </button>
 <button type="button" class="card summary-card known-fail is-filterable" data-filter-kind="change-type" data-filter-value="known-fail" data-filter-label="known-fail">
         <div class="label">known-fail</div>
         <div class="value">91</div>
+      </button>
+<button type="button" class="card summary-card error is-filterable" data-filter-kind="change-type" data-filter-value="error" data-filter-label="ERROR">
+        <div class="label">ERROR</div>
+        <div class="value">4</div>
       </button>
 <button type="button" class="card summary-card neutral is-filterable" data-filter-kind="page-count-mismatch" data-filter-value="1" data-filter-label="Page count changed">
         <div class="label">Page count changed</div>
@@ -96,9 +104,9 @@
         <div class="label">Screenshot mismatches</div>
         <div class="value">47</div>
       </button>
-<button type="button" class="card summary-card neutral is-filterable" data-filter-kind="timeout" data-filter-value="1" data-filter-label="Timeout entries">
+<button type="button" class="card summary-card error is-filterable" data-filter-kind="timeout" data-filter-value="1" data-filter-label="Timeout entries">
         <div class="label">Timeout entries</div>
-        <div class="value">0</div>
+        <div class="value">4</div>
       </button>
     </section>
     <div class="toolbar" id="filter-toolbar" hidden>
@@ -582,13 +590,13 @@
           <td><span class="badge pass">PASS</span></td>
           <td>-</td>
 </tr>
-<tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
+<tr data-filter-change-type="error" data-filter-error="1" data-filter-timeout="1" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
           <td class="entry-id">0059</td>
           <td class="test-path"><div class="entry-category">WPT reftest</div><div class="entry-title"><a class="test-link" href="https://wpt.live/css/css-break/box-decoration-break-clone-010.html" target="lr-source">css/css-break/box-decoration-break-clone-010.html</a></div><div class="entry-ref">== <a class="ref-link" href="https://wpt.live/css/reference/ref-filled-green-100px-square.xht" target="lr-source">css/reference/ref-filled-green-100px-square.xht</a></div></td>
   <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/box-decoration-break-clone-010.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">stable ref</a></div></td>
-  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/box-decoration-break-clone-010.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
-          <td><span class="badge pass">PASS</span></td>
-          <td>-</td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/box-decoration-break-clone-010.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge error">ERROR</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
+          <td><span class="badge error">ERROR</span></td>
+          <td>canary: Timeout (10000ms): waiting for viewer ready</td>
 </tr>
 <tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
           <td class="entry-id">0060</td>
@@ -1518,13 +1526,13 @@
           <td><span class="badge pass">PASS</span></td>
           <td>-</td>
 </tr>
-<tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
+<tr data-filter-change-type="error" data-filter-error="1" data-filter-timeout="1" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
           <td class="entry-id">0176</td>
           <td class="test-path"><div class="entry-category">WPT reftest</div><div class="entry-title"><a class="test-link" href="https://wpt.live/css/css-break/flexbox/multi-line-column-flex-fragmentation-011.html" target="lr-source">css/css-break/flexbox/multi-line-column-flex-fragmentation-011.html</a></div><div class="entry-ref">== <a class="ref-link" href="https://wpt.live/css/reference/ref-filled-green-100px-square.xht" target="lr-source">css/reference/ref-filled-green-100px-square.xht</a></div></td>
   <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-column-flex-fragmentation-011.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">stable ref</a></div></td>
-  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-column-flex-fragmentation-011.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
-          <td><span class="badge pass">PASS</span></td>
-          <td>-</td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-column-flex-fragmentation-011.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge error">ERROR</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
+          <td><span class="badge error">ERROR</span></td>
+          <td>canary: Timeout (10000ms): waiting for viewer ready</td>
 </tr>
 <tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
           <td class="entry-id">0177</td>
@@ -2470,12 +2478,12 @@
           <td><span class="badge pass">PASS</span></td>
           <td>-</td>
 </tr>
-<tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
+<tr data-filter-change-type="improvement" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
           <td class="entry-id">0295</td>
           <td class="test-path"><div class="entry-category">WPT reftest</div><div class="entry-title"><a class="test-link" href="https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-072.html" target="lr-source">css/css-break/flexbox/multi-line-row-flex-fragmentation-072.html</a></div><div class="entry-ref">== <a class="ref-link" href="https://wpt.live/css/reference/ref-filled-green-100px-square.xht" target="lr-source">css/reference/ref-filled-green-100px-square.xht</a></div></td>
-  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-072.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">stable ref</a></div></td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-072.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge error">ERROR</span></a><a class="ref-viewer-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">stable ref</a></div></td>
   <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-072.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
-          <td><span class="badge pass">PASS</span></td>
+          <td><span class="badge improvement">improvement</span></td>
           <td>-</td>
 </tr>
 <tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
@@ -3078,13 +3086,13 @@
           <td><span class="badge pass">PASS</span></td>
           <td>-</td>
 </tr>
-<tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
+<tr data-filter-change-type="error" data-filter-error="1" data-filter-timeout="1" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
           <td class="entry-id">0371</td>
           <td class="test-path"><div class="entry-category">WPT reftest</div><div class="entry-title"><a class="test-link" href="https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-053.html" target="lr-source">css/css-break/flexbox/single-line-column-flex-fragmentation-053.html</a></div><div class="entry-ref">== <a class="ref-link" href="https://wpt.live/css/reference/ref-filled-green-100px-square.xht" target="lr-source">css/reference/ref-filled-green-100px-square.xht</a></div></td>
   <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-053.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">stable ref</a></div></td>
-  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-053.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
-          <td><span class="badge pass">PASS</span></td>
-          <td>-</td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-053.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge error">ERROR</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
+          <td><span class="badge error">ERROR</span></td>
+          <td>canary: Timeout (10000ms): waiting for viewer ready</td>
 </tr>
 <tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
           <td class="entry-id">0372</td>
@@ -6014,13 +6022,13 @@
           <td><span class="badge pass">PASS</span></td>
           <td>-</td>
 </tr>
-<tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
+<tr data-filter-change-type="error" data-filter-error="1" data-filter-timeout="1" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
           <td class="entry-id">0738</td>
           <td class="test-path"><div class="entry-category">WPT reftest</div><div class="entry-title"><a class="test-link" href="https://wpt.live/css/css-break/overflowed-block-with-room-after-000.html" target="lr-source">css/css-break/overflowed-block-with-room-after-000.html</a></div><div class="entry-ref">== <a class="ref-link" href="https://wpt.live/css/reference/ref-filled-green-100px-square.xht" target="lr-source">css/reference/ref-filled-green-100px-square.xht</a></div></td>
   <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/overflowed-block-with-room-after-000.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">stable ref</a></div></td>
-  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/overflowed-block-with-room-after-000.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
-          <td><span class="badge pass">PASS</span></td>
-          <td>-</td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/overflowed-block-with-room-after-000.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge error">ERROR</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
+          <td><span class="badge error">ERROR</span></td>
+          <td>canary: Timeout (10000ms): waiting for viewer ready</td>
 </tr>
 <tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
           <td class="entry-id">0739</td>
@@ -6894,12 +6902,12 @@
           <td><span class="badge pass">PASS</span></td>
           <td>-</td>
 </tr>
-<tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
+<tr data-filter-change-type="improvement" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">
           <td class="entry-id">0848</td>
           <td class="test-path"><div class="entry-category">WPT reftest</div><div class="entry-title"><a class="test-link" href="https://wpt.live/css/css-break/table/table-cell-expansion-001.html" target="lr-source">css/css-break/table/table-cell-expansion-001.html</a></div><div class="entry-ref">== <a class="ref-link" href="https://wpt.live/css/reference/ref-filled-green-100px-square.xht" target="lr-source">css/reference/ref-filled-green-100px-square.xht</a></div></td>
-  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-cell-expansion-001.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">stable ref</a></div></td>
+  <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-cell-expansion-001.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline"><span class="badge error">ERROR</span></a><a class="ref-viewer-link" href="https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-baseline">stable ref</a></div></td>
   <td><div class="status-cell"><a class="badge-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-cell-expansion-001.html&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual"><span class="badge pass">PASS</span></a><a class="ref-viewer-link" href="https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&amp;pixelRatio=0&amp;bookMode=false&amp;zoom=1&amp;spread=false" target="lr-actual">canary ref</a></div></td>
-          <td><span class="badge pass">PASS</span></td>
+          <td><span class="badge improvement">improvement</span></td>
           <td>-</td>
 </tr>
 <tr data-filter-change-type="pass" data-filter-error="0" data-filter-timeout="0" data-filter-page-count-mismatch="0" data-filter-screenshot-mismatch="0">

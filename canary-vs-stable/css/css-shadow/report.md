@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 111
+- Compared entries: 112
 - Entries with differences: 54 (pending: 54, triaged: 0)
 - Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":57,"known-fail":54}
+- Outcome summary: {"pass":57,"known-fail":54,"error":1}
 
 ## Differences
 
@@ -137,19 +137,6 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/has-slotted-flattened-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0026] [WPT reftest] css/css-shadow/has-slotted-functional-001.tentative.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square-only.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/has-slotted-functional-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/has-slotted-functional-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -504,7 +491,20 @@
   stable page 1: diffRatio=0.0024890752614304254, diffPixels=2087
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/part/part-nested-pseudo-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0079] [WPT reftest] css/css-shadow/scoped-reference-animation-001.html
+- [0079] [WPT reftest] css/css-shadow/same-rules-bug-2044746.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-shadow/same-rules-bug-2044746-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000017889855736203345, diffPixels=15
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000017889855736203345, diffPixels=15
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0080] [WPT reftest] css/css-shadow/scoped-reference-animation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shadow/scoped-reference-animation-ref.html (==)
@@ -517,7 +517,7 @@
   stable page 1: diffRatio=0.00006440348065033204, diffPixels=54
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/scoped-reference-animation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0081] [WPT reftest] css/css-shadow/shadow-assign-dynamic-001.html
+- [0082] [WPT reftest] css/css-shadow/shadow-assign-dynamic-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shadow/reference/green-box.html (==)
@@ -530,7 +530,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0082] [WPT reftest] css/css-shadow/shadow-at-import.html
+- [0083] [WPT reftest] css/css-shadow/shadow-at-import.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shadow/reference/green-box.html (==)
@@ -543,7 +543,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0085] [WPT reftest] css/css-shadow/shadow-disabled-sheet-001.html
+- [0086] [WPT reftest] css/css-shadow/shadow-disabled-sheet-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shadow/reference/green-box.html (==)
@@ -556,7 +556,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0086] [WPT reftest] css/css-shadow/shadow-fallback-dynamic-001.html
+- [0087] [WPT reftest] css/css-shadow/shadow-fallback-dynamic-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shadow/reference/green-box.html (==)
@@ -569,7 +569,7 @@
   stable page 1: diffRatio=0.011752442561636517, diffPixels=9854
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0087] [WPT reftest] css/css-shadow/shadow-fallback-dynamic-002.html
+- [0088] [WPT reftest] css/css-shadow/shadow-fallback-dynamic-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shadow/reference/green-box.html (==)
@@ -582,7 +582,7 @@
   stable page 1: diffRatio=0.011752442561636517, diffPixels=9854
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0093] [WPT reftest] css/css-shadow/shadow-link-rel-stylesheet.html
+- [0094] [WPT reftest] css/css-shadow/shadow-link-rel-stylesheet.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shadow/reference/green-box.html (==)
@@ -595,7 +595,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0098] [WPT reftest] css/css-shadow/shadow-root-insert-into-document.html
+- [0099] [WPT reftest] css/css-shadow/shadow-root-insert-into-document.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shadow/reference/green-box.html (==)
@@ -608,7 +608,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0100] [WPT reftest] css/css-shadow/slotted-file-selector-button.html
+- [0101] [WPT reftest] css/css-shadow/slotted-file-selector-button.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shadow/slotted-file-selector-button-ref.html (==)
@@ -616,8 +616,12 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.00019321044195099612, diffPixels=162
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00019321044195099612, diffPixels=162
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0101] [WPT reftest] css/css-shadow/slotted-has-001.html
+- [0102] [WPT reftest] css/css-shadow/slotted-has-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -630,7 +634,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0102] [WPT reftest] css/css-shadow/slotted-has-002.html
+- [0103] [WPT reftest] css/css-shadow/slotted-has-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -643,7 +647,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0103] [WPT reftest] css/css-shadow/slotted-has-003.html
+- [0104] [WPT reftest] css/css-shadow/slotted-has-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -656,7 +660,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0104] [WPT reftest] css/css-shadow/slotted-has-004.html
+- [0105] [WPT reftest] css/css-shadow/slotted-has-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -669,7 +673,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0105] [WPT reftest] css/css-shadow/slotted-placeholder.html
+- [0106] [WPT reftest] css/css-shadow/slotted-placeholder.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shadow/slotted-placeholder-ref.html (==)
@@ -682,7 +686,7 @@
   stable page 1: diffRatio=0.0004901820471719717, diffPixels=411
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/slotted-placeholder-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0108] [WPT reftest] css/css-shadow/slotted-with-pseudo-element.html
+- [0109] [WPT reftest] css/css-shadow/slotted-with-pseudo-element.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shadow/slotted-with-pseudo-element-ref.html (==)
@@ -695,7 +699,7 @@
   stable page 1: diffRatio=0.00027311846423937105, diffPixels=229
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/slotted-with-pseudo-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0111] [WPT reftest] css/css-shadow/whitespace-crash-001.html
+- [0112] [WPT reftest] css/css-shadow/whitespace-crash-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shadow/reference/green-box.html (==)
@@ -710,12 +714,11 @@
 
 ## Errors
 
-- [0100] [WPT reftest] css/css-shadow/slotted-file-selector-button.html
+- [0026] [WPT reftest] css/css-shadow/has-slotted-functional-001.tentative.html
   triage: pending
-  side: stable-reference
-  reference: css/css-shadow/slotted-file-selector-button-ref.html
+  side: canary
   timeout: true
   error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/has-slotted-functional-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/has-slotted-functional-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

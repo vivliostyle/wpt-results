@@ -2,11 +2,11 @@
 
 - Compared entries: 95
 - Entries with differences: 20 (pending: 20, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":20,"pass":9,"unchanged":66}
+- Outcome summary: {"known-fail":20,"pass":9,"unchanged":65,"error":1}
 
 ## Differences
 
@@ -269,4 +269,14 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/translation-animation-subpixel-offset.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/translation-animation-subpixel-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0064] [WPT manual] css/css-animations/animation-iteration-count-007-manual.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-iteration-count-007-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-iteration-count-007-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

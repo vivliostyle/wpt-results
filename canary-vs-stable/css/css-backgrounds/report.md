@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 704
-- Entries with differences: 241 (improvement: 1, pending: 240, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
-- Timeout entries: 2
+- Compared entries: 709
+- Entries with differences: 229 (improvement: 3, pending: 226, triaged: 0)
+- Entries with errors: 12 (pending: 12, triaged: 0)
+- Timeout entries: 12
 - Page count changed: 0
-- Screenshot mismatches: 2
-- Outcome summary: {"known-fail":238,"pass":459,"improvement":1,"error":2,"changed-fail":1,"regression":1,"unchanged":2}
+- Screenshot mismatches: 1
+- Outcome summary: {"known-fail":225,"pass":472,"error":6,"improvement":3,"changed-fail":1,"unchanged":2}
 
 ## Differences
 
@@ -48,19 +48,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-custom-timing-function.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-custom-timing-function-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0006] [WPT reftest] css/css-backgrounds/animations/background-color-animation-fallback-missing-0-percent.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-backgrounds/animations/background-color-animation-fallback-missing-0-percent-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-fallback-missing-0-percent.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-fallback-missing-0-percent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-fallback-missing-0-percent.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-fallback-missing-0-percent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0007] [WPT reftest] css/css-backgrounds/animations/background-color-animation-fallback-missing-100-percent.html
   triage: pending
@@ -738,20 +725,20 @@
   stable page 1: diffRatio=0.029177162048698572, diffPixels=24464
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-border-shape-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0078] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area-box-decoration-break.html
+- [0079] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area-complex.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-backgrounds/background-clip/clip-border-area-box-decoration-break-ref.html (==)
+  reference: css/css-backgrounds/background-clip/clip-border-area-complex-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-box-decoration-break.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00792043546294176, diffPixels=6641
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-box-decoration-break-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-complex.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02333552782230364, diffPixels=19566
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-complex-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-box-decoration-break.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00792043546294176, diffPixels=6641
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-box-decoration-break-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-complex.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02333552782230364, diffPixels=19566
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-complex-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0079] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area-corner-shape.html
+- [0080] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area-corner-shape.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-clip/clip-border-area-corner-shape-ref.html (==)
@@ -766,7 +753,46 @@
   stable page 2: diffRatio=0.0004627509350431265, diffPixels=388
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-corner-shape-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0080] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area-multiple-backgrounds.html
+- [0081] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area-double.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-backgrounds/background-clip/clip-border-area-double-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-double.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.025284329440500724, diffPixels=21200
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-double-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-double.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.025284329440500724, diffPixels=21200
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-double-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0082] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area-inset.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-backgrounds/background-clip/clip-border-area-inset-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-inset.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-inset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-inset.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-inset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0083] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area-missing-border.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-backgrounds/background-clip/clip-border-area-missing-border-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-missing-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.014908213113502785, diffPixels=12500
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-missing-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-missing-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.014908213113502785, diffPixels=12500
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-missing-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0084] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area-multiple-backgrounds.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-clip/clip-border-area-multiple-backgrounds-ref.html (==)
@@ -779,7 +805,7 @@
   stable page 1: diffRatio=0.04721132928784062, diffPixels=39585
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-multiple-backgrounds-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0081] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area-on-body-not-propagated-to-root.html
+- [0085] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area-on-body-not-propagated-to-root.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-clip/clip-border-area-on-body-not-propagated-to-root-ref.html (==)
@@ -792,7 +818,33 @@
   stable page 1: diffRatio=0.566945032821922, diffPixels=475363
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-on-body-not-propagated-to-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0084] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area-text.html
+- [0088] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area-rounded.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-backgrounds/background-clip/clip-border-area-rounded-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-rounded.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.011004646591863216, diffPixels=9227
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-rounded-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-rounded.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.011004646591863216, diffPixels=9227
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-rounded-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0089] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area-solid.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-backgrounds/background-clip/clip-border-area-solid-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-solid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-solid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-solid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-solid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0090] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area-text.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-clip/clip-border-area-text-ref.html (==)
@@ -805,35 +857,16 @@
   stable page 1: diffRatio=0.04495601480802992, diffPixels=37694
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0085] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area.html
+- [0094] [WPT reftest] css/css-backgrounds/background-clip/clip-text-background-table-cell.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-backgrounds/background-clip/clip-border-area-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.06312375963666896, diffPixels=52927
-  canary page 2: diffRatio=0.03526209831310587, diffPixels=29566
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.06312375963666896, diffPixels=52927
-  stable page 2: diffRatio=0.03526209831310587, diffPixels=29566
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0089] [WPT reftest] css/css-backgrounds/background-clip/clip-text-background-table-cell.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-backgrounds/background-clip/clip-text-background-table-cell-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-background-table-cell.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.00020155904129455767, diffPixels=169
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-background-table-cell-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-background-table-cell.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00020155904129455767, diffPixels=169
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-background-table-cell-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0093] [WPT reftest] css/css-backgrounds/background-clip/clip-text-descendants.html
+- [0098] [WPT reftest] css/css-backgrounds/background-clip/clip-text-descendants.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-clip/clip-text-descendants-ref.html (==)
@@ -846,7 +879,7 @@
   stable page 1: diffRatio=0.004674022975345394, diffPixels=3919
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-descendants-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0106] [WPT reftest] css/css-backgrounds/background-clip/clip-text-on-body-scroll.html
+- [0111] [WPT reftest] css/css-backgrounds/background-clip/clip-text-on-body-scroll.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-clip/clip-text-on-body-scroll-ref.html (==)
@@ -859,7 +892,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-on-body-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0107] [WPT reftest] css/css-backgrounds/background-clip/clip-text-on-root.html
+- [0112] [WPT reftest] css/css-backgrounds/background-clip/clip-text-on-root.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/green-root-background.html (==)
@@ -872,7 +905,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/green-root-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0109] [WPT reftest] css/css-backgrounds/background-clip/clip-text-relative-child.html
+- [0114] [WPT reftest] css/css-backgrounds/background-clip/clip-text-relative-child.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-clip/clip-text-relative-child-ref.html (==)
@@ -885,7 +918,7 @@
   stable page 1: diffRatio=0.014848580261048775, diffPixels=12450
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-relative-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0111] [WPT reftest] css/css-backgrounds/background-clip/clip-text-stacking-context-child-002.html
+- [0116] [WPT reftest] css/css-backgrounds/background-clip/clip-text-stacking-context-child-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-clip/clip-text-stacking-context-child-002-ref.html (==)
@@ -898,7 +931,7 @@
   stable page 1: diffRatio=0.03753291733455461, diffPixels=31470
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-stacking-context-child-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0112] [WPT reftest] css/css-backgrounds/background-clip/clip-text-stacking-context-child.html
+- [0117] [WPT reftest] css/css-backgrounds/background-clip/clip-text-stacking-context-child.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-clip/clip-text-stacking-context-child-ref.html (==)
@@ -911,13 +944,7 @@
   stable page 1: diffRatio=0.05963285245401114, diffPixels=50000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-stacking-context-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0117] [WPT reftest] css/css-backgrounds/background-clip-002.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0139] [WPT reftest] css/css-backgrounds/background-color-body-propagation-003.html
+- [0144] [WPT reftest] css/css-backgrounds/background-color-body-propagation-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-color-body-propagation-ref.html (==)
@@ -930,7 +957,7 @@
   stable page 1: diffRatio=0.6384937218532937, diffPixels=535354
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0140] [WPT reftest] css/css-backgrounds/background-color-body-propagation-004.html
+- [0145] [WPT reftest] css/css-backgrounds/background-color-body-propagation-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/blank.html (==)
@@ -943,7 +970,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0141] [WPT reftest] css/css-backgrounds/background-color-body-propagation-005.html
+- [0146] [WPT reftest] css/css-backgrounds/background-color-body-propagation-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/blank.html (==)
@@ -956,7 +983,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0143] [WPT reftest] css/css-backgrounds/background-color-body-propagation-007.html
+- [0148] [WPT reftest] css/css-backgrounds/background-color-body-propagation-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/blank.html (==)
@@ -969,7 +996,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0144] [WPT reftest] css/css-backgrounds/background-color-body-propagation-008.html
+- [0149] [WPT reftest] css/css-backgrounds/background-color-body-propagation-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-color-no-body-propagation-ref.html (==)
@@ -982,7 +1009,7 @@
   stable page 1: diffRatio=0.6265671513624914, diffPixels=525354
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-no-body-propagation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0145] [WPT reftest] css/css-backgrounds/background-color-body-propagation-009.html
+- [0150] [WPT reftest] css/css-backgrounds/background-color-body-propagation-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-color-no-body-propagation-ref.html (==)
@@ -995,7 +1022,7 @@
   stable page 1: diffRatio=0.6265671513624914, diffPixels=525354
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-no-body-propagation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0147] [WPT reftest] css/css-backgrounds/background-color-root-propagation-001.html
+- [0152] [WPT reftest] css/css-backgrounds/background-color-root-propagation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/blank.html (==)
@@ -1008,7 +1035,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0168] [WPT reftest] css/css-backgrounds/background-image-gradient-currentcolor-visited.html
+- [0173] [WPT reftest] css/css-backgrounds/background-image-gradient-currentcolor-visited.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-image-gradient-currentcolor-visited-ref.html (==)
@@ -1021,7 +1048,13 @@
   stable page 1: diffRatio=0.010118502404396611, diffPixels=8484
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-image-gradient-currentcolor-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0170] [WPT reftest] css/css-backgrounds/background-image-image-function.html
+- [0174] [WPT reftest] css/css-backgrounds/background-image-gradient-interpolation-repaint.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-image-gradient-interpolation-repaint.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-image-gradient-interpolation-repaint.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0175] [WPT reftest] css/css-backgrounds/background-image-image-function.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-image-image-function-ref.html (==)
@@ -1034,7 +1067,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-image-image-function-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0172] [WPT reftest] css/css-backgrounds/background-image-none-gradient-repaint.html
+- [0177] [WPT reftest] css/css-backgrounds/background-image-none-gradient-repaint.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-clip-color-repaint-ref.html (==)
@@ -1047,7 +1080,7 @@
   stable page 1: diffRatio=0.026834783604305013, diffPixels=22500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip-color-repaint-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0173] [WPT reftest] css/css-backgrounds/background-image-shared-stylesheet.html
+- [0178] [WPT reftest] css/css-backgrounds/background-image-shared-stylesheet.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-image-shared-stylesheet-ref.html (==)
@@ -1060,7 +1093,7 @@
   stable page 1: diffRatio=0.6405546332341042, diffPixels=537082
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-image-shared-stylesheet-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0178] [WPT reftest] css/css-backgrounds/background-margin-root.html
+- [0183] [WPT reftest] css/css-backgrounds/background-margin-root.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-margin-root-ref.html (==)
@@ -1073,7 +1106,7 @@
   stable page 1: diffRatio=0.348983379131364, diffPixels=292610
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-margin-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0179] [WPT reftest] css/css-backgrounds/background-margin-transformed-root.html
+- [0184] [WPT reftest] css/css-backgrounds/background-margin-transformed-root.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-margin-transformed-root-ref.html (==)
@@ -1086,7 +1119,7 @@
   stable page 1: diffRatio=0.348983379131364, diffPixels=292610
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-margin-transformed-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0180] [WPT reftest] css/css-backgrounds/background-margin-will-change-root.html
+- [0185] [WPT reftest] css/css-backgrounds/background-margin-will-change-root.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-margin-will-change-root-ref.html (==)
@@ -1099,7 +1132,7 @@
   stable page 1: diffRatio=0.348983379131364, diffPixels=292610
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-margin-will-change-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0183] [WPT reftest] css/css-backgrounds/background-origin/origin-border-box.html
+- [0188] [WPT reftest] css/css-backgrounds/background-origin/origin-border-box.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/origin-border-box-ref.html (==)
@@ -1112,7 +1145,7 @@
   stable page 1: diffRatio=0.059155789634379057, diffPixels=49600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-border-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0184] [WPT reftest] css/css-backgrounds/background-origin/origin-border-box_with_position.html
+- [0189] [WPT reftest] css/css-backgrounds/background-origin/origin-border-box_with_position.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/origin-border-box_with_position-ref.html (==)
@@ -1125,7 +1158,7 @@
   stable page 1: diffRatio=0.022030761010609877, diffPixels=18472
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-border-box_with_position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0185] [WPT reftest] css/css-backgrounds/background-origin/origin-border-box_with_radius.html
+- [0190] [WPT reftest] css/css-backgrounds/background-origin/origin-border-box_with_radius.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/origin-border-box_with_radius-ref.html (==)
@@ -1138,7 +1171,7 @@
   stable page 1: diffRatio=0.05678478742080757, diffPixels=47612
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-border-box_with_radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0186] [WPT reftest] css/css-backgrounds/background-origin/origin-border-box_with_size.html
+- [0191] [WPT reftest] css/css-backgrounds/background-origin/origin-border-box_with_size.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/origin-border-box_with_size-ref.html (==)
@@ -1151,7 +1184,7 @@
   stable page 1: diffRatio=0.055459745439279444, diffPixels=46501
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-border-box_with_size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0187] [WPT reftest] css/css-backgrounds/background-origin/origin-content-box.html
+- [0192] [WPT reftest] css/css-backgrounds/background-origin/origin-content-box.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/origin-content-box-ref.html (==)
@@ -1164,7 +1197,7 @@
   stable page 1: diffRatio=0.054499656514769866, diffPixels=45696
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-content-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0188] [WPT reftest] css/css-backgrounds/background-origin/origin-content-box_with_position.html
+- [0193] [WPT reftest] css/css-backgrounds/background-origin/origin-content-box_with_position.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/origin-content-box_with_position-ref.html (==)
@@ -1177,7 +1210,7 @@
   stable page 1: diffRatio=0.02316617052133425, diffPixels=19424
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-content-box_with_position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0189] [WPT reftest] css/css-backgrounds/background-origin/origin-content-box_with_radius.html
+- [0194] [WPT reftest] css/css-backgrounds/background-origin/origin-content-box_with_radius.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/origin-content-box_with_radius-ref.html (==)
@@ -1190,7 +1223,7 @@
   stable page 1: diffRatio=0.052845441187695595, diffPixels=44309
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-content-box_with_radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0190] [WPT reftest] css/css-backgrounds/background-origin/origin-content-box_with_size.html
+- [0195] [WPT reftest] css/css-backgrounds/background-origin/origin-content-box_with_size.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/origin-content-box_with_size-ref.html (==)
@@ -1203,7 +1236,7 @@
   stable page 1: diffRatio=0.05510791160980078, diffPixels=46206
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-content-box_with_size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0191] [WPT reftest] css/css-backgrounds/background-origin/origin-padding-box.html
+- [0196] [WPT reftest] css/css-backgrounds/background-origin/origin-padding-box.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/origin-padding-box-ref.html (==)
@@ -1216,7 +1249,7 @@
   stable page 1: diffRatio=0.05297305549194718, diffPixels=44416
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-padding-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0192] [WPT reftest] css/css-backgrounds/background-origin/origin-padding-box_with_position.html
+- [0197] [WPT reftest] css/css-backgrounds/background-origin/origin-padding-box_with_position.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/origin-padding-box_with_position-ref.html (==)
@@ -1229,7 +1262,7 @@
   stable page 1: diffRatio=0.022780942294481337, diffPixels=19101
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-padding-box_with_position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0193] [WPT reftest] css/css-backgrounds/background-origin/origin-padding-box_with_radius.html
+- [0198] [WPT reftest] css/css-backgrounds/background-origin/origin-padding-box_with_radius.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/origin-padding-box_with_radius-ref.html (==)
@@ -1242,7 +1275,7 @@
   stable page 1: diffRatio=0.05146911495305702, diffPixels=43155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-padding-box_with_radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0194] [WPT reftest] css/css-backgrounds/background-origin/origin-padding-box_with_size.html
+- [0199] [WPT reftest] css/css-backgrounds/background-origin/origin-padding-box_with_size.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/origin-padding-box_with_size-ref.html (==)
@@ -1255,7 +1288,7 @@
   stable page 1: diffRatio=0.05453424356919319, diffPixels=45725
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-padding-box_with_size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0199] [WPT reftest] css/css-backgrounds/background-origin-006.html
+- [0204] [WPT reftest] css/css-backgrounds/background-origin-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/background-origin-006-ref.html (==)
@@ -1268,7 +1301,7 @@
   stable page 1: diffRatio=0.006440348065033204, diffPixels=5400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-origin-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0204] [WPT reftest] css/css-backgrounds/background-position/background-position-right-in-body.html
+- [0209] [WPT reftest] css/css-backgrounds/background-position/background-position-right-in-body.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1281,7 +1314,7 @@
   stable page 1: diffRatio=0.00023853140981604457, diffPixels=200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0207] [WPT reftest] css/css-backgrounds/background-position-negative-percentage-comparison-002.html
+- [0212] [WPT reftest] css/css-backgrounds/background-position-negative-percentage-comparison-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/background-position-negative-percentage-comparison-ref.html (==)
@@ -1294,7 +1327,7 @@
   stable page 1: diffRatio=0.00030889817571177775, diffPixels=259
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-position-negative-percentage-comparison-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0216] [WPT reftest] css/css-backgrounds/background-repeat/background-repeat-round.xht
+- [0221] [WPT reftest] css/css-backgrounds/background-repeat/background-repeat-round.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-repeat/reference/background-repeat-round.xht (==)
@@ -1307,7 +1340,13 @@
   stable page 1: diffRatio=0.00023614609571788412, diffPixels=198
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-repeat/reference/background-repeat-round.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0239] [WPT reftest] css/css-backgrounds/background-rounded-image-clip-001.html
+- [0223] [WPT reftest] css/css-backgrounds/background-repeat/gradient-repeat-spaced-with-borders.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-repeat/gradient-repeat-spaced-with-borders.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-repeat/gradient-repeat-spaced-with-borders.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0244] [WPT reftest] css/css-backgrounds/background-rounded-image-clip-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/background-rounded-image-clip.html (==)
@@ -1320,7 +1359,7 @@
   stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-rounded-image-clip.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0240] [WPT reftest] css/css-backgrounds/background-rounded-image-clip-002.html
+- [0245] [WPT reftest] css/css-backgrounds/background-rounded-image-clip-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-200px-square.html (==)
@@ -1333,7 +1372,7 @@
   stable page 1: diffRatio=0.002060911380810625, diffPixels=1728
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-200px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0242] [WPT reftest] css/css-backgrounds/background-size/background-size-contain.xht
+- [0247] [WPT reftest] css/css-backgrounds/background-size/background-size-contain.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/reference/background-size-contain.xht (==)
@@ -1346,7 +1385,7 @@
   stable page 1: diffRatio=0.00024330203801236548, diffPixels=204
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/reference/background-size-contain.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0250] [WPT reftest] css/css-backgrounds/background-size/background-size-near-zero-png.html
+- [0255] [WPT reftest] css/css-backgrounds/background-size/background-size-near-zero-png.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/reference/background-size-near-zero-ref.html (==)
@@ -1359,7 +1398,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/reference/background-size-near-zero-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0251] [WPT reftest] css/css-backgrounds/background-size/background-size-near-zero-svg.html
+- [0256] [WPT reftest] css/css-backgrounds/background-size/background-size-near-zero-svg.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/reference/background-size-near-zero-ref.html (==)
@@ -1372,7 +1411,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/reference/background-size-near-zero-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0254] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-003.html
+- [0259] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html (==)
@@ -1385,7 +1424,7 @@
   stable page 1: diffRatio=0.0036638424547744447, diffPixels=3072
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0256] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-005.html
+- [0261] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html (==)
@@ -1398,7 +1437,7 @@
   stable page 1: diffRatio=0.0036638424547744447, diffPixels=3072
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0258] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-007.html
+- [0263] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html (==)
@@ -1411,7 +1450,7 @@
   stable page 1: diffRatio=0.0036638424547744447, diffPixels=3072
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0260] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-009.html
+- [0265] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html (==)
@@ -1424,7 +1463,7 @@
   stable page 1: diffRatio=0.0036638424547744447, diffPixels=3072
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0262] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-011.html
+- [0267] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html (==)
@@ -1437,7 +1476,7 @@
   stable page 1: diffRatio=0.0036638424547744447, diffPixels=3072
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0264] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-013.html
+- [0269] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-013.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html (==)
@@ -1450,7 +1489,7 @@
   stable page 1: diffRatio=0.0036638424547744447, diffPixels=3072
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0266] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-015.html
+- [0271] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-015.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html (==)
@@ -1463,7 +1502,7 @@
   stable page 1: diffRatio=0.0036638424547744447, diffPixels=3072
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0268] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-017.html
+- [0273] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-017.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html (==)
@@ -1476,7 +1515,7 @@
   stable page 1: diffRatio=0.0036638424547744447, diffPixels=3072
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0272] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-021.html
+- [0277] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-021.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/background-size-vector-021-ref.html (==)
@@ -1489,7 +1528,7 @@
   stable page 1: diffRatio=0.05801083886726204, diffPixels=48640
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/background-size-vector-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0274] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-023.html
+- [0279] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-023.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/background-size-vector-021-ref.html (==)
@@ -1502,7 +1541,7 @@
   stable page 1: diffRatio=0.05801083886726204, diffPixels=48640
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/background-size-vector-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0276] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-025.html
+- [0281] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-025.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime2x16-aqua2x16.html (==)
@@ -1515,7 +1554,7 @@
   stable page 1: diffRatio=0.05858331425082055, diffPixels=49120
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0278] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-027.html
+- [0283] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-027.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html (==)
@@ -1528,7 +1567,7 @@
   stable page 1: diffRatio=0.04762995191206778, diffPixels=39936
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0280] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-029.html
+- [0285] [WPT reftest] css/css-backgrounds/background-size/vector/background-size-vector-029.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html (==)
@@ -1541,7 +1580,7 @@
   stable page 1: diffRatio=0.04762995191206778, diffPixels=39936
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-t-lime24x192-aqua24x192.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0283] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto--percent-width-nonpercent-height-viewbox.html
+- [0288] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto--percent-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html (==)
@@ -1554,7 +1593,7 @@
   stable page 1: diffRatio=0.23444775207999388, diffPixels=196576
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0285] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto--percent-width-omitted-height-viewbox.html
+- [0290] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto--percent-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html (==)
@@ -1567,7 +1606,7 @@
   stable page 1: diffRatio=0.19051980764827112, diffPixels=159744
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0287] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto--percent-width-percent-height-viewbox.html
+- [0292] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto--percent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html (==)
@@ -1580,7 +1619,7 @@
   stable page 1: diffRatio=0.19051980764827112, diffPixels=159744
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0291] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto-32px--nonpercent-width-omitted-height-viewbox.html
+- [0296] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto-32px--nonpercent-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html (==)
@@ -1593,7 +1632,7 @@
   stable page 1: diffRatio=0.009693916494924052, diffPixels=8128
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0293] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto-32px--nonpercent-width-percent-height-viewbox.html
+- [0298] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto-32px--nonpercent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html (==)
@@ -1606,7 +1645,7 @@
   stable page 1: diffRatio=0.009693916494924052, diffPixels=8128
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0295] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto-32px--omitted-width-nonpercent-height-viewbox.html
+- [0300] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto-32px--omitted-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html (==)
@@ -1619,7 +1658,7 @@
   stable page 1: diffRatio=0.009693916494924052, diffPixels=8128
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0297] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto-32px--omitted-width-omitted-height-viewbox.html
+- [0302] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto-32px--omitted-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html (==)
@@ -1632,7 +1671,7 @@
   stable page 1: diffRatio=0.009693916494924052, diffPixels=8128
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0299] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto-32px--omitted-width-percent-height-viewbox.html
+- [0304] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto-32px--omitted-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html (==)
@@ -1645,7 +1684,7 @@
   stable page 1: diffRatio=0.009693916494924052, diffPixels=8128
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0301] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto-32px--percent-width-nonpercent-height-viewbox.html
+- [0306] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto-32px--percent-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html (==)
@@ -1658,7 +1697,7 @@
   stable page 1: diffRatio=0.009693916494924052, diffPixels=8128
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0303] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto-32px--percent-width-omitted-height-viewbox.html
+- [0308] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto-32px--percent-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html (==)
@@ -1671,7 +1710,7 @@
   stable page 1: diffRatio=0.009693916494924052, diffPixels=8128
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0305] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto-32px--percent-width-percent-height-viewbox.html
+- [0310] [WPT reftest] css/css-backgrounds/background-size/vector/tall--auto-32px--percent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html (==)
@@ -1684,7 +1723,7 @@
   stable page 1: diffRatio=0.009693916494924052, diffPixels=8128
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0307] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--height.html
+- [0312] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--height.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-empty.html (==)
@@ -1692,12 +1731,8 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/tall--contain--height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.23448591710556446, diffPixels=196608
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-empty.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/tall--contain--height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.23448591710556446, diffPixels=196608
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-empty.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0310] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--nonpercent-width-omitted-height-viewbox.html
+- [0315] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--nonpercent-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html (==)
@@ -1710,7 +1745,7 @@
   stable page 1: diffRatio=0.19051980764827112, diffPixels=159744
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0312] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--nonpercent-width-percent-height-viewbox.html
+- [0317] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--nonpercent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html (==)
@@ -1723,7 +1758,7 @@
   stable page 1: diffRatio=0.19051980764827112, diffPixels=159744
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0314] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--omitted-width-nonpercent-height-viewbox.html
+- [0319] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--omitted-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html (==)
@@ -1736,7 +1771,7 @@
   stable page 1: diffRatio=0.19051980764827112, diffPixels=159744
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0316] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--omitted-width-omitted-height-viewbox.html
+- [0321] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--omitted-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html (==)
@@ -1749,7 +1784,7 @@
   stable page 1: diffRatio=0.19051980764827112, diffPixels=159744
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0318] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--omitted-width-percent-height-viewbox.html
+- [0323] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--omitted-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html (==)
@@ -1762,7 +1797,7 @@
   stable page 1: diffRatio=0.19051980764827112, diffPixels=159744
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0320] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--percent-width-nonpercent-height-viewbox.html
+- [0325] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--percent-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html (==)
@@ -1775,7 +1810,7 @@
   stable page 1: diffRatio=0.19051980764827112, diffPixels=159744
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0322] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--percent-width-omitted-height-viewbox.html
+- [0327] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--percent-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html (==)
@@ -1788,7 +1823,7 @@
   stable page 1: diffRatio=0.19051980764827112, diffPixels=159744
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0324] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--percent-width-percent-height-viewbox.html
+- [0329] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--percent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html (==)
@@ -1801,7 +1836,7 @@
   stable page 1: diffRatio=0.19051980764827112, diffPixels=159744
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime48x384-aqua48x384.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0326] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--width.html
+- [0331] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--width.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-empty.html (==)
@@ -1814,7 +1849,7 @@
   stable page 1: diffRatio=0.23448591710556446, diffPixels=196608
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-empty.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0332] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--nonpercent-width-omitted-height-viewbox.html
+- [0337] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--nonpercent-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html (==)
@@ -1827,7 +1862,7 @@
   stable page 1: diffRatio=0.11724295855278223, diffPixels=98304
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0334] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--nonpercent-width-percent-height-viewbox.html
+- [0339] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--nonpercent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html (==)
@@ -1835,12 +1870,8 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/tall--cover--nonpercent-width-percent-height-viewbox.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.11724295855278223, diffPixels=98304
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/tall--cover--nonpercent-width-percent-height-viewbox.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.11724295855278223, diffPixels=98304
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0336] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--omitted-width-nonpercent-height-viewbox.html
+- [0341] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--omitted-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html (==)
@@ -1853,7 +1884,7 @@
   stable page 1: diffRatio=0.11724295855278223, diffPixels=98304
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0338] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--omitted-width-omitted-height-viewbox.html
+- [0343] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--omitted-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html (==)
@@ -1866,7 +1897,7 @@
   stable page 1: diffRatio=0.11724295855278223, diffPixels=98304
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0340] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--omitted-width-percent-height-viewbox.html
+- [0345] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--omitted-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html (==)
@@ -1879,7 +1910,7 @@
   stable page 1: diffRatio=0.11724295855278223, diffPixels=98304
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0342] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--percent-width-nonpercent-height-viewbox.html
+- [0347] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--percent-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html (==)
@@ -1892,7 +1923,7 @@
   stable page 1: diffRatio=0.11724295855278223, diffPixels=98304
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0344] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--percent-width-omitted-height-viewbox.html
+- [0349] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--percent-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html (==)
@@ -1905,7 +1936,7 @@
   stable page 1: diffRatio=0.11724295855278223, diffPixels=98304
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0346] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--percent-width-percent-height-viewbox.html
+- [0351] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--percent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html (==)
@@ -1918,7 +1949,7 @@
   stable page 1: diffRatio=0.11724295855278223, diffPixels=98304
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0351] [WPT reftest] css/css-backgrounds/background-size/vector/wide--12px-auto--nonpercent-width-omitted-height-viewbox.html
+- [0356] [WPT reftest] css/css-backgrounds/background-size/vector/wide--12px-auto--nonpercent-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html (==)
@@ -1931,7 +1962,7 @@
   stable page 1: diffRatio=0.0013739409205404168, diffPixels=1152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0353] [WPT reftest] css/css-backgrounds/background-size/vector/wide--12px-auto--nonpercent-width-percent-height-viewbox.html
+- [0358] [WPT reftest] css/css-backgrounds/background-size/vector/wide--12px-auto--nonpercent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html (==)
@@ -1944,7 +1975,7 @@
   stable page 1: diffRatio=0.0013739409205404168, diffPixels=1152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0355] [WPT reftest] css/css-backgrounds/background-size/vector/wide--12px-auto--omitted-width-nonpercent-height-viewbox.html
+- [0360] [WPT reftest] css/css-backgrounds/background-size/vector/wide--12px-auto--omitted-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html (==)
@@ -1957,7 +1988,7 @@
   stable page 1: diffRatio=0.0013739409205404168, diffPixels=1152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0357] [WPT reftest] css/css-backgrounds/background-size/vector/wide--12px-auto--omitted-width-omitted-height-viewbox.html
+- [0362] [WPT reftest] css/css-backgrounds/background-size/vector/wide--12px-auto--omitted-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html (==)
@@ -1970,7 +2001,7 @@
   stable page 1: diffRatio=0.0013739409205404168, diffPixels=1152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0359] [WPT reftest] css/css-backgrounds/background-size/vector/wide--12px-auto--omitted-width-percent-height-viewbox.html
+- [0364] [WPT reftest] css/css-backgrounds/background-size/vector/wide--12px-auto--omitted-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html (==)
@@ -1983,7 +2014,7 @@
   stable page 1: diffRatio=0.0013739409205404168, diffPixels=1152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0361] [WPT reftest] css/css-backgrounds/background-size/vector/wide--12px-auto--percent-width-nonpercent-height-viewbox.html
+- [0366] [WPT reftest] css/css-backgrounds/background-size/vector/wide--12px-auto--percent-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html (==)
@@ -1996,7 +2027,7 @@
   stable page 1: diffRatio=0.0013739409205404168, diffPixels=1152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0363] [WPT reftest] css/css-backgrounds/background-size/vector/wide--12px-auto--percent-width-omitted-height-viewbox.html
+- [0368] [WPT reftest] css/css-backgrounds/background-size/vector/wide--12px-auto--percent-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html (==)
@@ -2009,7 +2040,7 @@
   stable page 1: diffRatio=0.0013739409205404168, diffPixels=1152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0365] [WPT reftest] css/css-backgrounds/background-size/vector/wide--12px-auto--percent-width-percent-height-viewbox.html
+- [0370] [WPT reftest] css/css-backgrounds/background-size/vector/wide--12px-auto--percent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html (==)
@@ -2022,7 +2053,7 @@
   stable page 1: diffRatio=0.0013739409205404168, diffPixels=1152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime12x96-aqua12x96.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0369] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto--nonpercent-width-omitted-height-viewbox.html
+- [0374] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto--nonpercent-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime8x64-aqua8x64.html (==)
@@ -2035,7 +2066,7 @@
   stable page 1: diffRatio=0.21738798564995038, diffPixels=182272
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime8x64-aqua8x64.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0371] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto--nonpercent-width-percent-height-viewbox.html
+- [0376] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto--nonpercent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime8x64-aqua8x64.html (==)
@@ -2048,7 +2079,7 @@
   stable page 1: diffRatio=0.21738798564995038, diffPixels=182272
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime8x64-aqua8x64.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0373] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto--omitted-width-nonpercent-height-viewbox.html
+- [0378] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto--omitted-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html (==)
@@ -2061,7 +2092,7 @@
   stable page 1: diffRatio=0.21796046103350888, diffPixels=182752
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0375] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto--omitted-width-omitted-height-viewbox.html
+- [0380] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto--omitted-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html (==)
@@ -2074,7 +2105,7 @@
   stable page 1: diffRatio=0.21311350278604688, diffPixels=178688
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0377] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto--omitted-width-percent-height-viewbox.html
+- [0382] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto--omitted-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html (==)
@@ -2087,7 +2118,7 @@
   stable page 1: diffRatio=0.21311350278604688, diffPixels=178688
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0379] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto--percent-width-nonpercent-height-viewbox.html
+- [0384] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto--percent-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html (==)
@@ -2100,7 +2131,7 @@
   stable page 1: diffRatio=0.21796046103350888, diffPixels=182752
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0381] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto--percent-width-omitted-height-viewbox.html
+- [0386] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto--percent-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html (==)
@@ -2113,7 +2144,7 @@
   stable page 1: diffRatio=0.21311350278604688, diffPixels=178688
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0383] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto--percent-width-percent-height-viewbox.html
+- [0388] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto--percent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html (==)
@@ -2126,7 +2157,7 @@
   stable page 1: diffRatio=0.21311350278604688, diffPixels=178688
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0387] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--nonpercent-width-omitted-height-viewbox.html
+- [0392] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--nonpercent-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html (==)
@@ -2139,7 +2170,7 @@
   stable page 1: diffRatio=0.027173498206243797, diffPixels=22784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0389] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--nonpercent-width-percent-height-viewbox.html
+- [0394] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--nonpercent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html (==)
@@ -2152,7 +2183,7 @@
   stable page 1: diffRatio=0.027173498206243797, diffPixels=22784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0391] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--omitted-width-nonpercent-height-viewbox.html
+- [0396] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--omitted-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html (==)
@@ -2165,7 +2196,7 @@
   stable page 1: diffRatio=0.027173498206243797, diffPixels=22784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0393] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--omitted-width-omitted-height-viewbox.html
+- [0398] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--omitted-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html (==)
@@ -2178,7 +2209,7 @@
   stable page 1: diffRatio=0.027173498206243797, diffPixels=22784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0395] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--omitted-width-percent-height-viewbox.html
+- [0400] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--omitted-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html (==)
@@ -2191,7 +2222,7 @@
   stable page 1: diffRatio=0.027173498206243797, diffPixels=22784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0397] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-nonpercent-height-viewbox.html
+- [0402] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html (==)
@@ -2204,7 +2235,7 @@
   stable page 1: diffRatio=0.027173498206243797, diffPixels=22784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0399] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-omitted-height-viewbox.html
+- [0404] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html (==)
@@ -2217,7 +2248,7 @@
   stable page 1: diffRatio=0.027173498206243797, diffPixels=22784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0401] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-percent-height-viewbox.html
+- [0406] [WPT reftest] css/css-backgrounds/background-size/vector/wide--auto-32px--percent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html (==)
@@ -2230,7 +2261,7 @@
   stable page 1: diffRatio=0.027173498206243797, diffPixels=22784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime2x16-aqua2x16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0403] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--height.html
+- [0408] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--height.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-empty.html (==)
@@ -2243,7 +2274,7 @@
   stable page 1: diffRatio=0.21799862605907946, diffPixels=182784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-empty.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0406] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--nonpercent-width-omitted-height-viewbox.html
+- [0411] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--nonpercent-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html (==)
@@ -2256,7 +2287,7 @@
   stable page 1: diffRatio=0.21311350278604688, diffPixels=178688
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0408] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--nonpercent-width-percent-height-viewbox.html
+- [0413] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--nonpercent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html (==)
@@ -2269,7 +2300,7 @@
   stable page 1: diffRatio=0.21311350278604688, diffPixels=178688
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0410] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--omitted-width-nonpercent-height-viewbox.html
+- [0415] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--omitted-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html (==)
@@ -2282,7 +2313,7 @@
   stable page 1: diffRatio=0.21311350278604688, diffPixels=178688
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0412] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--omitted-width-omitted-height-viewbox.html
+- [0417] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--omitted-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html (==)
@@ -2295,7 +2326,7 @@
   stable page 1: diffRatio=0.21311350278604688, diffPixels=178688
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0414] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--omitted-width-percent-height-viewbox.html
+- [0419] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--omitted-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html (==)
@@ -2308,7 +2339,7 @@
   stable page 1: diffRatio=0.21311350278604688, diffPixels=178688
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0416] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--percent-width-nonpercent-height-viewbox.html
+- [0421] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--percent-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html (==)
@@ -2321,20 +2352,16 @@
   stable page 1: diffRatio=0.21311350278604688, diffPixels=178688
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0418] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--percent-width-omitted-height-viewbox.html
+- [0423] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--percent-width-omitted-height-viewbox.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/wide--contain--percent-width-omitted-height-viewbox.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.21311350278604688, diffPixels=178688
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/wide--contain--percent-width-omitted-height-viewbox.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.21311350278604688, diffPixels=178688
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0420] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--percent-width-percent-height-viewbox.html
+- [0425] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--percent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html (==)
@@ -2347,7 +2374,7 @@
   stable page 1: diffRatio=0.21311350278604688, diffPixels=178688
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime16x128-aqua16x128.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0422] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--width.html
+- [0427] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--width.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-empty.html (==)
@@ -2360,7 +2387,7 @@
   stable page 1: diffRatio=0.21799862605907946, diffPixels=182784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-empty.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0426] [WPT reftest] css/css-backgrounds/background-size/vector/wide--cover--nonpercent-width-omitted-height-viewbox.html
+- [0431] [WPT reftest] css/css-backgrounds/background-size/vector/wide--cover--nonpercent-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html (==)
@@ -2373,7 +2400,7 @@
   stable page 1: diffRatio=0.10899931302953973, diffPixels=91392
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0428] [WPT reftest] css/css-backgrounds/background-size/vector/wide--cover--nonpercent-width-percent-height-viewbox.html
+- [0433] [WPT reftest] css/css-backgrounds/background-size/vector/wide--cover--nonpercent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html (==)
@@ -2386,7 +2413,7 @@
   stable page 1: diffRatio=0.10899931302953973, diffPixels=91392
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0430] [WPT reftest] css/css-backgrounds/background-size/vector/wide--cover--omitted-width-nonpercent-height-viewbox.html
+- [0435] [WPT reftest] css/css-backgrounds/background-size/vector/wide--cover--omitted-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html (==)
@@ -2399,7 +2426,7 @@
   stable page 1: diffRatio=0.10899931302953973, diffPixels=91392
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0432] [WPT reftest] css/css-backgrounds/background-size/vector/wide--cover--omitted-width-omitted-height-viewbox.html
+- [0437] [WPT reftest] css/css-backgrounds/background-size/vector/wide--cover--omitted-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html (==)
@@ -2412,7 +2439,7 @@
   stable page 1: diffRatio=0.10899931302953973, diffPixels=91392
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0434] [WPT reftest] css/css-backgrounds/background-size/vector/wide--cover--omitted-width-percent-height-viewbox.html
+- [0439] [WPT reftest] css/css-backgrounds/background-size/vector/wide--cover--omitted-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html (==)
@@ -2425,7 +2452,7 @@
   stable page 1: diffRatio=0.10899931302953973, diffPixels=91392
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0436] [WPT reftest] css/css-backgrounds/background-size/vector/wide--cover--percent-width-nonpercent-height-viewbox.html
+- [0441] [WPT reftest] css/css-backgrounds/background-size/vector/wide--cover--percent-width-nonpercent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html (==)
@@ -2438,7 +2465,7 @@
   stable page 1: diffRatio=0.10899931302953973, diffPixels=91392
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0438] [WPT reftest] css/css-backgrounds/background-size/vector/wide--cover--percent-width-omitted-height-viewbox.html
+- [0443] [WPT reftest] css/css-backgrounds/background-size/vector/wide--cover--percent-width-omitted-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html (==)
@@ -2451,7 +2478,7 @@
   stable page 1: diffRatio=0.10899931302953973, diffPixels=91392
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0440] [WPT reftest] css/css-backgrounds/background-size/vector/wide--cover--percent-width-percent-height-viewbox.html
+- [0445] [WPT reftest] css/css-backgrounds/background-size/vector/wide--cover--percent-width-percent-height-viewbox.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html (==)
@@ -2464,237 +2491,7 @@
   stable page 1: diffRatio=0.10899931302953973, diffPixels=91392
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-wide-lime768x256.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0458] [WPT reftest] css/css-backgrounds/background-size-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-backgrounds/reference/background-size-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004293565376688803, diffPixels=3600
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004293565376688803, diffPixels=3600
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0459] [WPT reftest] css/css-backgrounds/background-size-005.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-backgrounds/reference/background-size-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004293565376688803, diffPixels=3600
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004293565376688803, diffPixels=3600
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0460] [WPT reftest] css/css-backgrounds/background-size-006.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-backgrounds/reference/background-size-006-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002415130524387451, diffPixels=2025
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002415130524387451, diffPixels=2025
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0462] [WPT reftest] css/css-backgrounds/background-size-008.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0463] [WPT reftest] css/css-backgrounds/background-size-009.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-backgrounds/reference/background-size-006-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002415130524387451, diffPixels=2025
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002415130524387451, diffPixels=2025
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0465] [WPT reftest] css/css-backgrounds/background-size-011.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0466] [WPT reftest] css/css-backgrounds/background-size-012.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-backgrounds/reference/background-size-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004293565376688803, diffPixels=3600
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004293565376688803, diffPixels=3600
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0467] [WPT reftest] css/css-backgrounds/background-size-013.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0468] [WPT reftest] css/css-backgrounds/background-size-014.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-backgrounds/reference/background-size-006-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002415130524387451, diffPixels=2025
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002415130524387451, diffPixels=2025
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0469] [WPT reftest] css/css-backgrounds/background-size-015.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0470] [WPT reftest] css/css-backgrounds/background-size-016.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0471] [WPT reftest] css/css-backgrounds/background-size-017.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-backgrounds/reference/background-size-006-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002415130524387451, diffPixels=2025
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002415130524387451, diffPixels=2025
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0472] [WPT reftest] css/css-backgrounds/background-size-018.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0473] [WPT reftest] css/css-backgrounds/background-size-019.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0474] [WPT reftest] css/css-backgrounds/background-size-020.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0475] [WPT reftest] css/css-backgrounds/background-size-021.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-backgrounds/reference/background-size-021-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0476] [WPT reftest] css/css-backgrounds/background-size-025.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-backgrounds/reference/background-size-025-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.05158003205862148, diffPixels=43248
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-025-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05158003205862148, diffPixels=43248
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-size-025-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0477] [WPT reftest] css/css-backgrounds/background-size-026.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/reference/background-size-026-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04628463476070529, diffPixels=38808
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-size-026-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0494] [WPT reftest] css/css-backgrounds/background-size-percentage-root.html
+- [0499] [WPT reftest] css/css-backgrounds/background-size-percentage-root.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-size-percentage-root-ref.html (==)
@@ -2707,7 +2504,7 @@
   stable page 1: diffRatio=0.23510848408518434, diffPixels=197130
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-percentage-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0539] [WPT reftest] css/css-backgrounds/border-image-repeat-round-003.html
+- [0544] [WPT reftest] css/css-backgrounds/border-image-repeat-round-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/border-image-repeat-round-003-ref.html (==)
@@ -2720,7 +2517,7 @@
   stable page 1: diffRatio=0.1323932810472483, diffPixels=111007
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-round-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0542] [WPT reftest] css/css-backgrounds/border-image-repeat-round-stretch-001.html
+- [0547] [WPT reftest] css/css-backgrounds/border-image-repeat-round-stretch-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/border-image-repeat-round-stretch-001-ref.html (==)
@@ -2733,7 +2530,13 @@
   stable page 1: diffRatio=0.0909031276238455, diffPixels=76219
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-round-stretch-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0557] [WPT reftest] css/css-backgrounds/border-image-repeat-stretch-round-001.html
+- [0551] [WPT reftest] css/css-backgrounds/border-image-repeat-space-10.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-10.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-10.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0562] [WPT reftest] css/css-backgrounds/border-image-repeat-stretch-round-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/border-image-repeat-stretch-round-001-ref.html (==)
@@ -2746,7 +2549,7 @@
   stable page 1: diffRatio=0.0971872376154492, diffPixels=81488
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-repeat-stretch-round-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0561] [WPT reftest] css/css-backgrounds/border-image-shorthand-003.htm
+- [0566] [WPT reftest] css/css-backgrounds/border-image-shorthand-003.htm
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/border-image-shorthand-003-ref.html (==)
@@ -2759,7 +2562,7 @@
   stable page 1: diffRatio=0.011688039080986184, diffPixels=9800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-shorthand-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0579] [WPT reftest] css/css-backgrounds/border-image-width-009.html
+- [0584] [WPT reftest] css/css-backgrounds/border-image-width-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/border-image-width-009-ref.html (==)
@@ -2772,7 +2575,7 @@
   stable page 1: diffRatio=0.010495382031905962, diffPixels=8800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-image-width-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0581] [WPT reftest] css/css-backgrounds/border-left-width-medium.html
+- [0586] [WPT reftest] css/css-backgrounds/border-left-width-medium.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/border-right-width-3px-ref.html (==)
@@ -2785,7 +2588,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-right-width-3px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0582] [WPT reftest] css/css-backgrounds/border-left-width-thick.html
+- [0587] [WPT reftest] css/css-backgrounds/border-left-width-thick.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/border-right-width-5px-ref.html (==)
@@ -2798,7 +2601,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-right-width-5px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0583] [WPT reftest] css/css-backgrounds/border-left-width-thin.html
+- [0588] [WPT reftest] css/css-backgrounds/border-left-width-thin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/border-right-width-1px-ref.html (==)
@@ -2811,7 +2614,20 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-right-width-1px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0599] [WPT reftest] css/css-backgrounds/border-radius-clipping-002.html
+- [0602] [WPT reftest] css/css-backgrounds/border-radius-clip-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-backgrounds/reference/border-radius-clipping-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-radius-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.027425148843599725, diffPixels=22995
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/border-radius-clipping-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-radius-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.027425148843599725, diffPixels=22995
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-radius-clipping-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0604] [WPT reftest] css/css-backgrounds/border-radius-clipping-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-nothing-below.xht (==)
@@ -2824,7 +2640,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-nothing-below.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0601] [WPT reftest] css/css-backgrounds/border-radius-dynamic-from-no-radius.html
+- [0606] [WPT reftest] css/css-backgrounds/border-radius-dynamic-from-no-radius.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/border-radius-dynamic-from-no-radius-ref.html (==)
@@ -2837,7 +2653,7 @@
   stable page 1: diffRatio=0.009120248454316464, diffPixels=7647
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-radius-dynamic-from-no-radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0604] [WPT reftest] css/css-backgrounds/border-right-width-medium.html
+- [0609] [WPT reftest] css/css-backgrounds/border-right-width-medium.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/border-right-width-3px-ref.html (==)
@@ -2850,7 +2666,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-right-width-3px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0605] [WPT reftest] css/css-backgrounds/border-right-width-thick.html
+- [0610] [WPT reftest] css/css-backgrounds/border-right-width-thick.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/border-right-width-5px-ref.html (==)
@@ -2863,7 +2679,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-right-width-5px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0606] [WPT reftest] css/css-backgrounds/border-right-width-thin.html
+- [0611] [WPT reftest] css/css-backgrounds/border-right-width-thin.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/border-right-width-1px-ref.html (==)
@@ -2876,7 +2692,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/border-right-width-1px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0642] [WPT reftest] css/css-backgrounds/box-shadow-border-radius-001.html
+- [0647] [WPT reftest] css/css-backgrounds/box-shadow-border-radius-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/box-shadow-border-radius-001-ref.html (==)
@@ -2889,7 +2705,7 @@
   stable page 1: diffRatio=0.004436684222578429, diffPixels=3720
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/box-shadow-border-radius-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0647] [WPT reftest] css/css-backgrounds/box-shadow-multiple-001.html
+- [0652] [WPT reftest] css/css-backgrounds/box-shadow-multiple-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/box-shadow-multiple-001-ref.html (==)
@@ -2902,7 +2718,7 @@
   stable page 1: diffRatio=0.011171618578734447, diffPixels=9367
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/box-shadow-multiple-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0659] [WPT reftest] css/css-backgrounds/color-mix-currentcolor-background-repaint-parent.html
+- [0664] [WPT reftest] css/css-backgrounds/color-mix-currentcolor-background-repaint-parent.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -2915,7 +2731,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0660] [WPT reftest] css/css-backgrounds/color-mix-currentcolor-background-repaint.html
+- [0665] [WPT reftest] css/css-backgrounds/color-mix-currentcolor-background-repaint.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -2928,7 +2744,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0661] [WPT reftest] css/css-backgrounds/color-mix-currentcolor-border-repaint-parent.html
+- [0666] [WPT reftest] css/css-backgrounds/color-mix-currentcolor-border-repaint-parent.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -2941,7 +2757,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0662] [WPT reftest] css/css-backgrounds/color-mix-currentcolor-border-repaint.html
+- [0667] [WPT reftest] css/css-backgrounds/color-mix-currentcolor-border-repaint.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -2954,7 +2770,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0663] [WPT reftest] css/css-backgrounds/color-mix-currentcolor-outline-repaint-parent.html
+- [0668] [WPT reftest] css/css-backgrounds/color-mix-currentcolor-outline-repaint-parent.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -2967,7 +2783,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0664] [WPT reftest] css/css-backgrounds/color-mix-currentcolor-outline-repaint.html
+- [0669] [WPT reftest] css/css-backgrounds/color-mix-currentcolor-outline-repaint.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -2980,7 +2796,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0681] [WPT reftest] css/css-backgrounds/currentcolor-border-repaint-parent.html
+- [0686] [WPT reftest] css/css-backgrounds/currentcolor-border-repaint-parent.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -2993,7 +2809,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0682] [WPT reftest] css/css-backgrounds/document-canvas-remove-body.html
+- [0687] [WPT reftest] css/css-backgrounds/document-canvas-remove-body.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/document-canvas-remove-body-ref.html (==)
@@ -3006,7 +2822,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/document-canvas-remove-body-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0684] [WPT reftest] css/css-backgrounds/first-letter-space-not-selected.html
+- [0689] [WPT reftest] css/css-backgrounds/first-letter-space-not-selected.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/first-letter-space-not-selected-ref.html (==)
@@ -3019,7 +2835,7 @@
   stable page 1: diffRatio=0.01396482138768033, diffPixels=11709
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/first-letter-space-not-selected-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0691] [WPT reftest] css/css-backgrounds/local-attachment-content-box-scroll.html
+- [0696] [WPT reftest] css/css-backgrounds/local-attachment-content-box-scroll.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/local-attachment-content-box-scroll-ref.html (==)
@@ -3032,7 +2848,7 @@
   stable page 1: diffRatio=0.03930997633768415, diffPixels=32960
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/local-attachment-content-box-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0692] [WPT reftest] css/css-backgrounds/local-attachment-flex-column-reverse-scroll.html
+- [0697] [WPT reftest] css/css-backgrounds/local-attachment-flex-column-reverse-scroll.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/local-attachment-flex-column-reverse-scroll-ref.html (==)
@@ -3045,7 +2861,7 @@
   stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/local-attachment-flex-column-reverse-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0693] [WPT reftest] css/css-backgrounds/local-attachment-flex-row-reverse-scroll.html
+- [0698] [WPT reftest] css/css-backgrounds/local-attachment-flex-row-reverse-scroll.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/local-attachment-flex-row-reverse-scroll-ref.html (==)
@@ -3058,7 +2874,7 @@
   stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/local-attachment-flex-row-reverse-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0694] [WPT reftest] css/css-backgrounds/local-attachment-rtl-and-flex-row-reverse-scroll.html
+- [0699] [WPT reftest] css/css-backgrounds/local-attachment-rtl-and-flex-row-reverse-scroll.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/local-attachment-rtl-and-flex-row-reverse-scroll-ref.html (==)
@@ -3071,7 +2887,7 @@
   stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/local-attachment-rtl-and-flex-row-reverse-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0695] [WPT reftest] css/css-backgrounds/local-attachment-rtl-scroll.html
+- [0700] [WPT reftest] css/css-backgrounds/local-attachment-rtl-scroll.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/local-attachment-rtl-scroll-ref.html (==)
@@ -3084,7 +2900,7 @@
   stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/local-attachment-rtl-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0697] [WPT reftest] css/css-backgrounds/scroll-positioned-multiple-background-images.html
+- [0702] [WPT reftest] css/css-backgrounds/scroll-positioned-multiple-background-images.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/60x60-green-background.html (==)
@@ -3097,7 +2913,7 @@
   stable page 1: diffRatio=0.008587130753377605, diffPixels=7200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/60x60-green-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0699] [WPT reftest] css/css-backgrounds/table-cell-background-local-002.html
+- [0704] [WPT reftest] css/css-backgrounds/table-cell-background-local-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/table-cell-background-local-002-ref.html (==)
@@ -3110,7 +2926,7 @@
   stable page 1: diffRatio=0.011815653385237768, diffPixels=9907
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/table-cell-background-local-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0700] [WPT reftest] css/css-backgrounds/table-cell-background-local-003.html
+- [0705] [WPT reftest] css/css-backgrounds/table-cell-background-local-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/reference/table-cell-background-local-003-ref.html (==)
@@ -3123,7 +2939,7 @@
   stable page 1: diffRatio=0.011815653385237768, diffPixels=9907
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/table-cell-background-local-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0701] [WPT reftest] css/css-backgrounds/table-cell-background-local.html
+- [0706] [WPT reftest] css/css-backgrounds/table-cell-background-local.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/table-cell-background-local-ref.html (==)
@@ -3138,21 +2954,45 @@
 
 ## Errors
 
-- [0142] [WPT reftest] css/css-backgrounds/background-color-body-propagation-006.html
+- [0006] [WPT reftest] css/css-backgrounds/animations/background-color-animation-fallback-missing-0-percent.html
   triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): navigating to page 1
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): navigating to page 1
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-fallback-missing-0-percent.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-fallback-missing-0-percent.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0148] [WPT reftest] css/css-backgrounds/background-color-root-propagation-002.html
+- [0094] [WPT reftest] css/css-backgrounds/background-clip/clip-text-background-table-cell.html
+  triage: pending
+  side: stable
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-background-table-cell.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-background-table-cell.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0147] [WPT reftest] css/css-backgrounds/background-color-body-propagation-006.html
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): navigating to page 1
+  canary error: TimeoutError: locator.fill: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('#vivliostyle-page-number')
+    - locator resolved to <input type="text" autocomplete="off" inputmode="numeric" aria-keyshortcuts="G" title="Go to Page… (G)" aria-label="Page number" id="vivliostyle-page-number" data-bind="value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}"/>
+    - fill("1")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    20 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+
   stable timeout: true
   stable error: TimeoutError: locator.fill: Timeout 10000ms exceeded.
 Call log:
@@ -3168,11 +3008,89 @@ Call log:
       - element is not visible
     - retrying fill action
       - waiting 100ms
-    17 × waiting for element to be visible, enabled and editable
+    20 × waiting for element to be visible, enabled and editable
        - element is not visible
      - retrying fill action
        - waiting 500ms
 
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0153] [WPT reftest] css/css-backgrounds/background-color-root-propagation-002.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): navigating to page 1
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): navigating to page 1
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0223] [WPT reftest] css/css-backgrounds/background-repeat/gradient-repeat-spaced-with-borders.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-backgrounds/background-repeat/reference/gradient-repeat-spaced-with-borders.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-repeat/gradient-repeat-spaced-with-borders.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-repeat/reference/gradient-repeat-spaced-with-borders.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0312] [WPT reftest] css/css-backgrounds/background-size/vector/tall--contain--height.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-backgrounds/background-size/vector/reference/ref-tall-empty.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/tall--contain--height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-empty.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0339] [WPT reftest] css/css-backgrounds/background-size/vector/tall--cover--nonpercent-width-percent-height-viewbox.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/tall--cover--nonpercent-width-percent-height-viewbox.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/reference/ref-tall-lime256x768.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0423] [WPT reftest] css/css-backgrounds/background-size/vector/wide--contain--percent-width-omitted-height-viewbox.html
+  triage: pending
+  side: stable
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/vector/wide--contain--percent-width-omitted-height-viewbox.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/vector/wide--contain--percent-width-omitted-height-viewbox.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0464] [WPT reftest] css/css-backgrounds/background-size-005.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0508] [WPT reftest] css/css-backgrounds/border-bottom-right-radius-001.xht
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-bottom-right-radius-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-bottom-right-radius-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0551] [WPT reftest] css/css-backgrounds/border-image-repeat-space-10.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-backgrounds/border-image-repeat-space-10-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-10.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-image-repeat-space-10-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0596] [WPT reftest] css/css-backgrounds/border-radius-008.xht
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-radius-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-radius-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

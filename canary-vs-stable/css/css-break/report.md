@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1009
-- Entries with differences: 91 (pending: 91, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 93 (improvement: 2, pending: 91, triaged: 0)
+- Entries with errors: 4 (pending: 4, triaged: 0)
+- Timeout entries: 4
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":918,"known-fail":91}
+- Outcome summary: {"pass":912,"known-fail":91,"error":4,"improvement":2}
 
 ## Differences
 
@@ -178,6 +178,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-058.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0014908213113502787, diffPixels=1250
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0295] [WPT reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-072.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-072.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-072.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0361] [WPT reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-043.html
   triage: pending
@@ -425,6 +431,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/monolithic-overflow-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0848] [WPT reftest] css/css-break/table/table-cell-expansion-001.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-cell-expansion-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-cell-expansion-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0859] [WPT reftest] css/css-break/table/table-col-paint-vlr-rtl.html
   triage: pending
@@ -1206,4 +1218,38 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/underflow-from-next-page-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00008706396458285627, diffPixels=73
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/underflow-from-next-page-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0059] [WPT reftest] css/css-break/box-decoration-break-clone-010.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/box-decoration-break-clone-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/box-decoration-break-clone-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0176] [WPT reftest] css/css-break/flexbox/multi-line-column-flex-fragmentation-011.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-column-flex-fragmentation-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-column-flex-fragmentation-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0371] [WPT reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-053.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-053.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-053.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0738] [WPT reftest] css/css-break/overflowed-block-with-room-after-000.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/overflowed-block-with-room-after-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/overflowed-block-with-room-after-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

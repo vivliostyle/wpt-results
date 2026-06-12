@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 166
-- Entries with differences: 103 (pending: 103, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 103 (improvement: 1, pending: 102, triaged: 0)
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":63,"known-fail":103}
+- Outcome summary: {"pass":62,"known-fail":102,"error":1,"improvement":1}
 
 ## Differences
 
@@ -443,10 +443,6 @@
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-lists/counters-003-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counters-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0030854037859705365, diffPixels=2587
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counters-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0030854037859705365, diffPixels=2587
@@ -529,19 +525,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/deep-pseudo-element-remove-update.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00007871536523929471, diffPixels=66
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/deep-pseudo-element-remove-update-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0066] [WPT reftest] css/css-lists/details-open.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-lists/details-open-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/details-open.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00002504579803068468, diffPixels=21
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/details-open-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/details-open.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00002504579803068468, diffPixels=21
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/details-open-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0067] [WPT reftest] css/css-lists/foo-counter-reversed-006a.html
   triage: pending
@@ -1219,6 +1202,12 @@
   stable page 1: diffRatio=0.25023853140981606, diffPixels=209816
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-image-zoom-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0147] [WPT reftest] css/css-lists/list-style-type-string-001b.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-type-string-001b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-type-string-001b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0150] [WPT reftest] css/css-lists/list-style-type-string-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -1348,4 +1337,23 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/pseudo-element-remove-update.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000026238455079764903, diffPixels=22
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/pseudo-element-remove-update-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0057] [WPT reftest] css/css-lists/counters-003.html
+  triage: pending
+  side: canary-reference
+  reference: css/css-lists/counters-003-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counters-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counters-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0066] [WPT reftest] css/css-lists/details-open.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/details-open.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/details-open.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

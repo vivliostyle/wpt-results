@@ -1294,7 +1294,7 @@
       referenceFile: css/css-pseudo/first-line-inherited-with-transition-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-inherited-with-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0075"
+- id: "0076"
   category: WPT reftest
   title: css/css-pseudo/first-line-input-textarea.tentative.html
   file: css/css-pseudo/first-line-input-textarea.tentative.html
@@ -1321,7 +1321,7 @@
       referenceFile: css/css-pseudo/input-textarea-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/input-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0076"
+- id: "0077"
   category: WPT reftest
   title: css/css-pseudo/first-line-insert-text-node-dynamic.html
   file: css/css-pseudo/first-line-insert-text-node-dynamic.html
@@ -1348,7 +1348,7 @@
       referenceFile: css/css-pseudo/first-line-insert-text-node-dynamic-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-insert-text-node-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0077"
+- id: "0078"
   category: WPT reftest
   title: css/css-pseudo/first-line-line-height-001.html
   file: css/css-pseudo/first-line-line-height-001.html
@@ -1380,7 +1380,7 @@
       referenceFile: css/css-pseudo/first-line-line-height-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-line-height-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0080"
+- id: "0081"
   category: WPT reftest
   title: css/css-pseudo/first-line-nested-gcs.html
   file: css/css-pseudo/first-line-nested-gcs.html
@@ -1407,7 +1407,7 @@
       referenceFile: css/css-pseudo/first-line-green-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0081"
+- id: "0082"
   category: WPT reftest
   title: css/css-pseudo/first-line-on-ancestor-block.html
   file: css/css-pseudo/first-line-on-ancestor-block.html
@@ -1434,7 +1434,7 @@
       referenceFile: css/css-pseudo/first-line-on-ancestor-block-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-on-ancestor-block-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0082"
+- id: "0083"
   category: WPT reftest
   title: css/css-pseudo/first-line-on-list-item-with-block-children.html
   file: css/css-pseudo/first-line-on-list-item-with-block-children.html
@@ -1461,7 +1461,7 @@
       referenceFile: css/css-pseudo/first-line-on-list-item-with-block-children-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-on-list-item-with-block-children-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0084"
+- id: "0085"
   category: WPT reftest
   title: css/css-pseudo/first-line-opacity-001.html
   file: css/css-pseudo/first-line-opacity-001.html
@@ -1488,7 +1488,7 @@
       referenceFile: css/css-pseudo/first-line-opacity-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-opacity-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0086"
+- id: "0087"
   category: WPT reftest
   title: css/css-pseudo/first-line-with-before-after.html
   file: css/css-pseudo/first-line-with-before-after.html
@@ -1515,7 +1515,7 @@
       referenceFile: css/css-pseudo/first-line-with-before-after-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-with-before-after-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0088"
+- id: "0089"
   category: WPT reftest
   title: css/css-pseudo/first-line-with-inline-block.html
   file: css/css-pseudo/first-line-with-inline-block.html
@@ -1542,7 +1542,7 @@
       referenceFile: css/css-pseudo/reference/first-line-with-inline-block-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/first-line-with-inline-block-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0089"
+- id: "0090"
   category: WPT reftest
   title: css/css-pseudo/first-line-with-out-of-flow-and-nested-div.html
   file: css/css-pseudo/first-line-with-out-of-flow-and-nested-div.html
@@ -1569,7 +1569,7 @@
       referenceFile: css/css-pseudo/first-line-with-out-of-flow-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-with-out-of-flow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0090"
+- id: "0091"
   category: WPT reftest
   title: css/css-pseudo/first-line-with-out-of-flow-and-nested-span.html
   file: css/css-pseudo/first-line-with-out-of-flow-and-nested-span.html
@@ -1596,7 +1596,7 @@
       referenceFile: css/css-pseudo/first-line-with-out-of-flow-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-with-out-of-flow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0091"
+- id: "0092"
   category: WPT reftest
   title: css/css-pseudo/first-line-with-out-of-flow.html
   file: css/css-pseudo/first-line-with-out-of-flow.html
@@ -1623,7 +1623,7 @@
       referenceFile: css/css-pseudo/first-line-with-out-of-flow-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-with-out-of-flow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0092"
+- id: "0093"
   category: WPT reftest
   title: css/css-pseudo/grammar-error-001.html
   file: css/css-pseudo/grammar-error-001.html
@@ -1650,7 +1650,7 @@
       referenceFile: css/css-pseudo/grammar-error-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/grammar-error-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0093"
+- id: "0094"
   category: WPT reftest
   title: css/css-pseudo/grammar-spelling-errors-001.html
   file: css/css-pseudo/grammar-spelling-errors-001.html
@@ -1677,7 +1677,7 @@
       referenceFile: css/css-pseudo/reference/grammar-spelling-errors-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/grammar-spelling-errors-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0094"
+- id: "0095"
   category: WPT reftest
   title: css/css-pseudo/grammar-spelling-errors-002.html
   file: css/css-pseudo/grammar-spelling-errors-002.html
@@ -1704,7 +1704,7 @@
       referenceFile: css/css-pseudo/reference/grammar-spelling-errors-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/grammar-spelling-errors-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0095"
+- id: "0096"
   category: WPT reftest
   title: css/css-pseudo/highlight-cascade/cascade-highlight-001.html
   file: css/css-pseudo/highlight-cascade/cascade-highlight-001.html
@@ -1731,7 +1731,7 @@
       referenceFile: css/css-pseudo/highlight-cascade/cascade-highlight-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0096"
+- id: "0097"
   category: WPT reftest
   title: css/css-pseudo/highlight-cascade/cascade-highlight-002.html
   file: css/css-pseudo/highlight-cascade/cascade-highlight-002.html
@@ -1758,7 +1758,7 @@
       referenceFile: css/css-pseudo/highlight-cascade/cascade-highlight-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0097"
+- id: "0098"
   category: WPT reftest
   title: css/css-pseudo/highlight-cascade/cascade-highlight-004.html
   file: css/css-pseudo/highlight-cascade/cascade-highlight-004.html
@@ -1785,7 +1785,7 @@
       referenceFile: css/css-pseudo/highlight-cascade/cascade-highlight-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0098"
+- id: "0099"
   category: WPT reftest
   title: css/css-pseudo/highlight-cascade/cascade-highlight-005.html
   file: css/css-pseudo/highlight-cascade/cascade-highlight-005.html
@@ -1812,7 +1812,7 @@
       referenceFile: css/css-pseudo/highlight-cascade/cascade-highlight-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0105"
+- id: "0106"
   category: WPT reftest
   title: css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-001.html
   file: css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-001.html
@@ -1839,7 +1839,7 @@
       referenceFile: css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0106"
+- id: "0107"
   category: WPT reftest
   title: css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-002.html
   file: css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-002.html
@@ -1866,7 +1866,7 @@
       referenceFile: css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0107"
+- id: "0108"
   category: WPT reftest
   title: css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-001.html
   file: css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-001.html
@@ -1893,7 +1893,7 @@
       referenceFile: css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0108"
+- id: "0109"
   category: WPT reftest
   title: css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-002.html
   file: css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-002.html
@@ -1920,7 +1920,7 @@
       referenceFile: css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0110"
+- id: "0111"
   category: WPT reftest
   title: css/css-pseudo/highlight-cascade/highlight-currentcolor-root-explicit-default-002.html
   file: css/css-pseudo/highlight-cascade/highlight-currentcolor-root-explicit-default-002.html
@@ -1947,7 +1947,7 @@
       referenceFile: css/css-pseudo/highlight-cascade/highlight-currentcolor-root-explicit-default-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-root-explicit-default-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0120"
+- id: "0121"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-001.html
   file: css/css-pseudo/highlight-painting-001.html
@@ -1974,7 +1974,7 @@
       referenceFile: css/css-pseudo/highlight-painting-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0121"
+- id: "0122"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-002.html
   file: css/css-pseudo/highlight-painting-002.html
@@ -2001,7 +2001,7 @@
       referenceFile: css/css-pseudo/highlight-painting-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0122"
+- id: "0123"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-003.html
   file: css/css-pseudo/highlight-painting-003.html
@@ -2028,7 +2028,7 @@
       referenceFile: css/css-pseudo/highlight-painting-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0123"
+- id: "0124"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-004.html
   file: css/css-pseudo/highlight-painting-004.html
@@ -2079,7 +2079,7 @@
       referenceFile: css/css-pseudo/highlight-painting-004-ref3.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-004-ref3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0124"
+- id: "0125"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-currentcolor-001.html
   file: css/css-pseudo/highlight-painting-currentcolor-001.html
@@ -2106,7 +2106,7 @@
       referenceFile: css/css-pseudo/highlight-painting-currentcolor-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0125"
+- id: "0126"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-currentcolor-001a.html
   file: css/css-pseudo/highlight-painting-currentcolor-001a.html
@@ -2133,7 +2133,7 @@
       referenceFile: css/css-pseudo/highlight-painting-currentcolor-001a-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-001a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0126"
+- id: "0127"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-currentcolor-002.html
   file: css/css-pseudo/highlight-painting-currentcolor-002.html
@@ -2160,7 +2160,7 @@
       referenceFile: css/css-pseudo/highlight-painting-currentcolor-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0127"
+- id: "0128"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-currentcolor-002a.html
   file: css/css-pseudo/highlight-painting-currentcolor-002a.html
@@ -2183,7 +2183,11 @@
       referenceFile: css/css-pseudo/highlight-painting-currentcolor-002a-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0128"
+    - side: stable
+      referenceFile: css/css-pseudo/highlight-painting-currentcolor-002a-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0129"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-currentcolor-002b.html
   file: css/css-pseudo/highlight-painting-currentcolor-002b.html
@@ -2210,7 +2214,7 @@
       referenceFile: css/css-pseudo/highlight-painting-currentcolor-002b-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0129"
+- id: "0130"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-currentcolor-003.html
   file: css/css-pseudo/highlight-painting-currentcolor-003.html
@@ -2237,7 +2241,7 @@
       referenceFile: css/css-pseudo/highlight-painting-currentcolor-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0130"
+- id: "0131"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-currentcolor-003a.html
   file: css/css-pseudo/highlight-painting-currentcolor-003a.html
@@ -2264,7 +2268,7 @@
       referenceFile: css/css-pseudo/highlight-painting-currentcolor-003a-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-003a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0131"
+- id: "0132"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-currentcolor-003b.html
   file: css/css-pseudo/highlight-painting-currentcolor-003b.html
@@ -2291,7 +2295,7 @@
       referenceFile: css/css-pseudo/highlight-painting-currentcolor-003b-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-003b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0132"
+- id: "0133"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-currentcolor-004.html
   file: css/css-pseudo/highlight-painting-currentcolor-004.html
@@ -2318,7 +2322,7 @@
       referenceFile: css/css-pseudo/highlight-painting-currentcolor-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0133"
+- id: "0134"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-currentcolor-004a.html
   file: css/css-pseudo/highlight-painting-currentcolor-004a.html
@@ -2345,7 +2349,7 @@
       referenceFile: css/css-pseudo/highlight-painting-currentcolor-004a-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-004a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0134"
+- id: "0135"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-currentcolor-004b.html
   file: css/css-pseudo/highlight-painting-currentcolor-004b.html
@@ -2372,7 +2376,7 @@
       referenceFile: css/css-pseudo/highlight-painting-currentcolor-004b-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-004b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0138"
+- id: "0139"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-soft-hyphens-001.html
   file: css/css-pseudo/highlight-painting-soft-hyphens-001.html
@@ -2399,7 +2403,7 @@
       referenceFile: css/css-pseudo/highlight-painting-soft-hyphens-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-soft-hyphens-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0141"
+- id: "0142"
   category: WPT reftest
   title: css/css-pseudo/highlight-styling-003.html
   file: css/css-pseudo/highlight-styling-003.html
@@ -2426,7 +2430,7 @@
       referenceFile: css/css-pseudo/highlight-styling-003-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-styling-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0142"
+- id: "0143"
   category: WPT reftest
   title: css/css-pseudo/highlight-styling-004.html
   file: css/css-pseudo/highlight-styling-004.html
@@ -2453,7 +2457,7 @@
       referenceFile: css/css-pseudo/highlight-styling-004-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-styling-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0146"
+- id: "0147"
   category: WPT reftest
   title: css/css-pseudo/marker-and-other-pseudo-elements.html
   file: css/css-pseudo/marker-and-other-pseudo-elements.html
@@ -2480,7 +2484,7 @@
       referenceFile: css/css-pseudo/marker-and-other-pseudo-elements-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-and-other-pseudo-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0147"
+- id: "0148"
   category: WPT reftest
   title: css/css-pseudo/marker-animate-002.html
   file: css/css-pseudo/marker-animate-002.html
@@ -2507,7 +2511,7 @@
       referenceFile: css/css-pseudo/marker-animate-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-animate-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0157"
+- id: "0158"
   category: WPT reftest
   title: css/css-pseudo/marker-content-006.html
   file: css/css-pseudo/marker-content-006.html
@@ -2534,7 +2538,7 @@
       referenceFile: css/css-pseudo/marker-content-006-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-content-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0160"
+- id: "0161"
   category: WPT reftest
   title: css/css-pseudo/marker-content-012.html
   file: css/css-pseudo/marker-content-012.html
@@ -2561,7 +2565,7 @@
       referenceFile: css/css-pseudo/marker-content-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-content-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0161"
+- id: "0162"
   category: WPT reftest
   title: css/css-pseudo/marker-content-013.html
   file: css/css-pseudo/marker-content-013.html
@@ -2588,7 +2592,7 @@
       referenceFile: css/css-pseudo/marker-content-013-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-content-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0167"
+- id: "0168"
   category: WPT reftest
   title: css/css-pseudo/marker-content-019.html
   file: css/css-pseudo/marker-content-019.html
@@ -2615,7 +2619,7 @@
       referenceFile: css/css-pseudo/marker-content-019-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-content-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0174"
+- id: "0175"
   category: WPT reftest
   title: css/css-pseudo/marker-font-properties.html
   file: css/css-pseudo/marker-font-properties.html
@@ -2642,7 +2646,7 @@
       referenceFile: css/css-pseudo/marker-font-properties-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-font-properties-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0178"
+- id: "0179"
   category: WPT reftest
   title: css/css-pseudo/marker-font-variant-numeric-normal.html
   file: css/css-pseudo/marker-font-variant-numeric-normal.html
@@ -2669,7 +2673,7 @@
       referenceFile: css/css-pseudo/marker-font-variant-numeric-normal-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-font-variant-numeric-normal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0182"
+- id: "0183"
   category: WPT reftest
   title: css/css-pseudo/marker-intrinsic-contribution-002.html
   file: css/css-pseudo/marker-intrinsic-contribution-002.html
@@ -2696,7 +2700,7 @@
       referenceFile: css/css-pseudo/marker-intrinsic-contribution-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-intrinsic-contribution-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0183"
+- id: "0184"
   category: WPT reftest
   title: css/css-pseudo/marker-letter-spacing.html
   file: css/css-pseudo/marker-letter-spacing.html
@@ -2736,7 +2740,7 @@
       referenceFile: css/css-pseudo/marker-letter-spacing-ref-002.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-letter-spacing-ref-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0184"
+- id: "0185"
   category: WPT reftest
   title: css/css-pseudo/marker-line-break.html
   file: css/css-pseudo/marker-line-break.html
@@ -2763,7 +2767,7 @@
       referenceFile: css/css-pseudo/marker-line-break-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-line-break-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0185"
+- id: "0186"
   category: WPT reftest
   title: css/css-pseudo/marker-line-height.html
   file: css/css-pseudo/marker-line-height.html
@@ -2790,7 +2794,7 @@
       referenceFile: css/css-pseudo/marker-line-height-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-line-height-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0187"
+- id: "0188"
   category: WPT reftest
   title: css/css-pseudo/marker-overflow-wrap.html
   file: css/css-pseudo/marker-overflow-wrap.html
@@ -2817,7 +2821,7 @@
       referenceFile: css/css-pseudo/marker-line-break-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-line-break-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0193"
+- id: "0194"
   category: WPT reftest
   title: css/css-pseudo/marker-text-decoration-skip-ink.html
   file: css/css-pseudo/marker-text-decoration-skip-ink.html
@@ -2844,7 +2848,7 @@
       referenceFile: css/css-pseudo/marker-text-decoration-skip-ink-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-decoration-skip-ink-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0197"
+- id: "0198"
   category: WPT reftest
   title: css/css-pseudo/marker-text-transform-dynamic.html
   file: css/css-pseudo/marker-text-transform-dynamic.html
@@ -2871,7 +2875,7 @@
       referenceFile: css/css-pseudo/marker-text-transform-dynamic-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-transform-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0204"
+- id: "0205"
   category: WPT reftest
   title: css/css-pseudo/marker-word-break.html
   file: css/css-pseudo/marker-word-break.html
@@ -2898,7 +2902,7 @@
       referenceFile: css/css-pseudo/marker-word-break-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-word-break-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0205"
+- id: "0206"
   category: WPT reftest
   title: css/css-pseudo/marker-word-spacing.html
   file: css/css-pseudo/marker-word-spacing.html
@@ -2925,7 +2929,7 @@
       referenceFile: css/css-pseudo/marker-word-spacing-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-word-spacing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0208"
+- id: "0209"
   category: WPT reftest
   title: css/css-pseudo/placeholder-input-number.html
   file: css/css-pseudo/placeholder-input-number.html
@@ -2952,7 +2956,7 @@
       referenceFile: css/css-pseudo/placeholder-input-number-notref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/placeholder-input-number-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0209"
+- id: "0210"
   category: WPT reftest
   title: css/css-pseudo/relative-box-order-of-pseudo-elements.html
   file: css/css-pseudo/relative-box-order-of-pseudo-elements.html
@@ -2979,7 +2983,7 @@
       referenceFile: css/css-pseudo/relative-box-order-of-pseudo-elements-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/relative-box-order-of-pseudo-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0210"
+- id: "0211"
   category: WPT reftest
   title: css/css-pseudo/selection-background-color-001.html
   file: css/css-pseudo/selection-background-color-001.html
@@ -3006,7 +3010,7 @@
       referenceFile: css/reference/ref-filled-green-100px-square.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0211"
+- id: "0212"
   category: WPT reftest
   title: css/css-pseudo/selection-background-painting-order.html
   file: css/css-pseudo/selection-background-painting-order.html
@@ -3046,7 +3050,7 @@
       referenceFile: css/css-pseudo/selection-background-painting-order-ref2.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-background-painting-order-ref2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0212"
+- id: "0213"
   category: WPT reftest
   title: css/css-pseudo/selection-contenteditable-011.html
   file: css/css-pseudo/selection-contenteditable-011.html
@@ -3073,7 +3077,7 @@
       referenceFile: css/css-pseudo/reference/selection-contenteditable-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/selection-contenteditable-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0213"
+- id: "0214"
   category: WPT reftest
   title: css/css-pseudo/selection-input-011.html
   file: css/css-pseudo/selection-input-011.html
@@ -3100,7 +3104,7 @@
       referenceFile: css/css-pseudo/reference/selection-input-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/selection-input-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0214"
+- id: "0215"
   category: WPT reftest
   title: css/css-pseudo/selection-intercharacter-011.html
   file: css/css-pseudo/selection-intercharacter-011.html
@@ -3127,7 +3131,7 @@
       referenceFile: css/css-pseudo/reference/selection-intercharacter-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/selection-intercharacter-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0215"
+- id: "0216"
   category: WPT reftest
   title: css/css-pseudo/selection-intercharacter-012.html
   file: css/css-pseudo/selection-intercharacter-012.html
@@ -3154,7 +3158,7 @@
       referenceFile: css/css-pseudo/reference/selection-intercharacter-012-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/selection-intercharacter-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0219"
+- id: "0220"
   category: WPT reftest
   title: css/css-pseudo/selection-originating-decoration-color.html
   file: css/css-pseudo/selection-originating-decoration-color.html
@@ -3181,7 +3185,7 @@
       referenceFile: css/css-pseudo/selection-originating-decoration-color-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-originating-decoration-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0221"
+- id: "0222"
   category: WPT reftest
   title: css/css-pseudo/selection-originating-underline-order.html
   file: css/css-pseudo/selection-originating-underline-order.html
@@ -3208,7 +3212,7 @@
       referenceFile: css/css-pseudo/selection-originating-underline-order-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-originating-underline-order-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0222"
+- id: "0223"
   category: WPT reftest
   title: css/css-pseudo/selection-over-highlight-001.html
   file: css/css-pseudo/selection-over-highlight-001.html
@@ -3235,7 +3239,7 @@
       referenceFile: css/css-pseudo/selection-over-highlight-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-over-highlight-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0223"
+- id: "0224"
   category: WPT reftest
   title: css/css-pseudo/selection-overlay-and-grammar-001.html
   file: css/css-pseudo/selection-overlay-and-grammar-001.html
@@ -3262,7 +3266,7 @@
       referenceFile: css/css-pseudo/reference/selection-overlay-and-grammar-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/selection-overlay-and-grammar-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0224"
+- id: "0225"
   category: WPT reftest
   title: css/css-pseudo/selection-overlay-and-spelling-001.html
   file: css/css-pseudo/selection-overlay-and-spelling-001.html
@@ -3289,7 +3293,7 @@
       referenceFile: css/css-pseudo/reference/selection-overlay-and-spelling-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/selection-overlay-and-spelling-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0226"
+- id: "0227"
   category: WPT reftest
   title: css/css-pseudo/selection-text-decoration-currentcolor.html
   file: css/css-pseudo/selection-text-decoration-currentcolor.html
@@ -3316,7 +3320,7 @@
       referenceFile: css/css-pseudo/selection-text-decoration-currentcolor-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-text-decoration-currentcolor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0227"
+- id: "0228"
   category: WPT reftest
   title: css/css-pseudo/selection-textarea-011.html
   file: css/css-pseudo/selection-textarea-011.html
@@ -3343,7 +3347,7 @@
       referenceFile: css/css-pseudo/reference/selection-textarea-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/selection-textarea-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0228"
+- id: "0229"
   category: WPT reftest
   title: css/css-pseudo/slider/slider-fill-001.html
   file: css/css-pseudo/slider/slider-fill-001.html
@@ -3370,7 +3374,7 @@
       referenceFile: css/css-pseudo/slider/slider-fill-001-notref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/slider/slider-fill-001-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0229"
+- id: "0230"
   category: WPT reftest
   title: css/css-pseudo/slider/slider-fill-002.html
   file: css/css-pseudo/slider/slider-fill-002.html
@@ -3397,7 +3401,7 @@
       referenceFile: css/css-pseudo/slider/slider-fill-002-notref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/slider/slider-fill-002-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0230"
+- id: "0231"
   category: WPT reftest
   title: css/css-pseudo/slider/slider-fill-003.html
   file: css/css-pseudo/slider/slider-fill-003.html
@@ -3424,7 +3428,7 @@
       referenceFile: css/css-pseudo/slider/slider-fill-003-notref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/slider/slider-fill-003-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0231"
+- id: "0232"
   category: WPT reftest
   title: css/css-pseudo/slider/slider-thumb-001.html
   file: css/css-pseudo/slider/slider-thumb-001.html
@@ -3451,7 +3455,7 @@
       referenceFile: css/css-pseudo/slider/slider-thumb-001-notref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/slider/slider-thumb-001-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0232"
+- id: "0233"
   category: WPT reftest
   title: css/css-pseudo/slider/slider-track-001.html
   file: css/css-pseudo/slider/slider-track-001.html
@@ -3478,7 +3482,7 @@
       referenceFile: css/css-pseudo/slider/slider-track-001-notref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/slider/slider-track-001-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0233"
+- id: "0234"
   category: WPT reftest
   title: css/css-pseudo/slider/slider-track-002.html
   file: css/css-pseudo/slider/slider-track-002.html
@@ -3505,7 +3509,7 @@
       referenceFile: css/css-pseudo/slider/slider-track-002-notref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/slider/slider-track-002-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0234"
+- id: "0235"
   category: WPT reftest
   title: css/css-pseudo/slider/slider-track-003.html
   file: css/css-pseudo/slider/slider-track-003.html
@@ -3532,7 +3536,7 @@
       referenceFile: css/css-pseudo/slider/slider-track-003-notref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/slider/slider-track-003-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0235"
+- id: "0236"
   category: WPT reftest
   title: css/css-pseudo/spelling-error-001.html
   file: css/css-pseudo/spelling-error-001.html
@@ -3559,7 +3563,7 @@
       referenceFile: css/css-pseudo/spelling-error-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/spelling-error-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0237"
+- id: "0238"
   category: WPT reftest
   title: css/css-pseudo/svg-text-selection-002.html
   file: css/css-pseudo/svg-text-selection-002.html
@@ -3586,7 +3590,7 @@
       referenceFile: css/css-pseudo/reference/svg-text-selection-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/svg-text-selection-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0238"
+- id: "0239"
   category: WPT reftest
   title: css/css-pseudo/svg-text-selection-fill-only.html
   file: css/css-pseudo/svg-text-selection-fill-only.html
@@ -3609,11 +3613,7 @@
       referenceFile: css/css-pseudo/reference/svg-text-selection-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/svg-text-selection-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-pseudo/reference/svg-text-selection-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/svg-text-selection-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0239"
+- id: "0240"
   category: WPT reftest
   title: css/css-pseudo/svg-text-selection-shadow.html
   file: css/css-pseudo/svg-text-selection-shadow.html
@@ -3640,7 +3640,7 @@
       referenceFile: css/css-pseudo/reference/svg-text-selection-shadow-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/svg-text-selection-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0240"
+- id: "0241"
   category: WPT reftest
   title: css/css-pseudo/svg-text-selection-stroke-only.html
   file: css/css-pseudo/svg-text-selection-stroke-only.html
@@ -3667,7 +3667,7 @@
       referenceFile: css/css-pseudo/reference/svg-text-selection-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/svg-text-selection-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0241"
+- id: "0242"
   category: WPT reftest
   title: css/css-pseudo/svg-text-selection-transparent-background.html
   file: css/css-pseudo/svg-text-selection-transparent-background.html
@@ -3711,7 +3711,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0116"
+- id: "0117"
   category: WPT reftest
   title: css/css-pseudo/highlight-cascade/highlight-paired-cascade-004.html
   file: css/css-pseudo/highlight-cascade/highlight-paired-cascade-004.html
@@ -3745,7 +3745,7 @@
       errorName: TimeoutError
       errorMessage: "Timeout (10000ms): waiting for viewer ready"
       timeout: true
-- id: "0136"
+- id: "0137"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-shadows-horizontal.html
   file: css/css-pseudo/highlight-painting-shadows-horizontal.html
@@ -3762,7 +3762,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0137"
+- id: "0138"
   category: WPT reftest
   title: css/css-pseudo/highlight-painting-shadows-vertical.html
   file: css/css-pseudo/highlight-painting-shadows-vertical.html
@@ -3779,7 +3779,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0242"
+- id: "0243"
   category: WPT reftest
   title: css/css-pseudo/target-text-001.html
   file: css/css-pseudo/target-text-001.html
@@ -3796,7 +3796,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0243"
+- id: "0244"
   category: WPT reftest
   title: css/css-pseudo/target-text-002.html
   file: css/css-pseudo/target-text-002.html
@@ -3813,7 +3813,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0244"
+- id: "0245"
   category: WPT reftest
   title: css/css-pseudo/target-text-003.html
   file: css/css-pseudo/target-text-003.html
@@ -3830,7 +3830,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0245"
+- id: "0246"
   category: WPT reftest
   title: css/css-pseudo/target-text-004.html
   file: css/css-pseudo/target-text-004.html
@@ -3847,7 +3847,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0246"
+- id: "0247"
   category: WPT reftest
   title: css/css-pseudo/target-text-005.html
   file: css/css-pseudo/target-text-005.html
@@ -3864,7 +3864,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0247"
+- id: "0248"
   category: WPT reftest
   title: css/css-pseudo/target-text-006.html
   file: css/css-pseudo/target-text-006.html
@@ -3881,7 +3881,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0248"
+- id: "0249"
   category: WPT reftest
   title: css/css-pseudo/target-text-007.html
   file: css/css-pseudo/target-text-007.html
@@ -3896,9 +3896,16 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/target-text-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  errorName: TimeoutError
-  errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0249"
+  sideErrors:
+    - side: canary
+      errorName: TimeoutError
+      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
+      timeout: true
+    - side: stable
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true
+- id: "0250"
   category: WPT reftest
   title: css/css-pseudo/target-text-008.html
   file: css/css-pseudo/target-text-008.html
@@ -3932,7 +3939,7 @@
       errorName: TimeoutError
       errorMessage: "Timeout (10000ms): waiting for viewer ready"
       timeout: true
-- id: "0250"
+- id: "0251"
   category: WPT reftest
   title: css/css-pseudo/target-text-009.html
   file: css/css-pseudo/target-text-009.html
@@ -3949,7 +3956,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0251"
+- id: "0252"
   category: WPT reftest
   title: css/css-pseudo/target-text-010.html
   file: css/css-pseudo/target-text-010.html
@@ -3966,7 +3973,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0252"
+- id: "0253"
   category: WPT reftest
   title: css/css-pseudo/target-text-011.html
   file: css/css-pseudo/target-text-011.html
@@ -4000,7 +4007,7 @@
       errorName: TimeoutError
       errorMessage: "Timeout (10000ms): waiting for viewer ready"
       timeout: true
-- id: "0253"
+- id: "0254"
   category: WPT reftest
   title: css/css-pseudo/target-text-dynamic-001.html
   file: css/css-pseudo/target-text-dynamic-001.html
@@ -4017,7 +4024,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0254"
+- id: "0255"
   category: WPT reftest
   title: css/css-pseudo/target-text-dynamic-002.html
   file: css/css-pseudo/target-text-dynamic-002.html
@@ -4034,7 +4041,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0255"
+- id: "0256"
   category: WPT reftest
   title: css/css-pseudo/target-text-dynamic-003.html
   file: css/css-pseudo/target-text-dynamic-003.html
@@ -4051,7 +4058,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0256"
+- id: "0257"
   category: WPT reftest
   title: css/css-pseudo/target-text-dynamic-004.html
   file: css/css-pseudo/target-text-dynamic-004.html
@@ -4068,7 +4075,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0257"
+- id: "0258"
   category: WPT reftest
   title: css/css-pseudo/target-text-shadow-horizontal.html
   file: css/css-pseudo/target-text-shadow-horizontal.html
@@ -4085,7 +4092,7 @@
   errorSide: canary, stable
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0258"
+- id: "0259"
   category: WPT reftest
   title: css/css-pseudo/target-text-shadow-vertical.html
   file: css/css-pseudo/target-text-shadow-vertical.html
@@ -4100,9 +4107,16 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/target-text-shadow-vertical.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  errorName: TimeoutError
-  errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0259"
+  sideErrors:
+    - side: canary
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true
+    - side: stable
+      errorName: TimeoutError
+      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
+      timeout: true
+- id: "0260"
   category: WPT reftest
   title: css/css-pseudo/target-text-text-decoration-001.html
   file: css/css-pseudo/target-text-text-decoration-001.html
@@ -4117,16 +4131,9 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/target-text-text-decoration-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
-      timeout: true
-    - side: stable
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
-- id: "0260"
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0261"
   category: WPT reftest
   title: css/css-pseudo/target-text-text-decoration-currentcolor.html
   file: css/css-pseudo/target-text-text-decoration-currentcolor.html

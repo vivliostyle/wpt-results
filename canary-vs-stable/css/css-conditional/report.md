@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 165
-- Entries with differences: 56 (pending: 56, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 57 (improvement: 1, pending: 56, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":109,"known-fail":56}
+- Outcome summary: {"pass":107,"known-fail":56,"improvement":1,"error":1}
 
 ## Differences
 
@@ -74,6 +74,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-media-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0024] [WPT reftest] css/css-conditional/at-supports-014.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0030] [WPT reftest] css/css-conditional/at-supports-020.html
   triage: pending
@@ -737,4 +743,14 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/css-supports-042.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/support/pass.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0094] [WPT reftest] css/css-conditional/container-queries/flex-basis-with-container-type.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/flex-basis-with-container-type.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/flex-basis-with-container-type.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

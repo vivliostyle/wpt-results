@@ -187,6 +187,20 @@
       referenceFile: css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0030"
+  category: WPT reftest
+  title: css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html
+  file: css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0035"
   category: WPT reftest
   title: css/css-borders/border-shape/border-shape-polygon-miter-limit.html

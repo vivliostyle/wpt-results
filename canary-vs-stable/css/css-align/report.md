@@ -1,14 +1,20 @@
 # canary vs stable comparison report
 
 - Compared entries: 62
-- Entries with differences: 12 (pending: 12, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 13 (improvement: 1, pending: 12, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":50,"known-fail":12}
+- Outcome summary: {"improvement":1,"pass":48,"known-fail":12,"error":1}
 
 ## Differences
+
+- [0001] [WPT reftest] css/css-align/abspos/align-items-static-position-001.tentative.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/abspos/align-items-static-position-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/abspos/align-items-static-position-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0009] [WPT reftest] css/css-align/abspos/align-self-static-position-005.html
   triage: pending
@@ -165,4 +171,14 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/self-alignment/block-justify-self.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable selected pages: test=[1, 2, 3], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/self-alignment/block-justify-self-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0022] [WPT reftest] css/css-align/baseline-of-scrollable-2.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/baseline-of-scrollable-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/baseline-of-scrollable-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -2,11 +2,11 @@
 
 - Compared entries: 23
 - Entries with differences: 18 (pending: 18, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":18,"pass":5}
+- Outcome summary: {"known-fail":18,"pass":4,"error":1}
 
 ## Differences
 
@@ -243,4 +243,14 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-namespaces/syntax-015.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.004800444622547897, diffPixels=4025
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0004] [WPT reftest] css/css-namespaces/prefix-004.xml
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-namespaces/prefix-004.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-namespaces/prefix-004.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

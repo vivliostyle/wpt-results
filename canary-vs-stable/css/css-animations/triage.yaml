@@ -538,3 +538,20 @@
       referenceFile: css/css-animations/translation-animation-subpixel-offset-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/translation-animation-subpixel-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0064"
+  category: WPT manual
+  title: css/css-animations/animation-iteration-count-007-manual.html
+  file: css/css-animations/animation-iteration-count-007-manual.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-iteration-count-007-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-iteration-count-007-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

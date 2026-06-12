@@ -970,6 +970,29 @@
       referenceFile: css/css-images/image-orientation/reference/image-orientation-none-cross-origin-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/reference/image-orientation-none-cross-origin-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0146"
+  category: WPT reftest
+  title: css/css-images/image-orientation/svg-image-orientation-none.html
+  file: css/css-images/image-orientation/svg-image-orientation-none.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/svg-image-orientation-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/svg-image-orientation-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-images/image-orientation/reference/svg-image-orientation-none-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/image-orientation/reference/svg-image-orientation-none-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-images/image-orientation/reference/svg-image-orientation-none-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/reference/svg-image-orientation-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0151"
   category: WPT reftest
   title: css/css-images/image-set/image-set-calc-x-rendering-2.html
@@ -1294,33 +1317,6 @@
       referenceFile: css/css-images/object-fit-contain-png-002-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0221"
-  category: WPT reftest
-  title: css/css-images/object-fit-contain-svg-001e.html
-  file: css/css-images/object-fit-contain-svg-001e.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-svg-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-images/object-fit-contain-svg-001-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-images/object-fit-contain-svg-001-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-images/object-fit-contain-svg-001-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-images/object-fit-contain-svg-001-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0223"
   category: WPT reftest
   title: css/css-images/object-fit-contain-svg-001o.html
@@ -1362,6 +1358,33 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-002e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-images/object-fit-contain-svg-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-images/object-fit-contain-svg-002-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-images/object-fit-contain-svg-002-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-images/object-fit-contain-svg-002-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0227"
+  category: WPT reftest
+  title: css/css-images/object-fit-contain-svg-002o.html
+  file: css/css-images/object-fit-contain-svg-002o.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-svg-002o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-002o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-images/object-fit-contain-svg-002-ref.html
   relation: "=="
   diffPages:
@@ -2613,10 +2636,6 @@
       referenceFile: css/css-images/object-fit-none-svg-002-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-none-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-images/object-fit-none-svg-002-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0341"
   category: WPT reftest
   title: css/css-images/object-fit-none-svg-003e.html
@@ -2685,33 +2704,6 @@
   baselineLabel: stable
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-004e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-images/object-fit-none-svg-004-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-images/object-fit-none-svg-004-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-images/object-fit-none-svg-004-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-none-svg-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-images/object-fit-none-svg-004-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0347"
-  category: WPT reftest
-  title: css/css-images/object-fit-none-svg-004o.html
-  file: css/css-images/object-fit-none-svg-004o.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-none-svg-004o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-004o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   referenceFile: css/css-images/object-fit-none-svg-004-ref.html
   relation: "=="
   diffPages:
@@ -3793,22 +3785,46 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/conic-gradient-color-with-sibling-index.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  errorName: TimeoutError
-  errorMessage: "Timeout (10000ms): waiting for viewer ready"
-- id: "0227"
+  sideErrors:
+    - side: canary
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true
+    - side: stable
+      errorName: TimeoutError
+      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
+      timeout: true
+- id: "0221"
   category: WPT reftest
-  title: css/css-images/object-fit-contain-svg-002o.html
-  file: css/css-images/object-fit-contain-svg-002o.html
+  title: css/css-images/object-fit-contain-svg-001e.html
+  file: css/css-images/object-fit-contain-svg-001e.html
   type: error
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-svg-002o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-svg-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-002o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  errorSide: canary, stable
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0347"
+  category: WPT reftest
+  title: css/css-images/object-fit-none-svg-004o.html
+  file: css/css-images/object-fit-none-svg-004o.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-none-svg-004o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-004o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"

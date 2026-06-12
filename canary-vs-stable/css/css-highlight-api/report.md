@@ -2,8 +2,8 @@
 
 - Compared entries: 96
 - Entries with differences: 78 (pending: 78, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
-- Timeout entries: 1
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
 - Screenshot mismatches: 0
 - Outcome summary: {"known-fail":78,"error":2,"pass":16}
@@ -103,16 +103,12 @@
 
 - [0008] [WPT reftest] css/css-highlight-api/highlight-text.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-highlight-api/highlight-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/highlight-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0013548584077551333, diffPixels=1136
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/highlight-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/highlight-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013548584077551333, diffPixels=1136
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/highlight-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0009] [WPT reftest] css/css-highlight-api/painting/css-highlight-painting-underline-offset-001.html
   triage: pending
@@ -1025,6 +1021,14 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/invalidation/css-highlight-invalidation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
+
+- [0008] [WPT reftest] css/css-highlight-api/highlight-text.html
+  triage: pending
+  side: stable
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/highlight-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/highlight-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0010] [WPT reftest] css/css-highlight-api/painting/css-target-text-decoration-001.html
   triage: pending

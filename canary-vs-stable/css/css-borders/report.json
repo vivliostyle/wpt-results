@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T08:18:11.862Z",
+  "generatedAt": "2026-06-12T18:02:06.966Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -39,31 +39,33 @@
   },
   "summary": {
     "totalEntries": 70,
-    "entriesWithDifferences": 16,
-    "entriesWithErrors": 0,
-    "timeoutEntries": 0,
+    "entriesWithDifferences": 17,
+    "entriesWithErrors": 1,
+    "timeoutEntries": 1,
     "pageCountMismatches": 0,
     "screenshotMismatches": 0,
     "outcomes": {
       "changeTypes": {
-        "pass": 54,
-        "known-fail": 16
+        "pass": 53,
+        "known-fail": 16,
+        "regression": 1
       },
       "statusPairs": {
-        "PASS->PASS": 54,
-        "FAIL->FAIL": 16
+        "PASS->PASS": 53,
+        "FAIL->FAIL": 16,
+        "PASS->FAIL": 1
       }
     },
     "triage": {
       "differences": {
-        "pending": 16,
+        "pending": 17,
         "triaged": 0
       },
       "errors": {
-        "pending": 0,
+        "pending": 1,
         "triaged": 0
       },
-      "pendingEntries": 16,
+      "pendingEntries": 18,
       "triagedEntries": 0
     }
   },
@@ -1469,9 +1471,9 @@
         "css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html",
-      "actualStatus": "PASS",
+      "actualStatus": "FAIL",
       "baselineStatus": "PASS",
-      "changeType": "pass",
+      "changeType": "regression",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -1481,6 +1483,38 @@
           "relation": "==",
           "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "regression",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      },
+      "errors": [
+        {
+          "side": "canary-reference",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
+          },
+          "referenceFile": "css/css-borders/border-shape/border-shape-overflow-replaced-ref.html",
+          "triage": {
+            "status": "pending",
+            "decision": ""
+          }
         }
       ]
     },

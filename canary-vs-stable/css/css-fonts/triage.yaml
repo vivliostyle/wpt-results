@@ -48,6 +48,10 @@
       referenceFile: css/css-fonts/downloadable-font-scoped-to-document-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-fonts/downloadable-font-scoped-to-document-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0017"
   category: WPT reftest
   title: css/css-fonts/font-display/font-display-feature-policy-02.tentative.html
@@ -1182,6 +1186,20 @@
       referenceFile: css/css-fonts/font-size-adjust-reload-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-size-adjust-reload-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0149"
+  category: WPT reftest
+  title: css/css-fonts/font-stretch-02.html
+  file: css/css-fonts/font-stretch-02.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-stretch-02.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-stretch-02.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0174"
   category: WPT reftest
   title: css/css-fonts/font-synthesis-position-001.html
@@ -1988,10 +2006,6 @@
       referenceFile: css/css-fonts/matching/font-weight-search-direction-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/matching/font-weight-search-direction-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-fonts/matching/font-weight-search-direction-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/matching/font-weight-search-direction-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0297"
   category: WPT reftest
   title: css/css-fonts/palette-values-rule-add.html
@@ -2262,6 +2276,20 @@
       referenceFile: css/css-fonts/standard-font-family-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/standard-font-family-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0335"
+  category: WPT reftest
+  title: css/css-fonts/synthetic-bold-space-width.html
+  file: css/css-fonts/synthetic-bold-space-width.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/synthetic-bold-space-width.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/synthetic-bold-space-width.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0337"
   category: WPT reftest
   title: css/css-fonts/system-ui-ar.html
@@ -2636,7 +2664,54 @@
       referenceFile: css/css-fonts/downloadable-font-in-iframe-print-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-in-iframe-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-fonts/downloadable-font-in-iframe-print-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-in-iframe-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0169"
+  category: WPT reftest
+  title: css/css-fonts/font-synthesis-04.html
+  file: css/css-fonts/font-synthesis-04.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-synthesis-04.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-synthesis-04.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0221"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-caps.html
+  file: css/css-fonts/font-variant-caps.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-caps.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-caps.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0352"
+  category: WPT reftest
+  title: css/css-fonts/variations/font-slant-2a.html
+  file: css/css-fonts/variations/font-slant-2a.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/variations/font-slant-2a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/variations/font-slant-2a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

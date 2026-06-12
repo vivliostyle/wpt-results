@@ -4115,6 +4115,20 @@
       referenceFile: css/css-text/tab-size/tab-size-spacing-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/tab-size/tab-size-spacing-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0623"
+  category: WPT reftest
+  title: css/css-text/text-align/text-align-end-010.html
+  file: css/css-text/text-align/text-align-end-010.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-align/text-align-end-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-align/text-align-end-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0646"
   category: WPT reftest
   title: css/css-text/text-align/text-align-justify-tabs-001.html
@@ -4435,10 +4449,6 @@
       referenceFile: css/css-text/text-align/text-align-match-parent-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-align/text-align-match-parent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-text/text-align/text-align-match-parent-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-align/text-align-match-parent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0670"
   category: WPT reftest
   title: css/css-text/text-align/text-align-match-parent-03.html
@@ -9352,6 +9362,33 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "1139"
+  category: WPT reftest
+  title: css/css-text/white-space/pre-wrap-leading-spaces-004.html
+  file: css/css-text/white-space/pre-wrap-leading-spaces-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-text/white-space/reference/white-space-break-spaces-005-ref.html#1
+  referenceViewerUrls:
+    - side: canary
+      referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
+      url: >-
+        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1140"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-leading-spaces-005.html
@@ -9402,6 +9439,10 @@
       referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: stable
+      referenceFile: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html
+      url: >-
+        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1142"
   category: WPT reftest
   title: css/css-text/white-space/pre-wrap-leading-spaces-007.html
@@ -10142,6 +10183,20 @@
       referenceFile: css/css-text/white-space/reference/trailing-ideographic-space-alt-011-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/trailing-ideographic-space-alt-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "1225"
+  category: WPT reftest
+  title: css/css-text/white-space/trailing-ideographic-space-017.html
+  file: css/css-text/white-space/trailing-ideographic-space-017.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/trailing-ideographic-space-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/trailing-ideographic-space-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "1240"
   category: WPT reftest
   title: css/css-text/white-space/trailing-ideographic-space-break-spaces-007.html
@@ -12035,23 +12090,20 @@
       referenceFile: css/css-text/writing-system/reference/writing-system-text-transform-001-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/writing-system/reference/writing-system-text-transform-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "1139"
+- id: "1262"
   category: WPT reftest
-  title: css/css-text/white-space/pre-wrap-leading-spaces-004.html
-  file: css/css-text/white-space/pre-wrap-leading-spaces-004.html
+  title: css/css-text/white-space/trailing-other-space-separators-break-spaces-014.html
+  file: css/css-text/white-space/trailing-other-space-separators-break-spaces-014.html
   type: error
   decision: ""  # regression / expected / skip
   notes: ""
   approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
   actualLabel: canary
   actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/trailing-other-space-separators-break-spaces-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   baselineLabel: stable
   baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/trailing-other-space-separators-break-spaces-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary
-  errorName: Error
-  errorMessage: >-
-    Viewer error: Failed to load
-    https://raw.githack.com/web-platform-tests/wpt/master/css/css-text/white-space/pre-wrap-leading-spaces-004.html.
-    This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

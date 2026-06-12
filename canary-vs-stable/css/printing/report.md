@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 26
-- Entries with differences: 7 (improvement: 1, pending: 6, triaged: 0)
+- Entries with differences: 6 (pending: 6, triaged: 0)
 - Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":18,"known-fail":6,"improvement":1,"error":1}
+- Outcome summary: {"pass":19,"known-fail":6,"error":1}
 
 ## Differences
 
@@ -48,12 +48,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/existing-transition-in-media-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0002671551789939699, diffPixels=224
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/transition-in-media-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0009] [WPT print-reftest] css/printing/fixed-pos-object-pdf-crash-print.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0019] [WPT print-reftest] css/printing/paused-animations-print.html
   triage: pending

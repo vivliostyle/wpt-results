@@ -2,11 +2,11 @@
 
 - Compared entries: 165
 - Entries with differences: 30 (pending: 30, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":30,"pass":135}
+- Outcome summary: {"known-fail":30,"pass":134,"error":1}
 
 ## Differences
 
@@ -18,10 +18,6 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/absolute-tables-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0116689565682009, diffPixels=9784
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/absolute-tables-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0116689565682009, diffPixels=9784
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0014] [WPT reftest] css/css-tables/anonymous-table-ws-001.html
   triage: pending
@@ -399,4 +395,23 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/whitespace-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01781352568506221, diffPixels=14936
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/whitespace-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0001] [WPT reftest] css/css-tables/absolute-tables-006.html
+  triage: pending
+  side: stable-reference
+  reference: css/reference/ref-filled-green-100px-square-only.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): loading page
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/absolute-tables-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0111] [WPT reftest] css/css-tables/table-cell-baseline-static-position.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/table-cell-baseline-static-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/table-cell-baseline-static-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

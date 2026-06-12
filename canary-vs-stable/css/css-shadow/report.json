@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T09:56:01.787Z",
+  "generatedAt": "2026-06-12T19:51:24.761Z",
   "labels": {
     "actual": "canary",
     "baseline": "stable"
@@ -38,7 +38,7 @@
     "timeoutMs": 10000
   },
   "summary": {
-    "totalEntries": 111,
+    "totalEntries": 112,
     "entriesWithDifferences": 54,
     "entriesWithErrors": 1,
     "timeoutEntries": 1,
@@ -47,11 +47,13 @@
     "outcomes": {
       "changeTypes": {
         "pass": 57,
-        "known-fail": 54
+        "known-fail": 54,
+        "error": 1
       },
       "statusPairs": {
         "PASS->PASS": 57,
-        "FAIL->FAIL": 54
+        "FAIL->FAIL": 54,
+        "FAIL->ERROR": 1
       }
     },
     "triage": {
@@ -1611,9 +1613,9 @@
         "css/css-shadow/has-slotted-functional-001.tentative.html"
       ],
       "sourceUrl": "https://wpt.live/css/css-shadow/has-slotted-functional-001.tentative.html",
-      "actualStatus": "FAIL",
+      "actualStatus": "ERROR",
       "baselineStatus": "FAIL",
-      "changeType": "known-fail",
+      "changeType": "error",
       "viewerChanged": false,
       "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/has-slotted-functional-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
       "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/has-slotted-functional-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
@@ -1625,102 +1627,20 @@
           "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
         }
       ],
-      "difference": {
-        "classification": "known-fail",
-        "triageRequired": true,
-        "pageCountMismatch": false,
-        "actual": {
-          "totalPages": 1
-        },
-        "baseline": {
-          "totalPages": 1
-        },
-        "pages": [],
-        "comparisons": [
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
-            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0026-WPT_reftest-css-css-shadow-has-slotted-functional-001.tentative.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "canary",
-            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+      "errors": [
+        {
+          "side": "canary",
+          "error": {
+            "name": "TimeoutError",
+            "message": "Timeout (10000ms): waiting for viewer ready",
+            "timeout": true
           },
-          {
-            "referenceIndex": 0,
-            "referenceFile": "css/reference/ref-filled-green-100px-square-only.html",
-            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
-            "referenceTotalPages": 1,
-            "testTotalPages": 1,
-            "relation": "==",
-            "fuzzy": null,
-            "actualPageNumbers": [
-              1
-            ],
-            "baselinePageNumbers": [
-              1
-            ],
-            "pageCountMismatch": false,
-            "pages": [
-              {
-                "page": 1,
-                "actualPage": 1,
-                "baselinePage": 1,
-                "width": 794,
-                "height": 1056,
-                "actualWidth": 794,
-                "actualHeight": 1056,
-                "diffPixels": 10000,
-                "diffRatio": 0.01192657049080223,
-                "exactDiffPixels": 10000,
-                "exactDiffRatio": 0.01192657049080223,
-                "exceededDiffPixels": 0,
-                "maxChannelDifference": 255,
-                "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0026-WPT_reftest-css-css-shadow-has-slotted-functional-001.tentative.html-r01-p0001.png"
-              }
-            ],
-            "unexpectedEquality": false,
-            "pass": false,
-            "side": "stable",
-            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          "triage": {
+            "status": "pending",
+            "decision": ""
           }
-        ],
-        "triage": {
-          "status": "pending",
-          "decision": ""
         }
-      }
+      ]
     },
     {
       "id": "0027",
@@ -5513,6 +5433,125 @@
     {
       "id": "0079",
       "category": "WPT reftest",
+      "title": "css/css-shadow/same-rules-bug-2044746.html",
+      "file": [
+        "css/css-shadow/same-rules-bug-2044746.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-shadow/same-rules-bug-2044746.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-shadow/same-rules-bug-2044746-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-shadow/same-rules-bug-2044746-ref.html",
+            "referenceUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 15,
+                "diffRatio": 0.000017889855736203345,
+                "exactDiffPixels": 55,
+                "exactDiffRatio": 0.00006559613769941226,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0079-WPT_reftest-css-css-shadow-same-rules-bug-2044746.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "canary",
+            "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-shadow/same-rules-bug-2044746-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 15,
+                "diffRatio": 0.000017889855736203345,
+                "exactDiffPixels": 55,
+                "exactDiffRatio": 0.00006559613769941226,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0079-WPT_reftest-css-css-shadow-same-rules-bug-2044746.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0080",
+      "category": "WPT reftest",
       "title": "css/css-shadow/scoped-reference-animation-001.html",
       "file": [
         "css/css-shadow/scoped-reference-animation-001.html"
@@ -5575,7 +5614,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0079-WPT_reftest-css-css-shadow-scoped-reference-animation-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0080-WPT_reftest-css-css-shadow-scoped-reference-animation-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5614,7 +5653,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0079-WPT_reftest-css-css-shadow-scoped-reference-animation-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0080-WPT_reftest-css-css-shadow-scoped-reference-animation-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5630,7 +5669,7 @@
       }
     },
     {
-      "id": "0080",
+      "id": "0081",
       "category": "WPT reftest",
       "title": "css/css-shadow/scoped-reference-animation-002.html",
       "file": [
@@ -5653,7 +5692,7 @@
       ]
     },
     {
-      "id": "0081",
+      "id": "0082",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-assign-dynamic-001.html",
       "file": [
@@ -5717,7 +5756,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0081-WPT_reftest-css-css-shadow-shadow-assign-dynamic-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0082-WPT_reftest-css-css-shadow-shadow-assign-dynamic-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5756,7 +5795,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0081-WPT_reftest-css-css-shadow-shadow-assign-dynamic-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0082-WPT_reftest-css-css-shadow-shadow-assign-dynamic-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5772,7 +5811,7 @@
       }
     },
     {
-      "id": "0082",
+      "id": "0083",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-at-import.html",
       "file": [
@@ -5836,7 +5875,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0082-WPT_reftest-css-css-shadow-shadow-at-import.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0083-WPT_reftest-css-css-shadow-shadow-at-import.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5875,7 +5914,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0082-WPT_reftest-css-css-shadow-shadow-at-import.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0083-WPT_reftest-css-css-shadow-shadow-at-import.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -5891,7 +5930,7 @@
       }
     },
     {
-      "id": "0083",
+      "id": "0084",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-directionality-001.tentative.html",
       "file": [
@@ -5914,7 +5953,7 @@
       ]
     },
     {
-      "id": "0084",
+      "id": "0085",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-directionality-002.tentative.html",
       "file": [
@@ -5937,7 +5976,7 @@
       ]
     },
     {
-      "id": "0085",
+      "id": "0086",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-disabled-sheet-001.html",
       "file": [
@@ -6001,7 +6040,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0085-WPT_reftest-css-css-shadow-shadow-disabled-sheet-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0086-WPT_reftest-css-css-shadow-shadow-disabled-sheet-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6040,7 +6079,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0085-WPT_reftest-css-css-shadow-shadow-disabled-sheet-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0086-WPT_reftest-css-css-shadow-shadow-disabled-sheet-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6056,7 +6095,7 @@
       }
     },
     {
-      "id": "0086",
+      "id": "0087",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-fallback-dynamic-001.html",
       "file": [
@@ -6120,7 +6159,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0086-WPT_reftest-css-css-shadow-shadow-fallback-dynamic-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0087-WPT_reftest-css-css-shadow-shadow-fallback-dynamic-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6159,7 +6198,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0086-WPT_reftest-css-css-shadow-shadow-fallback-dynamic-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0087-WPT_reftest-css-css-shadow-shadow-fallback-dynamic-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6175,7 +6214,7 @@
       }
     },
     {
-      "id": "0087",
+      "id": "0088",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-fallback-dynamic-002.html",
       "file": [
@@ -6239,7 +6278,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0087-WPT_reftest-css-css-shadow-shadow-fallback-dynamic-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0088-WPT_reftest-css-css-shadow-shadow-fallback-dynamic-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6278,7 +6317,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0087-WPT_reftest-css-css-shadow-shadow-fallback-dynamic-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0088-WPT_reftest-css-css-shadow-shadow-fallback-dynamic-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6294,7 +6333,7 @@
       }
     },
     {
-      "id": "0088",
+      "id": "0089",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-fallback-dynamic-003.html",
       "file": [
@@ -6317,7 +6356,7 @@
       ]
     },
     {
-      "id": "0089",
+      "id": "0090",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-fallback-dynamic-004.html",
       "file": [
@@ -6340,7 +6379,7 @@
       ]
     },
     {
-      "id": "0090",
+      "id": "0091",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-fallback-dynamic-005.html",
       "file": [
@@ -6363,7 +6402,7 @@
       ]
     },
     {
-      "id": "0091",
+      "id": "0092",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-host-with-before-after.html",
       "file": [
@@ -6386,7 +6425,7 @@
       ]
     },
     {
-      "id": "0092",
+      "id": "0093",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-link-rel-stylesheet-no-style-leak.html",
       "file": [
@@ -6409,7 +6448,7 @@
       ]
     },
     {
-      "id": "0093",
+      "id": "0094",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-link-rel-stylesheet.html",
       "file": [
@@ -6473,7 +6512,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0093-WPT_reftest-css-css-shadow-shadow-link-rel-stylesheet.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0094-WPT_reftest-css-css-shadow-shadow-link-rel-stylesheet.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6512,7 +6551,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0093-WPT_reftest-css-css-shadow-shadow-link-rel-stylesheet.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0094-WPT_reftest-css-css-shadow-shadow-link-rel-stylesheet.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6528,7 +6567,7 @@
       }
     },
     {
-      "id": "0094",
+      "id": "0095",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-reassign-dynamic-001.html",
       "file": [
@@ -6551,7 +6590,7 @@
       ]
     },
     {
-      "id": "0095",
+      "id": "0096",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-reassign-dynamic-002.html",
       "file": [
@@ -6574,7 +6613,7 @@
       ]
     },
     {
-      "id": "0096",
+      "id": "0097",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-reassign-dynamic-004.html",
       "file": [
@@ -6597,7 +6636,7 @@
       ]
     },
     {
-      "id": "0097",
+      "id": "0098",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-reassign-dynamic-006.html",
       "file": [
@@ -6620,7 +6659,7 @@
       ]
     },
     {
-      "id": "0098",
+      "id": "0099",
       "category": "WPT reftest",
       "title": "css/css-shadow/shadow-root-insert-into-document.html",
       "file": [
@@ -6684,7 +6723,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0098-WPT_reftest-css-css-shadow-shadow-root-insert-into-document.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0099-WPT_reftest-css-css-shadow-shadow-root-insert-into-document.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6723,7 +6762,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0098-WPT_reftest-css-css-shadow-shadow-root-insert-into-document.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0099-WPT_reftest-css-css-shadow-shadow-root-insert-into-document.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6739,7 +6778,7 @@
       }
     },
     {
-      "id": "0099",
+      "id": "0100",
       "category": "WPT reftest",
       "title": "css/css-shadow/slotted-details-content.html",
       "file": [
@@ -6762,7 +6801,7 @@
       ]
     },
     {
-      "id": "0100",
+      "id": "0101",
       "category": "WPT reftest",
       "title": "css/css-shadow/slotted-file-selector-button.html",
       "file": [
@@ -6826,38 +6865,62 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 128,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0100-WPT_reftest-css-css-shadow-slotted-file-selector-button.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0101-WPT_reftest-css-css-shadow-slotted-file-selector-button.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
             "pass": false,
             "side": "canary",
             "baselineUrl": "https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-shadow/slotted-file-selector-button-ref.html",
+            "referenceUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 162,
+                "diffRatio": 0.00019321044195099612,
+                "exactDiffPixels": 436,
+                "exactDiffRatio": 0.0005199984733989772,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 128,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0101-WPT_reftest-css-css-shadow-slotted-file-selector-button.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "stable",
+            "baselineUrl": "https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/slotted-file-selector-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
           }
         ],
         "triage": {
           "status": "pending",
           "decision": ""
         }
-      },
-      "errors": [
-        {
-          "side": "stable-reference",
-          "error": {
-            "name": "TimeoutError",
-            "message": "Timeout (10000ms): waiting for viewer ready",
-            "timeout": true
-          },
-          "referenceFile": "css/css-shadow/slotted-file-selector-button-ref.html",
-          "triage": {
-            "status": "pending",
-            "decision": ""
-          }
-        }
-      ]
+      }
     },
     {
-      "id": "0101",
+      "id": "0102",
       "category": "WPT reftest",
       "title": "css/css-shadow/slotted-has-001.html",
       "file": [
@@ -6921,7 +6984,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0101-WPT_reftest-css-css-shadow-slotted-has-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0102-WPT_reftest-css-css-shadow-slotted-has-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6960,7 +7023,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0101-WPT_reftest-css-css-shadow-slotted-has-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0102-WPT_reftest-css-css-shadow-slotted-has-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -6976,7 +7039,7 @@
       }
     },
     {
-      "id": "0102",
+      "id": "0103",
       "category": "WPT reftest",
       "title": "css/css-shadow/slotted-has-002.html",
       "file": [
@@ -7040,7 +7103,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0102-WPT_reftest-css-css-shadow-slotted-has-002.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0103-WPT_reftest-css-css-shadow-slotted-has-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7079,7 +7142,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0102-WPT_reftest-css-css-shadow-slotted-has-002.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0103-WPT_reftest-css-css-shadow-slotted-has-002.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7095,7 +7158,7 @@
       }
     },
     {
-      "id": "0103",
+      "id": "0104",
       "category": "WPT reftest",
       "title": "css/css-shadow/slotted-has-003.html",
       "file": [
@@ -7159,7 +7222,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0103-WPT_reftest-css-css-shadow-slotted-has-003.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0104-WPT_reftest-css-css-shadow-slotted-has-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7198,7 +7261,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0103-WPT_reftest-css-css-shadow-slotted-has-003.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0104-WPT_reftest-css-css-shadow-slotted-has-003.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7214,7 +7277,7 @@
       }
     },
     {
-      "id": "0104",
+      "id": "0105",
       "category": "WPT reftest",
       "title": "css/css-shadow/slotted-has-004.html",
       "file": [
@@ -7278,7 +7341,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0104-WPT_reftest-css-css-shadow-slotted-has-004.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0105-WPT_reftest-css-css-shadow-slotted-has-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7317,7 +7380,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0104-WPT_reftest-css-css-shadow-slotted-has-004.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0105-WPT_reftest-css-css-shadow-slotted-has-004.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7333,7 +7396,7 @@
       }
     },
     {
-      "id": "0105",
+      "id": "0106",
       "category": "WPT reftest",
       "title": "css/css-shadow/slotted-placeholder.html",
       "file": [
@@ -7397,7 +7460,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 117,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0105-WPT_reftest-css-css-shadow-slotted-placeholder.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0106-WPT_reftest-css-css-shadow-slotted-placeholder.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7436,7 +7499,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 117,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0105-WPT_reftest-css-css-shadow-slotted-placeholder.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0106-WPT_reftest-css-css-shadow-slotted-placeholder.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7452,7 +7515,7 @@
       }
     },
     {
-      "id": "0106",
+      "id": "0107",
       "category": "WPT reftest",
       "title": "css/css-shadow/slotted-specificity-002.html",
       "file": [
@@ -7475,7 +7538,7 @@
       ]
     },
     {
-      "id": "0107",
+      "id": "0108",
       "category": "WPT reftest",
       "title": "css/css-shadow/slotted-specificity.html",
       "file": [
@@ -7498,7 +7561,7 @@
       ]
     },
     {
-      "id": "0108",
+      "id": "0109",
       "category": "WPT reftest",
       "title": "css/css-shadow/slotted-with-pseudo-element.html",
       "file": [
@@ -7562,7 +7625,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0108-WPT_reftest-css-css-shadow-slotted-with-pseudo-element.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0109-WPT_reftest-css-css-shadow-slotted-with-pseudo-element.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7601,7 +7664,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0108-WPT_reftest-css-css-shadow-slotted-with-pseudo-element.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0109-WPT_reftest-css-css-shadow-slotted-with-pseudo-element.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7617,7 +7680,7 @@
       }
     },
     {
-      "id": "0109",
+      "id": "0110",
       "category": "WPT reftest",
       "title": "css/css-shadow/stylesheet-title-001.html",
       "file": [
@@ -7640,7 +7703,7 @@
       ]
     },
     {
-      "id": "0110",
+      "id": "0111",
       "category": "WPT reftest",
       "title": "css/css-shadow/svg-id-ref-001.html",
       "file": [
@@ -7663,7 +7726,7 @@
       ]
     },
     {
-      "id": "0111",
+      "id": "0112",
       "category": "WPT reftest",
       "title": "css/css-shadow/whitespace-crash-001.html",
       "file": [
@@ -7727,7 +7790,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "actual-reference-diff/0111-WPT_reftest-css-css-shadow-whitespace-crash-001.html-r01-p0001.png"
+                "diffImage": "actual-reference-diff/0112-WPT_reftest-css-css-shadow-whitespace-crash-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,
@@ -7766,7 +7829,7 @@
                 "exceededDiffPixels": 0,
                 "maxChannelDifference": 255,
                 "dimensionMismatch": false,
-                "diffImage": "baseline-reference-diff/0111-WPT_reftest-css-css-shadow-whitespace-crash-001.html-r01-p0001.png"
+                "diffImage": "baseline-reference-diff/0112-WPT_reftest-css-css-shadow-whitespace-crash-001.html-r01-p0001.png"
               }
             ],
             "unexpectedEquality": false,

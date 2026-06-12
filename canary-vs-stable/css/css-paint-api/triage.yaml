@@ -1618,33 +1618,6 @@
       referenceFile: css/css-paint-api/parse-input-arguments-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0063"
-  category: WPT reftest
-  title: css/css-paint-api/parse-input-arguments-016.https.html
-  file: css/css-paint-api/parse-input-arguments-016.https.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-016.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-016.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-paint-api/parse-input-arguments-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-paint-api/parse-input-arguments-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-paint-api/parse-input-arguments-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0064"
   category: WPT reftest
   title: css/css-paint-api/parse-input-arguments-017.https.html
@@ -2131,6 +2104,23 @@
       referenceFile: css/css-paint-api/two-element-one-custom-property-animation-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/two-element-one-custom-property-animation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0063"
+  category: WPT reftest
+  title: css/css-paint-api/parse-input-arguments-016.https.html
+  file: css/css-paint-api/parse-input-arguments-016.https.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-016.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-016.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
 - id: "0070"
   category: WPT reftest
   title: css/css-paint-api/registered-property-interpolation-001.https.html
@@ -2605,15 +2595,8 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/registered-property-value-016.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
-      timeout: true
-    - side: stable
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
 - id: "0100"
   category: WPT reftest
   title: css/css-paint-api/registered-property-value-017.https.html
@@ -2629,8 +2612,15 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/registered-property-value-017.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  errorName: TimeoutError
-  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+  sideErrors:
+    - side: canary
+      errorName: TimeoutError
+      errorMessage: "Timeout (10000ms): waiting for viewer ready"
+      timeout: true
+    - side: stable
+      errorName: TimeoutError
+      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
+      timeout: true
 - id: "0101"
   category: WPT reftest
   title: css/css-paint-api/registered-property-value-018.https.html
@@ -2646,12 +2636,5 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/registered-property-value-018.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
-  sideErrors:
-    - side: canary
-      errorName: TimeoutError
-      errorMessage: "Timeout (10000ms): waiting for viewer ready"
-      timeout: true
-    - side: stable
-      errorName: TimeoutError
-      errorMessage: "page.waitForFunction: Timeout 10000ms exceeded."
-      timeout: true
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"

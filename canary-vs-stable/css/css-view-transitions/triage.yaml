@@ -2590,10 +2590,6 @@
       referenceFile: css/css-view-transitions/new-content-captures-positioned-spans-ref.html
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/new-content-captures-positioned-spans-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-view-transitions/new-content-captures-positioned-spans-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/new-content-captures-positioned-spans-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0144"
   category: WPT reftest
   title: css/css-view-transitions/new-content-captures-root.html
@@ -5223,33 +5219,6 @@
       referenceFile: css/css-view-transitions/scoped/scroller-with-child-ref.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/scroller-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0259"
-  category: WPT reftest
-  title: css/css-view-transitions/scoped/shadow-dom.html
-  file: css/css-view-transitions/scoped/shadow-dom.html
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/scoped/shadow-dom.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/shadow-dom.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-view-transitions/scoped/shadow-dom-ref.html
-  relation: "=="
-  diffPages:
-    - css/css-view-transitions/scoped/shadow-dom-ref.html#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-view-transitions/scoped/shadow-dom-ref.html
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/scoped/shadow-dom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-view-transitions/scoped/shadow-dom-ref.html
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/shadow-dom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0260"
   category: WPT reftest
   title: css/css-view-transitions/scoped/target-in-scrolled-container.html
@@ -6264,5 +6233,22 @@
   baselineUrl: >-
     https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/iframe-transition.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   errorSide: canary, stable
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0259"
+  category: WPT reftest
+  title: css/css-view-transitions/scoped/shadow-dom.html
+  file: css/css-view-transitions/scoped/shadow-dom.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/scoped/shadow-dom.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/shadow-dom.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
   errorName: TimeoutError
   errorMessage: "Timeout (10000ms): waiting for viewer ready"

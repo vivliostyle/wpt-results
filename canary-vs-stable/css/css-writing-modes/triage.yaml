@@ -4156,33 +4156,6 @@
       referenceFile: css/css-writing-modes/abs-pos-non-replaced-vrl-012-ref.xht
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-012-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-- id: "0190"
-  category: WPT reftest
-  title: css/css-writing-modes/abs-pos-non-replaced-vrl-086.xht
-  file: css/css-writing-modes/abs-pos-non-replaced-vrl-086.xht
-  type: difference
-  decision: ""  # regression / expected / skip
-  notes: ""
-  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
-  actualLabel: canary
-  actualUrl: >-
-    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-086.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  baselineLabel: stable
-  baselineUrl: >-
-    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-086.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  referenceFile: css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht
-  relation: "=="
-  diffPages:
-    - css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht#1
-  referenceViewerUrls:
-    - side: canary
-      referenceFile: css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht
-      url: >-
-        https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0191"
   category: WPT reftest
   title: css/css-writing-modes/abs-pos-non-replaced-vrl-088.xht
@@ -8727,10 +8700,6 @@
       referenceFile: css/css-writing-modes/float-rgt-orthog-htb-in-vlr-003-ref.xht
       url: >-
         https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-rgt-orthog-htb-in-vlr-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-    - side: stable
-      referenceFile: css/css-writing-modes/float-rgt-orthog-htb-in-vlr-003-ref.xht
-      url: >-
-        https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-rgt-orthog-htb-in-vlr-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 - id: "0558"
   category: WPT reftest
   title: css/css-writing-modes/float-rgt-orthog-htb-in-vrl-003.xht
@@ -15167,3 +15136,71 @@
       referenceFile: css/reference/blank.html
       url: >-
         https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0190"
+  category: WPT reftest
+  title: css/css-writing-modes/abs-pos-non-replaced-vrl-086.xht
+  file: css/css-writing-modes/abs-pos-non-replaced-vrl-086.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-086.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-086.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0374"
+  category: WPT reftest
+  title: css/css-writing-modes/bidi-plaintext-br-001.html
+  file: css/css-writing-modes/bidi-plaintext-br-001.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/bidi-plaintext-br-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/bidi-plaintext-br-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "0688"
+  category: WPT reftest
+  title: css/css-writing-modes/line-box-direction-srl-046.xht
+  file: css/css-writing-modes/line-box-direction-srl-046.xht
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/line-box-direction-srl-046.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/line-box-direction-srl-046.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
+- id: "1209"
+  category: WPT manual
+  title: css/css-writing-modes/writing-mode-vrl-015-manual.html
+  file: css/css-writing-modes/writing-mode-vrl-015-manual.html
+  type: error
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: canary
+  actualUrl: >-
+    https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/writing-mode-vrl-015-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: stable
+  baselineUrl: >-
+    https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/writing-mode-vrl-015-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  errorSide: canary
+  errorName: TimeoutError
+  errorMessage: "Timeout (10000ms): waiting for viewer ready"
