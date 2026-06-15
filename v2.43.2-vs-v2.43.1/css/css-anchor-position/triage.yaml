@@ -1,0 +1,2732 @@
+- id: "0008"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-center-safe-rtl.html
+  file: css/css-anchor-position/anchor-center-safe-rtl.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-center-safe-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-center-safe-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-center-safe-rtl-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/anchor-center-safe-rtl-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-center-safe-rtl-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-center-safe-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-center-safe-rtl-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-center-safe-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0011"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-center-scroll-002.html
+  file: css/css-anchor-position/anchor-center-scroll-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0012"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-center-scroll-003.html
+  file: css/css-anchor-position/anchor-center-scroll-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0013"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-center-visibility-change.html
+  file: css/css-anchor-position/anchor-center-visibility-change.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-center-visibility-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-center-visibility-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-center-visibility-change-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/anchor-center-visibility-change-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-center-visibility-change-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-center-visibility-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-center-visibility-change-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-center-visibility-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0015"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-fieldset-001.html
+  file: css/css-anchor-position/anchor-fieldset-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-fieldset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-fieldset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-fieldset-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/anchor-fieldset-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-fieldset-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-fieldset-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-fieldset-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-fieldset-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0022"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-name-dynamic-reflow-root.html
+  file: css/css-anchor-position/anchor-name-dynamic-reflow-root.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-name-dynamic-reflow-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-name-dynamic-reflow-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-name-dynamic-reflow-root-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/anchor-name-dynamic-reflow-root-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-name-dynamic-reflow-root-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-name-dynamic-reflow-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-name-dynamic-reflow-root-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-name-dynamic-reflow-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0025"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-position-005.html
+  file: css/css-anchor-position/anchor-position-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-position-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-position-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0028"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-position-dynamic-006.html
+  file: css/css-anchor-position/anchor-position-dynamic-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-position-dynamic-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-position-dynamic-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0038"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-position-multicol-007.html
+  file: css/css-anchor-position/anchor-position-multicol-007.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-position-multicol-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-position-multicol-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0050"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-position-non-anchored-fallback.html
+  file: css/css-anchor-position/anchor-position-non-anchored-fallback.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-position-non-anchored-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-position-non-anchored-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      actualPages:
+        - 1
+        - 2
+      baselinePages:
+        - 1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0051"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-position-top-layer-001.html
+  file: css/css-anchor-position/anchor-position-top-layer-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/anchor-position-top-layer-ref.html#1
+    - css/css-anchor-position/anchor-position-top-layer-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0052"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-position-top-layer-002.html
+  file: css/css-anchor-position/anchor-position-top-layer-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/anchor-position-top-layer-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0053"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-position-top-layer-003.html
+  file: css/css-anchor-position/anchor-position-top-layer-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/anchor-position-top-layer-ref.html#1
+    - css/css-anchor-position/anchor-position-top-layer-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0054"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-position-top-layer-004.html
+  file: css/css-anchor-position/anchor-position-top-layer-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/anchor-position-top-layer-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0055"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-position-top-layer-005.html
+  file: css/css-anchor-position/anchor-position-top-layer-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/anchor-position-top-layer-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0056"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-position-top-layer-006.html
+  file: css/css-anchor-position/anchor-position-top-layer-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/anchor-position-top-layer-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-position-top-layer-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0057"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scope-scroll.html
+  file: css/css-anchor-position/anchor-scope-scroll.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scope-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scope-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-scope-scroll-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/anchor-scope-scroll-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-scope-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scope-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-scope-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scope-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0058"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-001.html
+  file: css/css-anchor-position/anchor-scroll-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      actualPages:
+        - 1
+      baselinePages:
+        - 1
+        - 2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0059"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-chained-001.html
+  file: css/css-anchor-position/anchor-scroll-chained-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-chained-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-chained-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-chained-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-chained-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0060"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-chained-002.html
+  file: css/css-anchor-position/anchor-scroll-chained-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-chained-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-chained-002-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-chained-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-chained-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0061"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-chained-003.html
+  file: css/css-anchor-position/anchor-scroll-chained-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-chained-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-chained-003-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-chained-003-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-chained-003-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0062"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-chained-004.html
+  file: css/css-anchor-position/anchor-scroll-chained-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-chained-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-chained-004-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-chained-004-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-chained-004-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0063"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-chained-fallback.html
+  file: css/css-anchor-position/anchor-scroll-chained-fallback.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-chained-fallback-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-chained-fallback-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-chained-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-chained-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0065"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-composited-scrolling-paint-001.html
+  file: css/css-anchor-position/anchor-scroll-composited-scrolling-paint-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-composited-scrolling-paint-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-composited-scrolling-paint-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-scroll-composited-scrolling-paint-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/anchor-scroll-composited-scrolling-paint-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-scroll-composited-scrolling-paint-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-composited-scrolling-paint-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-scroll-composited-scrolling-paint-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-composited-scrolling-paint-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0066"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-fixedpos-002.html
+  file: css/css-anchor-position/anchor-scroll-fixedpos-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-fixedpos-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-fixedpos-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-fixedpos-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-fixedpos-002-ref.html#1
+    - css/css-anchor-position/reference/anchor-scroll-fixedpos-002-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-fixedpos-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-fixedpos-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-fixedpos-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-fixedpos-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0069"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-fixedpos.html
+  file: css/css-anchor-position/anchor-scroll-fixedpos.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-fixedpos.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-fixedpos.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-fixedpos-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-fixedpos-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-fixedpos-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-fixedpos-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-fixedpos-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-fixedpos-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0070"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-implicit-001.html
+  file: css/css-anchor-position/anchor-scroll-implicit-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-implicit-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-implicit-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0072"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-nested.html
+  file: css/css-anchor-position/anchor-scroll-nested.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-nested-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-nested-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-nested-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-nested-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0073"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-overflow-hidden.html
+  file: css/css-anchor-position/anchor-scroll-overflow-hidden.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0074"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-position-try-012.html
+  file: css/css-anchor-position/anchor-scroll-position-try-012.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-position-try-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-position-try-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-scroll-position-try-012-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/anchor-scroll-position-try-012-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-scroll-position-try-012-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-position-try-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-scroll-position-try-012-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-position-try-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0075"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-position-try-015.tentative.html
+  file: css/css-anchor-position/anchor-scroll-position-try-015.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-position-try-015.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-position-try-015.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-scroll-position-try-015-ref.html
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/css-anchor-position/anchor-scroll-position-try-015-ref.html
+      actualPages:
+        - 1
+        - 2
+      baselinePages:
+        - 1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-scroll-position-try-015-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-position-try-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-scroll-position-try-015-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-position-try-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0076"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-scrollable-anchor.html
+  file: css/css-anchor-position/anchor-scroll-scrollable-anchor.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-scrollable-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-scrollable-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-scroll-scrollable-anchor-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/anchor-scroll-scrollable-anchor-ref.html#1
+    - css/css-anchor-position/anchor-scroll-scrollable-anchor-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-scroll-scrollable-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-scrollable-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-scroll-scrollable-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-scrollable-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0077"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-to-sticky-001.html
+  file: css/css-anchor-position/anchor-scroll-to-sticky-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-to-sticky-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-to-sticky-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-to-sticky-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-to-sticky-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0078"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-to-sticky-002.html
+  file: css/css-anchor-position/anchor-scroll-to-sticky-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-to-sticky-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-to-sticky-002-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-to-sticky-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-to-sticky-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0079"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-to-sticky-003.html
+  file: css/css-anchor-position/anchor-scroll-to-sticky-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-to-sticky-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-to-sticky-003-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-to-sticky-003-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-to-sticky-003-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0080"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-to-sticky-004.html
+  file: css/css-anchor-position/anchor-scroll-to-sticky-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-to-sticky-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-to-sticky-004-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-to-sticky-004-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-to-sticky-004-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0081"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-to-sticky-005.html
+  file: css/css-anchor-position/anchor-scroll-to-sticky-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/anchor-scroll-to-sticky-005-ref.html
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/css-anchor-position/anchor-scroll-to-sticky-005-ref.html
+      actualPages:
+        - 1
+        - 2
+      baselinePages:
+        - 1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/anchor-scroll-to-sticky-005-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/anchor-scroll-to-sticky-005-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0082"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-update-001.html
+  file: css/css-anchor-position/anchor-scroll-update-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      actualPages:
+        - 1
+      baselinePages:
+        - 1
+        - 2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0083"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-update-002.html
+  file: css/css-anchor-position/anchor-scroll-update-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      actualPages:
+        - 1
+      baselinePages:
+        - 1
+        - 2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0084"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-update-003.html
+  file: css/css-anchor-position/anchor-scroll-update-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      actualPages:
+        - 1
+      baselinePages:
+        - 1
+        - 2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0085"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-update-004.html
+  file: css/css-anchor-position/anchor-scroll-update-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      actualPages:
+        - 1
+      baselinePages:
+        - 1
+        - 2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0086"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-update-005.html
+  file: css/css-anchor-position/anchor-scroll-update-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-update-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-update-005-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-update-005-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-update-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-update-005-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-update-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0087"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-update-006.html
+  file: css/css-anchor-position/anchor-scroll-update-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-update-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-update-006-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-update-006-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-update-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-update-006-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-update-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0088"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-update-007.html
+  file: css/css-anchor-position/anchor-scroll-update-007.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      actualPages:
+        - 1
+      baselinePages:
+        - 1
+        - 2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0090"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-update-009.html
+  file: css/css-anchor-position/anchor-scroll-update-009.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-update-009-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-update-009-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-update-009-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-update-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-update-009-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-update-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0091"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-update-010.html
+  file: css/css-anchor-position/anchor-scroll-update-010.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-update-010-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-update-010-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-update-010-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-update-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-update-010-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-update-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0092"
+  category: WPT reftest
+  title: css/css-anchor-position/anchor-scroll-vlr.html
+  file: css/css-anchor-position/anchor-scroll-vlr.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/anchor-scroll-vlr-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/anchor-scroll-vlr-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-vlr-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/anchor-scroll-vlr-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0100"
+  category: WPT reftest
+  title: css/css-anchor-position/container-queries/anchored-fallback-color-change.html
+  file: css/css-anchor-position/container-queries/anchored-fallback-color-change.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/container-queries/anchored-fallback-color-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/container-queries/anchored-fallback-color-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0101"
+  category: WPT reftest
+  title: css/css-anchor-position/container-queries/anchored-fallback-style-containment.html
+  file: css/css-anchor-position/container-queries/anchored-fallback-style-containment.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/container-queries/anchored-fallback-style-containment.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/container-queries/anchored-fallback-style-containment.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/container-queries/anchored-fallback-style-containment-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/container-queries/anchored-fallback-style-containment-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/container-queries/anchored-fallback-style-containment-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/container-queries/anchored-fallback-style-containment-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/container-queries/anchored-fallback-style-containment-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/container-queries/anchored-fallback-style-containment-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0102"
+  category: WPT reftest
+  title: css/css-anchor-position/grid-position-area-basic.html
+  file: css/css-anchor-position/grid-position-area-basic.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/grid-position-area-basic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/grid-position-area-basic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/grid-position-area-basic-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/grid-position-area-basic-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/grid-position-area-basic-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/grid-position-area-basic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/grid-position-area-basic-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/grid-position-area-basic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0103"
+  category: WPT reftest
+  title: css/css-anchor-position/inherit-height-from-fallback.html
+  file: css/css-anchor-position/inherit-height-from-fallback.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/inherit-height-from-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/inherit-height-from-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0105"
+  category: WPT reftest
+  title: css/css-anchor-position/position-anchor-001.html
+  file: css/css-anchor-position/position-anchor-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-anchor-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-anchor-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-anchor-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-anchor-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0106"
+  category: WPT reftest
+  title: css/css-anchor-position/position-anchor-002.html
+  file: css/css-anchor-position/position-anchor-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-anchor-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-anchor-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-anchor-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-anchor-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0107"
+  category: WPT reftest
+  title: css/css-anchor-position/position-anchor-004.html
+  file: css/css-anchor-position/position-anchor-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-anchor-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-anchor-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-anchor-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-anchor-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0111"
+  category: WPT reftest
+  title: css/css-anchor-position/position-anchor-normal-001.html
+  file: css/css-anchor-position/position-anchor-normal-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-anchor-normal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-anchor-normal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0112"
+  category: WPT reftest
+  title: css/css-anchor-position/position-anchor-target-with-children.html
+  file: css/css-anchor-position/position-anchor-target-with-children.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-anchor-target-with-children.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-anchor-target-with-children.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-anchor-target-with-children-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-anchor-target-with-children-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-anchor-target-with-children-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-anchor-target-with-children-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-anchor-target-with-children-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-anchor-target-with-children-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0113"
+  category: WPT reftest
+  title: css/css-anchor-position/position-area-abs-inline-container.html
+  file: css/css-anchor-position/position-area-abs-inline-container.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-abs-inline-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-abs-inline-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-area-inline-container-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-area-inline-container-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-area-inline-container-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-inline-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-area-inline-container-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-inline-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0114"
+  category: WPT reftest
+  title: css/css-anchor-position/position-area-alignment-inset-001.html
+  file: css/css-anchor-position/position-area-alignment-inset-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-alignment-inset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-alignment-inset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-area-alignment-inset-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-area-alignment-inset-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-area-alignment-inset-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-alignment-inset-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-area-alignment-inset-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-alignment-inset-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0116"
+  category: WPT reftest
+  title: css/css-anchor-position/position-area-anchor-002.html
+  file: css/css-anchor-position/position-area-anchor-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-anchor-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-anchor-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-area-anchor-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-area-anchor-002-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-area-anchor-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-anchor-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-area-anchor-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-anchor-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0120"
+  category: WPT reftest
+  title: css/css-anchor-position/position-area-inset-one-side-auto.tentative.html
+  file: css/css-anchor-position/position-area-inset-one-side-auto.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-inset-one-side-auto.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-inset-one-side-auto.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/position-area-inset-one-side-auto.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/position-area-inset-one-side-auto.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/position-area-inset-one-side-auto.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/position-area-inset-one-side-auto.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/position-area-inset-one-side-auto.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/position-area-inset-one-side-auto.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0122"
+  category: WPT reftest
+  title: css/css-anchor-position/position-area-no-default-anchor.html
+  file: css/css-anchor-position/position-area-no-default-anchor.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-no-default-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-no-default-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0124"
+  category: WPT reftest
+  title: css/css-anchor-position/position-area-overflow-icb-002.html
+  file: css/css-anchor-position/position-area-overflow-icb-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-area-overflow-icb-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-area-overflow-icb-002-ref.html#1
+    - css/css-anchor-position/position-area-overflow-icb-002-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-area-overflow-icb-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-area-overflow-icb-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0125"
+  category: WPT reftest
+  title: css/css-anchor-position/position-area-overflow-icb-003.html
+  file: css/css-anchor-position/position-area-overflow-icb-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-area-overflow-icb-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-area-overflow-icb-003-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-area-overflow-icb-003-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-area-overflow-icb-003-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0126"
+  category: WPT reftest
+  title: css/css-anchor-position/position-area-overflow-icb-004.html
+  file: css/css-anchor-position/position-area-overflow-icb-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-area-overflow-icb-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-area-overflow-icb-004-ref.html#1
+    - css/css-anchor-position/position-area-overflow-icb-004-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-area-overflow-icb-004-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-area-overflow-icb-004-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0127"
+  category: WPT reftest
+  title: css/css-anchor-position/position-area-percents-001.html
+  file: css/css-anchor-position/position-area-percents-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-percents-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-percents-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-area-percents-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-area-percents-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-area-percents-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-percents-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-area-percents-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-percents-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0128"
+  category: WPT reftest
+  title: css/css-anchor-position/position-area-pseudo-element-implicit-anchor-dynamic.html
+  file: css/css-anchor-position/position-area-pseudo-element-implicit-anchor-dynamic.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-pseudo-element-implicit-anchor-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-pseudo-element-implicit-anchor-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0129"
+  category: WPT reftest
+  title: css/css-anchor-position/position-area-pseudo-element-implicit-anchor.html
+  file: css/css-anchor-position/position-area-pseudo-element-implicit-anchor.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-pseudo-element-implicit-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-pseudo-element-implicit-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0131"
+  category: WPT reftest
+  title: css/css-anchor-position/position-area-scrolling-004.tentative.html
+  file: css/css-anchor-position/position-area-scrolling-004.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-scrolling-004.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-scrolling-004.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  pageSelections:
+    - referenceFile: css/reference/ref-filled-green-100px-square.xht
+      actualPages:
+        - 1
+        - 2
+      baselinePages:
+        - 1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0132"
+  category: WPT reftest
+  title: css/css-anchor-position/position-area-visibility-change.html
+  file: css/css-anchor-position/position-area-visibility-change.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-area-visibility-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-area-visibility-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/reference/position-area-visibility-change-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/reference/position-area-visibility-change-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/reference/position-area-visibility-change-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/reference/position-area-visibility-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/reference/position-area-visibility-change-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/reference/position-area-visibility-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0136"
+  category: WPT reftest
+  title: css/css-anchor-position/position-try-fallbacks-004.html
+  file: css/css-anchor-position/position-try-fallbacks-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-try-fallbacks-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-try-fallbacks-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square.xht
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square.xht#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0137"
+  category: WPT reftest
+  title: css/css-anchor-position/position-try-order-logical.html
+  file: css/css-anchor-position/position-try-order-logical.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-try-order-logical.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-try-order-logical.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-try-order-logical-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-try-order-logical-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-try-order-logical-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-try-order-logical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-try-order-logical-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-try-order-logical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0138"
+  category: WPT reftest
+  title: css/css-anchor-position/position-try-switch-from-fixed-anchor.html
+  file: css/css-anchor-position/position-try-switch-from-fixed-anchor.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-try-switch-from-fixed-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-try-switch-from-fixed-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-try-switch-from-fixed-anchor-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-try-switch-from-fixed-anchor-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-try-switch-from-fixed-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-try-switch-from-fixed-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-try-switch-from-fixed-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-try-switch-from-fixed-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0139"
+  category: WPT reftest
+  title: css/css-anchor-position/position-try-switch-to-fixed-anchor.html
+  file: css/css-anchor-position/position-try-switch-to-fixed-anchor.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-try-switch-to-fixed-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-try-switch-to-fixed-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-try-switch-to-fixed-anchor-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-try-switch-to-fixed-anchor-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-try-switch-to-fixed-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-try-switch-to-fixed-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-try-switch-to-fixed-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-try-switch-to-fixed-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0142"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-anchors-valid.tentative.html
+  file: css/css-anchor-position/position-visibility-anchors-valid.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-valid.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-valid.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-anchors-valid-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-anchors-valid-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-anchors-valid-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-valid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-anchors-valid-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-valid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0145"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out.html
+  file: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0147"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-anchors-visible-chained-001.html
+  file: css/css-anchor-position/position-visibility-anchors-visible-chained-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-chained-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-chained-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0148"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-anchors-visible-chained-002.html
+  file: css/css-anchor-position/position-visibility-anchors-visible-chained-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-chained-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-chained-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0149"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-anchors-visible-chained-003.html
+  file: css/css-anchor-position/position-visibility-anchors-visible-chained-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-chained-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-chained-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0151"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-anchors-visible-change-anchor.html
+  file: css/css-anchor-position/position-visibility-anchors-visible-change-anchor.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-change-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-change-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-anchors-visible-change-anchor-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-anchors-visible-change-anchor-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-change-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-change-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-change-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-change-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0152"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility.html
+  file: css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-change-css-visibility-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0157"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container.html
+  file: css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-non-intervening-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0158"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-anchors-visible-position-fixed.html
+  file: css/css-anchor-position/position-visibility-anchors-visible-position-fixed.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-position-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-position-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-anchors-visible-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-anchors-visible-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0159"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-anchors-visible-stacked-child.html
+  file: css/css-anchor-position/position-visibility-anchors-visible-stacked-child.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-stacked-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-stacked-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-anchors-visible-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-anchors-visible-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0160"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-anchors-visible-stacked-child.tentative.html
+  file: css/css-anchor-position/position-visibility-anchors-visible-stacked-child.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-stacked-child.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-stacked-child.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-anchors-visible-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-anchors-visible-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0161"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-anchors-visible-with-position.html
+  file: css/css-anchor-position/position-visibility-anchors-visible-with-position.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-with-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-with-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-anchors-visible-with-position-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-anchors-visible-with-position-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-with-position-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-with-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-with-position-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-with-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0162"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-anchors-visible.html
+  file: css/css-anchor-position/position-visibility-anchors-visible.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-anchors-visible-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-anchors-visible-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-anchors-visible-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0163"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-initial.html
+  file: css/css-anchor-position/position-visibility-initial.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-initial.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-initial.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-initial-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-initial-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-initial-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-initial-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-initial-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-initial-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0165"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-no-overflow-scroll-002.html
+  file: css/css-anchor-position/position-visibility-no-overflow-scroll-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0166"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-no-overflow-scroll.html
+  file: css/css-anchor-position/position-visibility-no-overflow-scroll.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0170"
+  category: WPT reftest
+  title: css/css-anchor-position/position-visibility-remove-anchors-visible.html
+  file: css/css-anchor-position/position-visibility-remove-anchors-visible.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-remove-anchors-visible.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-remove-anchors-visible.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/position-visibility-remove-anchors-visible-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/position-visibility-remove-anchors-visible-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/position-visibility-remove-anchors-visible-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/position-visibility-remove-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/position-visibility-remove-anchors-visible-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/position-visibility-remove-anchors-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0172"
+  category: WPT reftest
+  title: css/css-anchor-position/pseudo-element-implicit-anchor-center.html
+  file: css/css-anchor-position/pseudo-element-implicit-anchor-center.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/pseudo-element-implicit-anchor-center.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/pseudo-element-implicit-anchor-center.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0173"
+  category: WPT reftest
+  title: css/css-anchor-position/pseudo-element-implicit-anchor.html
+  file: css/css-anchor-position/pseudo-element-implicit-anchor.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/pseudo-element-implicit-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/pseudo-element-implicit-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0174"
+  category: WPT reftest
+  title: css/css-anchor-position/pseudo-element-with-slotted-anchor.html
+  file: css/css-anchor-position/pseudo-element-with-slotted-anchor.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/pseudo-element-with-slotted-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/pseudo-element-with-slotted-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/pseudo-element-with-slotted-anchor-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/pseudo-element-with-slotted-anchor-ref.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/pseudo-element-with-slotted-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/pseudo-element-with-slotted-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/pseudo-element-with-slotted-anchor-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/pseudo-element-with-slotted-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0175"
+  category: WPT reftest
+  title: css/css-anchor-position/scroll-to-anchored-fixed-000.html
+  file: css/css-anchor-position/scroll-to-anchored-fixed-000.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-000-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/scroll-to-anchored-fixed-000-ref.html#1
+    - css/css-anchor-position/scroll-to-anchored-fixed-000-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-000-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-000-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0178"
+  category: WPT reftest
+  title: css/css-anchor-position/scroll-to-anchored-fixed-003.html
+  file: css/css-anchor-position/scroll-to-anchored-fixed-003.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-003-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/scroll-to-anchored-fixed-003-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-003-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-003-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0179"
+  category: WPT reftest
+  title: css/css-anchor-position/scroll-to-anchored-fixed-004.html
+  file: css/css-anchor-position/scroll-to-anchored-fixed-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-004-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/scroll-to-anchored-fixed-004-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-004-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-004-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0180"
+  category: WPT reftest
+  title: css/css-anchor-position/scroll-to-anchored-fixed-005.html
+  file: css/css-anchor-position/scroll-to-anchored-fixed-005.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-005-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/scroll-to-anchored-fixed-005-ref.html#1
+    - css/css-anchor-position/scroll-to-anchored-fixed-005-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-005-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-005-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0181"
+  category: WPT reftest
+  title: css/css-anchor-position/scroll-to-anchored-fixed-006.html
+  file: css/css-anchor-position/scroll-to-anchored-fixed-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-006-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-anchor-position/scroll-to-anchored-fixed-006-ref.html#1
+    - css/css-anchor-position/scroll-to-anchored-fixed-006-ref.html#2
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-006-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-anchor-position/scroll-to-anchored-fixed-006-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0192"
+  category: WPT reftest
+  title: css/css-anchor-position/under-invalidation.html
+  file: css/css-anchor-position/under-invalidation.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-anchor-position/under-invalidation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-anchor-position/under-invalidation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/reference/ref-filled-green-100px-square-only.html
+  relation: "=="
+  diffPages:
+    - css/reference/ref-filled-green-100px-square-only.html#1
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/reference/ref-filled-green-100px-square-only.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

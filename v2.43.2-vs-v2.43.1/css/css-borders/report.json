@@ -1,0 +1,3344 @@
+{
+  "generatedAt": "2026-06-15T11:39:47.979Z",
+  "labels": {
+    "actual": "v2.43.2",
+    "baseline": "v2.43.1"
+  },
+  "options": {
+    "categories": [],
+    "titleIncludes": [],
+    "files": [],
+    "limit": null,
+    "mode": "reftest-diff",
+    "browser": "chromium",
+    "outDir": "v2.43.2-vs-v2.43.1/css/css-borders",
+    "timeoutSec": 10,
+    "maxDiffRatio": 0.00002,
+    "pixelThreshold": 0.1,
+    "viewportWidth": 1800,
+    "viewportHeight": 1800,
+    "skipScreenshots": false,
+    "concurrency": 8,
+    "exportHtml": false,
+    "exportHtmlDiff": false,
+    "actualViewer": "https://vivliostyle.github.io/viewer/v2.43.2/",
+    "baselineViewer": "https://vivliostyle.github.io/viewer/v2.43.1/",
+    "actualLabel": "v2.43.2",
+    "baselineLabel": "v2.43.1",
+    "extraViewerParams": "",
+    "actualViewerParams": "",
+    "baselineViewerParams": "",
+    "testUrls": [],
+    "refUrls": [],
+    "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
+    "wptBaseUrl": "https://wpt.live/",
+    "wptPathPrefixes": [
+      "css/css-borders/"
+    ],
+    "timeoutMs": 10000
+  },
+  "summary": {
+    "totalEntries": 70,
+    "entriesWithDifferences": 16,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
+    "pageCountMismatches": 0,
+    "screenshotMismatches": 0,
+    "outcomes": {
+      "changeTypes": {
+        "pass": 54,
+        "known-fail": 16
+      },
+      "statusPairs": {
+        "PASS->PASS": 54,
+        "FAIL->FAIL": 16
+      }
+    },
+    "triage": {
+      "differences": {
+        "pending": 16,
+        "triaged": 0
+      },
+      "errors": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "pendingEntries": 16,
+      "triagedEntries": 0
+    }
+  },
+  "entries": [
+    {
+      "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-radius-currentcolor.html",
+      "file": [
+        "css/css-borders/border-radius-currentcolor.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-radius-currentcolor.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-radius-currentcolor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-radius-currentcolor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-radius-currentcolor-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-radius-currentcolor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-radius-currentcolor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0002",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-radius-greater-than-width.html",
+      "file": [
+        "css/css-borders/border-radius-greater-than-width.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-radius-greater-than-width.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-radius-greater-than-width.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-radius-greater-than-width.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/reference/border-radius-greater-than-width-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/reference/border-radius-greater-than-width-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/reference/border-radius-greater-than-width-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0003",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-background-origin-border-box.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-background-origin-border-box.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                98
+              ],
+              "totalPixels": [
+                0,
+                500
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 6278,
+                "diffRatio": 0.007487500954125639,
+                "exactDiffPixels": 6893,
+                "exactDiffRatio": 0.008220985039309976,
+                "exceededDiffPixels": 6348,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0003-WPT_reftest-css-css-borders-border-shape-border-shape-background-origin-border-box.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.2",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                98
+              ],
+              "totalPixels": [
+                0,
+                500
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 6278,
+                "diffRatio": 0.007487500954125639,
+                "exactDiffPixels": 6893,
+                "exactDiffRatio": 0.008220985039309976,
+                "exceededDiffPixels": 6348,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0003-WPT_reftest-css-css-borders-border-shape-border-shape-background-origin-border-box.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0004",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-clips-background.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-clips-background.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-clips-background.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-clips-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-clips-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-clips-background-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-clips-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-clips-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0005",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 117612,
+                "diffRatio": 0.14027078085642317,
+                "exactDiffPixels": 117612,
+                "exactDiffRatio": 0.14027078085642317,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0005-WPT_reftest-css-css-borders-border-shape-border-shape-collapsed-shape-clips-background.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.2",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 117612,
+                "diffRatio": 0.14027078085642317,
+                "exactDiffPixels": 117612,
+                "exactDiffRatio": 0.14027078085642317,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0005-WPT_reftest-css-css-borders-border-shape-border-shape-collapsed-shape-clips-background.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0006",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-combined-shadow.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-combined-shadow.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-combined-shadow-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-combined-shadow-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 3500,
+                "diffRatio": 0.00417429967178078,
+                "exactDiffPixels": 3500,
+                "exactDiffRatio": 0.00417429967178078,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 128,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0006-WPT_reftest-css-css-borders-border-shape-border-shape-combined-shadow.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.2",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-combined-shadow-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 3500,
+                "diffRatio": 0.00417429967178078,
+                "exactDiffPixels": 3500,
+                "exactDiffRatio": 0.00417429967178078,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 128,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0006-WPT_reftest-css-css-borders-border-shape-border-shape-combined-shadow.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-combined-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0007",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-double-shape-default.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-double-shape-default.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-double-shape-default.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-double-shape-default.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-double-shape-default.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-double-shape-default-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-double-shape-default-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-double-shape-default-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0008",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-dynamic-color.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-dynamic-color.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-dynamic-color-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-dynamic-color-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 8260,
+                "diffRatio": 0.009851347225402641,
+                "exactDiffPixels": 8985,
+                "exactDiffRatio": 0.010716023585985803,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0008-WPT_reftest-css-css-borders-border-shape-border-shape-dynamic-color.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.2",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-dynamic-color-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 8260,
+                "diffRatio": 0.009851347225402641,
+                "exactDiffPixels": 8985,
+                "exactDiffRatio": 0.010716023585985803,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0008-WPT_reftest-css-css-borders-border-shape-border-shape-dynamic-color.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0009",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-geometry-box.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-geometry-box.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-geometry-box.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-geometry-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-geometry-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-geometry-box-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-geometry-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-geometry-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0010",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-half-border-box-default.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-half-border-box-default.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-half-border-box-default.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-half-border-box-default.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-half-border-box-default.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-half-border-box-default-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-half-border-box-default-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-half-border-box-default-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0011",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-ignore-radius.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-ignore-radius.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-ignore-radius-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-ignore-radius-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 246,
+                "diffRatio": 0.00029339363407373484,
+                "exactDiffPixels": 525,
+                "exactDiffRatio": 0.000626144950767117,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0011-WPT_reftest-css-css-borders-border-shape-border-shape-ignore-radius.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.2",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-ignore-radius-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 246,
+                "diffRatio": 0.00029339363407373484,
+                "exactDiffPixels": 525,
+                "exactDiffRatio": 0.000626144950767117,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0011-WPT_reftest-css-css-borders-border-shape-border-shape-ignore-radius.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ignore-radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0012",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-inner-outer.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-inner-outer.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-inner-outer.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inner-outer.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inner-outer.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-inner-outer-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inner-outer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inner-outer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0013",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-inset-shadow-blur.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-inset-shadow-blur.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-blur.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-inset-shadow-blur-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0014",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-inset-shadow-negative-spread.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-inset-shadow-negative-spread.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-negative-spread.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-negative-spread.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-negative-spread.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-inset-shadow-negative-spread-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-negative-spread-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-negative-spread-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0015",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-inset-shadow.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-inset-shadow.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-inset-shadow-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-inset-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0016",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-outline-auto-forms.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-outline-auto-forms.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-outline-auto-forms.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-auto-forms.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-auto-forms.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-outline-auto-forms-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-auto-forms-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-auto-forms-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0017",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-outline-auto-with-border.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-outline-auto-with-border.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-outline-auto-with-border.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-auto-with-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-auto-with-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-outline-auto-with-border-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-auto-with-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-auto-with-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0018",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-outline-auto.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-outline-auto.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-outline-auto.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-auto.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-auto.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-outline-auto-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-auto-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-auto-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0019",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-outline-double-path.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-outline-double-path.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-path.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-path.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-path.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-outline-double-path-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-path-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-path-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0020",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-outline-double-shape.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-outline-double-shape.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-shape.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-shape.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-shape.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-outline-double-shape-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-shape-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-shape-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0021",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-outline-double.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-outline-double.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-outline-double.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-outline-double-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-double-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0022",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-outline-invalidation.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-outline-invalidation.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-outline-invalidation.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-invalidation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-invalidation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-outline-invalidation-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-invalidation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-invalidation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0023",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-outline-offset.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-outline-offset.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-outline-offset.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-offset.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-offset.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-outline-offset-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0024",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                150
+              ],
+              "totalPixels": [
+                0,
+                2000
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2408,
+                "diffRatio": 0.002871918174185177,
+                "exactDiffPixels": 7744,
+                "exactDiffRatio": 0.009235936188077247,
+                "exceededDiffPixels": 3779,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0024-WPT_reftest-css-css-borders-border-shape-border-shape-outline-with-border-double-ellipse.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.2",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                150
+              ],
+              "totalPixels": [
+                0,
+                2000
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2408,
+                "diffRatio": 0.002871918174185177,
+                "exactDiffPixels": 7744,
+                "exactDiffRatio": 0.009235936188077247,
+                "exceededDiffPixels": 3779,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0024-WPT_reftest-css-css-borders-border-shape-border-shape-outline-with-border-double-ellipse.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0025",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-outline-with-border-ellipse.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-outline-with-border-ellipse.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                170
+              ],
+              "totalPixels": [
+                0,
+                5000
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 8707,
+                "diffRatio": 0.010384464926341501,
+                "exactDiffPixels": 13526,
+                "exactDiffRatio": 0.016131879245859095,
+                "exceededDiffPixels": 10461,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0025-WPT_reftest-css-css-borders-border-shape-border-shape-outline-with-border-ellipse.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.2",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                170
+              ],
+              "totalPixels": [
+                0,
+                5000
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 8707,
+                "diffRatio": 0.010384464926341501,
+                "exactDiffPixels": 13526,
+                "exactDiffRatio": 0.016131879245859095,
+                "exceededDiffPixels": 10461,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0025-WPT_reftest-css-css-borders-border-shape-border-shape-outline-with-border-ellipse.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0026",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-outline-with-border.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-outline-with-border.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-outline-with-border-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0027",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-outline.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-outline.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-outline.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-outline-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0028",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-overflow-child-clip.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-overflow-child-clip.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-overflow-child-clip.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-child-clip.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-child-clip.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-overflow-child-clip-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-child-clip-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-child-clip-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0029",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-overflow-replaced-canvas.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-overflow-replaced-canvas.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-canvas.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-canvas.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-canvas.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-overflow-replaced-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0030",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-overflow-replaced-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0031",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-overflow-replaced-img.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-overflow-replaced-img.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-img.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-img.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-img.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-overflow-replaced-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0032",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-overflow-replaced-self.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-overflow-replaced-self.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-self.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-self.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-self.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-overflow-replaced-self-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-self-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-self-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0033",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-overflow-solid-background.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-overflow-solid-background.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-overflow-solid-background.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-solid-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-solid-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-overflow-solid-background-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-solid-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-solid-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0034",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-overflow.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-overflow.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-overflow.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-overflow-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0035",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-polygon-miter-limit.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-polygon-miter-limit.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1114,
+                "diffRatio": 0.0013286199526753683,
+                "exactDiffPixels": 1770,
+                "exactDiffRatio": 0.0021110029768719946,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0035-WPT_reftest-css-css-borders-border-shape-border-shape-polygon-miter-limit.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.2",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1114,
+                "diffRatio": 0.0013286199526753683,
+                "exactDiffPixels": 1770,
+                "exactDiffRatio": 0.0021110029768719946,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0035-WPT_reftest-css-css-borders-border-shape-border-shape-polygon-miter-limit.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0036",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-shadow-blur.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-shadow-blur.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-shadow-blur-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-shadow-blur-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                32
+              ],
+              "totalPixels": [
+                0,
+                500
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 5521,
+                "diffRatio": 0.0065846595679719105,
+                "exactDiffPixels": 8553,
+                "exactDiffRatio": 0.010200795740783147,
+                "exceededDiffPixels": 5447,
+                "maxChannelDifference": 189,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0036-WPT_reftest-css-css-borders-border-shape-border-shape-shadow-blur.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.2",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-shadow-blur-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                32
+              ],
+              "totalPixels": [
+                0,
+                500
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 5521,
+                "diffRatio": 0.0065846595679719105,
+                "exactDiffPixels": 8553,
+                "exactDiffRatio": 0.010200795740783147,
+                "exceededDiffPixels": 5447,
+                "maxChannelDifference": 189,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0036-WPT_reftest-css-css-borders-border-shape-border-shape-shadow-blur.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0037",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-shadow-circle.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-shadow-circle.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-shadow-circle-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-shadow-circle-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 5535,
+                "diffRatio": 0.006601356766659034,
+                "exactDiffPixels": 8546,
+                "exactDiffRatio": 0.010192447141439584,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 189,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0037-WPT_reftest-css-css-borders-border-shape-border-shape-shadow-circle.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.2",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-shadow-circle-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 5535,
+                "diffRatio": 0.006601356766659034,
+                "exactDiffPixels": 8546,
+                "exactDiffRatio": 0.010192447141439584,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 189,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0037-WPT_reftest-css-css-borders-border-shape-border-shape-shadow-circle.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0038",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-shadow-inset-blur.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-shadow-inset-blur.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                2
+              ],
+              "totalPixels": [
+                0,
+                150
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 3314,
+                "diffRatio": 0.003952465460651858,
+                "exactDiffPixels": 5580,
+                "exactDiffRatio": 0.006655026333867644,
+                "exceededDiffPixels": 5102,
+                "maxChannelDifference": 94,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0038-WPT_reftest-css-css-borders-border-shape-border-shape-shadow-inset-blur.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.2",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                2
+              ],
+              "totalPixels": [
+                0,
+                150
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 3314,
+                "diffRatio": 0.003952465460651858,
+                "exactDiffPixels": 5580,
+                "exactDiffRatio": 0.006655026333867644,
+                "exceededDiffPixels": 5102,
+                "maxChannelDifference": 94,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0038-WPT_reftest-css-css-borders-border-shape-border-shape-shadow-inset-blur.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-inset-blur-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0039",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-shadow-negative-spread.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-shadow-negative-spread.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-shadow-negative-spread.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-negative-spread.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-negative-spread.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-shadow-negative-spread-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-negative-spread-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-negative-spread-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0040",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-shadow-semitransparent.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-shadow-semitransparent.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-shadow-semitransparent.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-semitransparent.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-semitransparent.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-shadow-semitransparent-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-semitransparent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-semitransparent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0041",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-shadow-transparent.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-shadow-transparent.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-shadow-transparent.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-transparent.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-transparent.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-shadow-transparent-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-transparent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-transparent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0042",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-shadow.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-shadow.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-shadow.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-shadow-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0043",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-stroke-from-border.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-stroke-from-border.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-stroke-from-border-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-stroke-from-border-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                70
+              ],
+              "totalPixels": [
+                0,
+                3500
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 32996,
+                "diffRatio": 0.03935291199145104,
+                "exactDiffPixels": 43006,
+                "exactDiffRatio": 0.05129140905274406,
+                "exceededDiffPixels": 39270,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0043-WPT_reftest-css-css-borders-border-shape-border-shape-stroke-from-border.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.2",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-stroke-from-border-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                70
+              ],
+              "totalPixels": [
+                0,
+                3500
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 32996,
+                "diffRatio": 0.03935291199145104,
+                "exactDiffPixels": 43006,
+                "exactDiffRatio": 0.05129140905274406,
+                "exceededDiffPixels": 39270,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0043-WPT_reftest-css-css-borders-border-shape-border-shape-stroke-from-border.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0044",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-stroke-invalidation.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-stroke-invalidation.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-stroke-invalidation.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-invalidation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-invalidation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-stroke-invalidation-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-invalidation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-invalidation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0045",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape/border-shape-two-shapes-shadow.html",
+      "file": [
+        "css/css-borders/border-shape/border-shape-two-shapes-shadow.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                91
+              ],
+              "totalPixels": [
+                0,
+                2000
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1358,
+                "diffRatio": 0.0016196282726509427,
+                "exactDiffPixels": 3309,
+                "exactDiffRatio": 0.003946502175406458,
+                "exceededDiffPixels": 1776,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0045-WPT_reftest-css-css-borders-border-shape-border-shape-two-shapes-shadow.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.2",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": {
+              "maxDifference": [
+                0,
+                91
+              ],
+              "totalPixels": [
+                0,
+                2000
+              ]
+            },
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 1358,
+                "diffRatio": 0.0016196282726509427,
+                "exactDiffPixels": 3309,
+                "exactDiffRatio": 0.003946502175406458,
+                "exceededDiffPixels": 1776,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0045-WPT_reftest-css-css-borders-border-shape-border-shape-two-shapes-shadow.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0046",
+      "category": "WPT reftest",
+      "title": "css/css-borders/border-shape-absolute-coords-shape.tentative.html",
+      "file": [
+        "css/css-borders/border-shape-absolute-coords-shape.tentative.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/border-shape-absolute-coords-shape.tentative.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape-absolute-coords-shape.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape-absolute-coords-shape.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/border-shape-absolute-coords-shape-ref.tentative.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/border-shape-absolute-coords-shape-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/border-shape-absolute-coords-shape-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0047",
+      "category": "WPT reftest",
+      "title": "css/css-borders/borders-on-sub-unit-sized-elements.html",
+      "file": [
+        "css/css-borders/borders-on-sub-unit-sized-elements.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/borders-on-sub-unit-sized-elements.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/borders-on-sub-unit-sized-elements.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/borders-on-sub-unit-sized-elements.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/reference/borders-on-sub-unit-sized-elements-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/reference/borders-on-sub-unit-sized-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/reference/borders-on-sub-unit-sized-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0048",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shape-backdrop-filter-overflow.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shape-backdrop-filter-overflow.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-overflow.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shape-backdrop-filter-overflow-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-overflow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-overflow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0049",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0050",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shape-backdrop-filter.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shape-backdrop-filter.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shape-backdrop-filter-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0051",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shape-bevel-overflow-composite.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shape-bevel-overflow-composite.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-bevel-overflow-composite.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-bevel-overflow-composite.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-bevel-overflow-composite.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shape-bevel-overflow-composite-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-bevel-overflow-composite-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-bevel-overflow-composite-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0052",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shape-bevel-overflow.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shape-bevel-overflow.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-bevel-overflow.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-bevel-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-bevel-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shape-bevel-overflow-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-bevel-overflow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-bevel-overflow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0053",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shape-fill.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shape-fill.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-fill.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-fill.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-fill.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shape-fill-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-fill-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-fill-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0054",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shape-iframe-border.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shape-iframe-border.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-iframe-border.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-iframe-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-iframe-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shape-img-border-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0055",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shape-img-border.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shape-img-border.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shape-img-border-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0056",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shape-img.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shape-img.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-img.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shape-img-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0057",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shape-inset-shadow.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shape-inset-shadow.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-inset-shadow.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-inset-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-inset-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shape-inset-shadow-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-inset-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-inset-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0058",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shape-noop-keyframe.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shape-noop-keyframe.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-noop-keyframe.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-noop-keyframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-noop-keyframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shape-noop-keyframe-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-noop-keyframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-noop-keyframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0059",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shape-notch.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shape-notch.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-notch.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-notch.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-notch.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shape-notch-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-notch-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-notch-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0060",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shape-overflow-clip-margin.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shape-overflow-clip-margin.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-overflow-clip-margin.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-overflow-clip-margin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-overflow-clip-margin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shape-overflow-clip-margin-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-overflow-clip-margin-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-overflow-clip-margin-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0061",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shape-square.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shape-square.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-square.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shape-square-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0062",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shape-svg-border.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shape-svg-border.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-svg-border.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-svg-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-svg-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shape-img-border-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0063",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shape-video-border.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shape-video-border.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shape-video-border.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-video-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-video-border.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shape-img-border-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-img-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0064",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/corner-shorthand-rendering.html",
+      "file": [
+        "css/css-borders/corner-shape/corner-shorthand-rendering.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/corner-shorthand-rendering-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/corner-shape/corner-shorthand-rendering-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2119,
+                "diffRatio": 0.0025272402870009925,
+                "exactDiffPixels": 2271,
+                "exactDiffRatio": 0.0027085241584611864,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0064-WPT_reftest-css-css-borders-corner-shape-corner-shorthand-rendering.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.2",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/corner-shape/corner-shorthand-rendering-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 2119,
+                "diffRatio": 0.0025272402870009925,
+                "exactDiffPixels": 2271,
+                "exactDiffRatio": 0.0027085241584611864,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0064-WPT_reftest-css-css-borders-corner-shape-corner-shorthand-rendering.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0065",
+      "category": "WPT reftest",
+      "title": "css/css-borders/corner-shape/render-corner-shape.html",
+      "file": [
+        "css/css-borders/corner-shape/render-corner-shape.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/corner-shape/render-corner-shape.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/render-corner-shape.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/render-corner-shape.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/corner-shape/render-corner-shape-ref.html?border-radius=25&corner-shape=2&shadow-spread=10",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/corner-shape/render-corner-shape-ref.html?border-radius=25&corner-shape=2&shadow-spread=10&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/corner-shape/render-corner-shape-ref.html?border-radius=25&corner-shape=2&shadow-spread=10&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0066",
+      "category": "WPT reftest",
+      "title": "css/css-borders/subpixel-border-width.tentative.html",
+      "file": [
+        "css/css-borders/subpixel-border-width.tentative.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/subpixel-border-width.tentative.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/subpixel-border-width.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/subpixel-border-width.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/reference/subpixel-border-width-ref.tentative.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/reference/subpixel-border-width-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/reference/subpixel-border-width-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0067",
+      "category": "WPT reftest",
+      "title": "css/css-borders/subpixel-borders-with-child-border-box-sizing.html",
+      "file": [
+        "css/css-borders/subpixel-borders-with-child-border-box-sizing.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/subpixel-borders-with-child-border-box-sizing.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/subpixel-borders-with-child-border-box-sizing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/subpixel-borders-with-child-border-box-sizing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/reference/subpixel-borders-with-child-border-box-sizing-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/reference/subpixel-borders-with-child-border-box-sizing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/reference/subpixel-borders-with-child-border-box-sizing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0068",
+      "category": "WPT reftest",
+      "title": "css/css-borders/subpixel-borders-with-child.html",
+      "file": [
+        "css/css-borders/subpixel-borders-with-child.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/subpixel-borders-with-child.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/subpixel-borders-with-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/subpixel-borders-with-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/reference/subpixel-borders-with-child-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/reference/subpixel-borders-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/reference/subpixel-borders-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0069",
+      "category": "WPT reftest",
+      "title": "css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html",
+      "file": [
+        "css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/reference/border-radius-side-shorthands-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/reference/border-radius-side-shorthands-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4927,
+                "diffRatio": 0.0058762212808182585,
+                "exactDiffPixels": 6664,
+                "exactDiffRatio": 0.007947866575070605,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0069-WPT_reftest-css-css-borders-tentative-border-radius-side-shorthands-border-radius-side-shorthands-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.2",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/reference/border-radius-side-shorthands-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4927,
+                "diffRatio": 0.0058762212808182585,
+                "exactDiffPixels": 6664,
+                "exactDiffRatio": 0.007947866575070605,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0069-WPT_reftest-css-css-borders-tentative-border-radius-side-shorthands-border-radius-side-shorthands-001.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0070",
+      "category": "WPT reftest",
+      "title": "css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html",
+      "file": [
+        "css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-borders/reference/border-radius-side-shorthands-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/reference/border-radius-side-shorthands-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4927,
+                "diffRatio": 0.0058762212808182585,
+                "exactDiffPixels": 6664,
+                "exactDiffRatio": 0.007947866575070605,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0070-WPT_reftest-css-css-borders-tentative-border-radius-side-shorthands-border-radius-side-shorthands-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.2",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-borders/reference/border-radius-side-shorthands-ref.html",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4927,
+                "diffRatio": 0.0058762212808182585,
+                "exactDiffPixels": 6664,
+                "exactDiffRatio": 0.007947866575070605,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0070-WPT_reftest-css-css-borders-tentative-border-radius-side-shorthands-border-radius-side-shorthands-002.html-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.1",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "generatedAt": "2026-06-15T13:22:55.026Z",
+  "labels": {
+    "actual": "v2.43.2",
+    "baseline": "v2.43.1"
+  },
+  "options": {
+    "categories": [],
+    "titleIncludes": [],
+    "files": [],
+    "limit": null,
+    "mode": "reftest-diff",
+    "browser": "chromium",
+    "outDir": "v2.43.2-vs-v2.43.1/css/css-scroll-anchoring",
+    "timeoutSec": 10,
+    "maxDiffRatio": 0.00002,
+    "pixelThreshold": 0.1,
+    "viewportWidth": 1800,
+    "viewportHeight": 1800,
+    "skipScreenshots": false,
+    "concurrency": 8,
+    "exportHtml": false,
+    "exportHtmlDiff": false,
+    "actualViewer": "https://vivliostyle.github.io/viewer/v2.43.2/",
+    "baselineViewer": "https://vivliostyle.github.io/viewer/v2.43.1/",
+    "actualLabel": "v2.43.2",
+    "baselineLabel": "v2.43.1",
+    "extraViewerParams": "",
+    "actualViewerParams": "",
+    "baselineViewerParams": "",
+    "testUrls": [],
+    "refUrls": [],
+    "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
+    "wptBaseUrl": "https://wpt.live/",
+    "wptPathPrefixes": [
+      "css/css-scroll-anchoring/"
+    ],
+    "timeoutMs": 10000
+  },
+  "summary": {
+    "totalEntries": 4,
+    "entriesWithDifferences": 0,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
+    "pageCountMismatches": 0,
+    "screenshotMismatches": 0,
+    "outcomes": {
+      "changeTypes": {
+        "pass": 4
+      },
+      "statusPairs": {
+        "PASS->PASS": 4
+      }
+    },
+    "triage": {
+      "differences": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "errors": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "pendingEntries": 0,
+      "triagedEntries": 0
+    }
+  },
+  "entries": [
+    {
+      "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical.html",
+      "file": [
+        "css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout-vertical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0002",
+      "category": "WPT reftest",
+      "title": "css/css-scroll-anchoring/nested-overflow-subtree-layout.html",
+      "file": [
+        "css/css-scroll-anchoring/nested-overflow-subtree-layout.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-scroll-anchoring/nested-overflow-subtree-layout-ref.html",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scroll-anchoring/nested-overflow-subtree-layout-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0003",
+      "category": "WPT reftest",
+      "title": "css/css-scroll-anchoring/vertical-rl-viewport-size-change-000.html",
+      "file": [
+        "css/css-scroll-anchoring/vertical-rl-viewport-size-change-000.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scroll-anchoring/vertical-rl-viewport-size-change-000.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scroll-anchoring/vertical-rl-viewport-size-change-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scroll-anchoring/vertical-rl-viewport-size-change-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0004",
+      "category": "WPT reftest",
+      "title": "css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html",
+      "file": [
+        "css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scroll-anchoring/vertical-rl-viewport-size-change-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/reference/ref-filled-green-100px-square.xht",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+- id: "0003"
+  category: WPT reftest
+  title: css/css-scrollbars/scrollbar-color-006.html
+  file: css/css-scrollbars/scrollbar-color-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/scrollbar-color-006-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/scrollbar-color-006-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/scrollbar-color-006-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/scrollbar-color-006-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0004"
+  category: WPT reftest
+  title: css/css-scrollbars/scrollbar-color-007.html
+  file: css/css-scrollbars/scrollbar-color-007.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/scrollbar-color-007-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/scrollbar-color-007-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/scrollbar-color-007-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/scrollbar-color-007-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-007-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0005"
+  category: WPT reftest
+  title: css/css-scrollbars/scrollbar-color-008.html
+  file: css/css-scrollbars/scrollbar-color-008.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/scrollbar-color-008-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/scrollbar-color-008-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/scrollbar-color-008-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/scrollbar-color-008-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-008-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0006"
+  category: WPT reftest
+  title: css/css-scrollbars/scrollbar-color-009.html
+  file: css/css-scrollbars/scrollbar-color-009.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/scrollbar-color-009-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/scrollbar-color-009-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/scrollbar-color-009-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/scrollbar-color-009-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-009-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0007"
+  category: WPT reftest
+  title: css/css-scrollbars/scrollbar-color-010.html
+  file: css/css-scrollbars/scrollbar-color-010.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/scrollbar-color-010-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/scrollbar-color-010-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/scrollbar-color-010-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/scrollbar-color-010-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-010-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0008"
+  category: WPT reftest
+  title: css/css-scrollbars/scrollbar-color-011.html
+  file: css/css-scrollbars/scrollbar-color-011.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/scrollbar-color-011-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/scrollbar-color-011-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/scrollbar-color-011-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/scrollbar-color-011-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-011-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0010"
+  category: WPT reftest
+  title: css/css-scrollbars/scrollbar-color-dynamic-1.html
+  file: css/css-scrollbars/scrollbar-color-dynamic-1.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-1-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0011"
+  category: WPT reftest
+  title: css/css-scrollbars/scrollbar-color-dynamic-2.html
+  file: css/css-scrollbars/scrollbar-color-dynamic-2.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-2-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0012"
+  category: WPT reftest
+  title: css/css-scrollbars/scrollbar-color-dynamic-3.html
+  file: css/css-scrollbars/scrollbar-color-dynamic-3.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-3-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0013"
+  category: WPT reftest
+  title: css/css-scrollbars/scrollbar-color-dynamic-4.html
+  file: css/css-scrollbars/scrollbar-color-dynamic-4.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-4-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0014"
+  category: WPT reftest
+  title: css/css-scrollbars/scrollbar-color-dynamic-5.html
+  file: css/css-scrollbars/scrollbar-color-dynamic-5.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-5-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0015"
+  category: WPT reftest
+  title: css/css-scrollbars/scrollbar-color-dynamic-6.html
+  file: css/css-scrollbars/scrollbar-color-dynamic-6.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-6-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0016"
+  category: WPT reftest
+  title: css/css-scrollbars/scrollbar-color-dynamic-7.html
+  file: css/css-scrollbars/scrollbar-color-dynamic-7.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-color-dynamic-7-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0022"
+  category: WPT reftest
+  title: css/css-scrollbars/scrollbar-width-paint-001.html
+  file: css/css-scrollbars/scrollbar-width-paint-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-001-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0025"
+  category: WPT reftest
+  title: css/css-scrollbars/scrollbar-width-paint-004.html
+  file: css/css-scrollbars/scrollbar-width-paint-004.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-004-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0027"
+  category: WPT reftest
+  title: css/css-scrollbars/scrollbar-width-paint-006.html
+  file: css/css-scrollbars/scrollbar-width-paint-006.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0030"
+  category: WPT reftest
+  title: css/css-scrollbars/viewport-scrollbar-body.html
+  file: css/css-scrollbars/viewport-scrollbar-body.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/viewport-scrollbar-body-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/viewport-scrollbar-body-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/viewport-scrollbar-body-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/viewport-scrollbar-body-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0031"
+  category: WPT reftest
+  title: css/css-scrollbars/viewport-scrollbar.html
+  file: css/css-scrollbars/viewport-scrollbar.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.43.2
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.1
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-scrollbars/viewport-scrollbar-mis-ref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-scrollbars/viewport-scrollbar-mis-ref.html
+  referenceViewerUrls:
+    - side: v2.43.2
+      referenceFile: css/css-scrollbars/viewport-scrollbar-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.2/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.1
+      referenceFile: css/css-scrollbars/viewport-scrollbar-mis-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.1/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
