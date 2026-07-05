@@ -91,3 +91,12 @@ for path in "${wpt_path_list[@]}"; do
   echo -n "- [${path}](${path}/report.html) " >> ${actual_viewer}-vs-${baseline_viewer}/README.md
   grep -h '^- Outcome summary:' ${actual_viewer}-vs-${baseline_viewer}/${path}/report.md >> ${actual_viewer}-vs-${baseline_viewer}/README.md
 done
+
+echo "# Vivliostyle.js WPT (Web Platform Tests) Results" > README.md
+echo "" >> README.md
+
+for i in *-vs-*; do
+  if [ -d "$i" ]; then
+    echo "- [${i}](${i}/)" >> README.md
+  fi
+done

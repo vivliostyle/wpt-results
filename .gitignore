@@ -5,6 +5,8 @@ baseline
 baseline-reference
 baseline-reference-diff
 diff
+report.json
+triage.yaml
 
 # VSCode settings
 .vscode/
