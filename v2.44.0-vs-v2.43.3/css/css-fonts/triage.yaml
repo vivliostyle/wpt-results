@@ -1,0 +1,2646 @@
+- id: "0001"
+  category: WPT reftest
+  title: css/css-fonts/alternates-order.html
+  file: css/css-fonts/alternates-order.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/alternates-order.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/alternates-order.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/alternates-order-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/alternates-order-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/alternates-order-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/alternates-order-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/alternates-order-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/alternates-order-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0003"
+  category: WPT reftest
+  title: css/css-fonts/downloadable-font-scoped-to-document.html
+  file: css/css-fonts/downloadable-font-scoped-to-document.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/downloadable-font-scoped-to-document-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/downloadable-font-scoped-to-document-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/downloadable-font-scoped-to-document-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/downloadable-font-scoped-to-document-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0017"
+  category: WPT reftest
+  title: css/css-fonts/font-display/font-display-feature-policy-02.tentative.html
+  file: css/css-fonts/font-display/font-display-feature-policy-02.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-display/font-display-feature-policy-02.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-display/font-display-feature-policy-02.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-display/font-display-feature-policy-02.tentative-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-display/font-display-feature-policy-02.tentative-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-display/font-display-feature-policy-02.tentative-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-display/font-display-feature-policy-02.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-display/font-display-feature-policy-02.tentative-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-display/font-display-feature-policy-02.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0018"
+  category: WPT reftest
+  title: css/css-fonts/font-display/font-display-preload.html
+  file: css/css-fonts/font-display/font-display-preload.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-display/font-display-preload.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-display/font-display-preload.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-display/font-display-preload-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-display/font-display-preload-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-display/font-display-preload-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-display/font-display-preload-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-display/font-display-preload-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-display/font-display-preload-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0019"
+  category: WPT reftest
+  title: css/css-fonts/font-display/font-display.html
+  file: css/css-fonts/font-display/font-display.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-display/font-display.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-display/font-display.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-display/font-display-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-display/font-display-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-display/font-display-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-display/font-display-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-display/font-display-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-display/font-display-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0028"
+  category: WPT reftest
+  title: css/css-fonts/font-face-unicode-range-2.html
+  file: css/css-fonts/font-face-unicode-range-2.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-face-unicode-range-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-face-unicode-range-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-face-unicode-range-2-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-face-unicode-range-2-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-face-unicode-range-2-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-face-unicode-range-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-face-unicode-range-2-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-face-unicode-range-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0033"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-000.xht
+  file: css/css-fonts/font-family-name-000.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0034"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-001.xht
+  file: css/css-fonts/font-family-name-001.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0035"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-002.xht
+  file: css/css-fonts/font-family-name-002.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0036"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-003.xht
+  file: css/css-fonts/font-family-name-003.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0037"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-004.xht
+  file: css/css-fonts/font-family-name-004.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0038"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-005.xht
+  file: css/css-fonts/font-family-name-005.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0039"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-006.xht
+  file: css/css-fonts/font-family-name-006.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0040"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-007.xht
+  file: css/css-fonts/font-family-name-007.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0041"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-008.xht
+  file: css/css-fonts/font-family-name-008.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0042"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-009.xht
+  file: css/css-fonts/font-family-name-009.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0043"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-010.xht
+  file: css/css-fonts/font-family-name-010.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0044"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-011.xht
+  file: css/css-fonts/font-family-name-011.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-011.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-011.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0045"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-012.xht
+  file: css/css-fonts/font-family-name-012.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0046"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-013.xht
+  file: css/css-fonts/font-family-name-013.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0047"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-014.xht
+  file: css/css-fonts/font-family-name-014.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0048"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-015.xht
+  file: css/css-fonts/font-family-name-015.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-015.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-015.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0054"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-021.xht
+  file: css/css-fonts/font-family-name-021.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-021.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-021.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0057"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-024.xht
+  file: css/css-fonts/font-family-name-024.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-024.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-024.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-024-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-024-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-024-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-024-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-024-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-024-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0058"
+  category: WPT reftest
+  title: css/css-fonts/font-family-name-025.html
+  file: css/css-fonts/font-family-name-025.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-family-name-025-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-family-name-025-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-family-name-025-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-family-name-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-family-name-025-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-family-name-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0059"
+  category: WPT reftest
+  title: css/css-fonts/font-feature-resolution-001.html
+  file: css/css-fonts/font-feature-resolution-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-feature-resolution-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-feature-resolution-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-feature-resolution-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-feature-resolution-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-feature-resolution-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-feature-resolution-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-feature-resolution-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-feature-resolution-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0060"
+  category: WPT reftest
+  title: css/css-fonts/font-feature-resolution-002.html
+  file: css/css-fonts/font-feature-resolution-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-feature-resolution-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-feature-resolution-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-feature-resolution-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-feature-resolution-002-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-feature-resolution-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-feature-resolution-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-feature-resolution-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-feature-resolution-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0070"
+  category: WPT reftest
+  title: css/css-fonts/font-kerning-03.html
+  file: css/css-fonts/font-kerning-03.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-kerning-03.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-kerning-03.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-kerning-03-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-kerning-03-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-kerning-03-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-kerning-03-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-kerning-03-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-kerning-03-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0077"
+  category: WPT reftest
+  title: css/css-fonts/font-palette-11.html
+  file: css/css-fonts/font-palette-11.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-11.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-11.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-palette-11-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-palette-11-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-palette-11-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-11-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-palette-11-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-11-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0078"
+  category: WPT reftest
+  title: css/css-fonts/font-palette-12.html
+  file: css/css-fonts/font-palette-12.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-12.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-12.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-palette-12-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-palette-12-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-palette-12-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-12-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-palette-12-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-12-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0079"
+  category: WPT reftest
+  title: css/css-fonts/font-palette-13.html
+  file: css/css-fonts/font-palette-13.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-13.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-13.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-palette-13-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/font-palette-13-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-palette-13-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-13-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-palette-13-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-13-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0082"
+  category: WPT reftest
+  title: css/css-fonts/font-palette-16.html
+  file: css/css-fonts/font-palette-16.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-palette-16-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/font-palette-16-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-palette-16-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-16-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-palette-16-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-16-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0083"
+  category: WPT reftest
+  title: css/css-fonts/font-palette-17.html
+  file: css/css-fonts/font-palette-17.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-17.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-17.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-palette-17-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/font-palette-17-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-palette-17-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-17-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-palette-17-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-17-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0084"
+  category: WPT reftest
+  title: css/css-fonts/font-palette-18.html
+  file: css/css-fonts/font-palette-18.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-18.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-18.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-palette-18-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/font-palette-18-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-palette-18-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-18-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-palette-18-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-18-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0085"
+  category: WPT reftest
+  title: css/css-fonts/font-palette-19.html
+  file: css/css-fonts/font-palette-19.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-19.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-19.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-palette-19-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/font-palette-19-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-palette-19-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-19-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-palette-19-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-19-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0086"
+  category: WPT reftest
+  title: css/css-fonts/font-palette-2.html
+  file: css/css-fonts/font-palette-2.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-palette-2-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-palette-2-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-palette-2-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-palette-2-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0089"
+  category: WPT reftest
+  title: css/css-fonts/font-palette-22.html
+  file: css/css-fonts/font-palette-22.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-22.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-22.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-palette-22-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/font-palette-22-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-palette-22-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-22-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-palette-22-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-22-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0113"
+  category: WPT reftest
+  title: css/css-fonts/font-palette-add.html
+  file: css/css-fonts/font-palette-add.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-add.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-add.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-palette-add-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/font-palette-add-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-palette-add-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-add-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-palette-add-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-add-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0114"
+  category: WPT reftest
+  title: css/css-fonts/font-palette-empty-font-family.html
+  file: css/css-fonts/font-palette-empty-font-family.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-empty-font-family.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-empty-font-family.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-palette-empty-font-family-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-palette-empty-font-family-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-palette-empty-font-family-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-empty-font-family-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-palette-empty-font-family-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-empty-font-family-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0116"
+  category: WPT reftest
+  title: css/css-fonts/font-palette-modify.html
+  file: css/css-fonts/font-palette-modify.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-modify.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-modify.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-palette-modify-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/font-palette-modify-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-palette-modify-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-modify-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-palette-modify-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-modify-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0119"
+  category: WPT reftest
+  title: css/css-fonts/font-palette-remove.html
+  file: css/css-fonts/font-palette-remove.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-remove.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-remove.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-palette-remove-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/font-palette-remove-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-palette-remove-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-remove-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-palette-remove-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-remove-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0121"
+  category: WPT reftest
+  title: css/css-fonts/font-palette.html
+  file: css/css-fonts/font-palette.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-palette-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-palette-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-palette-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-palette-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-palette-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-palette-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0134"
+  category: WPT reftest
+  title: css/css-fonts/font-size-adjust-ic-height.html
+  file: css/css-fonts/font-size-adjust-ic-height.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-size-adjust-ic-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-size-adjust-ic-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-size-adjust-ic-height-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-size-adjust-ic-height-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-size-adjust-ic-height-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-size-adjust-ic-height-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-size-adjust-ic-height-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-size-adjust-ic-height-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0137"
+  category: WPT reftest
+  title: css/css-fonts/font-size-adjust-reload.html
+  file: css/css-fonts/font-size-adjust-reload.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-size-adjust-reload.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-size-adjust-reload.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-size-adjust-reload-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-size-adjust-reload-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-size-adjust-reload-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-size-adjust-reload-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-size-adjust-reload-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-size-adjust-reload-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0174"
+  category: WPT reftest
+  title: css/css-fonts/font-synthesis-position-001.html
+  file: css/css-fonts/font-synthesis-position-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-synthesis-position-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-synthesis-position-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-synthesis-position-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-synthesis-position-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-synthesis-position-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-synthesis-position-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-synthesis-position-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-synthesis-position-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0176"
+  category: WPT reftest
+  title: css/css-fonts/font-synthesis-small-caps-first-line.html
+  file: css/css-fonts/font-synthesis-small-caps-first-line.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-synthesis-small-caps-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-synthesis-small-caps-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-synthesis-small-caps-first-line-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-synthesis-small-caps-first-line-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-synthesis-small-caps-first-line-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-synthesis-small-caps-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-synthesis-small-caps-first-line-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-synthesis-small-caps-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0181"
+  category: WPT reftest
+  title: css/css-fonts/font-synthesis-style-first-line.html
+  file: css/css-fonts/font-synthesis-style-first-line.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-synthesis-style-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-synthesis-style-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-synthesis-style-first-line-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-synthesis-style-first-line-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-synthesis-style-first-line-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-synthesis-style-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-synthesis-style-first-line-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-synthesis-style-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0182"
+  category: WPT reftest
+  title: css/css-fonts/font-synthesis-style-oblique-only.html
+  file: css/css-fonts/font-synthesis-style-oblique-only.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-synthesis-style-oblique-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-synthesis-style-oblique-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-synthesis-style-oblique-only-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-synthesis-style-oblique-only-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-synthesis-style-oblique-only-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-synthesis-style-oblique-only-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-synthesis-style-oblique-only-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-synthesis-style-oblique-only-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0186"
+  category: WPT reftest
+  title: css/css-fonts/font-synthesis-weight-first-line.html
+  file: css/css-fonts/font-synthesis-weight-first-line.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-synthesis-weight-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-synthesis-weight-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-synthesis-weight-first-line-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-synthesis-weight-first-line-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-synthesis-weight-first-line-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-synthesis-weight-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-synthesis-weight-first-line-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-synthesis-weight-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0195"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-03.html
+  file: css/css-fonts/font-variant-alternates-03.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-03.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-03.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-03-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-03-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-03-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-03-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-03-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-03-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0196"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-04.html
+  file: css/css-fonts/font-variant-alternates-04.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-04.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-04.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-04-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-04-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-04-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-04-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-04-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-04-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0197"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-05.html
+  file: css/css-fonts/font-variant-alternates-05.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-05.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-05.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-05-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-05-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-05-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-05-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-05-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-05-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0198"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-06.html
+  file: css/css-fonts/font-variant-alternates-06.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-06.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-06.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-06-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-06-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-06-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-06-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-06-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-06-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0199"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-07.html
+  file: css/css-fonts/font-variant-alternates-07.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-07.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-07.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-07-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-07-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-07-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-07-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-07-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-07-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0200"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-08.html
+  file: css/css-fonts/font-variant-alternates-08.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-08.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-08.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-08-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-08-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-08-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-08-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-08-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-08-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0201"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-09.html
+  file: css/css-fonts/font-variant-alternates-09.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-09.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-09.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-09-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-09-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-09-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-09-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-09-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-09-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0202"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-10.html
+  file: css/css-fonts/font-variant-alternates-10.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-10.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-10.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-10-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-10-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-10-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-10-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-10-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-10-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0203"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-11.html
+  file: css/css-fonts/font-variant-alternates-11.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-11.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-11.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-11-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-11-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-11-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-11-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-11-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-11-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0204"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-12.html
+  file: css/css-fonts/font-variant-alternates-12.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-12.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-12.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-12-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-12-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-12-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-12-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-12-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-12-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0205"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-13.html
+  file: css/css-fonts/font-variant-alternates-13.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-13.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-13.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-13-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-13-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-13-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-13-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-13-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-13-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0206"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-14.html
+  file: css/css-fonts/font-variant-alternates-14.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-14.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-14.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-14-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-14-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-14-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-14-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-14-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-14-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0207"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-15.html
+  file: css/css-fonts/font-variant-alternates-15.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-15.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-15.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-15-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-15-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-15-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-15-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-15-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-15-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0208"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-16.html
+  file: css/css-fonts/font-variant-alternates-16.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-16-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-16-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-16-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-16-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-16-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-16-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0209"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-17.html
+  file: css/css-fonts/font-variant-alternates-17.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-17.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-17.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-17-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-17-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-17-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-17-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-17-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-17-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0210"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-18.html
+  file: css/css-fonts/font-variant-alternates-18.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-18.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-18.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-18-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-18-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-18-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-18-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-18-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-18-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0211"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-19.html
+  file: css/css-fonts/font-variant-alternates-19.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-19.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-19.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-19-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-19-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-19-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-19-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-19-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-19-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0212"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-alternates-layers.html
+  file: css/css-fonts/font-variant-alternates-layers.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-layers.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-layers.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-alternates-layers-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-variant-alternates-layers-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-alternates-layers-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-alternates-layers-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-alternates-layers-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-alternates-layers-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0263"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-position-04.html
+  file: css/css-fonts/font-variant-position-04.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-position-04.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-position-04.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-position-04-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/font-variant-position-04-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-position-04-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-position-04-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-position-04-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-position-04-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0264"
+  category: WPT reftest
+  title: css/css-fonts/font-variant-position-05.html
+  file: css/css-fonts/font-variant-position-05.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-position-05.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-position-05.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-variant-position-05-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/font-variant-position-05-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-variant-position-05-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-variant-position-05-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-variant-position-05-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-variant-position-05-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0270"
+  category: WPT reftest
+  title: css/css-fonts/font-weight-bolder-001.xht
+  file: css/css-fonts/font-weight-bolder-001.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-weight-bolder-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-weight-bolder-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-weight-bolder-001-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-weight-bolder-001-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-weight-bolder-001-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-weight-bolder-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-weight-bolder-001-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-weight-bolder-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0271"
+  category: WPT reftest
+  title: css/css-fonts/font-weight-lighter-001.xht
+  file: css/css-fonts/font-weight-lighter-001.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-weight-lighter-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-weight-lighter-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-weight-lighter-001-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-weight-lighter-001-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-weight-lighter-001-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-weight-lighter-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-weight-lighter-001-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-weight-lighter-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0272"
+  category: WPT reftest
+  title: css/css-fonts/font-weight-normal-001.xht
+  file: css/css-fonts/font-weight-normal-001.xht
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-weight-normal-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-weight-normal-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/font-weight-normal-001-ref.xht
+  relation: "=="
+  diffPages:
+    - css/css-fonts/font-weight-normal-001-ref.xht#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/font-weight-normal-001-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/font-weight-normal-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/font-weight-normal-001-ref.xht
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/font-weight-normal-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0275"
+  category: WPT reftest
+  title: css/css-fonts/italic-oblique-fallback.html
+  file: css/css-fonts/italic-oblique-fallback.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/italic-oblique-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/italic-oblique-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/italic-oblique-fallback-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/italic-oblique-fallback-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/italic-oblique-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/italic-oblique-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/italic-oblique-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/italic-oblique-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0298"
+  category: WPT reftest
+  title: css/css-fonts/palette-values-rule-add.html
+  file: css/css-fonts/palette-values-rule-add.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/palette-values-rule-add.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/palette-values-rule-add.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/palette-values-rule-add-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/palette-values-rule-add-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/palette-values-rule-add-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/palette-values-rule-add-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/palette-values-rule-add-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/palette-values-rule-add-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0300"
+  category: WPT reftest
+  title: css/css-fonts/palette-values-rule-delete.html
+  file: css/css-fonts/palette-values-rule-delete.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/palette-values-rule-delete.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/palette-values-rule-delete.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/palette-values-rule-delete-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/palette-values-rule-delete-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/palette-values-rule-delete-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/palette-values-rule-delete-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/palette-values-rule-delete-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/palette-values-rule-delete-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0302"
+  category: WPT reftest
+  title: css/css-fonts/rcap-in-monospace.html
+  file: css/css-fonts/rcap-in-monospace.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/rcap-in-monospace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/rcap-in-monospace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/rcap-in-monospace-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/rcap-in-monospace-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/rcap-in-monospace-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/rcap-in-monospace-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/rcap-in-monospace-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/rcap-in-monospace-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0305"
+  category: WPT reftest
+  title: css/css-fonts/rex-in-monospace.html
+  file: css/css-fonts/rex-in-monospace.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/rex-in-monospace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/rex-in-monospace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/rex-in-monospace-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/rex-in-monospace-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/rex-in-monospace-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/rex-in-monospace-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/rex-in-monospace-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/rex-in-monospace-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0306"
+  category: WPT reftest
+  title: css/css-fonts/ric-in-monospace.html
+  file: css/css-fonts/ric-in-monospace.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/ric-in-monospace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/ric-in-monospace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/ric-in-monospace-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/ric-in-monospace-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/ric-in-monospace-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/ric-in-monospace-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/ric-in-monospace-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/ric-in-monospace-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0312"
+  category: WPT reftest
+  title: css/css-fonts/size-adjust-text-decoration.tentative.html
+  file: css/css-fonts/size-adjust-text-decoration.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/size-adjust-text-decoration.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/size-adjust-text-decoration.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/size-adjust-text-decoration-tentative-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/size-adjust-text-decoration-tentative-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/size-adjust-text-decoration-tentative-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/size-adjust-text-decoration-tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/size-adjust-text-decoration-tentative-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/size-adjust-text-decoration-tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0313"
+  category: WPT reftest
+  title: css/css-fonts/size-adjust-unicode-range-system-fallback.html
+  file: css/css-fonts/size-adjust-unicode-range-system-fallback.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/size-adjust-unicode-range-system-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/size-adjust-unicode-range-system-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/size-adjust-unicode-range-system-fallback-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/size-adjust-unicode-range-system-fallback-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/size-adjust-unicode-range-system-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/size-adjust-unicode-range-system-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/size-adjust-unicode-range-system-fallback-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/size-adjust-unicode-range-system-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0314"
+  category: WPT reftest
+  title: css/css-fonts/size-adjust.tentative.html
+  file: css/css-fonts/size-adjust.tentative.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/size-adjust.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/size-adjust.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/size-adjust-tentative-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/size-adjust-tentative-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/size-adjust-tentative-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/size-adjust-tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/size-adjust-tentative-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/size-adjust-tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0315"
+  category: WPT reftest
+  title: css/css-fonts/small-caps-letter-spacing-001.html
+  file: css/css-fonts/small-caps-letter-spacing-001.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/small-caps-letter-spacing-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/small-caps-letter-spacing-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/small-caps-letter-spacing-001-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/small-caps-letter-spacing-001-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/small-caps-letter-spacing-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/small-caps-letter-spacing-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/small-caps-letter-spacing-001-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/small-caps-letter-spacing-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0316"
+  category: WPT reftest
+  title: css/css-fonts/small-caps-letter-spacing-002.html
+  file: css/css-fonts/small-caps-letter-spacing-002.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/small-caps-letter-spacing-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/small-caps-letter-spacing-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/small-caps-letter-spacing-002-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/small-caps-letter-spacing-002-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/small-caps-letter-spacing-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/small-caps-letter-spacing-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/small-caps-letter-spacing-002-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/small-caps-letter-spacing-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0332"
+  category: WPT reftest
+  title: css/css-fonts/standard-font-family-6.html
+  file: css/css-fonts/standard-font-family-6.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/standard-font-family-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/standard-font-family-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/standard-font-family-6-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/standard-font-family-6-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/standard-font-family-6-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/standard-font-family-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/standard-font-family-6-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/standard-font-family-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0336"
+  category: WPT reftest
+  title: css/css-fonts/standard-font-family.html
+  file: css/css-fonts/standard-font-family.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/standard-font-family.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/standard-font-family.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/standard-font-family-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/standard-font-family-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/standard-font-family-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/standard-font-family-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/standard-font-family-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/standard-font-family-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0340"
+  category: WPT reftest
+  title: css/css-fonts/system-ui-ar.html
+  file: css/css-fonts/system-ui-ar.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/system-ui-ar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/system-ui-ar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/system-ui-ar-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/system-ui-ar-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/system-ui-ar-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/system-ui-ar-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/system-ui-ar-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/system-ui-ar-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0341"
+  category: WPT reftest
+  title: css/css-fonts/system-ui-ja-vs-zh.html
+  file: css/css-fonts/system-ui-ja-vs-zh.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/system-ui-ja-vs-zh.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/system-ui-ja-vs-zh.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/system-ui-zh.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/system-ui-zh.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/system-ui-zh.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/system-ui-zh.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/system-ui-zh.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/system-ui-zh.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0342"
+  category: WPT reftest
+  title: css/css-fonts/system-ui-ja.html
+  file: css/css-fonts/system-ui-ja.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/system-ui-ja.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/system-ui-ja.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/system-ui-ja-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/system-ui-ja-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/system-ui-ja-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/system-ui-ja-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/system-ui-ja-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/system-ui-ja-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0343"
+  category: WPT reftest
+  title: css/css-fonts/system-ui-mixed.html
+  file: css/css-fonts/system-ui-mixed.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/system-ui-mixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/system-ui-mixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/system-ui-mixed-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/system-ui-mixed-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/system-ui-mixed-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/system-ui-mixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/system-ui-mixed-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/system-ui-mixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0344"
+  category: WPT reftest
+  title: css/css-fonts/system-ui-ur-vs-ar.html
+  file: css/css-fonts/system-ui-ur-vs-ar.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/system-ui-ur-vs-ar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/system-ui-ur-vs-ar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/system-ui-ar.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/system-ui-ar.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/system-ui-ar.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/system-ui-ar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/system-ui-ar.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/system-ui-ar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0345"
+  category: WPT reftest
+  title: css/css-fonts/system-ui-ur.html
+  file: css/css-fonts/system-ui-ur.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/system-ui-ur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/system-ui-ur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/system-ui-ur-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/system-ui-ur-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/system-ui-ur-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/system-ui-ur-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/system-ui-ur-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/system-ui-ur-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0346"
+  category: WPT reftest
+  title: css/css-fonts/system-ui-zh.html
+  file: css/css-fonts/system-ui-zh.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/system-ui-zh.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/system-ui-zh.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/system-ui-zh-notref.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/system-ui-zh-notref.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/system-ui-zh-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/system-ui-zh-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/system-ui-zh-notref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/system-ui-zh-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0349"
+  category: WPT reftest
+  title: css/css-fonts/test-synthetic-italic-2.html
+  file: css/css-fonts/test-synthetic-italic-2.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/test-synthetic-italic-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/test-synthetic-italic-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/test-synthetic-italic-2-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/test-synthetic-italic-2-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/test-synthetic-italic-2-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/test-synthetic-italic-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/test-synthetic-italic-2-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/test-synthetic-italic-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0350"
+  category: WPT reftest
+  title: css/css-fonts/test-synthetic-italic-3.html
+  file: css/css-fonts/test-synthetic-italic-3.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/test-synthetic-italic-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/test-synthetic-italic-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/test-synthetic-italic-3-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/test-synthetic-italic-3-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/test-synthetic-italic-3-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/test-synthetic-italic-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/test-synthetic-italic-3-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/test-synthetic-italic-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0363"
+  category: WPT reftest
+  title: css/css-fonts/variations/variable-avar2-rvrn.html
+  file: css/css-fonts/variations/variable-avar2-rvrn.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/variations/variable-avar2-rvrn.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/variations/variable-avar2-rvrn.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/variations/variable-avar2-rvrn-mismatch.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/variations/variable-avar2-rvrn-mismatch.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/variations/variable-avar2-rvrn-mismatch.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/variations/variable-avar2-rvrn-mismatch.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/variations/variable-avar2-rvrn-mismatch.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/variations/variable-avar2-rvrn-mismatch.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0364"
+  category: WPT reftest
+  title: css/css-fonts/variations/variable-avar2-warp.html
+  file: css/css-fonts/variations/variable-avar2-warp.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/variations/variable-avar2-warp.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/variations/variable-avar2-warp.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/variations/variable-avar2-warp-mismatch.html
+  relation: "!="
+  unexpectedMatches:
+    - css/css-fonts/variations/variable-avar2-warp-mismatch.html
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/variations/variable-avar2-warp-mismatch.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/variations/variable-avar2-warp-mismatch.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/variations/variable-avar2-warp-mismatch.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/variations/variable-avar2-warp-mismatch.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0371"
+  category: WPT reftest
+  title: css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed.html
+  file: css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- id: "0372"
+  category: WPT print-reftest
+  title: css/css-fonts/downloadable-font-in-iframe-print.html
+  file: css/css-fonts/downloadable-font-in-iframe-print.html
+  type: difference
+  decision: ""  # regression / expected / skip
+  notes: ""
+  approvedViewer: ""  # viewer spec: git-<branch>, v2.35.0, canary, stable, URL...
+  actualLabel: v2.44.0
+  actualUrl: >-
+    https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/downloadable-font-in-iframe-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  baselineLabel: v2.43.3
+  baselineUrl: >-
+    https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/downloadable-font-in-iframe-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  referenceFile: css/css-fonts/downloadable-font-in-iframe-print-ref.html
+  relation: "=="
+  diffPages:
+    - css/css-fonts/downloadable-font-in-iframe-print-ref.html#1
+  referenceViewerUrls:
+    - side: v2.44.0
+      referenceFile: css/css-fonts/downloadable-font-in-iframe-print-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-fonts/downloadable-font-in-iframe-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+    - side: v2.43.3
+      referenceFile: css/css-fonts/downloadable-font-in-iframe-print-ref.html
+      url: >-
+        https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-fonts/downloadable-font-in-iframe-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

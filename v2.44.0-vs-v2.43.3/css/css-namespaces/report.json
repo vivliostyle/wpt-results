@@ -1,0 +1,2329 @@
+{
+  "generatedAt": "2026-07-04T15:46:08.313Z",
+  "labels": {
+    "actual": "v2.44.0",
+    "baseline": "v2.43.3"
+  },
+  "options": {
+    "categories": [],
+    "titleIncludes": [],
+    "files": [],
+    "limit": null,
+    "mode": "reftest-diff",
+    "browser": "chromium",
+    "outDir": "v2.44.0-vs-v2.43.3/css/css-namespaces",
+    "timeoutSec": 10,
+    "maxDiffRatio": 0.00002,
+    "pixelThreshold": 0.1,
+    "viewportWidth": 1800,
+    "viewportHeight": 1800,
+    "skipScreenshots": false,
+    "concurrency": 8,
+    "exportHtml": false,
+    "exportHtmlDiff": false,
+    "actualViewer": "https://vivliostyle.github.io/viewer/v2.44.0/",
+    "baselineViewer": "https://vivliostyle.github.io/viewer/v2.43.3/",
+    "actualLabel": "v2.44.0",
+    "baselineLabel": "v2.43.3",
+    "extraViewerParams": "",
+    "actualViewerParams": "",
+    "baselineViewerParams": "",
+    "testUrls": [],
+    "refUrls": [],
+    "wptManifestPath": "../vivliostyle.js/artifacts/wpt-reftest/MANIFEST.json",
+    "wptBaseUrl": "https://wpt.live/",
+    "wptPathPrefixes": [
+      "css/css-namespaces/"
+    ],
+    "timeoutMs": 10000
+  },
+  "summary": {
+    "totalEntries": 23,
+    "entriesWithDifferences": 18,
+    "entriesWithErrors": 0,
+    "timeoutEntries": 0,
+    "pageCountMismatches": 0,
+    "screenshotMismatches": 0,
+    "outcomes": {
+      "changeTypes": {
+        "known-fail": 18,
+        "pass": 5
+      },
+      "statusPairs": {
+        "FAIL->FAIL": 18,
+        "PASS->PASS": 5
+      }
+    },
+    "triage": {
+      "differences": {
+        "pending": 18,
+        "triaged": 0
+      },
+      "errors": {
+        "pending": 0,
+        "triaged": 0
+      },
+      "pendingEntries": 18,
+      "triagedEntries": 0
+    }
+  },
+  "entries": [
+    {
+      "id": "0001",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/prefix-001.xml",
+      "file": [
+        "css/css-namespaces/prefix-001.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/prefix-001.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/prefix-001.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/prefix-001.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4025,
+                "diffRatio": 0.004800444622547897,
+                "exactDiffPixels": 5133,
+                "exactDiffRatio": 0.006121908632928784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0001-WPT_reftest-css-css-namespaces-prefix-001.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4025,
+                "diffRatio": 0.004800444622547897,
+                "exactDiffPixels": 5133,
+                "exactDiffRatio": 0.006121908632928784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0001-WPT_reftest-css-css-namespaces-prefix-001.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0002",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/prefix-002.xml",
+      "file": [
+        "css/css-namespaces/prefix-002.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/prefix-002.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/prefix-002.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/prefix-002.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4025,
+                "diffRatio": 0.004800444622547897,
+                "exactDiffPixels": 5133,
+                "exactDiffRatio": 0.006121908632928784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0002-WPT_reftest-css-css-namespaces-prefix-002.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4025,
+                "diffRatio": 0.004800444622547897,
+                "exactDiffPixels": 5133,
+                "exactDiffRatio": 0.006121908632928784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0002-WPT_reftest-css-css-namespaces-prefix-002.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0003",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/prefix-003.xml",
+      "file": [
+        "css/css-namespaces/prefix-003.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/prefix-003.xml",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/prefix-003.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/prefix-003.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-1-generic.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1-generic.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1-generic.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0004",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/prefix-004.xml",
+      "file": [
+        "css/css-namespaces/prefix-004.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/prefix-004.xml",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/prefix-004.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/prefix-004.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-2-generic.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2-generic.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2-generic.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0005",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/prefix-005.xml",
+      "file": [
+        "css/css-namespaces/prefix-005.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/prefix-005.xml",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/prefix-005.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/prefix-005.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-2-generic.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2-generic.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2-generic.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0006",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/prefix-006.xml",
+      "file": [
+        "css/css-namespaces/prefix-006.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/prefix-006.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/prefix-006.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/prefix-006.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-2.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-2.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 8050,
+                "diffRatio": 0.009600889245095794,
+                "exactDiffPixels": 10266,
+                "exactDiffRatio": 0.012243817265857567,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0006-WPT_reftest-css-css-namespaces-prefix-006.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-2.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 8050,
+                "diffRatio": 0.009600889245095794,
+                "exactDiffPixels": 10266,
+                "exactDiffRatio": 0.012243817265857567,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0006-WPT_reftest-css-css-namespaces-prefix-006.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0007",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/scope-001.xml",
+      "file": [
+        "css/css-namespaces/scope-001.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/scope-001.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/scope-001.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/scope-001.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4025,
+                "diffRatio": 0.004800444622547897,
+                "exactDiffPixels": 5133,
+                "exactDiffRatio": 0.006121908632928784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0007-WPT_reftest-css-css-namespaces-scope-001.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4025,
+                "diffRatio": 0.004800444622547897,
+                "exactDiffPixels": 5133,
+                "exactDiffRatio": 0.006121908632928784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0007-WPT_reftest-css-css-namespaces-scope-001.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0008",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/scope-002.xml",
+      "file": [
+        "css/css-namespaces/scope-002.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/scope-002.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/scope-002.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/scope-002.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4025,
+                "diffRatio": 0.004800444622547897,
+                "exactDiffPixels": 5133,
+                "exactDiffRatio": 0.006121908632928784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0008-WPT_reftest-css-css-namespaces-scope-002.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4025,
+                "diffRatio": 0.004800444622547897,
+                "exactDiffPixels": 5133,
+                "exactDiffRatio": 0.006121908632928784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0008-WPT_reftest-css-css-namespaces-scope-002.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0009",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/syntax-001.xml",
+      "file": [
+        "css/css-namespaces/syntax-001.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/syntax-001.xml",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/syntax-001.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/syntax-001.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-1-block.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1-block.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1-block.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0010",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/syntax-002.xml",
+      "file": [
+        "css/css-namespaces/syntax-002.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/syntax-002.xml",
+      "actualStatus": "PASS",
+      "baselineStatus": "PASS",
+      "changeType": "pass",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/syntax-002.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/syntax-002.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-1-block.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1-block.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1-block.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ]
+    },
+    {
+      "id": "0011",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/syntax-003.xml",
+      "file": [
+        "css/css-namespaces/syntax-003.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/syntax-003.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/syntax-003.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/syntax-003.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-5.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-5.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 20125,
+                "diffRatio": 0.024002223112739484,
+                "exactDiffPixels": 25665,
+                "exactDiffRatio": 0.03060954316464392,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0011-WPT_reftest-css-css-namespaces-syntax-003.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-5.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 20125,
+                "diffRatio": 0.024002223112739484,
+                "exactDiffPixels": 25665,
+                "exactDiffRatio": 0.03060954316464392,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0011-WPT_reftest-css-css-namespaces-syntax-003.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0012",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/syntax-004.xml",
+      "file": [
+        "css/css-namespaces/syntax-004.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/syntax-004.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/syntax-004.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/syntax-004.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4025,
+                "diffRatio": 0.004800444622547897,
+                "exactDiffPixels": 5133,
+                "exactDiffRatio": 0.006121908632928784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0012-WPT_reftest-css-css-namespaces-syntax-004.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4025,
+                "diffRatio": 0.004800444622547897,
+                "exactDiffPixels": 5133,
+                "exactDiffRatio": 0.006121908632928784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0012-WPT_reftest-css-css-namespaces-syntax-004.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0013",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/syntax-005.xml",
+      "file": [
+        "css/css-namespaces/syntax-005.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/syntax-005.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/syntax-005.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/syntax-005.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-5.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-5.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 20125,
+                "diffRatio": 0.024002223112739484,
+                "exactDiffPixels": 25665,
+                "exactDiffRatio": 0.03060954316464392,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0013-WPT_reftest-css-css-namespaces-syntax-005.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-5.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 20125,
+                "diffRatio": 0.024002223112739484,
+                "exactDiffPixels": 25665,
+                "exactDiffRatio": 0.03060954316464392,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0013-WPT_reftest-css-css-namespaces-syntax-005.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0014",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/syntax-006.xml",
+      "file": [
+        "css/css-namespaces/syntax-006.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/syntax-006.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/syntax-006.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/syntax-006.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 535409,
+                "diffRatio": 0.6385593179909931,
+                "exactDiffPixels": 536481,
+                "exactDiffRatio": 0.6398378463476071,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0014-WPT_reftest-css-css-namespaces-syntax-006.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 535409,
+                "diffRatio": 0.6385593179909931,
+                "exactDiffPixels": 536481,
+                "exactDiffRatio": 0.6398378463476071,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0014-WPT_reftest-css-css-namespaces-syntax-006.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0015",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/syntax-007.xml",
+      "file": [
+        "css/css-namespaces/syntax-007.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/syntax-007.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/syntax-007.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/syntax-007.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4025,
+                "diffRatio": 0.004800444622547897,
+                "exactDiffPixels": 5133,
+                "exactDiffRatio": 0.006121908632928784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0015-WPT_reftest-css-css-namespaces-syntax-007.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4025,
+                "diffRatio": 0.004800444622547897,
+                "exactDiffPixels": 5133,
+                "exactDiffRatio": 0.006121908632928784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0015-WPT_reftest-css-css-namespaces-syntax-007.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0016",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/syntax-008.xml",
+      "file": [
+        "css/css-namespaces/syntax-008.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/syntax-008.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/syntax-008.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/syntax-008.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-2.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-2.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 8050,
+                "diffRatio": 0.009600889245095794,
+                "exactDiffPixels": 10266,
+                "exactDiffRatio": 0.012243817265857567,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0016-WPT_reftest-css-css-namespaces-syntax-008.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-2.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 8050,
+                "diffRatio": 0.009600889245095794,
+                "exactDiffPixels": 10266,
+                "exactDiffRatio": 0.012243817265857567,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0016-WPT_reftest-css-css-namespaces-syntax-008.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-2.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0017",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/syntax-009.xml",
+      "file": [
+        "css/css-namespaces/syntax-009.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/syntax-009.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/syntax-009.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/syntax-009.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4025,
+                "diffRatio": 0.004800444622547897,
+                "exactDiffPixels": 5133,
+                "exactDiffRatio": 0.006121908632928784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0017-WPT_reftest-css-css-namespaces-syntax-009.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4025,
+                "diffRatio": 0.004800444622547897,
+                "exactDiffPixels": 5133,
+                "exactDiffRatio": 0.006121908632928784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0017-WPT_reftest-css-css-namespaces-syntax-009.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0018",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/syntax-010.xml",
+      "file": [
+        "css/css-namespaces/syntax-010.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/syntax-010.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/syntax-010.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/syntax-010.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-3.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-3.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 12075,
+                "diffRatio": 0.014401333867643692,
+                "exactDiffPixels": 15399,
+                "exactDiffRatio": 0.018365725898786354,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0018-WPT_reftest-css-css-namespaces-syntax-010.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-3.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 12075,
+                "diffRatio": 0.014401333867643692,
+                "exactDiffPixels": 15399,
+                "exactDiffRatio": 0.018365725898786354,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0018-WPT_reftest-css-css-namespaces-syntax-010.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0019",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/syntax-011.xml",
+      "file": [
+        "css/css-namespaces/syntax-011.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/syntax-011.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/syntax-011.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/syntax-011.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-6.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-6.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-6.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-6.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-6.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 24150,
+                "diffRatio": 0.028802667735287384,
+                "exactDiffPixels": 30798,
+                "exactDiffRatio": 0.03673145179757271,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0019-WPT_reftest-css-css-namespaces-syntax-011.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-6.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-6.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-6.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 24150,
+                "diffRatio": 0.028802667735287384,
+                "exactDiffPixels": 30798,
+                "exactDiffRatio": 0.03673145179757271,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0019-WPT_reftest-css-css-namespaces-syntax-011.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-6.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0020",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/syntax-012.xml",
+      "file": [
+        "css/css-namespaces/syntax-012.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/syntax-012.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/syntax-012.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/syntax-012.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-3.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-3.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 12075,
+                "diffRatio": 0.014401333867643692,
+                "exactDiffPixels": 15399,
+                "exactDiffRatio": 0.018365725898786354,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0020-WPT_reftest-css-css-namespaces-syntax-012.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-3.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 12075,
+                "diffRatio": 0.014401333867643692,
+                "exactDiffPixels": 15399,
+                "exactDiffRatio": 0.018365725898786354,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0020-WPT_reftest-css-css-namespaces-syntax-012.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0021",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/syntax-013.xml",
+      "file": [
+        "css/css-namespaces/syntax-013.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/syntax-013.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/syntax-013.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/syntax-013.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-5.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-5.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 12112,
+                "diffRatio": 0.01444546217845966,
+                "exactDiffPixels": 15399,
+                "exactDiffRatio": 0.018365725898786354,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0021-WPT_reftest-css-css-namespaces-syntax-013.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-5.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 12112,
+                "diffRatio": 0.01444546217845966,
+                "exactDiffPixels": 15399,
+                "exactDiffRatio": 0.018365725898786354,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0021-WPT_reftest-css-css-namespaces-syntax-013.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-5.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0022",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/syntax-014.xml",
+      "file": [
+        "css/css-namespaces/syntax-014.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/syntax-014.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/syntax-014.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/syntax-014.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-3.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-3.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 12075,
+                "diffRatio": 0.014401333867643692,
+                "exactDiffPixels": 15399,
+                "exactDiffRatio": 0.018365725898786354,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0022-WPT_reftest-css-css-namespaces-syntax-014.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-3.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 12075,
+                "diffRatio": 0.014401333867643692,
+                "exactDiffPixels": 15399,
+                "exactDiffRatio": 0.018365725898786354,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0022-WPT_reftest-css-css-namespaces-syntax-014.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-3.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    },
+    {
+      "id": "0023",
+      "category": "WPT reftest",
+      "title": "css/css-namespaces/syntax-015.xml",
+      "file": [
+        "css/css-namespaces/syntax-015.xml"
+      ],
+      "sourceUrl": "https://wpt.live/css/css-namespaces/syntax-015.xml",
+      "actualStatus": "FAIL",
+      "baselineStatus": "FAIL",
+      "changeType": "known-fail",
+      "viewerChanged": false,
+      "actualUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/syntax-015.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/syntax-015.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+      "references": [
+        {
+          "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+          "relation": "==",
+          "actualReferenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+          "baselineReferenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+        }
+      ],
+      "difference": {
+        "classification": "known-fail",
+        "triageRequired": true,
+        "pageCountMismatch": false,
+        "actual": {
+          "totalPages": 1
+        },
+        "baseline": {
+          "totalPages": 1
+        },
+        "pages": [],
+        "comparisons": [
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4025,
+                "diffRatio": 0.004800444622547897,
+                "exactDiffPixels": 5133,
+                "exactDiffRatio": 0.006121908632928784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "actual-reference-diff/0023-WPT_reftest-css-css-namespaces-syntax-015.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.44.0",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.44.0/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          },
+          {
+            "referenceIndex": 0,
+            "referenceFile": "css/css-namespaces/reference/ref-lime-1.xml",
+            "referenceUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false",
+            "referenceTotalPages": 1,
+            "testTotalPages": 1,
+            "relation": "==",
+            "fuzzy": null,
+            "actualPageNumbers": [
+              1
+            ],
+            "baselinePageNumbers": [
+              1
+            ],
+            "pageCountMismatch": false,
+            "pages": [
+              {
+                "page": 1,
+                "actualPage": 1,
+                "baselinePage": 1,
+                "width": 794,
+                "height": 1056,
+                "actualWidth": 794,
+                "actualHeight": 1056,
+                "diffPixels": 4025,
+                "diffRatio": 0.004800444622547897,
+                "exactDiffPixels": 5133,
+                "exactDiffRatio": 0.006121908632928784,
+                "exceededDiffPixels": 0,
+                "maxChannelDifference": 255,
+                "dimensionMismatch": false,
+                "diffImage": "baseline-reference-diff/0023-WPT_reftest-css-css-namespaces-syntax-015.xml-r01-p0001.png"
+              }
+            ],
+            "unexpectedEquality": false,
+            "pass": false,
+            "side": "v2.43.3",
+            "baselineUrl": "https://vivliostyle.github.io/viewer/v2.43.3/#src=https://wpt.live/css/css-namespaces/reference/ref-lime-1.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false"
+          }
+        ],
+        "triage": {
+          "status": "pending",
+          "decision": ""
+        }
+      }
+    }
+  ]
+}
