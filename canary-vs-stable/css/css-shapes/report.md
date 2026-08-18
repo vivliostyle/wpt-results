@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 231
-- Entries with differences: 169 (pending: 169, triaged: 0)
+- Compared entries: 232
+- Entries with differences: 169 (improvement: 1, pending: 168, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":62,"known-fail":169}
+- Screenshot mismatches: 3
+- Outcome summary: {"pass":63,"known-fail":166,"regression":1,"changed-fail":1,"improvement":1}
 
 ## Differences
 
@@ -753,29 +753,12 @@
 
 - [0075] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-006.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: regression (baseline=PASS, actual=FAIL)
   reference: css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.009181073963819555, diffPixels=7698
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.009181073963819555, diffPixels=7698
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0076] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-007.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-shapes/shape-outside/shape-image/reference/shape-image-007-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009181073963819555, diffPixels=7698
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.009181073963819555, diffPixels=7698
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0081] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-012.html
   triage: pending
@@ -948,11 +931,11 @@
 
 - [0094] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-025.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/shape-image/reference/shape-image-025-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011568773376078163, diffPixels=9700
+  canary page 1: diffRatio=0.00011568773376078162, diffPixels=97
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -973,13 +956,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0096] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-027.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00679575986565911, diffPixels=5698
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00679575986565911, diffPixels=5698
@@ -1830,7 +1809,20 @@
   stable page 1: diffRatio=0.019737281505228608, diffPixels=16549
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/ellipse/reference/shape-outside-ellipse-051-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0174] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-010.html
+- [0174] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/ellipse/shape-outside-ellipse-054.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-shapes/shape-outside/supported-shapes/ellipse/reference/shape-outside-ellipse-054-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/ellipse/shape-outside-ellipse-054.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.008801809022212045, diffPixels=7380
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/ellipse/reference/shape-outside-ellipse-054-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/ellipse/shape-outside-ellipse-054.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.008801809022212045, diffPixels=7380
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/ellipse/reference/shape-outside-ellipse-054-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0175] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-010-ref.html (==)
@@ -1843,7 +1835,7 @@
   stable page 1: diffRatio=0.07132089153499732, diffPixels=59800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0175] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-011.html
+- [0176] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-010-ref.html (==)
@@ -1856,7 +1848,7 @@
   stable page 1: diffRatio=0.07132089153499732, diffPixels=59800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0176] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-012.html
+- [0177] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-010-ref.html (==)
@@ -1869,7 +1861,7 @@
   stable page 1: diffRatio=0.07132089153499732, diffPixels=59800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0177] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-013.html
+- [0178] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-013.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-010-ref.html (==)
@@ -1882,7 +1874,7 @@
   stable page 1: diffRatio=0.07132089153499732, diffPixels=59800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0178] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-014.html
+- [0179] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-014.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-010-ref.html (==)
@@ -1895,7 +1887,7 @@
   stable page 1: diffRatio=0.07132089153499732, diffPixels=59800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0179] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-015.html
+- [0180] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-015.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-010-ref.html (==)
@@ -1908,7 +1900,7 @@
   stable page 1: diffRatio=0.07132089153499732, diffPixels=59800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0180] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-016.html
+- [0181] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-016.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-016-ref.html (==)
@@ -1921,7 +1913,7 @@
   stable page 1: diffRatio=0.04961453324173727, diffPixels=41600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0181] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-017.html
+- [0182] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-017.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-017-ref.html (==)
@@ -1934,7 +1926,7 @@
   stable page 1: diffRatio=0.04961453324173727, diffPixels=41600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0182] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-020.html
+- [0183] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-020.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-020-ref.html (==)
@@ -1947,7 +1939,7 @@
   stable page 1: diffRatio=0.03244027173498206, diffPixels=27200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0183] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-021.html
+- [0184] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-021.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-021-ref.html (==)
@@ -1960,7 +1952,7 @@
   stable page 1: diffRatio=0.03244027173498206, diffPixels=27200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0186] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-024.html
+- [0187] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-024.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-024-ref.html (==)
@@ -1973,7 +1965,7 @@
   stable page 1: diffRatio=0.04805334516449126, diffPixels=40291
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0187] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-025.html
+- [0188] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-025.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-025-ref.html (==)
@@ -1986,7 +1978,7 @@
   stable page 1: diffRatio=0.02702203076101061, diffPixels=22657
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0188] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-026.html
+- [0189] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-026.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-026-ref.html (==)
@@ -1999,7 +1991,7 @@
   stable page 1: diffRatio=0.04793765743073048, diffPixels=40194
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0189] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-027.html
+- [0190] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-027.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-027-ref.html (==)
@@ -2012,7 +2004,7 @@
   stable page 1: diffRatio=0.028919548126097244, diffPixels=24248
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0190] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-028.html
+- [0191] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-028.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-010-ref.html (==)
@@ -2025,7 +2017,7 @@
   stable page 1: diffRatio=0.07132089153499732, diffPixels=59800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0191] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-029.html
+- [0192] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-029.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-010-ref.html (==)
@@ -2038,7 +2030,7 @@
   stable page 1: diffRatio=0.07132089153499732, diffPixels=59800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/inset/reference/shape-outside-inset-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0195] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/path/shape-outside-path-000.html
+- [0196] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/path/shape-outside-path-000.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/path/reference/shape-outside-path-000-ref.html (==)
@@ -2051,7 +2043,7 @@
   stable page 1: diffRatio=0.04770508930615983, diffPixels=39999
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/path/reference/shape-outside-path-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0196] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/path/shape-outside-path-001.html
+- [0197] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/path/shape-outside-path-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/path/reference/shape-outside-path-000-ref.html (==)
@@ -2064,7 +2056,7 @@
   stable page 1: diffRatio=0.04770508930615983, diffPixels=39999
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/path/reference/shape-outside-path-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0197] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/path/shape-outside-path-002.html
+- [0198] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/path/shape-outside-path-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/path/reference/shape-outside-path-002-ref.html (==)
@@ -2077,7 +2069,7 @@
   stable page 1: diffRatio=0.04758701625830089, diffPixels=39900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/path/reference/shape-outside-path-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0210] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/polygon/shape-outside-polygon-018.html
+- [0211] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/polygon/shape-outside-polygon-018.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/polygon/reference/shape-outside-polygon-018-ref.html (==)
@@ -2090,7 +2082,7 @@
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/polygon/reference/shape-outside-polygon-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0211] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/polygon/shape-outside-polygon-019.html
+- [0212] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/polygon/shape-outside-polygon-019.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/polygon/reference/shape-outside-polygon-019-ref.html (==)
@@ -2103,7 +2095,7 @@
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/polygon/reference/shape-outside-polygon-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0214] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/polygon/shape-outside-polygon-022.html
+- [0215] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/polygon/shape-outside-polygon-022.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/polygon/reference/shape-outside-polygon-022-ref.html (==)
@@ -2116,7 +2108,7 @@
   stable page 1: diffRatio=0.05142498664224105, diffPixels=43118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/polygon/reference/shape-outside-polygon-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0215] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/polygon/shape-outside-polygon-023.html
+- [0216] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/polygon/shape-outside-polygon-023.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/polygon/reference/shape-outside-polygon-023-ref.html (==)
@@ -2129,7 +2121,7 @@
   stable page 1: diffRatio=0.047610869399282496, diffPixels=39920
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/polygon/reference/shape-outside-polygon-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0216] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/polygon/shape-outside-polygon-024.html
+- [0217] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/polygon/shape-outside-polygon-024.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/polygon/reference/shape-outside-polygon-024-ref.html (==)
@@ -2142,7 +2134,7 @@
   stable page 1: diffRatio=0.05049709945805664, diffPixels=42340
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/polygon/reference/shape-outside-polygon-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0217] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/polygon/shape-outside-polygon-025.html
+- [0218] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/polygon/shape-outside-polygon-025.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/polygon/reference/shape-outside-polygon-025-ref.html (==)
@@ -2155,7 +2147,7 @@
   stable page 1: diffRatio=0.0476347225402641, diffPixels=39940
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/polygon/reference/shape-outside-polygon-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0219] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/shape/shape-outside-shape-000.html
+- [0220] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/shape/shape-outside-shape-000.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/shape/reference/shape-outside-shape-000-ref.html (==)
@@ -2168,7 +2160,7 @@
   stable page 1: diffRatio=0.04770508930615983, diffPixels=39999
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/shape/reference/shape-outside-shape-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0220] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/shape/shape-outside-shape-001.html
+- [0221] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/shape/shape-outside-shape-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/shape/reference/shape-outside-shape-000-ref.html (==)
@@ -2181,7 +2173,7 @@
   stable page 1: diffRatio=0.04770508930615983, diffPixels=39999
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/shape/reference/shape-outside-shape-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0221] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/shape/shape-outside-shape-002.html
+- [0222] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/shape/shape-outside-shape-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/supported-shapes/shape/reference/shape-outside-shape-002-ref.html (==)
@@ -2194,7 +2186,7 @@
   stable page 1: diffRatio=0.04758701625830089, diffPixels=39900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/shape/reference/shape-outside-shape-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0223] [WPT reftest] css/css-shapes/shape-outside/values/shape-outside-inset-0010.html
+- [0224] [WPT reftest] css/css-shapes/shape-outside/values/shape-outside-inset-0010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)

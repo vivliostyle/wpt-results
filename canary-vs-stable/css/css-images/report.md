@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 460
-- Entries with differences: 140 (pending: 140, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
+- Entries with differences: 141 (pending: 141, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":320,"known-fail":140}
+- Outcome summary: {"pass":319,"known-fail":140,"regression":1}
 
 ## Differences
 
@@ -465,6 +465,15 @@
   stable page 1: diffRatio=0.02232773261583085, diffPixels=18721
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/reference/image-orientation-none-cross-origin-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0148] [WPT reftest] css/css-images/image-orientation/svg-image-orientation.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-images/image-orientation/reference/svg-image-orientation-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/svg-image-orientation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.011909873292115106, diffPixels=9986
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/reference/svg-image-orientation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0152] [WPT reftest] css/css-images/image-set/image-set-calc-x-rendering-2.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -870,16 +879,12 @@
 
 - [0270] [WPT reftest] css/css-images/object-fit-cover-svg-002o.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-images/object-fit-cover-svg-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-cover-svg-002o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.006965117166628502, diffPixels=5840
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-cover-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-002o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.006965117166628502, diffPixels=5840
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0272] [WPT reftest] css/css-images/object-fit-cover-svg-003e.html
   triage: pending
@@ -1829,4 +1834,14 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-writing-mode-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.053669567208610026, diffPixels=45000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-writing-mode-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0270] [WPT reftest] css/css-images/object-fit-cover-svg-002o.html
+  triage: pending
+  side: stable
+  timeout: false
+  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-images/object-fit-cover-svg-002o.html (503)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-cover-svg-002o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-002o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

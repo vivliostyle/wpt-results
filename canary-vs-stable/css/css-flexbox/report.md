@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1021
-- Entries with differences: 111 (pending: 111, triaged: 0)
+- Entries with differences: 109 (pending: 109, triaged: 0)
 - Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":888,"known-fail":110,"error":1,"regression":1,"unchanged":21}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":890,"known-fail":109,"error":1,"unchanged":21}
 
 ## Differences
 
@@ -1312,19 +1312,6 @@
   stable page 1: diffRatio=0.02380424204259217, diffPixels=19959
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/gap-collapse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0841] [WPT reftest] css/css-flexbox/image-items-flake-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/image-items-flake-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01139703076101061, diffPixels=9556
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/image-items-flake-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01139703076101061, diffPixels=9556
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0863] [WPT reftest] css/css-flexbox/intrinsic-size/row-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -1376,15 +1363,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/multiline-shrink-to-fit.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.003391916647584154, diffPixels=2844
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/reference/multiline-shrink-to-fit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0924] [WPT reftest] css/css-flexbox/percentage-max-height-004.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-flexbox/percentage-max-height-004-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/percentage-max-height-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012066111365544615, diffPixels=10117
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/percentage-max-height-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0931] [WPT reftest] css/css-flexbox/percentage-size-subitems-001.html
   triage: pending

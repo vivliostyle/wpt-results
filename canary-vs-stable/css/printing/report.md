@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 29
+- Compared entries: 31
 - Entries with differences: 6 (pending: 6, triaged: 0)
 - Entries with errors: 2 (pending: 2, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":21,"known-fail":6,"error":2}
+- Outcome summary: {"pass":23,"known-fail":6,"error":2}
 
 ## Differences
 
@@ -49,7 +49,7 @@
   stable page 1: diffRatio=0.0002671551789939699, diffPixels=224
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/transition-in-media-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0020] [WPT print-reftest] css/printing/paused-animations-print.html
+- [0021] [WPT print-reftest] css/printing/paused-animations-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/printing/paused-animations-print-ref.html (==)
@@ -62,7 +62,7 @@
   stable page 1: diffRatio=0.0006810071750248072, diffPixels=571
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/paused-animations-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0021] [WPT print-reftest] css/printing/pseudo-animations-print.html
+- [0022] [WPT print-reftest] css/printing/pseudo-animations-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/printing/pseudo-animations-print-ref.html (==)
@@ -75,7 +75,7 @@
   stable page 1: diffRatio=0.001006602549423708, diffPixels=844
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/pseudo-animations-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0025] [WPT print-reftest] css/printing/table-overflow-quirks-frameset-crash-print.html
+- [0026] [WPT print-reftest] css/printing/table-overflow-quirks-frameset-crash-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/blank.html (!=)
@@ -92,13 +92,15 @@
 
 - [0010] [WPT print-reftest] css/printing/fixed-pos-object-pdf-crash-print.html
   triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0029] [WPT print-reftest] css/printing/zero-size-003-print.tentative.html
+- [0031] [WPT print-reftest] css/printing/zero-size-003-print.tentative.html
   triage: pending
   side: canary, stable
   canary timeout: false

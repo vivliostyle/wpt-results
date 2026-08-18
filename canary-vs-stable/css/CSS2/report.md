@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 6822
-- Entries with differences: 1025 (improvement: 5, pending: 1020, triaged: 0)
-- Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 3
+- Compared entries: 6824
+- Entries with differences: 1024 (improvement: 8, pending: 1016, triaged: 0)
+- Entries with errors: 4 (pending: 4, triaged: 0)
+- Timeout entries: 4
 - Page count changed: 0
-- Screenshot mismatches: 6
-- Outcome summary: {"known-fail":1019,"pass":5237,"error":3,"improvement":5,"unchanged":557,"changed":1}
+- Screenshot mismatches: 8
+- Outcome summary: {"known-fail":1015,"pass":5238,"error":4,"improvement":8,"changed-fail":1,"unchanged":558}
 
 ## Differences
 
@@ -8665,26 +8665,18 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/no-red-filler-text-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4902] [WPT reftest] css/CSS2/selectors/pseudo-002.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/pseudo-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00013954087474238607, diffPixels=117
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/pseudo-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00013954087474238607, diffPixels=117
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4903] [WPT reftest] css/CSS2/selectors/pseudo-006.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-selector-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/pseudo-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000017889855736203345, diffPixels=15
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-selector-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/pseudo-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000017889855736203345, diffPixels=15
@@ -8704,13 +8696,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/universal-selector-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4905] [WPT reftest] css/CSS2/selectors/pseudo-008.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/pseudo-008-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/pseudo-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001562380734295092, diffPixels=131
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/pseudo-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/pseudo-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
@@ -9300,11 +9288,11 @@
 
 - [5029] [WPT reftest] css/CSS2/syntax/case-sensitive-003.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/case-sensitive-003-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/case-sensitive-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0029279730554919474, diffPixels=2455
+  canary page 1: diffRatio=0.0009732081520494619, diffPixels=816
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/case-sensitive-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/case-sensitive-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -12939,7 +12927,7 @@
   stable page 1: diffRatio=0.00045559499274864515, diffPixels=382
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visufx/support/overflow-propagation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6165] [WPT reftest] css/CSS2/visuren/inline-formatting-context-001.xht
+- [6167] [WPT reftest] css/CSS2/visuren/inline-formatting-context-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visuren/inline-formatting-context-001-ref.xht (==)
@@ -12952,7 +12940,7 @@
   stable page 1: diffRatio=0.0001777059003129532, diffPixels=149
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visuren/inline-formatting-context-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6171] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-1.html
+- [6173] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-1.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visuren/remove-from-split-inline-1-ref.html (==)
@@ -12965,7 +12953,7 @@
   stable page 1: diffRatio=0.0002826597206320128, diffPixels=237
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visuren/remove-from-split-inline-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6172] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-2.html
+- [6174] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-2.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visuren/remove-from-split-inline-2-ref.html (==)
@@ -12978,7 +12966,7 @@
   stable page 1: diffRatio=0.0008479791618960385, diffPixels=711
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visuren/remove-from-split-inline-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6174] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-3.html
+- [6176] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-3.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visuren/remove-from-split-inline-3-ref.html (==)
@@ -12991,7 +12979,7 @@
   stable page 1: diffRatio=0.00048660407602473096, diffPixels=408
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visuren/remove-from-split-inline-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6176] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-4.html
+- [6178] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-4.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visuren/remove-from-split-inline-4-ref.html (==)
@@ -13004,7 +12992,7 @@
   stable page 1: diffRatio=0.0011377948248225327, diffPixels=954
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visuren/remove-from-split-inline-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6178] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-5.html
+- [6180] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-5.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visuren/remove-from-split-inline-5-ref.html (==)
@@ -13017,7 +13005,7 @@
   stable page 1: diffRatio=0.0008145847645217923, diffPixels=683
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visuren/remove-from-split-inline-5-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6180] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-6.html
+- [6182] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-6.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visuren/remove-from-split-inline-6-ref.html (==)
@@ -13030,7 +13018,7 @@
   stable page 1: diffRatio=0.000834859934356156, diffPixels=700
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visuren/remove-from-split-inline-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6181] [WPT reftest] css/CSS2/visuren/remove-split-inline-1.html
+- [6183] [WPT reftest] css/CSS2/visuren/remove-split-inline-1.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visuren/remove-split-inline-1-ref.html (==)
@@ -13043,7 +13031,7 @@
   stable page 1: diffRatio=0.00032678803144798105, diffPixels=274
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visuren/remove-split-inline-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6190] [WPT reftest] css/CSS2/zindex/stack-floats-001.xht
+- [6192] [WPT reftest] css/CSS2/zindex/stack-floats-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/zindex/stack-floats-001-ref.xht (==)
@@ -13056,7 +13044,7 @@
   stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/zindex/stack-floats-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6191] [WPT reftest] css/CSS2/zindex/stack-floats-002.xht
+- [6193] [WPT reftest] css/CSS2/zindex/stack-floats-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/zindex/stack-floats-001-ref.xht (==)
@@ -13069,7 +13057,7 @@
   stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/zindex/stack-floats-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6192] [WPT reftest] css/CSS2/zindex/stack-floats-003.xht
+- [6194] [WPT reftest] css/CSS2/zindex/stack-floats-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/zindex/stack-floats-001-ref.xht (==)
@@ -13082,7 +13070,7 @@
   stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/zindex/stack-floats-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6193] [WPT reftest] css/CSS2/zindex/stack-floats-004.xht
+- [6195] [WPT reftest] css/CSS2/zindex/stack-floats-004.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/zindex/stack-floats-001-ref.xht (==)
@@ -13095,7 +13083,7 @@
   stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/zindex/stack-floats-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6209] [WPT reftest] css/CSS2/zindex/z-index-016.xht
+- [6211] [WPT reftest] css/CSS2/zindex/z-index-016.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-filled-green-100px-square.xht (==)
@@ -13108,7 +13096,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6213] [WPT reftest] css/CSS2/zindex/z-index-020.html
+- [6215] [WPT reftest] css/CSS2/zindex/z-index-020.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-200px-square.html (==)
@@ -13121,7 +13109,7 @@
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-200px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6220] [WPT reftest] css/CSS2/zindex/z-index-dynamic-001.xht
+- [6222] [WPT reftest] css/CSS2/zindex/z-index-dynamic-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-filled-green-100px-square.xht (==)
@@ -13134,7 +13122,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6221] [WPT reftest] css/CSS2/zorder/z-index-020.xht
+- [6223] [WPT reftest] css/CSS2/zorder/z-index-020.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/zorder/z-index-020-ref.xht (==)
@@ -13152,7 +13140,7 @@
   stable page 1 (css/CSS2/zorder/z-index-020-ref2.xht): diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render (css/CSS2/zorder/z-index-020-ref2.xht): https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/zorder/z-index-020-ref2.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6224] [WPT print-reftest] css/CSS2/pagination/block-page-break-inside-avoid-11-print.html
+- [6226] [WPT print-reftest] css/CSS2/pagination/block-page-break-inside-avoid-11-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/block-page-break-inside-avoid-print-ref.html (==)
@@ -13165,7 +13153,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/block-page-break-inside-avoid-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6226] [WPT print-reftest] css/CSS2/pagination/block-page-break-inside-avoid-13-print.html
+- [6228] [WPT print-reftest] css/CSS2/pagination/block-page-break-inside-avoid-13-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/block-page-break-inside-avoid-8-print-ref.html (==)
@@ -13178,7 +13166,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/block-page-break-inside-avoid-8-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6235] [WPT print-reftest] css/CSS2/pagination/block-page-break-inside-avoid-8-print.html
+- [6237] [WPT print-reftest] css/CSS2/pagination/block-page-break-inside-avoid-8-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/block-page-break-inside-avoid-8-print-ref.html (==)
@@ -13191,7 +13179,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/block-page-break-inside-avoid-8-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6236] [WPT print-reftest] css/CSS2/pagination/block-page-break-inside-avoid-9-print.html
+- [6238] [WPT print-reftest] css/CSS2/pagination/block-page-break-inside-avoid-9-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/block-page-break-inside-avoid-print-ref.html (==)
@@ -13206,7 +13194,7 @@
   stable page 2: diffRatio=0.06648582175925925, diffPixels=9191
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/block-page-break-inside-avoid-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6237] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-1-print.html
+- [6239] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-1-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/table-page-break-inside-avoid-print-ref.html (==)
@@ -13219,7 +13207,7 @@
   stable selected pages: test=[1, 2], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6238] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-2-print.html
+- [6240] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-2-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/float-page-break-inside-avoid-2-print-ref.html (==)
@@ -13234,7 +13222,7 @@
   stable page 2: diffRatio=0.09969618055555556, diffPixels=13782
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/float-page-break-inside-avoid-2-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6242] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-6-print.html
+- [6244] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-6-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/float-page-break-inside-avoid-6-print-ref.html (==)
@@ -13247,7 +13235,7 @@
   stable page 1: diffRatio=0.24165219907407406, diffPixels=33406
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/float-page-break-inside-avoid-6-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6243] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-7-print.html
+- [6245] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-7-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/float-page-break-inside-avoid-7-print-ref.html (==)
@@ -13262,7 +13250,7 @@
   stable page 2: diffRatio=0.0001663773148148148, diffPixels=23
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/float-page-break-inside-avoid-7-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6244] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-8-print.html
+- [6246] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-8-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/float-page-break-inside-avoid-8-print-ref.html (==)
@@ -13277,7 +13265,7 @@
   stable page 2: diffRatio=0.00028935185185185184, diffPixels=40
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/float-page-break-inside-avoid-8-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6246] [WPT print-reftest] css/CSS2/pagination/inline-page-break-inside-avoid-1-print.html
+- [6248] [WPT print-reftest] css/CSS2/pagination/inline-page-break-inside-avoid-1-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/inline-page-break-inside-avoid-1-print-ref.html (==)
@@ -13292,7 +13280,7 @@
   stable page 2: diffRatio=0.06648582175925925, diffPixels=9191
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/inline-page-break-inside-avoid-1-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6248] [WPT print-reftest] css/CSS2/pagination/row-page-break-inside-avoid-2-print.html
+- [6250] [WPT print-reftest] css/CSS2/pagination/row-page-break-inside-avoid-2-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/rowgroup-page-break-inside-avoid-5-print-ref.html (==)
@@ -13305,7 +13293,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/rowgroup-page-break-inside-avoid-5-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6249] [WPT print-reftest] css/CSS2/pagination/rowgroup-page-break-inside-avoid-1-print.html
+- [6251] [WPT print-reftest] css/CSS2/pagination/rowgroup-page-break-inside-avoid-1-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/table-page-break-inside-avoid-print-ref.html (==)
@@ -13318,7 +13306,7 @@
   stable selected pages: test=[1, 2], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6251] [WPT print-reftest] css/CSS2/pagination/rowgroup-page-break-inside-avoid-3-print.html
+- [6253] [WPT print-reftest] css/CSS2/pagination/rowgroup-page-break-inside-avoid-3-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/table-page-break-inside-avoid-print-ref.html (==)
@@ -13331,7 +13319,7 @@
   stable selected pages: test=[1, 2], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6258] [WPT print-reftest] css/CSS2/pagination/table-page-break-inside-avoid-2-print.html
+- [6260] [WPT print-reftest] css/CSS2/pagination/table-page-break-inside-avoid-2-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/table-page-break-inside-avoid-2-print-ref.html (==)
@@ -13344,7 +13332,7 @@
   stable selected pages: test=[1, 2, 3, 4], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-2-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6264] [WPT print-reftest] css/CSS2/pagination/table-page-break-inside-avoid-8-print.html
+- [6266] [WPT print-reftest] css/CSS2/pagination/table-page-break-inside-avoid-8-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html (==)
@@ -13357,13 +13345,6 @@
   stable selected pages: test=[1], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6478] [WPT manual] css/CSS2/backgrounds/background-animated-001.xht
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00013954087474238607, diffPixels=117
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-animated-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-animated-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 ## Errors
 
 - [3275] [WPT reftest] css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html
@@ -13375,6 +13356,16 @@
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [4967] [WPT reftest] css/CSS2/syntax/at-charset-047.xht
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/at-charset-047.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-047.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [6147] [WPT reftest] css/CSS2/visufx/overflow-propagation-001b.html
   triage: pending

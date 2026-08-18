@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 67
-- Entries with differences: 65 (pending: 65, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
+- Compared entries: 70
+- Entries with differences: 67 (pending: 67, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":65,"pass":2}
+- Outcome summary: {"known-fail":67,"pass":2,"error":1}
 
 ## Differences
 
@@ -374,7 +374,46 @@
   stable page 1: diffRatio=0.009541256392641783, diffPixels=8000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0031] [WPT reftest] css/css-box/margin-trim/flex-block-end-trimmed-only.html
+- [0031] [WPT reftest] css/css-box/margin-trim/block-container-style-change-triggers-layout-block-end.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-box/margin-trim/block-container-style-change-triggers-layout-block-end.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/block-container-style-change-triggers-layout-block-end.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0032] [WPT reftest] css/css-box/margin-trim/block-container-style-change-triggers-layout-block-start.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-box/margin-trim/block-container-style-change-triggers-layout-block-start.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/block-container-style-change-triggers-layout-block-start.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0033] [WPT reftest] css/css-box/margin-trim/block-container-style-change-triggers-layout-block.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-box/margin-trim/block-container-style-change-triggers-layout-block.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/block-container-style-change-triggers-layout-block.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0034] [WPT reftest] css/css-box/margin-trim/flex-block-end-trimmed-only.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/flex-block-end-trimmed-only-ref.html (==)
@@ -387,7 +426,7 @@
   stable page 1: diffRatio=0.0005247691015952981, diffPixels=440
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/flex-block-end-trimmed-only-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0032] [WPT reftest] css/css-box/margin-trim/flex-block-start-trimmed-only.html
+- [0035] [WPT reftest] css/css-box/margin-trim/flex-block-start-trimmed-only.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/flex-block-start-trimmed-only-ref.html (==)
@@ -400,7 +439,7 @@
   stable page 1: diffRatio=0.004102740248835967, diffPixels=3440
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/flex-block-start-trimmed-only-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0033] [WPT reftest] css/css-box/margin-trim/flex-block-trimmed-only.html
+- [0036] [WPT reftest] css/css-box/margin-trim/flex-block-trimmed-only.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/flex-block-trimmed-only-ref.html (==)
@@ -413,7 +452,7 @@
   stable page 1: diffRatio=0.0039476948324555375, diffPixels=3310
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/flex-block-trimmed-only-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0034] [WPT reftest] css/css-box/margin-trim/flex-column-block-multiline.html
+- [0037] [WPT reftest] css/css-box/margin-trim/flex-column-block-multiline.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -426,7 +465,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0035] [WPT reftest] css/css-box/margin-trim/flex-column-grow.html
+- [0038] [WPT reftest] css/css-box/margin-trim/flex-column-grow.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -439,7 +478,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0036] [WPT reftest] css/css-box/margin-trim/flex-column-inline-multiline.html
+- [0039] [WPT reftest] css/css-box/margin-trim/flex-column-inline-multiline.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/flex-column-inline-multiline-ref.html (==)
@@ -452,7 +491,7 @@
   stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/flex-column-inline-multiline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0037] [WPT reftest] css/css-box/margin-trim/flex-column-orthogonal-item.html
+- [0040] [WPT reftest] css/css-box/margin-trim/flex-column-orthogonal-item.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -465,7 +504,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0038] [WPT reftest] css/css-box/margin-trim/flex-column-shrink.html
+- [0041] [WPT reftest] css/css-box/margin-trim/flex-column-shrink.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -478,7 +517,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0039] [WPT reftest] css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-end.html
+- [0042] [WPT reftest] css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-end.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-end-ref.html (==)
@@ -491,7 +530,7 @@
   stable page 1: diffRatio=0.00014311884588962676, diffPixels=120
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-end-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0040] [WPT reftest] css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-start.html
+- [0043] [WPT reftest] css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-start.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-start-ref.html (==)
@@ -504,7 +543,7 @@
   stable page 1: diffRatio=0.0012761430425158385, diffPixels=1070
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-start-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0041] [WPT reftest] css/css-box/margin-trim/flex-column-style-change-triggers-layout-block.html
+- [0044] [WPT reftest] css/css-box/margin-trim/flex-column-style-change-triggers-layout-block.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-ref.html (==)
@@ -517,7 +556,7 @@
   stable page 1: diffRatio=0.001299996183497443, diffPixels=1090
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0042] [WPT reftest] css/css-box/margin-trim/flex-inline-end-trimmed-only.html
+- [0045] [WPT reftest] css/css-box/margin-trim/flex-inline-end-trimmed-only.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/flex-inline-end-trimmed-only-ref.html (==)
@@ -530,7 +569,7 @@
   stable page 1: diffRatio=0.00019082512785283565, diffPixels=160
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/flex-inline-end-trimmed-only-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0043] [WPT reftest] css/css-box/margin-trim/flex-inline-start-trimmed-only.html
+- [0046] [WPT reftest] css/css-box/margin-trim/flex-inline-start-trimmed-only.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/flex-inline-start-trimmed-only-ref.html (==)
@@ -543,7 +582,7 @@
   stable page 1: diffRatio=0.0037687962750935044, diffPixels=3160
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/flex-inline-start-trimmed-only-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0044] [WPT reftest] css/css-box/margin-trim/flex-inline-trimmed-only.html
+- [0047] [WPT reftest] css/css-box/margin-trim/flex-inline-trimmed-only.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/flex-inline-trimmed-only-ref.html (==)
@@ -556,7 +595,7 @@
   stable page 1: diffRatio=0.0037330165636210977, diffPixels=3130
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/flex-inline-trimmed-only-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0045] [WPT reftest] css/css-box/margin-trim/flex-row-block-multiline.html
+- [0048] [WPT reftest] css/css-box/margin-trim/flex-row-block-multiline.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/flex-row-block-multiline-ref.html (==)
@@ -569,7 +608,7 @@
   stable page 1: diffRatio=0.004937600183192122, diffPixels=4140
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/flex-row-block-multiline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0046] [WPT reftest] css/css-box/margin-trim/flex-row-grow.html
+- [0049] [WPT reftest] css/css-box/margin-trim/flex-row-grow.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -582,7 +621,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0047] [WPT reftest] css/css-box/margin-trim/flex-row-inline-multiline.html
+- [0050] [WPT reftest] css/css-box/margin-trim/flex-row-inline-multiline.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -595,7 +634,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0048] [WPT reftest] css/css-box/margin-trim/flex-row-orthogonal-item.html
+- [0051] [WPT reftest] css/css-box/margin-trim/flex-row-orthogonal-item.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -608,7 +647,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0049] [WPT reftest] css/css-box/margin-trim/flex-row-shrink.html
+- [0052] [WPT reftest] css/css-box/margin-trim/flex-row-shrink.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -621,7 +660,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0050] [WPT reftest] css/css-box/margin-trim/flex-row-style-change-triggers-layout-inline-end.html
+- [0053] [WPT reftest] css/css-box/margin-trim/flex-row-style-change-triggers-layout-inline-end.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/flex-row-style-change-triggers-layout-inline-end-ref.html (==)
@@ -634,7 +673,7 @@
   stable page 1: diffRatio=0.00014311884588962676, diffPixels=120
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/flex-row-style-change-triggers-layout-inline-end-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0051] [WPT reftest] css/css-box/margin-trim/flex-row-style-change-triggers-layout-inline-start.html
+- [0054] [WPT reftest] css/css-box/margin-trim/flex-row-style-change-triggers-layout-inline-start.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/flex-row-style-change-triggers-layout-inline-start-ref.html (==)
@@ -647,7 +686,7 @@
   stable page 1: diffRatio=0.0012761430425158385, diffPixels=1070
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/flex-row-style-change-triggers-layout-inline-start-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0052] [WPT reftest] css/css-box/margin-trim/flex-row-style-change-triggers-layout-inline.html
+- [0055] [WPT reftest] css/css-box/margin-trim/flex-row-style-change-triggers-layout-inline.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/flex-row-style-change-triggers-layout-inline-ref.html (==)
@@ -660,7 +699,7 @@
   stable page 1: diffRatio=0.001299996183497443, diffPixels=1090
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/flex-row-style-change-triggers-layout-inline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0053] [WPT reftest] css/css-box/margin-trim/flex-trim-all-margins.html
+- [0056] [WPT reftest] css/css-box/margin-trim/flex-trim-all-margins.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/flex-trim-all-margins-ref.html (==)
@@ -673,7 +712,7 @@
   stable page 1: diffRatio=0.006440348065033204, diffPixels=5400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/flex-trim-all-margins-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0054] [WPT reftest] css/css-box/margin-trim/grid-block-end.html
+- [0057] [WPT reftest] css/css-box/margin-trim/grid-block-end.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/grid-block-end-ref.html (==)
@@ -686,7 +725,7 @@
   stable page 1: diffRatio=0.00026238455079764903, diffPixels=220
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/grid-block-end-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0055] [WPT reftest] css/css-box/margin-trim/grid-block-start.html
+- [0058] [WPT reftest] css/css-box/margin-trim/grid-block-start.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/grid-block-start-ref.html (==)
@@ -699,7 +738,7 @@
   stable page 1: diffRatio=0.0049137470422105185, diffPixels=4120
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/grid-block-start-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0056] [WPT reftest] css/css-box/margin-trim/grid-block.html
+- [0059] [WPT reftest] css/css-box/margin-trim/grid-block.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -712,7 +751,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0057] [WPT reftest] css/css-box/margin-trim/grid-inline-end.html
+- [0060] [WPT reftest] css/css-box/margin-trim/grid-inline-end.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/grid-inline-end-ref.html (==)
@@ -725,7 +764,7 @@
   stable page 1: diffRatio=0.00026238455079764903, diffPixels=220
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/grid-inline-end-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0058] [WPT reftest] css/css-box/margin-trim/grid-inline-start.html
+- [0061] [WPT reftest] css/css-box/margin-trim/grid-inline-start.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/grid-inline-start-ref.html (==)
@@ -738,7 +777,7 @@
   stable page 1: diffRatio=0.0049137470422105185, diffPixels=4120
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/grid-inline-start-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0059] [WPT reftest] css/css-box/margin-trim/grid-inline.html
+- [0062] [WPT reftest] css/css-box/margin-trim/grid-inline.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -751,7 +790,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0060] [WPT reftest] css/css-box/margin-trim/grid-trim-ignores-collapsed-tracks.html
+- [0063] [WPT reftest] css/css-box/margin-trim/grid-trim-ignores-collapsed-tracks.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -764,7 +803,7 @@
   stable page 1: diffRatio=0.015504541638042898, diffPixels=13000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0061] [WPT reftest] css/css-box/margin-trim/multicol-spanner-001.html
+- [0064] [WPT reftest] css/css-box/margin-trim/multicol-spanner-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -777,7 +816,7 @@
   stable page 1: diffRatio=0.007155942294481337, diffPixels=6000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0062] [WPT reftest] css/css-box/margin-trim/multicol-spanner-002.html
+- [0065] [WPT reftest] css/css-box/margin-trim/multicol-spanner-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -790,7 +829,7 @@
   stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0063] [WPT reftest] css/css-box/margin-trim/multicol-spanner-003.html
+- [0066] [WPT reftest] css/css-box/margin-trim/multicol-spanner-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -803,7 +842,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0064] [WPT reftest] css/css-box/margin-trim/multicol-spanner-004.html
+- [0067] [WPT reftest] css/css-box/margin-trim/multicol-spanner-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -816,7 +855,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0065] [WPT reftest] css/css-box/margin-trim/multicol-spanner-005.html
+- [0068] [WPT reftest] css/css-box/margin-trim/multicol-spanner-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -829,7 +868,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0066] [WPT reftest] css/css-box/margin-trim/multicol-spanner-006.html
+- [0069] [WPT reftest] css/css-box/margin-trim/multicol-spanner-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -842,16 +881,13 @@
   stable page 1: diffRatio=0.007155942294481337, diffPixels=6000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0067] [WPT reftest] css/css-box/margin-trim/multicol-spanner-007.html
+## Errors
+
+- [0070] [WPT reftest] css/css-box/margin-trim/multicol-spanner-007.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  side: canary
+  timeout: false
+  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-box/margin-trim/multicol-spanner-007.html (503)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 1236
-- Entries with differences: 621 (improvement: 4, pending: 617, triaged: 0)
+- Compared entries: 1254
+- Entries with differences: 622 (pending: 622, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 6
-- Outcome summary: {"pass":382,"known-fail":615,"improvement":4,"regression":2,"unchanged":233}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":399,"known-fail":622,"unchanged":233}
 
 ## Differences
 
@@ -48,203 +48,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/appearance-invalidate-author-styling-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0006034844668345927, diffPixels=506
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/appearance-invalidate-author-styling-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0029] [WPT reftest] css/css-ui/box-sizing-007.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ui/reference/box-sizing-007-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.2374937981833448, diffPixels=199130
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.2374937981833448, diffPixels=199130
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0030] [WPT reftest] css/css-ui/box-sizing-008.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ui/reference/box-sizing-008-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.08908313296694909, diffPixels=74693
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.08908313296694909, diffPixels=74693
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0031] [WPT reftest] css/css-ui/box-sizing-009.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ui/reference/box-sizing-009-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.17968571101442637, diffPixels=150660
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.17968571101442637, diffPixels=150660
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0032] [WPT reftest] css/css-ui/box-sizing-010.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ui/reference/box-sizing-010-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0057569555759102355, diffPixels=4827
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0057569555759102355, diffPixels=4827
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0033] [WPT reftest] css/css-ui/box-sizing-011.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ui/reference/box-sizing-010-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0057569555759102355, diffPixels=4827
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0057569555759102355, diffPixels=4827
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0034] [WPT reftest] css/css-ui/box-sizing-012.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ui/reference/box-sizing-012-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008261535378978705, diffPixels=6927
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008261535378978705, diffPixels=6927
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0035] [WPT reftest] css/css-ui/box-sizing-013.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ui/reference/box-sizing-013-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008261535378978705, diffPixels=6927
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008261535378978705, diffPixels=6927
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0036] [WPT reftest] css/css-ui/box-sizing-014.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ui/reference/box-sizing-010-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0057569555759102355, diffPixels=4827
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0057569555759102355, diffPixels=4827
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0037] [WPT reftest] css/css-ui/box-sizing-015.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ui/reference/box-sizing-010-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0057569555759102355, diffPixels=4827
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0057569555759102355, diffPixels=4827
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0038] [WPT reftest] css/css-ui/box-sizing-016.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-ui/reference/box-sizing-010-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0057569555759102355, diffPixels=4827
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0039] [WPT reftest] css/css-ui/box-sizing-017.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ui/reference/box-sizing-010-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0057569555759102355, diffPixels=4827
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0057569555759102355, diffPixels=4827
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0040] [WPT reftest] css/css-ui/box-sizing-018.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-ui/reference/box-sizing-010-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0057569555759102355, diffPixels=4827
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0042] [WPT reftest] css/css-ui/box-sizing-020.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ui/reference/box-sizing-020-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02006884016487291, diffPixels=16827
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02006884016487291, diffPixels=16827
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0044] [WPT reftest] css/css-ui/box-sizing-022.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-ui/reference/box-sizing-022-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02316974849248149, diffPixels=19427
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0045] [WPT reftest] css/css-ui/box-sizing-023.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-ui/reference/box-sizing-023-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.046426560949545836, diffPixels=38927
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0046] [WPT reftest] css/css-ui/box-sizing-024.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-ui/reference/box-sizing-020-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02006884016487291, diffPixels=16827
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0047] [WPT reftest] css/css-ui/box-sizing-025.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-ui/reference/box-sizing-020-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02006884016487291, diffPixels=16827
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0050] [WPT reftest] css/css-ui/caret-color-block-shape-text-color-001.html
   triage: pending
@@ -8056,7 +7859,241 @@
   stable page 1: diffRatio=0.0006655026333867644, diffPixels=558
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0982] [WPT reftest] css/css-ui/text-overflow-with-selection.html
+- [0982] [WPT reftest] css/css-ui/text-overflow-string-009.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-009-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0013799042057858178, diffPixels=1157
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0013799042057858178, diffPixels=1157
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0983] [WPT reftest] css/css-ui/text-overflow-string-010.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-010-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0014443076864361498, diffPixels=1211
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0014443076864361498, diffPixels=1211
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0984] [WPT reftest] css/css-ui/text-overflow-string-011.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-011-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0019177925349209983, diffPixels=1608
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0019177925349209983, diffPixels=1608
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0985] [WPT reftest] css/css-ui/text-overflow-string-012.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-012-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0011998129913747043, diffPixels=1006
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0011998129913747043, diffPixels=1006
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0986] [WPT reftest] css/css-ui/text-overflow-string-013.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-013-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0012510972444851538, diffPixels=1049
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0012510972444851538, diffPixels=1049
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0987] [WPT reftest] css/css-ui/text-overflow-string-014.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-014-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0014633901992214336, diffPixels=1227
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0014633901992214336, diffPixels=1227
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0988] [WPT reftest] css/css-ui/text-overflow-string-015.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-015-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0008944927868101671, diffPixels=750
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0008944927868101671, diffPixels=750
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0989] [WPT reftest] css/css-ui/text-overflow-string-016.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-016-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.001006602549423708, diffPixels=844
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.001006602549423708, diffPixels=844
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0990] [WPT reftest] css/css-ui/text-overflow-string-017.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-016-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.001006602549423708, diffPixels=844
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.001006602549423708, diffPixels=844
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0991] [WPT reftest] css/css-ui/text-overflow-string-018.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-016-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.001006602549423708, diffPixels=844
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.001006602549423708, diffPixels=844
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0992] [WPT reftest] css/css-ui/text-overflow-string-019.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-016-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.001006602549423708, diffPixels=844
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.001006602549423708, diffPixels=844
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0993] [WPT reftest] css/css-ui/text-overflow-string-020.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-016-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.001006602549423708, diffPixels=844
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.001006602549423708, diffPixels=844
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0994] [WPT reftest] css/css-ui/text-overflow-string-021.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-016-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.001006602549423708, diffPixels=844
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.001006602549423708, diffPixels=844
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0995] [WPT reftest] css/css-ui/text-overflow-string-022.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-016-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.001006602549423708, diffPixels=844
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.001006602549423708, diffPixels=844
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0996] [WPT reftest] css/css-ui/text-overflow-string-023.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-016-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.001006602549423708, diffPixels=844
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.001006602549423708, diffPixels=844
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0997] [WPT reftest] css/css-ui/text-overflow-string-024.tentative.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-024-ref.tentative.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-024.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0015981604457674986, diffPixels=1340
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-024-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-024.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0015981604457674986, diffPixels=1340
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-024-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0998] [WPT reftest] css/css-ui/text-overflow-string-025.tentative.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-025-ref.tentative.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-025.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.001321464010380887, diffPixels=1108
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-025-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-025.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.001321464010380887, diffPixels=1108
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-025-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0999] [WPT reftest] css/css-ui/text-overflow-string-026.tentative.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/text-overflow-string-026-ref.tentative.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/text-overflow-string-026.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00133696855201893, diffPixels=1121
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-026-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/text-overflow-string-026.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00133696855201893, diffPixels=1121
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/text-overflow-string-026-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1000] [WPT reftest] css/css-ui/text-overflow-with-selection.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-ui/text-overflow-with-selection-ref.html (==)

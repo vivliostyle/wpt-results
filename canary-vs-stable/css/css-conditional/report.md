@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 166
-- Entries with differences: 57 (pending: 57, triaged: 0)
+- Compared entries: 172
+- Entries with differences: 61 (pending: 61, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":109,"known-fail":57}
+- Outcome summary: {"pass":111,"known-fail":61}
 
 ## Differences
 
@@ -153,7 +153,59 @@
   stable page 1: diffRatio=0.6380405121746432, diffPixels=534974
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0055] [WPT reftest] css/css-conditional/at-supports-content-001.html
+- [0055] [WPT reftest] css/css-conditional/at-supports-at-rule-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-conditional/at-supports-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-at-rule-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-at-rule-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0056] [WPT reftest] css/css-conditional/at-supports-at-rule-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-conditional/at-supports-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-at-rule-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-at-rule-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0057] [WPT reftest] css/css-conditional/at-supports-at-rule-003.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-conditional/at-supports-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-at-rule-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-at-rule-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0060] [WPT reftest] css/css-conditional/at-supports-at-rule-006.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-conditional/at-supports-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-at-rule-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-at-rule-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0061] [WPT reftest] css/css-conditional/at-supports-content-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/at-supports-001-ref.html (==)
@@ -166,7 +218,7 @@
   stable page 1: diffRatio=0.6380405121746432, diffPixels=534974
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0057] [WPT reftest] css/css-conditional/at-supports-content-003.html
+- [0063] [WPT reftest] css/css-conditional/at-supports-content-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/at-supports-001-ref.html (==)
@@ -179,7 +231,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0058] [WPT reftest] css/css-conditional/at-supports-content-004.html
+- [0064] [WPT reftest] css/css-conditional/at-supports-content-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/at-supports-001-ref.html (==)
@@ -192,7 +244,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0059] [WPT reftest] css/css-conditional/at-supports-font-format-001.html
+- [0065] [WPT reftest] css/css-conditional/at-supports-font-format-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/at-supports-001-ref.html (==)
@@ -205,7 +257,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0060] [WPT reftest] css/css-conditional/at-supports-font-tech-001.html
+- [0066] [WPT reftest] css/css-conditional/at-supports-font-tech-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/at-supports-001-ref.html (==)
@@ -218,7 +270,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0061] [WPT reftest] css/css-conditional/at-supports-namespace-001.html
+- [0067] [WPT reftest] css/css-conditional/at-supports-namespace-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/at-supports-001-ref.html (==)
@@ -231,7 +283,7 @@
   stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0062] [WPT reftest] css/css-conditional/at-supports-namespace-002.html
+- [0068] [WPT reftest] css/css-conditional/at-supports-namespace-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/at-supports-001-ref.html (==)
@@ -244,7 +296,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0067] [WPT reftest] css/css-conditional/at-supports-selector-details-content-before.html
+- [0073] [WPT reftest] css/css-conditional/at-supports-selector-details-content-before.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/at-supports-001-ref.html (==)
@@ -257,7 +309,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0068] [WPT reftest] css/css-conditional/at-supports-selector-details-content.html
+- [0074] [WPT reftest] css/css-conditional/at-supports-selector-details-content.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/at-supports-001-ref.html (==)
@@ -270,7 +322,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0070] [WPT reftest] css/css-conditional/at-supports-selector-file-selector-button.html
+- [0076] [WPT reftest] css/css-conditional/at-supports-selector-file-selector-button.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/at-supports-001-ref.html (==)
@@ -283,7 +335,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0071] [WPT reftest] css/css-conditional/at-supports-selector-picker-icon.html
+- [0077] [WPT reftest] css/css-conditional/at-supports-selector-picker-icon.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/at-supports-001-ref.html (==)
@@ -296,7 +348,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0072] [WPT reftest] css/css-conditional/at-supports-selector-picker.html
+- [0078] [WPT reftest] css/css-conditional/at-supports-selector-picker.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/at-supports-001-ref.html (==)
@@ -309,7 +361,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0073] [WPT reftest] css/css-conditional/at-supports-selector-placeholder.html
+- [0079] [WPT reftest] css/css-conditional/at-supports-selector-placeholder.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/at-supports-001-ref.html (==)
@@ -322,7 +374,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0074] [WPT reftest] css/css-conditional/at-supports-selector-webkit-slider-thumb.tentative.html
+- [0080] [WPT reftest] css/css-conditional/at-supports-selector-webkit-slider-thumb.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/at-supports-001-ref.html (==)
@@ -335,7 +387,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0075] [WPT reftest] css/css-conditional/container-queries/canvas-as-container-001.html
+- [0081] [WPT reftest] css/css-conditional/container-queries/canvas-as-container-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -348,7 +400,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0076] [WPT reftest] css/css-conditional/container-queries/canvas-as-container-002.html
+- [0082] [WPT reftest] css/css-conditional/container-queries/canvas-as-container-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -361,7 +413,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0077] [WPT reftest] css/css-conditional/container-queries/canvas-as-container-003.html
+- [0083] [WPT reftest] css/css-conditional/container-queries/canvas-as-container-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -374,7 +426,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0078] [WPT reftest] css/css-conditional/container-queries/canvas-as-container-004.html
+- [0084] [WPT reftest] css/css-conditional/container-queries/canvas-as-container-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -387,7 +439,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0079] [WPT reftest] css/css-conditional/container-queries/change-display-in-container.html
+- [0085] [WPT reftest] css/css-conditional/container-queries/change-display-in-container.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/change-display-in-container-ref.html (==)
@@ -400,7 +452,7 @@
   stable page 1: diffRatio=0.00016697198687123122, diffPixels=140
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/change-display-in-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0082] [WPT reftest] css/css-conditional/container-queries/container-units-gradient-invalidation.html
+- [0088] [WPT reftest] css/css-conditional/container-queries/container-units-gradient-invalidation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/container-units-gradient-ref.html (==)
@@ -413,7 +465,7 @@
   stable page 1: diffRatio=0.044815281276238454, diffPixels=37576
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/container-units-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0087] [WPT reftest] css/css-conditional/container-queries/counters-in-container-dynamic.html
+- [0093] [WPT reftest] css/css-conditional/container-queries/counters-in-container-dynamic.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/counters-ref.html (==)
@@ -426,7 +478,7 @@
   stable page 1: diffRatio=0.00008944927868101672, diffPixels=75
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/counters-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0088] [WPT reftest] css/css-conditional/container-queries/counters-in-container.html
+- [0094] [WPT reftest] css/css-conditional/container-queries/counters-in-container.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/counters-ref.html (==)
@@ -439,7 +491,7 @@
   stable page 1: diffRatio=0.00008944927868101672, diffPixels=75
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/counters-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0089] [WPT reftest] css/css-conditional/container-queries/custom-layout-container-001.https.html
+- [0095] [WPT reftest] css/css-conditional/container-queries/custom-layout-container-001.https.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -452,7 +504,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0090] [WPT reftest] css/css-conditional/container-queries/dialog-backdrop-create.html
+- [0096] [WPT reftest] css/css-conditional/container-queries/dialog-backdrop-create.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/top-layer-dialog-backdrop-ref.html (==)
@@ -465,7 +517,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/top-layer-dialog-backdrop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0092] [WPT reftest] css/css-conditional/container-queries/display-in-container.html
+- [0098] [WPT reftest] css/css-conditional/container-queries/display-in-container.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/display-in-container-ref.html (==)
@@ -478,7 +530,7 @@
   stable page 1: diffRatio=0.003393109304633234, diffPixels=2845
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/display-in-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0093] [WPT reftest] css/css-conditional/container-queries/fieldset-legend-change.html
+- [0099] [WPT reftest] css/css-conditional/container-queries/fieldset-legend-change.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/fieldset-legend-change-ref.html (==)
@@ -491,7 +543,7 @@
   stable page 1: diffRatio=0.0012904549271048013, diffPixels=1082
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/fieldset-legend-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0094] [WPT reftest] css/css-conditional/container-queries/first-letter-outside-size-container.html
+- [0100] [WPT reftest] css/css-conditional/container-queries/first-letter-outside-size-container.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/pass_if_letter_uppercase.html (==)
@@ -504,7 +556,7 @@
   stable page 1: diffRatio=0.00019559575604915656, diffPixels=164
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/pass_if_letter_uppercase.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0096] [WPT reftest] css/css-conditional/container-queries/inline-size-bfc-floats.html
+- [0102] [WPT reftest] css/css-conditional/container-queries/inline-size-bfc-floats.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/inline-size-bfc-floats-ref.html (==)
@@ -517,7 +569,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/inline-size-bfc-floats-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0097] [WPT reftest] css/css-conditional/container-queries/inner-first-line-non-matching.html
+- [0103] [WPT reftest] css/css-conditional/container-queries/inner-first-line-non-matching.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/inner-first-line-non-matching-ref.html (==)
@@ -530,7 +582,7 @@
   stable page 1: diffRatio=0.00038284291275475155, diffPixels=321
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/inner-first-line-non-matching-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0098] [WPT reftest] css/css-conditional/container-queries/multicol-inside-container.html
+- [0104] [WPT reftest] css/css-conditional/container-queries/multicol-inside-container.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -543,7 +595,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0099] [WPT reftest] css/css-conditional/container-queries/multiple-conditions-001.html
+- [0105] [WPT reftest] css/css-conditional/container-queries/multiple-conditions-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/multiple-conditions-001-ref.html (==)
@@ -556,7 +608,7 @@
   stable page 1: diffRatio=0.01375252843294405, diffPixels=11531
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/multiple-conditions-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0100] [WPT reftest] css/css-conditional/container-queries/no-layout-containment-abspos-dynamic.html
+- [0106] [WPT reftest] css/css-conditional/container-queries/no-layout-containment-abspos-dynamic.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -569,7 +621,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0103] [WPT reftest] css/css-conditional/container-queries/no-layout-containment-fixedpos-dynamic.html
+- [0109] [WPT reftest] css/css-conditional/container-queries/no-layout-containment-fixedpos-dynamic.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -582,7 +634,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0105] [WPT reftest] css/css-conditional/container-queries/pseudo-elements-002.html
+- [0111] [WPT reftest] css/css-conditional/container-queries/pseudo-elements-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/pseudo-elements-002-ref.html (==)
@@ -595,7 +647,7 @@
   stable page 1: diffRatio=0.0003482558583314251, diffPixels=292
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0106] [WPT reftest] css/css-conditional/container-queries/pseudo-elements-002b.html
+- [0112] [WPT reftest] css/css-conditional/container-queries/pseudo-elements-002b.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/pseudo-elements-002b-ref.html (==)
@@ -608,7 +660,7 @@
   stable page 1: diffRatio=0.001798526830012976, diffPixels=1508
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-002b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0107] [WPT reftest] css/css-conditional/container-queries/pseudo-elements-009.html
+- [0113] [WPT reftest] css/css-conditional/container-queries/pseudo-elements-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/pseudo-elements-009-ref.html (==)
@@ -621,7 +673,7 @@
   stable page 1: diffRatio=0.00033394397374246243, diffPixels=280
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0108] [WPT reftest] css/css-conditional/container-queries/pseudo-elements-010.html
+- [0114] [WPT reftest] css/css-conditional/container-queries/pseudo-elements-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/pseudo-elements-010-ref.html (==)
@@ -634,7 +686,7 @@
   stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0109] [WPT reftest] css/css-conditional/container-queries/pseudo-elements-011.html
+- [0115] [WPT reftest] css/css-conditional/container-queries/pseudo-elements-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/pseudo-elements-010-ref.html (==)
@@ -647,7 +699,7 @@
   stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0110] [WPT reftest] css/css-conditional/container-queries/pseudo-elements-012.html
+- [0116] [WPT reftest] css/css-conditional/container-queries/pseudo-elements-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/pseudo-elements-010-ref.html (==)
@@ -660,7 +712,7 @@
   stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0111] [WPT reftest] css/css-conditional/container-queries/query-style-color.html
+- [0117] [WPT reftest] css/css-conditional/container-queries/query-style-color.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/query-style-color-ref.html (==)
@@ -673,7 +725,7 @@
   stable page 1: diffRatio=0.4623502022746355, diffPixels=387664
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/query-style-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0112] [WPT reftest] css/css-conditional/container-queries/resize-while-content-visibility-hidden.html
+- [0118] [WPT reftest] css/css-conditional/container-queries/resize-while-content-visibility-hidden.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/resize-while-content-visibility-hidden-ref.html (==)
@@ -686,7 +738,7 @@
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/resize-while-content-visibility-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0117] [WPT reftest] css/css-conditional/container-queries/style-negation-with-container-name.html
+- [0123] [WPT reftest] css/css-conditional/container-queries/style-negation-with-container-name.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/style-negation-with-container-name-ref.html (==)
@@ -699,7 +751,7 @@
   stable page 1: diffRatio=0.013949316846042286, diffPixels=11696
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/style-negation-with-container-name-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0118] [WPT reftest] css/css-conditional/container-queries/svg-foreignobject-no-size-container.html
+- [0124] [WPT reftest] css/css-conditional/container-queries/svg-foreignobject-no-size-container.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/svg-foreignobject-no-size-container-ref.html (==)
@@ -712,7 +764,7 @@
   stable page 1: diffRatio=0.00008706396458285627, diffPixels=73
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/svg-foreignobject-no-size-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0121] [WPT reftest] css/css-conditional/container-queries/top-layer-dialog-backdrop.html
+- [0127] [WPT reftest] css/css-conditional/container-queries/top-layer-dialog-backdrop.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/top-layer-dialog-backdrop-ref.html (==)
@@ -725,7 +777,7 @@
   stable page 1: diffRatio=0.0017221967788718419, diffPixels=1444
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/top-layer-dialog-backdrop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0157] [WPT reftest] css/css-conditional/css-supports-037.xht
+- [0163] [WPT reftest] css/css-conditional/css-supports-037.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/support/pass.xht (==)
@@ -738,7 +790,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/support/pass.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0162] [WPT reftest] css/css-conditional/css-supports-042.xht
+- [0168] [WPT reftest] css/css-conditional/css-supports-042.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/support/pass.xht (==)
