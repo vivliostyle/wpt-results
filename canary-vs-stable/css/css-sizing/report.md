@@ -2,11 +2,11 @@
 
 - Compared entries: 562
 - Entries with differences: 73 (pending: 73, triaged: 0)
-- Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 3
+- Entries with errors: 4 (pending: 4, triaged: 0)
+- Timeout entries: 4
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":486,"known-fail":73,"error":3}
+- Outcome summary: {"pass":485,"known-fail":73,"error":4}
 
 ## Differences
 
@@ -960,6 +960,16 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
+
+- [0302] [WPT reftest] css/css-sizing/box-sizing-replaced-002.xht
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0503] [WPT reftest] css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-no-match-element.sub.html
   triage: pending

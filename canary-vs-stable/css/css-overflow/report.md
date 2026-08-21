@@ -6,7 +6,7 @@
 - Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 1
-- Outcome summary: {"pass":189,"known-fail":330,"error":3,"changed-fail":1}
+- Outcome summary: {"pass":189,"known-fail":330,"error":3,"regression":1}
 
 ## Differences
 
@@ -29,11 +29,11 @@
   reference: css/css-overflow/reference/before-after-pseudo-element-scrolling-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/before-after-pseudo-element-scrolling.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002824211892221968, diffPixels=2368
+  canary page 1: diffRatio=0.016449126020914435, diffPixels=13792
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/before-after-pseudo-element-scrolling-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/before-after-pseudo-element-scrolling.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002824211892221968, diffPixels=2368
+  stable page 1: diffRatio=0.016449126020914435, diffPixels=13792
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/before-after-pseudo-element-scrolling-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0013] [WPT reftest] css/css-overflow/clipped-scroller-add-content.html
@@ -2973,16 +2973,12 @@
 
 - [0377] [WPT reftest] css/css-overflow/overflow-replaced-element-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: regression (baseline=PASS, actual=FAIL)
   reference: css/css-overflow/overflow-replaced-element-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018128387146019388, diffPixels=152
+  canary page 1: diffRatio=0.00013715556064422562, diffPixels=115
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003291733455461415, diffPixels=276
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0381] [WPT reftest] css/css-overflow/overflow-video-hidden.html
   triage: pending

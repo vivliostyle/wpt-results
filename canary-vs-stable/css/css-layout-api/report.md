@@ -2,11 +2,11 @@
 
 - Compared entries: 135
 - Entries with differences: 126 (pending: 126, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 1
-- Outcome summary: {"known-fail":125,"error":1,"changed-fail":1,"pass":8}
+- Outcome summary: {"known-fail":125,"pass":9,"changed-fail":1}
 
 ## Differences
 
@@ -1649,14 +1649,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-layout-api/style-map.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-layout-api/style-map-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0005] [WPT reftest] css/css-layout-api/auto-block-size/negative.https.html
-  triage: pending
-  side: canary
-  timeout: false
-  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-layout-api/auto-block-size/negative.https.html (502)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/auto-block-size/negative.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-layout-api/auto-block-size/negative.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 70
-- Entries with differences: 67 (pending: 67, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
+- Entries with differences: 68 (pending: 68, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":67,"pass":2,"error":1}
+- Outcome summary: {"known-fail":68,"pass":2}
 
 ## Differences
 
@@ -881,13 +881,16 @@
   stable page 1: diffRatio=0.007155942294481337, diffPixels=6000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-## Errors
-
 - [0070] [WPT reftest] css/css-box/margin-trim/multicol-spanner-007.html
   triage: pending
-  side: canary
-  timeout: false
-  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-box/margin-trim/multicol-spanner-007.html (503)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

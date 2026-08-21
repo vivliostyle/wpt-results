@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 794
-- Entries with differences: 260 (pending: 260, triaged: 0)
+- Entries with differences: 258 (improvement: 1, pending: 257, triaged: 0)
 - Entries with errors: 2 (pending: 2, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":532,"known-fail":258,"error":1,"regression":2,"unchanged":1}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":535,"known-fail":257,"improvement":1,"unchanged":1}
 
 ## Differences
 
@@ -701,16 +701,12 @@
 
 - [0162] [WPT reftest] css/css-transforms/individual-transform/animation/individual-transform-combine.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-transforms/individual-transform/animation/individual-transform-combine-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/individual-transform/animation/individual-transform-combine.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.03721089993130296, diffPixels=31200
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/individual-transform/animation/individual-transform-combine-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/individual-transform/animation/individual-transform-combine.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.03721089993130296, diffPixels=31200
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/individual-transform/animation/individual-transform-combine-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0174] [WPT reftest] css/css-transforms/individual-transform/stacking-context-001.html
   triage: pending
@@ -1856,6 +1852,12 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0328] [WPT reftest] css/css-transforms/rotateY-180deg-with-overflow-scroll.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/rotateY-180deg-with-overflow-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/rotateY-180deg-with-overflow-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0350] [WPT reftest] css/css-transforms/scale-animation-with-var-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -1882,15 +1884,6 @@
   stable page 1: diffRatio=0.006542916571254102, diffPixels=5486
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-background-ref-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0400] [WPT reftest] css/css-transforms/transform-background-007.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-transforms/transform-root-bg-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-background-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.3000486604076025, diffPixels=251580
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-root-bg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0402] [WPT reftest] css/css-transforms/transform-box/content-box-mutation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -1903,19 +1896,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/content-box-mutation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.016399034424853066, diffPixels=13750
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/cssbox-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0413] [WPT reftest] css/css-transforms/transform-box/fill-box-mutation-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-transforms/transform-box/reference/greensquare200x200.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0414] [WPT reftest] css/css-transforms/transform-box/stroke-box-mutation-001.html
   triage: pending
@@ -2007,12 +1987,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/view-box-mutation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0436] [WPT reftest] css/css-transforms/transform-clip-001.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0438] [WPT reftest] css/css-transforms/transform-containing-block-and-scrolling-area-for-fixed.html
   triage: pending
@@ -3381,20 +3355,20 @@
 
 ## Errors
 
-- [0271] [WPT reftest] css/css-transforms/perspective-children-only-fixpos.html
+- [0162] [WPT reftest] css/css-transforms/individual-transform/animation/individual-transform-combine.html
   triage: pending
-  side: canary
+  side: stable
   timeout: false
-  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/perspective-children-only-fixpos.html (502)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/perspective-children-only-fixpos.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/perspective-children-only-fixpos.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/individual-transform/animation/individual-transform-combine.html (502)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/individual-transform/animation/individual-transform-combine.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/individual-transform/animation/individual-transform-combine.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0436] [WPT reftest] css/css-transforms/transform-clip-001.html
+- [0328] [WPT reftest] css/css-transforms/rotateY-180deg-with-overflow-scroll.html
   triage: pending
-  side: canary-reference
-  reference: css/css-transforms/transform-clip-001-ref.html
+  side: stable-reference
+  reference: css/css-transforms/rotateY-180deg-with-overflow-scroll-ref.html
   timeout: false
-  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/transform-clip-001-ref.html (502)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-clip-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-transforms/rotateY-180deg-with-overflow-scroll-ref.html (502)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/rotateY-180deg-with-overflow-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/rotateY-180deg-with-overflow-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

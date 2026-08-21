@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1254
-- Entries with differences: 622 (pending: 622, triaged: 0)
+- Entries with differences: 624 (pending: 624, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":399,"known-fail":622,"unchanged":233}
+- Screenshot mismatches: 2
+- Outcome summary: {"pass":397,"known-fail":622,"regression":2,"unchanged":233}
 
 ## Differences
 
@@ -48,6 +48,15 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/appearance-invalidate-author-styling-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0006034844668345927, diffPixels=506
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/appearance-invalidate-author-styling-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0022] [WPT reftest] css/css-ui/appearance-revert-001.tentative.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-ui/appearance-revert-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/appearance-revert-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.008459516449126021, diffPixels=7093
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/appearance-revert-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0050] [WPT reftest] css/css-ui/caret-color-block-shape-text-color-001.html
   triage: pending
@@ -279,6 +288,15 @@
   stable reference render (css/css-ui/caret-shape-underscore-001-notref-2.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-underscore-001-notref-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable unexpected equality (css/css-ui/caret-shape-underscore-001-notref-3.html): comparison matched but relation is !=
   stable reference render (css/css-ui/caret-shape-underscore-001-notref-3.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-underscore-001-notref-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0081] [WPT reftest] css/css-ui/compute-kind-widget-fallback-props-revert-001.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-ui/compute-kind-widget-no-fallback-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-props-revert-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01374895046179681, diffPixels=11528
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-no-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0082] [WPT reftest] css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-background-attachment-001.html
   triage: pending

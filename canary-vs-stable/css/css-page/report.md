@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 244
-- Entries with differences: 119 (improvement: 3, pending: 116, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 120 (improvement: 4, pending: 116, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 5
-- Outcome summary: {"pass":105,"known-fail":114,"improvement":3,"changed-fail":2,"unchanged":20}
+- Outcome summary: {"pass":104,"known-fail":114,"improvement":4,"changed-fail":2,"unchanged":20}
 
 ## Differences
 
@@ -244,6 +244,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/fixedpos-with-abspos-with-link-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable selected pages: test=[1], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/fixedpos-with-abspos-with-link-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0024] [WPT print-reftest] css/css-page/fixedpos-with-iframe-print.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/fixedpos-with-iframe-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/fixedpos-with-iframe-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0025] [WPT print-reftest] css/css-page/fixedpos-with-link-with-inline-child-print.html
   triage: pending
@@ -1600,4 +1606,15 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/tentative/safe-printable-inset-003-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.3566, diffPixels=35660
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/tentative/safe-printable-inset-003-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0024] [WPT print-reftest] css/css-page/fixedpos-with-iframe-print.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-page/fixedpos-with-iframe-print-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/fixedpos-with-iframe-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/fixedpos-with-iframe-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
