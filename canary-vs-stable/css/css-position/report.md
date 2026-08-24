@@ -4,9 +4,9 @@
 - Entries with differences: 98 (pending: 98, triaged: 0)
 - Entries with errors: 3 (pending: 3, triaged: 0)
 - Timeout entries: 3
-- Page count changed: 4
-- Screenshot mismatches: 4
-- Outcome summary: {"known-fail":94,"pass":150,"changed-fail":4,"error":3}
+- Page count changed: 0
+- Screenshot mismatches: 0
+- Outcome summary: {"known-fail":98,"pass":150,"error":3}
 
 ## Differences
 
@@ -207,7 +207,7 @@
 
 - [0022] [WPT reftest] css/css-position/multicol/vlr-ltr-ltr-in-multicols.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/multicol/vlr-in-multicols-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/vlr-ltr-ltr-in-multicols.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -215,13 +215,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/vlr-in-multicols-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/vlr-ltr-ltr-in-multicols.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05149535340813678, diffPixels=43177
-  stable page 2: diffRatio=0.034486871231203725, diffPixels=28916
+  stable page 1: diffRatio=0.013207484161514389, diffPixels=11074
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/vlr-in-multicols-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0023] [WPT reftest] css/css-position/multicol/vlr-ltr-rtl-in-multicols.tentative.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/multicol/vlr-in-multicols-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/vlr-ltr-rtl-in-multicols.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -229,13 +228,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/vlr-in-multicols-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/vlr-ltr-rtl-in-multicols.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05329268758110068, diffPixels=44684
-  stable page 2: diffRatio=0.03541952904358446, diffPixels=29698
+  stable page 1: diffRatio=0.016845088161209068, diffPixels=14124
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/vlr-in-multicols-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0024] [WPT reftest] css/css-position/multicol/vlr-rtl-ltr-in-multicols.tentative.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/multicol/vlr-in-multicols-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/vlr-rtl-ltr-in-multicols.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -243,13 +241,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/vlr-in-multicols-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/vlr-rtl-ltr-in-multicols.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05326525646897184, diffPixels=44661
-  stable page 2: diffRatio=0.03434733035646134, diffPixels=28799
+  stable page 1: diffRatio=0.015863531409816046, diffPixels=13301
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/vlr-in-multicols-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0025] [WPT reftest] css/css-position/multicol/vlr-rtl-rtl-in-multicols.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/multicol/vlr-in-multicols-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/vlr-rtl-rtl-in-multicols.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -257,8 +254,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/vlr-in-multicols-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/vlr-rtl-rtl-in-multicols.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.051500124036333104, diffPixels=43181
-  stable page 2: diffRatio=0.03354944279062667, diffPixels=28130
+  stable page 1: diffRatio=0.01321225478971071, diffPixels=11078
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/vlr-in-multicols-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0027] [WPT reftest] css/css-position/multicol/vrl-ltr-rtl-in-multicols.tentative.html

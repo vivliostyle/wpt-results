@@ -705,11 +705,11 @@
   reference: css/css-gaps/grid-lanes/column-gap-decorations-014-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004237510495382032, diffPixels=3553
+  canary page 1: diffRatio=0.0035123750095412565, diffPixels=2945
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004237510495382032, diffPixels=3553
+  stable page 1: diffRatio=0.0035123750095412565, diffPixels=2945
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0300] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-015.html

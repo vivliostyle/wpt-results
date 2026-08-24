@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"known-fail":125,"pass":9,"changed-fail":1}
+- Screenshot mismatches: 0
+- Outcome summary: {"known-fail":126,"pass":9}
 
 ## Differences
 
@@ -235,7 +235,7 @@
 
 - [0019] [WPT reftest] css/css-layout-api/child-constraints/available-size-for-percentages-htb-vrl.https.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/child-constraints/available-size-for-percentages-htb-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

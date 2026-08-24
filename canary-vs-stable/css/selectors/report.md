@@ -1,18 +1,18 @@
 # canary vs stable comparison report
 
 - Compared entries: 347
-- Entries with differences: 196 (improvement: 4, pending: 192, triaged: 0)
+- Entries with differences: 190 (pending: 190, triaged: 0)
 - Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 12
-- Outcome summary: {"pass":144,"changed-fail":5,"known-fail":184,"improvement":4,"expected-change":2,"regression":1,"error":1,"unchanged":6}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":150,"known-fail":190,"error":1,"unchanged":6}
 
 ## Differences
 
 - [0004] [WPT reftest] css/selectors/dir-pseudo-update-document-element.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/selectors/dir-pseudo-update-document-element-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/dir-pseudo-update-document-element.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -88,59 +88,9 @@
   stable page 1: diffRatio=0.0015313716510190062, diffPixels=1284
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-selector-change-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0010] [WPT reftest] css/selectors/dir-selector-ltr-001.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-selector-ltr-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0013] [WPT reftest] css/selectors/dir-selector-rtl-001.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-selector-rtl-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0014] [WPT reftest] css/selectors/dir-selector-white-space-001.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/selectors/dir-selector-white-space-001-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-selector-white-space-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-selector-white-space-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0015] [WPT reftest] css/selectors/dir-style-01a.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.005816588428364247, diffPixels=4877
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/dir-style-01a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-style-01a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0016] [WPT reftest] css/selectors/dir-style-01b.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.005821359056560568, diffPixels=4881
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/dir-style-01b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-style-01b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0017] [WPT reftest] css/selectors/dir-style-02a.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/selectors/dir-style-02-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-style-02a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00459769292420426, diffPixels=3855
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-style-02-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0018] [WPT reftest] css/selectors/dir-style-02b.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/selectors/dir-style-02-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/dir-style-02b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -148,12 +98,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/dir-style-02-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-style-02b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.006293651247996336, diffPixels=5277
+  stable page 1: diffRatio=0.003543384092817342, diffPixels=2971
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-style-02-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0020] [WPT reftest] css/selectors/dir-style-03b.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/selectors/dir-style-03-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/dir-style-03b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -161,12 +111,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/dir-style-03-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-style-03b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00047587016258300894, diffPixels=399
+  stable page 1: diffRatio=0.0010614647736813983, diffPixels=890
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-style-03-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0021] [WPT reftest] css/selectors/dir-style-04.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/selectors/dir-style-04-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/dir-style-04.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -174,7 +124,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/dir-style-04-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-style-04.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004458152049461873, diffPixels=3738
+  stable page 1: diffRatio=0.0041826482711243415, diffPixels=3507
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/dir-style-04-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0022] [WPT reftest] css/selectors/featureless-001.html
@@ -504,12 +454,16 @@
 
 - [0069] [WPT reftest] css/selectors/invalidation/any-link-attribute-removal.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/selectors/invalidation/any-link-attribute-removal-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/invalidation/any-link-attribute-removal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.00034706320128234484, diffPixels=291
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/invalidation/any-link-attribute-removal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/any-link-attribute-removal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00034706320128234484, diffPixels=291
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/any-link-attribute-removal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0070] [WPT reftest] css/selectors/invalidation/class-id-attr.html
   triage: pending
@@ -2049,7 +2003,7 @@
 
 - [0285] [WPT reftest] css/selectors/popover-open-with-has-sibling-selector.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/popover-open-with-has-sibling-selector.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2057,7 +2011,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/popover-open-with-has-sibling-selector.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0286] [WPT reftest] css/selectors/remove-hovered-element.html

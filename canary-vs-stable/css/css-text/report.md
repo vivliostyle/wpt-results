@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1503
-- Entries with differences: 433 (pending: 433, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with differences: 434 (pending: 434, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":1067,"known-fail":433,"error":1,"unchanged":2}
+- Outcome summary: {"pass":1067,"known-fail":434,"unchanged":2}
 
 ## Differences
 
@@ -3075,7 +3075,7 @@
   reference: css/css-text/text-transform/reference/text-transform-tailoring-dynamic-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/text-transform-tailoring-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0012212808182581482, diffPixels=1024
+  canary page 1: diffRatio=0.001209354247767346, diffPixels=1014
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-tailoring-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-tailoring-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3522,6 +3522,19 @@
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/break-spaces-with-ideographic-space-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.002232653995878177, diffPixels=1872
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1001] [WPT reftest] css/css-text/white-space/break-spaces-with-ideographic-space-007.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/break-spaces-with-ideographic-space-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00011210976261354095, diffPixels=94
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/break-spaces-with-ideographic-space-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00011210976261354095, diffPixels=94
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1002] [WPT reftest] css/css-text/white-space/break-spaces-with-ideographic-space-008.html
@@ -5765,16 +5778,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/writing-system/writing-system-text-transform-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000019082512785283566, diffPixels=16
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/writing-system/reference/writing-system-text-transform-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [1001] [WPT reftest] css/css-text/white-space/break-spaces-with-ideographic-space-007.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/break-spaces-with-ideographic-space-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/break-spaces-with-ideographic-space-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

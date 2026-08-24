@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 244
-- Entries with differences: 120 (improvement: 4, pending: 116, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with differences: 116 (pending: 116, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 5
-- Outcome summary: {"pass":104,"known-fail":114,"improvement":4,"changed-fail":2,"unchanged":20}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":108,"known-fail":116,"unchanged":20}
 
 ## Differences
 
@@ -245,12 +245,6 @@
   stable selected pages: test=[1], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/fixedpos-with-abspos-with-link-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0024] [WPT print-reftest] css/css-page/fixedpos-with-iframe-print.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/fixedpos-with-iframe-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/fixedpos-with-iframe-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0025] [WPT print-reftest] css/css-page/fixedpos-with-link-with-inline-child-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -264,18 +258,9 @@
   stable page 2: diffRatio=0.0009946759789329059, diffPixels=834
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/fixedpos-with-link-with-inline-child-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0026] [WPT print-reftest] css/css-page/layers-001-print.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-page/layers-001-print-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/layers-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007633005114113426, diffPixels=640
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/layers-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0027] [WPT print-reftest] css/css-page/layers-002-print.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-page/layers-002-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/layers-002-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -283,12 +268,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/layers-002-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/layers-002-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007633005114113426, diffPixels=640
+  stable page 1: diffRatio=0.0003768796275093504, diffPixels=316
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/layers-002-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0028] [WPT print-reftest] css/css-page/layers-003-print.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-page/layers-003-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/layers-003-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -296,17 +281,8 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/layers-003-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/layers-003-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007346767422334173, diffPixels=616
+  stable page 1: diffRatio=0.0001884398137546752, diffPixels=158
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/layers-003-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0029] [WPT print-reftest] css/css-page/layers-004-print.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-page/layers-004-print-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/layers-004-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007633005114113426, diffPixels=640
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/layers-004-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0030] [WPT print-reftest] css/css-page/margin-boxes/alignment-001-print.html
   triage: pending
@@ -996,15 +972,6 @@
   stable page 2: diffRatio=0.02236875, diffPixels=3579
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-box-005-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0118] [WPT print-reftest] css/css-page/page-box-009-print.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-page/page-box-009-print-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-box-009-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.51441875, diffPixels=164614
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-box-009-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0126] [WPT print-reftest] css/css-page/page-margin-004-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -1606,15 +1573,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/tentative/safe-printable-inset-003-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.3566, diffPixels=35660
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/tentative/safe-printable-inset-003-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0024] [WPT print-reftest] css/css-page/fixedpos-with-iframe-print.html
-  triage: pending
-  side: stable-reference
-  reference: css/css-page/fixedpos-with-iframe-print-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/fixedpos-with-iframe-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/fixedpos-with-iframe-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

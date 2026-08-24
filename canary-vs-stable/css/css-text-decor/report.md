@@ -5,8 +5,8 @@
 - Entries with errors: 6 (pending: 6, triaged: 0)
 - Timeout entries: 6
 - Page count changed: 0
-- Screenshot mismatches: 5
-- Outcome summary: {"pass":135,"known-fail":161,"changed-fail":5,"error":6,"unchanged":66}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":135,"known-fail":166,"error":6,"unchanged":66}
 
 ## Differences
 
@@ -376,7 +376,7 @@
 
 - [0036] [WPT reftest] css/css-text-decor/text-decoration-inset-017.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text-decor/reference/text-decoration-inset-017-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-decoration-inset-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -384,12 +384,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-inset-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-decoration-inset-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0052142966185787345, diffPixels=4372
+  stable page 1: diffRatio=0.004737233798946645, diffPixels=3972
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-inset-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0037] [WPT reftest] css/css-text-decor/text-decoration-inset-018.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text-decor/reference/text-decoration-inset-018-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-decoration-inset-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -397,12 +397,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-inset-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-decoration-inset-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005381268605449966, diffPixels=4512
+  stable page 1: diffRatio=0.004881545301885352, diffPixels=4093
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-inset-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0038] [WPT reftest] css/css-text-decor/text-decoration-inset-019.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text-decor/reference/text-decoration-inset-019-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-decoration-inset-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -410,7 +410,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-inset-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-decoration-inset-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0050986088848179525, diffPixels=4275
+  stable page 1: diffRatio=0.00465732577665827, diffPixels=3905
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-inset-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0039] [WPT reftest] css/css-text-decor/text-decoration-inset-020.html
@@ -436,12 +436,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-inset-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-decoration-inset-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001226051446454469, diffPixels=1028
+  stable page 1: diffRatio=0.0012129322189145867, diffPixels=1017
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-inset-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0041] [WPT reftest] css/css-text-decor/text-decoration-inset-022.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text-decor/reference/text-decoration-inset-022-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-decoration-inset-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -449,12 +449,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-inset-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-decoration-inset-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0047479677123883676, diffPixels=3981
+  stable page 1: diffRatio=0.0025176990306083505, diffPixels=2111
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-inset-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0042] [WPT reftest] css/css-text-decor/text-decoration-inset-023.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text-decor/reference/text-decoration-inset-023-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-decoration-inset-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -462,7 +462,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-inset-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-decoration-inset-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005426589573315014, diffPixels=4550
+  stable page 1: diffRatio=0.0030269635905656057, diffPixels=2538
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-inset-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0043] [WPT reftest] css/css-text-decor/text-decoration-inset-024.html

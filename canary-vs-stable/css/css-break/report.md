@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 5
-- Outcome summary: {"pass":931,"known-fail":98,"changed-fail":5}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":931,"known-fail":103}
 
 ## Differences
 
@@ -584,7 +584,7 @@
 
 - [0884] [WPT reftest] css/css-break/table/table-col-paint-vlr-rtl.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-col-paint-vlr-rtl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-col-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -592,12 +592,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-col-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-col-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.1268390771696817, diffPixels=106350
+  stable page 1: diffRatio=0.06869704602702084, diffPixels=57600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-col-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0888] [WPT reftest] css/css-break/table/table-collapsed-borders-paint-vlr-rtl.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-collapsed-borders-paint-vlr-rtl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-collapsed-borders-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -610,7 +610,7 @@
 
 - [0891] [WPT reftest] css/css-break/table/table-grid-paint-vlr-rtl.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-grid-paint-vlr-rtl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-grid-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -618,12 +618,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-grid-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-grid-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.06738512327303259, diffPixels=56500
+  stable page 1: diffRatio=0.06643099763376842, diffPixels=55700
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-grid-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0894] [WPT reftest] css/css-break/table/table-row-paint-vlr-rtl.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-row-paint-vlr-rtl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-row-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -631,7 +631,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-row-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-row-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.16730593084497367, diffPixels=140280
+  stable page 1: diffRatio=0.08873368445156858, diffPixels=74400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-row-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0896] [WPT reftest] css/css-break/table/table-rowspan-001.html
@@ -649,7 +649,7 @@
 
 - [0898] [WPT reftest] css/css-break/table/table-section-paint-vlr-rtl.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-section-paint-vlr-rtl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-section-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -657,7 +657,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-section-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-section-paint-vlr-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.16730593084497367, diffPixels=140280
+  stable page 1: diffRatio=0.08873368445156858, diffPixels=74400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-section-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0924] [WPT reftest] css/css-break/transform-001.html

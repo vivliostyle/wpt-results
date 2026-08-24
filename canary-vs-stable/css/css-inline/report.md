@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 176
-- Entries with differences: 92 (pending: 92, triaged: 0)
+- Compared entries: 179
+- Entries with differences: 93 (pending: 93, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":84,"known-fail":92}
+- Outcome summary: {"pass":86,"known-fail":93}
 
 ## Differences
 
@@ -1076,7 +1076,20 @@
   stable page 1: diffRatio=0.050499484772154796, diffPixels=42342
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-inline-box-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0144] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001.html
+- [0144] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-inline-box-006.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-inline/text-box-trim/text-box-trim-inline-box-006-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-inline-box-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.10182428822227312, diffPixels=85376
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-inline-box-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-inline-box-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.10182428822227312, diffPixels=85376
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-inline-box-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0147] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html (==)
@@ -1089,7 +1102,7 @@
   stable page 1: diffRatio=0.021050396916265934, diffPixels=17650
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0145] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-002.html
+- [0148] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-002-ref.html (==)
@@ -1102,7 +1115,7 @@
   stable page 1: diffRatio=0.02403203953896649, diffPixels=20150
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0146] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-block-in-inline-001.html
+- [0149] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-block-in-inline-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html (==)
@@ -1115,7 +1128,7 @@
   stable page 1: diffRatio=0.021050396916265934, diffPixels=17650
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0147] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-block-in-inline-002.html
+- [0150] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-block-in-inline-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html (==)
@@ -1128,7 +1141,7 @@
   stable page 1: diffRatio=0.02403203953896649, diffPixels=20150
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0148] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-list-001.html
+- [0151] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-list-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-list-001-ref.html (==)
@@ -1141,7 +1154,7 @@
   stable page 1: diffRatio=0.017412792916571253, diffPixels=14600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-list-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0161] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-multicol-014.html
+- [0164] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-multicol-014.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-multicol-014-ref.html (==)
@@ -1154,7 +1167,7 @@
   stable page 1: diffRatio=0.12743302038012366, diffPixels=106848
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-multicol-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0170] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-start-001.html
+- [0173] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-start-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-start-001-ref.html?class=auto (==)
@@ -1167,7 +1180,7 @@
   stable page 1: diffRatio=0.1288117319288604, diffPixels=108004
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-start-001-ref.html?class=auto&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0174] [WPT print-reftest] css/css-inline/text-box-trim/not-at-page-edges-001-print.html
+- [0177] [WPT print-reftest] css/css-inline/text-box-trim/not-at-page-edges-001-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/not-at-page-edges-001-print-ref.html (==)
@@ -1182,7 +1195,7 @@
   stable page 3: diffRatio=0.057, diffPixels=9120
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/not-at-page-edges-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0175] [WPT print-reftest] css/css-inline/text-box-trim/not-at-page-edges-002-print.html
+- [0178] [WPT print-reftest] css/css-inline/text-box-trim/not-at-page-edges-002-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/not-at-page-edges-002-print-ref.html (==)
@@ -1195,7 +1208,7 @@
   stable page 3: diffRatio=0.064625, diffPixels=10340
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/not-at-page-edges-002-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0176] [WPT print-reftest] css/css-inline/text-box-trim/not-at-page-edges-003-print.html
+- [0179] [WPT print-reftest] css/css-inline/text-box-trim/not-at-page-edges-003-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/not-at-page-edges-003-print-ref.html (==)

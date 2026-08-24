@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"known-fail":114,"pass":101,"changed-fail":1}
+- Screenshot mismatches: 0
+- Outcome summary: {"known-fail":115,"pass":101}
 
 ## Differences
 
@@ -728,7 +728,7 @@
 
 - [0100] [WPT reftest] css/css-anchor-position/anchor-scroll-vlr.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/reference/anchor-scroll-vlr-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -736,7 +736,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 2: diffRatio=0.01877838523776811, diffPixels=15745
+  stable page 2: diffRatio=0.015745458361957104, diffPixels=13202
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0108] [WPT reftest] css/css-anchor-position/container-queries/anchored-fallback-color-change.html

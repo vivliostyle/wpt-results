@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 47
-- Entries with differences: 8 (improvement: 1, pending: 7, triaged: 0)
+- Entries with differences: 7 (pending: 7, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":39,"known-fail":7,"improvement":1}
+- Outcome summary: {"pass":40,"known-fail":7}
 
 ## Differences
 
@@ -100,10 +100,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0004591729638958858, diffPixels=385
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0046] [WPT reftest] css/css-will-change/will-change-transform-zero-size-child-overflow-visible.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-will-change/will-change-transform-zero-size-child-overflow-visible.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-will-change/will-change-transform-zero-size-child-overflow-visible.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
