@@ -5,8 +5,8 @@
 - Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":150,"known-fail":190,"error":1,"unchanged":6}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":150,"known-fail":189,"error":1,"changed-fail":1,"unchanged":6}
 
 ## Differences
 
@@ -2003,11 +2003,11 @@
 
 - [0285] [WPT reftest] css/selectors/popover-open-with-has-sibling-selector.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/popover-open-with-has-sibling-selector.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/popover-open-with-has-sibling-selector.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

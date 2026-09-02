@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 6824
-- Entries with differences: 1122 (improvement: 5, pending: 1117, triaged: 0)
+- Entries with differences: 1017 (pending: 1017, triaged: 0)
 - Entries with errors: 3 (pending: 3, triaged: 0)
 - Timeout entries: 3
 - Page count changed: 0
-- Screenshot mismatches: 7
-- Outcome summary: {"known-fail":1101,"pass":5142,"error":3,"regression":12,"changed-fail":3,"improvement":5,"unchanged":557,"changed":1}
+- Screenshot mismatches: 0
+- Outcome summary: {"known-fail":1017,"pass":5246,"error":3,"unchanged":558}
 
 ## Differences
 
@@ -809,11 +809,11 @@
   reference: css/CSS2/backgrounds/background-root-007-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-root-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.607620601480803, diffPixels=509468
+  canary page 1: diffRatio=0.2349116956720861, diffPixels=196965
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-root-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-root-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.607620601480803, diffPixels=509468
+  stable page 1: diffRatio=0.2349116956720861, diffPixels=196965
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-root-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0348] [WPT reftest] css/CSS2/backgrounds/background-root-008.xht
@@ -861,11 +861,11 @@
   reference: css/CSS2/backgrounds/background-root-012b-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-root-012b.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003029348904663766, diffPixels=254
+  canary page 1: diffRatio=0.000647612777650561, diffPixels=543
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-root-012b-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-root-012b.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003029348904663766, diffPixels=254
+  stable page 1: diffRatio=0.000647612777650561, diffPixels=543
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-root-012b-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0355] [WPT reftest] css/CSS2/backgrounds/background-root-015.xht
@@ -1491,6 +1491,19 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/box-display/containing-block-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.025547906648347454, diffPixels=21421
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/box-display/containing-block-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1042] [WPT reftest] css/CSS2/box-display/containing-block-023.xht
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/CSS2/box-display/containing-block-023-ref.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/box-display/containing-block-023.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.010991527364323335, diffPixels=9216
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/box-display/containing-block-023-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/box-display/containing-block-023.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.010991527364323335, diffPixels=9216
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/box-display/containing-block-023-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1048] [WPT reftest] css/CSS2/box-display/delete-block-in-inlines-beginning-001.xht
   triage: pending
@@ -6393,227 +6406,6 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3548] [WPT reftest] css/CSS2/normal-flow/max-width-006.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3549] [WPT reftest] css/CSS2/normal-flow/max-width-007.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3552] [WPT reftest] css/CSS2/normal-flow/max-width-014.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-003-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011032077703992062, diffPixels=925
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011032077703992062, diffPixels=925
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3555] [WPT reftest] css/CSS2/normal-flow/max-width-017.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-017.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-017.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3556] [WPT reftest] css/CSS2/normal-flow/max-width-018.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3559] [WPT reftest] css/CSS2/normal-flow/max-width-025.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-025-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-025.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002595221738798565, diffPixels=2176
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-025-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-025.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002595221738798565, diffPixels=2176
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-025-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3562] [WPT reftest] css/CSS2/normal-flow/max-width-028.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-028.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-028.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3563] [WPT reftest] css/CSS2/normal-flow/max-width-029.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3566] [WPT reftest] css/CSS2/normal-flow/max-width-036.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-036-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-036.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004914939699259598, diffPixels=4121
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-036-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-036.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004914939699259598, diffPixels=4121
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-036-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3569] [WPT reftest] css/CSS2/normal-flow/max-width-039.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-039.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-039.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3570] [WPT reftest] css/CSS2/normal-flow/max-width-040.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-040.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-040.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3573] [WPT reftest] css/CSS2/normal-flow/max-width-047.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-047-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-047.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001396601404472941, diffPixels=1171
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-047-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-047.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001396601404472941, diffPixels=1171
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-047-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3576] [WPT reftest] css/CSS2/normal-flow/max-width-050.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-050.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-050.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3577] [WPT reftest] css/CSS2/normal-flow/max-width-051.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-051.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-051.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3580] [WPT reftest] css/CSS2/normal-flow/max-width-058.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/reference/ref-filled-black-96px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-058.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011057123502022747, diffPixels=9271
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-058.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011057123502022747, diffPixels=9271
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3583] [WPT reftest] css/CSS2/normal-flow/max-width-061.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-061-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-061.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.06283871460193878, diffPixels=52688
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-061-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-061.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.06283871460193878, diffPixels=52688
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-061-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3584] [WPT reftest] css/CSS2/normal-flow/max-width-062.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-061-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-062.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.06283871460193878, diffPixels=52688
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-061-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-062.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.06283871460193878, diffPixels=52688
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-061-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [3612] [WPT reftest] css/CSS2/normal-flow/max-width-106.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -6718,30 +6510,17 @@
   stable page 1: diffRatio=0.0034348523013510417, diffPixels=2880
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/pass_if_square_96px_black.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3796] [WPT reftest] css/CSS2/normal-flow/min-width-percentage-001.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-percentage-001-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/min-width-percentage-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022338466529272575, diffPixels=18730
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-percentage-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/min-width-percentage-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022338466529272575, diffPixels=18730
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-percentage-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [3802] [WPT reftest] css/CSS2/normal-flow/replaced-intrinsic-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/normal-flow/replaced-intrinsic-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02563854858407755, diffPixels=21497
+  canary page 1: diffRatio=0.026834783604305013, diffPixels=22500
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02563854858407755, diffPixels=21497
+  stable page 1: diffRatio=0.026834783604305013, diffPixels=22500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [3803] [WPT reftest] css/CSS2/normal-flow/replaced-intrinsic-002.xht
@@ -6750,51 +6529,12 @@
   reference: css/CSS2/normal-flow/replaced-intrinsic-002-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007232272345622471, diffPixels=6064
+  canary page 1: diffRatio=0.034071826578123805, diffPixels=28568
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.007232272345622471, diffPixels=6064
+  stable page 1: diffRatio=0.034071826578123805, diffPixels=28568
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3804] [WPT reftest] css/CSS2/normal-flow/replaced-intrinsic-003.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/replaced-intrinsic-003-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00433411571635753, diffPixels=3634
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00433411571635753, diffPixels=3634
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3805] [WPT reftest] css/CSS2/normal-flow/replaced-intrinsic-004.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01460885619418365, diffPixels=12249
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01460885619418365, diffPixels=12249
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3806] [WPT reftest] css/CSS2/normal-flow/replaced-intrinsic-005.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/replaced-intrinsic-005-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.021049204259216855, diffPixels=17649
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-005-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021049204259216855, diffPixels=17649
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-005-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [3810] [WPT reftest] css/CSS2/normal-flow/video-controls-paint-order.html
   triage: pending
@@ -6809,97 +6549,6 @@
   stable page 1: diffRatio=0.009480430883138692, diffPixels=7949
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/video-paint-order-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3814] [WPT reftest] css/CSS2/normal-flow/width-003.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-003-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/width-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011032077703992062, diffPixels=925
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/width-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011032077703992062, diffPixels=925
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3817] [WPT reftest] css/CSS2/normal-flow/width-006.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/width-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/width-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3818] [WPT reftest] css/CSS2/normal-flow/width-007.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/width-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/width-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3821] [WPT reftest] css/CSS2/normal-flow/width-014.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-003-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/width-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011032077703992062, diffPixels=925
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/width-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011032077703992062, diffPixels=925
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3824] [WPT reftest] css/CSS2/normal-flow/width-017.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/width-017.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/width-017.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3825] [WPT reftest] css/CSS2/normal-flow/width-018.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/width-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/width-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022114247004045493, diffPixels=18542
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3828] [WPT reftest] css/CSS2/normal-flow/width-025.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/normal-flow/max-width-025-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/width-025.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002595221738798565, diffPixels=2176
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/max-width-025-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/width-025.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002595221738798565, diffPixels=2176
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-025-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [3891] [WPT reftest] css/CSS2/normal-flow/width-applies-to-014.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -6912,201 +6561,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/width-applies-to-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0034348523013510417, diffPixels=2880
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3925] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-001.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011404186703305091, diffPixels=9562
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011404186703305091, diffPixels=9562
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3926] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-002.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010788775665979695, diffPixels=9046
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010788775665979695, diffPixels=9046
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3927] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-003.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-non-replaced-width-003-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010788775665979695, diffPixels=9046
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010788775665979695, diffPixels=9046
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3928] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-004.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010788775665979695, diffPixels=9046
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010788775665979695, diffPixels=9046
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3929] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-005.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011404186703305091, diffPixels=9562
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011404186703305091, diffPixels=9562
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3930] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-006.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010788775665979695, diffPixels=9046
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010788775665979695, diffPixels=9046
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3931] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-007.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011404186703305091, diffPixels=9562
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011404186703305091, diffPixels=9562
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3932] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-008.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-non-replaced-width-008-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012098313105869781, diffPixels=10144
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012098313105869781, diffPixels=10144
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3933] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-010.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011404186703305091, diffPixels=9562
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011404186703305091, diffPixels=9562
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3934] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-011.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-011.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011404186703305091, diffPixels=9562
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-011.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011404186703305091, diffPixels=9562
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3935] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-012.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010788775665979695, diffPixels=9046
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010788775665979695, diffPixels=9046
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3936] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-013.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010788775665979695, diffPixels=9046
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010788775665979695, diffPixels=9046
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3937] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-014.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011404186703305091, diffPixels=9562
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011404186703305091, diffPixels=9562
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-height-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3938] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-015.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-non-replaced-width-015-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-015.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01214840470193115, diffPixels=10186
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-015-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-015.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01214840470193115, diffPixels=10186
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-015-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3939] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-016.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-016.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010788775665979695, diffPixels=9046
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-016.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010788775665979695, diffPixels=9046
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [3940] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-017.xht
   triage: pending
@@ -7212,242 +6666,6 @@
   stable page 1: diffRatio=0.008626488435997252, diffPixels=7233
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-021-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3973] [WPT reftest] css/CSS2/positioning/absolute-replaced-height-024.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-height-010-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-024.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010991527364323335, diffPixels=9216
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-010-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-024.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010991527364323335, diffPixels=9216
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-010-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3976] [WPT reftest] css/CSS2/positioning/absolute-replaced-height-027.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-height-013-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-027.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04460656629264942, diffPixels=37401
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-027.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04088547629951912, diffPixels=34281
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3978] [WPT reftest] css/CSS2/positioning/absolute-replaced-height-029.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-height-008-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00026834783604305016, diffPixels=225
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00026834783604305016, diffPixels=225
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3979] [WPT reftest] css/CSS2/positioning/absolute-replaced-height-030.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-height-008-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-030.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00026834783604305016, diffPixels=225
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-030.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00026834783604305016, diffPixels=225
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3983] [WPT reftest] css/CSS2/positioning/absolute-replaced-height-034.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-height-013-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-034.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04088547629951912, diffPixels=34281
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-034.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04088547629951912, diffPixels=34281
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3985] [WPT reftest] css/CSS2/positioning/absolute-replaced-height-036.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/CSS2/reference/ref-if-there-is-no-red.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-height-036.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001959535531638806, diffPixels=1643
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-if-there-is-no-red.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3986] [WPT reftest] css/CSS2/positioning/absolute-replaced-width-001.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-width-001-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0022779749637432257, diffPixels=1910
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010566941454850775, diffPixels=886
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3987] [WPT reftest] css/CSS2/positioning/absolute-replaced-width-002.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-width-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010742262041065568, diffPixels=9007
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010742262041065568, diffPixels=9007
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3988] [WPT reftest] css/CSS2/positioning/absolute-replaced-width-003.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-width-003-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04534482100603007, diffPixels=38020
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022668832531867796, diffPixels=19007
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3992] [WPT reftest] css/CSS2/positioning/absolute-replaced-width-004.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-width-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022668832531867796, diffPixels=19007
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.044390695366765896, diffPixels=37220
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3993] [WPT reftest] css/CSS2/positioning/absolute-replaced-width-006.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-width-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009994466071292269, diffPixels=838
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009994466071292269, diffPixels=838
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3994] [WPT reftest] css/CSS2/positioning/absolute-replaced-width-008.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-width-001-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014800873979085565, diffPixels=1241
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3995] [WPT reftest] css/CSS2/positioning/absolute-replaced-width-009.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-width-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010742262041065568, diffPixels=9007
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010742262041065568, diffPixels=9007
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3996] [WPT reftest] css/CSS2/positioning/absolute-replaced-width-010.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-width-003-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022668832531867796, diffPixels=19007
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3997] [WPT reftest] css/CSS2/positioning/absolute-replaced-width-011.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-width-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-011.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022668832531867796, diffPixels=19007
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3998] [WPT reftest] css/CSS2/positioning/absolute-replaced-width-013.xht
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-width-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009810796885733913, diffPixels=8226
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010584831310586977, diffPixels=8875
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [3999] [WPT reftest] css/CSS2/positioning/absolute-replaced-width-015.xht
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-width-015-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-015.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010137584917181894, diffPixels=850
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-015-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-015.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00035779711472406687, diffPixels=300
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-015-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4000] [WPT reftest] css/CSS2/positioning/absolute-replaced-width-020.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-width-020-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-020.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0012534825585833144, diffPixels=1051
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-020-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-020.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010589601938783298, diffPixels=8879
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-020-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4001] [WPT reftest] css/CSS2/positioning/absolute-replaced-width-022.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-width-022-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-022.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01054547362796733, diffPixels=8842
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-022-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4005] [WPT reftest] css/CSS2/positioning/absolute-replaced-width-027.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/CSS2/positioning/absolute-replaced-width-027-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-027.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009803640943439431, diffPixels=8220
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/absolute-replaced-width-027-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [4039] [WPT reftest] css/CSS2/positioning/abspos-013.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -7506,38 +6724,12 @@
   reference: css/CSS2/positioning/abspos-024-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/abspos-024.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0017567838332951684, diffPixels=1473
+  canary page 1: diffRatio=0.000020275169834363788, diffPixels=17
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/abspos-024-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-024.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0017567838332951684, diffPixels=1473
+  stable page 1: diffRatio=0.000020275169834363788, diffPixels=17
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-024-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4049] [WPT reftest] css/CSS2/positioning/abspos-025.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/abspos-025-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/abspos-025.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008777955881230441, diffPixels=736
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/abspos-025-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-025.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008777955881230441, diffPixels=736
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-025-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4050] [WPT reftest] css/CSS2/positioning/abspos-026.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/abspos-025-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/abspos-026.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010555014884359973, diffPixels=885
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/abspos-025-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-026.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010555014884359973, diffPixels=885
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-025-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4052] [WPT reftest] css/CSS2/positioning/abspos-028.xht
   triage: pending
@@ -7551,19 +6743,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-028.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0036638424547744447, diffPixels=3072
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-028-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4053] [WPT reftest] css/CSS2/positioning/abspos-029.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/abspos-001-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/abspos-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00278246889550416, diffPixels=2333
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/abspos-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00278246889550416, diffPixels=2333
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4055] [WPT reftest] css/CSS2/positioning/abspos-containing-block-001.xht
   triage: pending
@@ -7811,417 +6990,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/position-relative-035.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0017555911762460882, diffPixels=1472
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/position-relative-035-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4274] [WPT reftest] css/CSS2/positioning/position-static-001.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/position-static-001-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/position-static-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.038225851080070226, diffPixels=32051
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/position-static-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/position-static-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.038225851080070226, diffPixels=32051
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/position-static-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4284] [WPT reftest] css/CSS2/positioning/right-004.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4285] [WPT reftest] css/CSS2/positioning/right-005.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4286] [WPT reftest] css/CSS2/positioning/right-006.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4287] [WPT reftest] css/CSS2/positioning/right-007.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-007-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0012964182123502022, diffPixels=1087
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0012964182123502022, diffPixels=1087
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4288] [WPT reftest] css/CSS2/positioning/right-008.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-007-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0012964182123502022, diffPixels=1087
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0012964182123502022, diffPixels=1087
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4289] [WPT reftest] css/CSS2/positioning/right-016.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-016.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-016.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4290] [WPT reftest] css/CSS2/positioning/right-017.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-017.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-017.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4291] [WPT reftest] css/CSS2/positioning/right-018.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4292] [WPT reftest] css/CSS2/positioning/right-019.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-019-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-019.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011164462636439967, diffPixels=9361
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-019.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011164462636439967, diffPixels=9361
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4293] [WPT reftest] css/CSS2/positioning/right-020.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-019-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-020.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011164462636439967, diffPixels=9361
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-020.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011164462636439967, diffPixels=9361
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4294] [WPT reftest] css/CSS2/positioning/right-028.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-028.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-028.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4295] [WPT reftest] css/CSS2/positioning/right-029.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4296] [WPT reftest] css/CSS2/positioning/right-030.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-030.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-030.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4297] [WPT reftest] css/CSS2/positioning/right-031.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/CSS2/positioning/right-031-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-031.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0026834783604305014, diffPixels=2250
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-031-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4298] [WPT reftest] css/CSS2/positioning/right-032.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-031-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-032.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0026834783604305014, diffPixels=2250
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-031-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-032.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0026834783604305014, diffPixels=2250
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-031-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4299] [WPT reftest] css/CSS2/positioning/right-040.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-040.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-040.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4300] [WPT reftest] css/CSS2/positioning/right-041.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/CSS2/positioning/right-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-041.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015385275933134876, diffPixels=1290
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4320] [WPT reftest] css/CSS2/positioning/right-089.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/CSS2/positioning/right-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-089.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003044853446301809, diffPixels=2553
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4321] [WPT reftest] css/CSS2/positioning/right-090.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-090.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015385275933134876, diffPixels=1290
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-090.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015385275933134876, diffPixels=1290
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4322] [WPT reftest] css/CSS2/positioning/right-091.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-019-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-091.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011164462636439967, diffPixels=9361
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-091.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011164462636439967, diffPixels=9361
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4323] [WPT reftest] css/CSS2/positioning/right-092.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-019-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-092.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011164462636439967, diffPixels=9361
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-092.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011164462636439967, diffPixels=9361
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4324] [WPT reftest] css/CSS2/positioning/right-100.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-100-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-100.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0025821025112586827, diffPixels=2165
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-100-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-100.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015015552247920007, diffPixels=1259
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-100-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4325] [WPT reftest] css/CSS2/positioning/right-101.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/CSS2/positioning/right-100-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-101.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0025821025112586827, diffPixels=2165
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-100-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4326] [WPT reftest] css/CSS2/positioning/right-102.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/CSS2/positioning/right-100-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-102.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0025821025112586827, diffPixels=2165
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-100-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4327] [WPT reftest] css/CSS2/positioning/right-103.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-103-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-103.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011057123502022747, diffPixels=9271
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-103-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-103.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011057123502022747, diffPixels=9271
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-103-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4328] [WPT reftest] css/CSS2/positioning/right-104.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-103-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-104.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011057123502022747, diffPixels=9271
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-103-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-104.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011057123502022747, diffPixels=9271
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-103-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4329] [WPT reftest] css/CSS2/positioning/right-109.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/positioning/right-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-109.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015385275933134876, diffPixels=1290
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-109.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015385275933134876, diffPixels=1290
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4331] [WPT reftest] css/CSS2/positioning/right-111.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/CSS2/positioning/right-004-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-111.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015385275933134876, diffPixels=1290
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4332] [WPT reftest] css/CSS2/positioning/right-112.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/CSS2/positioning/right-004-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-112.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015385275933134876, diffPixels=1290
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4334] [WPT reftest] css/CSS2/positioning/right-applies-to-001.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/CSS2/positioning/right-applies-to-001-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-applies-to-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011296847568887871, diffPixels=9472
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-applies-to-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4340] [WPT reftest] css/CSS2/positioning/right-applies-to-007.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/CSS2/positioning/right-applies-to-001-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-applies-to-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011296847568887871, diffPixels=9472
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-applies-to-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4341] [WPT reftest] css/CSS2/positioning/right-applies-to-009.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/CSS2/positioning/right-applies-to-001-ref.xht (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-applies-to-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011296847568887871, diffPixels=9472
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-applies-to-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4344] [WPT reftest] css/CSS2/positioning/right-applies-to-014.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/CSS2/positioning/right-applies-to-001-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-applies-to-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011296847568887871, diffPixels=9472
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-applies-to-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [4349] [WPT reftest] css/CSS2/positioning/right-offset-004.xht
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/positioning/right-offset-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012120973589802304, diffPixels=10163
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/right-offset-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.023726719334401954, diffPixels=19894
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4437] [WPT reftest] css/CSS2/sec5/first-line-000.xht
   triage: pending
@@ -10966,32 +9734,6 @@
   stable page 1: diffRatio=0.0004257785665216396, diffPixels=357
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-this-text-should-be-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5186] [WPT reftest] css/CSS2/syntax/uri-004.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/reference/ref-green-background.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/uri-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013618950843447065, diffPixels=11419
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/uri-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.013618950843447065, diffPixels=11419
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [5187] [WPT reftest] css/CSS2/syntax/uri-005.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/reference/ref-green-background.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/uri-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013618950843447065, diffPixels=11419
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/uri-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.013618950843447065, diffPixels=11419
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [5195] [WPT reftest] css/CSS2/syntax/uri-013.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -11005,19 +9747,6 @@
   stable page 1: diffRatio=0.041325566750629726, diffPixels=34650
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/uri-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5196] [WPT reftest] css/CSS2/syntax/uri-014.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/reference/ref-green-background.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/uri-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013618950843447065, diffPixels=11419
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/uri-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.013618950843447065, diffPixels=11419
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [5197] [WPT reftest] css/CSS2/syntax/uri-015.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -11030,19 +9759,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/uri-015.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.013618950843447065, diffPixels=11419
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [5199] [WPT reftest] css/CSS2/syntax/uri-017.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/syntax/uri-017-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/uri-017.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.026832398290206855, diffPixels=22498
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/uri-017-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/uri-017.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.026832398290206855, diffPixels=22498
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/uri-017-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [5207] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-cell-001.xht
   triage: pending
@@ -14569,13 +13285,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-8-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable selected pages: test=[1], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [6480] [WPT manual] css/CSS2/backgrounds/background-animated-001.xht
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00013954087474238607, diffPixels=117
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-animated-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-animated-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
 

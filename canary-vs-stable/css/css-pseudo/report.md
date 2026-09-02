@@ -439,7 +439,7 @@
   stable page 1: diffRatio=0.0030579726738416916, diffPixels=2564
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-insert-text-node-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0056] [WPT reftest] css/css-pseudo/first-letter-punctuation-dynamic.html
+- [0055] [WPT reftest] css/css-pseudo/first-letter-punctuation-dynamic.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/first-letter-punctuation-dynamic-ref.html (==)
@@ -452,7 +452,7 @@
   stable page 1: diffRatio=0.0000942199068773376, diffPixels=79
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-punctuation-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0057] [WPT reftest] css/css-pseudo/first-letter-skip-empty-span-nested.html
+- [0056] [WPT reftest] css/css-pseudo/first-letter-skip-empty-span-nested.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/first-letter-skip-empty-span-nested-ref.html (==)
@@ -465,7 +465,7 @@
   stable page 1: diffRatio=0.00003577971147240669, diffPixels=30
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-skip-empty-span-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0058] [WPT reftest] css/css-pseudo/first-letter-skip-empty-span.html
+- [0057] [WPT reftest] css/css-pseudo/first-letter-skip-empty-span.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/first-letter-skip-empty-span-ref.html (==)
@@ -478,7 +478,7 @@
   stable page 1: diffRatio=0.00003577971147240669, diffPixels=30
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-skip-empty-span-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0060] [WPT reftest] css/css-pseudo/first-letter-text-and-display-change.html
+- [0059] [WPT reftest] css/css-pseudo/first-letter-text-and-display-change.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/pass_if_letter_uppercase.html (==)
@@ -491,7 +491,7 @@
   stable page 1: diffRatio=0.000518805816349897, diffPixels=435
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/pass_if_letter_uppercase.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0061] [WPT reftest] css/css-pseudo/first-letter-trailing-punctuation.html
+- [0060] [WPT reftest] css/css-pseudo/first-letter-trailing-punctuation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/first-letter-trailing-punctuation-ref.html (==)
@@ -504,7 +504,7 @@
   stable page 1: diffRatio=0.0020358655827799406, diffPixels=1707
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-trailing-punctuation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0062] [WPT reftest] css/css-pseudo/first-letter-width-2.html
+- [0061] [WPT reftest] css/css-pseudo/first-letter-width-2.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/first-letter-width-2-ref.html (==)
@@ -517,7 +517,7 @@
   stable page 1: diffRatio=0.0007155942294481337, diffPixels=600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-width-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0065] [WPT reftest] css/css-pseudo/first-letter-with-preceding-new-line.html
+- [0064] [WPT reftest] css/css-pseudo/first-letter-with-preceding-new-line.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/reference/first-letter-with-preceding-new-line-ref.html (==)
@@ -530,7 +530,7 @@
   stable page 1: diffRatio=0.0017675177467368903, diffPixels=1482
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/first-letter-with-preceding-new-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0066] [WPT reftest] css/css-pseudo/first-letter-with-quote.html
+- [0065] [WPT reftest] css/css-pseudo/first-letter-with-quote.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/first-letter-with-quote-ref.html (==)
@@ -543,7 +543,7 @@
   stable page 1: diffRatio=0.0000035779711472406687, diffPixels=3
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-with-quote-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0067] [WPT reftest] css/css-pseudo/first-letter-with-span.html
+- [0066] [WPT reftest] css/css-pseudo/first-letter-with-span.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/first-letter-with-span-ref.html (==)
@@ -556,7 +556,7 @@
   stable page 1: diffRatio=0.000005963285245401114, diffPixels=5
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-with-span-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0068] [WPT reftest] css/css-pseudo/first-line-and-marker.html
+- [0067] [WPT reftest] css/css-pseudo/first-line-and-marker.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/first-line-and-marker-ref.html (==)
@@ -569,7 +569,7 @@
   stable page 1: diffRatio=0.0008587130753377604, diffPixels=720
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-and-marker-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0070] [WPT reftest] css/css-pseudo/first-line-below-float.html
+- [0069] [WPT reftest] css/css-pseudo/first-line-below-float.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -582,7 +582,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0071] [WPT reftest] css/css-pseudo/first-line-change-inline-color-nested.html
+- [0070] [WPT reftest] css/css-pseudo/first-line-change-inline-color-nested.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/first-line-change-inline-color-nested-ref.html (==)
@@ -595,7 +595,7 @@
   stable page 1: diffRatio=0.0003756869704602702, diffPixels=315
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-change-inline-color-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0072] [WPT reftest] css/css-pseudo/first-line-change-inline-color.html
+- [0071] [WPT reftest] css/css-pseudo/first-line-change-inline-color.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/first-line-change-inline-color-ref.html (==)

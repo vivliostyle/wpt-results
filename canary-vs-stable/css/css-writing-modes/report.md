@@ -4721,11 +4721,11 @@
   reference: css/css-writing-modes/overconstrained-rel-pos-ltr-top-bottom-vlr-003-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-ltr-top-bottom-vlr-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0038272364704984353, diffPixels=3209
+  canary page 1: diffRatio=0.003922649034424853, diffPixels=3289
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-ltr-top-bottom-vlr-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-ltr-top-bottom-vlr-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0038272364704984353, diffPixels=3209
+  stable page 1: diffRatio=0.003922649034424853, diffPixels=3289
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-ltr-top-bottom-vlr-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0785] [WPT reftest] css/css-writing-modes/overconstrained-rel-pos-ltr-top-bottom-vrl-002.xht
@@ -4734,11 +4734,11 @@
   reference: css/css-writing-modes/overconstrained-rel-pos-ltr-top-bottom-vrl-002-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-ltr-top-bottom-vrl-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003933382947866575, diffPixels=3298
+  canary page 1: diffRatio=0.0038272364704984353, diffPixels=3209
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-ltr-top-bottom-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-ltr-top-bottom-vrl-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003933382947866575, diffPixels=3298
+  stable page 1: diffRatio=0.0038272364704984353, diffPixels=3209
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-ltr-top-bottom-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0786] [WPT reftest] css/css-writing-modes/overconstrained-rel-pos-rtl-left-right-vlr-009.xht
@@ -4760,11 +4760,11 @@
   reference: css/css-writing-modes/overconstrained-rel-pos-rtl-left-right-vrl-008-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-rtl-left-right-vrl-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0038272364704984353, diffPixels=3209
+  canary page 1: diffRatio=0.0038284291275475155, diffPixels=3210
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-rtl-left-right-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-rtl-left-right-vrl-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0038272364704984353, diffPixels=3209
+  stable page 1: diffRatio=0.0038284291275475155, diffPixels=3210
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-rtl-left-right-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0788] [WPT reftest] css/css-writing-modes/overconstrained-rel-pos-rtl-top-bottom-vlr-007.xht

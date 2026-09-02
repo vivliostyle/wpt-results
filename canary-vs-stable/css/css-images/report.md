@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 460
-- Entries with differences: 143 (pending: 143, triaged: 0)
+- Entries with differences: 141 (pending: 141, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":317,"known-fail":142,"regression":1}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":319,"known-fail":140,"regression":1}
 
 ## Differences
 
@@ -465,40 +465,14 @@
   stable page 1: diffRatio=0.02232773261583085, diffPixels=18721
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/reference/image-orientation-none-cross-origin-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0146] [WPT reftest] css/css-images/image-orientation/svg-image-orientation-aspect-ratio.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-images/image-orientation/reference/svg-image-orientation-aspect-ratio-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/svg-image-orientation-aspect-ratio.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.11727277497900923, diffPixels=98329
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/reference/svg-image-orientation-aspect-ratio-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/svg-image-orientation-aspect-ratio.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.11727277497900923, diffPixels=98329
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/reference/svg-image-orientation-aspect-ratio-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0147] [WPT reftest] css/css-images/image-orientation/svg-image-orientation-none.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: regression (baseline=PASS, actual=FAIL)
   reference: css/css-images/image-orientation/reference/svg-image-orientation-none-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/svg-image-orientation-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011907487978016945, diffPixels=9984
+  canary page 1: diffRatio=0.005953743989008472, diffPixels=4992
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/reference/svg-image-orientation-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/svg-image-orientation-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011907487978016945, diffPixels=9984
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/reference/svg-image-orientation-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0148] [WPT reftest] css/css-images/image-orientation/svg-image-orientation.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-images/image-orientation/reference/svg-image-orientation-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/svg-image-orientation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02381736127013205, diffPixels=19970
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/reference/svg-image-orientation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0152] [WPT reftest] css/css-images/image-set/image-set-calc-x-rendering-2.html
   triage: pending

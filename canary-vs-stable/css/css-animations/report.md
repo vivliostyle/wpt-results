@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 97
-- Entries with differences: 22 (pending: 22, triaged: 0)
+- Compared entries: 98
+- Entries with differences: 23 (pending: 23, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":22,"pass":9,"unchanged":66}
+- Outcome summary: {"known-fail":23,"pass":9,"unchanged":66}
 
 ## Differences
 
@@ -231,7 +231,20 @@
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/flip-running-animation-via-variable-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0024] [WPT reftest] css/css-animations/nested-scale-animations.html
+- [0024] [WPT reftest] css/css-animations/keyframes-tree-scoped-property-with-var.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/keyframes-tree-scoped-property-with-var.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/keyframes-tree-scoped-property-with-var.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0025] [WPT reftest] css/css-animations/nested-scale-animations.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-animations/nested-scale-animations-ref.html (==)
@@ -244,7 +257,7 @@
   stable page 1: diffRatio=0.010733913441722006, diffPixels=9000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/nested-scale-animations-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0026] [WPT reftest] css/css-animations/parsing/animation-name-edge-cases.html
+- [0027] [WPT reftest] css/css-animations/parsing/animation-name-edge-cases.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-animations/parsing/animation-name-edge-cases-ref.html (==)
@@ -257,7 +270,7 @@
   stable page 1: diffRatio=0.08050435081291504, diffPixels=67500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/parsing/animation-name-edge-cases-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0027] [WPT reftest] css/css-animations/svg-transform-animation.html
+- [0028] [WPT reftest] css/css-animations/svg-transform-animation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-animations/svg-transform-animation-ref.html (==)
@@ -270,7 +283,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/svg-transform-animation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0028] [WPT reftest] css/css-animations/svg-use-transform-keyframes-custom-property-override.html
+- [0029] [WPT reftest] css/css-animations/svg-use-transform-keyframes-custom-property-override.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-animations/svg-use-transform-keyframes-custom-property-override-ref.html (==)
@@ -283,7 +296,7 @@
   stable page 1: diffRatio=0.00023853140981604457, diffPixels=200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/svg-use-transform-keyframes-custom-property-override-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0031] [WPT reftest] css/css-animations/translation-animation-subpixel-offset.html
+- [0032] [WPT reftest] css/css-animations/translation-animation-subpixel-offset.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-animations/translation-animation-subpixel-offset-ref.html (==)

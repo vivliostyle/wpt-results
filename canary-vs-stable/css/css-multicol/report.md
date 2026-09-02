@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 468
-- Entries with differences: 99 (pending: 99, triaged: 0)
+- Entries with differences: 99 (improvement: 1, pending: 98, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":368,"known-fail":99,"unchanged":1}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":368,"known-fail":98,"improvement":1,"unchanged":1}
 
 ## Differences
 
@@ -219,13 +219,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0071] [WPT reftest] css/css-multicol/column-pseudo-background-color.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-multicol/column-pseudo-background-color-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-pseudo-background-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0000727520799938936, diffPixels=61
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-pseudo-background-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-pseudo-background-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0000727520799938936, diffPixels=61
